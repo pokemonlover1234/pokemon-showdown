@@ -46,16 +46,16 @@ exports.wsdeflate = {
  */
 exports.ssl = null;
 
-/*
+
 // example:
-exports.ssl = {
-	port: 443,
-	options: {
-		key: './config/ssl/privkey.pem',
-		cert: './config/ssl/fullchain.pem',
-	},
-};
-*/
+// exports.ssl = {
+// 	port: 443,
+// 	options: {
+// 		key: './config/ssl/privkey.pem',
+// 		cert: './config/ssl/fullchain.pem',
+// 	},
+// };
+
 
 /*
 Main's SSL deploy script from Let's Encrypt looks like:
@@ -73,7 +73,7 @@ Main's SSL deploy script from Let's Encrypt looks like:
  *   know what you are doing
  * @type {false | string[]}.
  */
-exports.proxyip = false;
+exports.proxyip = ["127.0.0.1"];
 
 // subprocesses - the number of child processes to use for various tasks.
 //   Can be set to `0` instead of `{...}` to stop using subprocesses, if you're running out of RAM.
@@ -294,7 +294,7 @@ exports.monitorminpunishments = 3;
 /**
  * Turns off all time-based throttles - rename, challenges, laddering, etc.
  */
-exports.nothrottle = false;
+exports.nothrottle = true;
 
 /**
  * Removes all ip-based alt checking.
@@ -415,12 +415,12 @@ exports.watchconfig = true;
 /**
  * logchat - whether to log chat rooms.
  */
-exports.logchat = false;
+exports.logchat = true;
 
 /**
  * logchallenges - whether to log challenge battles. Useful for tournament servers.
  */
-exports.logchallenges = false;
+exports.logchallenges = true;
 
 /**
  * loguserstats - how often (in milliseconds) to write user stats to the
@@ -478,10 +478,10 @@ exports.appealurl = '';
  * replsocketprefix - the prefix for the repl sockets to be listening on
  * replsocketmode - the file mode bits to use for the repl sockets
  */
-exports.repl = true;
+exports.repl = false;
 exports.replsocketprefix = './logs/repl/';
 exports.replsocketmode = 0o600;
-
+exports.nofswriting = true ;
 /**
  * disablehotpatchall - disables `/hotpatch all`. Generally speaking, there's a
  * pretty big need for /hotpatch all - convenience. The only advantage any hotpatch
@@ -518,7 +518,7 @@ exports.lastfmkey = '';
 exports.chatlogreader = 'fs';
 /**
  * permissions and groups:
- *   Each entry in `grouplist` is a separate group. Some of the members are "special"
+ *   Each entry in `grouplist` is a seperate group. Some of the members are "special"
  *     while the rest is just a normal permission.
  *   The order of the groups determines their ranking.
  *   The special members are as follows:
