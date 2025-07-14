@@ -10,7 +10,7 @@ CREATE TABLE public.roomlogs (
 	INDEX rename_idx (roomid)
 );
 -- computed columns have to be added after apparently
-ALTER TABLE roomlogs ADD COLUMN content TSVECTOR AS (to_tsvector('english', log)) STORED;
+ALTER TABLE roomlogs ADD COLUMN content TSVECTOR GENERATED ALWAYS AS (to_tsvector('english', log)) STORED;
 
 CREATE TABLE public.roomlog_dates (
 	roomid STRING NOT NULL,
