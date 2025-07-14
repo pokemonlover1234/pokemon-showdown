@@ -3,7 +3,7 @@ CREATE TABLE public.roomlogs (
 	roomid text NOT NULL,
 	userid text NULL,
 	time TIMESTAMP(6) NOT NULL,
-	log text NOT NULL,
+	log text NOT NULL
 );
 
 CREATE INDEX linecount ON roomlogs(userid, roomid, time);
