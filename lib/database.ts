@@ -270,13 +270,13 @@ export class DatabaseTable<Row, DB extends Database> {
 	deleteOne():
 	(strings: TemplateStringsArray, ...rest: SQLValue[]) => Promise<OkPacketOf<DB>> {
 		return (strings, ...rest) =>
-			this.queryExec()`DELETE FROM "${this.name}" ${new SQLStatement(strings, rest)} LIMIT 1`;
+			this.queryExec()`DELETE FROM "${this.name}" ${new SQLStatement(strings, rest)}`;
 	}
 	eval<T>():
 	(strings: TemplateStringsArray, ...rest: SQLValue[]) => Promise<T | undefined> {
 		return (strings, ...rest) =>
 			this.queryOne<{ result: T }>(
-			)`SELECT ${new SQLStatement(strings, rest)} AS result FROM "${this.name}" LIMIT 1`
+			)`SELECT ${new SQLStatement(strings, rest)} AS result FROM "${this.name}"`
 				.then(row => row?.result);
 	}
 
