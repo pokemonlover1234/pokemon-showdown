@@ -3,7 +3,7 @@ CREATE TABLE modlog (
     -- UNIX timestamp
     timestamp INTEGER NOT NULL,
     roomid TEXT NOT NULL,
-    is_global TINYINT(1) NOT NULL,
+    is_global SMALLINT NOT NULL,
     action TEXT NOT NULL,
     visual_roomid TEXT NOT NULL,
     note TEXT NOT NULL,
@@ -50,5 +50,3 @@ CREATE INDEX userid_index_2 ON modlog(roomid, autoconfirmed_userid, timestamp);
 CREATE INDEX ip_index ON modlog(roomid, ip, timestamp);
 CREATE INDEX note_index ON modlog(roomid, note, timestamp);
 CREATE INDEX action_taker_index ON modlog(roomid, action_taker_userid, timestamp);
-
-PRAGMA journal_mode=WAL;
