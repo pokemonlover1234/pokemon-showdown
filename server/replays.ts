@@ -111,9 +111,9 @@ export const Replays = new class {
 			}
 		} catch (e: any) {
 			Monitor.logPath("actualerror.txt").writeUpdate(() => {
-				e?.routine;
-			})
-			if (e?.routine !== '_bt_check_uniqueroot') throw e;
+				e?.code;
+			});
+			if (e?.code !== '23505') throw e;
 			await replays.update(replay.id, {
 				log: replayData.log,
 				inputlog: replayData.inputlog,
