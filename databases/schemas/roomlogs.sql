@@ -1,9 +1,9 @@
 CREATE TABLE public.roomlogs (
-	type STRING NOT NULL,
-	roomid STRING NOT NULL,
-	userid STRING NULL,
+	type text NOT NULL,
+	roomid text NOT NULL,
+	userid text NULL,
 	time TIMESTAMP(6) NOT NULL,
-	log STRING NOT NULL,
+	log text NOT NULL,
 	INDEX linecount (userid, roomid, time),
 	INDEX month (roomid, time),
 	INDEX type (roomid, type, time),
@@ -13,10 +13,10 @@ CREATE TABLE public.roomlogs (
 ALTER TABLE roomlogs ADD COLUMN content TSVECTOR GENERATED ALWAYS AS (to_tsvector('english', log)) STORED;
 
 CREATE TABLE public.roomlog_dates (
-	roomid STRING NOT NULL,
+	roomid text NOT NULL,
 	-- YYYY-MM
-	month STRING NOT NULL,
+	month text NOT NULL,
 	-- YYYY-MM-DD
-	date STRING NOT NULL,
+	date text NOT NULL,
 	PRIMARY KEY (roomid, date)
 );
