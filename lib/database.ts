@@ -254,7 +254,7 @@ export class DatabaseTable<Row, DB extends Database> {
 	updateOne(partialRow: PartialOrSQL<Row>):
 	(strings: TemplateStringsArray, ...rest: SQLValue[]) => Promise<OkPacketOf<DB>> {
 		return (s, ...r) =>
-			this.queryExec()`UPDATE "${this.name}" SET ${partialRow as any} ${new SQLStatement(s, r)} LIMIT 1`;
+			this.queryExec()`UPDATE "${this.name}" SET ${partialRow as any} ${new SQLStatement(s, r)}`;
 	}
 	deleteAll():
 	(strings: TemplateStringsArray, ...rest: SQLValue[]) => Promise<OkPacketOf<DB>> {
@@ -264,13 +264,13 @@ export class DatabaseTable<Row, DB extends Database> {
 	deleteOne():
 	(strings: TemplateStringsArray, ...rest: SQLValue[]) => Promise<OkPacketOf<DB>> {
 		return (strings, ...rest) =>
-			this.queryExec()`DELETE FROM "${this.name}" ${new SQLStatement(strings, rest)} LIMIT 1`;
+			this.queryExec()`DELETE FROM "${this.name}" ${new SQLStatement(strings, rest)}`;
 	}
 	eval<T>():
 	(strings: TemplateStringsArray, ...rest: SQLValue[]) => Promise<T | undefined> {
 		return (strings, ...rest) =>
 			this.queryOne<{ result: T }>(
-			)`SELECT ${new SQLStatement(strings, rest)} AS result FROM "${this.name}" LIMIT 1`
+			)`SELECT ${new SQLStatement(strings, rest)} AS result FROM "${this.name}"`
 				.then(row => row?.result);
 	}
 
@@ -315,11 +315,11 @@ export class DatabaseTable<Row, DB extends Database> {
 	}
 	delete(primaryKey: BasicSQLValue) {
 		if (!this.primaryKeyName) throw new Error(`Cannot delete() without a single-column primary key`);
-		return this.deleteAll()`WHERE "${this.primaryKeyName}" = ${primaryKey} LIMIT 1`;
+		return this.deleteAll()`WHERE "${this.primaryKeyName}" = ${primaryKey}`;
 	}
 	update(primaryKey: BasicSQLValue, data: PartialOrSQL<Row>) {
 		if (!this.primaryKeyName) throw new Error(`Cannot update() without a single-column primary key`);
-		return this.updateAll(data)`WHERE "${this.primaryKeyName}" = ${primaryKey} LIMIT 1`;
+		return this.updateAll(data)`WHERE "${this.primaryKeyName}" = ${primaryKey}`;
 	}
 }
 
