@@ -111,7 +111,7 @@ export const Replays = new class {
 			}
 		} catch (e: any) {
 			Monitor.logPath("actualerror.txt").writeUpdate(() => {
-				e?.code;
+				return e?.code;
 			});
 			if (e?.code !== '23505') throw e;
 			await replays.update(replay.id, {
