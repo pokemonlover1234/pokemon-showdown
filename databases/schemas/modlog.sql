@@ -18,7 +18,7 @@ CREATE TABLE alts (
     userid TEXT NOT NULL,
     PRIMARY KEY (modlog_id, userid),
     FOREIGN KEY (modlog_id) REFERENCES modlog(modlog_id)
-) WITHOUT ROWID;
+);
 
 CREATE TABLE db_info (
     key TEXT NOT NULL,
