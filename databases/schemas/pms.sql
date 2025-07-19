@@ -4,7 +4,7 @@ CREATE TABLE offline_pms (
 	time INTEGER NOT NULL,
 	message TEXT NOT NULL,
 	-- Has the user seen these pms? If so, set to the current date, delete within X hours (currently, 48 hours).
-	seen NUMBER
+	seen integer
 );
 
 CREATE TABLE pm_settings (
