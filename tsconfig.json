@@ -17,7 +17,8 @@
         "allowUnreachableCode": false,
         "esModuleInterop": true,
         "noImplicitOverride": true,
-        "useDefineForClassFields": false
+        "useDefineForClassFields": false,
+        "resolveJsonModule": true,
     },
     "types": ["node"],
     "exclude": [
