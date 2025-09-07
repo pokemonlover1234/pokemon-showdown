@@ -4744,7 +4744,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	synchronize: {
 		onAfterSetStatus(status, target, source, effect) {
 			if (!source || source === target) return;
-			if (effect && effect.id === 'toxicspikes') return;
+			if (effect && effect.id === 'toxicspikes' || effect.id === 'toxicwebs') return;
 			if (status.id === 'slp' || status.id === 'frz') return;
 			this.add('-activate', target, 'ability: Synchronize');
 			// Hack to make status-prevention abilities think Synchronize is a status move
@@ -5627,4 +5627,272 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -3,
 	},
+	milaciouslaugh: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Milacious Laugh",
+		rating: 3,
+		desc: "On switch-in, this Pokemon lowers the Attack and Special Attack of opponents by 1 stage.",
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Milacious Laugh', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({ atk: -1, spa: -1 }, target, pokemon, null, true);
+				}
+			}
+		},
+	},
+	relentlessedge: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Relentless Edge",
+		rating: 3.5,
+		desc: "If the target is affected by a status condition, Hisuian Samurott's contact moves deal 1.3x damage, and apply no recoil or drawback effects (Life Orb recoil, self stat drops.",
+		onBasePowerPriority: 21,
+		onModifyMove(move, pokemon, target){
+			if(pokemon.status && target != null && this.checkMoveMakesContact(move, pokemon, target)) {
+				delete move.secondaries;
+				delete move.self;
+				move.hasSheerForce = true;
+			}
+		},
+		onBasePower(basePower, pokemon, target, move){
+			if (move.hasSheerForce) return this.chainModify([5325,4096]);
+		},
+	},
+	spectralpierce: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Spectral Pierce",
+		rating: 2,
+		desc: "Hisuian Typhlosion's Ghost type attacks ignore Protect, Detect, Substitute, etc.",
+		onModifyMove(move){
+			if(move.type === "Ghost") delete move.flags["protect"];
+		}
+	},
+	volcanicsurge: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Volcanic Surge",
+		rating: 3,
+		desc: "When Typholsion uses a Fire type move, the power of it's next special attack (Any type) is boosted by 30%.The boost resets after the next special attack.",
+		condition: {
+			onStart(pokemon, source, effect) {
+				this.add('-start', pokemon, 'Volcanic Surge');
+				
+			},
+			onRestart(pokemon, source, effect) {
+				this.add('-start', pokemon, 'Volcanic Surge');
+			},
+			onBasePowerPriority: 9,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.category === 'Special') {
+					return this.chainModify([5325, 4096]);
+				}
+			},
+			onMoveAborted(pokemon, target, move) {
+				if (move.category === 'Special') {
+					pokemon.removeVolatile('charge');
+				}
+			},
+			onAfterMove(pokemon, target, move) {
+				if (move.category === 'Special') {
+					pokemon.removeVolatile('charge');
+				}
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Volcanic Surge', '[silent]');
+			},
+		},
+		onModifyMove(move, pokemon){
+			if (move.type == "Fire" && !pokemon.volatiles['volcanicsurge'])[
+				pokemon.addVolatile("volcanicsurge", pokemon)
+			]
+		}
+	},
+	toxicwebs: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Toxic Webs",
+		rating: 3,
+		desc: "On switch-in, this Pokemon summons Toxic Sticky Webs.",
+		condition: {
+			onSideStart(side) {
+				this.add('-sidestart', side, 'ability: Toxic Webs');
+				this.effectState.layers = 1;
+			},
+			onSideRestart(side) {
+				if (this.effectState.layers >= 2) return false;
+				this.add('-sidestart', side, 'ability: Toxic Webs');
+				this.effectState.layers++;
+			},
+			onSwitchIn(pokemon){
+				if (!pokemon.isGrounded()) return;
+				if (!pokemon.hasItem('heavydutyboots')){
+					this.add('-activate', pokemon, 'ability: Toxic Webs');
+					this.boost({ spe: -1 }, pokemon, pokemon.side.foe.active[0], this.dex.abilities.get('toxicwebs'));
+				}
+				if (pokemon.hasType('Poison')) {
+					this.add('-sideend', pokemon.side, 'ability: Toxic Webs', `[of] ${pokemon}`);
+					pokemon.side.removeSideCondition('toxicspikes');
+					pokemon.side.addSideCondition('stickyweb');
+				} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots')) {
+					// do nothing
+				} else if (this.effectState.layers >= 2) {
+					pokemon.trySetStatus('tox', pokemon.side.foe.active[0]);
+				} else {
+					pokemon.trySetStatus('psn', pokemon.side.foe.active[0]);
+				}
+			}
+		},
+		onStart(source) {
+			source.side.addSideCondition("toxicwebs", source);
+		}
+	},
+	toxicbarbs: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Toxic Barbs",
+		rating: 3,
+		desc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP & 40% chance will be poisoned.",
+		onDamagingHit(damage, target, source, move) {
+			this.damage(source.baseMaxhp / 8, source, target);
+			if (this.checkMoveMakesContact(move, source, target)) {
+				if (this.randomChance(4, 10)) {
+					source.trySetStatus('psn', target);
+				}
+			}
+		}
+	},
+	imperialrule: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Imperial Rule",
+		rating: 3,
+		desc: "On switch-in, this Pokemon lowers the Attack and Speed of opponents by 1 stage.",
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Imperial Rule', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({ atk: -1, spe: -1 }, target, pokemon, null, true);
+				}
+			}
+		},
+	},
+	bushido: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Bushido",
+		rating: 3,
+		desc: "Samurott’s first damaging move each time it enters the field always scores a critical hit if it targets an opponent who has not yet moved that turn.",
+		condition: {
+			onStart(pokemon, source, effect) {
+				this.add('-start', pokemon, 'Bushido');
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Bushido', '[silent]');
+			},
+			onModifyMove(move, pokemon) {
+				if(move.basePower > 0){
+					move.willCrit = true;
+					pokemon.removeVolatile("bushido");
+				}
+			}	
+		},
+		onStart(pokemon) {
+			pokemon.addVolatile("bushido", pokemon);
+		}
+	},
+	housekeeping: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Housekeeping",
+		rating: 3,
+		desc: "On switch-in, this Pokemon removes all hazards",
+		onStart(pokemon) {
+			const remove = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb'];
+			for (const side of this.sides) {
+				for (const condition of remove)
+					if (side.removeSideCondition(condition)) {
+						this.add('-sideend', side, this.dex.conditions.get(condition).name, '[from] ability: Housekeeping', `[of] ${pokemon}`);
+					}
+			}
+		}
+	},
+	innerflame: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Inner Flame",
+		rating: 3,
+		desc: "This Pokemon's always uses the highest attack stat when using Fire type attacks and Fire type attacks have 1.2x power.",
+		onBasePower(basePower, pokemon, defender, move ){
+			if(move.type === "Fire"){
+				return this.chainModify(1.2)
+			}
+		},
+		onModifyAtk(atk, pokemon, target, move){
+			if(pokemon.baseStoredStats.atk >= pokemon.baseStoredStats.spa) return;
+			return this.chainModify([pokemon.baseStoredStats.spa, pokemon.baseStoredStats.atk]);
+		},
+		onModifySpA(atk, pokemon, target, move){
+			if(pokemon.baseStoredStats.spa >= pokemon.baseStoredStats.atk) return;
+			return this.chainModify([pokemon.baseStoredStats.atk, pokemon.baseStoredStats.spa]);
+		}
+	},
+	treeoflife: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Tree Of Life",
+		rating: 3,
+		desc: "Grass and Ground moves used by this Pokemon recovers 10% of damage dealt, if Grassy Terrain is active recovers 20% of damage dealt.",
+		onModifyMove(move, pokemon, target){
+			if(move.type !== "Grass" && move.type !== "Ground") return;
+			const restore = this.field.isTerrain("grassyterrain") ? 2 : 1;
+			move.flags['heal'] = 1;
+			move.drain = [restore, 10];
+		}
+	},
+	shadowveil: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Shadow Veil",
+		rating: 3,
+		desc: "On switch-in, this Pokemon summons Midnight Hour. [NOT IMPLEMENTED]"
+	},
+	resilientcore: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Resilient Core",
+		rating: 3,
+		desc: "Fighting-type moves deal neutral damage to this Pokémon, regardless of its typing. This Pokémon also cannot flinch.",
+		onFlinch() {
+			return false;
+		},
+		onEffectiveness(typemod, target, type, move){
+			if(!target) return;
+			if(type == "Fighting") return 0;
+		}
+	},
+	cranestyle: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Crane Style",
+		rating: 3,
+		desc: "This Pokemon's kick-based attacks have 1.2x power. Triple Axel is boosted.",
+		onBasePower(basePower, source, target, move){
+			if(move.flags["kick"]) return this.chainModify(1.2);
+		}
+	}
 };
