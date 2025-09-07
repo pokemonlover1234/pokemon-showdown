@@ -4378,6 +4378,48 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 
+	// Ionite Metas
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Ionite Metagames",
+		column: 4,
+	},
+	{
+		name: "Pseudo Level",
+		mod: "pseudolevel",
+		ruleset: ["Standard"]
+	},
+
+	// RoA Spotlight
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "RoA Spotlight",
+		column: 4,
+	},
+	{
+		name: "[Gen 6] UU",
+		mod: 'gen6',
+		// searchShow: false,
+		ruleset: ['[Gen 6] OU'],
+		banlist: ['OU', 'UUBL', 'Drizzle', 'Drought'],
+	},
+	{
+		name: "[Gen 3] NU",
+		mod: 'gen3',
+		// searchShow: false,
+		ruleset: ['Standard'],
+		banlist: ['Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'Smeargle + Ingrain'],
+	},
+	{
+		name: "[Gen 7] RU",
+		mod: 'gen7',
+		// searchShow: false,
+		ruleset: ['[Gen 7] UU'],
+		banlist: ['UU', 'RUBL', 'Mimikyu', 'Aurora Veil'],
+		unbanlist: ['Drought'],
+	},
+
 	// Past Gens OU
 	///////////////////////////////////////////////////////////////////
 
