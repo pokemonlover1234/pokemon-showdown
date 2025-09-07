@@ -936,7 +936,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Axe Kick",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		hasCrashDamage: true,
 		onMoveFail(target, source, move) {
 			this.damage(source.baseMaxhp / 2, source, source, this.dex.conditions.get('High Jump Kick'));
@@ -1435,7 +1435,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Blaze Kick",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		critRatio: 2,
 		secondary: {
 			chance: 10,
@@ -3039,7 +3039,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { mirror: 1, metronome: 1 },
 		onHitField(target, source) {
 			const sideConditions = [
-				'mist', 'lightscreen', 'reflect', 'spikes', 'safeguard', 'tailwind', 'toxicspikes', 'stealthrock', 'waterpledge', 'firepledge', 'grasspledge', 'stickyweb', 'auroraveil', 'luckychant', 'gmaxsteelsurge', 'gmaxcannonade', 'gmaxvinelash', 'gmaxwildfire', 'gmaxvolcalith',
+				'mist', 'lightscreen', 'reflect', 'spikes', 'safeguard', 'tailwind', 'toxicwebs', 'toxicspikes', 'stealthrock', 'waterpledge', 'firepledge', 'grasspledge', 'stickyweb', 'auroraveil', 'luckychant', 'gmaxsteelsurge', 'gmaxcannonade', 'gmaxvinelash', 'gmaxwildfire', 'gmaxvolcalith',
 			];
 			let success = false;
 			if (this.gameType === "freeforall") {
@@ -3456,7 +3456,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onHit(target, source, move) {
 			let success = false;
 			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({ evasion: -1 });
-			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const removeAll = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 			const removeTarget = ['reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', ...removeAll];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
@@ -3935,7 +3935,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Double Kick",
 		pp: 30,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		multihit: 2,
 		target: "normal",
 		type: "Fighting",
@@ -7511,7 +7511,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		self: {
 			onHit(source) {
 				let success = false;
-				const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				const removeAll = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 				const removeTarget = ['reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', ...removeAll];
 				for (const targetCondition of removeTarget) {
 					if (source.side.foe.removeSideCondition(targetCondition)) {
@@ -8905,7 +8905,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "High Jump Kick",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1, kick: 1 },
 		hasCrashDamage: true,
 		onMoveFail(target, source, move) {
 			this.damage(source.baseMaxhp / 2, source, source, this.dex.conditions.get('High Jump Kick'));
@@ -9846,7 +9846,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Jump Kick",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1, kick: 1 },
 		hasCrashDamage: true,
 		onMoveFail(target, source, move) {
 			this.damage(source.baseMaxhp / 2, source, source, this.dex.conditions.get('Jump Kick'));
@@ -10467,7 +10467,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Low Kick",
 		pp: 20,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		onTryHit(target, pokemon, move) {
 			if (target.volatiles['dynamax']) {
 				this.add('-fail', pokemon, 'Dynamax');
@@ -11600,7 +11600,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Mega Kick",
 		pp: 5,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
+		secondary: null,
 		target: "normal",
 		type: "Normal",
 		contestType: "Cool",
@@ -12331,7 +12332,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				if (pokemon.removeVolatile('leechseed')) {
 					this.add('-end', pokemon, 'Leech Seed', '[from] move: Mortal Spin', `[of] ${pokemon}`);
 				}
-				const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				const sideConditions = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 				for (const condition of sideConditions) {
 					if (pokemon.side.removeSideCondition(condition)) {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Mortal Spin', `[of] ${pokemon}`);
@@ -12347,7 +12348,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 					this.add('-end', pokemon, 'Leech Seed', '[from] move: Mortal Spin', `[of] ${pokemon}`);
 				}
-				const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				const sideConditions = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 				for (const condition of sideConditions) {
 					if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Mortal Spin', `[of] ${pokemon}`);
@@ -14711,7 +14712,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				if (pokemon.removeVolatile('leechseed')) {
 					this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', `[of] ${pokemon}`);
 				}
-				const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				const sideConditions = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 				for (const condition of sideConditions) {
 					if (pokemon.side.removeSideCondition(condition)) {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Rapid Spin', `[of] ${pokemon}`);
@@ -14727,7 +14728,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 					this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', `[of] ${pokemon}`);
 				}
-				const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				const sideConditions = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 				for (const condition of sideConditions) {
 					if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Rapid Spin', `[of] ${pokemon}`);
@@ -15357,7 +15358,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Rolling Kick",
 		pp: 15,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		secondary: {
 			chance: 30,
 			volatileStatus: 'flinch',
@@ -19554,7 +19555,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Thunderous Kick",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, kick: 1 },
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -19646,7 +19647,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			for (const active of this.getAllActive()) {
 				if (active.removeVolatile('substitute')) success = true;
 			}
-			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const removeAll = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 			const sides = [pokemon.side, ...pokemon.side.foeSidesWithConditions()];
 			for (const side of sides) {
 				for (const sideCondition of removeAll) {
@@ -20025,7 +20026,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Triple Axel",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		multihit: 3,
 		multiaccuracy: true,
 		target: "normal",
@@ -20057,7 +20058,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Triple Kick",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		multihit: 3,
 		multiaccuracy: true,
 		target: "normal",
@@ -20074,7 +20075,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Trop Kick",
 		pp: 15,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -21312,4 +21313,23 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Beautiful",
 	},
+	radiantreckoning: {
+		accuracy: 100,
+		basePower: 110,
+		category: "Physical",
+		isNonstandard: "Custom",
+		name: "Radiant Reckoning",
+		pp: 8,
+		priority: 0,
+		flags: { metronome: 1, mirror: 1, protect: 1, contact: 1 },
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+			}
+		},
+		target: 'normal',
+		type: "Fairy",
+		contestType: "Beautiful",
+	}
 };
