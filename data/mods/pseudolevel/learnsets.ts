@@ -2,7 +2,7 @@ let gennedTable = {};
 import data from "./data.json";
 import { Learnsets as VanillaSets } from "../../learnsets";
 
-for(const pokemon in data){
+for(const pokemon in Object.keys(data)){
 	const values = data[pokemon as keyof typeof data];
 	const newLearnset = JSON.parse(JSON.stringify(VanillaSets[pokemon as keyof typeof VanillaSets].learnset));
 
