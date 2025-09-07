@@ -18,7 +18,8 @@
         "allowUnreachableCode": false,
         "esModuleInterop": true,
         "noImplicitOverride": true,
-        "useDefineForClassFields": false
+        "useDefineForClassFields": false,
+        "resolveJsonModule": true,
     },
     "exclude": [
         "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts",

@@ -9,6 +9,8 @@ interface SpeciesAbility {
 	S?: string;
 }
 
+type SpeciesTag = "Mythical" | "Restricted Legendary" | "Sub-Legendary" | "Ultra Beast" | "Paradox" | "Ionite - Restricted";
+
 export interface SpeciesData extends Partial<Species> {
 	name: string;
 	/** National Dex number */

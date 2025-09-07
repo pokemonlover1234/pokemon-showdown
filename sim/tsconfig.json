@@ -13,7 +13,8 @@
 			"allowJs": true,
 			"checkJs": true,
 			"incremental": true,
-			"allowUnreachableCode": false
+			"allowUnreachableCode": false,
+			"allowImportingTsExtensions": true,
 	},
 	"include": [
 			"./global-types.ts",
