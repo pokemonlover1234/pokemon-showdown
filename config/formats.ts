@@ -3620,6 +3620,18 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 
+	// Ionite Metas
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Ionite Metagames",
+		column: 4,
+	},
+	{
+		name: "Pseudo Level",
+		mod: "pseudolevel",
+		ruleset: ["Standard"]
+	},
+
 	// RoA Spotlight
 	///////////////////////////////////////////////////////////////////
 
