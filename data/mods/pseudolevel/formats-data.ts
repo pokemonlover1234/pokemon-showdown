@@ -1,8 +1,8 @@
 import data from "./data.json";
 import { FormatsData as VanillaData } from "../../formats-data";
-let gennedTable: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = JSON.parse(JSON.stringify(VanillaData));
+let gennedTable = JSON.parse(JSON.stringify(VanillaData));
 
-for(const pokemon in gennedTable){
+for(const pokemon in Object.keys(gennedTable)){
 	if(pokemon in data){
 		gennedTable[pokemon as keyof typeof gennedTable] = {
 			inherit: true,
