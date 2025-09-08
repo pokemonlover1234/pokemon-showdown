@@ -3,17 +3,21 @@ import data from "./data.json";
 import { Pokedex as VanillaDex } from "../../pokedex";
 
 for(const pokemon of Object.keys(data)){
-	const values = data[pokemon as keyof typeof data];
-	let newTags = VanillaDex[pokemon as keyof typeof VanillaDex].tags ?? [];
-	if(values.restricted){
-		newTags.push("Ionite - Restricted");
-	}
-	(gennedTable as any)[pokemon] = {
-		inherit: true,
-		types: values.types,
-		abilities: values.abilities,
-		baseStats: values.baseStats,
-		tags: newTags
+	try {
+		const values = data[pokemon as keyof typeof data];
+		let newTags = VanillaDex[pokemon as keyof typeof VanillaDex].tags ?? [];
+		if(values.restricted){
+			newTags.push("Ionite - Restricted");
+		}
+		(gennedTable as any)[pokemon] = {
+			inherit: true,
+			types: values.types,
+			abilities: values.abilities,
+			baseStats: values.baseStats,
+			tags: newTags
+		}
+	} catch (err) {
+		console.log("Unknown Pokemon: "+pokemon);
 	}
 }
 
