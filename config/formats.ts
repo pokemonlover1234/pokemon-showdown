@@ -4715,7 +4715,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 	{
 		section: "Ionite Metagames",
-		column: 4,
+		column: 3,
 	},
 	{
 		name: "Pseudo Level",
