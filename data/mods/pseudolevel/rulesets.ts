@@ -1,9 +1,4 @@
 export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable = {
-    standard: {
-        effectType: 'ValidatorRule',
-        name: "Standard",
-        ruleset: ["Metagame One Restricted Mon", "Sleep Clause Mod"]
-    },
     onerestrictmon: {
         effectType: 'Rule',
         name: "Metagame One Restricted Mon",
@@ -18,6 +13,11 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
                 }
             }
         }
-    }
+    },
+        standard: {
+        effectType: 'ValidatorRule',
+        name: "Standard",
+        ruleset: ["Metagame One Restricted Mon", "Sleep Clause Mod"]
+    },
 
 }
