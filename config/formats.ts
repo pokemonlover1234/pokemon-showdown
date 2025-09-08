@@ -4719,7 +4719,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "Pseudo Level",
-		mod: "pseudolevel",
+		mod: "gen9pseudolevel",
 		ruleset: ["Standard"]
 	},
 
