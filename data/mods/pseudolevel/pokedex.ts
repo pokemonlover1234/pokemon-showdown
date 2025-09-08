@@ -21,6 +21,8 @@ for(const pokemon of Object.keys(data)){
 	}
 }
 
+console.log(gennedTable["mightyena"]);
+
 export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = gennedTable;
 //{
 // 	shiftry: {
