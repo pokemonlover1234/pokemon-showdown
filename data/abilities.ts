@@ -5752,7 +5752,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onStart(source) {
-			source.side.addSideCondition("toxicwebs", source);
+			for(const side of this.sides){
+				if(side.active && side.id != source.side.id){
+					side.addSideCondition("toxicwebs");
+				}
+			}
 		}
 	},
 	toxicbarbs: {
