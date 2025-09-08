@@ -1,20 +1,26 @@
 let gennedTable = {};
 import data from "./data.json";
 import { Learnsets as VanillaSets } from "../../learnsets";
+import { loginserver } from "../../../config/config-example";
+import { ChatRoom } from "../../../server/rooms";
 
 for(const pokemon of Object.keys(data)){
-	const values = data[pokemon as keyof typeof data];
-	const newLearnset = JSON.parse(JSON.stringify(VanillaSets[pokemon as keyof typeof VanillaSets].learnset));
+	try {
+		const values = data[pokemon as keyof typeof data];
+		const newLearnset = JSON.parse(JSON.stringify(VanillaSets[pokemon as keyof typeof VanillaSets].learnset));
 
-	for(const move in values.addmoves){
-		(newLearnset as any)[move] = ["1L1"];
-	}
-	for(const move in values.rmmoves){
-		delete (newLearnset as any)[move];
-	}
-	(gennedTable as any)[pokemon] = {
-		inherit: true,
-		learnsets: newLearnset
+		for(const move in values.addmoves){
+			(newLearnset as any)[move] = ["1L1"];
+		}
+		for(const move in values.rmmoves){
+			delete (newLearnset as any)[move];
+		}
+		(gennedTable as any)[pokemon] = {
+			inherit: true,
+			learnsets: newLearnset
+		}
+	} catch (err) {
+		console.log("Unknown Pokemon: "+pokemon);
 	}
 }
 
