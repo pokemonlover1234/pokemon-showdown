@@ -5735,7 +5735,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			onSwitchIn(pokemon){
 				if (!pokemon.isGrounded()) return;
 				if (!pokemon.hasItem('heavydutyboots')){
-					this.add('-activate', pokemon, 'ability: Toxic Webs');
 					this.boost({ spe: -1 }, pokemon, pokemon.side.foe.active[0], this.dex.abilities.get('toxicwebs'));
 				}
 				if (pokemon.hasType('Poison')) {
@@ -5745,9 +5744,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots')) {
 					// do nothing
 				} else if (this.effectState.layers >= 2) {
-					pokemon.trySetStatus('tox', pokemon.side.foe.active[0]);
+					pokemon.trySetStatus('tox', pokemon.side.foe.active[0], this.dex.abilities.get('toxicwebs'));
 				} else {
-					pokemon.trySetStatus('psn', pokemon.side.foe.active[0]);
+					pokemon.trySetStatus('psn', pokemon.side.foe.active[0], this.dex.abilities.get('toxicwebs'));
 				}
 			}
 		},
@@ -5886,7 +5885,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		onEffectiveness(typemod, target, type, move){
 			if(!target) return;
-			if(type == "Fighting") return 0;
+			if(move.type == "Fighting") return 0;
 		}
 	},
 	cranestyle: {
