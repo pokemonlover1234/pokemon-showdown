@@ -20502,6 +20502,16 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		condition: {
 			// this is a side condition
 			onSideStart(side) {
+				const toxicwebs = side.sideConditions["toxicwebs"]; 
+				if(toxicwebs) {
+					side.removeSideCondition("toxicspikes");
+					if(toxicwebs.layers >= 2){
+						return;
+					}
+					this.add('-sidestart', side, 'move: Toxic Spikes');
+					toxicwebs.layers++;
+					return;
+				}
 				this.add('-sidestart', side, 'move: Toxic Spikes');
 				this.effectState.layers = 1;
 			},

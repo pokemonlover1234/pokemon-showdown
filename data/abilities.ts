@@ -5725,7 +5725,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		condition: {
 			onSideStart(side) {
 				this.add('-sidestart', side, 'ability: Toxic Webs');
-				this.effectState.layers = 1;
+				const spikesstate = side.sideConditions["toxicspikes"];
+				if(spikesstate) {
+					this.add("-sideend", side, 'move: Toxic Spikes', "[of] Ability: Toxic Webs");
+					const layers = spikesstate.layers;
+					if(layers >= 2){
+						this.effectState.layers = 2;
+					} else {
+						this.effectState.layers = layers + 1;
+					}
+					side.removeSideCondition("toxicspikes");
+				} else {
+					this.effectState.layers = 1;
+				}
 			},
 			onSideRestart(side) {
 				if (this.effectState.layers >= 2) return false;
