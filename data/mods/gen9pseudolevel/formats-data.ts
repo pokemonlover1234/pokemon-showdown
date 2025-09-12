@@ -20,7 +20,7 @@ for(const pokemon of Object.keys(gennedTable)){
 			}
 		}
 	} catch (err) {
-		console.log("Unknown Pokemon: "+pokemon);
+		console.log(pokemon + " Caused Error: " + err);
 	}
 }
 
