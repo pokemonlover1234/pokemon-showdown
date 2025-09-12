@@ -17,11 +17,9 @@ for(const pokemon of Object.keys(data)){
 			tags: newTags
 		}
 	} catch (err) {
-		console.log("Unknown Pokemon: "+pokemon);
+		console.log(pokemon + " Caused Error: " + err);
 	}
 }
-
-console.log(gennedTable["mightyena"]);
 
 export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = gennedTable;
 //{
