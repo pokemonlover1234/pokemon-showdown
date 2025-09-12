@@ -169,7 +169,7 @@
     ],
     "rmmoves": []
   },
-  "raticate-alola": {
+  "raticatealola": {
     "restricted": false,
     "types": [
       "Dark",
@@ -243,7 +243,7 @@
     ],
     "rmmoves": []
   },
-  "pikachu-starter": {
+  "pikachustarter": {
     "restricted": false,
     "types": [
       "Electric"
@@ -287,7 +287,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "raichu-alola": {
+  "raichualola": {
     "restricted": false,
     "types": [
       "Electric",
@@ -330,7 +330,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "sandslash-alola": {
+  "sandslashalola": {
     "restricted": false,
     "types": [
       "Ice",
@@ -444,7 +444,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "ninetales-alola": {
+  "ninetalesalola": {
     "restricted": false,
     "types": [
       "Ice",
@@ -538,7 +538,7 @@
       "shadowclaw",
       "poltergeist",
       "destinybond",
-      "will-o-wisp",
+      "willowisp",
       "shadowball",
       "phantomforce",
       "hex",
@@ -591,7 +591,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "dugtrio-alola": {
+  "dugtrioalola": {
     "restricted": false,
     "types": [
       "Ground",
@@ -639,7 +639,7 @@
     ],
     "rmmoves": []
   },
-  "persian-alola": {
+  "persianalola": {
     "restricted": false,
     "types": [
       "Dark"
@@ -707,7 +707,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "arcanine-hisui": {
+  "arcaninehisui": {
     "restricted": false,
     "types": [
       "Fire",
@@ -847,7 +847,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "muk-alola": {
+  "mukalola": {
     "restricted": false,
     "types": [
       "Poison",
@@ -987,7 +987,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "electrode-hisui": {
+  "electrodehisui": {
     "restricted": false,
     "types": [
       "Electric",
@@ -1031,7 +1031,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "exeggutor-alola": {
+  "exeggutoralola": {
     "restricted": false,
     "types": [
       "Grass",
@@ -1079,7 +1079,7 @@
     ],
     "rmmoves": []
   },
-  "marowak-alola": {
+  "marowakalola": {
     "restricted": false,
     "types": [
       "Fire",
@@ -1171,7 +1171,7 @@
     ],
     "rmmoves": []
   },
-  "weezing-galar": {
+  "weezinggalar": {
     "restricted": false,
     "types": [
       "Poison",
@@ -1393,7 +1393,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "tauros-paldeacombat": {
+  "taurospaldeacombat": {
     "restricted": false,
     "types": [
       "Fighting"
@@ -1414,7 +1414,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "tauros-paldeablaze": {
+  "taurospaldeablaze": {
     "restricted": false,
     "types": [
       "Fighting",
@@ -1436,7 +1436,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "tauros-paldeaaqua": {
+  "taurospaldeaaqua": {
     "restricted": false,
     "types": [
       "Fighting",
@@ -1523,7 +1523,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "eevee-starter": {
+  "eeveestarter": {
     "restricted": false,
     "types": [
       "Normal"
@@ -1566,7 +1566,7 @@
     },
     "addmoves": [
       "dazzlinggleam",
-      "freeze-dry",
+      "freezedry",
       "bouncybubble"
     ],
     "rmmoves": []
@@ -1744,7 +1744,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "articuno-galar": {
+  "articunogalar": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -1788,7 +1788,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "zapdos-galar": {
+  "zapdosgalar": {
     "restricted": false,
     "types": [
       "Fighting",
@@ -1832,7 +1832,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "moltres-galar": {
+  "moltresgalar": {
     "restricted": false,
     "types": [
       "Dark",
@@ -1942,7 +1942,7 @@
     ],
     "rmmoves": []
   },
-  "typhlosion-hisui": {
+  "typhlosionhisui": {
     "restricted": false,
     "types": [
       "Fire",
@@ -2404,7 +2404,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "slowking-galar": {
+  "slowkinggalar": {
     "restricted": false,
     "types": [
       "Poison",
@@ -2488,7 +2488,7 @@
       "spe": 55
     },
     "addmoves": [
-      "u-turn"
+      "uturn"
     ],
     "rmmoves": []
   },
@@ -4178,7 +4178,7 @@
     ],
     "rmmoves": []
   },
-  "castform-sunny": {
+  "castformsunny": {
     "restricted": false,
     "types": [
       "Fire"
@@ -4201,7 +4201,7 @@
     ],
     "rmmoves": []
   },
-  "castform-snowy": {
+  "castformsnowy": {
     "restricted": false,
     "types": [
       "Ice"
@@ -4224,7 +4224,7 @@
     ],
     "rmmoves": []
   },
-  "castform-rainy": {
+  "castformrainy": {
     "restricted": false,
     "types": [
       "Water"
@@ -4694,7 +4694,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "deoxys-attack": {
+  "deoxysattack": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -4716,7 +4716,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "deoxys-defense": {
+  "deoxysdefense": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -4738,7 +4738,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "deoxys-speed": {
+  "deoxysspeed": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -5017,7 +5017,7 @@
     ],
     "rmmoves": []
   },
-  "wormadam-sandy": {
+  "wormadamsandy": {
     "restricted": false,
     "types": [
       "Bug",
@@ -5044,7 +5044,7 @@
     ],
     "rmmoves": []
   },
-  "wormadam-trash": {
+  "wormadamtrash": {
     "restricted": false,
     "types": [
       "Bug",
@@ -5186,7 +5186,7 @@
     ],
     "rmmoves": []
   },
-  "cherrim-sunshine": {
+  "cherrimsunshine": {
     "restricted": false,
     "types": [
       "Grass"
@@ -6069,7 +6069,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "rotom-frost": {
+  "rotomfrost": {
     "restricted": false,
     "types": [
       "Electric",
@@ -6093,7 +6093,7 @@
     ],
     "rmmoves": []
   },
-  "rotom-heat": {
+  "rotomheat": {
     "restricted": false,
     "types": [
       "Electric",
@@ -6117,7 +6117,7 @@
     ],
     "rmmoves": []
   },
-  "rotom-mow": {
+  "rotommow": {
     "restricted": false,
     "types": [
       "Electric",
@@ -6141,7 +6141,7 @@
     ],
     "rmmoves": []
   },
-  "rotom-fan": {
+  "rotomfan": {
     "restricted": false,
     "types": [
       "Electric",
@@ -6163,7 +6163,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "rotom-wash": {
+  "rotomwash": {
     "restricted": false,
     "types": [
       "Electric",
@@ -6383,7 +6383,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "shaymin-sky": {
+  "shayminsky": {
     "restricted": false,
     "types": [
       "Grass",
@@ -6498,7 +6498,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "samurott-hisui": {
+  "samurotthisui": {
     "restricted": false,
     "types": [
       "Water",
@@ -7026,7 +7026,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "lilligant-hisui": {
+  "lilliganthisui": {
     "restricted": false,
     "types": [
       "Grass",
@@ -7115,7 +7115,7 @@
     ],
     "rmmoves": []
   },
-  "darmanitan-zen": {
+  "darmanitanzen": {
     "restricted": false,
     "types": [
       "Fire",
@@ -7141,7 +7141,7 @@
     ],
     "rmmoves": []
   },
-  "darmanitan-galar": {
+  "darmanitangalar": {
     "restricted": false,
     "types": [
       "Ice"
@@ -7164,7 +7164,7 @@
     ],
     "rmmoves": []
   },
-  "darmanitan-galarzen": {
+  "darmanitangalarzen": {
     "restricted": false,
     "types": [
       "Ice",
@@ -7398,7 +7398,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "zoroark-hisui": {
+  "zoroarkhisui": {
     "restricted": false,
     "types": [
       "Normal",
@@ -7923,7 +7923,7 @@
     ],
     "rmmoves": []
   },
-  "stunfisk-galar": {
+  "stunfiskgalar": {
     "restricted": false,
     "types": [
       "Ground",
@@ -8071,7 +8071,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "braviary-hisui": {
+  "braviaryhisui": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -8308,7 +8308,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "tornadus-therian": {
+  "tornadustherian": {
     "restricted": false,
     "types": [
       "Flying"
@@ -8353,7 +8353,7 @@
     ],
     "rmmoves": []
   },
-  "thundurus-therian": {
+  "thundurustherian": {
     "restricted": false,
     "types": [
       "Electric",
@@ -8401,7 +8401,7 @@
     ],
     "rmmoves": []
   },
-  "landorus-therian": {
+  "landorustherian": {
     "restricted": false,
     "types": [
       "Ground",
@@ -8449,7 +8449,7 @@
     ],
     "rmmoves": []
   },
-  "keldeo-resolute": {
+  "keldeoresolute": {
     "restricted": false,
     "types": [
       "Water",
@@ -8498,7 +8498,7 @@
     ],
     "rmmoves": []
   },
-  "meloetta-pirouette": {
+  "meloettapirouette": {
     "restricted": false,
     "types": [
       "Normal",
@@ -8711,7 +8711,7 @@
     ],
     "rmmoves": []
   },
-  "floette-eternal": {
+  "floetteeternal": {
     "restricted": false,
     "types": [
       "Fairy",
@@ -8849,7 +8849,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "meowstic-f": {
+  "meowsticf": {
     "restricted": false,
     "types": [
       "Psychic"
@@ -8895,7 +8895,7 @@
     ],
     "rmmoves": []
   },
-  "aegislash-blade": {
+  "aegislashblade": {
     "restricted": false,
     "types": [
       "Steel",
@@ -9103,7 +9103,7 @@
     "addmoves": [
       "terablast",
       "takedown",
-      "double-edge",
+      "doubleedge",
       "powergem"
     ],
     "rmmoves": []
@@ -9250,7 +9250,7 @@
     ],
     "rmmoves": []
   },
-  "goodra-hisui": {
+  "goodrahisui": {
     "restricted": false,
     "types": [
       "Steel",
@@ -9373,7 +9373,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "avalugg-hisui": {
+  "avalugghisui": {
     "restricted": false,
     "types": [
       "Ice",
@@ -9445,7 +9445,7 @@
     ],
     "rmmoves": []
   },
-  "zygarde-10": {
+  "zygarde10": {
     "restricted": false,
     "types": [
       "Dragon",
@@ -9511,7 +9511,7 @@
       "spe": 80
     },
     "addmoves": [
-      "will-o-wisp"
+      "willowisp"
     ],
     "rmmoves": []
   },
@@ -9559,7 +9559,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "decidueye-hisui": {
+  "decidueyehisui": {
     "restricted": false,
     "types": [
       "Grass",
@@ -9740,11 +9740,11 @@
       "overheat",
       "flareblitz",
       "bravebird",
-      "will-o-wisp"
+      "willowisp"
     ],
     "rmmoves": []
   },
-  "oricorio-pompom": {
+  "oricoriopompom": {
     "restricted": false,
     "types": [
       "Electric",
@@ -9772,7 +9772,7 @@
     ],
     "rmmoves": []
   },
-  "oricorio-pau": {
+  "oricoriopau": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -9800,7 +9800,7 @@
     ],
     "rmmoves": []
   },
-  "oricorio-sensu": {
+  "oricoriosensu": {
     "restricted": false,
     "types": [
       "Ghost",
@@ -9823,7 +9823,7 @@
       "shadowball",
       "hex",
       "bravebird",
-      "will-o-wisp",
+      "willowisp",
       "poltergeist"
     ],
     "rmmoves": []
@@ -9874,7 +9874,7 @@
     ],
     "rmmoves": []
   },
-  "lycanroc-midnight": {
+  "lycanrocmidnight": {
     "restricted": false,
     "types": [
       "Rock",
@@ -9901,7 +9901,7 @@
     ],
     "rmmoves": []
   },
-  "lycanroc-dusk": {
+  "lycanrocdusk": {
     "restricted": false,
     "types": [
       "Rock",
@@ -9946,7 +9946,7 @@
     ],
     "rmmoves": []
   },
-  "wishiwashi-school": {
+  "wishiwashischool": {
     "restricted": false,
     "types": [
       "Water"
@@ -10315,7 +10315,7 @@
     ],
     "rmmoves": []
   },
-  "minior-meteor": {
+  "miniormeteor": {
     "restricted": false,
     "types": [
       "Rock",
@@ -10851,7 +10851,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": "Soul-Heart",
+      "0": "SoulHeart",
       "1": "Magnet Pull",
       "H": "Analytic"
     },
@@ -11176,7 +11176,7 @@
       "partingshot",
       "snatch",
       "dazzlinggleam",
-      "u-turn",
+      "uturn",
       "shadowball",
       "hex",
       "terablast"
@@ -11273,7 +11273,7 @@
     "addmoves": [
       "volttackle",
       "extremespeed",
-      "u-turn",
+      "uturn",
       "flamethrower",
       "hypervoice",
       "terablast",
@@ -11339,9 +11339,9 @@
     "baseStats": {
       "hp": 115,
       "atk": 105,
-      "def": 110,
+      "def": 115,
       "spa": 120,
-      "spd": 105,
+      "spd": 100,
       "spe": 45
     },
     "addmoves": [],
@@ -11803,7 +11803,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "eiscue-noice": {
+  "eiscuenoice": {
     "restricted": false,
     "types": [
       "Ice"
@@ -11846,7 +11846,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "indeedee-f": {
+  "indeedeef": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -11908,7 +11908,10 @@
       "spd": 90,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "surf",
+      "powergem"
+    ],
     "rmmoves": []
   },
   "dracozolt": {
@@ -12051,7 +12054,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "urshifu-rapidstrike": {
+  "urshifurapidstrike": {
     "restricted": false,
     "types": [
       "Fighting",
@@ -12267,7 +12270,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "ursaluna-bloodmoon": {
+  "ursalunabloodmoon": {
     "restricted": false,
     "types": [
       "Ground",
@@ -12311,7 +12314,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "basculegion-f": {
+  "basculegionf": {
     "restricted": false,
     "types": [
       "Water",
@@ -12401,7 +12404,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "enamorus-therian": {
+  "enamorustherian": {
     "restricted": false,
     "types": [
       "Fairy",
@@ -12525,7 +12528,7 @@
     ],
     "rmmoves": []
   },
-  "oinkologne-f": {
+  "oinkolognef": {
     "restricted": false,
     "types": [
       "Normal",
@@ -12654,7 +12657,7 @@
     "abilities": {
       "0": "Aroma Veil",
       "1": "Fluffy",
-      "H": "Well-Baked Body"
+      "H": "WellBaked Body"
     },
     "baseStats": {
       "hp": 77,
@@ -13103,7 +13106,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "palafin-hero": {
+  "palafinhero": {
     "restricted": false,
     "types": [
       "Water"
@@ -14094,7 +14097,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "ogerpon-wellspring": {
+  "ogerponwellspring": {
     "restricted": false,
     "types": [
       "Grass",
@@ -14116,7 +14119,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "ogerpon-hearthflame": {
+  "ogerponhearthflame": {
     "restricted": false,
     "types": [
       "Grass",
@@ -14138,7 +14141,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "ogerpon-cornerstone": {
+  "ogerponcornerstone": {
     "restricted": false,
     "types": [
       "Grass",
@@ -14292,7 +14295,7 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "terapagos-terastal": {
+  "terapagosterastal": {
     "restricted": false,
     "types": [
       "Normal"
