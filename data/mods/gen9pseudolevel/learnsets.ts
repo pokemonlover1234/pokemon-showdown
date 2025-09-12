@@ -20,7 +20,7 @@ for(const pokemon of Object.keys(data)){
 			learnsets: newLearnset
 		}
 	} catch (err) {
-		console.log("Unknown Pokemon: "+pokemon);
+		console.log(pokemon + " Caused Error: " + err);
 	}
 }
 
