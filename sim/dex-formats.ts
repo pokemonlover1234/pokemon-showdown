@@ -341,9 +341,6 @@ export class RuleTable extends Map<string, string> {
 		if (this.adjustLevel && this.valueRules.has('minlevel')) {
 			throw new Error(`Min Level ${this.minLevel}${this.blame('minlevel')} will have no effect because you're using Adjust Level ${this.adjustLevel}${this.blame('adjustlevel')}.`);
 		}
-		if (this.evLimit && this.evLimit >= 1512) {
-			throw new Error(`EV Limit ${this.evLimit}${this.blame('evlimit')} will have no effect because it's not lower than 1512, the maximum possible combination of 252 EVs in every stat (if you currently have an EV limit, use "! EV Limit" to remove the limit).`);
-		}
 		if (this.evLimit && this.evLimit < 0) {
 			throw new Error(`EV Limit ${this.evLimit}${this.blame('evlimit')} can't be less than 0 (you might have meant: "! EV Limit" to remove the limit, or "EV Limit = 0" to ban EVs).`);
 		}
