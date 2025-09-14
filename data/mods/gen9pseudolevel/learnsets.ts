@@ -1,8 +1,6 @@
 let gennedTable = {};
 import data from "./data.json";
 import { Learnsets as VanillaSets } from "../../learnsets";
-import { loginserver } from "../../../config/config-example";
-import { ChatRoom } from "../../../server/rooms";
 
 for(const pokemon of Object.keys(data)){
 	try {
