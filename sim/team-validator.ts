@@ -1230,9 +1230,6 @@ export class TeamValidator {
 			) {
 				// Marowak hack
 				set.ivs.atk = Math.floor(set.ivs.atk / 2) * 2;
-				while (set.evs.atk > 0 && 2 * 80 + set.ivs.atk + Math.floor(set.evs.atk / 4) + 5 > 255) {
-					set.evs.atk -= 4;
-				}
 			}
 			if (dex.gen > 1) {
 				const expectedShiny = !!(defDV === 10 && speDV === 10 && spcDV === 10 && atkDV % 4 >= 2);
@@ -1261,11 +1258,6 @@ export class TeamValidator {
 				}
 			}
 		} else { // EVs
-			for (const stat in set.evs) {
-				if (set.evs[stat as StatID] > 255) {
-					problems.push(`${name} has more than 255 EVs in ${Dex.stats.names[stat as 'hp']}.`);
-				}
-			}
 			if (dex.gen <= 2) {
 				if (set.evs.spa !== set.evs.spd) {
 					if (dex.gen === 2) {

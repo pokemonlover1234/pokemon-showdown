@@ -6,10 +6,10 @@ for (const pokemon of Object.keys(data)) {
 	try {
 		const values = data[pokemon as keyof typeof data];
 		const tags = VanillaDex[pokemon as keyof typeof VanillaDex].tags;
-		if (tags === undefined) {
-			continue;
+		let newTags = [];
+		if (tags !== undefined) {
+			newTags = JSON.parse(JSON.stringify(tags));
 		}
-		const newTags = JSON.parse(JSON.stringify(tags));
 		if (values.restricted) {
 			newTags.push("Ionite - Restricted");
 		}
