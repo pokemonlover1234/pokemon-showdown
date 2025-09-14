@@ -1,28 +1,28 @@
 import data from "./data.json";
 import { FormatsData as VanillaData } from "../../formats-data";
-let gennedTable: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = JSON.parse(JSON.stringify(VanillaData));
+const gennedTable: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable =
+JSON.parse(JSON.stringify(VanillaData));
 
-for(const pokemon of Object.keys(gennedTable)){
+for (const pokemon of Object.keys(gennedTable)) {
 	try {
-		if(pokemon in data){
+		if (pokemon in data) {
 			gennedTable[pokemon as keyof typeof gennedTable] = {
 				inherit: true,
 				tier: "ZU",
 				doublesTier: "DUU",
-				natDexTier: "ZU"
-			}
+				natDexTier: "ZU",
+			};
 		} else {
 			gennedTable[pokemon as keyof typeof gennedTable] = {
 				inherit: true,
 				tier: "Illegal",
 				doublesTier: "Illegal",
-				natDexTier: "Illegal"
-			}
+				natDexTier: "Illegal",
+			};
 		}
-	} catch (err) {
+	} catch (err: any) {
 		console.log(pokemon + " Caused Error: " + err);
 	}
 }
 
-export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = gennedTable
-
+export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = gennedTable;
