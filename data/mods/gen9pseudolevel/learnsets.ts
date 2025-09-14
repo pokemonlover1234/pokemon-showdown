@@ -29,4 +29,6 @@ for(const pokemon of Object.keys(data)){
 	}
 }
 
+console.log(gennedTable.mightyena.learnset);
+
 export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTable = gennedTable
