@@ -5,15 +5,14 @@ import { Learnsets as VanillaSets } from "../../learnsets";
 for(const pokemon of Object.keys(data)){
 	try {
 		if(!(pokemon in VanillaSets)){
-			console.log("Pokemon " + pokemon + " has no vanilla learnset");
 			continue;
 		}
 		const values = data[pokemon as keyof typeof data];
-		const newLearnset = VanillaSets[pokemon as keyof typeof VanillaSets].learnset;
-		if(newLearnset === undefined){
-			console.log("Pokemon " + pokemon + " exists in vanilla learnset table but has no learnset object.");
+		const learnset = VanillaSets[pokemon as keyof typeof VanillaSets].learnset;
+		if(learnset === undefined){
 			continue;
 		}
+		const newLearnset = JSON.parse(JSON.stringify(learnset));
 
 		for(const move in values.addmoves){
 			(newLearnset as any)[move] = ["1L1"];

@@ -5,7 +5,11 @@ import { Pokedex as VanillaDex } from "../../pokedex";
 for (const pokemon of Object.keys(data)) {
 	try {
 		const values = data[pokemon as keyof typeof data];
-		const newTags = VanillaDex[pokemon as keyof typeof VanillaDex].tags ?? [];
+		const tags = VanillaDex[pokemon as keyof typeof VanillaDex].tags;
+		if (tags === undefined) {
+			continue;
+		}
+		const newTags = JSON.parse(JSON.stringify(tags));
 		if (values.restricted) {
 			newTags.push("Ionite - Restricted");
 		}
