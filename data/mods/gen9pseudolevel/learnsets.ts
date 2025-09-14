@@ -4,8 +4,14 @@ import { Learnsets as VanillaSets } from "../../learnsets";
 
 for(const pokemon of Object.keys(data)){
 	try {
+		if(!(pokemon in VanillaSets)){
+			continue;
+		}
 		const values = data[pokemon as keyof typeof data];
-		const newLearnset = JSON.parse(JSON.stringify(VanillaSets[pokemon as keyof typeof VanillaSets].learnset));
+		const newLearnset = VanillaSets[pokemon as keyof typeof VanillaSets].learnset;
+		if(newLearnset === undefined){
+			continue;
+		}
 
 		for(const move in values.addmoves){
 			(newLearnset as any)[move] = ["1L1"];
