@@ -1318,11 +1318,6 @@ export class TeamValidator {
 				}
 			}
 		} else { // EVs
-			for (const stat in set.evs) {
-				if (set.evs[stat as StatID] > 255) {
-					problems.push(`${name} has more than 255 EVs in ${Dex.stats.names[stat as 'hp']}.`);
-				}
-			}
 			if (dex.gen <= 2) {
 				if (set.evs.spa !== set.evs.spd) {
 					if (dex.gen === 2) {

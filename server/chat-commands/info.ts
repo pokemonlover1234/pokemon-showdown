@@ -1487,8 +1487,8 @@ export const commands: Chat.ChatCommands = {
 					if (isNaN(ev)) {
 						return this.sendReplyBox('Invalid value for EVs: ' + Utils.escapeHTML(arg));
 					}
-					if (ev > 255 || ev < 0) {
-						return this.sendReplyBox('The amount of EVs should be between 0 and 255.');
+					if (ev < 0) {
+						return this.sendReplyBox('The amount of EVs should be above 0.');
 					}
 
 					if (!natureSet) {
@@ -1543,7 +1543,7 @@ export const commands: Chat.ChatCommands = {
 				}
 			}
 
-			if (!isNaN(tempStat) && !baseSet && tempStat > 0 && tempStat < 256) {
+			if (!isNaN(tempStat) && !baseSet && tempStat > 0) {
 				baseStat = tempStat;
 				baseSet = true;
 			}
@@ -1594,7 +1594,7 @@ export const commands: Chat.ChatCommands = {
 					ev = 0;
 				}
 				ev *= 4;
-				if (iv < 0 || ev > 255) {
+				if (iv < 0) {
 					return this.sendReplyBox(`No valid EV/IV combination possible with given parameters. Maybe try a different nature?${ev}`);
 				}
 			} else {
