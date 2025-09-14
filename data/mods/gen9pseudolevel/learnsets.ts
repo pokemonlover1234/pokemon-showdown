@@ -13,7 +13,7 @@ for(const pokemon of Object.keys(data)){
 			continue;
 		}
 		const newLearnset = JSON.parse(JSON.stringify(learnset));
-
+		console.log(pokemon + ": " + values.addmoves)
 		for(const move in values.addmoves){
 			(newLearnset as any)[move] = ["1L1"];
 		}
