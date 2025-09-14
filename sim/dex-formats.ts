@@ -275,7 +275,7 @@ export class RuleTable extends Map<string, string> {
 			);
 		}
 		if (this.valueRules.get('evlimit') === 'Auto') {
-			this.evLimit = dex.gen > 2 ? 510 : null;
+			this.evLimit = dex.gen > 2 ? Infinity : null;
 			if (format.mod === 'gen7letsgo') {
 				this.evLimit = this.has('lgpenormalrules') ? 0 : null;
 			}
