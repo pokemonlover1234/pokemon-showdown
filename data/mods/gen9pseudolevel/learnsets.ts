@@ -22,12 +22,11 @@ for(const pokemon of Object.keys(data)){
 		}
 		(gennedTable as any)[pokemon] = {
 			inherit: true,
-			learnsets: newLearnset
+			learnset: newLearnset
 		}
 	} catch (err) {
 		console.log(pokemon + " Caused Error: " + err);
 	}
 }
-
 
 export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTable = gennedTable
