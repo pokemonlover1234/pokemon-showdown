@@ -973,7 +973,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		name: "Pandora's Curse",
 		onStart(target, source, sourceEffect) {
 			if (source) {
-				this.add('-status', target, 'pandorascurse', '[from] item: Pandora\'s Box', `[of] ${source}`);
+				this.add('-start', target, 'pandorascurse', '[from] item: Pandora\'s Box', `[of] ${source}`);
 			}
 		},
 	},
