@@ -777,6 +777,183 @@
     ],
     "rmmoves": []
   },
+  "machamp": {
+    "restricted": false,
+    "types": [
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Guts",
+      "1": "No Guard",
+      "H": "Iron Fist"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 140,
+      "def": 90,
+      "spa": 75,
+      "spd": 95,
+      "spe": 90
+    },
+    "addmoves": [
+      "coaching",
+      "upperhand",
+      "jetpunch",
+      "terablast"
+    ],
+    "rmmoves": []
+  },
+  "victreebel": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Corrosion",
+      "H": "Solar Power"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 120,
+      "def": 90,
+      "spa": 115,
+      "spd": 95,
+      "spe": 90
+    },
+    "addmoves": [
+      "crunch",
+      "psychicfangs"
+    ],
+    "rmmoves": []
+  },
+  "tentacruel": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Rain Dish",
+      "1": "Liquid Ooze",
+      "H": "Water Absorb"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 90,
+      "def": 75,
+      "spa": 100,
+      "spd": 130,
+      "spe": 110
+    },
+    "addmoves": [
+      "banefulbunker",
+      "nastyplot"
+    ],
+    "rmmoves": []
+  },
+  "golem": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Sturdy",
+      "1": "Rock Head",
+      "H": "Solid Rock"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 140,
+      "def": 150,
+      "spa": 65,
+      "spd": 80,
+      "spe": 65
+    },
+    "addmoves": [
+      "headsmash"
+    ],
+    "rmmoves": []
+  },
+  "golemalola": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Sturdy",
+      "1": "Galvanize",
+      "H": "Earth Eater"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 125,
+      "def": 140,
+      "spa": 70,
+      "spd": 90,
+      "spe": 75
+    },
+    "addmoves": [
+      "headsmash"
+    ],
+    "rmmoves": []
+  },
+  "rapidash": {
+    "restricted": false,
+    "types": [
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Flash Fire",
+      "1": "Flame Body",
+      "H": "Reckless"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 130,
+      "def": 85,
+      "spa": 90,
+      "spd": 95,
+      "spe": 125
+    },
+    "addmoves": [
+      "terablast",
+      "trailblaze",
+      "extremespeed"
+    ],
+    "rmmoves": []
+  },
+  "rapidashgalar": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Pastel Veil",
+      "1": "Reckless",
+      "H": "Pixilate"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 80,
+      "spa": 100,
+      "spd": 100,
+      "spe": 115
+    },
+    "addmoves": [
+      "terablast",
+      "trailblaze",
+      "extremespeed",
+      "scorchingsands",
+      "moonblast"
+    ],
+    "rmmoves": []
+  },
   "dodrio": {
     "restricted": false,
     "types": [
@@ -799,6 +976,55 @@
     "addmoves": [
       "blazekick",
       "highjump kick"
+    ],
+    "rmmoves": []
+  },
+  "slowbro": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Own Tempo",
+      "1": "Regenerator",
+      "H": "Drizzle"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 80,
+      "def": 120,
+      "spa": 120,
+      "spd": 100,
+      "spe": 65
+    },
+    "addmoves": [
+      "teleport"
+    ],
+    "rmmoves": []
+  },
+  "slowbrogalar": {
+    "restricted": false,
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Quick Draw",
+      "1": "Regenerator",
+      "H": "Corrosion"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 115,
+      "def": 100,
+      "spa": 115,
+      "spd": 90,
+      "spe": 65
+    },
+    "addmoves": [
+      "toxicspikes",
+      "teleport"
     ],
     "rmmoves": []
   },
@@ -2346,7 +2572,7 @@
       "Psychic"
     ],
     "abilities": {
-      "0": "Synchronoise",
+      "0": "Synchronize",
       "1": "Magic Bounce",
       "H": "Mind's Eye"
     },
@@ -2367,7 +2593,7 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Synchronoise",
+      "0": "Synchronize",
       "1": "Poison Point",
       "H": "Aftermath"
     },
@@ -2729,7 +2955,11 @@
       "spd": 75,
       "spe": 140
     },
-    "addmoves": [],
+    "addmoves": [
+      "surf",
+      "waterpulse",
+      "hurricane"
+    ],
     "rmmoves": []
   },
   "mantine": {
@@ -2890,7 +3120,8 @@
       "spe": 90
     },
     "addmoves": [
-      "spinout"
+      "spinout",
+      "drainpunch"
     ],
     "rmmoves": []
   },
@@ -3001,7 +3232,9 @@
       "spd": 120,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "lifedew"
+    ],
     "rmmoves": []
   },
   "tyranitar": {
@@ -3272,7 +3505,7 @@
     ],
     "abilities": {
       "0": "Guts",
-      "1": "Adapability",
+      "1": "Adaptability",
       "H": "Scrappy"
     },
     "baseStats": {
@@ -4152,7 +4385,10 @@
       "spd": 135,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonblast",
+      "dazzlinggleam"
+    ],
     "rmmoves": []
   },
   "castform": {
@@ -5160,7 +5396,9 @@
       "spd": 75,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "jetpunch"
+    ],
     "rmmoves": []
   },
   "cherrim": {
@@ -5338,7 +5576,9 @@
       "spe": 100
     },
     "addmoves": [
-      "bulkup"
+      "bulkup",
+      "closecombat",
+      ".vacuumwave"
     ],
     "rmmoves": []
   },
@@ -5545,7 +5785,8 @@
       "spe": 115
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "dragonclaw"
     ],
     "rmmoves": []
   },
@@ -5941,7 +6182,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Adapability",
+      "0": "Adaptability",
       "1": "Download",
       "H": "Motor Drive"
     },
@@ -6517,7 +6758,9 @@
       "spd": 80,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "psychocut"
+    ],
     "rmmoves": []
   },
   "watchog": {
@@ -7069,6 +7312,48 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "basculinbluestriped": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Thick Fat",
+      "1": "Mold Breaker",
+      "H": "Rock Head"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 100,
+      "def": 110,
+      "spa": 70,
+      "spd": 110,
+      "spe": 85
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "basculinwhitestriped": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Adapability",
+      "1": "Mold Breaker",
+      "H": "Rock Head"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 80,
+      "spa": 120,
+      "spd": 80,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "krookodile": {
     "restricted": false,
     "types": [
@@ -7547,7 +7832,9 @@
       "spd": 90,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "highjump kick"
+    ],
     "rmmoves": []
   },
   "emolga": {
@@ -7732,7 +8019,15 @@
     },
     "addmoves": [
       "terablast",
-      "hardpress"
+      "hardpress",
+      "geargrind",
+      "bodypress",
+      "supercellslam",
+      "ironhead",
+      "heavyslam",
+      "icespinner",
+      "bodyslam",
+      "doubleedge"
     ],
     "rmmoves": []
   },
@@ -8462,10 +8757,10 @@
     },
     "baseStats": {
       "hp": 95,
-      "atk": 80,
-      "def": 90,
+      "atk": 110,
+      "def": 75,
       "spa": 130,
-      "spd": 90,
+      "spd": 75,
       "spe": 115
     },
     "addmoves": [
@@ -8613,6 +8908,26 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "greninjaash": {
+    "restricted": true,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 60,
+      "spa": 140,
+      "spd": 60,
+      "spe": 135
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "diggersby": {
     "restricted": false,
     "types": [
@@ -8690,7 +9005,7 @@
     "abilities": {
       "0": "Moxie",
       "1": "Intimidate",
-      "H": "Adapability"
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 95,
@@ -9441,7 +9756,11 @@
       "spe": 95
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "thousandarrows",
+      "thousandwaves",
+      "coreenforcer",
+      "land'swrath"
     ],
     "rmmoves": []
   },
@@ -9465,7 +9784,11 @@
       "spe": 135
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "thousandarrows",
+      "thousandwaves",
+      "coreenforcer",
+      "land'swrath"
     ],
     "rmmoves": []
   },
@@ -9645,7 +9968,7 @@
       "spe": 100
     },
     "addmoves": [
-      "jumpkick",
+      "highjump kick",
       "blazekick"
     ],
     "rmmoves": []
@@ -10277,7 +10600,7 @@
     ],
     "abilities": {
       "0": "Innards Out",
-      "1": "Oblivous",
+      "1": "Oblivious",
       "H": "Unaware"
     },
     "baseStats": {
@@ -10450,6 +10773,30 @@
       "spa": 80,
       "spd": 120,
       "spe": 115
+    },
+    "addmoves": [
+      "poltergeist"
+    ],
+    "rmmoves": []
+  },
+  "mimikyubusted": {
+    "restricted": false,
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Disguise",
+      "1": "Tough Claws",
+      "H": "Opportunist"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 130,
+      "def": 75,
+      "spa": 95,
+      "spd": 100,
+      "spe": 125
     },
     "addmoves": [
       "poltergeist"
@@ -11390,6 +11737,50 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "cramorantgorging": {
+    "restricted": false,
+    "types": [
+      "Flying",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Gulp Missile",
+      "1": "Swift Swim",
+      "H": "Rain Dish"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 85,
+      "def": 100,
+      "spa": 110,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "cramorantgulping": {
+    "restricted": false,
+    "types": [
+      "Flying",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Gulp Missile",
+      "1": "Swift Swim",
+      "H": "Rain Dish"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 75,
+      "spa": 120,
+      "spd": 75,
+      "spe": 130
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "barraskewda": {
     "restricted": false,
     "types": [
@@ -11429,6 +11820,30 @@
       "spa": 124,
       "spd": 80,
       "spe": 105
+    },
+    "addmoves": [
+      "darkpulse"
+    ],
+    "rmmoves": []
+  },
+  "toxtricitylowkey": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Punk Rock",
+      "1": "Technician",
+      "H": "Soundproof"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 110,
+      "def": 75,
+      "spa": 135,
+      "spd": 75,
+      "spe": 115
     },
     "addmoves": [
       "darkpulse"
@@ -11482,6 +11897,52 @@
       "jetpunch",
       "terablast",
       "upperhand"
+    ],
+    "rmmoves": []
+  },
+  "polteageist": {
+    "restricted": false,
+    "types": [
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Weak Armor",
+      "1": "Cursed Body",
+      "H": "Levitate"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 75,
+      "def": 75,
+      "spa": 145,
+      "spd": 125,
+      "spe": 90
+    },
+    "addmoves": [
+      "aurasphere"
+    ],
+    "rmmoves": []
+  },
+  "polteageistantique": {
+    "restricted": false,
+    "types": [
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Weak Armor",
+      "1": "Good as Gold",
+      "H": "Levitate"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 75,
+      "def": 85,
+      "spa": 135,
+      "spd": 135,
+      "spe": 70
+    },
+    "addmoves": [
+      "aurasphere"
     ],
     "rmmoves": []
   },
@@ -11758,7 +12219,9 @@
       "spd": 150,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "roost"
+    ],
     "rmmoves": []
   },
   "stonjourner": {
@@ -12599,7 +13062,7 @@
       "gigadrain",
       "vacuumwave",
       "shadowball",
-      "jumpkick"
+      "highjump kick"
     ],
     "rmmoves": []
   },
@@ -12644,6 +13107,27 @@
       "spa": 85,
       "spd": 95,
       "spe": 151
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "mausholdfour": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Scrappy",
+      "1": "Cheek Pouch",
+      "H": "Technician"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 105,
+      "def": 100,
+      "spa": 80,
+      "spd": 105,
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -12700,7 +13184,7 @@
     ],
     "abilities": {
       "0": "Intimidate",
-      "1": "Sheer Force",
+      "1": "Hustle",
       "H": "Guts"
     },
     "baseStats": {
@@ -12715,6 +13199,89 @@
       "brickbreak",
       "stompingtantrum",
       "drillrun"
+    ],
+    "rmmoves": []
+  },
+  "squawkabillyblue": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Prankster",
+      "H": "Guts"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 100,
+      "def": 110,
+      "spa": 75,
+      "spd": 110,
+      "spe": 95
+    },
+    "addmoves": [
+      "brickbreak",
+      "stompingtantrum",
+      "drillrun",
+      "mirrormove"
+    ],
+    "rmmoves": []
+  },
+  "squawkabillywhite": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Flare Boost",
+      "H": "Sheer Force"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 90,
+      "def": 75,
+      "spa": 135,
+      "spd": 75,
+      "spe": 130
+    },
+    "addmoves": [
+      "brickbreak",
+      "stompingtantrum",
+      "drillrun",
+      "vacuumwave",
+      "shockwave",
+      "shadowball"
+    ],
+    "rmmoves": []
+  },
+  "squawkabillyyellow": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Gale Wings",
+      "H": "Sheer Force"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 105,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 105
+    },
+    "addmoves": [
+      "brickbreak",
+      "stompingtantrum",
+      "drillrun",
+      "switcheroo"
     ],
     "rmmoves": []
   },
@@ -13456,6 +14023,35 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "dudunsparcethreesegment": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Serene Grace",
+      "1": "Berserk",
+      "H": "Thick Fat"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 105,
+      "def": 75,
+      "spa": 130,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [
+      "dracometeor",
+      "dragonpulse",
+      "dragonbreath",
+      "dragondance",
+      "dragonhammer",
+      "twister"
+    ],
+    "rmmoves": []
+  },
   "kingambit": {
     "restricted": false,
     "types": [
@@ -14000,7 +14596,33 @@
       "spd": 105,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "aurasphere"
+    ],
+    "rmmoves": []
+  },
+  "sinistchamasterpiece": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Hospitality",
+      "1": "Triage",
+      "H": "Heatproof"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 80,
+      "def": 100,
+      "spa": 140,
+      "spd": 85,
+      "spe": 110
+    },
+    "addmoves": [
+      "aurasphere"
+    ],
     "rmmoves": []
   },
   "okidogi": {
