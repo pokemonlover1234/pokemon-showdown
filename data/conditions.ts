@@ -17,6 +17,22 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			this.damage(pokemon.baseMaxhp / 16);
 		},
 	},
+	frostbite: {
+		name: 'brn',
+		effectType: 'Status',
+		onStart(target, source, sourceEffect) {
+			if (sourceEffect && sourceEffect.effectType === 'Ability') {
+				this.add('-status', target, 'frostbite', '[from] ability: ' + sourceEffect.name, `[of] ${source}`);
+			} else {
+				this.add('-status', target, 'frostbite');
+			}
+		},
+		// Damage reduction is handled directly in the sim/battle.js damage function
+		onResidualOrder: 10,
+		onResidual(pokemon) {
+			this.damage(pokemon.baseMaxhp / 16);
+		},
+	},
 	par: {
 		name: 'par',
 		effectType: 'Status',
@@ -890,6 +906,14 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			}
 			source.removeVolatile('rolloutstorage');
 			return bp;
+		},
+	},
+	pandorascurse: {
+		name: "Pandora's Curse",
+		onStart(target, source, sourceEffect) {
+			if (source) {
+				this.add('-status', target, 'pandorascurse', '[from] item: Pandora\'s Box', `[of] ${source}`);
+			}
 		},
 	},
 };

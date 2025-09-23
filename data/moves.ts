@@ -20502,10 +20502,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		condition: {
 			// this is a side condition
 			onSideStart(side) {
-				const toxicwebs = side.sideConditions["toxicwebs"]; 
-				if(toxicwebs) {
+				const toxicwebs = side.sideConditions["toxicwebs"];
+				if (toxicwebs) {
 					side.removeSideCondition("toxicspikes");
-					if(toxicwebs.layers >= 2){
+					if (toxicwebs.layers >= 2) {
 						return;
 					}
 					this.add('-sidestart', side, 'move: Toxic Spikes');
@@ -22133,10 +22133,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			chance: 100,
 			boosts: {
 				def: -1,
-			}
+			},
 		},
 		target: 'normal',
 		type: "Fairy",
 		contestType: "Beautiful",
-	}
+	},
 };

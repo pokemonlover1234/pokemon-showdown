@@ -1,3 +1,5 @@
+import { randomElement } from '../lib/utils';
+
 export const Items: import('../sim/dex-items').ItemDataTable = {
 	abilityshield: {
 		name: "Ability Shield",
@@ -7695,5 +7697,77 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: -2,
 		gen: 8,
 		isNonstandard: "CAP",
+	},
+	ballisticvest: {
+		name: "Ballistic Vest",
+		spritenum: 0,
+		fling: {
+			basePower: 80,
+		},
+		onModifyDefPriority: 1,
+		onModifyDef(def) {
+			return this.chainModify(1.5);
+		},
+		onDisableMove(pokemon) {
+			for (const moveSlot of pokemon.moveSlots) {
+				const move = this.dex.moves.get(moveSlot.id);
+				if (move.category === 'Status' && move.id !== 'mefirst') {
+					pokemon.disableMove(moveSlot.id);
+				}
+			}
+		},
+		num: 10000,
+		gen: 9,
+	},
+	pandorasbox: {
+		name: "Pandora's Box",
+		spritenum: 1,
+		fling: {
+			basePower: 80,
+		},
+		onHit(target, source, move) {
+			const choices = ['brn', 'frz', 'par', 'psn', 'tox',
+				'slp', 'confusion', 'attract', 'flinch', 'leechseed',
+				'partiallytrapped', 'nightmare', 'curse', 'taunt',
+				'torment', 'disable', 'encore', 'embargo', 'healblock',
+				'perishsong', 'destinybond', 'yawn', 'frostbite',
+			];
+			const nonvolatiles = ['brn', 'frz', 'par', 'psn', 'tox', 'slp', 'frostbite'];
+			let success = false;
+			let res = null;
+			if (this.checkMoveMakesContact(move, source, target)) {
+				if (!source.volatiles['pandorascurse']
+				) {
+					this.add('-activate', target, 'item: Pandora\'s Box', move.name);
+				} else {
+					return;
+				}
+				if (!source.volatiles["pandorascurse"]) {
+					source.addVolatile("pandorascurse", target);
+					const curse = source.volatiles["pandorascurse"];
+					while (!success) {
+						res = randomElement(choices);
+						if (nonvolatiles.includes(res)) {
+							success = source.trySetStatus(res, target, curse);
+						} else {
+							success = !!source.addVolatile(res, target, curse);
+						}
+					}
+				}
+				success = false;
+				if (!target.volatiles["pandorascurse"]) {
+					target.addVolatile("pandorascurse", target);
+					const curse = target.volatiles["pandorascurse"];
+					while (!success) {
+						res = randomElement(choices);
+						if (nonvolatiles.includes(res)) {
+							success = target.trySetStatus(res, source, curse);
+						} else {
+							success = !!target.addVolatile(res, source, curse);
+						}
+					}
+				}
+			}
+		},
 	},
 };

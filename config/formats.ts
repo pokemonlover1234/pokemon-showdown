@@ -2166,6 +2166,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 					}
 				}
 
+				if (pokemon.status === 'frostbite' && move.category === 'Special' && !pokemon.hasAbility('guts')) {
+					if (this.battle.gen < 6 || move.id !== 'facade') {
+						baseDamage = this.battle.modify(baseDamage, 0.5);
+					}
+				}
+
 				// Generation 5, but nothing later, sets damage to 1 before the final damage modifiers
 				if (this.battle.gen === 5 && !baseDamage) baseDamage = 1;
 
@@ -3629,7 +3635,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Pseudo Level",
 		mod: "gen9pseudolevel",
-		ruleset: ["Standard"]
+		ruleset: ["Standard"],
 	},
 
 	// RoA Spotlight

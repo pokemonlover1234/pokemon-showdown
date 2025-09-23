@@ -1930,7 +1930,7 @@ export class Pokemon {
 
 	addVolatile(
 		status: string | Condition, source: Pokemon | null = null, sourceEffect: Effect | null = null,
-		linkedStatus: string | Condition | null = null
+		linkedStatus: string | Condition | null = null, allowRestart = true
 	): boolean | any {
 		let result;
 		status = this.battle.dex.conditions.get(status);
@@ -1943,7 +1943,7 @@ export class Pokemon {
 		if (!source) source = this;
 
 		if (this.volatiles[status.id]) {
-			if (!status.onRestart) return false;
+			if (!status.onRestart || !allowRestart) return false;
 			return this.battle.singleEvent('Restart', status, this.volatiles[status.id], this, source, sourceEffect);
 		}
 		if (!this.runStatusImmunity(status.id)) {

@@ -2437,4 +2437,12 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Vile Vial",
 		shortDesc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
 	},
+	ballisticvest: {
+		name: "Ballistic Vest",
+		shortDesc: "Holder's Def is 1.5x, but it can only select damaging moves.",
+	},
+	pandorasbox: {
+		name: "Pandora's Box",
+		desc: "When holder is hit by a contact move, a random status is applied to the attacker. \"Pandora's Curse\" is also applied to the attacker, which prevents this item from triggering again for the same attacker. \"Pandora's Curse\" is cleared only on switch out and has no other effect.",
+	},
 };
