@@ -5655,15 +5655,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		desc: "If the target is affected by a status condition, Hisuian Samurott's contact moves deal 1.3x damage, and apply no recoil or drawback effects (Life Orb recoil, self stat drops.",
 		onBasePowerPriority: 21,
-		onModifyMove(move, pokemon, target){
-			if(pokemon.status && target != null && this.checkMoveMakesContact(move, pokemon, target)) {
+		onModifyMove(move, pokemon, target) {
+			if (pokemon.status && target != null && this.checkMoveMakesContact(move, pokemon, target)) {
 				delete move.secondaries;
 				delete move.self;
 				move.hasSheerForce = true;
 			}
 		},
-		onBasePower(basePower, pokemon, target, move){
-			if (move.hasSheerForce) return this.chainModify([5325,4096]);
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.hasSheerForce) return this.chainModify([5325, 4096]);
 		},
 	},
 	spectralpierce: {
@@ -5672,9 +5672,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Spectral Pierce",
 		rating: 2,
 		desc: "Hisuian Typhlosion's Ghost type attacks ignore Protect, Detect, Substitute, etc.",
-		onModifyMove(move){
-			if(move.type === "Ghost") delete move.flags["protect"];
-		}
+		onModifyMove(move) {
+			if (move.type === "Ghost") delete move.flags["protect"];
+		},
 	},
 	volcanicsurge: {
 		isNonstandard: "Custom",
@@ -5685,7 +5685,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		condition: {
 			onStart(pokemon, source, effect) {
 				this.add('-start', pokemon, 'Volcanic Surge');
-				
 			},
 			onRestart(pokemon, source, effect) {
 				this.add('-start', pokemon, 'Volcanic Surge');
@@ -5710,11 +5709,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				this.add('-end', pokemon, 'Volcanic Surge', '[silent]');
 			},
 		},
-		onModifyMove(move, pokemon){
-			if (move.type == "Fire" && !pokemon.volatiles['volcanicsurge'])[
-				pokemon.addVolatile("volcanicsurge", pokemon)
-			]
-		}
+		onModifyMove(move, pokemon) {
+			if (move.type === "Fire" && !pokemon.volatiles['volcanicsurge']) {
+				pokemon.addVolatile("volcanicsurge", pokemon);
+			}
+		},
 	},
 	toxicwebs: {
 		isNonstandard: "Custom",
@@ -5723,13 +5722,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		desc: "On switch-in, this Pokemon summons Toxic Sticky Webs.",
 		condition: {
-			onSideStart(side) {
+			onSideStart(side, source) {
 				this.add('-sidestart', side, 'ability: Toxic Webs');
 				const spikesstate = side.sideConditions["toxicspikes"];
-				if(spikesstate) {
+				side.sideConditions["toxicwebs"]["sourceMon"] = source;
+				if (spikesstate) {
 					this.add("-sideend", side, 'move: Toxic Spikes', "[of] Ability: Toxic Webs");
 					const layers = spikesstate.layers;
-					if(layers >= 2){
+					if (layers >= 2) {
 						this.effectState.layers = 2;
 					} else {
 						this.effectState.layers = layers + 1;
@@ -5739,36 +5739,40 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 					this.effectState.layers = 1;
 				}
 			},
-			onSideRestart(side) {
+			onSideRestart(side, source) {
 				if (this.effectState.layers >= 2) return false;
 				this.add('-sidestart', side, 'ability: Toxic Webs');
+				side.sideConditions["toxicwebs"]["sourceMon"] = source;
 				this.effectState.layers++;
 			},
-			onSwitchIn(pokemon){
-				if (!pokemon.isGrounded()) return;
-				if (!pokemon.hasItem('heavydutyboots')){
-					this.boost({ spe: -1 }, pokemon, pokemon.side.foe.active[0], this.dex.abilities.get('toxicwebs'));
-				}
+			onSwitchIn(pokemon) {
 				if (pokemon.hasType('Poison')) {
 					this.add('-sideend', pokemon.side, 'ability: Toxic Webs', `[of] ${pokemon}`);
-					pokemon.side.removeSideCondition('toxicspikes');
+					pokemon.side.removeSideCondition('toxicwebs');
 					pokemon.side.addSideCondition('stickyweb');
-				} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots')) {
-					// do nothing
+					return;
+				}
+				if (!pokemon.isGrounded()) return;
+				if (!pokemon.hasItem('heavydutyboots')) {
+					this.boost({ spe: -1 }, pokemon, pokemon.side.sideConditions["toxicwebs"]["sourceMon"],
+						this.dex.abilities.get('toxicwebs'));
+				}
+				if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots')) {
+					return;
 				} else if (this.effectState.layers >= 2) {
-					pokemon.trySetStatus('tox', pokemon.side.foe.active[0], this.dex.abilities.get('toxicwebs'));
+					pokemon.trySetStatus('tox', pokemon.side.sideConditions["toxicwebs"]["sourceMon"], this.dex.abilities.get('toxicwebs'));
 				} else {
-					pokemon.trySetStatus('psn', pokemon.side.foe.active[0], this.dex.abilities.get('toxicwebs'));
+					pokemon.trySetStatus('psn', pokemon.side.sideConditions["toxicwebs"]["sourceMon"], this.dex.abilities.get('toxicwebs'));
+				}
+			},
+		},
+		onStart(source) {
+			for (const side of this.sides) {
+				if (side.active && side.id !== source.side.id) {
+					side.addSideCondition("toxicwebs", source);
 				}
 			}
 		},
-		onStart(source) {
-			for(const side of this.sides){
-				if(side.active && side.id != source.side.id){
-					side.addSideCondition("toxicwebs");
-				}
-			}
-		}
 	},
 	toxicbarbs: {
 		isNonstandard: "Custom",
@@ -5783,7 +5787,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 					source.trySetStatus('psn', target);
 				}
 			}
-		}
+		},
 	},
 	imperialrule: {
 		isNonstandard: "Custom",
@@ -5820,15 +5824,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				this.add('-end', pokemon, 'Bushido', '[silent]');
 			},
 			onModifyMove(move, pokemon) {
-				if(move.basePower > 0){
+				if (move.basePower > 0) {
 					move.willCrit = true;
 					pokemon.removeVolatile("bushido");
 				}
-			}	
+			},
 		},
 		onStart(pokemon) {
 			pokemon.addVolatile("bushido", pokemon);
-		}
+		},
 	},
 	housekeeping: {
 		isNonstandard: "Custom",
@@ -5844,7 +5848,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 						this.add('-sideend', side, this.dex.conditions.get(condition).name, '[from] ability: Housekeeping', `[of] ${pokemon}`);
 					}
 			}
-		}
+		},
 	},
 	innerflame: {
 		isNonstandard: "Custom",
@@ -5852,19 +5856,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Inner Flame",
 		rating: 3,
 		desc: "This Pokemon's always uses the highest attack stat when using Fire type attacks and Fire type attacks have 1.2x power.",
-		onBasePower(basePower, pokemon, defender, move ){
-			if(move.type === "Fire"){
-				return this.chainModify(1.2)
+		onBasePower(basePower, pokemon, defender, move) {
+			if (move.type === "Fire") {
+				return this.chainModify(1.2);
 			}
 		},
-		onModifyAtk(atk, pokemon, target, move){
-			if(pokemon.baseStoredStats.atk >= pokemon.baseStoredStats.spa) return;
+		onModifyAtk(atk, pokemon, target, move) {
+			if (pokemon.baseStoredStats.atk >= pokemon.baseStoredStats.spa) return;
 			return this.chainModify([pokemon.baseStoredStats.spa, pokemon.baseStoredStats.atk]);
 		},
-		onModifySpA(atk, pokemon, target, move){
-			if(pokemon.baseStoredStats.spa >= pokemon.baseStoredStats.atk) return;
+		onModifySpA(atk, pokemon, target, move) {
+			if (pokemon.baseStoredStats.spa >= pokemon.baseStoredStats.atk) return;
 			return this.chainModify([pokemon.baseStoredStats.atk, pokemon.baseStoredStats.spa]);
-		}
+		},
 	},
 	treeoflife: {
 		isNonstandard: "Custom",
@@ -5872,19 +5876,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Tree Of Life",
 		rating: 3,
 		desc: "Grass and Ground moves used by this Pokemon recovers 10% of damage dealt, if Grassy Terrain is active recovers 20% of damage dealt.",
-		onModifyMove(move, pokemon, target){
-			if(move.type !== "Grass" && move.type !== "Ground") return;
+		onModifyMove(move, pokemon, target) {
+			if (move.type !== "Grass" && move.type !== "Ground") return;
 			const restore = this.field.isTerrain("grassyterrain") ? 2 : 1;
 			move.flags['heal'] = 1;
 			move.drain = [restore, 10];
-		}
+		},
 	},
 	shadowveil: {
 		isNonstandard: "Custom",
 		flags: {},
 		name: "Shadow Veil",
 		rating: 3,
-		desc: "On switch-in, this Pokemon summons Midnight Hour. [NOT IMPLEMENTED]"
+		desc: "On switch-in, this Pokemon summons Midnight Hour. [NOT IMPLEMENTED]",
 	},
 	resilientcore: {
 		isNonstandard: "Custom",
@@ -5895,10 +5899,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onFlinch() {
 			return false;
 		},
-		onEffectiveness(typemod, target, type, move){
-			if(!target) return;
-			if(move.type == "Fighting") return 0;
-		}
+		onEffectiveness(typemod, target, type, move) {
+			if (!target) return;
+			if (move.type === "Fighting") return 0;
+		},
 	},
 	cranestyle: {
 		isNonstandard: "Custom",
@@ -5906,8 +5910,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Crane Style",
 		rating: 3,
 		desc: "This Pokemon's kick-based attacks have 1.2x power. Triple Axel is boosted.",
-		onBasePower(basePower, source, target, move){
-			if(move.flags["kick"]) return this.chainModify(1.2);
-		}
-	}
+		onBasePower(basePower, source, target, move) {
+			if (move.flags["kick"]) return this.chainModify(1.2);
+		},
+	},
 };
