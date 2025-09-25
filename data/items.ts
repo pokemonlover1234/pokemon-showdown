@@ -7735,36 +7735,34 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			const nonvolatiles = ['brn', 'frz', 'par', 'psn', 'tox', 'slp', 'frostbite'];
 			let success = false;
 			let res = null;
-			if (this.checkMoveMakesContact(move, source, target)) {
-				if (!source.volatiles['pandorascurse']
-				) {
-					this.add('-activate', target, 'item: Pandora\'s Box', move.name);
-				} else {
-					return;
-				}
-				if (!source.volatiles["pandorascurse"]) {
-					source.addVolatile("pandorascurse", target);
-					const curse = source.volatiles["pandorascurse"];
-					while (!success) {
-						res = randomElement(choices);
-						if (nonvolatiles.includes(res)) {
-							success = source.trySetStatus(res, target, curse);
-						} else {
-							success = !!source.addVolatile(res, target, curse);
-						}
+			if (!source.volatiles['pandorascurse']
+			) {
+				this.add('-activate', target, 'item: Pandora\'s Box', move.name);
+			} else {
+				return;
+			}
+			if (!source.volatiles["pandorascurse"]) {
+				source.addVolatile("pandorascurse", target);
+				const curse = source.volatiles["pandorascurse"];
+				while (!success) {
+					res = randomElement(choices);
+					if (nonvolatiles.includes(res)) {
+						success = source.trySetStatus(res, target, curse);
+					} else {
+						success = !!source.addVolatile(res, target, curse);
 					}
 				}
-				success = false;
-				if (!target.volatiles["pandorascurse"]) {
-					target.addVolatile("pandorascurse", target);
-					const curse = target.volatiles["pandorascurse"];
-					while (!success) {
-						res = randomElement(choices);
-						if (nonvolatiles.includes(res)) {
-							success = target.trySetStatus(res, source, curse);
-						} else {
-							success = !!target.addVolatile(res, source, curse);
-						}
+			}
+			success = false;
+			if (!target.volatiles["pandorascurse"]) {
+				target.addVolatile("pandorascurse", target);
+				const curse = target.volatiles["pandorascurse"];
+				while (!success) {
+					res = randomElement(choices);
+					if (nonvolatiles.includes(res)) {
+						success = target.trySetStatus(res, source, curse);
+					} else {
+						success = !!target.addVolatile(res, source, curse);
 					}
 				}
 			}
