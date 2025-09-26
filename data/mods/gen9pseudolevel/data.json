@@ -152,7 +152,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Adapability",
+      "0": "Adaptability",
       "1": "Guts",
       "H": "Hustle"
     },
@@ -1530,7 +1530,7 @@
       "Flying"
     ],
     "abilities": {
-      "0": "Adapability",
+      "0": "Adaptability",
       "1": "Technician",
       "H": "Steadfast"
     },
@@ -1755,7 +1755,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Adapability",
+      "0": "Adaptability",
       "1": "Fur Coat",
       "H": "Battle Bond"
     },
@@ -2764,7 +2764,8 @@
     },
     "addmoves": [
       "drainpunch",
-      "hammerarm"
+      "hammerarm",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -3076,7 +3077,8 @@
       "spe": 80
     },
     "addmoves": [
-      "moonlight"
+      "moonlight",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -3319,7 +3321,7 @@
     ],
     "abilities": {
       "0": "Blaze",
-      "1": "Adapability",
+      "1": "Adaptability",
       "H": "Speed Boost"
     },
     "baseStats": {
@@ -3769,7 +3771,8 @@
     },
     "addmoves": [
       "terablast",
-      "jawlock"
+      "jawlock",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -4151,7 +4154,9 @@
       "spd": 105,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "zangoose": {
@@ -7297,7 +7302,7 @@
       "Water"
     ],
     "abilities": {
-      "0": "Adapability",
+      "0": "Adaptability",
       "1": "Mold Breaker",
       "H": "Rock Head"
     },
@@ -7339,7 +7344,7 @@
       "Water"
     ],
     "abilities": {
-      "0": "Adapability",
+      "0": "Adaptability",
       "1": "Mold Breaker",
       "H": "Rock Head"
     },
@@ -8728,7 +8733,7 @@
     ],
     "abilities": {
       "0": "Justified",
-      "1": "Adapability",
+      "1": "Adaptability",
       "H": "Sharpness"
     },
     "baseStats": {
@@ -9278,7 +9283,8 @@
       "spe": 92
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -9338,7 +9344,7 @@
     "abilities": {
       "0": "Poison Touch",
       "1": "Corrosion",
-      "H": "Adapability"
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 95,
@@ -9359,7 +9365,7 @@
     "abilities": {
       "0": "Sniper",
       "1": "Mega Launcher",
-      "H": "Adapability"
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 121,
@@ -9811,7 +9817,9 @@
       "spd": 130,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "hoopa": {
@@ -10920,7 +10928,8 @@
       "spe": 145
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -10970,7 +10979,8 @@
     },
     "addmoves": [
       "terablast",
-      "trailblaze"
+      "trailblaze",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -11246,7 +11256,7 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Aerilate",
-      "H": "Adapability"
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 83,
@@ -11414,7 +11424,7 @@
     ],
     "abilities": {
       "0": "Torrent",
-      "1": "Adapability",
+      "1": "Adaptability",
       "H": "Sniper"
     },
     "baseStats": {
@@ -11965,7 +11975,9 @@
       "spd": 113,
       "spe": 14
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "grimmsnarl": {
@@ -11987,7 +11999,9 @@
       "spd": 95,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "obstagoon": {
@@ -12864,7 +12878,9 @@
       "spd": 80,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "enamorustherian": {
@@ -12886,7 +12902,9 @@
       "spd": 110,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "meowscarada": {
@@ -13151,7 +13169,9 @@
       "spd": 110,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "arboliva": {
@@ -13603,7 +13623,8 @@
       "spe": 114
     },
     "addmoves": [
-      "hammerarm"
+      "hammerarm",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -13670,7 +13691,9 @@
       "spd": 90,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "palafinhero": {
@@ -13691,7 +13714,9 @@
       "spd": 75,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "revavroom": {
@@ -14020,7 +14045,14 @@
       "spd": 90,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "dracometeor",
+      "dragonpulse",
+      "dragonbreath",
+      "dragondance",
+      "dragonhammer",
+      "twister"
+    ],
     "rmmoves": []
   },
   "dudunsparcethreesegment": {
@@ -14517,7 +14549,7 @@
     "abilities": {
       "0": "Quark Drive",
       "1": "Sharpness",
-      "H": "Adapability"
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 84,
@@ -14529,7 +14561,8 @@
     },
     "addmoves": [
       "nastyplot",
-      "bulkup"
+      "bulkup",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
@@ -14597,7 +14630,8 @@
       "spe": 80
     },
     "addmoves": [
-      "aurasphere"
+      "aurasphere",
+      "radiantreckoning"
     ],
     "rmmoves": []
   },
