@@ -677,7 +677,7 @@ const OFFICIAL_AVATARS_RADU = new Set([
 ]);
 
 const OFFICIAL_AVATARS_IONITE = new Set([
-	'xenith+buizel', 'cody', 'storm', 'kyouhei', 'bri',
+	'xenithbuizel', 'cody', 'storm', 'kyouhei', 'bri',
 ]);
 
 for (const avatar of OFFICIAL_AVATARS_BELIOT419) OFFICIAL_AVATARS.add(avatar);
