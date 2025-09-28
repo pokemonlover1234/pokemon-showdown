@@ -8222,39 +8222,46 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			} else {
 				return;
 			}
-			for (const side of this.sides) {
-				if (side == null) continue;
-				for (const pokemon of side.active) {
-					if (!pokemon) continue;
-					if (!pokemon.volatiles["pandorascurse"] && pokemon.hp) {
-						if (pokemon.isProtected()) {
-							this.add("-activate", pokemon, "move: Protect");
+			if (!source.volatiles["pandorascurse"]) {
+				source.addVolatile("pandorascurse", target);
+				const curse = source.volatiles["pandorascurse"];
+				console.log("Rolling status for " + source.name);
+				while (!success) {
+					res = randomElement(choices);
+					console.log(source.name + " rolled " + res);
+					if (nonvolatiles.includes(res)) {
+						success = source.trySetStatus(res, target, curse);
+					} else {
+						if (target.volatiles[res]) {
+							success = false;
 							continue;
 						}
-						pokemon.addVolatile("pandorascurse", target);
-						const curse = pokemon.volatiles["pandorascurse"];
-						console.log("Rolling status for " + pokemon.name);
-						while (!success) {
-							res = randomElement(choices);
-							console.log(pokemon.name + " rolled " + res);
-							if (nonvolatiles.includes(res)) {
-								if (pokemon.hasAbility('comatose')) {
-									this.add('-immune', target, '[from] ability: Comatose');
-									success = true;
-									continue;
-								}
-								success = pokemon.trySetStatus(res, target, curse);
-							} else {
-								if (pokemon.volatiles[res]) {
-									success = false;
-									continue;
-								}
-								const volres = pokemon.addVolatile(res, target, curse);
-								if (volres != null && volres !== "" && volres !== 0) {
-									success = !!volres;
-								} else success = true;
-							}
+						const volres = target.addVolatile(res, source, curse);
+						if (volres != null && volres !== "" && volres !== 0) {
+							success = !!volres;
+						} else success = true;
+					}
+				}
+			}
+			success = false;
+			if (!target.volatiles["pandorascurse"]) {
+				target.addVolatile("pandorascurse", target);
+				const curse = target.volatiles["pandorascurse"];
+				console.log("Rolling status for " + target.name);
+				while (!success) {
+					res = randomElement(choices);
+					console.log(target.name + " rolled " + res);
+					if (nonvolatiles.includes(res)) {
+						success = target.trySetStatus(res, source, curse);
+					} else {
+						if (target.volatiles[res]) {
+							success = false;
+							continue;
 						}
+						const volres = target.addVolatile(res, source, curse);
+						if (volres != null && volres !== "" && volres !== 0) {
+							success = !!volres;
+						} else success = true;
 					}
 				}
 			}
