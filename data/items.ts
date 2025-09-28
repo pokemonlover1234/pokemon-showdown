@@ -8220,7 +8220,14 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 					if (nonvolatiles.includes(res)) {
 						success = source.trySetStatus(res, target, curse);
 					} else {
-						success = !!source.addVolatile(res, target, curse);
+						if (target.volatiles[res]) {
+							success = false;
+							continue;
+						}
+						const volres = target.addVolatile(res, source, curse);
+						if (volres != null && volres !== "" && volres !== 0) {
+							success = !!volres;
+						} else success = true;
 					}
 				}
 			}
@@ -8235,7 +8242,14 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 					if (nonvolatiles.includes(res)) {
 						success = target.trySetStatus(res, source, curse);
 					} else {
-						success = !!target.addVolatile(res, source, curse);
+						if (target.volatiles[res]) {
+							success = false;
+							continue;
+						}
+						const volres = target.addVolatile(res, source, curse);
+						if (volres != null && volres !== "" && volres !== 0) {
+							success = !!volres;
+						} else success = true;
 					}
 				}
 			}
