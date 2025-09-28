@@ -7738,14 +7738,17 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (!source.volatiles['pandorascurse']
 			) {
 				this.add('-activate', target, 'item: Pandora\'s Box', move.name);
+				console.log("Pandora's Box Triggered by " + source.name + " attacking " + target.name);
 			} else {
 				return;
 			}
 			if (!source.volatiles["pandorascurse"]) {
 				source.addVolatile("pandorascurse", target);
 				const curse = source.volatiles["pandorascurse"];
+				console.log("Rolling status for " + source.name);
 				while (!success) {
 					res = randomElement(choices);
+					console.log(source.name + " rolled " + res);
 					if (nonvolatiles.includes(res)) {
 						success = source.trySetStatus(res, target, curse);
 					} else {
@@ -7757,8 +7760,10 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (!target.volatiles["pandorascurse"]) {
 				target.addVolatile("pandorascurse", target);
 				const curse = target.volatiles["pandorascurse"];
+				console.log("Rolling status for " + target.name);
 				while (!success) {
 					res = randomElement(choices);
+					console.log(target.name + " rolled " + res);
 					if (nonvolatiles.includes(res)) {
 						success = target.trySetStatus(res, source, curse);
 					} else {
