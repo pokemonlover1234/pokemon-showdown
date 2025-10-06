@@ -22139,4 +22139,36 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fairy",
 		contestType: "Beautiful",
 	},
+	aircannon: {
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		isNonstandard: "Custom",
+		name: "Air Cannon",
+		pp: 10,
+		priority: 0,
+		flags: { metronome: 1, mirror: 1, protect: 1 },
+		target: 'normal',
+		type: 'flying',
+		contestType: 'Cool',
+	},
+	gleamstep: {
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		isNonstandard: "Custom",
+		name: "Gleamstep",
+		pp: 10,
+		priority: 0,
+		flags: { metronome: 1, mirror: 1, protect: 1 },
+		selfSwitch: true,
+		target: 'normal',
+		type: 'fairy',
+		contestType: "Beatiful",
+		onBasePower(power, source) {
+			if (source.baseStoredStats.atk > source.baseStoredStats.spa) {
+				this.chainModify(source.baseStoredStats.atk, source.baseStoredStats.spa);
+			}
+		},
+	},
 };
