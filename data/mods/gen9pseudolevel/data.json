@@ -5134,7 +5134,8 @@
       "spe": 125
     },
     "addmoves": [
-      "stompingtantrum"
+      "stompingtantrum",
+      "aircannon"
     ],
     "rmmoves": []
   },
@@ -6096,7 +6097,8 @@
       "moonblast",
       "aromaticmist",
       "craftyshield",
-      "darkpulse"
+      "darkpulse",
+      "aircannon"
     ],
     "rmmoves": []
   },
@@ -8559,7 +8561,8 @@
     },
     "addmoves": [
       "aurasphere",
-      "waterpulse"
+      "waterpulse",
+      "aircannon"
     ],
     "rmmoves": []
   },
