@@ -109,7 +109,7 @@
     "abilities": {
       "0": "Swarm",
       "1": "Sniper",
-      "H": "Adapatability"
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 78,
@@ -163,7 +163,7 @@
       "hp": 120,
       "atk": 118,
       "def": 80,
-      "spa": 77,
+      "spa": 135,
       "spd": 83,
       "spe": 122
     },
@@ -1742,7 +1742,7 @@
     ],
     "abilities": {
       "0": "Limber",
-      "1": "Ilusion",
+      "1": "Illusion",
       "H": "Imposter"
     },
     "baseStats": {
@@ -13426,7 +13426,8 @@
       "brickbreak",
       "stompingtantrum",
       "drillrun",
-      "switcheroo"
+      "switcheroo",
+      "aircannon"
     ],
     "rmmoves": []
   },
@@ -14416,7 +14417,8 @@
     },
     "addmoves": [
       "surf",
-      "flashcannon"
+      "flashcannon",
+      "aircannon"
     ],
     "rmmoves": []
   },
@@ -14764,8 +14766,7 @@
       "spe": 80
     },
     "addmoves": [
-      "aurasphere",
-      "radiantreckoning"
+      "aurasphere"
     ],
     "rmmoves": []
   },
