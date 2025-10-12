@@ -4397,63 +4397,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 9] Pseudo Level Doubles",
-		mod: "gen9pseudolevel",
+		mod: "gen9pseudoleveldoubles",
 		ruleset: ["Standard"],
 		gameType: 'doubles',
-	},
-	{
-		name: "[Gen 9] Pseudo Level SSB",
-		mod: "gen9pseudolevel",
-		bestOfDefault: true,
-		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
-	},
-	{
-		name: "[Gen 9] Pseudo Level VGC",
-		mod: "gen9pseudolevel",
-		bestOfDefault: true,
-		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard"],
-		gameType: 'doubles',
-	},
-	{
-		name: "[Gen 9] Pseudo Level Triples",
-		mod: "gen9pseudolevel",
-		ruleset: ["Standard"],
-		gameType: 'triples',
-	},
-	{
-		name: "[Gen 9] Pseudo Level 2v2 Doubles",
-		mod: "gen9pseudolevel",
-		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
-		gameType: 'doubles',
-	},
-	{
-		name: "[Gen 9] Ionite Natdex",
-		mod: "gen9ionitenatdex",
-		ruleset: ["Standard"],
-	},
-	{
-		name: "[Gen 9] Ionite Natdex Doubles",
-		mod: "gen9ionitenatdex",
-		ruleset: ["Standard"],
-		gameType: 'doubles',
-	},
-	{
-		name: "[Gen 9] Constellera",
-		mod: "gen9constellera",
-		ruleset: ["Standard"],
-		debug: true,
-	},
-	{
-		name: "[Gen 9] Constellera Doubles",
-		mod: "gen9constellera",
-		ruleset: ["Standard"],
-		gameType: 'doubles',
-	},
-	{
-		name: "[Gen 9] Constellera LC",
-		mod: "gen9constellera",
-		ruleset: ["Standard", "Little Cup"],
-	},
+	}
 
 	// RoA Spotlight
 	///////////////////////////////////////////////////////////////////
