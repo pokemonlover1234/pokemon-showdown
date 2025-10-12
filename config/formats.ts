@@ -3642,7 +3642,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9pseudoleveldoubles",
 		ruleset: ["Standard"],
 		gameType: 'doubles',
-	}
+	},
 
 	// RoA Spotlight
 	///////////////////////////////////////////////////////////////////
