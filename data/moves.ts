@@ -22126,7 +22126,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		category: "Physical",
 		isNonstandard: "Custom",
 		name: "Radiant Reckoning",
-		pp: 8,
+		pp: 10,
 		priority: 0,
 		flags: { metronome: 1, mirror: 1, protect: 1, contact: 1 },
 		secondary: {
