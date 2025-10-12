@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "noEmit": true,
+        "jsx": "react",
+        "jsxFactory": "Chat.h",
+        "jsxFragmentFactory": "Chat.Fragment",
+        "target": "es2020",
+        "skipLibCheck": true,
+        "module": "CommonJS",
+<<<<<<< HEAD
+        "moduleResolution": "bundler",
+        "types": ["node"],
+=======
+>>>>>>> a9e56847 (double attempt 2 of 1000000)
+        "strict": true,
+        "allowJs": true,
+        "checkJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "incremental": true,
+        "allowUnreachableCode": false,
+        "esModuleInterop": true,
+        "noImplicitOverride": true,
+        "useDefineForClassFields": false,
+        "resolveJsonModule": true,
+    },
+    "exclude": [
+        "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts",
+        "./dist/**/*",
+        "./server/chat-plugins/private/*/*.d.ts"
+    ],
+    "include": [
+        "./config/*.ts",
+        "./data/*",
+        "./data/text/**/*",
+        "./data/random-battles/**/*",
+        "./data/mods/*/*",
+        "./dev-tools/*.ts",
+        "./lib/*.ts",
+        "./server/**/*.ts",
+        "./server/**/*.tsx",
+        "./sim/**/*",
+        "./tools/set-import/*.ts",
+        "./tools/modlog/*.ts",
+        "./translations/**/*.ts",
+    ]
+}

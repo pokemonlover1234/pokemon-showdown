@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+			"lib": ["es2020"],
+			"emitDeclarationOnly": true,
+			"outDir": "../dist",
+			"rootDir": "..",
+			"declaration": true,
+			"target": "esnext",
+			"module": "commonjs",
+<<<<<<< HEAD
+			"moduleResolution": "bundler",
+			"types": ["node"],
+=======
+>>>>>>> a9e56847 (double attempt 2 of 1000000)
+			"strict": true,
+			"allowJs": true,
+			"checkJs": true,
+			"incremental": true,
+			"allowUnreachableCode": false,
+			"allowImportingTsExtensions": true,
+	},
+	"include": [
+			"./global-types.ts",
+			"./index.ts",
+	]
+}
