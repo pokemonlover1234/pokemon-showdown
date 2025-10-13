@@ -5723,6 +5723,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		desc: "On switch-in, this Pokemon summons Toxic Sticky Webs.",
 		condition: {
 			onSideStart(side, source) {
+				const burningcoals = side.sideConditions["burningcoals"];
+				if (burningcoals) {
+					side.removeSideCondition("toxicwebs");
+					return;
+				}
 				this.add('-sidestart', side, 'ability: Toxic Webs');
 				const spikesstate = side.sideConditions["toxicspikes"];
 				side.sideConditions["toxicwebs"]["sourceMon"] = source;

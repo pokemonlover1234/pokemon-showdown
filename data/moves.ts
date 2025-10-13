@@ -20502,6 +20502,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		condition: {
 			// this is a side condition
 			onSideStart(side) {
+				const burningcoals = side.sideConditions["burningcoals"];
+				if (burningcoals) {
+					side.removeSideCondition("toxicspikes");
+					return;
+				}
 				const toxicwebs = side.sideConditions["toxicwebs"];
 				if (toxicwebs) {
 					side.removeSideCondition("toxicspikes");
@@ -22168,6 +22173,135 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onBasePower(power, source) {
 			if (source.baseStoredStats.atk > source.baseStoredStats.spa) {
 				this.chainModify(source.baseStoredStats.atk, source.baseStoredStats.spa);
+			}
+		},
+	},
+	decompose: {
+		accuracy: 100,
+		basePower: 90,
+		category: 'Physical',
+		isNonstandard: "Custom",
+		name: "Decompose",
+		pp: 20,
+		priority: 0,
+		flags: { metronome: 1, mirror: 1, protect: 1, contact: 1 },
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Ghost') return 1;
+		},
+		target: 'normal',
+		type: 'bug',
+	},
+	rustyblade: {
+		accuracy: 90,
+		basePower: 75,
+		pp: 15,
+		isNonstandard: "Custom",
+		name: "Rusty Blade",
+		priority: 0,
+		flags: { metronome: 1, mirror: 1, protect: 1, contact: 1 },
+		category: "Physical",
+		target: "normal",
+		type: "poison",
+		onAfterHit(target, source, move) {
+			if (!move.hasSheerForce && source.hp) {
+				for (const side of source.side.foeSidesWithConditions()) {
+					side.addSideCondition('spikes');
+				}
+			}
+		},
+		onAfterSubDamage(damage, target, source, move) {
+			if (!move.hasSheerForce && source.hp) {
+				for (const side of source.side.foeSidesWithConditions()) {
+					side.addSideCondition('spikes');
+				}
+			}
+		},
+	},
+	cryofreeze: {
+		accuracy: 75,
+		category: "Status",
+		pp: 15,
+		basePower: 0,
+		isNonstandard: "Custom",
+		name: "Cryofreeze",
+		priority: 0,
+		flags: { metronome: 1, mirror: 1, protect: 1, reflectable: 1 },
+		target: "normal",
+		type: "ice",
+		status: 'frostbite',
+	},
+	loosedirt: {
+		accuracy: 100,
+		pp: 20,
+		category: "Special",
+		basePower: 80,
+		isNonstandard: "Custom",
+		name: "Loose Dirt",
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+		priority: 0,
+		flags: { metronome: 1, mirror: 1, protect: 1 },
+		target: "normal",
+		type: "ground",
+	},
+	burningcoals: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Burning Coals",
+		pp: 30,
+		priority: 0,
+		flags: { reflectable: 1, nonsky: 1, metronome: 1, mustpressure: 1 },
+		sideCondition: 'burningcoals',
+		condition: {
+			// this is a side condition
+			onSideStart(side) {
+				const toxicspikes = side.sideConditions["toxicspikes"];
+				const toxicwebs = side.sideConditions["toxicwebs"];
+				if (toxicspikes || toxicwebs) {
+					side.removeSideCondition("burningcoals");
+					return;
+				}
+				this.add('-sidestart', side, 'move: Burning Coals');
+			},
+			onSideRestart(side) {
+				return false;
+			},
+			onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded()) return;
+				if (pokemon.hasType('Fire') || pokemon.hasType("Ground")) {
+					this.add('-sideend', pokemon.side, 'move: Burning Coals', `[of] ${pokemon}`);
+					pokemon.side.removeSideCondition('burningcoals');
+				} else if (pokemon.hasItem('heavydutyboots')) {
+					// do nothing
+				} else {
+					pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
+					const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('burningcoals')), -6, 6);
+					this.damage(pokemon.maxhp * (2 ** typeMod) / 8);
+				}
+			},
+		},
+		target: "foeSide",
+		type: "Fire",
+		zMove: { boost: { def: 1 } },
+		contestType: "Clever",
+	},
+	afterburner: {
+		accuracy: 100,
+		pp: 15,
+		basePower: 70,
+		category: "Special",
+		isNonstandard: "Custom",
+		name: "Afterburner",
+		flags: { metronome: 1, protect: 1, mirror: 1 },
+		priority: 0,
+		target: "normal",
+		type: "Fire",
+		onBasePower(relayVar, source, target) {
+			if (target.status === "brn") {
+				return this.chainModify(2);
 			}
 		},
 	},

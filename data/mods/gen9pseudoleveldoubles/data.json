@@ -43,7 +43,9 @@
       "spe": 100
     },
     "addmoves": [
-      "dracometeor"
+      "dracometeor",
+      "afterburner",
+      "aircannon"
     ],
     "rmmoves": []
   },
@@ -82,7 +84,7 @@
     ],
     "abilities": {
       "0": "Soundproof",
-      "1": "Compoundeyes",
+      "1": "Compound Eyes",
       "H": "Tinted Lens"
     },
     "baseStats": {
@@ -160,15 +162,19 @@
       "H": "Hustle"
     },
     "baseStats": {
-      "hp": 120,
-      "atk": 118,
-      "def": 80,
-      "spa": 135,
-      "spd": 83,
-      "spe": 122
+      "hp": 95,
+      "atk": 130,
+      "def": 90,
+      "spa": 75,
+      "spd": 85,
+      "spe": 125
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "icefang",
+      "thunderfang",
+      "firefang",
+      "psychicfangs"
     ],
     "rmmoves": []
   },
@@ -192,7 +198,12 @@
       "spe": 112
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "icefang",
+      "thunderfang",
+      "firefang",
+      "psychicfangs",
+      "jawlock"
     ],
     "rmmoves": []
   },
@@ -548,7 +559,8 @@
       "hex",
       "strengthsap",
       "terablast",
-      "trailblaze"
+      "trailblaze",
+      "decompose"
     ],
     "rmmoves": []
   },
@@ -560,7 +572,7 @@
     ],
     "abilities": {
       "0": "Shield Dust",
-      "1": "Compoundeyes",
+      "1": "Compound Eyes",
       "H": "Tinted Lens"
     },
     "baseStats": {
@@ -592,7 +604,9 @@
       "spd": 80,
       "spe": 140
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "dugtrioalola": {
@@ -614,7 +628,9 @@
       "spd": 70,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "persian": {
@@ -672,7 +688,8 @@
   "golduck": {
     "restricted": false,
     "types": [
-      "Water"
+      "Water",
+      "Psychic"
     ],
     "abilities": {
       "0": "Storm Drain",
@@ -828,7 +845,8 @@
     },
     "addmoves": [
       "crunch",
-      "psychicfangs"
+      "psychicfangs",
+      "decompose"
     ],
     "rmmoves": []
   },
@@ -1975,7 +1993,8 @@
       "spe": 91
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "cryofreeze"
     ],
     "rmmoves": []
   },
@@ -2071,7 +2090,8 @@
       "spe": 103
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -2123,13 +2143,34 @@
     ],
     "rmmoves": []
   },
+  "mewtwo": {
+    "restricted": false,
+    "types": [
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Neuroforce",
+      "H": "Sheer Force"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 80,
+      "spa": 135,
+      "spd": 80,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "mew": {
     "restricted": false,
     "types": [
       "Psychic"
     ],
     "abilities": {
-      "0": "Synchronoise",
+      "0": "Synchronize",
       "1": "Protean",
       "H": "Magic Guard"
     },
@@ -2163,7 +2204,22 @@
       "spd": 107,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "alluringvoice",
+      "drainingkiss",
+      "moonblast",
+      "moonlight",
+      "playrough",
+      "babydolleyes",
+      "charm",
+      "dazzlinggleam",
+      "disarmingvoice",
+      "fairylock",
+      "fairywind",
+      "foralhealing",
+      "mistyterrain",
+      "sweetkiss"
+    ],
     "rmmoves": []
   },
   "typhlosion": {
@@ -2185,7 +2241,9 @@
       "spe": 115
     },
     "addmoves": [
-      "earthpower"
+      "earthpower",
+      "burningcoals",
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -2209,7 +2267,9 @@
       "spe": 105
     },
     "addmoves": [
-      "earthpower"
+      "earthpower",
+      "burningcoals",
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -2912,7 +2972,8 @@
       "spe": 120
     },
     "addmoves": [
-      "eruption"
+      "eruption",
+      "burningcoals"
     ],
     "rmmoves": []
   },
@@ -3059,7 +3120,9 @@
       "spd": 90,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "afterburner"
+    ],
     "rmmoves": []
   },
   "kingdra": {
@@ -3109,7 +3172,8 @@
     },
     "addmoves": [
       "moonlight",
-      "radiantreckoning"
+      "radiantreckoning",
+      "loosedirt"
     ],
     "rmmoves": []
   },
@@ -3288,6 +3352,50 @@
       "spa": 100,
       "spd": 100,
       "spe": 60
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "lugia": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Drizzle",
+      "H": "Multiscale"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 120,
+      "spa": 75,
+      "spd": 135,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "hooh": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Drought",
+      "H": "Regenerator"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 120,
+      "def": 75,
+      "spa": 95,
+      "spd": 135,
+      "spe": 80
     },
     "addmoves": [],
     "rmmoves": []
@@ -3648,6 +3756,27 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "slaking": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Truant",
+      "1": "Guts",
+      "H": "Thick Fat"
+    },
+    "baseStats": {
+      "hp": 135,
+      "atk": 140,
+      "def": 90,
+      "spa": 80,
+      "spd": 55,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "ninjask": {
     "restricted": false,
     "types": [
@@ -3692,7 +3821,8 @@
       "spe": 130
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "decompose"
     ],
     "rmmoves": []
   },
@@ -4060,7 +4190,10 @@
       "spd": 105,
       "spe": 20
     },
-    "addmoves": [],
+    "addmoves": [
+      "burningcoals",
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "torkoal": {
@@ -4081,7 +4214,10 @@
       "spd": 140,
       "spe": 20
     },
-    "addmoves": [],
+    "addmoves": [
+      "burningcoals",
+      "afterburner"
+    ],
     "rmmoves": []
   },
   "grumpig": {
@@ -4136,7 +4272,7 @@
     ],
     "abilities": {
       "0": "Levitate",
-      "1": "Compoundeyes",
+      "1": "Compound Eyes",
       "H": "Tinted Lens"
     },
     "baseStats": {
@@ -4147,7 +4283,9 @@
       "spd": 100,
       "spe": 113
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "cacturne": {
@@ -4226,7 +4364,7 @@
     "abilities": {
       "0": "Shed Skin",
       "1": "Intimidate",
-      "H": "Infiltrator"
+      "H": "Sharpness"
     },
     "baseStats": {
       "hp": 100,
@@ -4236,7 +4374,10 @@
       "spd": 90,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "crosspoison",
+      "rustyblade"
+    ],
     "rmmoves": []
   },
   "lunatone": {
@@ -4380,7 +4521,8 @@
     "addmoves": [
       "powergem",
       "trailblaze",
-      "terablast"
+      "terablast",
+      "decompose"
     ],
     "rmmoves": []
   },
@@ -4866,7 +5008,9 @@
       "spd": 200,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "cryofreeze"
+    ],
     "rmmoves": []
   },
   "registeel": {
@@ -4932,6 +5076,71 @@
       "spa": 130,
       "spd": 110,
       "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "kyogre": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Drizzle",
+      "1": "Storm Drain",
+      "H": "Primordial Sea"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 90,
+      "def": 80,
+      "spa": 130,
+      "spd": 120,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "groudon": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Drought",
+      "1": "Stamina",
+      "H": "Desolate Land"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 120,
+      "spa": 90,
+      "spd": 80,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "rayquaza": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Air Lock",
+      "1": "Aerilate",
+      "H": "Delta Stream"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 130,
+      "def": 75,
+      "spa": 130,
+      "spd": 75,
+      "spe": 95
     },
     "addmoves": [],
     "rmmoves": []
@@ -5087,7 +5296,9 @@
       "spd": 75,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "afterburner"
+    ],
     "rmmoves": []
   },
   "empoleon": {
@@ -5184,7 +5395,9 @@
     },
     "addmoves": [
       "hypervoice",
-      "psychicnoise"
+      "psychicnoise",
+      "decompose",
+      "alluringvoice"
     ],
     "rmmoves": []
   },
@@ -5522,7 +5735,9 @@
       "spd": 110,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "ambipom": {
@@ -5778,7 +5993,8 @@
       "spe": 102
     },
     "addmoves": [
-      "dragondance"
+      "dragondance",
+      "loosedirt"
     ],
     "rmmoves": []
   },
@@ -5936,7 +6152,9 @@
       "spd": 90,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "cryofreeze"
+    ],
     "rmmoves": []
   },
   "weavile": {
@@ -6098,7 +6316,8 @@
       "aromaticmist",
       "craftyshield",
       "darkpulse",
-      "aircannon"
+      "aircannon",
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -6279,7 +6498,9 @@
       "spd": 127,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "rustyblade"
+    ],
     "rmmoves": []
   },
   "probopass": {
@@ -6393,7 +6614,8 @@
       "spe": 120
     },
     "addmoves": [
-      "icebeam"
+      "icebeam",
+      "cryofreeze"
     ],
     "rmmoves": []
   },
@@ -6562,6 +6784,94 @@
     ],
     "rmmoves": []
   },
+  "dialga": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Bulletproof",
+      "H": "Filter"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 110,
+      "spa": 130,
+      "spd": 90,
+      "spe": 80
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "dialgaorigin": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Steely Spirit",
+      "H": "Mirror Armor"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 90,
+      "def": 110,
+      "spa": 130,
+      "spd": 100,
+      "spe": 80
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "palkia": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Adaptability",
+      "H": "Competitive"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 80,
+      "spa": 130,
+      "spd": 110,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "palkiaorigin": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Speed Boost",
+      "H": "Mega Launcher"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 90,
+      "def": 80,
+      "spa": 130,
+      "spd": 110,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "heatran": {
     "restricted": false,
     "types": [
@@ -6580,6 +6890,71 @@
       "spa": 130,
       "spd": 106,
       "spe": 77
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "regigigas": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Slow Start",
+      "1": "Iron Fist",
+      "H": "Comatose"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 140,
+      "def": 100,
+      "spa": 70,
+      "spd": 100,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "giratina": {
+    "restricted": false,
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Multiscale",
+      "H": "Shadow Tag"
+    },
+    "baseStats": {
+      "hp": 130,
+      "atk": 85,
+      "def": 110,
+      "spa": 85,
+      "spd": 110,
+      "spe": 80
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "giratinaorigin": {
+    "restricted": false,
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Flare Boost",
+      "H": "Contrary"
+    },
+    "baseStats": {
+      "hp": 130,
+      "atk": 110,
+      "def": 85,
+      "spa": 110,
+      "spd": 85,
+      "spe": 80
     },
     "addmoves": [],
     "rmmoves": []
@@ -6711,6 +7086,348 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "arceus": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusbug": {
+    "restricted": false,
+    "types": [
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusdark": {
+    "restricted": false,
+    "types": [
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusdragon": {
+    "restricted": false,
+    "types": [
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceuselectric": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusfairy": {
+    "restricted": false,
+    "types": [
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusfighting": {
+    "restricted": false,
+    "types": [
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusfire": {
+    "restricted": false,
+    "types": [
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusflying": {
+    "restricted": false,
+    "types": [
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusghost": {
+    "restricted": false,
+    "types": [
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusgrass": {
+    "restricted": false,
+    "types": [
+      "Grass"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusground": {
+    "restricted": false,
+    "types": [
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusice": {
+    "restricted": false,
+    "types": [
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceuspoison": {
+    "restricted": false,
+    "types": [
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceuspsychic": {
+    "restricted": false,
+    "types": [
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceusrock": {
+    "restricted": false,
+    "types": [
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceussteel": {
+    "restricted": false,
+    "types": [
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "arceuswater": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Multitype"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "victini": {
     "restricted": false,
     "types": [
@@ -6734,7 +7451,7 @@
       "terablast",
       "psychicnoise",
       "alluringvoice",
-      "aircannon"
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -6781,7 +7498,9 @@
       "spd": 85,
       "spe": 88
     },
-    "addmoves": [],
+    "addmoves": [
+      "afterburner"
+    ],
     "rmmoves": []
   },
   "samurott": {
@@ -6825,7 +7544,8 @@
       "spe": 115
     },
     "addmoves": [
-      "psychocut"
+      "psychocut",
+      "rustyblade"
     ],
     "rmmoves": []
   },
@@ -7196,7 +7916,8 @@
       "blizzard",
       "icywind",
       "icepunch",
-      "terablast"
+      "terablast",
+      "loosedirt"
     ],
     "rmmoves": []
   },
@@ -7404,27 +8125,6 @@
     "addmoves": [],
     "rmmoves": []
   },
-  "basculinwhitestriped": {
-    "restricted": false,
-    "types": [
-      "Water"
-    ],
-    "abilities": {
-      "0": "Adaptability",
-      "1": "Mold Breaker",
-      "H": "Rock Head"
-    },
-    "baseStats": {
-      "hp": 100,
-      "atk": 120,
-      "def": 80,
-      "spa": 120,
-      "spd": 80,
-      "spe": 100
-    },
-    "addmoves": [],
-    "rmmoves": []
-  },
   "krookodile": {
     "restricted": false,
     "types": [
@@ -7467,7 +8167,8 @@
     },
     "addmoves": [
       "terablast",
-      "temperflare"
+      "temperflare",
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -7493,7 +8194,8 @@
     "addmoves": [
       "terablast",
       "temperflare",
-      "psychicnoise"
+      "psychicnoise",
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -7885,7 +8587,9 @@
       "spd": 95,
       "spe": 99
     },
-    "addmoves": [],
+    "addmoves": [
+      "cryofreeze"
+    ],
     "rmmoves": []
   },
   "sawsbuck": {
@@ -8177,7 +8881,9 @@
       "spd": 90,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "afterburner"
+    ],
     "rmmoves": []
   },
   "haxorus": {
@@ -8199,7 +8905,8 @@
       "spe": 110
     },
     "addmoves": [
-      "nightslash"
+      "nightslash",
+      "rustyblade"
     ],
     "rmmoves": []
   },
@@ -8242,7 +8949,9 @@
       "spd": 170,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "cryofreeze"
+    ],
     "rmmoves": []
   },
   "accelgor": {
@@ -8427,7 +9136,7 @@
       "Flying"
     ],
     "abilities": {
-      "0": "Defiant ",
+      "0": "Defiant",
       "1": "Sheer Force",
       "H": "Guts"
     },
@@ -8586,7 +9295,8 @@
       "spe": 110
     },
     "addmoves": [
-      "scorchingsands"
+      "scorchingsands",
+      "afterburner"
     ],
     "rmmoves": []
   },
@@ -8933,6 +9643,72 @@
     ],
     "rmmoves": []
   },
+  "reshiram": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Teravolt",
+      "1": "Drought",
+      "H": "Competitive"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 90,
+      "spa": 135,
+      "spd": 110,
+      "spe": 75
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "zekrom": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Turboblaze",
+      "1": "Electric Surge",
+      "H": "Defiant"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 135,
+      "def": 110,
+      "spa": 100,
+      "spd": 90,
+      "spe": 75
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "kyurem": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Snow Warning",
+      "H": "Refrigerate"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 120,
+      "def": 80,
+      "spa": 120,
+      "spd": 80,
+      "spe": 85
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "chesnaught": {
     "restricted": false,
     "types": [
@@ -8985,7 +9761,7 @@
     ],
     "abilities": {
       "0": "Protean",
-      "1": "Inflitrator",
+      "1": "Infiltrator",
       "H": "Battle Bond"
     },
     "baseStats": {
@@ -9223,7 +9999,7 @@
     ],
     "abilities": {
       "0": "Fur Coat",
-      "1": "Oblivous",
+      "1": "Oblivious",
       "H": "Dazzling"
     },
     "baseStats": {
@@ -9328,7 +10104,8 @@
     "addmoves": [
       "terablast",
       "aquacutter",
-      "leafblade"
+      "leafblade",
+      "rustyblade"
     ],
     "rmmoves": []
   },
@@ -9544,7 +10321,8 @@
     },
     "addmoves": [
       "terablast",
-      "icespinner"
+      "icespinner",
+      "cryofreeze"
     ],
     "rmmoves": []
   },
@@ -9788,7 +10566,9 @@
       "spd": 90,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "cryofreeze"
+    ],
     "rmmoves": []
   },
   "avalugghisui": {
@@ -9838,6 +10618,49 @@
       "alluringvoice",
       "aircannon"
     ],
+    "rmmoves": []
+  },
+  "xerneas": {
+    "restricted": false,
+    "types": [
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Fairy Aura",
+      "1": "Grassy Surge",
+      "H": "Magic Bounce"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 120,
+      "def": 80,
+      "spa": 120,
+      "spd": 90,
+      "spe": 85
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "yveltal": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Dark Aura",
+      "1": "Vessel of Ruin",
+      "H": "Aerilate"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 120,
+      "def": 80,
+      "spa": 120,
+      "spd": 90,
+      "spe": 85
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "zygarde": {
@@ -9896,6 +10719,28 @@
     ],
     "rmmoves": []
   },
+  "zygardecomplete": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Aura Break",
+      "1": "Multiscale",
+      "H": "Earth Eater"
+    },
+    "baseStats": {
+      "hp": 185,
+      "atk": 90,
+      "def": 100,
+      "spa": 65,
+      "spd": 85,
+      "spe": 75
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "diancie": {
     "restricted": false,
     "types": [
@@ -9943,6 +10788,28 @@
     "addmoves": [
       "willowisp"
     ],
+    "rmmoves": []
+  },
+  "hoopaunbound": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Magician",
+      "1": "Magic Guard",
+      "H": "Sheer Force"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 65,
+      "spa": 150,
+      "spd": 95,
+      "spe": 80
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "volcanion": {
@@ -10665,7 +11532,7 @@
       "Water"
     ],
     "abilities": {
-      "0": "Emergancy Exit",
+      "0": "Emergency Exit",
       "1": "Shell Armor",
       "H": "Sharpness"
     },
@@ -10691,7 +11558,7 @@
       "Ground"
     ],
     "abilities": {
-      "0": "Water Compation",
+      "0": "Water Compaction",
       "1": "Dry Skin",
       "H": "Cursed Body"
     },
@@ -10703,7 +11570,9 @@
       "spd": 90,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "pyukumuku": {
@@ -10749,6 +11618,363 @@
       "terablast",
       "trailblaze"
     ],
+    "rmmoves": []
+  },
+  "silvallybug": {
+    "restricted": false,
+    "types": [
+      "Bug"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallydark": {
+    "restricted": false,
+    "types": [
+      "Dark"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallydragon": {
+    "restricted": false,
+    "types": [
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyelectric": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyfairy": {
+    "restricted": false,
+    "types": [
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyfighting": {
+    "restricted": false,
+    "types": [
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyfire": {
+    "restricted": false,
+    "types": [
+      "Fire"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyflying": {
+    "restricted": false,
+    "types": [
+      "Flying"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyghost": {
+    "restricted": false,
+    "types": [
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallygrass": {
+    "restricted": false,
+    "types": [
+      "Grass"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyground": {
+    "restricted": false,
+    "types": [
+      "Ground"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyice": {
+    "restricted": false,
+    "types": [
+      "Ice"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallypoison": {
+    "restricted": false,
+    "types": [
+      "Poison"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallypsychic": {
+    "restricted": false,
+    "types": [
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallyrock": {
+    "restricted": false,
+    "types": [
+      "Rock"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallysteel": {
+    "restricted": false,
+    "types": [
+      "Steel"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "silvallywater": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "RKS System",
+      "1": "Protean",
+      "H": "Download"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 115,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 115
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "miniormeteor": {
@@ -10855,7 +12081,7 @@
     ],
     "abilities": {
       "0": "Iron Barbs",
-      "1": "Lighting Rod",
+      "1": "Lightning Rod",
       "H": "Sturdy"
     },
     "baseStats": {
@@ -11120,6 +12346,50 @@
     ],
     "rmmoves": []
   },
+  "solgaleo": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Full Metal Body",
+      "1": "Filter",
+      "H": "Flash Fire"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 115,
+      "def": 100,
+      "spa": 90,
+      "spd": 80,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "lunala": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Shadow Shield",
+      "1": "Levitate",
+      "H": "Magic Bounce"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 90,
+      "def": 80,
+      "spa": 115,
+      "spd": 100,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "nihilego": {
     "restricted": false,
     "types": [
@@ -11264,7 +12534,8 @@
     },
     "addmoves": [
       "terablast",
-      "aquacutter"
+      "aquacutter",
+      "rustyblade"
     ],
     "rmmoves": []
   },
@@ -11602,7 +12873,7 @@
       "Psychic"
     ],
     "abilities": {
-      "0": "Compoundeyes",
+      "0": "Compound Eyes",
       "1": "Frisk",
       "H": "Psychic Surge"
     },
@@ -11769,7 +13040,9 @@
       "spd": 110,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "burningcoals"
+    ],
     "rmmoves": []
   },
   "flapple": {
@@ -11925,9 +13198,7 @@
       "spd": 60,
       "spe": 176
     },
-    "addmoves": [
-      "aircannon"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "toxtricity": {
@@ -12211,7 +13482,8 @@
     },
     "addmoves": [
       "sacredsword",
-      "terablast"
+      "terablast",
+      "rustyblade"
     ],
     "rmmoves": []
   },
@@ -12352,7 +13624,8 @@
       "spe": 85
     },
     "addmoves": [
-      "roost"
+      "roost",
+      "cryofreeze"
     ],
     "rmmoves": []
   },
@@ -12623,6 +13896,136 @@
       "spa": 100,
       "spd": 75,
       "spe": 142
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "dragapultpartner": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Parental Bond",
+      "1": "Infiltrator",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 110,
+      "def": 75,
+      "spa": 110,
+      "spd": 75,
+      "spe": 145
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "zacian": {
+    "restricted": false,
+    "types": [
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Intrepid Sword",
+      "1": "Tough Claws",
+      "H": "Guts"
+    },
+    "baseStats": {
+      "hp": 92,
+      "atk": 110,
+      "def": 110,
+      "spa": 58,
+      "spd": 110,
+      "spe": 120
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "zaciancrowned": {
+    "restricted": false,
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Intrepid Sword",
+      "1": "Sharpness",
+      "H": "Intimidate"
+    },
+    "baseStats": {
+      "hp": 92,
+      "atk": 120,
+      "def": 105,
+      "spa": 48,
+      "spd": 105,
+      "spe": 130
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "zamazenta": {
+    "restricted": false,
+    "types": [
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Dauntless Shield",
+      "1": "Stamina",
+      "H": "Guts"
+    },
+    "baseStats": {
+      "hp": 92,
+      "atk": 110,
+      "def": 105,
+      "spa": 68,
+      "spd": 105,
+      "spe": 120
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "zamazentacrowned": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Dauntless Shield",
+      "1": "Stamina",
+      "H": "Filter"
+    },
+    "baseStats": {
+      "hp": 92,
+      "atk": 100,
+      "def": 115,
+      "spa": 68,
+      "spd": 115,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "eternatus": {
+    "restricted": false,
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Corrosion",
+      "H": "Levitate"
+    },
+    "baseStats": {
+      "hp": 130,
+      "atk": 70,
+      "def": 80,
+      "spa": 125,
+      "spd": 80,
+      "spe": 115
     },
     "addmoves": [],
     "rmmoves": []
@@ -13496,7 +14899,8 @@
       "spe": 110
     },
     "addmoves": [
-      "leafblade"
+      "leafblade",
+      "rustyblade"
     ],
     "rmmoves": []
   },
@@ -13644,7 +15048,9 @@
       "spd": 120,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      ":loosedirt"
+    ],
     "rmmoves": []
   },
   "klawf": {
@@ -13697,7 +15103,7 @@
       "Psychic"
     ],
     "abilities": {
-      "0": "Synchoronize",
+      "0": "Synchronize",
       "1": "Shield Dust",
       "H": "Magic Bounce"
     },
@@ -14183,7 +15589,8 @@
       "dragonbreath",
       "dragondance",
       "dragonhammer",
-      "twister"
+      "twister",
+      "loosedirt"
     ],
     "rmmoves": []
   },
@@ -14257,7 +15664,9 @@
       "spd": 65,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "screamtail": {
@@ -14393,7 +15802,9 @@
       "spd": 80,
       "spe": 116
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "ironbundle": {
@@ -14418,7 +15829,8 @@
     "addmoves": [
       "surf",
       "flashcannon",
-      "aircannon"
+      "aircannon",
+      "cryofreeze"
     ],
     "rmmoves": []
   },
@@ -14604,7 +16016,9 @@
       "spd": 75,
       "spe": 165
     },
-    "addmoves": [],
+    "addmoves": [
+      "rustyblade"
+    ],
     "rmmoves": []
   },
   "tinglu": {
@@ -14702,6 +16116,50 @@
     ],
     "rmmoves": []
   },
+  "koraidon": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Orichalcum Pulse",
+      "1": "Tough Claws",
+      "H": "Moxie"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 135,
+      "def": 105,
+      "spa": 55,
+      "spd": 90,
+      "spe": 125
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "miraidon": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Hadron Engine",
+      "1": "Adaptability",
+      "H": "Surge Surfer"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 55,
+      "def": 90,
+      "spa": 135,
+      "spd": 105,
+      "spe": 125
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "walkingwake": {
     "restricted": false,
     "types": [
@@ -14743,7 +16201,9 @@
       "spd": 108,
       "spe": 114
     },
-    "addmoves": [],
+    "addmoves": [
+      "rustyblade"
+    ],
     "rmmoves": []
   },
   "sinistcha": {
@@ -15062,7 +16522,9 @@
       "spd": 108,
       "spe": 134
     },
-    "addmoves": [],
+    "addmoves": [
+      "rustyblade"
+    ],
     "rmmoves": []
   },
   "ironcrown": {
@@ -15087,6 +16549,27 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "terapagos": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Tera Shift",
+      "1": "Adaptability",
+      "H": "Protean"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "terapagosterastal": {
     "restricted": false,
     "types": [
@@ -15104,6 +16587,27 @@
       "spa": 105,
       "spd": 110,
       "spe": 85
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "terapagosstellar": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Teraform Zero",
+      "1": "Multiscale",
+      "H": "Analytic"
+    },
+    "baseStats": {
+      "hp": 130,
+      "atk": 75,
+      "def": 115,
+      "spa": 110,
+      "spd": 115,
+      "spe": 55
     },
     "addmoves": [],
     "rmmoves": []
