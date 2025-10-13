@@ -12,8 +12,8 @@ const AVATARS_FILE = 'config/avatars.json';
 
 /**
  * Avatar IDs should be in one of these formats:
- * - 'cynthia' - official avatars in https://play.pokemonshowdown.com/sprites/trainers/
- * - '#splxraiders' - hosted custom avatars in https://play.pokemonshowdown.com/sprites/trainers-custom/
+ * - 'cynthia' - official avatars in https://play.ionite-showdown.xyz/sprites/trainers/
+ * - '#splxraiders' - hosted custom avatars in https://play.ionite-showdown.xyz/sprites/trainers-custom/
  * - 'example.png' - side server custom avatars in config/avatars/ in your server
  */
 type AvatarID = string;
@@ -812,7 +812,7 @@ export const commands: Chat.ChatCommands = {
 				right.
 			</p>, <p>
 				Avatars from generations other than 4-5 are hidden. You can find them in this {}
-				<a href="https://play.pokemonshowdown.com/sprites/trainers/"><strong>full list of avatars</strong></a>. {}
+				<a href="https://play.ionite-showdown.xyz/sprites/trainers/"><strong>full list of avatars</strong></a>. {}
 				You can use them by typing <code>/avatar <i>[avatar's name]</i></code> into any chat. For example, {}
 				<code>/avatar erika-gen2</code>.
 			</p>]}

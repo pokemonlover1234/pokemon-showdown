@@ -5653,7 +5653,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Relentless Edge",
 		rating: 3.5,
-		desc: "If the target is affected by a status condition, Hisuian Samurott's contact moves deal 1.3x damage, and apply no recoil or drawback effects (Life Orb recoil, self stat drops.",
+		desc: "If the target is affected by a status condition, this Pokemon's contact moves deal 1.3x damage, and apply no recoil or drawback effects (Life Orb recoil, self stat drops.",
 		onBasePowerPriority: 21,
 		onModifyMove(move, pokemon, target) {
 			if (pokemon.status && target != null && this.checkMoveMakesContact(move, pokemon, target)) {
@@ -5671,7 +5671,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Spectral Pierce",
 		rating: 2,
-		desc: "Hisuian Typhlosion's Ghost type attacks ignore Protect, Detect, Substitute, etc.",
+		desc: "This Pokemon's Ghost type attacks ignore Protect, Detect, Substitute, etc.",
 		onModifyMove(move) {
 			if (move.type === "Ghost") delete move.flags["protect"];
 		},
@@ -5681,7 +5681,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Volcanic Surge",
 		rating: 3,
-		desc: "When Typholsion uses a Fire type move, the power of it's next special attack (Any type) is boosted by 30%.The boost resets after the next special attack.",
+		desc: "When this Pokemon uses a Fire type move, the power of it's next special attack (Any type) is boosted by 30%. The boost resets after the next special attack.",
 		condition: {
 			onStart(pokemon, source, effect) {
 				this.add('-start', pokemon, 'Volcanic Surge');
@@ -5820,7 +5820,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Bushido",
 		rating: 3,
-		desc: "Samurott’s first damaging move each time it enters the field always scores a critical hit if it targets an opponent who has not yet moved that turn.",
+		desc: "This Pokemon's first damaging move each time it enters the field always scores a critical hit if it targets an opponent who has not yet moved that turn.",
 		condition: {
 			onStart(pokemon, source, effect) {
 				this.add('-start', pokemon, 'Bushido');
@@ -5860,7 +5860,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Inner Flame",
 		rating: 3,
-		desc: "This Pokemon's always uses the highest attack stat when using Fire type attacks and Fire type attacks have 1.2x power.",
+		desc: "This Pokemon always uses the highest attack stat when using Fire type attacks and Fire type attacks have 1.2x power.",
 		onBasePower(basePower, pokemon, defender, move) {
 			if (move.type === "Fire") {
 				return this.chainModify(1.2);
@@ -5918,5 +5918,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePower(basePower, source, target, move) {
 			if (move.flags["kick"]) return this.chainModify(1.2);
 		},
+	},
+	bludgeon: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Bludgeon",
+		rating: 3,
+		desc: "This Pokemon's hammer & blunt based moves have thier power multiplied by 1.3.",
 	},
 };
