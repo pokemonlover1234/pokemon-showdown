@@ -9650,7 +9650,7 @@
       "Fire"
     ],
     "abilities": {
-      "0": "Teravolt",
+      "0": "Turboblaze",
       "1": "Drought",
       "H": "Competitive"
     },
@@ -9672,7 +9672,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Turboblaze",
+      "0": "Teravolt",
       "1": "Electric Surge",
       "H": "Defiant"
     },
@@ -13999,10 +13999,10 @@
     },
     "baseStats": {
       "hp": 92,
-      "atk": 100,
-      "def": 115,
-      "spa": 68,
-      "spd": 115,
+      "atk": 110,
+      "def": 120,
+      "spa": 48,
+      "spd": 120,
       "spe": 110
     },
     "addmoves": [],
@@ -16125,14 +16125,14 @@
     "abilities": {
       "0": "Orichalcum Pulse",
       "1": "Tough Claws",
-      "H": "Moxie"
+      "H": "Reckless"
     },
     "baseStats": {
       "hp": 90,
-      "atk": 135,
-      "def": 105,
-      "spa": 55,
-      "spd": 90,
+      "atk": 125,
+      "def": 100,
+      "spa": 75,
+      "spd": 85,
       "spe": 125
     },
     "addmoves": [],
@@ -16146,15 +16146,15 @@
     ],
     "abilities": {
       "0": "Hadron Engine",
-      "1": "Adaptability",
-      "H": "Surge Surfer"
+      "1": "Transistor",
+      "H": "Motor Drive"
     },
     "baseStats": {
       "hp": 90,
-      "atk": 55,
-      "def": 90,
-      "spa": 135,
-      "spd": 105,
+      "atk": 75,
+      "def": 85,
+      "spa": 125,
+      "spd": 100,
       "spe": 125
     },
     "addmoves": [],
