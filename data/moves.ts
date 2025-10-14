@@ -21385,7 +21385,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { metronome: 1, mirror: 1, protect: 1 },
 		target: 'normal',
-		type: 'flying',
+		type: 'Flying',
 		contestType: 'Cool',
 	},
 	gleamstep: {
@@ -21399,7 +21399,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { metronome: 1, mirror: 1, protect: 1 },
 		selfSwitch: true,
 		target: 'normal',
-		type: 'fairy',
+		type: 'Fairy',
 		contestType: "Beatiful",
 		onBasePower(power, source) {
 			if (source.baseStoredStats.atk > source.baseStoredStats.spa) {
@@ -21420,7 +21420,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			if (type === 'Ghost') return 1;
 		},
 		target: 'normal',
-		type: 'bug',
+		type: 'Bug',
 	},
 	rustyblade: {
 		accuracy: 90,
@@ -21432,7 +21432,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { metronome: 1, mirror: 1, protect: 1, contact: 1 },
 		category: "Physical",
 		target: "normal",
-		type: "poison",
+		type: "Poison",
 		onAfterHit(target, source, move) {
 			if (!move.hasSheerForce && source.hp) {
 				for (const side of source.side.foeSidesWithConditions()) {
@@ -21458,7 +21458,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { metronome: 1, mirror: 1, protect: 1, reflectable: 1 },
 		target: "normal",
-		type: "ice",
+		type: "Ice",
 		status: 'frostbite',
 	},
 	loosedirt: {
@@ -21475,7 +21475,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { metronome: 1, mirror: 1, protect: 1 },
 		target: "normal",
-		type: "ground",
+		type: "Ground",
 	},
 	burningcoals: {
 		accuracy: true,
