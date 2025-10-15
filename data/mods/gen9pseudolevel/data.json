@@ -2303,7 +2303,7 @@
     "abilities": {
       "0": "Frisk",
       "1": "Fluffy",
-      "H": "Serene Grace"
+      "H": "Housekeeping"
     },
     "baseStats": {
       "hp": 100,
@@ -5262,7 +5262,7 @@
       "Ground"
     ],
     "abilities": {
-      "0": "Overgrow",
+      "0": "Tree of Life",
       "1": "Shell Armor",
       "H": "Anger Shell"
     },
@@ -5284,7 +5284,7 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Blaze",
+      "0": "Inner Flame",
       "1": "Iron Fist",
       "H": "Sheer Force"
     },
@@ -14636,7 +14636,7 @@
     ],
     "abilities": {
       "0": "Scrappy",
-      "1": "Cheek Pouch",
+      "1": "Housekeeping",
       "H": "Technician"
     },
     "baseStats": {
@@ -14657,7 +14657,7 @@
     ],
     "abilities": {
       "0": "Scrappy",
-      "1": "Cheek Pouch",
+      "1": "Housekeeping",
       "H": "Technician"
     },
     "baseStats": {
