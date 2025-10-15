@@ -5924,6 +5924,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Bludgeon",
 		rating: 3,
-		desc: "This Pokemon's hammer & blunt based moves have thier power multiplied by 1.3.",
+		desc: "This Pokemon's hammer & blunt based moves have thier power multiplied by 1.3. [NOT IMPLEMENTED]",
 	},
 };
