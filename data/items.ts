@@ -7743,15 +7743,26 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				return;
 			}
 			for (const side of this.sides) {
+				if (side == null) continue;
 				for (const pokemon of side.pokemon) {
+					if (pokemon == null) continue;
 					if (!pokemon.volatiles["pandorascurse"] && pokemon.hp) {
 						pokemon.addVolatile("pandorascurse", target);
+						if (pokemon.isProtected()) {
+							this.add("-activate", pokemon, "move: Protect");
+							continue;
+						}
 						const curse = pokemon.volatiles["pandorascurse"];
 						console.log("Rolling status for " + pokemon.name);
 						while (!success) {
 							res = randomElement(choices);
 							console.log(pokemon.name + " rolled " + res);
 							if (nonvolatiles.includes(res)) {
+								if (pokemon.hasAbility('comatose')) {
+									this.add('-immune', target, '[from] ability: Comatose');
+									success = true;
+									continue;
+								}
 								success = pokemon.trySetStatus(res, target, curse);
 							} else {
 								if (pokemon.volatiles[res]) {

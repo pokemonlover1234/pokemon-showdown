@@ -22205,14 +22205,14 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onAfterHit(target, source, move) {
 			if (!move.hasSheerForce && source.hp) {
 				for (const side of source.side.foeSidesWithConditions()) {
-					side.addSideCondition('spikes');
+					side.addSideCondition('toxicspikes');
 				}
 			}
 		},
 		onAfterSubDamage(damage, target, source, move) {
 			if (!move.hasSheerForce && source.hp) {
 				for (const side of source.side.foeSidesWithConditions()) {
-					side.addSideCondition('spikes');
+					side.addSideCondition('toxicspikes');
 				}
 			}
 		},
