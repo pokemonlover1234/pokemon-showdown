@@ -2633,35 +2633,4 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		desc: "When holder is hit by any move, a random status is applied to all Pokemon on the field. \"Pandora's Curse\" is also applied to all affected Pokemon, which prevents this item from triggering again for the same Pokemon. \"Pandora's Curse\" is cleared only on switch out and has no other effect.",
 		shortDesc: "When hit by any move, applies random status to all Pokemon. Also applies Pandora's Curse.",
 	},
-	speedorb: {
-		name: "Speed Org",
-		desc: "Holder's Speed is multiplied by 1.3, but holder loses 1/10 of its max HP every turn.",
-		shortDesc: "Holder's Speed 1.3x, but lose 1/10 HP per turn.",
-	},
-	guardorb: {
-		name: "Guard Org",
-		desc: "Holder's Defense & Special Defense is multiplied by 1.3, but holder loses 1/10 of its max HP every turn.",
-		shortDesc: "Holder's Def & SpDef 1.3x, but lose 1/10 HP per turn.",
-	},
-	darkrock: {
-		name: "Dark Rock",
-		desc: "Holder's use of Moonlit Night lasts 8 turns instead of 5.",
-	},
-	astralgem: {
-		name: "Astral Gem",
-		desc: "Holder's first successful Astral type attack will have 1.3x power. Single use.",
-	},
-	galacticplate: {
-		name: "Galactic Plate",
-		desc: "Holder's Astral type attacks have 1.2x power. Arceus with Multitype changes to Arceus-Astral. Judgement is Astral type.",
-	},
-	astralmemory: {
-		name: "Astral Memory",
-		desc: "Silvally with RKS System changes to Silvally-Astral. Multi-Attack is Astral Type",
-	},
-	energyherb: {
-		name: "Energy Herb",
-		desc: "If Holder has to Recharge, it eliminates the effect. Single use",
-		end: "  [POKEMON] immediately recharged using its Energy Herb",
-	},
 };
