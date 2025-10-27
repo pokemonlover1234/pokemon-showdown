@@ -7608,4 +7608,45 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+	radiantreckoning: {
+		name: "Radiant Reckoning",
+		shortDesc: "Lowers user's Defense by 1 stage.",
+	},
+	aircannon: {
+		name: "Air Cannon",
+		shortDesc: "No additional effects.",
+	},
+	gleamstep: {
+		name: "Gleamstep",
+		desc: "The user switches out after dealing damage. This attack always users the highest attack stat.",
+		shortDesc: "The user switches out. Uses highest attack stat.",
+	},
+	decompose: {
+		name: "Decompose",
+		shortDesc: "Super effective against Ghost types.",
+	},
+	rustyblade: {
+		name: "Rusty Blade",
+		desc: "Sets a layer of Toxic Spikes on the opposing side.",
+		shortDesc: "Sets a layer of Toxic Spikes.",
+	},
+	cryofreeze: {
+		name: "Cryofreeze",
+		desc: "Inflicts Frostbite on the target.",
+		shortDesc: "Inflicts Frostbite.",
+	},
+	loosedirt: {
+		name: "Loose Dirt",
+		shortDesc: "30% chance to flinch.",
+	},
+	burningcoals: {
+		name: "Burning Coals",
+		desc: "Sets a magma-like substance on the opposing side. Ground & Fire types remove this effect when swapped in on the affected side.",
+		shortDesc: "Sets a magma-like substance on the opposing side.",
+	},
+	afterburner: {
+		name: "Afterburner",
+		desc: "The user unleashes a very hot blast of fire. Power doubles if target is burned.",
+		shortDesc: "Power doubles if target is burned.",
+	},
 };
