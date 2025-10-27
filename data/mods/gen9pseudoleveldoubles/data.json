@@ -12,10 +12,10 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 82,
+      "atk": 80,
       "def": 120,
-      "spa": 122,
-      "spd": 116,
+      "spa": 125,
+      "spd": 115,
       "spe": 80
     },
     "addmoves": [
@@ -36,11 +36,11 @@
     },
     "baseStats": {
       "hp": 78,
-      "atk": 126,
+      "atk": 125,
       "def": 85,
-      "spa": 126,
+      "spa": 125,
       "spd": 85,
-      "spe": 100
+      "spe": 102
     },
     "addmoves": [
       "dracometeor",
@@ -62,11 +62,11 @@
     },
     "baseStats": {
       "hp": 79,
-      "atk": 101,
+      "atk": 100,
       "def": 120,
-      "spa": 105,
-      "spd": 117,
-      "spe": 78
+      "spa": 110,
+      "spd": 115,
+      "spe": 76
     },
     "addmoves": [
       "armorcannon",
@@ -88,12 +88,12 @@
       "H": "Tinted Lens"
     },
     "baseStats": {
-      "hp": 76,
-      "atk": 76,
-      "def": 82,
+      "hp": 75,
+      "atk": 75,
+      "def": 85,
       "spa": 135,
-      "spd": 114,
-      "spe": 117
+      "spd": 110,
+      "spe": 120
     },
     "addmoves": [
       "terablast",
@@ -114,10 +114,10 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 78,
+      "hp": 80,
       "atk": 135,
-      "def": 73,
-      "spa": 84,
+      "def": 70,
+      "spa": 85,
       "spd": 95,
       "spe": 135
     },
@@ -140,10 +140,10 @@
     "baseStats": {
       "hp": 90,
       "atk": 80,
-      "def": 87,
+      "def": 85,
       "spa": 135,
-      "spd": 87,
-      "spe": 121
+      "spd": 85,
+      "spe": 125
     },
     "addmoves": [
       "terablast",
@@ -190,12 +190,12 @@
       "H": "Thick Fat"
     },
     "baseStats": {
-      "hp": 130,
-      "atk": 108,
-      "def": 90,
-      "spa": 67,
-      "spd": 93,
-      "spe": 112
+      "hp": 120,
+      "atk": 110,
+      "def": 95,
+      "spa": 75,
+      "spd": 95,
+      "spe": 105
     },
     "addmoves": [
       "terablast",
@@ -219,11 +219,11 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 130,
+      "hp": 105,
       "atk": 130,
-      "def": 88,
-      "spa": 61,
-      "spd": 61,
+      "def": 90,
+      "spa": 60,
+      "spd": 85,
       "spe": 130
     },
     "addmoves": [
@@ -337,9 +337,9 @@
       "hp": 100,
       "atk": 125,
       "def": 130,
-      "spa": 25,
-      "spd": 105,
-      "spe": 115
+      "spa": 45,
+      "spd": 100,
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -357,11 +357,11 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 145,
-      "def": 150,
-      "spa": 25,
-      "spd": 85,
-      "spe": 95
+      "atk": 140,
+      "def": 145,
+      "spa": 45,
+      "spd": 80,
+      "spe": 90
     },
     "addmoves": [],
     "rmmoves": []
@@ -427,12 +427,12 @@
       "H": "Unaware"
     },
     "baseStats": {
-      "hp": 135,
+      "hp": 110,
       "atk": 70,
-      "def": 103,
-      "spa": 115,
-      "spd": 120,
-      "spe": 57
+      "def": 90,
+      "spa": 125,
+      "spd": 135,
+      "spe": 70
     },
     "addmoves": [],
     "rmmoves": []
@@ -448,10 +448,10 @@
       "H": "Fluffy"
     },
     "baseStats": {
-      "hp": 103,
-      "atk": 71,
-      "def": 75,
-      "spa": 121,
+      "hp": 100,
+      "atk": 70,
+      "def": 80,
+      "spa": 120,
       "spd": 100,
       "spe": 130
     },
@@ -470,12 +470,12 @@
       "H": "Dazzling"
     },
     "baseStats": {
-      "hp": 73,
-      "atk": 62,
-      "def": 100,
-      "spa": 111,
+      "hp": 80,
+      "atk": 60,
+      "def": 95,
+      "spa": 120,
       "spd": 105,
-      "spe": 149
+      "spe": 140
     },
     "addmoves": [
       "waterpulse",
@@ -543,9 +543,9 @@
     "baseStats": {
       "hp": 90,
       "atk": 120,
-      "def": 124,
-      "spa": 92,
-      "spd": 114,
+      "def": 120,
+      "spa": 95,
+      "spd": 115,
       "spe": 60
     },
     "addmoves": [
@@ -718,12 +718,12 @@
       "H": "Justified"
     },
     "baseStats": {
-      "hp": 94,
-      "atk": 119,
+      "hp": 95,
+      "atk": 120,
       "def": 90,
       "spa": 100,
       "spd": 90,
-      "spe": 107
+      "spe": 105
     },
     "addmoves": [],
     "rmmoves": []
@@ -740,12 +740,12 @@
       "H": "Rock Head"
     },
     "baseStats": {
-      "hp": 99,
-      "atk": 124,
+      "hp": 100,
+      "atk": 125,
       "def": 90,
       "spa": 95,
       "spd": 90,
-      "spe": 102
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -820,7 +820,8 @@
       "coaching",
       "upperhand",
       "jetpunch",
-      "terablast"
+      "terablast",
+      "drainpunch"
     ],
     "rmmoves": []
   },
@@ -989,12 +990,12 @@
       "H": "Serene Grace"
     },
     "baseStats": {
-      "hp": 81,
-      "atk": 147,
-      "def": 87,
-      "spa": 57,
-      "spd": 81,
-      "spe": 147
+      "hp": 85,
+      "atk": 135,
+      "def": 90,
+      "spa": 65,
+      "spd": 85,
+      "spe": 140
     },
     "addmoves": [
       "blazekick",
@@ -1203,11 +1204,11 @@
     },
     "baseStats": {
       "hp": 75,
-      "atk": 175,
-      "def": 145,
-      "spa": 50,
-      "spd": 70,
-      "spe": 85
+      "atk": 160,
+      "def": 135,
+      "spa": 55,
+      "spd": 75,
+      "spe": 100
     },
     "addmoves": [
       "earthquake",
@@ -1292,12 +1293,12 @@
       "H": "Seed Sower"
     },
     "baseStats": {
-      "hp": 145,
+      "hp": 115,
       "atk": 115,
       "def": 95,
       "spa": 135,
       "spd": 85,
-      "spe": 25
+      "spe": 55
     },
     "addmoves": [
       "overheat"
@@ -1315,12 +1316,12 @@
       "H": "Reckless"
     },
     "baseStats": {
-      "hp": 92,
-      "atk": 117,
+      "hp": 95,
+      "atk": 120,
       "def": 120,
-      "spa": 60,
-      "spd": 102,
-      "spe": 109
+      "spa": 70,
+      "spd": 90,
+      "spe": 100
     },
     "addmoves": [
       "headsmash",
@@ -1340,12 +1341,12 @@
       "H": "Rock Head"
     },
     "baseStats": {
-      "hp": 93,
+      "hp": 85,
       "atk": 100,
       "def": 115,
-      "spa": 90,
+      "spa": 100,
       "spd": 100,
-      "spe": 102
+      "spe": 100
     },
     "addmoves": [
       "terablast"
@@ -1478,12 +1479,12 @@
       "H": "Lightning Rod"
     },
     "baseStats": {
-      "hp": 120,
-      "atk": 116,
-      "def": 84,
-      "spa": 74,
+      "hp": 100,
+      "atk": 125,
+      "def": 90,
+      "spa": 85,
       "spd": 100,
-      "spe": 106
+      "spe": 100
     },
     "addmoves": [
       "thunderbolt",
@@ -1493,7 +1494,8 @@
       "supercellslam",
       "icespinner",
       "dragondance",
-      "terablast"
+      "terablast",
+      "voltswitch"
     ],
     "rmmoves": []
   },
@@ -1509,12 +1511,12 @@
       "H": "Analytic"
     },
     "baseStats": {
-      "hp": 83,
+      "hp": 85,
       "atk": 75,
-      "def": 98,
-      "spa": 119,
-      "spd": 98,
-      "spe": 127
+      "def": 95,
+      "spa": 120,
+      "spd": 95,
+      "spe": 130
     },
     "addmoves": [
       "terablast"
@@ -1533,12 +1535,12 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 92,
+      "hp": 90,
       "atk": 85,
-      "def": 77,
-      "spa": 113,
+      "def": 80,
+      "spa": 110,
       "spd": 140,
-      "spe": 93
+      "spe": 95
     },
     "addmoves": [
       "terablast",
@@ -1593,7 +1595,8 @@
     "addmoves": [
       "terablast",
       "alluringvoice",
-      "psychicnoise"
+      "psychicnoise",
+      "drainingkiss"
     ],
     "rmmoves": []
   },
@@ -1608,12 +1611,12 @@
       "H": "Moxie"
     },
     "baseStats": {
-      "hp": 84,
-      "atk": 132,
-      "def": 121,
-      "spa": 71,
+      "hp": 80,
+      "atk": 135,
+      "def": 120,
+      "spa": 70,
       "spd": 90,
-      "spe": 102
+      "spe": 105
     },
     "addmoves": [
       "megahorn",
@@ -1743,12 +1746,12 @@
       "H": "Water Absorb"
     },
     "baseStats": {
-      "hp": 160,
-      "atk": 90,
-      "def": 100,
-      "spa": 90,
-      "spd": 100,
-      "spe": 60
+      "hp": 145,
+      "atk": 95,
+      "def": 105,
+      "spa": 95,
+      "spd": 105,
+      "spe": 55
     },
     "addmoves": [],
     "rmmoves": []
@@ -1764,12 +1767,12 @@
       "H": "Imposter"
     },
     "baseStats": {
-      "hp": 255,
+      "hp": 250,
       "atk": 5,
-      "def": 75,
+      "def": 70,
       "spa": 5,
-      "spd": 5,
-      "spe": 255
+      "spd": 70,
+      "spe": 200
     },
     "addmoves": [],
     "rmmoves": []
@@ -1886,12 +1889,12 @@
       "H": "Weak Armor"
     },
     "baseStats": {
-      "hp": 79,
-      "atk": 80,
-      "def": 145,
+      "hp": 75,
+      "atk": 90,
+      "def": 135,
       "spa": 130,
       "spd": 90,
-      "spe": 76
+      "spe": 80
     },
     "addmoves": [
       "powergem",
@@ -1985,12 +1988,12 @@
       "H": "Ice Scales"
     },
     "baseStats": {
-      "hp": 111,
+      "hp": 110,
       "atk": 75,
-      "def": 131,
-      "spa": 101,
-      "spd": 91,
-      "spe": 91
+      "def": 125,
+      "spa": 100,
+      "spd": 95,
+      "spe": 95
     },
     "addmoves": [
       "aircannon",
@@ -2010,12 +2013,12 @@
       "H": "Magic Guard"
     },
     "baseStats": {
-      "hp": 91,
+      "hp": 90,
       "atk": 75,
-      "def": 91,
-      "spa": 131,
-      "spd": 91,
-      "spe": 121
+      "def": 90,
+      "spa": 130,
+      "spd": 90,
+      "spe": 125
     },
     "addmoves": [
       "aircannon"
@@ -2034,12 +2037,12 @@
       "H": "Static"
     },
     "baseStats": {
-      "hp": 92,
+      "hp": 90,
       "atk": 70,
-      "def": 82,
-      "spa": 132,
-      "spd": 102,
-      "spe": 122
+      "def": 85,
+      "spa": 130,
+      "spd": 100,
+      "spe": 125
     },
     "addmoves": [
       "aircannon"
@@ -2058,12 +2061,12 @@
       "H": "Reckless"
     },
     "baseStats": {
-      "hp": 92,
-      "atk": 122,
-      "def": 92,
-      "spa": 70,
-      "spd": 92,
-      "spe": 132
+      "hp": 90,
+      "atk": 125,
+      "def": 90,
+      "spa": 75,
+      "spd": 90,
+      "spe": 130
     },
     "addmoves": [
       "aircannon"
@@ -2082,12 +2085,12 @@
       "H": "Flame Body"
     },
     "baseStats": {
-      "hp": 103,
-      "atk": 75,
-      "def": 123,
-      "spa": 113,
-      "spd": 83,
-      "spe": 103
+      "hp": 100,
+      "atk": 90,
+      "def": 90,
+      "spa": 130,
+      "spd": 90,
+      "spe": 100
     },
     "addmoves": [
       "aircannon",
@@ -2107,12 +2110,12 @@
       "H": "Flare Boost"
     },
     "baseStats": {
-      "hp": 103,
+      "hp": 105,
       "atk": 75,
-      "def": 83,
-      "spa": 123,
-      "spd": 103,
-      "spe": 113
+      "def": 80,
+      "spa": 125,
+      "spd": 100,
+      "spe": 115
     },
     "addmoves": [
       "aircannon"
@@ -2197,11 +2200,11 @@
       "H": "Filter"
     },
     "baseStats": {
-      "hp": 105,
-      "atk": 92,
-      "def": 108,
-      "spa": 93,
-      "spd": 107,
+      "hp": 100,
+      "atk": 85,
+      "def": 110,
+      "spa": 100,
+      "spd": 110,
       "spe": 95
     },
     "addmoves": [
@@ -2285,12 +2288,12 @@
       "H": "Swift Swim"
     },
     "baseStats": {
-      "hp": 102,
+      "hp": 95,
       "atk": 120,
-      "def": 117,
-      "spa": 76,
-      "spd": 83,
-      "spe": 102
+      "def": 115,
+      "spa": 80,
+      "spd": 85,
+      "spe": 105
     },
     "addmoves": [],
     "rmmoves": []
@@ -2463,6 +2466,29 @@
     ],
     "rmmoves": []
   },
+  "ampharospartner": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Static",
+      "1": "Fluffy",
+      "H": "Electric Surge"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 75,
+      "def": 110,
+      "spa": 135,
+      "spd": 110,
+      "spe": 45
+    },
+    "addmoves": [
+      "paraboliccharge"
+    ],
+    "rmmoves": []
+  },
   "ampharos": {
     "restricted": false,
     "types": [
@@ -2611,22 +2637,23 @@
       "Fire"
     ],
     "abilities": {
-      "0": "Chlorophyll",
+      "0": "Drought",
       "1": "Solar Power",
       "H": "Flash Fire"
     },
     "baseStats": {
-      "hp": 85,
-      "atk": 100,
+      "hp": 95,
+      "atk": 80,
       "def": 90,
-      "spa": 120,
+      "spa": 125,
       "spd": 100,
-      "spe": 105
+      "spe": 110
     },
     "addmoves": [
       "flamethrower",
       "overheat",
-      "fireblast"
+      "fireblast",
+      "lavaplume"
     ],
     "rmmoves": []
   },
@@ -2749,12 +2776,12 @@
       "H": "Filter"
     },
     "baseStats": {
-      "hp": 108,
-      "atk": 60,
-      "def": 108,
-      "spa": 132,
-      "spd": 108,
-      "spe": 84
+      "hp": 110,
+      "atk": 70,
+      "def": 100,
+      "spa": 120,
+      "spd": 100,
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -2772,10 +2799,10 @@
     "baseStats": {
       "hp": 250,
       "atk": 5,
-      "def": 165,
+      "def": 140,
       "spa": 5,
-      "spd": 165,
-      "spe": 10
+      "spd": 140,
+      "spe": 60
     },
     "addmoves": [],
     "rmmoves": []
@@ -2816,11 +2843,11 @@
       "H": "Rock Head"
     },
     "baseStats": {
-      "hp": 75,
+      "hp": 85,
       "atk": 120,
-      "def": 220,
+      "def": 215,
       "spa": 55,
-      "spd": 100,
+      "spd": 95,
       "spe": 30
     },
     "addmoves": [
@@ -2991,10 +3018,10 @@
     "baseStats": {
       "hp": 85,
       "atk": 95,
-      "def": 155,
+      "def": 130,
       "spa": 95,
-      "spd": 155,
-      "spe": 15
+      "spd": 130,
+      "spe": 65
     },
     "addmoves": [
       "terablast"
@@ -3012,12 +3039,12 @@
       "H": "Moody"
     },
     "baseStats": {
-      "hp": 112,
-      "atk": 112,
-      "def": 88,
-      "spa": 112,
-      "spd": 88,
-      "spe": 88
+      "hp": 110,
+      "atk": 100,
+      "def": 85,
+      "spa": 120,
+      "spd": 85,
+      "spe": 100
     },
     "addmoves": [
       "terablast"
@@ -3437,12 +3464,12 @@
       "H": "Sharpness"
     },
     "baseStats": {
-      "hp": 93,
-      "atk": 85,
+      "hp": 90,
+      "atk": 105,
       "def": 75,
-      "spa": 126,
-      "spd": 85,
-      "spe": 136
+      "spa": 125,
+      "spd": 75,
+      "spe": 130
     },
     "addmoves": [
       "nightslash",
@@ -3509,12 +3536,12 @@
       "H": "Moxie"
     },
     "baseStats": {
-      "hp": 120,
+      "hp": 115,
       "atk": 125,
-      "def": 96,
-      "spa": 76,
-      "spd": 80,
-      "spe": 103
+      "def": 95,
+      "spa": 75,
+      "spd": 85,
+      "spe": 105
     },
     "addmoves": [
       "jawlock"
@@ -3532,12 +3559,12 @@
       "H": "Quick Feet"
     },
     "baseStats": {
-      "hp": 111,
-      "atk": 100,
-      "def": 87,
-      "spa": 72,
-      "spd": 87,
-      "spe": 143
+      "hp": 105,
+      "atk": 110,
+      "def": 90,
+      "spa": 80,
+      "spd": 90,
+      "spe": 125
     },
     "addmoves": [
       "terablast"
@@ -3556,11 +3583,11 @@
       "H": "Competitive"
     },
     "baseStats": {
-      "hp": 92,
-      "atk": 100,
-      "def": 77,
-      "spa": 154,
-      "spd": 77,
+      "hp": 90,
+      "atk": 105,
+      "def": 80,
+      "spa": 145,
+      "spd": 80,
       "spe": 100
     },
     "addmoves": [
@@ -3581,11 +3608,11 @@
       "H": "Corrosion"
     },
     "baseStats": {
-      "hp": 92,
-      "atk": 81,
-      "def": 108,
-      "spa": 81,
-      "spd": 138,
+      "hp": 95,
+      "atk": 80,
+      "def": 115,
+      "spa": 95,
+      "spd": 115,
       "spe": 100
     },
     "addmoves": [
@@ -3607,12 +3634,12 @@
       "H": "Sap Sipper"
     },
     "baseStats": {
-      "hp": 103,
+      "hp": 100,
       "atk": 80,
       "def": 90,
-      "spa": 116,
-      "spd": 121,
-      "spe": 90
+      "spa": 115,
+      "spd": 120,
+      "spe": 95
     },
     "addmoves": [],
     "rmmoves": []
@@ -3629,11 +3656,11 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 109,
-      "atk": 121,
-      "def": 73,
-      "spa": 109,
-      "spd": 73,
+      "hp": 105,
+      "atk": 125,
+      "def": 75,
+      "spa": 105,
+      "spd": 75,
       "spe": 115
     },
     "addmoves": [],
@@ -3651,12 +3678,12 @@
       "H": "Scrappy"
     },
     "baseStats": {
-      "hp": 79,
-      "atk": 95,
-      "def": 79,
-      "spa": 112,
+      "hp": 80,
+      "atk": 105,
+      "def": 80,
+      "spa": 115,
       "spd": 70,
-      "spe": 165
+      "spe": 150
     },
     "addmoves": [
       "terablast",
@@ -3676,12 +3703,12 @@
       "H": "Rain Dish"
     },
     "baseStats": {
-      "hp": 77,
-      "atk": 64,
-      "def": 128,
-      "spa": 121,
-      "spd": 89,
-      "spe": 121
+      "hp": 95,
+      "atk": 70,
+      "def": 130,
+      "spa": 110,
+      "spd": 90,
+      "spe": 105
     },
     "addmoves": [
       "aircannon"
@@ -3724,12 +3751,12 @@
       "H": "Drizzle"
     },
     "baseStats": {
-      "hp": 93,
-      "atk": 79,
-      "def": 82,
-      "spa": 132,
-      "spd": 108,
-      "spe": 106
+      "hp": 95,
+      "atk": 75,
+      "def": 80,
+      "spa": 130,
+      "spd": 110,
+      "spe": 110
     },
     "addmoves": [],
     "rmmoves": []
@@ -3746,12 +3773,12 @@
       "H": "Technician"
     },
     "baseStats": {
-      "hp": 80,
+      "hp": 85,
       "atk": 140,
-      "def": 105,
+      "def": 110,
       "spa": 80,
       "spd": 80,
-      "spe": 115
+      "spe": 105
     },
     "addmoves": [],
     "rmmoves": []
@@ -3790,11 +3817,11 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 119,
-      "def": 60,
-      "spa": 66,
-      "spd": 66,
-      "spe": 209
+      "atk": 120,
+      "def": 70,
+      "spa": 60,
+      "spd": 70,
+      "spe": 200
     },
     "addmoves": [
       "terablast"
@@ -3814,10 +3841,10 @@
     },
     "baseStats": {
       "hp": 1,
-      "atk": 200,
-      "def": 115,
-      "spa": 76,
-      "spd": 78,
+      "atk": 170,
+      "def": 79,
+      "spa": 160,
+      "spd": 60,
       "spe": 130
     },
     "addmoves": [
@@ -3837,12 +3864,12 @@
       "H": "Scrappy"
     },
     "baseStats": {
-      "hp": 127,
-      "atk": 112,
-      "def": 77,
-      "spa": 112,
-      "spd": 89,
-      "spe": 83
+      "hp": 130,
+      "atk": 100,
+      "def": 75,
+      "spa": 120,
+      "spd": 85,
+      "spe": 90
     },
     "addmoves": [
       "alluringvoice",
@@ -3862,12 +3889,12 @@
       "H": "Sheer Force"
     },
     "baseStats": {
-      "hp": 165,
-      "atk": 152,
-      "def": 85,
-      "spa": 50,
-      "spd": 85,
-      "spe": 63
+      "hp": 155,
+      "atk": 150,
+      "def": 80,
+      "spa": 60,
+      "spd": 80,
+      "spe": 75
     },
     "addmoves": [],
     "rmmoves": []
@@ -3883,12 +3910,12 @@
       "H": "Fur Coat"
     },
     "baseStats": {
-      "hp": 105,
-      "atk": 98,
-      "def": 98,
-      "spa": 81,
-      "spd": 83,
-      "spe": 135
+      "hp": 95,
+      "atk": 90,
+      "def": 110,
+      "spa": 90,
+      "spd": 90,
+      "spe": 125
     },
     "addmoves": [
       "terablast"
@@ -3931,10 +3958,10 @@
     "baseStats": {
       "hp": 80,
       "atk": 115,
-      "def": 145,
+      "def": 135,
       "spa": 75,
       "spd": 115,
-      "spe": 70
+      "spe": 80
     },
     "addmoves": [
       "terablast",
@@ -4024,12 +4051,12 @@
       "H": "Lightning Rod"
     },
     "baseStats": {
-      "hp": 93,
-      "atk": 74,
-      "def": 59,
-      "spa": 129,
-      "spd": 117,
-      "spe": 128
+      "hp": 90,
+      "atk": 80,
+      "def": 80,
+      "spa": 130,
+      "spd": 95,
+      "spe": 125
     },
     "addmoves": [
       "terablast"
@@ -4047,12 +4074,12 @@
       "H": "Volt Absorb"
     },
     "baseStats": {
-      "hp": 93,
-      "atk": 59,
-      "def": 81,
-      "spa": 114,
-      "spd": 125,
-      "spe": 128
+      "hp": 100,
+      "atk": 60,
+      "def": 100,
+      "spa": 110,
+      "spd": 115,
+      "spe": 115
     },
     "addmoves": [
       "terablast"
@@ -4066,19 +4093,23 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Lightning Rod",
+      "0": "Static",
       "1": "Galvanize",
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 91,
-      "atk": 100,
-      "def": 105,
-      "spa": 66,
-      "spd": 119,
-      "spe": 119
+      "hp": 90,
+      "atk": 110,
+      "def": 120,
+      "spa": 70,
+      "spd": 100,
+      "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "spark",
+      "wildcharge",
+      "supercellslam"
+    ],
     "rmmoves": []
   },
   "illumise": {
@@ -4093,14 +4124,18 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 91,
-      "atk": 66,
-      "def": 103,
-      "spa": 102,
-      "spd": 119,
-      "spe": 119
+      "hp": 90,
+      "atk": 70,
+      "def": 100,
+      "spa": 110,
+      "spd": 120,
+      "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "flamethrower",
+      "lavaplume",
+      "fireblast"
+    ],
     "rmmoves": []
   },
   "swalot": {
@@ -4114,11 +4149,11 @@
       "H": "Corrosion"
     },
     "baseStats": {
-      "hp": 128,
-      "atk": 93,
-      "def": 108,
-      "spa": 93,
-      "spd": 108,
+      "hp": 130,
+      "atk": 95,
+      "def": 105,
+      "spa": 95,
+      "spd": 105,
       "spe": 70
     },
     "addmoves": [],
@@ -4136,11 +4171,11 @@
       "H": "Speed Boost"
     },
     "baseStats": {
-      "hp": 94,
-      "atk": 140,
-      "def": 76,
-      "spa": 110,
-      "spd": 70,
+      "hp": 90,
+      "atk": 130,
+      "def": 75,
+      "spa": 120,
+      "spd": 75,
       "spe": 110
     },
     "addmoves": [
@@ -4276,12 +4311,12 @@
       "H": "Tinted Lens"
     },
     "baseStats": {
-      "hp": 93,
-      "atk": 114,
+      "hp": 90,
+      "atk": 115,
       "def": 100,
-      "spa": 80,
+      "spa": 85,
       "spd": 100,
-      "spe": 113
+      "spe": 110
     },
     "addmoves": [
       "loosedirt"
@@ -4300,12 +4335,12 @@
       "H": "Water Absorb"
     },
     "baseStats": {
-      "hp": 89,
-      "atk": 123,
-      "def": 90,
-      "spa": 123,
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "spa": 120,
       "spd": 90,
-      "spe": 85
+      "spe": 90
     },
     "addmoves": [],
     "rmmoves": []
@@ -4462,12 +4497,12 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 93,
-      "atk": 137,
-      "def": 117,
+      "hp": 95,
+      "atk": 135,
+      "def": 115,
       "spa": 90,
       "spd": 90,
-      "spe": 73
+      "spe": 75
     },
     "addmoves": [],
     "rmmoves": []
@@ -4680,12 +4715,12 @@
       "H": "Protean"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 113,
-      "def": 130,
-      "spa": 113,
+      "hp": 90,
+      "atk": 110,
+      "def": 100,
+      "spa": 100,
       "spd": 130,
-      "spe": 54
+      "spe": 70
     },
     "addmoves": [
       "terablast"
@@ -4703,12 +4738,12 @@
       "H": "Cursed Body"
     },
     "baseStats": {
-      "hp": 94,
-      "atk": 135,
-      "def": 92,
-      "spa": 83,
-      "spd": 92,
-      "spe": 104
+      "hp": 95,
+      "atk": 140,
+      "def": 90,
+      "spa": 85,
+      "spd": 90,
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -4725,11 +4760,11 @@
       "H": "Harvest"
     },
     "baseStats": {
-      "hp": 128,
+      "hp": 115,
       "atk": 90,
-      "def": 95,
-      "spa": 90,
-      "spd": 117,
+      "def": 100,
+      "spa": 100,
+      "spd": 115,
       "spe": 80
     },
     "addmoves": [
@@ -4748,12 +4783,12 @@
       "H": "Soundproof"
     },
     "baseStats": {
-      "hp": 126,
-      "atk": 50,
-      "def": 114,
-      "spa": 121,
-      "spd": 114,
-      "spe": 75
+      "hp": 105,
+      "atk": 65,
+      "def": 100,
+      "spa": 110,
+      "spd": 130,
+      "spe": 90
     },
     "addmoves": [],
     "rmmoves": []
@@ -4839,12 +4874,12 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 68,
-      "atk": 129,
+      "hp": 70,
+      "atk": 130,
       "def": 130,
-      "spa": 116,
-      "spd": 93,
-      "spe": 64
+      "spa": 100,
+      "spd": 90,
+      "spe": 80
     },
     "addmoves": [
       "terablast",
@@ -4863,12 +4898,12 @@
       "H": "Competitive"
     },
     "baseStats": {
-      "hp": 68,
-      "atk": 104,
+      "hp": 70,
+      "atk": 100,
       "def": 130,
-      "spa": 141,
-      "spd": 93,
-      "spe": 64
+      "spa": 130,
+      "spd": 90,
+      "spe": 80
     },
     "addmoves": [
       "terablast",
@@ -4888,12 +4923,12 @@
       "H": "Sturdy"
     },
     "baseStats": {
-      "hp": 117,
-      "atk": 124,
-      "def": 150,
-      "spa": 47,
-      "spd": 85,
-      "spe": 77
+      "hp": 120,
+      "atk": 125,
+      "def": 135,
+      "spa": 50,
+      "spd": 90,
+      "spe": 80
     },
     "addmoves": [
       "terablast",
@@ -4913,12 +4948,12 @@
       "H": "Water Bubble"
     },
     "baseStats": {
-      "hp": 124,
-      "atk": 70,
+      "hp": 100,
+      "atk": 75,
       "def": 95,
-      "spa": 80,
+      "spa": 100,
       "spd": 105,
-      "spe": 126
+      "spe": 125
     },
     "addmoves": [],
     "rmmoves": []
@@ -5245,11 +5280,11 @@
       "H": "Speed Boost"
     },
     "baseStats": {
-      "hp": 50,
+      "hp": 60,
       "atk": 95,
-      "def": 90,
+      "def": 85,
       "spa": 95,
-      "spd": 90,
+      "spd": 85,
       "spe": 180
     },
     "addmoves": [],
@@ -5267,12 +5302,12 @@
       "H": "Anger Shell"
     },
     "baseStats": {
-      "hp": 120,
-      "atk": 119,
-      "def": 115,
-      "spa": 85,
-      "spd": 75,
-      "spe": 86
+      "hp": 115,
+      "atk": 120,
+      "def": 110,
+      "spa": 90,
+      "spd": 85,
+      "spe": 80
     },
     "addmoves": [],
     "rmmoves": []
@@ -5313,10 +5348,10 @@
       "H": "Imperial Rule"
     },
     "baseStats": {
-      "hp": 104,
-      "atk": 86,
-      "def": 91,
-      "spa": 124,
+      "hp": 105,
+      "atk": 85,
+      "def": 90,
+      "spa": 125,
       "spd": 115,
       "spe": 80
     },
@@ -5413,12 +5448,12 @@
       "H": "Strong Jaw"
     },
     "baseStats": {
-      "hp": 110,
-      "atk": 120,
-      "def": 79,
-      "spa": 95,
-      "spd": 79,
-      "spe": 117
+      "hp": 95,
+      "atk": 125,
+      "def": 80,
+      "spa": 105,
+      "spd": 80,
+      "spe": 115
     },
     "addmoves": [
       "jawlock",
@@ -5461,12 +5496,12 @@
       "H": "Mold Breaker"
     },
     "baseStats": {
-      "hp": 137,
-      "atk": 195,
-      "def": 65,
+      "hp": 130,
+      "atk": 185,
+      "def": 70,
       "spa": 45,
-      "spd": 60,
-      "spe": 98
+      "spd": 70,
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -5797,10 +5832,10 @@
     },
     "baseStats": {
       "hp": 85,
-      "atk": 106,
-      "def": 109,
-      "spa": 44,
-      "spd": 121,
+      "atk": 110,
+      "def": 105,
+      "spa": 45,
+      "spd": 120,
       "spe": 135
     },
     "addmoves": [
@@ -5819,12 +5854,12 @@
       "H": "Illusion"
     },
     "baseStats": {
-      "hp": 105,
-      "atk": 45,
-      "def": 105,
-      "spa": 115,
-      "spd": 115,
-      "spe": 115
+      "hp": 90,
+      "atk": 50,
+      "def": 100,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
     },
     "addmoves": [],
     "rmmoves": []
@@ -5867,12 +5902,12 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 101,
-      "atk": 112,
-      "def": 94,
-      "spa": 42,
-      "spd": 89,
-      "spe": 162
+      "hp": 105,
+      "atk": 115,
+      "def": 95,
+      "spa": 45,
+      "spd": 90,
+      "spe": 150
     },
     "addmoves": [
       "terablast",
@@ -6099,12 +6134,12 @@
       "H": "Chlorophyll"
     },
     "baseStats": {
-      "hp": 94,
-      "atk": 143,
-      "def": 92,
-      "spa": 133,
-      "spd": 92,
-      "spe": 46
+      "hp": 95,
+      "atk": 130,
+      "def": 95,
+      "spa": 120,
+      "spd": 95,
+      "spe": 65
     },
     "addmoves": [
       "terablast",
@@ -6115,7 +6150,8 @@
   "lumineon": {
     "restricted": false,
     "types": [
-      "Water"
+      "Water",
+      "Fairy"
     ],
     "abilities": {
       "0": "Storm Drain",
@@ -6123,12 +6159,12 @@
       "H": "Marvel Scale"
     },
     "baseStats": {
-      "hp": 109,
-      "atk": 49,
-      "def": 106,
-      "spa": 89,
-      "spd": 106,
-      "spe": 141
+      "hp": 105,
+      "atk": 60,
+      "def": 100,
+      "spa": 110,
+      "spd": 100,
+      "spe": 125
     },
     "addmoves": [],
     "rmmoves": []
@@ -6236,12 +6272,12 @@
       "H": "Rocky Payload"
     },
     "baseStats": {
-      "hp": 125,
-      "atk": 140,
-      "def": 130,
-      "spa": 55,
-      "spd": 110,
-      "spe": 40
+      "hp": 130,
+      "atk": 145,
+      "def": 135,
+      "spa": 50,
+      "spd": 90,
+      "spe": 50
     },
     "addmoves": [],
     "rmmoves": []
@@ -6282,9 +6318,9 @@
     },
     "baseStats": {
       "hp": 85,
-      "atk": 153,
-      "def": 87,
-      "spa": 65,
+      "atk": 140,
+      "def": 90,
+      "spa": 75,
       "spd": 95,
       "spe": 115
     },
@@ -6305,10 +6341,10 @@
     "baseStats": {
       "hp": 105,
       "atk": 65,
-      "def": 97,
-      "spa": 155,
+      "def": 95,
+      "spa": 145,
       "spd": 105,
-      "spe": 73
+      "spe": 85
     },
     "addmoves": [
       "fleurcannon",
@@ -6361,12 +6397,12 @@
       "H": "Compoundeyes"
     },
     "baseStats": {
-      "hp": 91,
-      "atk": 106,
-      "def": 86,
-      "spa": 146,
-      "spd": 56,
-      "spe": 115
+      "hp": 90,
+      "atk": 100,
+      "def": 90,
+      "spa": 140,
+      "spd": 60,
+      "spe": 120
     },
     "addmoves": [],
     "rmmoves": []
@@ -6491,11 +6527,11 @@
       "H": "Justified"
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 145,
+      "hp": 80,
+      "atk": 140,
       "def": 75,
       "spa": 55,
-      "spd": 127,
+      "spd": 130,
       "spe": 120
     },
     "addmoves": [
@@ -6536,12 +6572,12 @@
       "H": "Iron Fist"
     },
     "baseStats": {
-      "hp": 120,
-      "atk": 100,
+      "hp": 110,
+      "atk": 110,
       "def": 135,
-      "spa": 65,
+      "spa": 50,
       "spd": 135,
-      "spe": 45
+      "spe": 60
     },
     "addmoves": [
       "drainpunch",
@@ -6563,11 +6599,11 @@
     },
     "baseStats": {
       "hp": 70,
-      "atk": 120,
+      "atk": 125,
       "def": 70,
-      "spa": 120,
+      "spa": 125,
       "spd": 70,
-      "spe": 150
+      "spe": 140
     },
     "addmoves": [],
     "rmmoves": []
@@ -6884,12 +6920,12 @@
       "H": "Drought"
     },
     "baseStats": {
-      "hp": 91,
-      "atk": 90,
-      "def": 106,
+      "hp": 95,
+      "atk": 85,
+      "def": 105,
       "spa": 130,
-      "spd": 106,
-      "spe": 77
+      "spd": 105,
+      "spe": 80
     },
     "addmoves": [],
     "rmmoves": []
@@ -6962,7 +6998,8 @@
   "cresselia": {
     "restricted": false,
     "types": [
-      "Psychic"
+      "Psychic",
+      "Fairy"
     ],
     "abilities": {
       "0": "Levitate",
@@ -6991,11 +7028,11 @@
       "H": "Water Absorb"
     },
     "baseStats": {
-      "hp": 140,
-      "atk": 80,
-      "def": 100,
-      "spa": 80,
-      "spd": 100,
+      "hp": 120,
+      "atk": 90,
+      "def": 95,
+      "spa": 100,
+      "spd": 95,
       "spe": 100
     },
     "addmoves": [],
@@ -7025,12 +7062,13 @@
   "darkrai": {
     "restricted": false,
     "types": [
-      "Dark"
+      "Dark",
+      "Ghost"
     ],
     "abilities": {
       "0": "Bad Dreams",
       "1": "Infiltrator",
-      "H": "Shadow Veil"
+      "H": "Dark Aura"
     },
     "baseStats": {
       "hp": 85,
@@ -7077,11 +7115,11 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 103,
+      "atk": 100,
       "def": 75,
       "spa": 120,
       "spd": 75,
-      "spe": 127
+      "spe": 130
     },
     "addmoves": [],
     "rmmoves": []
@@ -7092,7 +7130,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Adaptability",
+      "H": "Protean"
     },
     "baseStats": {
       "hp": 100,
@@ -7111,7 +7151,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Compound Eyes",
+      "H": "Opportunist"
     },
     "baseStats": {
       "hp": 100,
@@ -7130,7 +7172,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Moxie",
+      "H": "Intimidate"
     },
     "baseStats": {
       "hp": 100,
@@ -7149,7 +7193,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Dragon's Maw",
+      "H": "Berserk"
     },
     "baseStats": {
       "hp": 100,
@@ -7168,7 +7214,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Transistor",
+      "H": "Motor Drive"
     },
     "baseStats": {
       "hp": 100,
@@ -7187,7 +7235,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Pixilate",
+      "H": "Triage"
     },
     "baseStats": {
       "hp": 100,
@@ -7206,7 +7256,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Tough Claws",
+      "H": "Guts"
     },
     "baseStats": {
       "hp": 100,
@@ -7225,7 +7277,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Solar Power",
+      "H": "Flash Fire"
     },
     "baseStats": {
       "hp": 100,
@@ -7244,7 +7298,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Aerilate",
+      "H": "Mountaineer"
     },
     "baseStats": {
       "hp": 100,
@@ -7263,7 +7319,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Cursed Body",
+      "H": "Mind's Eye"
     },
     "baseStats": {
       "hp": 100,
@@ -7282,7 +7340,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Sap Sipper",
+      "H": "Grassy Surge"
     },
     "baseStats": {
       "hp": 100,
@@ -7301,7 +7361,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Sand Force",
+      "H": "Earth Eater"
     },
     "baseStats": {
       "hp": 100,
@@ -7320,7 +7382,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Snow Warning",
+      "H": "Ice Scales"
     },
     "baseStats": {
       "hp": 100,
@@ -7339,7 +7403,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Gooey",
+      "H": "Corrosion"
     },
     "baseStats": {
       "hp": 100,
@@ -7358,7 +7424,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Magic Guard",
+      "H": "Psychic Surge"
     },
     "baseStats": {
       "hp": 100,
@@ -7377,7 +7445,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Solid Rock",
+      "H": "Sand Stream"
     },
     "baseStats": {
       "hp": 100,
@@ -7396,7 +7466,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Good as Gold",
+      "H": "Filter"
     },
     "baseStats": {
       "hp": 100,
@@ -7415,7 +7487,9 @@
       "Water"
     ],
     "abilities": {
-      "0": "Multitype"
+      "0": "Multitype",
+      "1": "Drizzle",
+      "H": "Steam Engine"
     },
     "baseStats": {
       "hp": 100,
@@ -7492,11 +7566,11 @@
     },
     "baseStats": {
       "hp": 130,
-      "atk": 132,
+      "atk": 130,
       "def": 65,
       "spa": 100,
       "spd": 85,
-      "spe": 88
+      "spe": 90
     },
     "addmoves": [
       "afterburner"
@@ -7932,12 +8006,12 @@
       "H": "Mold Breaker"
     },
     "baseStats": {
-      "hp": 150,
+      "hp": 140,
       "atk": 130,
       "def": 110,
-      "spa": 30,
-      "spd": 110,
-      "spe": 70
+      "spa": 50,
+      "spd": 90,
+      "spe": 80
     },
     "addmoves": [
       "terablast",
@@ -7956,12 +8030,12 @@
       "H": "Mold Breaker"
     },
     "baseStats": {
-      "hp": 90,
-      "atk": 160,
+      "hp": 95,
+      "atk": 150,
       "def": 90,
-      "spa": 30,
+      "spa": 40,
       "spd": 90,
-      "spe": 140
+      "spe": 135
     },
     "addmoves": [
       "terablast",
@@ -8029,11 +8103,11 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 97,
+      "atk": 80,
       "def": 85,
-      "spa": 107,
-      "spd": 75,
-      "spe": 136
+      "spa": 110,
+      "spd": 85,
+      "spe": 140
     },
     "addmoves": [
       "gleamstep"
@@ -8052,11 +8126,11 @@
     },
     "baseStats": {
       "hp": 90,
-      "atk": 50,
-      "def": 80,
-      "spa": 150,
+      "atk": 60,
+      "def": 90,
+      "spa": 140,
       "spd": 90,
-      "spe": 140
+      "spe": 130
     },
     "addmoves": [],
     "rmmoves": []
@@ -8074,11 +8148,11 @@
     },
     "baseStats": {
       "hp": 90,
-      "atk": 145,
+      "atk": 140,
       "def": 90,
       "spa": 50,
-      "spd": 80,
-      "spe": 145
+      "spd": 90,
+      "spe": 140
     },
     "addmoves": [],
     "rmmoves": []
@@ -8401,12 +8475,12 @@
       "H": "Reckless"
     },
     "baseStats": {
-      "hp": 120,
-      "atk": 155,
-      "def": 65,
-      "spa": 65,
-      "spd": 65,
-      "spe": 130
+      "hp": 95,
+      "atk": 150,
+      "def": 60,
+      "spa": 115,
+      "spd": 60,
+      "spe": 120
     },
     "addmoves": [
       "terablast",
@@ -8448,12 +8522,12 @@
       "H": "Sheer Force"
     },
     "baseStats": {
-      "hp": 65,
-      "atk": 125,
-      "def": 65,
-      "spa": 125,
+      "hp": 75,
+      "atk": 120,
+      "def": 75,
+      "spa": 135,
       "spd": 65,
-      "spe": 155
+      "spe": 120
     },
     "addmoves": [],
     "rmmoves": []
@@ -8470,11 +8544,11 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 145,
-      "def": 60,
+      "hp": 65,
+      "atk": 125,
+      "def": 65,
       "spa": 145,
-      "spd": 60,
+      "spd": 70,
       "spe": 130
     },
     "addmoves": [],
@@ -8514,9 +8588,9 @@
     "baseStats": {
       "hp": 90,
       "atk": 55,
-      "def": 123,
-      "spa": 128,
-      "spd": 139,
+      "def": 120,
+      "spa": 130,
+      "spd": 140,
       "spe": 65
     },
     "addmoves": [],
@@ -8557,12 +8631,12 @@
       "H": "Competitive"
     },
     "baseStats": {
-      "hp": 102,
-      "atk": 117,
-      "def": 63,
-      "spa": 117,
-      "spd": 63,
-      "spe": 138
+      "hp": 100,
+      "atk": 110,
+      "def": 70,
+      "spa": 120,
+      "spd": 70,
+      "spe": 130
     },
     "addmoves": [
       "aircannon"
@@ -8580,12 +8654,12 @@
       "H": "Weak Armor"
     },
     "baseStats": {
-      "hp": 71,
+      "hp": 70,
       "atk": 90,
       "def": 105,
       "spa": 140,
       "spd": 95,
-      "spe": 99
+      "spe": 100
     },
     "addmoves": [
       "cryofreeze"
@@ -8653,10 +8727,10 @@
       "H": "Clear Body"
     },
     "baseStats": {
-      "hp": 85,
-      "atk": 165,
+      "hp": 90,
+      "atk": 155,
       "def": 135,
-      "spa": 60,
+      "spa": 65,
       "spd": 135,
       "spe": 20
     },
@@ -8944,9 +9018,9 @@
     "baseStats": {
       "hp": 95,
       "atk": 45,
-      "def": 50,
+      "def": 60,
       "spa": 115,
-      "spd": 170,
+      "spd": 160,
       "spe": 125
     },
     "addmoves": [
@@ -8967,10 +9041,10 @@
     "baseStats": {
       "hp": 80,
       "atk": 70,
-      "def": 55,
-      "spa": 120,
+      "def": 65,
+      "spa": 130,
       "spd": 80,
-      "spe": 195
+      "spe": 175
     },
     "addmoves": [
       "shadowsneak",
@@ -9062,12 +9136,12 @@
       "H": "Sheer Force"
     },
     "baseStats": {
-      "hp": 97,
+      "hp": 95,
       "atk": 130,
       "def": 110,
       "spa": 90,
       "spd": 110,
-      "spe": 63
+      "spe": 65
     },
     "addmoves": [
       "terablast",
@@ -9237,12 +9311,12 @@
       "H": "Steely Spirit"
     },
     "baseStats": {
-      "hp": 58,
-      "atk": 149,
-      "def": 152,
-      "spa": 46,
-      "spd": 46,
-      "spe": 149
+      "hp": 65,
+      "atk": 140,
+      "def": 140,
+      "spa": 45,
+      "spd": 70,
+      "spe": 140
     },
     "addmoves": [
       "terablast"
@@ -9276,6 +9350,31 @@
     "rmmoves": []
   },
   "volcarona": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Flame Body",
+      "1": "Solar Power",
+      "H": "Drought"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 75,
+      "spa": 145,
+      "spd": 115,
+      "spe": 110
+    },
+    "addmoves": [
+      "scorchingsands",
+      "afterburner"
+    ],
+    "rmmoves": []
+  },
+  "volcaronapartner": {
     "restricted": false,
     "types": [
       "Bug",
@@ -9744,11 +9843,11 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 49,
-      "def": 72,
-      "spa": 144,
-      "spd": 111,
-      "spe": 144
+      "atk": 65,
+      "def": 75,
+      "spa": 140,
+      "spd": 110,
+      "spe": 130
     },
     "addmoves": [],
     "rmmoves": []
@@ -9808,11 +9907,11 @@
     },
     "baseStats": {
       "hp": 135,
-      "atk": 96,
-      "def": 127,
-      "spa": 47,
-      "spd": 127,
-      "spe": 68
+      "atk": 90,
+      "def": 110,
+      "spa": 70,
+      "spd": 110,
+      "spe": 85
     },
     "addmoves": [
       "terablast"
@@ -9831,12 +9930,12 @@
       "H": "Gale Wings"
     },
     "baseStats": {
-      "hp": 109,
-      "atk": 101,
-      "def": 71,
-      "spa": 94,
-      "spd": 69,
-      "spe": 156
+      "hp": 110,
+      "atk": 100,
+      "def": 75,
+      "spa": 90,
+      "spd": 80,
+      "spe": 145
     },
     "addmoves": [],
     "rmmoves": []
@@ -9853,12 +9952,12 @@
       "H": "Tinted Lens"
     },
     "baseStats": {
-      "hp": 110,
-      "atk": 52,
+      "hp": 100,
+      "atk": 60,
       "def": 90,
-      "spa": 120,
-      "spd": 99,
-      "spe": 129
+      "spa": 130,
+      "spd": 100,
+      "spe": 120
     },
     "addmoves": [
       "aircannon"
@@ -9908,12 +10007,12 @@
       "H": "Cursed Body"
     },
     "baseStats": {
-      "hp": 74,
-      "atk": 64,
-      "def": 67,
-      "spa": 135,
-      "spd": 128,
-      "spe": 132
+      "hp": 75,
+      "atk": 55,
+      "def": 70,
+      "spa": 140,
+      "spd": 130,
+      "spe": 130
     },
     "addmoves": [
       "terablast"
@@ -10005,10 +10104,10 @@
     "baseStats": {
       "hp": 95,
       "atk": 100,
-      "def": 88,
+      "def": 90,
       "spa": 85,
       "spd": 110,
-      "spe": 122
+      "spe": 120
     },
     "addmoves": [
       "terablast"
@@ -10026,12 +10125,12 @@
       "H": "Magic Bounce"
     },
     "baseStats": {
-      "hp": 98,
-      "atk": 48,
-      "def": 101,
-      "spa": 103,
-      "spd": 106,
-      "spe": 144
+      "hp": 100,
+      "atk": 50,
+      "def": 100,
+      "spa": 110,
+      "spd": 100,
+      "spe": 140
     },
     "addmoves": [],
     "rmmoves": []
@@ -10047,12 +10146,12 @@
       "H": "Trace"
     },
     "baseStats": {
-      "hp": 98,
-      "atk": 48,
-      "def": 86,
-      "spa": 133,
-      "spd": 91,
-      "spe": 144
+      "hp": 90,
+      "atk": 55,
+      "def": 90,
+      "spa": 135,
+      "spd": 90,
+      "spe": 140
     },
     "addmoves": [],
     "rmmoves": []
@@ -10120,12 +10219,12 @@
       "H": "Misty Surge"
     },
     "baseStats": {
-      "hp": 131,
-      "atk": 102,
-      "def": 102,
-      "spa": 129,
-      "spd": 119,
-      "spe": 17
+      "hp": 130,
+      "atk": 100,
+      "def": 100,
+      "spa": 130,
+      "spd": 120,
+      "spe": 20
     },
     "addmoves": [
       "terablast",
@@ -10144,12 +10243,12 @@
       "H": "Natural Cure"
     },
     "baseStats": {
-      "hp": 102,
+      "hp": 100,
       "atk": 100,
-      "def": 106,
+      "def": 105,
       "spa": 95,
       "spd": 105,
-      "spe": 92
+      "spe": 95
     },
     "addmoves": [
       "terablast",
@@ -10237,12 +10336,12 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 121,
-      "atk": 43,
-      "def": 93,
-      "spa": 170,
-      "spd": 94,
-      "spe": 79
+      "hp": 110,
+      "atk": 70,
+      "def": 95,
+      "spa": 145,
+      "spd": 95,
+      "spe": 85
     },
     "addmoves": [
       "aircannon"
@@ -10312,12 +10411,12 @@
       "H": "Solid Rock"
     },
     "baseStats": {
-      "hp": 173,
-      "atk": 56,
-      "def": 102,
-      "spa": 119,
-      "spd": 112,
-      "spe": 38
+      "hp": 160,
+      "atk": 70,
+      "def": 100,
+      "spa": 125,
+      "spd": 110,
+      "spe": 35
     },
     "addmoves": [
       "terablast",
@@ -10386,12 +10485,12 @@
       "H": "Cheek Pouch"
     },
     "baseStats": {
-      "hp": 97,
-      "atk": 62,
+      "hp": 100,
+      "atk": 60,
       "def": 95,
       "spa": 120,
       "spd": 105,
-      "spe": 121
+      "spe": 120
     },
     "addmoves": [
       "moonlight",
@@ -10433,12 +10532,12 @@
       "H": "Regenerator"
     },
     "baseStats": {
-      "hp": 120,
+      "hp": 110,
       "atk": 100,
       "def": 80,
       "spa": 110,
       "spd": 150,
-      "spe": 40
+      "spe": 50
     },
     "addmoves": [
       "venoshock",
@@ -10846,8 +10945,8 @@
       "H": "Sniper"
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 137,
+      "hp": 80,
+      "atk": 135,
       "def": 75,
       "spa": 80,
       "spd": 120,
@@ -10868,12 +10967,12 @@
       "H": "Moxie"
     },
     "baseStats": {
-      "hp": 98,
-      "atk": 147,
+      "hp": 95,
+      "atk": 145,
       "def": 110,
       "spa": 80,
       "spd": 75,
-      "spe": 90
+      "spe": 95
     },
     "addmoves": [],
     "rmmoves": []
@@ -10914,10 +11013,10 @@
     "baseStats": {
       "hp": 100,
       "atk": 60,
-      "def": 97,
-      "spa": 146,
-      "spd": 136,
-      "spe": 61
+      "def": 90,
+      "spa": 145,
+      "spd": 140,
+      "spe": 65
     },
     "addmoves": [],
     "rmmoves": []
@@ -11003,12 +11102,12 @@
       "H": "Thick Fat"
     },
     "baseStats": {
-      "hp": 177,
-      "atk": 182,
-      "def": 77,
-      "spa": 54,
-      "spd": 67,
-      "spe": 43
+      "hp": 175,
+      "atk": 165,
+      "def": 80,
+      "spa": 60,
+      "spd": 80,
+      "spe": 40
     },
     "addmoves": [],
     "rmmoves": []
@@ -11161,16 +11260,16 @@
     ],
     "abilities": {
       "0": "Steadfast",
-      "1": "Solid Rock",
+      "1": "Scrappy",
       "H": "Stakeout"
     },
     "baseStats": {
       "hp": 100,
-      "atk": 133,
-      "def": 85,
-      "spa": 65,
-      "spd": 85,
-      "spe": 132
+      "atk": 130,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 130
     },
     "addmoves": [
       "extremespeed"
@@ -11190,17 +11289,18 @@
     },
     "baseStats": {
       "hp": 115,
-      "atk": 125,
+      "atk": 135,
       "def": 95,
-      "spa": 63,
+      "spa": 60,
       "spd": 95,
-      "spe": 107
+      "spe": 100
     },
     "addmoves": [
       "shadowpunch",
       "shadowsneak",
       "suckerpunch",
-      "poltergeist"
+      "poltergeist",
+      "drainpunch"
     ],
     "rmmoves": []
   },
@@ -11216,11 +11316,11 @@
       "H": "Tough Claws"
     },
     "baseStats": {
-      "hp": 99,
-      "atk": 137,
-      "def": 87,
-      "spa": 65,
-      "spd": 87,
+      "hp": 100,
+      "atk": 140,
+      "def": 75,
+      "spa": 85,
+      "spd": 75,
       "spe": 125
     },
     "addmoves": [],
@@ -11284,11 +11384,11 @@
       "H": "Rough Skin"
     },
     "baseStats": {
-      "hp": 55,
-      "atk": 83,
-      "def": 182,
-      "spa": 73,
-      "spd": 172,
+      "hp": 65,
+      "atk": 70,
+      "def": 175,
+      "spa": 90,
+      "spd": 165,
       "spe": 35
     },
     "addmoves": [
@@ -11355,11 +11455,11 @@
     },
     "baseStats": {
       "hp": 110,
-      "atk": 145,
+      "atk": 135,
       "def": 100,
-      "spa": 120,
+      "spa": 110,
       "spd": 100,
-      "spe": 25
+      "spe": 45
     },
     "addmoves": [],
     "rmmoves": []
@@ -11376,10 +11476,10 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 160,
-      "atk": 45,
-      "def": 105,
-      "spa": 120,
+      "hp": 115,
+      "atk": 75,
+      "def": 110,
+      "spa": 130,
       "spd": 140,
       "spe": 30
     },
@@ -11400,12 +11500,12 @@
       "H": "Corrosion"
     },
     "baseStats": {
-      "hp": 108,
-      "atk": 54,
-      "def": 70,
-      "spa": 141,
-      "spd": 70,
-      "spe": 157
+      "hp": 90,
+      "atk": 75,
+      "def": 75,
+      "spa": 140,
+      "spd": 75,
+      "spe": 145
     },
     "addmoves": [],
     "rmmoves": []
@@ -11448,12 +11548,12 @@
       "H": "Reckless"
     },
     "baseStats": {
-      "hp": 92,
-      "atk": 150,
-      "def": 108,
-      "spa": 40,
-      "spd": 108,
-      "spe": 102
+      "hp": 90,
+      "atk": 135,
+      "def": 110,
+      "spa": 55,
+      "spd": 110,
+      "spe": 100
     },
     "addmoves": [
       "icespinner",
@@ -11472,12 +11572,12 @@
       "H": "Triage"
     },
     "baseStats": {
-      "hp": 111,
-      "atk": 22,
-      "def": 110,
-      "spa": 97,
-      "spd": 140,
-      "spe": 120
+      "hp": 100,
+      "atk": 50,
+      "def": 95,
+      "spa": 115,
+      "spd": 130,
+      "spe": 110
     },
     "addmoves": [],
     "rmmoves": []
@@ -11494,12 +11594,12 @@
       "H": "Symbiosis"
     },
     "baseStats": {
-      "hp": 140,
-      "atk": 40,
-      "def": 130,
-      "spa": 130,
-      "spd": 120,
-      "spe": 40
+      "hp": 130,
+      "atk": 50,
+      "def": 110,
+      "spa": 135,
+      "spd": 130,
+      "spe": 45
     },
     "addmoves": [],
     "rmmoves": []
@@ -11515,12 +11615,12 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 120,
-      "atk": 140,
+      "hp": 110,
+      "atk": 130,
       "def": 100,
-      "spa": 60,
-      "spd": 80,
-      "spe": 100
+      "spa": 65,
+      "spd": 90,
+      "spe": 105
     },
     "addmoves": [],
     "rmmoves": []
@@ -12061,11 +12161,11 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 118,
-      "def": 175,
-      "spa": 121,
-      "spd": 80,
-      "spe": 26
+      "atk": 120,
+      "def": 150,
+      "spa": 120,
+      "spd": 95,
+      "spe": 35
     },
     "addmoves": [
       "terablast",
@@ -12086,11 +12186,11 @@
     },
     "baseStats": {
       "hp": 105,
-      "atk": 128,
-      "def": 103,
-      "spa": 35,
-      "spd": 103,
-      "spe": 126
+      "atk": 125,
+      "def": 100,
+      "spa": 50,
+      "spd": 100,
+      "spe": 120
     },
     "addmoves": [
       "terablast",
@@ -12402,12 +12502,12 @@
       "H": "Levitate"
     },
     "baseStats": {
-      "hp": 109,
-      "atk": 43,
-      "def": 47,
-      "spa": 137,
-      "spd": 151,
-      "spe": 113
+      "hp": 110,
+      "atk": 40,
+      "def": 60,
+      "spa": 140,
+      "spd": 140,
+      "spe": 110
     },
     "addmoves": [
       "terablast"
@@ -12426,12 +12526,12 @@
       "H": "Guts"
     },
     "baseStats": {
-      "hp": 113,
-      "atk": 149,
-      "def": 149,
-      "spa": 53,
-      "spd": 53,
-      "spe": 83
+      "hp": 115,
+      "atk": 145,
+      "def": 145,
+      "spa": 50,
+      "spd": 60,
+      "spe": 85
     },
     "addmoves": [
       "terablast",
@@ -12451,12 +12551,12 @@
       "H": "Limber"
     },
     "baseStats": {
-      "hp": 71,
-      "atk": 151,
-      "def": 23,
-      "spa": 151,
-      "spd": 23,
-      "spe": 181
+      "hp": 75,
+      "atk": 155,
+      "def": 25,
+      "spa": 155,
+      "spd": 25,
+      "spe": 165
     },
     "addmoves": [
       "terablast",
@@ -12475,12 +12575,12 @@
       "H": "Analytic"
     },
     "baseStats": {
-      "hp": 79,
-      "atk": 79,
-      "def": 71,
-      "spa": 211,
-      "spd": 71,
-      "spe": 89
+      "hp": 80,
+      "atk": 70,
+      "def": 75,
+      "spa": 200,
+      "spd": 75,
+      "spe": 100
     },
     "addmoves": [
       "terablast"
@@ -12499,12 +12599,12 @@
       "H": "Sturdy"
     },
     "baseStats": {
-      "hp": 103,
-      "atk": 107,
-      "def": 109,
-      "spa": 113,
-      "spd": 107,
-      "spe": 61
+      "hp": 100,
+      "atk": 105,
+      "def": 110,
+      "spa": 115,
+      "spd": 110,
+      "spe": 60
     },
     "addmoves": [
       "terablast",
@@ -12525,12 +12625,12 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 47,
-      "atk": 223,
-      "def": 139,
-      "spa": 41,
-      "spd": 19,
-      "spe": 131
+      "hp": 50,
+      "atk": 200,
+      "def": 140,
+      "spa": 40,
+      "spd": 35,
+      "spe": 135
     },
     "addmoves": [
       "terablast",
@@ -12551,12 +12651,12 @@
       "H": "Unaware"
     },
     "baseStats": {
-      "hp": 251,
-      "atk": 127,
-      "def": 53,
-      "spa": 103,
-      "spd": 53,
-      "spe": 13
+      "hp": 230,
+      "atk": 130,
+      "def": 60,
+      "spa": 105,
+      "spd": 60,
+      "spe": 15
     },
     "addmoves": [
       "terablast"
@@ -12642,12 +12742,12 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 83,
-      "atk": 83,
-      "def": 83,
-      "spa": 137,
-      "spd": 83,
-      "spe": 131
+      "hp": 85,
+      "atk": 80,
+      "def": 85,
+      "spa": 135,
+      "spd": 85,
+      "spe": 130
     },
     "addmoves": [
       "terablast"
@@ -12666,12 +12766,12 @@
       "H": "Sturdy"
     },
     "baseStats": {
-      "hp": 67,
-      "atk": 139,
-      "def": 241,
-      "spa": 29,
-      "spd": 113,
-      "spe": 11
+      "hp": 70,
+      "atk": 140,
+      "def": 240,
+      "spa": 25,
+      "spd": 115,
+      "spe": 10
     },
     "addmoves": [
       "terablast",
@@ -12691,12 +12791,12 @@
       "H": "Magic Bounce"
     },
     "baseStats": {
-      "hp": 59,
-      "atk": 127,
-      "def": 47,
-      "spa": 173,
-      "spd": 67,
-      "spe": 127
+      "hp": 60,
+      "atk": 125,
+      "def": 45,
+      "spa": 175,
+      "spd": 70,
+      "spe": 125
     },
     "addmoves": [
       "terablast",
@@ -12818,7 +12918,10 @@
       "spd": 70,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "nastyplot",
+      "sludgebomb"
+    ],
     "rmmoves": []
   },
   "greedent": {
@@ -12934,11 +13037,11 @@
       "H": "Effect Spore"
     },
     "baseStats": {
-      "hp": 150,
-      "atk": 50,
-      "def": 130,
-      "spa": 60,
-      "spd": 160,
+      "hp": 130,
+      "atk": 70,
+      "def": 115,
+      "spa": 100,
+      "spd": 135,
       "spe": 50
     },
     "addmoves": [
@@ -12957,12 +13060,12 @@
       "H": "Bulletproof"
     },
     "baseStats": {
-      "hp": 72,
+      "hp": 85,
       "atk": 100,
-      "def": 140,
+      "def": 130,
       "spa": 60,
       "spd": 120,
-      "spe": 108
+      "spe": 105
     },
     "addmoves": [
       "milkdrink",
@@ -13003,12 +13106,12 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 89,
+      "hp": 90,
       "atk": 110,
       "def": 80,
       "spa": 110,
       "spd": 80,
-      "spe": 131
+      "spe": 130
     },
     "addmoves": [
       "volttackle",
@@ -13100,12 +13203,12 @@
       "H": "Sand Stream"
     },
     "baseStats": {
-      "hp": 102,
-      "atk": 127,
-      "def": 155,
-      "spa": 65,
-      "spd": 80,
-      "spe": 71
+      "hp": 100,
+      "atk": 130,
+      "def": 135,
+      "spa": 60,
+      "spd": 90,
+      "spe": 85
     },
     "addmoves": [],
     "rmmoves": []
@@ -13191,12 +13294,12 @@
       "H": "Propeller Tail"
     },
     "baseStats": {
-      "hp": 71,
-      "atk": 163,
-      "def": 70,
-      "spa": 60,
-      "spd": 60,
-      "spe": 176
+      "hp": 75,
+      "atk": 155,
+      "def": 65,
+      "spa": 80,
+      "spd": 65,
+      "spe": 160
     },
     "addmoves": [],
     "rmmoves": []
@@ -13213,10 +13316,10 @@
       "H": "Soundproof"
     },
     "baseStats": {
-      "hp": 93,
-      "atk": 118,
+      "hp": 95,
+      "atk": 120,
       "def": 80,
-      "spa": 124,
+      "spa": 120,
       "spd": 80,
       "spe": 105
     },
@@ -13262,11 +13365,11 @@
     },
     "baseStats": {
       "hp": 115,
-      "atk": 145,
+      "atk": 135,
       "def": 80,
       "spa": 90,
       "spd": 105,
-      "spe": 65
+      "spe": 75
     },
     "addmoves": [
       "terablast"
@@ -13286,11 +13389,11 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 128,
-      "def": 128,
+      "atk": 125,
+      "def": 125,
       "spa": 80,
-      "spd": 122,
-      "spe": 62
+      "spd": 125,
+      "spe": 65
     },
     "addmoves": [
       "jetpunch",
@@ -13357,12 +13460,12 @@
       "H": "Magic Bounce"
     },
     "baseStats": {
-      "hp": 97,
-      "atk": 135,
+      "hp": 95,
+      "atk": 115,
       "def": 105,
-      "spa": 136,
-      "spd": 113,
-      "spe": 14
+      "spa": 140,
+      "spd": 120,
+      "spe": 25
     },
     "addmoves": [
       "radiantreckoning"
@@ -13405,11 +13508,11 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 123,
-      "atk": 100,
-      "def": 131,
+      "hp": 115,
+      "atk": 110,
+      "def": 125,
       "spa": 50,
-      "spd": 91,
+      "spd": 95,
       "spe": 105
     },
     "addmoves": [
@@ -13429,12 +13532,12 @@
       "H": "Steely Spirit"
     },
     "baseStats": {
-      "hp": 120,
+      "hp": 100,
       "atk": 140,
       "def": 120,
-      "spa": 50,
-      "spd": 100,
-      "spe": 70
+      "spa": 70,
+      "spd": 90,
+      "spe": 80
     },
     "addmoves": [],
     "rmmoves": []
@@ -13450,11 +13553,11 @@
       "H": "Perish Body"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 40,
-      "def": 125,
-      "spa": 145,
-      "spd": 150,
+      "hp": 95,
+      "atk": 65,
+      "def": 115,
+      "spa": 150,
+      "spd": 135,
       "spe": 40
     },
     "addmoves": [
@@ -13551,8 +13654,8 @@
       "atk": 65,
       "def": 95,
       "spa": 130,
-      "spd": 141,
-      "spe": 84
+      "spd": 140,
+      "spe": 85
     },
     "addmoves": [],
     "rmmoves": []
@@ -13568,12 +13671,12 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 130,
+      "hp": 115,
       "atk": 130,
-      "def": 120,
+      "def": 130,
       "spa": 50,
       "spd": 80,
-      "spe": 90
+      "spe": 95
     },
     "addmoves": [
       "rockblast",
@@ -13594,12 +13697,12 @@
       "H": "Electric Surge"
     },
     "baseStats": {
-      "hp": 53,
-      "atk": 141,
-      "def": 135,
-      "spa": 131,
-      "spd": 125,
-      "spe": 15
+      "hp": 90,
+      "atk": 120,
+      "def": 120,
+      "spa": 130,
+      "spd": 110,
+      "spe": 30
     },
     "addmoves": [],
     "rmmoves": []
@@ -13616,11 +13719,11 @@
       "H": "Ice Scales"
     },
     "baseStats": {
-      "hp": 70,
-      "atk": 65,
-      "def": 80,
-      "spa": 150,
-      "spd": 150,
+      "hp": 90,
+      "atk": 70,
+      "def": 85,
+      "spa": 145,
+      "spd": 125,
       "spe": 85
     },
     "addmoves": [
@@ -13640,11 +13743,11 @@
       "H": "Sand Force"
     },
     "baseStats": {
-      "hp": 130,
-      "atk": 165,
-      "def": 175,
-      "spa": 20,
-      "spd": 20,
+      "hp": 125,
+      "atk": 150,
+      "def": 160,
+      "spa": 30,
+      "spd": 45,
       "spe": 90
     },
     "addmoves": [],
@@ -13728,8 +13831,8 @@
     "baseStats": {
       "hp": 100,
       "atk": 55,
-      "def": 125,
-      "spa": 100,
+      "def": 115,
+      "spa": 110,
       "spd": 135,
       "spe": 85
     },
@@ -14129,10 +14232,10 @@
     },
     "baseStats": {
       "hp": 200,
-      "atk": 130,
-      "def": 15,
-      "spa": 130,
-      "spd": 15,
+      "atk": 115,
+      "def": 30,
+      "spa": 115,
+      "spd": 30,
       "spe": 110
     },
     "addmoves": [],
@@ -14214,12 +14317,12 @@
       "H": "Psychic Surge"
     },
     "baseStats": {
-      "hp": 120,
+      "hp": 110,
       "atk": 115,
-      "def": 120,
+      "def": 100,
       "spa": 115,
-      "spd": 105,
-      "spe": 25
+      "spd": 95,
+      "spe": 65
     },
     "addmoves": [],
     "rmmoves": []
@@ -14347,9 +14450,9 @@
     },
     "baseStats": {
       "hp": 95,
-      "atk": 150,
+      "atk": 140,
       "def": 80,
-      "spa": 40,
+      "spa": 50,
       "spd": 95,
       "spe": 140
     },
@@ -14368,12 +14471,12 @@
       "H": "Merciless"
     },
     "baseStats": {
-      "hp": 115,
+      "hp": 105,
       "atk": 125,
       "def": 115,
       "spa": 65,
-      "spd": 85,
-      "spe": 95
+      "spd": 90,
+      "spe": 100
     },
     "addmoves": [
       "spikyshield"
@@ -14440,12 +14543,12 @@
       "H": "Sniper"
     },
     "baseStats": {
-      "hp": 86,
+      "hp": 85,
       "atk": 130,
       "def": 70,
-      "spa": 81,
+      "spa": 95,
       "spd": 70,
-      "spe": 163
+      "spe": 150
     },
     "addmoves": [
       "psychocut"
@@ -14568,12 +14671,12 @@
       "H": "Stakeout"
     },
     "baseStats": {
-      "hp": 121,
-      "atk": 134,
-      "def": 132,
-      "spa": 52,
-      "spd": 126,
-      "spe": 35
+      "hp": 110,
+      "atk": 120,
+      "def": 115,
+      "spa": 75,
+      "spd": 115,
+      "spe": 65
     },
     "addmoves": [],
     "rmmoves": []
@@ -14683,9 +14786,9 @@
       "H": "WellBaked Body"
     },
     "baseStats": {
-      "hp": 77,
+      "hp": 85,
       "atk": 100,
-      "def": 148,
+      "def": 140,
       "spa": 50,
       "spd": 110,
       "spe": 115
@@ -14939,12 +15042,12 @@
       "H": "Competitive"
     },
     "baseStats": {
-      "hp": 91,
+      "hp": 90,
       "atk": 70,
-      "def": 75,
-      "spa": 124,
-      "spd": 75,
-      "spe": 165
+      "def": 80,
+      "spa": 125,
+      "spd": 80,
+      "spe": 155
     },
     "addmoves": [
       "aircannon"
@@ -15087,13 +15190,22 @@
     },
     "baseStats": {
       "hp": 65,
-      "atk": 158,
-      "def": 65,
-      "spa": 158,
-      "spd": 65,
-      "spe": 89
+      "atk": 140,
+      "def": 75,
+      "spa": 140,
+      "spd": 75,
+      "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "sludgebomb",
+      "acidspray",
+      "earthpower",
+      "incinerate",
+      "weatherball",
+      "flareblitz",
+      "flamecharge",
+      "gunkshot"
+    ],
     "rmmoves": []
   },
   "rabsca": {
@@ -15153,10 +15265,10 @@
     "baseStats": {
       "hp": 85,
       "atk": 105,
-      "def": 107,
-      "spa": 64,
+      "def": 105,
+      "spa": 65,
       "spd": 125,
-      "spe": 114
+      "spe": 115
     },
     "addmoves": [
       "hammerarm",
@@ -15175,12 +15287,12 @@
       "H": "Water Absorb"
     },
     "baseStats": {
-      "hp": 35,
-      "atk": 150,
-      "def": 50,
-      "spa": 50,
-      "spd": 145,
-      "spe": 170
+      "hp": 75,
+      "atk": 140,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 145
     },
     "addmoves": [],
     "rmmoves": []
@@ -15292,12 +15404,12 @@
       "H": "Regenerator"
     },
     "baseStats": {
-      "hp": 70,
+      "hp": 80,
       "atk": 125,
       "def": 80,
-      "spa": 84,
+      "spa": 95,
       "spd": 80,
-      "spe": 161
+      "spe": 140
     },
     "addmoves": [],
     "rmmoves": []
@@ -15335,12 +15447,12 @@
       "H": "Corrosion"
     },
     "baseStats": {
-      "hp": 83,
-      "atk": 55,
-      "def": 115,
+      "hp": 90,
+      "atk": 65,
+      "def": 105,
       "spa": 145,
-      "spd": 86,
-      "spe": 116
+      "spd": 85,
+      "spe": 110
     },
     "addmoves": [],
     "rmmoves": []
@@ -15441,11 +15553,11 @@
       "H": "Sharpness"
     },
     "baseStats": {
-      "hp": 120,
-      "atk": 90,
-      "def": 105,
+      "hp": 100,
+      "atk": 120,
+      "def": 100,
       "spa": 90,
-      "spd": 105,
+      "spd": 100,
       "spe": 90
     },
     "addmoves": [],
@@ -15554,11 +15666,11 @@
       "H": "Sap Sipper"
     },
     "baseStats": {
-      "hp": 150,
-      "atk": 90,
-      "def": 90,
-      "spa": 110,
-      "spd": 90,
+      "hp": 130,
+      "atk": 70,
+      "def": 105,
+      "spa": 120,
+      "spd": 105,
       "spe": 70
     },
     "addmoves": [],
@@ -15681,12 +15793,12 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 135,
-      "atk": 65,
-      "def": 94,
-      "spa": 65,
+      "hp": 125,
+      "atk": 60,
+      "def": 100,
+      "spa": 75,
       "spd": 110,
-      "spe": 131
+      "spe": 130
     },
     "addmoves": [
       "gleamstep"
@@ -15705,12 +15817,12 @@
       "H": "Grassy Surge"
     },
     "baseStats": {
-      "hp": 126,
-      "atk": 142,
-      "def": 109,
-      "spa": 59,
-      "spd": 109,
-      "spe": 55
+      "hp": 120,
+      "atk": 140,
+      "def": 110,
+      "spa": 60,
+      "spd": 110,
+      "spe": 60
     },
     "addmoves": [],
     "rmmoves": []
@@ -15774,11 +15886,11 @@
     },
     "baseStats": {
       "hp": 95,
-      "atk": 51,
-      "def": 97,
-      "spa": 141,
+      "atk": 55,
+      "def": 100,
+      "spa": 135,
       "spd": 85,
-      "spe": 131
+      "spe": 130
     },
     "addmoves": [],
     "rmmoves": []
@@ -15796,11 +15908,11 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 122,
+      "atk": 120,
       "def": 130,
-      "spa": 52,
+      "spa": 50,
       "spd": 80,
-      "spe": 116
+      "spe": 120
     },
     "addmoves": [
       "loosedirt"
@@ -15819,12 +15931,12 @@
       "H": "Ice Scales"
     },
     "baseStats": {
-      "hp": 56,
+      "hp": 65,
       "atk": 70,
-      "def": 124,
-      "spa": 139,
+      "def": 125,
+      "spa": 140,
       "spd": 60,
-      "spe": 151
+      "spe": 140
     },
     "addmoves": [
       "surf",
@@ -15846,11 +15958,11 @@
       "H": "Motor Drive"
     },
     "baseStats": {
-      "hp": 174,
+      "hp": 170,
       "atk": 150,
-      "def": 118,
+      "def": 120,
       "spa": 40,
-      "spd": 78,
+      "spd": 80,
       "spe": 40
     },
     "addmoves": [],
@@ -15868,12 +15980,12 @@
       "H": "Infiltrator"
     },
     "baseStats": {
-      "hp": 94,
-      "atk": 90,
-      "def": 86,
-      "spa": 132,
-      "spd": 80,
-      "spe": 118
+      "hp": 95,
+      "atk": 80,
+      "def": 90,
+      "spa": 130,
+      "spd": 90,
+      "spe": 115
     },
     "addmoves": [
       "roost",
@@ -15917,11 +16029,11 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 154,
+      "atk": 140,
       "def": 120,
-      "spa": 50,
-      "spd": 94,
-      "spe": 82
+      "spa": 55,
+      "spd": 100,
+      "spe": 85
     },
     "addmoves": [],
     "rmmoves": []
@@ -15960,12 +16072,12 @@
       "H": "Steely Spirit"
     },
     "baseStats": {
-      "hp": 87,
-      "atk": 60,
+      "hp": 95,
+      "atk": 65,
       "def": 95,
-      "spa": 173,
-      "spd": 91,
-      "spe": 94
+      "spa": 150,
+      "spd": 95,
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -16013,8 +16125,8 @@
       "atk": 135,
       "def": 80,
       "spa": 65,
-      "spd": 75,
-      "spe": 165
+      "spd": 85,
+      "spe": 155
     },
     "addmoves": [
       "rustyblade"
@@ -16058,10 +16170,10 @@
       "H": "Flash Fire"
     },
     "baseStats": {
-      "hp": 55,
-      "atk": 50,
+      "hp": 80,
+      "atk": 60,
       "def": 80,
-      "spa": 185,
+      "spa": 150,
       "spd": 120,
       "spe": 110
     },
@@ -16081,11 +16193,11 @@
     },
     "baseStats": {
       "hp": 115,
-      "atk": 144,
-      "def": 71,
-      "spa": 45,
-      "spd": 101,
-      "spe": 124
+      "atk": 140,
+      "def": 75,
+      "spa": 40,
+      "spd": 105,
+      "spe": 125
     },
     "addmoves": [],
     "rmmoves": []
@@ -16102,12 +16214,12 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 84,
+      "hp": 80,
       "atk": 130,
       "def": 80,
       "spa": 120,
-      "spd": 60,
-      "spe": 126
+      "spd": 65,
+      "spe": 125
     },
     "addmoves": [
       "nastyplot",
@@ -16173,10 +16285,10 @@
     },
     "baseStats": {
       "hp": 99,
-      "atk": 73,
-      "def": 91,
+      "atk": 72,
+      "def": 90,
       "spa": 135,
-      "spd": 83,
+      "spd": 85,
       "spe": 119
     },
     "addmoves": [],
@@ -16197,9 +16309,9 @@
       "hp": 100,
       "atk": 140,
       "def": 88,
-      "spa": 50,
+      "spa": 54,
       "spd": 108,
-      "spe": 114
+      "spe": 110
     },
     "addmoves": [
       "rustyblade"
@@ -16290,12 +16402,12 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 88,
+      "hp": 90,
       "atk": 70,
-      "def": 66,
+      "def": 70,
       "spa": 140,
       "spd": 100,
-      "spe": 136
+      "spe": 130
     },
     "addmoves": [
       "toxicspikes"
@@ -16314,12 +16426,12 @@
       "H": "Levitate"
     },
     "baseStats": {
-      "hp": 88,
-      "atk": 91,
-      "def": 82,
-      "spa": 75,
-      "spd": 145,
-      "spe": 119
+      "hp": 100,
+      "atk": 90,
+      "def": 85,
+      "spa": 80,
+      "spd": 135,
+      "spe": 110
     },
     "addmoves": [
       "bravebird",
@@ -16341,9 +16453,9 @@
     "baseStats": {
       "hp": 80,
       "atk": 130,
-      "def": 89,
+      "def": 90,
       "spa": 60,
-      "spd": 101,
+      "spd": 100,
       "spe": 140
     },
     "addmoves": [],
@@ -16363,9 +16475,9 @@
     "baseStats": {
       "hp": 100,
       "atk": 120,
-      "def": 84,
+      "def": 90,
       "spa": 60,
-      "spd": 126,
+      "spd": 120,
       "spe": 110
     },
     "addmoves": [],
@@ -16384,11 +16496,11 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 150,
-      "def": 84,
-      "spa": 60,
-      "spd": 96,
-      "spe": 130
+      "atk": 140,
+      "def": 80,
+      "spa": 75,
+      "spd": 100,
+      "spe": 125
     },
     "addmoves": [],
     "rmmoves": []
@@ -16405,11 +16517,11 @@
       "H": "Embody Aspect"
     },
     "baseStats": {
-      "hp": 90,
+      "hp": 95,
       "atk": 130,
-      "def": 114,
+      "def": 115,
       "spa": 60,
-      "spd": 96,
+      "spd": 90,
       "spe": 110
     },
     "addmoves": [],
@@ -16473,10 +16585,10 @@
     "baseStats": {
       "hp": 105,
       "atk": 125,
-      "def": 131,
+      "def": 130,
       "spa": 45,
-      "spd": 93,
-      "spe": 101
+      "spd": 95,
+      "spe": 100
     },
     "addmoves": [],
     "rmmoves": []
@@ -16494,10 +16606,10 @@
     },
     "baseStats": {
       "hp": 125,
-      "atk": 73,
-      "def": 101,
-      "spa": 147,
-      "spd": 99,
+      "atk": 75,
+      "def": 100,
+      "spa": 145,
+      "spd": 100,
       "spe": 55
     },
     "addmoves": [],
@@ -16518,9 +16630,9 @@
       "hp": 100,
       "atk": 130,
       "def": 80,
-      "spa": 48,
-      "spd": 108,
-      "spe": 134
+      "spa": 45,
+      "spd": 110,
+      "spe": 135
     },
     "addmoves": [
       "rustyblade"
@@ -16542,8 +16654,8 @@
       "hp": 100,
       "atk": 52,
       "def": 100,
-      "spa": 132,
-      "spd": 108,
+      "spa": 130,
+      "spd": 110,
       "spe": 108
     },
     "addmoves": [],
