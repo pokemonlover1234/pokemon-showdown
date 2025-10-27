@@ -7747,6 +7747,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				for (const pokemon of side.active) {
 					if (!pokemon) continue;
 					if (!pokemon.volatiles["pandorascurse"] && pokemon.hp) {
+						success = false;
 						pokemon.addVolatile("pandorascurse", target);
 						const curse = pokemon.volatiles["pandorascurse"];
 						console.log("Rolling status for " + pokemon.name);

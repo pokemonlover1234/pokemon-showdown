@@ -32,6 +32,8 @@ Ratings and how they work:
 
 */
 
+import { randomElement } from '../lib/utils';
+
 export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	noability: {
 		isNonstandard: "Past",
@@ -4178,6 +4180,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				}
 			} else {
 				if (pokemon.species.forme === 'Meteor') {
+					if (pokemon.set.species === 'Minior-Meteor') {
+						const colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+						const choice = randomElement(colors);
+						if (choice === 'Red') {
+							pokemon.formeChange("Minior");
+							return;
+						}
+						pokemon.formeChange("Minior-" + choice);
+						return;
+					}
 					pokemon.formeChange(pokemon.set.species);
 				}
 			}
