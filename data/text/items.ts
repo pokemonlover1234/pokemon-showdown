@@ -2443,6 +2443,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	pandorasbox: {
 		name: "Pandora's Box",
-		desc: "When holder is hit by a contact move, a random status is applied to the attacker. \"Pandora's Curse\" is also applied to the attacker, which prevents this item from triggering again for the same attacker. \"Pandora's Curse\" is cleared only on switch out and has no other effect.",
+		desc: "When holder is hit by any move, a random status is applied to all Pokemon on the field. \"Pandora's Curse\" is also applied to all affected Pokemon, which prevents this item from triggering again for the same Pokemon. \"Pandora's Curse\" is cleared only on switch out and has no other effect.",
+		shortDesc: "When hit by any move, applies random status to all Pokemon. Also applies Pandora's Curse.",
 	},
 };
