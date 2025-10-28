@@ -7691,4 +7691,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The user unleashes a very hot blast of fire. Power doubles if target is burned.",
 		shortDesc: "Power doubles if target is burned.",
 	},
+	windpulse: {
+		name: "Wind Pulse",
+		shortDesc: "No additional effect",
+	},
 };
