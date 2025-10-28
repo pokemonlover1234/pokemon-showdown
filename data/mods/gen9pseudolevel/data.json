@@ -149,7 +149,8 @@
     "addmoves": [
       "dracometeor",
       "afterburner",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -176,7 +177,7 @@
       "armorcannon",
       "heavyslam",
       "ironhead",
-      "aircannon"
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -202,7 +203,8 @@
     "addmoves": [
       "terablast",
       "airslash",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -360,7 +362,8 @@
     },
     "addmoves": [
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -3654,7 +3657,8 @@
       "spe": 90
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4288,6 +4292,7 @@
     },
     "addmoves": [
       "aircannon",
+      "windpulse",
       "cryofreeze"
     ],
     "rmmoves": []
@@ -4312,7 +4317,8 @@
       "spe": 125
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4336,7 +4342,8 @@
       "spe": 125
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4360,7 +4367,8 @@
       "spe": 130
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4385,6 +4393,7 @@
     },
     "addmoves": [
       "aircannon",
+      "windpulse",
       "afterburner"
     ],
     "rmmoves": []
@@ -4409,7 +4418,8 @@
       "spe": 115
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4433,7 +4443,8 @@
       "spe": 80
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4784,7 +4795,8 @@
     },
     "addmoves": [
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4856,7 +4868,8 @@
     "addmoves": [
       "terablast",
       "nightslash",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -4966,7 +4979,8 @@
     "addmoves": [
       "terablast",
       "psychicnoise",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -6169,7 +6183,8 @@
       "surf",
       "waterpulse",
       "hurricane",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -6195,7 +6210,7 @@
     "addmoves": [
       "terablast",
       "chillingwater",
-      "aircannon"
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -6219,7 +6234,8 @@
       "spe": 90
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -6313,7 +6329,7 @@
     "addmoves": [
       "darkpulse",
       "aurasphere",
-      "aircannon"
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -7338,7 +7354,8 @@
     },
     "addmoves": [
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -7493,7 +7510,8 @@
     },
     "addmoves": [
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -7517,7 +7535,8 @@
       "spe": 105
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -8130,9 +8149,9 @@
     "baseStats": {
       "hp": 85,
       "atk": 130,
-      "def": 190,
-      "spa": 45,
-      "spd": 100,
+      "def": 200,
+      "spa": 40,
+      "spd": 110,
       "spe": 50
     },
     "addmoves": [
@@ -8941,7 +8960,8 @@
     },
     "addmoves": [
       "radiantreckoning",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -9656,7 +9676,8 @@
       "spe": 80
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -10204,7 +10225,8 @@
       "spe": 100
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -11126,7 +11148,8 @@
       "spe": 80
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -11151,7 +11174,8 @@
     },
     "addmoves": [
       "stompingtantrum",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -11565,7 +11589,8 @@
     "addmoves": [
       "dazzlinggleam",
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -11589,7 +11614,8 @@
       "spe": 60
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -11846,7 +11872,8 @@
       "spe": 90
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -12002,7 +12029,8 @@
       "bulkup",
       "closecombat",
       ".vacuumwave",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -12156,7 +12184,8 @@
       "terablast",
       "alluringvoice",
       "psychicnoise",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -12882,6 +12911,7 @@
       "craftyshield",
       "darkpulse",
       "aircannon",
+      "windpulse",
       "afterburner"
     ],
     "rmmoves": []
@@ -12910,6 +12940,7 @@
       "calmmind",
       "terablast",
       "aircannon",
+      "windpulse",
       "gleamstep"
     ],
     "rmmoves": []
@@ -13567,7 +13598,8 @@
       "spe": 130
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -14108,7 +14140,9 @@
       "spd": 110,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "windpulse"
+    ],
     "rmmoves": []
   },
   "heatran": {
@@ -16373,7 +16407,8 @@
       "terablast",
       "stompingtantrum",
       "hurricane",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -16486,7 +16521,8 @@
       "psychicnoise",
       "alluringvoice",
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -17523,7 +17559,8 @@
     "addmoves": [
       "terablast",
       "dazzlinggleam",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -17639,7 +17676,8 @@
     },
     "addmoves": [
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -17957,7 +17995,8 @@
       "spe": 130
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -18048,7 +18087,8 @@
     },
     "addmoves": [
       "terablast",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -18992,7 +19032,8 @@
       "spe": 110
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19016,7 +19057,8 @@
       "spe": 100
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19040,7 +19082,8 @@
       "spe": 105
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19152,7 +19195,7 @@
     "addmoves": [
       "aurasphere",
       "waterpulse",
-      "aircannon"
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19365,7 +19408,8 @@
       "spe": 120
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19388,7 +19432,8 @@
       "spe": 130
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19413,7 +19458,8 @@
     },
     "addmoves": [
       "airslash",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19438,7 +19484,8 @@
     },
     "addmoves": [
       "airslash",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19463,7 +19510,8 @@
     },
     "addmoves": [
       "airslash",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -19488,7 +19536,8 @@
     },
     "addmoves": [
       "airslash",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -20419,7 +20468,8 @@
       "spe": 120
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -20450,7 +20500,8 @@
       "nightslash",
       "slash",
       "ironhead",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -21231,7 +21282,7 @@
       "spe": 85
     },
     "addmoves": [
-      "aircannon"
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -21903,7 +21954,8 @@
     },
     "addmoves": [
       "alluringvoice",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -22526,7 +22578,8 @@
     "addmoves": [
       "highjump kick",
       "blazekick",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -22768,7 +22821,8 @@
       "spe": 130
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -22792,7 +22846,8 @@
       "spe": 100
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -22816,7 +22871,8 @@
       "spe": 90
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -24805,7 +24861,8 @@
       "spe": 60
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -24829,7 +24886,8 @@
       "spe": 175
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -25660,7 +25718,8 @@
     "addmoves": [
       "terablast",
       "hardpress",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -27493,7 +27552,8 @@
       "spe": 100
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -27517,7 +27577,8 @@
       "spe": 130
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -31159,7 +31220,8 @@
       "brickbreak",
       "stompingtantrum",
       "drillrun",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -31187,7 +31249,8 @@
       "stompingtantrum",
       "drillrun",
       "mirrormove",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -31217,7 +31280,8 @@
       "vacuumwave",
       "shockwave",
       "shadowball",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -31245,7 +31309,8 @@
       "stompingtantrum",
       "drillrun",
       "switcheroo",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -31311,7 +31376,7 @@
       "spe": 80
     },
     "addmoves": [
-      "aircannon"
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -31402,7 +31467,8 @@
       "spe": 155
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -32234,7 +32300,8 @@
       "spe": 105
     },
     "addmoves": [
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
@@ -33173,7 +33240,7 @@
     "addmoves": [
       "surf",
       "flashcannon",
-      "aircannon",
+      "windpulse",
       "cryofreeze"
     ],
     "rmmoves": []
@@ -33244,7 +33311,8 @@
     "addmoves": [
       "roost",
       "nastyplot",
-      "aircannon"
+      "aircannon",
+      "windpulse"
     ],
     "rmmoves": []
   },
