@@ -981,6 +981,28 @@
     ],
     "rmmoves": []
   },
+  "farfetchd": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Sharpness",
+      "1": "Inner Focus",
+      "H": "Defiant"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 126,
+      "def": 90,
+      "spa": 59,
+      "spd": 102,
+      "spe": 108
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "dodrio": {
     "restricted": false,
     "types": [
@@ -3226,17 +3248,17 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Own Tempo",
-      "1": "Technician",
-      "H": "Oblivious"
+      "0": "Technician",
+      "1": "Oblivious",
+      "H": "Gluttony"
     },
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 90,
-      "spa": 95,
-      "spd": 90,
-      "spe": 135
+      "hp": 85,
+      "atk": 115,
+      "def": 80,
+      "spa": 115,
+      "spd": 80,
+      "spe": 125
     },
     "addmoves": [],
     "rmmoves": []
@@ -3544,7 +3566,8 @@
   "mightyena": {
     "restricted": false,
     "types": [
-      "Dark"
+      "Dark",
+      "Poison"
     ],
     "abilities": {
       "0": "Milacious Laugh",
@@ -3625,12 +3648,12 @@
       "H": "Corrosion"
     },
     "baseStats": {
-      "hp": 95,
+      "hp": 105,
       "atk": 80,
       "def": 115,
       "spa": 95,
       "spd": 115,
-      "spe": 100
+      "spe": 90
     },
     "addmoves": [
       "poisonjab",
@@ -3854,22 +3877,19 @@
       "Ghost"
     ],
     "abilities": {
-      "0": "Wonder Guard",
+      "0": "Shell Armor",
       "1": "Cursed Body",
-      "H": "Aftermath"
+      "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 1,
-      "atk": 170,
-      "def": 79,
-      "spa": 160,
-      "spd": 60,
-      "spe": 130
+      "hp": 75,
+      "atk": 145,
+      "def": 85,
+      "spa": 65,
+      "spd": 85,
+      "spe": 145
     },
-    "addmoves": [
-      "terablast",
-      "decompose"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "exploud": {
@@ -4214,11 +4234,11 @@
     },
     "baseStats": {
       "hp": 190,
-      "atk": 100,
-      "def": 75,
-      "spa": 100,
-      "spd": 75,
-      "spe": 60
+      "atk": 70,
+      "def": 90,
+      "spa": 110,
+      "spd": 90,
+      "spe": 50
     },
     "addmoves": [
       "terablast"
@@ -4368,12 +4388,12 @@
     "restricted": false,
     "types": [
       "Dragon",
-      "Flying"
+      "Fairy"
     ],
     "abilities": {
       "0": "Natural Cure",
       "1": "Fluffy",
-      "H": "Fairy Aura"
+      "H": "Pixilate"
     },
     "baseStats": {
       "hp": 85,
@@ -4737,8 +4757,8 @@
     "baseStats": {
       "hp": 90,
       "atk": 110,
-      "def": 100,
-      "spa": 100,
+      "def": 120,
+      "spa": 80,
       "spd": 130,
       "spe": 70
     },
@@ -5228,20 +5248,20 @@
     "restricted": false,
     "types": [
       "Psychic",
-      "Dark"
+      "Normal"
     ],
     "abilities": {
-      "0": "Pressure",
+      "0": "Illusion",
       "1": "Synchronize",
       "H": "Trace"
     },
     "baseStats": {
       "hp": 70,
       "atk": 100,
-      "def": 100,
+      "def": 90,
       "spa": 100,
-      "spd": 100,
-      "spe": 130
+      "spd": 90,
+      "spe": 150
     },
     "addmoves": [],
     "rmmoves": []
@@ -5253,9 +5273,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Pressure",
+      "0": "Mold Breaker",
       "1": "Technician",
-      "H": "Moxie"
+      "H": "Beast Boost"
     },
     "baseStats": {
       "hp": 50,
@@ -5265,7 +5285,9 @@
       "spd": 20,
       "spe": 150
     },
-    "addmoves": [],
+    "addmoves": [
+      "machpunch"
+    ],
     "rmmoves": []
   },
   "deoxysdefense": {
@@ -5297,7 +5319,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Pressure",
+      "0": "Dazzling",
       "1": "Prankster",
       "H": "Speed Boost"
     },
@@ -5367,7 +5389,7 @@
     "abilities": {
       "0": "Refrigerate",
       "1": "Competitive",
-      "H": "Imperial Rule"
+      "H": "Imperial Rule "
     },
     "baseStats": {
       "hp": 105,
@@ -9425,16 +9447,16 @@
     ],
     "abilities": {
       "0": "Flame Body",
-      "1": "Solar Power",
+      "1": "Turboblaze",
       "H": "Drought"
     },
     "baseStats": {
       "hp": 95,
-      "atk": 60,
-      "def": 75,
+      "atk": 50,
+      "def": 80,
       "spa": 145,
-      "spd": 115,
-      "spe": 110
+      "spd": 110,
+      "spe": 120
     },
     "addmoves": [
       "scorchingsands",
@@ -15325,7 +15347,7 @@
     ],
     "abilities": {
       "0": "Mold Breaker",
-      "1": "Pickpocket",
+      "1": "Bludgeon",
       "H": "Steelworker"
     },
     "baseStats": {
@@ -15338,7 +15360,8 @@
     },
     "addmoves": [
       "hammerarm",
-      "radiantreckoning"
+      "radiantreckoning",
+      "rockhammer"
     ],
     "rmmoves": []
   },

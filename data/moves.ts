@@ -22310,4 +22310,28 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			}
 		},
 	},
+	rockhammer: {
+		accuracy: 100,
+		pp: 15,
+		basePower: 80,
+		category: "Physical",
+		isNonstandard: "Custom",
+		name: "Rock Hammer",
+		flags: { metronome: 1, protect: 1, contact: 1 },
+		priority: 0,
+		target: "normal",
+		type: "Rock",
+		condition: {
+			duration: 1,
+			onSetStatus() {
+				return false;
+			},
+		},
+		self: {
+			boosts: {
+				spe: 1,
+			},
+			volatileStatus: "rockhammer",
+		},
+	},
 };
