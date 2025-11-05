@@ -7653,4 +7653,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Wind Pulse",
 		shortDesc: "No additional effect",
 	},
+	rockhammer: {
+		name: "Rock Hammer",
+		desc: "User becomes immune to status effects until the end of the turn, if user moves before the target. Lowers the user's Speed by one stage.",
+		shortDesc: "User is immune to status until end of turn. User's speed drops by 1 stage.",
+	},
 };
