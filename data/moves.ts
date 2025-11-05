@@ -21522,7 +21522,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		self: {
 			boosts: {
-				spe: 1,
+				spe: -1,
 			},
 			volatileStatus: "rockhammer",
 		},
