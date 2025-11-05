@@ -1948,6 +1948,28 @@
     ],
     "rmmoves": []
   },
+  "farfetchd": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Sharpness",
+      "1": "Inner Focus",
+      "H": "Defiant"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 126,
+      "def": 90,
+      "spa": 59,
+      "spd": 102,
+      "spe": 108
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "dodrio": {
     "restricted": false,
     "types": [
@@ -6367,16 +6389,16 @@
     ],
     "abilities": {
       "0": "Technician",
-      "1": "Protean",
+      "1": "Oblivious",
       "H": "Gluttony"
     },
     "baseStats": {
-      "hp": 100,
+      "hp": 85,
       "atk": 115,
-      "def": 95,
+      "def": 80,
       "spa": 115,
-      "spd": 95,
-      "spe": 80
+      "spd": 80,
+      "spe": 125
     },
     "addmoves": [
       "terablast",
@@ -7372,12 +7394,12 @@
       "S": "Dark Fortress"
     },
     "baseStats": {
-      "hp": 95,
+      "hp": 105,
       "atk": 80,
       "def": 115,
       "spa": 95,
       "spd": 115,
-      "spe": 100
+      "spe": 90
     },
     "addmoves": [
       "poisonjab",
@@ -7767,17 +7789,14 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 1,
-      "atk": 170,
-      "def": 79,
-      "spa": 160,
-      "spd": 60,
-      "spe": 130
+      "hp": 75,
+      "atk": 145,
+      "def": 85,
+      "spa": 65,
+      "spd": 85,
+      "spe": 145
     },
-    "addmoves": [
-      "terablast",
-      "decompose"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "exploud": {
@@ -8943,12 +8962,12 @@
     "restricted": false,
     "types": [
       "Dragon",
-      "Flying"
+      "Fairy"
     ],
     "abilities": {
       "0": "Natural Cure",
       "1": "Fluffy",
-      "H": "Cloud Nine"
+      "H": "Pixilate"
     },
     "baseStats": {
       "hp": 95,
@@ -9531,8 +9550,8 @@
     "baseStats": {
       "hp": 90,
       "atk": 110,
-      "def": 100,
-      "spa": 100,
+      "def": 120,
+      "spa": 80,
       "spd": 130,
       "spe": 70
     },
@@ -10954,26 +10973,7 @@
       "spe": 150
     },
     "addmoves": [
-      "machpunch",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "machpunch"
     ],
     "rmmoves": []
   },
@@ -19233,16 +19233,16 @@
     ],
     "abilities": {
       "0": "Flame Body",
-      "1": "Solar Power",
+      "1": "Turboblaze",
       "H": "Drought"
     },
     "baseStats": {
       "hp": 95,
-      "atk": 60,
-      "def": 75,
+      "atk": 50,
+      "def": 80,
       "spa": 145,
-      "spd": 115,
-      "spe": 110
+      "spd": 110,
+      "spe": 120
     },
     "addmoves": [
       "scorchingsands",
@@ -31818,29 +31818,7 @@
     "addmoves": [
       "hammerarm",
       "radiantreckoning",
-      "rockhammer",
-      "woodhammer",
-      "bulkup",
-      "poweruppunch",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "rockhammer"
     ],
     "rmmoves": []
   },
