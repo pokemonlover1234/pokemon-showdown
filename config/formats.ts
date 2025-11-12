@@ -3643,6 +3643,31 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ["Standard"],
 		gameType: 'doubles',
 	},
+	{
+		name: "[Gen 9] Pseudo Level VGC",
+		mod: "gen9pseudolevel",
+		bestOfDefault: true,
+		ruleset: ["Open Team Sheets", "Standard"],
+	},
+	{
+		name: "[Gen 9] Pseudo Level VGC Doubles",
+		mod: "gen9pseudoleveldoubles",
+		bestOfDefault: true,
+		ruleset: ["Open Team Sheets", "Standard"],
+		gameType: 'doubles',
+	},
+	{
+		name: "[Gen 9] Pseudo Level Triples",
+		mod: "gen9pseudolevel",
+		ruleset: ["Standard"],
+		gameType: 'triples',
+	},
+	{
+		name: "[Gen 9] Pseudo Level 2v2 Doubles",
+		mod: "gen9pseudoleveldoubles",
+		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
+		gameType: 'doubles',
+	},
 
 	// RoA Spotlight
 	///////////////////////////////////////////////////////////////////
