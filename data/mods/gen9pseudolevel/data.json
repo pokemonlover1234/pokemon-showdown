@@ -482,7 +482,8 @@
     },
     "addmoves": [
       "waterpulse",
-      "gleamstep"
+      "gleamstep",
+      "cryofreeze"
     ],
     "rmmoves": []
   },
@@ -824,7 +825,8 @@
       "upperhand",
       "jetpunch",
       "terablast",
-      "drainpunch"
+      "drainpunch",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -899,7 +901,8 @@
       "spe": 65
     },
     "addmoves": [
-      "headsmash"
+      "headsmash",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -923,7 +926,8 @@
       "spe": 75
     },
     "addmoves": [
-      "headsmash"
+      "headsmash",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -993,14 +997,16 @@
       "H": "Defiant"
     },
     "baseStats": {
-      "hp": 115,
-      "atk": 126,
+      "hp": 95,
+      "atk": 130,
       "def": 90,
-      "spa": 59,
-      "spd": 102,
-      "spe": 108
+      "spa": 70,
+      "spd": 90,
+      "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "terablast"
+    ],
     "rmmoves": []
   },
   "dodrio": {
@@ -1237,7 +1243,8 @@
     },
     "addmoves": [
       "earthquake",
-      "terablast"
+      "terablast",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -1326,7 +1333,8 @@
       "spe": 55
     },
     "addmoves": [
-      "overheat"
+      "overheat",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -1343,7 +1351,7 @@
     "baseStats": {
       "hp": 95,
       "atk": 120,
-      "def": 120,
+      "def": 125,
       "spa": 70,
       "spd": 90,
       "spe": 100
@@ -1488,7 +1496,8 @@
     },
     "addmoves": [
       "terablast",
-      "trailblaze"
+      "trailblaze",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -2252,9 +2261,10 @@
       "disarmingvoice",
       "fairylock",
       "fairywind",
-      "foralhealing",
+      "floralhealing",
       "mistyterrain",
-      "sweetkiss"
+      "sweetkiss",
+      "calmmind"
     ],
     "rmmoves": []
   },
@@ -2355,7 +2365,7 @@
   "noctowl": {
     "restricted": false,
     "types": [
-      "Normal",
+      "Ghost",
       "Flying"
     ],
     "abilities": {
@@ -2372,7 +2382,13 @@
       "spe": 90
     },
     "addmoves": [
-      "psyshock"
+      "psyshock",
+      "aircannon",
+      "windpulse",
+      "miracleeye",
+      "hex",
+      "will-o-wisp",
+      "mirrorcoat"
     ],
     "rmmoves": []
   },
@@ -2421,7 +2437,9 @@
       "spd": 90,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "gunkshot"
+    ],
     "rmmoves": []
   },
   "crobat": {
@@ -2619,7 +2637,8 @@
       "leechseed",
       "synthesis",
       "seedbomb",
-      "needlearm"
+      "needlearm",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -2888,7 +2907,8 @@
     },
     "addmoves": [
       "headsmash",
-      "terablast"
+      "terablast",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -2937,7 +2957,9 @@
       "spd": 95,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "banefulbunker"
+    ],
     "rmmoves": []
   },
   "scizor": {
@@ -3137,7 +3159,8 @@
     "addmoves": [
       "terablast",
       "chillingwater",
-      "windpulse"
+      "windpulse",
+      "aircannon"
     ],
     "rmmoves": []
   },
@@ -3249,19 +3272,24 @@
     ],
     "abilities": {
       "0": "Technician",
-      "1": "Oblivious",
+      "1": "Protean",
       "H": "Gluttony"
     },
     "baseStats": {
-      "hp": 85,
+      "hp": 100,
       "atk": 115,
-      "def": 80,
+      "def": 95,
       "spa": 115,
-      "spd": 80,
-      "spe": 125
+      "spd": 95,
+      "spe": 80
     },
     "addmoves": [],
-    "rmmoves": []
+    "rmmoves": [
+      "lastrespects",
+      "powertrip",
+      "shellsmash",
+      "direclaw"
+    ]
   },
   "hitmontop": {
     "restricted": false,
@@ -3418,7 +3446,10 @@
       "spd": 100,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer",
+      "shoreup"
+    ],
     "rmmoves": []
   },
   "lugia": {
@@ -3440,7 +3471,10 @@
       "spd": 135,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "aircannon",
+      "windpulse"
+    ],
     "rmmoves": []
   },
   "hooh": {
@@ -3462,7 +3496,10 @@
       "spd": 135,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "aircannon",
+      "windpulse"
+    ],
     "rmmoves": []
   },
   "celebi": {
@@ -3494,7 +3531,8 @@
   "sceptile": {
     "restricted": false,
     "types": [
-      "Grass"
+      "Grass",
+      "Dragon"
     ],
     "abilities": {
       "0": "Overgrow",
@@ -3513,7 +3551,7 @@
       "nightslash",
       "dracometeor",
       "earthpower",
-      ""
+      "growth"
     ],
     "rmmoves": []
   },
@@ -3583,7 +3621,9 @@
       "spe": 105
     },
     "addmoves": [
-      "jawlock"
+      "jawlock",
+      "poisonjab",
+      "gunkshot"
     ],
     "rmmoves": []
   },
@@ -3800,7 +3840,10 @@
       "spd": 110,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "aircannon",
+      "windpulse"
+    ],
     "rmmoves": []
   },
   "breloom": {
@@ -3889,7 +3932,10 @@
       "spd": 85,
       "spe": 145
     },
-    "addmoves": [],
+    "addmoves": [
+      "terablast",
+      "decompose"
+    ],
     "rmmoves": []
   },
   "exploud": {
@@ -3935,7 +3981,9 @@
       "spd": 80,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "delcatty": {
@@ -4029,7 +4077,8 @@
       "spe": 50
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -4816,7 +4865,8 @@
   "chimecho": {
     "restricted": false,
     "types": [
-      "Psychic"
+      "Psychic",
+      "Steel"
     ],
     "abilities": {
       "0": "Levitate",
@@ -4831,7 +4881,10 @@
       "spd": 130,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "irondefense",
+      "mirrorshot"
+    ],
     "rmmoves": []
   },
   "absol": {
@@ -4853,7 +4906,8 @@
       "spe": 120
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "sacredsword"
     ],
     "rmmoves": []
   },
@@ -5353,7 +5407,9 @@
       "spd": 85,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "infernape": {
@@ -5549,7 +5605,9 @@
       "spd": 70,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "bastiodon": {
@@ -6307,7 +6365,8 @@
       "spe": 55
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "slackoff"
     ],
     "rmmoves": []
   },
@@ -6330,7 +6389,9 @@
       "spd": 90,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "tangrowth": {
@@ -6521,7 +6582,9 @@
       "spd": 85,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "mamoswine": {
@@ -7972,7 +8035,9 @@
       "spd": 85,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "audino": {
@@ -8020,7 +8085,8 @@
     },
     "addmoves": [
       "fireblast",
-      "flamethrower"
+      "flamethrower",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -8300,7 +8366,8 @@
     "addmoves": [
       "terablast",
       "temperflare",
-      "afterburner"
+      "afterburner",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -8350,7 +8417,8 @@
       "spe": 110
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -8422,7 +8490,8 @@
     },
     "addmoves": [
       "terablast",
-      "highhorsepower"
+      "highhorsepower",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -8445,7 +8514,9 @@
       "spd": 130,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "partingshot"
+    ],
     "rmmoves": []
   },
   "sigilyph": {
@@ -8518,7 +8589,8 @@
       "spe": 70
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -9351,12 +9423,12 @@
       "H": "Moody"
     },
     "baseStats": {
-      "hp": 125,
-      "atk": 117,
-      "def": 86,
+      "hp": 110,
+      "atk": 115,
+      "def": 80,
       "spa": 125,
-      "spd": 86,
-      "spe": 61
+      "spd": 80,
+      "spe": 90
     },
     "addmoves": [
       "terablast",
@@ -9509,7 +9581,8 @@
     },
     "addmoves": [
       "megahorn",
-      "mightycleave"
+      "mightycleave",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -9535,7 +9608,8 @@
     "addmoves": [
       "hornleech",
       "megahorn",
-      "weatherball"
+      "weatherball",
+      "powergem"
     ],
     "rmmoves": []
   },
@@ -9898,7 +9972,9 @@
       "spd": 95,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "delphox": {
@@ -9920,7 +9996,9 @@
       "spd": 110,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "aurasphere"
+    ],
     "rmmoves": []
   },
   "greninja": {
@@ -9985,7 +10063,7 @@
       "spe": 85
     },
     "addmoves": [
-      "terablast"
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -10372,7 +10450,8 @@
     },
     "addmoves": [
       "terablast",
-      "aquacutter"
+      "aquacutter",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -10467,8 +10546,9 @@
     "addmoves": [
       "terablast",
       "takedown",
-      "doubleedge",
-      "powergem"
+      "double-edge",
+      "powergem",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -10689,7 +10769,8 @@
     },
     "addmoves": [
       "bulkup",
-      "swordsdance"
+      "swordsdance",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -11184,7 +11265,9 @@
       "spd": 80,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "oricorio": {
@@ -11321,11 +11404,11 @@
     },
     "baseStats": {
       "hp": 90,
-      "atk": 55,
-      "def": 66,
-      "spa": 115,
-      "spd": 120,
-      "spe": 154
+      "atk": 60,
+      "def": 75,
+      "spa": 120,
+      "spd": 115,
+      "spe": 140
     },
     "addmoves": [],
     "rmmoves": []
@@ -11378,7 +11461,8 @@
       "shadowsneak",
       "suckerpunch",
       "poltergeist",
-      "drainpunch"
+      "drainpunch",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -11611,7 +11695,8 @@
       "slackoff",
       "knockoff",
       "terablast",
-      "upperhand"
+      "upperhand",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -11725,7 +11810,8 @@
     "addmoves": [
       "nightslash",
       "terablast",
-      "aquacutter"
+      "aquacutter",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -12496,7 +12582,8 @@
     "addmoves": [
       "terablast",
       "trailblaze",
-      "radiantreckoning"
+      "radiantreckoning",
+      "grassyglide"
     ],
     "rmmoves": []
   },
@@ -12615,7 +12702,8 @@
     },
     "addmoves": [
       "terablast",
-      "upperhand"
+      "upperhand",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -12929,7 +13017,8 @@
     },
     "addmoves": [
       "terablast",
-      "hardpress"
+      "hardpress",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -12952,7 +13041,8 @@
       "spe": 100
     },
     "addmoves": [
-      "rockslide"
+      "rockslide",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -13225,7 +13315,8 @@
       "spe": 50
     },
     "addmoves": [
-      "burningcoals"
+      "burningcoals",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -13551,7 +13642,8 @@
       "spe": 25
     },
     "addmoves": [
-      "radiantreckoning"
+      "radiantreckoning",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -13718,7 +13810,8 @@
     },
     "addmoves": [
       "terablast",
-      "spikes"
+      "spikes",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -13833,7 +13926,9 @@
       "spd": 45,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "eiscue": {
@@ -13923,6 +14018,28 @@
     "rmmoves": []
   },
   "morpeko": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Hunger Switch",
+      "1": "Gluttony",
+      "H": "Defiant"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 120,
+      "def": 75,
+      "spa": 115,
+      "spd": 75,
+      "spe": 125
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "morpekohangry": {
     "restricted": false,
     "types": [
       "Electric",
@@ -14429,7 +14546,9 @@
       "spd": 95,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "ursaluna": {
@@ -14451,7 +14570,9 @@
       "spd": 90,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "ursalunabloodmoon": {
@@ -15042,7 +15163,9 @@
       "spd": 120,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "armarouge": {
@@ -15234,10 +15357,10 @@
     "baseStats": {
       "hp": 95,
       "atk": 70,
-      "def": 75,
+      "def": 85,
       "spa": 120,
       "spd": 120,
-      "spe": 120
+      "spe": 110
     },
     "addmoves": [
       ":loosedirt"
@@ -15262,7 +15385,9 @@
       "spd": 85,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "scovillain": {
@@ -15406,7 +15531,8 @@
       "spe": 115
     },
     "addmoves": [
-      "defog"
+      "defog",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -15914,7 +16040,10 @@
       "spd": 110,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "grassyglide",
+      "highhorsepower"
+    ],
     "rmmoves": []
   },
   "fluttermane": {
@@ -15982,7 +16111,9 @@
       "spd": 85,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "loosedirt"
+    ],
     "rmmoves": []
   },
   "irontreads": {
@@ -16104,7 +16235,9 @@
       "spd": 110,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "calmmind"
+    ],
     "rmmoves": []
   },
   "ironthorns": {
@@ -16126,7 +16259,9 @@
       "spd": 100,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "baxcalibur": {
@@ -16615,7 +16750,9 @@
       "spd": 90,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockhammer"
+    ],
     "rmmoves": []
   },
   "archaludon": {
@@ -16726,7 +16863,8 @@
       "spe": 135
     },
     "addmoves": [
-      "rustyblade"
+      "rustyblade",
+      "rockhammer"
     ],
     "rmmoves": []
   },
