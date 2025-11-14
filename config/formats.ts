@@ -3644,16 +3644,16 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 	{
-		name: "[Gen 9] Pseudo Level VGC",
+		name: "[Gen 9] Pseudo Level SSB",
 		mod: "gen9pseudolevel",
 		bestOfDefault: true,
-		ruleset: ["Open Team Sheets", "Standard"],
+		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
 	},
 	{
-		name: "[Gen 9] Pseudo Level VGC Doubles",
+		name: "[Gen 9] Pseudo Level VGC",
 		mod: "gen9pseudoleveldoubles",
 		bestOfDefault: true,
-		ruleset: ["Open Team Sheets", "Standard"],
+		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard"],
 		gameType: 'doubles',
 	},
 	{
