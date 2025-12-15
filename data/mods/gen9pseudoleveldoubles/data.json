@@ -2547,6 +2547,7 @@
     ],
     "abilities": {
       "0": "Static",
+      "1": "Huge Power",
       "H": "Lightning Rod"
     },
     "baseStats": {
@@ -3650,6 +3651,32 @@
     "addmoves": [
       "jumpkick",
       "solarbeam"
+    ],
+    "rmmoves": []
+  },
+  "blazikenpartner": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Speed Boost",
+      "1": "Beast Boost",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 80,
+      "spa": 130,
+      "spd": 80,
+      "spe": 100
+    },
+    "addmoves": [
+      "blueflare",
+      "infernalparade",
+      "nastyplot"
     ],
     "rmmoves": []
   },
@@ -5513,6 +5540,31 @@
     },
     "addmoves": [
       "afterburner"
+    ],
+    "rmmoves": []
+  },
+  "infernapepartner": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Iron Fist",
+      "1": "Adaptability",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 134,
+      "def": 65,
+      "spa": 134,
+      "spd": 65,
+      "spe": 127
+    },
+    "addmoves": [
+      "earthpower",
+      "sacredfire"
     ],
     "rmmoves": []
   },
