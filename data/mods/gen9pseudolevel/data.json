@@ -8461,7 +8461,8 @@
     "addmoves": [
       "moonblast",
       "dazzlinggleam",
-      "gleamstep"
+      "gleamstep",
+      "calmmind"
     ],
     "rmmoves": []
   },
@@ -10176,26 +10177,7 @@
     "addmoves": [
       "jawlock",
       "bulkup",
-      "knockoff",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "knockoff"
     ],
     "rmmoves": []
   },
@@ -10220,29 +10202,7 @@
     },
     "addmoves": [
       "terablast",
-      "mortalspin",
-      "ominouswind",
-      "ancientpower",
-      "mudshot",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "mortalspin"
     ],
     "rmmoves": []
   },
@@ -20563,70 +20523,7 @@
     },
     "addmoves": [
       "willowisp",
-      "psychicfangs",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "hoopaunbound": {
-    "restricted": false,
-    "types": [
-      "Psychic",
-      "Dark"
-    ],
-    "abilities": {
-      "0": "Magician",
-      "1": "Magic Guard",
-      "H": "Sheer Force",
-      "S": "Dark Resonance"
-    },
-    "baseStats": {
-      "hp": 80,
-      "atk": 130,
-      "def": 65,
-      "spa": 150,
-      "spd": 95,
-      "spe": 80
-    },
-    "addmoves": [
-      "psychicfangs",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "psychicfangs"
     ],
     "rmmoves": []
   },
@@ -20649,7 +20546,9 @@
       "spd": 95,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "psychicfangs"
+    ],
     "rmmoves": []
   },
   "volcanion": {
@@ -26557,6 +26456,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "falinks-partner": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Skill Link",
+      "1": "Scrappy",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 130,
+      "def": "",
+      "spa": "",
+      "spd": "",
+      "spe": ""
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "pincurchin": {
