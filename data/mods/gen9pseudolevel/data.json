@@ -2293,8 +2293,8 @@
     ],
     "abilities": {
       "0": "Cursed Body",
-      "1": "Early Bird",
-      "H": "Regenerator"
+      "1": "Regenerator",
+      "H": "Battle Bond"
     },
     "baseStats": {
       "hp": 115,
@@ -26458,7 +26458,7 @@
     ],
     "rmmoves": []
   },
-  "falinks-partner": {
+  "falinkspartner": {
     "restricted": false,
     "types": [
       "Fighting",
