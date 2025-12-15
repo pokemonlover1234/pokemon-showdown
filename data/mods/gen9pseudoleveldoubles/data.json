@@ -4775,7 +4775,8 @@
     "addmoves": [
       "moonblast",
       "dazzlinggleam",
-      "gleamstep"
+      "gleamstep",
+      "calmmind"
     ],
     "rmmoves": []
   },
@@ -5637,7 +5638,8 @@
     },
     "addmoves": [
       "jawlock",
-      "bulkup"
+      "bulkup",
+      "knockoff"
     ],
     "rmmoves": []
   },
@@ -5661,7 +5663,8 @@
       "spe": 105
     },
     "addmoves": [
-      "terablast"
+      "terablast",
+      "mortalspin"
     ],
     "rmmoves": []
   },
@@ -11151,7 +11154,8 @@
       "spe": 80
     },
     "addmoves": [
-      "willowisp"
+      "willowisp",
+      "psychicfangs"
     ],
     "rmmoves": []
   },
@@ -11174,7 +11178,9 @@
       "spd": 95,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "psychicfangs"
+    ],
     "rmmoves": []
   },
   "volcanion": {
@@ -13971,6 +13977,28 @@
       "spikecannon",
       "armthrust"
     ],
+    "rmmoves": []
+  },
+  "falinks-partner": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Skill Link",
+      "1": "Scrappy",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 130,
+      "def": "",
+      "spa": "",
+      "spd": "",
+      "spe": ""
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "pincurchin": {
