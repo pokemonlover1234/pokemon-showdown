@@ -8259,7 +8259,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	speedorb: {
 		name: "Speed Orb",
-		spritenum: 7,
+		spritenum: 3,
 		fling: {
 			basePower: 60,
 		},
@@ -8268,94 +8268,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onAfterMoveSecondarySelf(source, target, move) {
 			if (source && source !== target && move && move.category !== 'Status' && !source.forceSwitchFlag) {
-				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('speedorb'));
+				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('lifeorb'));
 			}
 		},
-	},
-	guardorb: {
-		name: "Guard Orb",
-		spritenum: 9,
-		fling: {
-			basePower: 60,
-		},
-		onModifyDef(def) {
-			return this.chainModify(1.3);
-		},
-		onModifySpd(spd) {
-			return this.chainModify(1.3);
-		},
-		onAfterMoveSecondarySelf(source, target, move) {
-			if (source && source !== target && move && move.category !== 'Status' && !source.forceSwitchFlag) {
-				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('guardorb'));
-			}
-		},
-	},
-	// Actual functionality handled by Night Time weather
-	darkrock: {
-		name: "Dark Rock",
-		spritenum: 3,
-		fling: {
-			basePower: 60,
-		},
-	},
-	energyherb: {
-		name: "Energy Herb",
-		spritenum: 534,
-		fling: {
-			basePower: 60,
-		},
-		onTryAddVolatile(status, target, source, effect) {
-			if (status.id === "mustrecharge") {
-				if (target.eatItem()) {
-					return null;
-				}
-			}
-		},
-		onEat() { },
-	},
-	astralgem: {
-		name: "Astral Gem",
-		spritenum: 19,
-		fling: {
-			basePower: 60,
-		},
-		isGem: true,
-		onSourceTryPrimaryHit(target, source, move) {
-			if (target === source || move.category === 'Status' || move.flags['pledgecombo']) return;
-			if (move.type === 'Astral' && source.useItem()) {
-				source.addVolatile('gem');
-			}
-		},
-	},
-	galacticplate: {
-		name: "Galactic Plate",
-		spritenum: 18,
-		onPlate: 'Astral',
-		onBasePowerPriority: 15,
-		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Astral') {
-				return this.chainModify([4915, 4096]);
-			}
-		},
-		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 493) || pokemon.baseSpecies.num === 493) {
-				return false;
-			}
-			return true;
-		},
-		forcedForme: "Arceus-Astral",
-	},
-	astralmemory: {
-		name: "Astral Memory",
-		spritenum: 20,
-		onMemory: 'Astral',
-		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
-				return false;
-			}
-			return true;
-		},
-		forcedForme: "Silvally-Astral",
-		itemUser: ["Silvally-Astral"],
 	},
 };
