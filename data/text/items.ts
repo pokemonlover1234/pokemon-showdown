@@ -2446,4 +2446,9 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		desc: "When holder is hit by any move, a random status is applied to all Pokemon on the field. \"Pandora's Curse\" is also applied to all affected Pokemon, which prevents this item from triggering again for the same Pokemon. \"Pandora's Curse\" is cleared only on switch out and has no other effect.",
 		shortDesc: "When hit by any move, applies random status to all Pokemon. Also applies Pandora's Curse.",
 	},
+	speedorb: {
+		name: "Speed Org",
+		desc: "Holder's Speed is multiplied by 1.3, but holder loses 1/10 of its max HP every turn.",
+		shortDesc: "Holder's Speed 1.3x, but lose 1/10 HP per turn.",
+	}
 };

@@ -7777,4 +7777,19 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			}
 		},
 	},
+	speedorb: {
+		name: "Speed Orb",
+		spritenum: 3,
+		fling: {
+			basePower: 60,
+		},
+		onModifySpe(spe, pokemon) {
+			return this.chainModify(13, 10);
+		},
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (source && source !== target && move && move.category !== 'Status' && !source.forceSwitchFlag) {
+				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('lifeorb'));
+			}
+		},
+	},
 };
