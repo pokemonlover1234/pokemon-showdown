@@ -35,6 +35,9 @@ export function learnsets(data: any) {
 			let learnset = null;
 			if (pokemon in VanillaSets) {
 				learnset = VanillaSets[pokemon as keyof typeof VanillaSets].learnset;
+				if (learnset === undefined) {
+					learnset = {};
+				}
 			} else {
 				learnset = {};
 			}
