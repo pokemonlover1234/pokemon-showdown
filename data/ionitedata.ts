@@ -31,13 +31,12 @@ export function learnsets(data: any) {
 	const gennedTable: import("../sim/dex-species").ModdedLearnsetDataTable = {};
 	for (const pokemon of Object.keys(data)) {
 		try {
-			if (!(pokemon in VanillaSets)) {
-				continue;
-			}
 			const values = data[pokemon as keyof typeof data];
-			const learnset = VanillaSets[pokemon as keyof typeof VanillaSets].learnset;
-			if (learnset === undefined) {
-				continue;
+			let learnset = null;
+			if (pokemon in VanillaSets) {
+				learnset = VanillaSets[pokemon as keyof typeof VanillaSets].learnset;
+			} else {
+				learnset = {};
 			}
 			const newLearnset = JSON.parse(JSON.stringify(learnset));
 
