@@ -1990,7 +1990,7 @@
       "spe": 75
     },
     "addmoves": [
-      "aurasphere"
+      "cosmicpower"
     ],
     "rmmoves": []
   },
@@ -5724,7 +5724,8 @@
       "crosspoison",
       "closecombat",
       "knockoff",
-      "uturn"
+      "uturn",
+      "bulkup"
     ],
     "rmmoves": []
   },
@@ -23483,10 +23484,8 @@
     },
     "addmoves": [
       "triplearrows",
-      "meteorassault",
       "attackorder",
       "defendorder",
-      "uturn",
       "pinmissile"
     ],
     "rmmoves": []
