@@ -64,9 +64,6 @@ export function pokedex(data: any) {
 	const gennedTable: import("../sim/dex-species").ModdedSpeciesDataTable = {};
 	for (const pokemon of Object.keys(data)) {
 		try {
-			if (!(VanillaDex.hasOwnProperty(pokemon))) {
-				console.log("Modified Pokemon " + pokemon + " does not exist in Showdown Dex");
-			}
 			const values = data[pokemon as keyof typeof data];
 			const tags = VanillaDex[pokemon as keyof typeof VanillaDex].tags;
 			let newTags = [];
