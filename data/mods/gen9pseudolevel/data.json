@@ -3484,7 +3484,8 @@
     },
     "addmoves": [
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "roost"
     ],
     "rmmoves": []
   },
@@ -3534,7 +3535,8 @@
     },
     "addmoves": [
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "roost"
     ],
     "rmmoves": []
   },
@@ -3585,7 +3587,8 @@
     },
     "addmoves": [
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "roost"
     ],
     "rmmoves": []
   },
@@ -3611,7 +3614,8 @@
     "addmoves": [
       "aircannon",
       "windpulse",
-      "vacuumwave"
+      "vacuumwave",
+      ""
     ],
     "rmmoves": []
   },
@@ -3687,17 +3691,17 @@
       "Fairy"
     ],
     "abilities": {
-      "0": "Overgrow",
-      "1": "Filter",
-      "H": "Triage"
+      "0": "Triage",
+      "1": "Misty Surge",
+      "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 85,
+      "hp": 90,
+      "atk": 75,
       "def": 110,
-      "spa": 100,
+      "spa": 110,
       "spd": 110,
-      "spe": 95
+      "spe": 105
     },
     "addmoves": [
       "alluringvoice",
@@ -6547,7 +6551,8 @@
     "addmoves": [
       "spark",
       "wildcharge",
-      "supercellslam"
+      "supercellslam",
+      "voltswitch"
     ],
     "rmmoves": []
   },
@@ -8802,26 +8807,7 @@
       "spe": 30
     },
     "addmoves": [
-      "kingsshield",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "king'sshield"
     ],
     "rmmoves": []
   },
@@ -9918,26 +9904,7 @@
     "addmoves": [
       "drainingkiss",
       "moonblast",
-      "moonlight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlight"
     ],
     "rmmoves": []
   },
@@ -15276,7 +15243,9 @@
     },
     "addmoves": [
       "scorchingsands",
-      "afterburner"
+      "afterburner",
+      "roost",
+      "fierydance"
     ],
     "rmmoves": []
   },
@@ -23483,7 +23452,7 @@
       "spe": 110
     },
     "addmoves": [
-      "triplearrows",
+      "meteorassault",
       "attackorder",
       "defendorder",
       "pinmissile"
@@ -31249,8 +31218,8 @@
       "H": "Stamina"
     },
     "baseStats": {
-      "hp": 75,
-      "atk": 110,
+      "hp": 80,
+      "atk": 115,
       "def": 130,
       "spa": 65,
       "spd": 95,
@@ -31338,9 +31307,9 @@
     },
     "baseStats": {
       "hp": 90,
-      "atk": 40,
+      "atk": 55,
       "def": 115,
-      "spa": 100,
+      "spa": 110,
       "spd": 105,
       "spe": 125
     },
@@ -31382,10 +31351,10 @@
     },
     "baseStats": {
       "hp": 110,
-      "atk": 50,
+      "atk": 60,
       "def": 120,
-      "spa": 115,
-      "spd": 85,
+      "spa": 120,
+      "spd": 90,
       "spe": 100
     },
     "addmoves": [],
@@ -31560,10 +31529,10 @@
       "H": "Drought"
     },
     "baseStats": {
-      "hp": 115,
+      "hp": 110,
       "atk": 115,
       "def": 80,
-      "spa": 75,
+      "spa": 70,
       "spd": 130,
       "spe": 95
     },
@@ -31626,9 +31595,9 @@
       "H": "Filter"
     },
     "baseStats": {
-      "hp": 105,
-      "atk": 115,
-      "def": 100,
+      "hp": 100,
+      "atk": 110,
+      "def": 95,
       "spa": 110,
       "spd": 85,
       "spe": 100
@@ -31648,12 +31617,12 @@
       "H": "Wandering Spirit"
     },
     "baseStats": {
-      "hp": 70,
+      "hp": 75,
       "atk": 120,
       "def": 100,
       "spa": 110,
       "spd": 120,
-      "spe": 60
+      "spe": 75
     },
     "addmoves": [],
     "rmmoves": []
@@ -31869,9 +31838,9 @@
       "hp": 95,
       "atk": 90,
       "def": 70,
-      "spa": 125,
-      "spd": 75,
-      "spe": 135
+      "spa": 130,
+      "spd": 85,
+      "spe": 130
     },
     "addmoves": [],
     "rmmoves": []
@@ -31911,10 +31880,10 @@
     },
     "baseStats": {
       "hp": 110,
-      "atk": 75,
+      "atk": 80,
       "def": 95,
       "spa": 120,
-      "spd": 90,
+      "spd": 95,
       "spe": 100
     },
     "addmoves": [],
@@ -31999,11 +31968,11 @@
     },
     "baseStats": {
       "hp": 90,
-      "atk": 75,
+      "atk": 80,
       "def": 85,
       "spa": 135,
       "spd": 85,
-      "spe": 120
+      "spe": 125
     },
     "addmoves": [],
     "rmmoves": []
