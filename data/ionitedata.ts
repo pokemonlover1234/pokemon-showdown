@@ -62,10 +62,9 @@ export function learnsets(data: any) {
 
 export function pokedex(data: any) {
 	const gennedTable: import("../sim/dex-species").ModdedSpeciesDataTable = {};
-	console.log("Genning Pokedex");
 	for (const pokemon of Object.keys(data)) {
 		try {
-			if (!(pokemon in VanillaDex)) {
+			if (!(VanillaDex.hasOwnProperty(pokemon))) {
 				console.log("Modified Pokemon " + pokemon + " does not exist in Showdown Dex");
 			}
 			const values = data[pokemon as keyof typeof data];
