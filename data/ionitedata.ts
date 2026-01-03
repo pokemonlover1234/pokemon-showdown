@@ -46,9 +46,9 @@ export function learnsets(data: any) {
 			for (const move of values.addmoves) {
 				(newLearnset)[move] = ["1L1"];
 			}
-			for (const move of values.rmmoves) {
-				delete (newLearnset)[move];
-			}
+
+			newLearnset.removed = values.rmmoves;
+
 			(gennedTable as any)[pokemon] = {
 				inherit: true,
 				learnset: newLearnset,
