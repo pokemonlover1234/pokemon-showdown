@@ -14878,7 +14878,9 @@
       "spe": 145
     },
     "addmoves": [],
-    "rmmoves": []
+    "rmmoves": [
+      "nightshade"
+    ]
   },
   "zacian": {
     "restricted": false,

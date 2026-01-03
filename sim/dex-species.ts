@@ -52,7 +52,7 @@ export interface LearnsetData {
 	exists?: boolean;
 }
 
-export type ModdedLearnsetData = LearnsetData & { inherit?: true };
+export type ModdedLearnsetData = LearnsetData & { inherit?: true, removed?: IDEntry[] };
 
 export interface PokemonGoData {
 	encounters?: string[];
