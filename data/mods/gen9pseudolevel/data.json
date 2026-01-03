@@ -4286,6 +4286,33 @@
     ],
     "rmmoves": []
   },
+  "mawilepartner": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Infiltrator",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 135,
+      "def": 120,
+      "spa": 65,
+      "spd": 120,
+      "spe": 90
+    },
+    "addmoves": [
+      "terablast",
+      "jawlock",
+      "radiantreckoning",
+      "dazzlinggleam"
+    ],
+    "rmmoves": []
+  },
   "aggron": {
     "restricted": false,
     "types": [
