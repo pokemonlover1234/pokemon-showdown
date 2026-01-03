@@ -2333,6 +2333,46 @@
       "Fairy"
     ],
     "abilities": {
+      "0": "Overgrow",
+      "1": "Triage",
+      "H": "Filter"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 85,
+      "def": 110,
+      "spa": 100,
+      "spd": 110,
+      "spe": 95
+    },
+    "addmoves": [
+      "alluringvoice",
+      "drainingkiss",
+      "moonblast",
+      "moonlight",
+      "playrough",
+      "babydolleyes",
+      "charm",
+      "dazzlinggleam",
+      "disarmingvoice",
+      "fairylock",
+      "fairywind",
+      "floralhealing",
+      "mistyterrain",
+      "sweetkiss",
+      "calmmind",
+      "earthpower",
+      "leafblade"
+    ],
+    "rmmoves": []
+  },
+  "meganiumpartner": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "abilities": {
       "0": "Triage",
       "1": "Misty Surge",
       "H": "Battle Bond"
@@ -11108,6 +11148,32 @@
     ],
     "rmmoves": []
   },
+  "hawluchapartner": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Unburden",
+      "1": "Stamina",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 113,
+      "atk": 125,
+      "def": 100,
+      "spa": 60,
+      "spd": 105,
+      "spe": 97
+    },
+    "addmoves": [
+      "fakeout",
+      "wideguard",
+      "partingshot"
+    ],
+    "rmmoves": []
+  },
   "dedenne": {
     "restricted": false,
     "types": [
@@ -12768,6 +12834,56 @@
       "def": 60,
       "spa": 140,
       "spd": 60,
+      "spe": 140
+    },
+    "addmoves": [
+      "aircannon",
+      "windpulse"
+    ],
+    "rmmoves": []
+  },
+  "miniormeteorpartner": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Shields Down",
+      "1": "Mold Breaker",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 60,
+      "def": 190,
+      "spa": 40,
+      "spd": 170,
+      "spe": 60
+    },
+    "addmoves": [
+      "aircannon",
+      "windpulse"
+    ],
+    "rmmoves": []
+  },
+  "miniorpartner": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Shields Down",
+      "1": "Mold Breaker",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 160,
+      "def": 60,
+      "spa": 110,
+      "spd": 50,
       "spe": 140
     },
     "addmoves": [
@@ -16801,6 +16917,28 @@
       "spa": 60,
       "spd": 90,
       "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "baxcaliburpartner": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Thermal Exchange",
+      "1": "Sharpness",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 160,
+      "def": 127,
+      "spa": 82,
+      "spd": 71,
+      "spe": 60
     },
     "addmoves": [],
     "rmmoves": []
