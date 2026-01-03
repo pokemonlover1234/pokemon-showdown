@@ -4162,24 +4162,44 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onStart(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Minior' || pokemon.transformed) return;
 			if (pokemon.hp > pokemon.maxhp / 2) {
-				if (pokemon.species.forme !== 'Meteor') {
-					pokemon.formeChange('Minior-Meteor');
+				if (pokemon.species.forme !== 'Meteor' && pokemon.species.forme !== "Partner-Meteor") {
+					if (pokemon.species.forme === "Partner") pokemon.formeChange('Minior-Partner-Meteor');
+					else pokemon.formeChange('Minior-Meteor');
 				}
 			} else {
-				if (pokemon.species.forme === 'Meteor') {
+				if (pokemon.species.forme === 'Meteor' || pokemon.species.forme === "Partner-Meteor") {
+					if (pokemon.set.species === "Minior-Partner-Meteor") {
+						pokemon.formeChange("Minior-Partner");
+						return;
+					}
+					if (pokemon.set.species === 'Minior-Meteor') {
+						const colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+						const choice = randomElement(colors);
+						if (choice === 'Red') {
+							pokemon.formeChange("Minior");
+							return;
+						}
+						pokemon.formeChange("Minior-" + choice);
+						return;
+					}
 					pokemon.formeChange(pokemon.set.species);
 				}
 			}
 		},
 		onResidualOrder: 29,
 		onResidual(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Minior' || pokemon.transformed || !pokemon.hp) return;
+			if (pokemon.baseSpecies.baseSpecies !== 'Minior' || pokemon.transformed) return;
 			if (pokemon.hp > pokemon.maxhp / 2) {
-				if (pokemon.species.forme !== 'Meteor') {
-					pokemon.formeChange('Minior-Meteor');
+				if (pokemon.species.forme !== 'Meteor' && pokemon.species.forme !== "Partner-Meteor") {
+					if (pokemon.species.forme === "Partner") pokemon.formeChange('Minior-Partner-Meteor');
+					else pokemon.formeChange('Minior-Meteor');
 				}
 			} else {
-				if (pokemon.species.forme === 'Meteor') {
+				if (pokemon.species.forme === 'Meteor' || pokemon.species.forme === "Partner-Meteor") {
+					if (pokemon.set.species === "Minior-Partner-Meteor") {
+						pokemon.formeChange("Minior-Partner");
+						return;
+					}
 					if (pokemon.set.species === 'Minior-Meteor') {
 						const colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
 						const choice = randomElement(colors);
