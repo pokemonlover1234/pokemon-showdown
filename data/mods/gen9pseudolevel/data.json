@@ -6431,7 +6431,10 @@
       "terablast",
       "jawlock",
       "radiantreckoning",
-      "dazzlinggleam"
+      "dazzlinggleam",
+      "spikyshield",
+      "powerwhip",
+      "flowershield"
     ],
     "rmmoves": []
   },
@@ -17005,27 +17008,7 @@
     "addmoves": [
       "venoshock",
       "waterfall",
-      "recover",
-      "gigadrain",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "recover"
     ],
     "rmmoves": []
   },
@@ -17051,28 +17034,7 @@
     "addmoves": [
       "powerwhip",
       "scald",
-      "shoreup",
-      "irondefense",
-      "ancientpower",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "shoreup"
     ],
     "rmmoves": []
   },
@@ -17241,27 +17203,7 @@
     },
     "addmoves": [
       "thunderfang",
-      "rockhammer",
-      "hydropump",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -20024,20 +19966,22 @@
     ],
     "abilities": {
       "0": "Shields Down",
-      "1": "Mold Breaker",
+      "1": "Shell Armor",
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 60,
-      "def": 190,
-      "spa": 40,
+      "hp": 60,
+      "atk": 70,
+      "def": 180,
+      "spa": 50,
       "spd": 170,
-      "spe": 60
+      "spe": 70
     },
     "addmoves": [
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "diamondstorm",
+      "leafblade"
     ],
     "rmmoves": []
   },
@@ -20049,20 +19993,22 @@
     ],
     "abilities": {
       "0": "Shields Down",
-      "1": "Mold Breaker",
+      "1": "Air Lock",
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 160,
-      "def": 60,
+      "hp": 60,
+      "atk": 150,
+      "def": 70,
       "spa": 110,
-      "spd": 50,
+      "spd": 70,
       "spe": 140
     },
     "addmoves": [
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "diamondstorm",
+      "leafblade"
     ],
     "rmmoves": []
   },
