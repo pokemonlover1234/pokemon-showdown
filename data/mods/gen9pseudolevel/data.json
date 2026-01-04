@@ -4309,7 +4309,10 @@
       "terablast",
       "jawlock",
       "radiantreckoning",
-      "dazzlinggleam"
+      "dazzlinggleam",
+      "spikyshield",
+      "powerwhip",
+      "flowershield"
     ],
     "rmmoves": []
   },
@@ -11269,7 +11272,8 @@
     },
     "addmoves": [
       "venoshock",
-      "waterfall"
+      "waterfall",
+      "recover"
     ],
     "rmmoves": []
   },
@@ -11295,7 +11299,7 @@
     "addmoves": [
       "powerwhip",
       "scald",
-      ""
+      "shoreup"
     ],
     "rmmoves": []
   },
@@ -11419,7 +11423,8 @@
       "spe": 45
     },
     "addmoves": [
-      "thunderfang"
+      "thunderfang",
+      "rockhammer"
     ],
     "rmmoves": []
   },
@@ -12877,20 +12882,22 @@
     ],
     "abilities": {
       "0": "Shields Down",
-      "1": "Mold Breaker",
+      "1": "Shell Armor",
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 60,
-      "def": 190,
-      "spa": 40,
+      "hp": 60,
+      "atk": 70,
+      "def": 180,
+      "spa": 50,
       "spd": 170,
-      "spe": 60
+      "spe": 70
     },
     "addmoves": [
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "diamondstorm",
+      "leafblade"
     ],
     "rmmoves": []
   },
@@ -12902,20 +12909,22 @@
     ],
     "abilities": {
       "0": "Shields Down",
-      "1": "Mold Breaker",
+      "1": "Air Lock",
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 160,
-      "def": 60,
+      "hp": 60,
+      "atk": 150,
+      "def": 70,
       "spa": 110,
-      "spd": 50,
+      "spd": 70,
       "spe": 140
     },
     "addmoves": [
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "diamondstorm",
+      "leafblade"
     ],
     "rmmoves": []
   },
@@ -17361,7 +17370,7 @@
     "abilities": {
       "0": "Defiant",
       "1": "Sap Sipper",
-      "H": "Embody Aspect"
+      "H": "Inner Focus"
     },
     "baseStats": {
       "hp": 80,
@@ -17383,7 +17392,7 @@
     "abilities": {
       "0": "Water Absorb",
       "1": "Swift Swim",
-      "H": "Embody Aspect"
+      "H": "Embody Aspect (Wellspring)"
     },
     "baseStats": {
       "hp": 100,
@@ -17405,7 +17414,7 @@
     "abilities": {
       "0": "Mold Breaker",
       "1": "Flash Fire",
-      "H": "Embody Aspect"
+      "H": "Embody Aspect (Hearthflame)"
     },
     "baseStats": {
       "hp": 80,
@@ -17427,7 +17436,7 @@
     "abilities": {
       "0": "Sturdy",
       "1": "Rocky Payload",
-      "H": "Embody Aspect"
+      "H": "Embody Aspect (Cornerstone)"
     },
     "baseStats": {
       "hp": 95,
