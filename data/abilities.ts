@@ -4215,14 +4215,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onSetStatus(status, target, source, effect) {
-			if (target.species.id !== 'miniormeteor' || target.transformed) return;
+			if ((target.species.id !== 'miniormeteor' && target.species.id !== 'miniorpartnermeteor') || target.transformed) return;
 			if ((effect as Move)?.status) {
 				this.add('-immune', target, '[from] ability: Shields Down');
 			}
 			return false;
 		},
 		onTryAddVolatile(status, target) {
-			if (target.species.id !== 'miniormeteor' || target.transformed) return;
+			if ((target.species.id !== 'miniormeteor' && target.species.id !== 'miniorpartnermeteor') || target.transformed) return;
 			if (status.id !== 'yawn') return;
 			this.add('-immune', target, '[from] ability: Shields Down');
 			return null;
