@@ -443,9 +443,7 @@
     },
     "addmoves": [
       "terablast",
-      "trailblaze",
-      "airslash",
-      "healblock"
+      "trailblaze"
     ],
     "rmmoves": []
   },
@@ -467,7 +465,10 @@
       "spd": 135,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "airslash",
+      "healblock"
+    ],
     "rmmoves": []
   },
   "ninetales": {
@@ -2690,7 +2691,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Static",
+      "0": "Dragon's Maw",
       "1": "Electric Surge",
       "H": "Battle Bond"
     },
@@ -5920,7 +5921,10 @@
     },
     "addmoves": [
       "terablast",
-      "mortalspin"
+      "mortalspin",
+      "ominouswind",
+      "ancientpower",
+      "mudshot"
     ],
     "rmmoves": []
   },
@@ -6873,7 +6877,15 @@
       "spd": 60,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "dracometeor",
+      "dragonpulse",
+      "dragonbreath",
+      "twister",
+      "dualchop",
+      "outrage",
+      "dragondance"
+    ],
     "rmmoves": []
   },
   "leafeon": {
@@ -8130,7 +8142,7 @@
       "Water"
     ],
     "abilities": {
-      "0": "Torrent",
+      "0": "Sharpness",
       "1": "Bushido",
       "H": "Battle Bond"
     },
@@ -8142,7 +8154,13 @@
       "spd": 90,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "behemothblade",
+      "ceaselessedge",
+      "rustyblade",
+      "bitterblade",
+      "firstimpression"
+    ],
     "rmmoves": []
   },
   "samurotthisui": {
@@ -9971,7 +9989,8 @@
     "addmoves": [
       "aurasphere",
       "waterpulse",
-      "windpulse"
+      "windpulse",
+      "ficklebeam"
     ],
     "rmmoves": []
   },
@@ -12861,11 +12880,11 @@
       "H": "Speed Boost"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 140,
-      "def": 60,
-      "spa": 140,
-      "spd": 60,
+      "hp": 70,
+      "atk": 130,
+      "def": 65,
+      "spa": 130,
+      "spd": 65,
       "spe": 140
     },
     "addmoves": [
@@ -12886,18 +12905,18 @@
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 70,
       "atk": 70,
-      "def": 180,
+      "def": 175,
       "spa": 50,
-      "spd": 170,
+      "spd": 165,
       "spe": 70
     },
     "addmoves": [
       "aircannon",
       "windpulse",
-      "diamondstorm",
-      "leafblade"
+      "mightycleave",
+      "seedbomb"
     ],
     "rmmoves": []
   },
@@ -12913,18 +12932,18 @@
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 150,
+      "hp": 70,
+      "atk": 110,
       "def": 70,
-      "spa": 110,
+      "spa": 90,
       "spd": 70,
-      "spe": 140
+      "spe": 200
     },
     "addmoves": [
       "aircannon",
       "windpulse",
-      "diamondstorm",
-      "leafblade"
+      "mightycleave",
+      "seedbomb"
     ],
     "rmmoves": []
   },
@@ -13269,7 +13288,9 @@
       "spd": 80,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "lunala": {
@@ -14209,7 +14230,9 @@
     "addmoves": [
       "jetpunch",
       "terablast",
-      "upperhand"
+      "upperhand",
+      "machpunch",
+      "bulletpunch"
     ],
     "rmmoves": []
   },
@@ -14864,7 +14887,10 @@
       "spd": 75,
       "spe": 142
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowclaw",
+      "shadowstrike"
+    ],
     "rmmoves": []
   },
   "dragapultpartner": {
@@ -14886,7 +14912,12 @@
       "spd": 75,
       "spe": 145
     },
-    "addmoves": [],
+    "addmoves": [
+      "flashcannon",
+      "shadowclaw",
+      "shadowforce",
+      "shadowstrike"
+    ],
     "rmmoves": [
       "nightshade"
     ]
@@ -18235,7 +18266,7 @@
     "abilities": {
       "0": "Rock Head",
       "1": "Battle Armor",
-      "H": "Contrary"
+      "H": "Chlorophyll"
     },
     "baseStats": {
       "hp": 120,
