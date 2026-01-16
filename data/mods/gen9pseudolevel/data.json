@@ -612,9 +612,7 @@
     },
     "addmoves": [
       "terablast",
-      "trailblaze",
-      "airslash",
-      "healblock"
+      "trailblaze"
     ],
     "rmmoves": []
   },
@@ -639,70 +637,7 @@
     },
     "addmoves": [
       "airslash",
-      "healblock",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "clefablemega": {
-    "restricted": false,
-    "types": [
-      "Fairy",
-      "Flying"
-    ],
-    "abilities": {
-      "0": "Magic Bounce",
-      "1": "Cute Charm",
-      "H": "Cloud Nine",
-      "S": "Prankster"
-    },
-    "baseStats": {
-      "hp": 110,
-      "atk": 70,
-      "def": 85,
-      "spa": 135,
-      "spd": 110,
-      "spe": 90
-    },
-    "addmoves": [
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "healblock"
     ],
     "rmmoves": []
   },
@@ -4131,7 +4066,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Static",
+      "0": "Dragon's Maw",
       "1": "Electric Surge",
       "H": "Battle Bond"
     },
@@ -8829,7 +8764,10 @@
     },
     "addmoves": [
       "terablast",
-      "mortalspin"
+      "mortalspin",
+      "ominouswind",
+      "ancientpower",
+      "mudshot"
     ],
     "rmmoves": []
   },
@@ -10272,26 +10210,7 @@
       "twister",
       "dualchop",
       "outrage",
-      "dragondance",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "dragondance"
     ],
     "rmmoves": []
   },
@@ -12759,7 +12678,7 @@
       "Water"
     ],
     "abilities": {
-      "0": "Torrent",
+      "0": "Sharpness",
       "1": "Bushido",
       "H": "Battle Bond"
     },
@@ -12771,7 +12690,13 @@
       "spd": 90,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "behemothblade",
+      "ceaselessedge",
+      "rustyblade",
+      "bitterblade",
+      "firstimpression"
+    ],
     "rmmoves": []
   },
   "samurotthisui": {
@@ -15262,7 +15187,8 @@
     "addmoves": [
       "aurasphere",
       "waterpulse",
-      "windpulse"
+      "windpulse",
+      "ficklebeam"
     ],
     "rmmoves": []
   },
@@ -19945,12 +19871,12 @@
       "H": "Speed Boost"
     },
     "baseStats": {
-      "hp": 65,
-      "atk": 105,
-      "def": 70,
-      "spa": 115,
-      "spd": 70,
-      "spe": 175
+      "hp": 70,
+      "atk": 130,
+      "def": 65,
+      "spa": 130,
+      "spd": 65,
+      "spe": 140
     },
     "addmoves": [
       "aircannon",
@@ -19970,18 +19896,18 @@
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 70,
       "atk": 70,
-      "def": 180,
+      "def": 175,
       "spa": 50,
-      "spd": 170,
+      "spd": 165,
       "spe": 70
     },
     "addmoves": [
       "aircannon",
       "windpulse",
-      "diamondstorm",
-      "leafblade"
+      "mightycleave",
+      "seedbomb"
     ],
     "rmmoves": []
   },
@@ -19997,18 +19923,18 @@
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 150,
+      "hp": 70,
+      "atk": 110,
       "def": 70,
-      "spa": 110,
+      "spa": 90,
       "spd": 70,
-      "spe": 140
+      "spe": 200
     },
     "addmoves": [
       "aircannon",
       "windpulse",
-      "diamondstorm",
-      "leafblade"
+      "mightycleave",
+      "seedbomb"
     ],
     "rmmoves": []
   },
@@ -20594,7 +20520,9 @@
       "spd": 80,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "lunala": {
@@ -22849,29 +22777,7 @@
       "terablast",
       "upperhand",
       "machpunch",
-      "bulletpunch",
-      "stormthrow",
-      "knockoff",
-      "vacuumwave",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "bulletpunch"
     ],
     "rmmoves": []
   },
@@ -24198,333 +24104,7 @@
     },
     "addmoves": [
       "shadowclaw",
-      "shadowstrike",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "dragapultpartner": {
-    "restricted": false,
-    "types": [
-      "Dragon",
-      "Ghost"
-    ],
-    "abilities": {
-      "0": "Parental Bond",
-      "1": "Infiltrator",
-      "H": "Battle Bond",
-      "S": "Dark Resonance"
-    },
-    "baseStats": {
-      "hp": 85,
-      "atk": 110,
-      "def": 75,
-      "spa": 110,
-      "spd": 75,
-      "spe": 145
-    },
-    "addmoves": [
-      "flashcannon",
-      "shadowclaw",
-      "shadowforce",
-      "shadowstrike",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": [
-      "nightshade"
-    ]
-  },
-  "zacian": {
-    "restricted": false,
-    "types": [
-      "Fairy"
-    ],
-    "abilities": {
-      "0": "Intrepid Sword",
-      "1": "Tough Claws",
-      "H": "Guts"
-    },
-    "baseStats": {
-      "hp": 92,
-      "atk": 110,
-      "def": 110,
-      "spa": 58,
-      "spd": 110,
-      "spe": 120
-    },
-    "addmoves": [
-      "radiantreckoning",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "zaciancrowned": {
-    "restricted": false,
-    "types": [
-      "Fairy",
-      "Steel"
-    ],
-    "abilities": {
-      "0": "Intrepid Sword",
-      "1": "Sharpness",
-      "H": "Intimidate"
-    },
-    "baseStats": {
-      "hp": 92,
-      "atk": 120,
-      "def": 105,
-      "spa": 48,
-      "spd": 105,
-      "spe": 130
-    },
-    "addmoves": [
-      "radiantreckoning",
-      "bitterblade",
-      "nightslash",
-      "ceaselessedge",
-      "rustyblade",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "zamazenta": {
-    "restricted": false,
-    "types": [
-      "Fighting"
-    ],
-    "abilities": {
-      "0": "Dauntless Shield",
-      "1": "Stamina",
-      "H": "Guts"
-    },
-    "baseStats": {
-      "hp": 92,
-      "atk": 110,
-      "def": 105,
-      "spa": 68,
-      "spd": 105,
-      "spe": 120
-    },
-    "addmoves": [
-      "radiantreckoning",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "zamazentacrowned": {
-    "restricted": false,
-    "types": [
-      "Fighting",
-      "Steel"
-    ],
-    "abilities": {
-      "0": "Dauntless Shield",
-      "1": "Stamina",
-      "H": "Filter"
-    },
-    "baseStats": {
-      "hp": 92,
-      "atk": 110,
-      "def": 120,
-      "spa": 48,
-      "spd": 120,
-      "spe": 110
-    },
-    "addmoves": [
-      "radiantreckoning",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "eternatus": {
-    "restricted": false,
-    "types": [
-      "Poison",
-      "Dragon"
-    ],
-    "abilities": {
-      "0": "Pressure",
-      "1": "Corrosion",
-      "H": "Levitate"
-    },
-    "baseStats": {
-      "hp": 130,
-      "atk": 70,
-      "def": 80,
-      "spa": 125,
-      "spd": 80,
-      "spe": 115
-    },
-    "addmoves": [
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "eternatuseternamax": {
-    "restricted": false,
-    "types": [
-      "Poison",
-      "Dragon"
-    ],
-    "abilities": {
-      "0": "Pressure",
-      "1": "Corrosion",
-      "H": "Dragon's Maw"
-    },
-    "baseStats": {
-      "hp": 225,
-      "atk": 60,
-      "def": 125,
-      "spa": 60,
-      "spd": 125,
-      "spe": 5
-    },
-    "addmoves": [
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "shadowstrike"
     ],
     "rmmoves": []
   },
@@ -24547,7 +24127,12 @@
       "spd": 75,
       "spe": 145
     },
-    "addmoves": [],
+    "addmoves": [
+      "flashcannon",
+      "shadowclaw",
+      "shadowforce",
+      "shadowstrike"
+    ],
     "rmmoves": [
       "nightshade"
     ]
@@ -31793,7 +31378,7 @@
     "abilities": {
       "0": "Rock Head",
       "1": "Battle Armor",
-      "H": "Contrary"
+      "H": "Chlorophyll"
     },
     "baseStats": {
       "hp": 120,
