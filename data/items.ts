@@ -8292,7 +8292,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	speedorb: {
 		name: "Speed Orb",
-		spritenum: 3,
+		spritenum: 2,
 		fling: {
 			basePower: 60,
 		},
@@ -8308,6 +8308,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	// Actual functionality handled by Nighttime weather
 	darkrock: {
 		name: "Dark Rock",
+		spritenum: 3,
 		fling: {
 			basePower: 60,
 		},
