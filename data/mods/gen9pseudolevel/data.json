@@ -14940,7 +14940,9 @@
       "spd": 110,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "zaciancrowned": {
@@ -14962,7 +14964,12 @@
       "spd": 105,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning",
+      "bitterblade",
+      "nightslash",
+      "ceaselessedge"
+    ],
     "rmmoves": []
   },
   "zamazenta": {
@@ -14983,7 +14990,9 @@
       "spd": 105,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "zamazentacrowned": {
@@ -15005,7 +15014,9 @@
       "spd": 120,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "radiantreckoning"
+    ],
     "rmmoves": []
   },
   "eternatus": {
@@ -18297,6 +18308,28 @@
       "spa": 115,
       "spd": 130,
       "spe": 85
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "ramnarokradiant": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "No Guard",
+      "1": "Drought",
+      "H": "Mold Breaker"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 56,
+      "def": 85,
+      "spa": 141,
+      "spd": 54,
+      "spe": 154
     },
     "addmoves": [],
     "rmmoves": []
