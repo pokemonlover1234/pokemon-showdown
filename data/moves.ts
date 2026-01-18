@@ -12260,6 +12260,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			switch (pokemon.effectiveWeather(undefined, true)) {
 			case 'sunnyday':
 			case 'desolateland':
+			case 'nighttime':
 				factor = 0.667;
 				break;
 			case 'raindance':
@@ -12303,6 +12304,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'sandstorm':
 			case 'hail':
 			case 'snowscape':
+			case 'nighttime':
 				factor = 0.25;
 				break;
 			}
@@ -17253,7 +17255,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return null;
 		},
 		onBasePower(basePower, pokemon, target) {
-			const weakWeathers = ['raindance', 'primordialsea', 'sandstorm', 'hail', 'snowscape'];
+			const weakWeathers = ['raindance', 'primordialsea', 'sandstorm', 'hail', 'snowscape', 'nighttime'];
 			if (weakWeathers.includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
@@ -17289,7 +17291,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return null;
 		},
 		onBasePower(basePower, pokemon, target) {
-			const weakWeathers = ['raindance', 'primordialsea', 'sandstorm', 'hail', 'snowscape'];
+			const weakWeathers = ['raindance', 'primordialsea', 'sandstorm', 'hail', 'snowscape', 'nighttime'];
 			if (weakWeathers.includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
@@ -18754,6 +18756,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'sandstorm':
 			case 'hail':
 			case 'snowscape':
+			case 'nighttime':
 				factor = 0.25;
 				break;
 			}
@@ -20743,6 +20746,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'snowscape':
 				move.type = 'Ice';
 				break;
+			case 'nighttime':
+				move.type = "Ghost";
+				break;
 			}
 		},
 		onModifyMove(move, pokemon) {
@@ -20760,6 +20766,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				break;
 			case 'hail':
 			case 'snowscape':
+				move.basePower *= 2;
+				break;
+			case 'nighttime':
 				move.basePower *= 2;
 				break;
 			}
@@ -21536,5 +21545,19 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			},
 			volatileStatus: "rockhammer",
 		},
+	},
+	moonlitnight: {
+		accuracy: true,
+		basePower: 0,
+		pp: 10,
+		category: "Status",
+		isNonstandard: "Custom",
+		name: "Moonlit Night",
+		priority: 0,
+		flags: { metronome: 1 },
+		weather: "Nighttime",
+		secondary: null,
+		target: "all",
+		type: "Dark",
 	},
 };
