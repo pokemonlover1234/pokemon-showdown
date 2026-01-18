@@ -8305,4 +8305,11 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			}
 		},
 	},
+	// Actual functionality handled by Nighttime weather
+	darkrock: {
+		name: "Dark Rock",
+		fling: {
+			basePower: 60,
+		},
+	},
 };
