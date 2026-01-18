@@ -5945,12 +5945,25 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Tree Of Life",
 		rating: 3,
-		desc: "Grass and Ground moves used by this Pokemon recovers 10% of damage dealt, if Grassy Terrain is active recovers 20% of damage dealt.",
+		desc: "Grass and Ground moves used by this Pokemon recovers 10% of damage dealt, if Grassy Terrain is active recovers 20% of damage dealt. Stacks with draining moves, but cannot go over 100% drain.",
 		onModifyMove(move, pokemon, target) {
+			const baseDrain = move.drain ?? null;
 			if (move.type !== "Grass" && move.type !== "Ground") return;
 			const restore = this.field.isTerrain("grassyterrain") ? 2 : 1;
 			move.flags['heal'] = 1;
-			move.drain = [restore, 10];
+			let num = restore;
+			let den = 10;
+			// Stack with base move drain by getting common denominator
+			if (baseDrain !== null) {
+				num = num * baseDrain[1] + den * baseDrain[0];
+				den *= baseDrain[1];
+				// Cap at 100% Drain.
+				if (num > den) {
+					num = 1;
+					den = 1;
+				}
+			}
+			move.drain = [num, den];
 		},
 	},
 	shadowveil: {
@@ -5958,7 +5971,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Shadow Veil",
 		rating: 3,
-		desc: "On switch-in, this Pokemon summons Midnight Hour. [NOT IMPLEMENTED]",
+		desc: "On switch-in, this Pokemon summons Midnight Hour.",
+		onStart(source) {
+			this.field.setWeather("nighttime");
+		},
 	},
 	resilientcore: {
 		isNonstandard: "Custom",
@@ -5990,5 +6006,42 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Bludgeon",
 		rating: 3,
 		desc: "This Pokemon's hammer & blunt based moves have thier power multiplied by 1.3. [NOT IMPLEMENTED]",
+	},
+	shadowstep: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Shadow Step",
+		rating: 3,
+		desc: "If Nighttime is active, this Pokemon's Speed is doubled.",
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('nighttime')) {
+				return this.chainModify(2);
+			}
+		},
+	},
+	darkresonance: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Dark Resonance",
+		rating: 3,
+		desc: "If Nighttime is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
+		onModifySpA(spe, pokemon) {
+			if (this.field.isWeather('nighttime')) {
+				return this.chainModify(1.5);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (effect.id === 'nighttime') this.damage(target.baseMaxhp / 8);
+		},
+	},
+	umbraldish: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Umbral Dish",
+		rating: 3,
+		desc: "If Moonlit Night is active, this Pokemon heals 1/16 of its max HP each turn.",
+		onWeather(target, source, effect) {
+			if (effect.id === 'nighttime') this.heal(target.baseMaxhp / 16);
+		},
 	},
 };

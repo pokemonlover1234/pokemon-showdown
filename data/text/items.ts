@@ -2637,5 +2637,9 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Speed Org",
 		desc: "Holder's Speed is multiplied by 1.3, but holder loses 1/10 of its max HP every turn.",
 		shortDesc: "Holder's Speed 1.3x, but lose 1/10 HP per turn.",
-	}
+	},
+	darkrock: {
+		name: "Dark Rock",
+		desc: "Holder's use of Moonlit Night lasts 8 turns instead of 5.",
+	},
 };
