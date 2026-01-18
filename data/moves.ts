@@ -21563,4 +21563,18 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			volatileStatus: "rockhammer",
 		},
 	},
+	moonlitnight: {
+		accuracy: true,
+		basePower: 0,
+		pp: 10,
+		category: "Status",
+		isNonstandard: "Custom",
+		name: "Moonlit Night",
+		priority: 0,
+		flags: { metronome: 1 },
+		weather: "Nighttime",
+		secondary: null,
+		target: "all",
+		type: "Dark",
+	},
 };
