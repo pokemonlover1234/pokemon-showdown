@@ -6039,7 +6039,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Umbral Dish",
 		rating: 3,
-		desc: "If Moonlit Night is active, this Pokemon heals 1/16 of its max HP each turn.",
+		desc: "If Nighttime is active, this Pokemon heals 1/16 of its max HP each turn.",
 		onWeather(target, source, effect) {
 			if (effect.id === 'nighttime') this.heal(target.baseMaxhp / 16);
 		},
