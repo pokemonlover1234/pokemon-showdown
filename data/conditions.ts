@@ -717,7 +717,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		},
 	},
 	nighttime: {
-		name: 'Night Time',
+		name: 'Nighttime',
 		effectType: "Weather",
 		duration: 5,
 		durationCallback(source, effect) {
@@ -729,25 +729,24 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		onFieldStart(field, source, effect) {
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectState.duration = 0;
-				this.add('-weather', 'Night Time', '[from] ability: ' + effect.name, `[of] ${source}`);
+				this.add('-weather', 'Nighttime', '[from] ability: ' + effect.name, `[of] ${source}`);
 			} else {
-				this.add('-weather', 'Night Time');
+				this.add('-weather', 'Nighttime');
 			}
 		},
 		onFieldResidualOrder: 1,
 		onFieldResidual() {
-			this.add('-weather', 'Night Time', '[upkeep]');
-			if (this.field.isWeather('Night Time')) this.eachEvent('Weather');
+			this.add('-weather', 'Nighttime', '[upkeep]');
+			if (this.field.isWeather('Nighttime')) this.eachEvent('Weather');
 		},
 		onWeatherModifyDamage(damage, attacker, defender, move) {
 			if (move.type === 'Ghost' || move.type === "Dark") {
 				this.debug("nighttime " + move.type.toString().toLocaleLowerCase() + " boost");
 				return this.chainModify(1.5);
 			}
-		},
-		onEffectiveness(typeMod, target, type, move) {
-			if (move.type === "Fairy" && type === "Dark") {
-				return 0;
+			if (move.type === 'Fairy') {
+				this.debug("nighttime fairy suppress");
+				return this.chainModify(0.5);
 			}
 		},
 		onFieldEnd() {

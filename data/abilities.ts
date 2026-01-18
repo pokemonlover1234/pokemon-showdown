@@ -6007,4 +6007,41 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		desc: "This Pokemon's hammer & blunt based moves have thier power multiplied by 1.3. [NOT IMPLEMENTED]",
 	},
+	shadowstep: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Shadow Step",
+		rating: 3,
+		desc: "If Nighttime is active, this Pokemon's Speed is doubled.",
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('nighttime')) {
+				return this.chainModify(2);
+			}
+		},
+	},
+	darkresonance: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Dark Resonance",
+		rating: 3,
+		desc: "If Nighttime is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
+		onModifySpA(spe, pokemon) {
+			if (this.field.isWeather('nighttime')) {
+				return this.chainModify(1.5);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (effect.id === 'nighttime') this.damage(target.baseMaxhp / 8);
+		},
+	},
+	umbraldish: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Umbral Dish",
+		rating: 3,
+		desc: "If Moonlit Night is active, this Pokemon heals 1/16 of its max HP each turn.",
+		onWeather(target, source, effect) {
+			if (effect.id === 'nighttime') this.heal(target.baseMaxhp / 16);
+		},
+	},
 };
