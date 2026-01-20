@@ -13319,6 +13319,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				return;
 			}
 			this.add('-prepare', attacker, move.name);
+			if (attacker.effectiveWeather() === "nighttime") {
+				this.attrLastMove('[still]');
+				this.addMove("-anim", attacker, move.name, defender);
+				return;
+			}
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
@@ -16084,6 +16089,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				return;
 			}
 			this.add('-prepare', attacker, move.name);
+			if (attacker.effectiveWeather() === "nighttime") {
+				this.attrLastMove('[still]');
+				this.addMove("-anim", attacker, move.name, defender);
+				return;
+			}
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
