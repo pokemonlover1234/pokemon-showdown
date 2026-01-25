@@ -137,7 +137,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			if (!quiet) battle.inputLog.push(`>${type} ${message}`);
 
 			message = message.replace(/\f/g, '\n');
-			battle.add('', '>>> ' + message.replace(/\n/g, '\n||'));
+			if (!quiet) battle.add('', '>>> ' + message.replace(/\n/g, '\n||'));
 			try {
 				/* eslint-disable no-eval, @typescript-eslint/no-unused-vars */
 				const p1 = battle.sides[0];
@@ -171,19 +171,19 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				if (result?.then) {
 					result.then((unwrappedResult: any) => {
 						unwrappedResult = Utils.visualize(unwrappedResult);
-						battle.add('', 'Promise -> ' + unwrappedResult);
+						if (!quiet) battle.add('', 'Promise -> ' + unwrappedResult);
 						battle.sendUpdates();
 					}, (error: Error) => {
-						battle.add('', '<<< error: ' + error.message);
+						if (!quiet) battle.add('', '<<< error: ' + error.message);
 						battle.sendUpdates();
 					});
 				} else {
 					result = Utils.visualize(result);
 					result = result.replace(/\n/g, '\n||');
-					battle.add('', '<<< ' + result);
+					if (!quiet) battle.add('', '<<< ' + result);
 				}
 			} catch (e: any) {
-				battle.add('', '<<< error: ' + e.message);
+				if (!quiet) battle.add('', '<<< error: ' + e.message);
 			}
 			break;
 		case 'editbattle':
