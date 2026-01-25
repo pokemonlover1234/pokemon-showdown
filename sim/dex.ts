@@ -112,6 +112,9 @@ export class ModdedDex {
 
 	readonly toID = Data.toID;
 
+	readonly resourcePrefix = 'https://raw.githubusercontent.com/pokemonlover1234/ionite-showdown-sprites/main/';
+	readonly fxPrefix = 'https://raw.githubusercontent.com/pokemonlover1234/ionite-showdown-sprites/main/fx/';
+
 	gen = 0;
 	parentMod = '';
 	modsLoaded = false;

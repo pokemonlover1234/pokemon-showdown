@@ -3077,7 +3077,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			buf += '<span class="col typecol">';
 			if (species.types) {
 				for (const type of species.types) {
-					buf += `<img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32">`;
+					buf += `<img src="${Dex.resourcePrefix}sprites/types/${type}.png" alt="${type}" height="14" width="32">`;
 				}
 			}
 			buf += '</span> ';
@@ -3131,7 +3131,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 				buf += '<span class="col typecol">';
 				if (species.types) {
 					for (const type of species.types) {
-						buf += `<img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32">`;
+						buf += `<img src="${Dex.resourcePrefix}sprites/types/${type}.png" alt="${type}" height="14" width="32">`;
 					}
 				}
 				buf += '</span> ';
