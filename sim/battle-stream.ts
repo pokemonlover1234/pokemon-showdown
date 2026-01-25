@@ -72,6 +72,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	_writeLine(type: string, message: string) {
+		let quiet = false;
 		switch (type) {
 		case 'start':
 			const options = JSON.parse(message);
@@ -125,12 +126,15 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			this.battle!.inputLog.push(`>chat ${message}`);
 			this.battle!.add('chat', `${message}`);
 			break;
+		case 'evalq':
+			quiet = true;
+		// eslint-disable-next-line no-fallthrough
 		case 'eval':
 			const battle = this.battle!;
 
 			// n.b. this will usually but not always work - if you eval code that also affects the inputLog,
 			// replaying the inputlog would double-play the change.
-			battle.inputLog.push(`>${type} ${message}`);
+			if (!quiet) battle.inputLog.push(`>${type} ${message}`);
 
 			message = message.replace(/\f/g, '\n');
 			battle.add('', '>>> ' + message.replace(/\n/g, '\n||'));
