@@ -1976,7 +1976,7 @@ export const commands: Chat.ChatCommands = {
 				return this.parse('/help editbattle');
 			}
 			[value] = targets.map(toID);
-			void battle.stream.write(`>eval battle.field.setWeather('${value}', 'debug')`);
+			void battle.stream.write(`>evalq battle.field.setWeather('${value}', 'debug')`);
 			break;
 		case 'terrain':
 		case 't':
