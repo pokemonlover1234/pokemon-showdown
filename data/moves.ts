@@ -21555,7 +21555,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Moonlit Night",
 		priority: 0,
 		flags: { metronome: 1 },
-		weather: "Nighttime",
+		weather: "Night Time",
 		secondary: null,
 		target: "all",
 		type: "Dark",
