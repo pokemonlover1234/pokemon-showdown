@@ -6044,4 +6044,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (effect.id === 'nighttime') this.heal(target.baseMaxhp / 16);
 		},
 	},
+	teeter: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Teeter",
+		rating: 3,
+		desc: "This Pokemon comes into battle Confused, everytime this pokemon hits itself in confusion all stats get +1. This pokemon will never recover from confusion and will hit itself 50% of the time, but will not take damage from hitting itself.",
+		onSwitchIn(pokemon) {
+			pokemon.addVolatile("confusion");
+		},
+	},
 };
