@@ -710,7 +710,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		},
 	},
 	nighttime: {
-		name: 'Nighttime',
+		name: 'Night Time',
 		effectType: "Weather",
 		duration: 5,
 		durationCallback(source, effect) {
@@ -722,15 +722,15 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		onFieldStart(field, source, effect) {
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectState.duration = 0;
-				this.add('-weather', 'Nighttime', '[from] ability: ' + effect.name, `[of] ${source}`);
+				this.add('-weather', 'Night Time', '[from] ability: ' + effect.name, `[of] ${source}`);
 			} else {
-				this.add('-weather', 'Nighttime');
+				this.add('-weather', 'Night Time');
 			}
 		},
 		onFieldResidualOrder: 1,
 		onFieldResidual() {
-			this.add('-weather', 'Nighttime', '[upkeep]');
-			if (this.field.isWeather('Nighttime')) this.eachEvent('Weather');
+			this.add('-weather', 'Night Time', '[upkeep]');
+			if (this.field.isWeather('Night Time')) this.eachEvent('Weather');
 		},
 		onWeatherModifyDamage(damage, attacker, defender, move) {
 			if (move.type === 'Ghost' || move.type === "Dark") {
