@@ -8272,7 +8272,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			}
 		},
 	},
-	// Actual functionality handled by Nighttime weather
+	// Actual functionality handled by Night Time weather
 	darkrock: {
 		name: "Dark Rock",
 		spritenum: 3,
