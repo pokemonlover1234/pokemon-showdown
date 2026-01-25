@@ -24,6 +24,50 @@
     ],
     "rmmoves": []
   },
+  "venusaurmega": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Overgrow",
+      "1": "Thick Fat",
+      "H": "Flower Veil"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 90,
+      "def": 100,
+      "spa": 135,
+      "spd": 100,
+      "spe": 95
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "venusaurgmax": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Overgrow",
+      "1": "Grass Pelt",
+      "H": "Grassy Surge"
+    },
+    "baseStats": {
+      "hp": 140,
+      "atk": 80,
+      "def": 100,
+      "spa": 105,
+      "spd": 100,
+      "spe": 75
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "charizard": {
     "restricted": false,
     "types": [
@@ -49,6 +93,71 @@
       "aircannon",
       "windpulse"
     ],
+    "rmmoves": []
+  },
+  "charizardmegax": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Levitate",
+      "H": "Tough Claws"
+    },
+    "baseStats": {
+      "hp": 88,
+      "atk": 135,
+      "def": 105,
+      "spa": 95,
+      "spd": 75,
+      "spe": 102
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "charizardmegay": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Solar Power",
+      "H": "Drought"
+    },
+    "baseStats": {
+      "hp": 78,
+      "atk": 105,
+      "def": 75,
+      "spa": 135,
+      "spd": 75,
+      "spe": 132
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "charizardgmax": {
+    "restricted": false,
+    "types": [
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Flame Body",
+      "H": "Inner Flame"
+    },
+    "baseStats": {
+      "hp": 128,
+      "atk": 115,
+      "def": 80,
+      "spa": 115,
+      "spd": 80,
+      "spe": 82
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "blastoise": {
@@ -78,6 +187,49 @@
     ],
     "rmmoves": []
   },
+  "blastoisemega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Steely Spirit",
+      "H": "Mega Launcher"
+    },
+    "baseStats": {
+      "hp": 89,
+      "atk": 90,
+      "def": 140,
+      "spa": 130,
+      "spd": 105,
+      "spe": 46
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "blastoisegmax": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Anger Shell",
+      "H": "Shell Armor"
+    },
+    "baseStats": {
+      "hp": 139,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 61
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "butterfree": {
     "restricted": false,
     "types": [
@@ -105,6 +257,28 @@
     ],
     "rmmoves": []
   },
+  "butterfreegmax": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Shield Dust",
+      "1": "Wonder Skin",
+      "H": "Toxic Chain"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 50,
+      "def": 95,
+      "spa": 110,
+      "spd": 120,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "beedrill": {
     "restricted": false,
     "types": [
@@ -114,13 +288,13 @@
     "abilities": {
       "0": "Swarm",
       "1": "Sniper",
-      "H": "Adaptability"
+      "H": "Intimidate"
     },
     "baseStats": {
       "hp": 80,
-      "atk": 135,
-      "def": 70,
-      "spa": 85,
+      "atk": 120,
+      "def": 75,
+      "spa": 105,
       "spd": 95,
       "spe": 125
     },
@@ -129,6 +303,28 @@
       "lunge",
       "dualwingbeat"
     ],
+    "rmmoves": []
+  },
+  "beedrillmega": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Poison Touch",
+      "1": "Long Reach",
+      "H": "Adaptability"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 135,
+      "def": 80,
+      "spa": 135,
+      "spd": 65,
+      "spe": 115
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "pidgeot": {
@@ -154,26 +350,7 @@
       "terablast",
       "aircannon",
       "windpulse",
-      "dualwingbeat",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "dualwingbeat"
     ],
     "rmmoves": []
   },
@@ -189,19 +366,14 @@
       "H": "No Guard"
     },
     "baseStats": {
-      "hp": 90,
-      "atk": 80,
-      "def": 85,
-      "spa": 135,
-      "spd": 85,
-      "spe": 125
+      "hp": 125,
+      "atk": 85,
+      "def": 80,
+      "spa": 120,
+      "spd": 80,
+      "spe": 110
     },
-    "addmoves": [
-      "terablast",
-      "aircannon",
-      "windpulse",
-      "dualwingbeat"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "raticate": {
@@ -402,6 +574,27 @@
     ],
     "rmmoves": []
   },
+  "pikachugmax": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Electric Surge",
+      "1": "Volt Absorb",
+      "H": "Electromorphosis"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 105,
+      "def": 70,
+      "spa": 105,
+      "spd": 70,
+      "spe": 125
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "raichu": {
     "restricted": false,
     "types": [
@@ -434,6 +627,49 @@
       "dazzlinggleam",
       "drainpunch"
     ],
+    "rmmoves": []
+  },
+  "raichumegax": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Iron Fist",
+      "1": "Levitate",
+      "H": "Volt Absorb"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 140,
+      "def": 100,
+      "spa": 80,
+      "spd": 80,
+      "spe": 120
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "raichumegay": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Transistor",
+      "1": "Motor Drive",
+      "H": "Lightning Rod"
+    },
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 65,
+      "spa": 145,
+      "spd": 100,
+      "spe": 135
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "raichualola": {
@@ -637,8 +873,31 @@
     },
     "addmoves": [
       "airslash",
-      "healblock"
+      "healblock",
+      "moonlitnight"
     ],
+    "rmmoves": []
+  },
+  "clefablemega": {
+    "restricted": false,
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Aerilate",
+      "1": "Cute Charm",
+      "H": "Cloud Nine"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 70,
+      "def": 85,
+      "spa": 135,
+      "spd": 110,
+      "spe": 90
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "ninetales": {
@@ -908,6 +1167,26 @@
     ],
     "rmmoves": []
   },
+  "meowthgmax": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Normalize",
+      "H": "Technician"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 95,
+      "def": 125,
+      "spa": 95,
+      "spd": 75,
+      "spe": 95
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "persian": {
     "restricted": false,
     "types": [
@@ -961,7 +1240,8 @@
       "chargebeam",
       "mudshot",
       "spikes",
-      "toxicspikes"
+      "toxicspikes",
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -1203,6 +1483,27 @@
     ],
     "rmmoves": []
   },
+  "alakazammega": {
+    "restricted": false,
+    "types": [
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Trace",
+      "1": "Levitate",
+      "H": "Magic Bounce"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 40,
+      "def": 45,
+      "spa": 165,
+      "spd": 160,
+      "spe": 120
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "machamp": {
     "restricted": false,
     "types": [
@@ -1231,6 +1532,27 @@
     ],
     "rmmoves": []
   },
+  "machampgmax": {
+    "restricted": false,
+    "types": [
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Moxie",
+      "1": "Justified",
+      "H": "Rivalry"
+    },
+    "baseStats": {
+      "hp": 150,
+      "atk": 120,
+      "def": 90,
+      "spa": 75,
+      "spd": 85,
+      "spe": 80
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "victreebel": {
     "restricted": false,
     "types": [
@@ -1240,8 +1562,7 @@
     "abilities": {
       "0": "Chlorophyll",
       "1": "Supersweet Syrup",
-      "H": "Solar Power",
-      "S": "Leaf Guard"
+      "H": "Solar Power"
     },
     "baseStats": {
       "hp": 90,
@@ -1257,6 +1578,28 @@
       "decompose",
       "toxicspikes"
     ],
+    "rmmoves": []
+  },
+  "victreebelmega": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Corrosion",
+      "1": "Innards Out",
+      "H": "Armor Tail"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 75,
+      "def": 100,
+      "spa": 130,
+      "spd": 105,
+      "spe": 65
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "tentacruel": {
@@ -1528,6 +1871,28 @@
     ],
     "rmmoves": []
   },
+  "slowbromega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Shell Armor",
+      "1": "Oblivious",
+      "H": "Rain Dish"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 70,
+      "def": 150,
+      "spa": 120,
+      "spd": 100,
+      "spe": 45
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "slowbrogalar": {
     "restricted": false,
     "types": [
@@ -1753,27 +2118,7 @@
     },
     "addmoves": [
       "aurasphere",
-      "moonlitnight",
-      "shadowsneak",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -1796,27 +2141,7 @@
       "spd": 90,
       "spe": 135
     },
-    "addmoves": [
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "gengargmax": {
@@ -1838,27 +2163,7 @@
       "spd": 85,
       "spe": 105
     },
-    "addmoves": [
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "gengarpartner": {
@@ -1882,50 +2187,7 @@
     },
     "addmoves": [
       "cosmicpower",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "gengarpartner": {
-    "restricted": false,
-    "types": [
-      "Ghost",
-      "Poison"
-    ],
-    "abilities": {
-      "0": "Cursed Body",
-      "1": "Regenerator",
-      "H": "Battle Bond"
-    },
-    "baseStats": {
-      "hp": 115,
-      "atk": 75,
-      "def": 130,
-      "spa": 75,
-      "spd": 130,
-      "spe": 75
-    },
-    "addmoves": [
-      "cosmicpower"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -1996,6 +2258,28 @@
       "terablast",
       "rockhammer"
     ],
+    "rmmoves": []
+  },
+  "kinglergmax": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Tough Claws",
+      "1": "Shell Armor",
+      "H": "Corrosion"
+    },
+    "baseStats": {
+      "hp": 135,
+      "atk": 130,
+      "def": 125,
+      "spa": 55,
+      "spd": 85,
+      "spe": 70
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "electrode": {
@@ -2418,6 +2702,27 @@
     ],
     "rmmoves": []
   },
+  "kangaskhanmega": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Parental Bond",
+      "1": "Hustle",
+      "H": "Normalize"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 130,
+      "def": 70,
+      "spa": 95,
+      "spd": 70,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "seaking": {
     "restricted": false,
     "types": [
@@ -2475,6 +2780,26 @@
       "chargebeam",
       "tripleaxel"
     ],
+    "rmmoves": []
+  },
+  "starmiemega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Huge Power"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 55,
+      "def": 105,
+      "spa": 140,
+      "spd": 105,
+      "spe": 110
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "mrmime": {
@@ -2604,6 +2929,28 @@
       "circlethrow",
       "dualwingbeat"
     ],
+    "rmmoves": []
+  },
+  "pinsirmega": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Aerilate",
+      "1": "Cloud Nine",
+      "H": "Gale Wings"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 145,
+      "def": 90,
+      "spa": 70,
+      "spd": 80,
+      "spe": 135
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "tauros": {
@@ -2801,6 +3148,28 @@
     ],
     "rmmoves": []
   },
+  "gyaradosmega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Dark Aura",
+      "1": "Mold Breaker",
+      "H": "Swift Swim"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 145,
+      "def": 75,
+      "spa": 85,
+      "spd": 80,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "lapras": {
     "restricted": false,
     "types": [
@@ -2883,6 +3252,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "laprasgmax": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Ice Body",
+      "1": "Snow Warning",
+      "H": "Ice Scales"
+    },
+    "baseStats": {
+      "hp": 195,
+      "atk": 80,
+      "def": 85,
+      "spa": 80,
+      "spd": 85,
+      "spe": 75
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "ditto": {
@@ -3007,6 +3398,27 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "eeveegmax": {
+    "restricted": false,
+    "types": [
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Fur Coat",
+      "1": "Cute Charm",
+      "H": "Beast Boost"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 70,
+      "spa": 115,
+      "spd": 85,
+      "spe": 90
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "vaporeon": {
@@ -3284,6 +3696,28 @@
     ],
     "rmmoves": []
   },
+  "aerodactylmega": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Solid Rock",
+      "1": "Rough Skin",
+      "H": "Tough Claws"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 140,
+      "def": 110,
+      "spa": 60,
+      "spd": 90,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "snorlax": {
     "restricted": false,
     "types": [
@@ -3370,6 +3804,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "snorlaxgmax": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Seed Sower",
+      "1": "Cud Chew",
+      "H": "Rocky Payload"
+    },
+    "baseStats": {
+      "hp": 220,
+      "atk": 95,
+      "def": 65,
+      "spa": 95,
+      "spd": 105,
+      "spe": 20
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "articuno": {
@@ -3554,6 +4010,28 @@
     ],
     "rmmoves": []
   },
+  "dragonitemega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Multiscale",
+      "1": "Sheer Force",
+      "H": "Drizzle"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 110,
+      "def": 75,
+      "spa": 135,
+      "spd": 90,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "mewtwo": {
     "restricted": false,
     "types": [
@@ -3576,6 +4054,49 @@
       "vacuumwave",
       "discharge"
     ],
+    "rmmoves": []
+  },
+  "mewtwomegax": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Steadfast",
+      "1": "Iron Fist",
+      "H": "Adaptability"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 145,
+      "def": 90,
+      "spa": 85,
+      "spd": 70,
+      "spe": 105
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "mewtwomegay": {
+    "restricted": false,
+    "types": [
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Insomnia",
+      "1": "Berserk",
+      "H": "Psychic Surge"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 75,
+      "def": 60,
+      "spa": 145,
+      "spd": 100,
+      "spe": 135
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "mew": {
@@ -3657,6 +4178,28 @@
       "earthpower",
       "leafblade"
     ],
+    "rmmoves": []
+  },
+  "meganiummega": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Overgrow",
+      "1": "Misty Surge",
+      "H": "Solar Power"
+    },
+    "baseStats": {
+      "hp": 150,
+      "atk": 95,
+      "def": 75,
+      "spa": 130,
+      "spd": 75,
+      "spe": 75
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "meganiumpartner": {
@@ -3772,6 +4315,28 @@
     "addmoves": [
       "iciclespear"
     ],
+    "rmmoves": []
+  },
+  "feraligatrmega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Strong Jaw",
+      "H": "Dragon's Maw"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 150,
+      "def": 100,
+      "spa": 90,
+      "spd": 85,
+      "spe": 60
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "furret": {
@@ -4063,7 +4628,8 @@
   "ampharospartner": {
     "restricted": false,
     "types": [
-      "Electric"
+      "Electric",
+      "Dragon"
     ],
     "abilities": {
       "0": "Dragon's Maw",
@@ -4090,6 +4656,28 @@
     ],
     "rmmoves": []
   },
+  "ampharosmegapartner": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Fairy Aura",
+      "1": "Electric Surge",
+      "H": "Fur Coat"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 130,
+      "def": 75,
+      "spa": 130,
+      "spd": 115,
+      "spe": 30
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "ampharos": {
     "restricted": false,
     "types": [
@@ -4112,6 +4700,28 @@
       "paraboliccharge",
       "flashcannon"
     ],
+    "rmmoves": []
+  },
+  "ampharosmega": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Static",
+      "1": "Mold Breaker",
+      "H": "Cotton Down"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 75,
+      "def": 130,
+      "spa": 145,
+      "spd": 90,
+      "spe": 35
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "bellossom": {
@@ -4423,7 +5033,8 @@
       "spe": 75
     },
     "addmoves": [
-      "knockoff"
+      "knockoff",
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -4626,6 +5237,28 @@
     ],
     "rmmoves": []
   },
+  "steelixmega": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Magnet Pull",
+      "1": "Strong Jaw",
+      "H": "Sand Force"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 140,
+      "def": 175,
+      "spa": 45,
+      "spd": 85,
+      "spe": 50
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "granbull": {
     "restricted": false,
     "types": [
@@ -4781,6 +5414,28 @@
     ],
     "rmmoves": []
   },
+  "scizormega": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Hustle",
+      "1": "Hyper Cutter",
+      "H": "Heavy Metal"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 145,
+      "def": 90,
+      "spa": 105,
+      "spd": 70,
+      "spe": 105
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "shuckle": {
     "restricted": false,
     "types": [
@@ -4851,6 +5506,28 @@
       "outrage",
       "circlethrow"
     ],
+    "rmmoves": []
+  },
+  "heracrossmega": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Skill Link",
+      "1": "Shield Dust",
+      "H": "Technician"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 160,
+      "def": 105,
+      "spa": 75,
+      "spd": 100,
+      "spe": 65
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "magcargo": {
@@ -5044,6 +5721,28 @@
     ],
     "rmmoves": []
   },
+  "skarmorymega": {
+    "restricted": false,
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Tough Claws",
+      "1": "Bulletproof",
+      "H": "Good as Gold"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 135,
+      "def": 120,
+      "spa": 60,
+      "spd": 90,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "houndoom": {
     "restricted": false,
     "types": [
@@ -5052,8 +5751,8 @@
     ],
     "abilities": {
       "0": "Unnerve",
-      "1": "Shadow Step",
-      "H": "Flash Fire"
+      "1": "Flash Fire",
+      "H": "Shadow Dash"
     },
     "baseStats": {
       "hp": 75,
@@ -5065,26 +5764,7 @@
     },
     "addmoves": [
       "afterburner",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -5095,8 +5775,8 @@
       "Fire"
     ],
     "abilities": {
-      "0": "Berserk",
-      "1": "Dark Resonance",
+      "0": "Dark Resonance",
+      "1": "Berserk",
       "H": "Solar Power"
     },
     "baseStats": {
@@ -5107,9 +5787,7 @@
       "spd": 85,
       "spe": 100
     },
-    "addmoves": [
-      "afterburner"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "kingdra": {
@@ -5470,6 +6148,28 @@
     ],
     "rmmoves": []
   },
+  "tyranitarmega": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Sand Force",
+      "1": "Hustle",
+      "H": "Sand Rush"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 154,
+      "def": 130,
+      "spa": 75,
+      "spd": 80,
+      "spe": 61
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "lugia": {
     "restricted": false,
     "types": [
@@ -5580,9 +6280,9 @@
     },
     "baseStats": {
       "hp": 90,
-      "atk": 105,
+      "atk": 125,
       "def": 75,
-      "spa": 125,
+      "spa": 105,
       "spd": 75,
       "spe": 130
     },
@@ -5593,6 +6293,28 @@
       "growth",
       "dragonrush"
     ],
+    "rmmoves": []
+  },
+  "sceptilemega": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Overgrow",
+      "1": "Aftermath",
+      "H": "Lightning Rod"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 95,
+      "def": 70,
+      "spa": 135,
+      "spd": 70,
+      "spe": 150
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "blaziken": {
@@ -5621,6 +6343,28 @@
       "drainpunch",
       "circlethrow"
     ],
+    "rmmoves": []
+  },
+  "blazikenmega": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Thermal Exchange",
+      "H": "Speed Boost"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 110,
+      "def": 80,
+      "spa": 110,
+      "spd": 80,
+      "spe": 140
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "blazikenpartner": {
@@ -5659,9 +6403,8 @@
     ],
     "abilities": {
       "0": "Torrent",
-      "1": "Regenerator",
-      "H": "Damp",
-      "S": "Earth Eater"
+      "1": "Damp",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 100,
@@ -5674,6 +6417,28 @@
     "addmoves": [
       "sludgebomb"
     ],
+    "rmmoves": []
+  },
+  "swampertmega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Water Absorb",
+      "H": "Swift Swim"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 155,
+      "def": 125,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "mightyena": {
@@ -5979,6 +6744,28 @@
     "addmoves": [
       "gleamstep"
     ],
+    "rmmoves": []
+  },
+  "gardevoirmega": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Pixilate",
+      "1": "Trace",
+      "H": "Psychic Surge"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 65,
+      "def": 95,
+      "spa": 120,
+      "spd": 140,
+      "spe": 80
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "masquerain": {
@@ -6312,8 +7099,31 @@
       "nightslash",
       "partingshot",
       "healblock",
-      "safeguard"
+      "safeguard",
+      "moonlitnight"
     ],
+    "rmmoves": []
+  },
+  "sableyemega": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Mirror Armor",
+      "1": "Cursed Body",
+      "H": "Magic Bounce"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 145,
+      "spa": 120,
+      "spd": 105,
+      "spe": 40
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "mawile": {
@@ -6329,10 +7139,10 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 115,
-      "def": 135,
-      "spa": 75,
-      "spd": 115,
+      "atk": 125,
+      "def": 145,
+      "spa": 45,
+      "spd": 125,
       "spe": 80
     },
     "addmoves": [
@@ -6341,6 +7151,26 @@
       "radiantreckoning",
       "dazzlinggleam"
     ],
+    "rmmoves": []
+  },
+  "mawilemega": {
+    "restricted": false,
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Huge Power"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 65,
+      "def": 120,
+      "spa": 135,
+      "spd": 115,
+      "spe": 75
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "mawilepartner": {
@@ -6382,15 +7212,14 @@
     "abilities": {
       "0": "Sturdy",
       "1": "Rock Head",
-      "H": "Intimidate",
-      "S": "Relentless Force"
+      "H": "Intimidate"
     },
     "baseStats": {
       "hp": 85,
       "atk": 130,
-      "def": 200,
-      "spa": 40,
-      "spd": 110,
+      "def": 190,
+      "spa": 45,
+      "spd": 100,
       "spe": 50
     },
     "addmoves": [
@@ -6398,6 +7227,27 @@
       "rockhammer",
       "scorchingsands"
     ],
+    "rmmoves": []
+  },
+  "aggronmega": {
+    "restricted": false,
+    "types": [
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Battle Armor",
+      "1": "Full Metal Body",
+      "H": "Filter"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 80,
+      "def": 220,
+      "spa": 25,
+      "spd": 100,
+      "spe": 70
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "medicham": {
@@ -6424,6 +7274,26 @@
     ],
     "rmmoves": []
   },
+  "medichammega": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Pure Power"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 65,
+      "def": 80,
+      "spa": 100,
+      "spd": 165,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "manectric": {
     "restricted": false,
     "types": [
@@ -6448,6 +7318,27 @@
       "flamecharge",
       "trailblaze"
     ],
+    "rmmoves": []
+  },
+  "manectricmega": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Transistor",
+      "1": "Galvanize",
+      "H": "Intimidate"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 70,
+      "spa": 135,
+      "spd": 70,
+      "spe": 150
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "plusle": {
@@ -6713,6 +7604,28 @@
     ],
     "rmmoves": []
   },
+  "sharpedomega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Strong Jaw",
+      "1": "Water Veil",
+      "H": "Stakeout"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 160,
+      "def": 45,
+      "spa": 160,
+      "spd": 45,
+      "spe": 85
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "wailord": {
     "restricted": false,
     "types": [
@@ -6763,7 +7676,7 @@
     ],
     "abilities": {
       "0": "Solid Rock",
-      "1": "Sheer Force",
+      "1": "Berserk",
       "H": "Anger Point"
     },
     "baseStats": {
@@ -6776,26 +7689,7 @@
     },
     "addmoves": [
       "burningcoals",
-      "loosedirt",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "loosedirt"
     ],
     "rmmoves": []
   },
@@ -6818,10 +7712,7 @@
       "spd": 80,
       "spe": 60
     },
-    "addmoves": [
-      "burningcoals",
-      "loosedirt"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "torkoal": {
@@ -6957,26 +7848,7 @@
       "spe": 90
     },
     "addmoves": [
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -6984,12 +7856,12 @@
     "restricted": false,
     "types": [
       "Dragon",
-      "Fairy"
+      "Flying"
     ],
     "abilities": {
       "0": "Natural Cure",
       "1": "Fluffy",
-      "H": "Pixilate"
+      "H": "Cloud Nine"
     },
     "baseStats": {
       "hp": 95,
@@ -7005,6 +7877,28 @@
       "windpulse",
       "petaldance"
     ],
+    "rmmoves": []
+  },
+  "altariamega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Pixilate",
+      "1": "Cotton Down",
+      "H": "Levitate"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 100,
+      "def": 140,
+      "spa": 100,
+      "spd": 110,
+      "spe": 55
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "zangoose": {
@@ -7077,26 +7971,7 @@
     },
     "addmoves": [
       "terablast",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -7581,8 +8456,7 @@
     "abilities": {
       "0": "Insomnia",
       "1": "Perish Body",
-      "H": "Cursed Body",
-      "S": "Shadow Step"
+      "H": "Cursed Body"
     },
     "baseStats": {
       "hp": 95,
@@ -7597,8 +8471,30 @@
       "healblock",
       "zenheadbutt",
       "iciclespear",
-      "vacuumwave"
+      "vacuumwave",
+      "playrough"
     ],
+    "rmmoves": []
+  },
+  "banettemega": {
+    "restricted": false,
+    "types": [
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Prankster",
+      "1": "Aftermath",
+      "H": "Fluffy"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 160,
+      "def": 120,
+      "spa": 85,
+      "spd": 80,
+      "spe": 70
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "tropius": {
@@ -7629,8 +8525,7 @@
   "chimecho": {
     "restricted": false,
     "types": [
-      "Psychic",
-      "Steel"
+      "Psychic"
     ],
     "abilities": {
       "0": "Levitate",
@@ -7639,9 +8534,9 @@
     },
     "baseStats": {
       "hp": 105,
-      "atk": 65,
+      "atk": 45,
       "def": 100,
-      "spa": 110,
+      "spa": 130,
       "spd": 130,
       "spe": 90
     },
@@ -7654,6 +8549,28 @@
       "waterpulse",
       "amnesia"
     ],
+    "rmmoves": []
+  },
+  "chimechomega": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Heatproof",
+      "H": "Soundproof"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 45,
+      "def": 140,
+      "spa": 130,
+      "spd": 110,
+      "spe": 70
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "absol": {
@@ -7678,8 +8595,53 @@
       "terablast",
       "sacredsword",
       "phantomforce",
-      "shadowsneak"
+      "shadowsneak",
+      "moonlitnight"
     ],
+    "rmmoves": []
+  },
+  "absolmega": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Fairy Aura",
+      "1": "Magic Bounce",
+      "H": "Intimidate"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 80,
+      "spa": 140,
+      "spd": 110,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "absolmegaz": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Dark Aura",
+      "1": "Tough Claws",
+      "H": "Shadow Step"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 70,
+      "spa": 120,
+      "spd": 65,
+      "spe": 140
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "glalie": {
@@ -7762,6 +8724,27 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "glaliemega": {
+    "restricted": false,
+    "types": [
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Ice Body",
+      "1": "Ice Face",
+      "H": "Refrigerate"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 135,
+      "def": 100,
+      "spa": 135,
+      "spd": 75,
+      "spe": 60
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "walrein": {
@@ -8011,6 +8994,28 @@
     ],
     "rmmoves": []
   },
+  "salamencemega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Aerilate",
+      "1": "Anger Point",
+      "H": "Gale Wings"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 120,
+      "def": 70,
+      "spa": 95,
+      "spd": 70,
+      "spe": 140
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "metagross": {
     "restricted": false,
     "types": [
@@ -8093,6 +9098,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "metagrossmega": {
+    "restricted": false,
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Tough Claws",
+      "1": "Analytic",
+      "H": "Aftermath"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 155,
+      "def": 110,
+      "spa": 125,
+      "spd": 75,
+      "spe": 50
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "regirock": {
@@ -8227,6 +9254,28 @@
     ],
     "rmmoves": []
   },
+  "latiasmega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Illusion",
+      "H": "Marvel Scale"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 120,
+      "spa": 100,
+      "spd": 120,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "latios": {
     "restricted": false,
     "types": [
@@ -8252,6 +9301,28 @@
     ],
     "rmmoves": []
   },
+  "latiosmega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Illusion",
+      "H": "Psychic Surge"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 70,
+      "spa": 120,
+      "spd": 80,
+      "spe": 160
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "kyogre": {
     "restricted": false,
     "types": [
@@ -8259,8 +9330,8 @@
     ],
     "abilities": {
       "0": "Drizzle",
-      "1": "Storm Drain",
-      "H": "Primordial Sea"
+      "1": "Water Veil",
+      "H": "Storm Drain"
     },
     "baseStats": {
       "hp": 90,
@@ -8275,16 +9346,36 @@
     ],
     "rmmoves": []
   },
+  "kyogreprimal": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Primordial Sea",
+      "1": "Water Compaction",
+      "H": "Water Bubble"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 70,
+      "def": 100,
+      "spa": 70,
+      "spd": 145,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "groudon": {
     "restricted": false,
     "types": [
-      "Ground",
-      "Fire"
+      "Ground"
     ],
     "abilities": {
       "0": "Drought",
       "1": "Stamina",
-      "H": "Desolate Land"
+      "H": "Flash Fire"
     },
     "baseStats": {
       "hp": 90,
@@ -8297,6 +9388,28 @@
     "addmoves": [
       "powergem"
     ],
+    "rmmoves": []
+  },
+  "groudonprimal": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Desolate Land",
+      "1": "Solar Power",
+      "H": "Flame Body"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 150,
+      "def": 120,
+      "spa": 110,
+      "spd": 55,
+      "spe": 45
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "rayquaza": {
@@ -8322,6 +9435,28 @@
       "dragonrush",
       "whirlwind"
     ],
+    "rmmoves": []
+  },
+  "rayquazamega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Delta Stream",
+      "1": "Super Luck",
+      "H": "Wind Rider"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 110,
+      "def": 105,
+      "spa": 110,
+      "spd": 105,
+      "spe": 75
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "jirachi": {
@@ -8644,6 +9779,28 @@
       "brickbreak",
       "outrage"
     ],
+    "rmmoves": []
+  },
+  "staraptormega": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Big Pecks",
+      "1": "Scrappy",
+      "H": "Moxie"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 140,
+      "def": 100,
+      "spa": 60,
+      "spd": 100,
+      "spe": 105
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "bibarel": {
@@ -9280,11 +10437,11 @@
     },
     "baseStats": {
       "hp": 85,
-      "atk": 110,
-      "def": 105,
-      "spa": 45,
-      "spd": 120,
-      "spe": 135
+      "atk": 100,
+      "def": 85,
+      "spa": 95,
+      "spd": 110,
+      "spe": 125
     },
     "addmoves": [
       "terablast",
@@ -9293,6 +10450,28 @@
       "dynamicpunch",
       "drainingkiss"
     ],
+    "rmmoves": []
+  },
+  "lopunnymega": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Scrappy",
+      "1": "Fluffy",
+      "H": "Normalize"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 140,
+      "def": 75,
+      "spa": 75,
+      "spd": 90,
+      "spe": 145
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "mismagius": {
@@ -9541,26 +10720,7 @@
     "addmoves": [
       "moonlight",
       "powershift",
-      "copycat",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "copycat"
     ],
     "rmmoves": []
   },
@@ -9589,6 +10749,49 @@
       "nastyplot",
       "vacuumwave"
     ],
+    "rmmoves": []
+  },
+  "garchompmega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Rough Skin",
+      "1": "Inner Flame",
+      "H": "Sand Force"
+    },
+    "baseStats": {
+      "hp": 108,
+      "atk": 160,
+      "def": 115,
+      "spa": 60,
+      "spd": 85,
+      "spe": 72
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "garchompmegaz": {
+    "restricted": false,
+    "types": [
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Flare Boost",
+      "1": "Aerilate",
+      "H": "Sand Rush"
+    },
+    "baseStats": {
+      "hp": 98,
+      "atk": 70,
+      "def": 85,
+      "spa": 140,
+      "spd": 75,
+      "spe": 132
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "lucario": {
@@ -9715,6 +10918,50 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "lucariomega": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Adaptability",
+      "1": "Resilient Core",
+      "H": "Steely Spirit"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 115,
+      "spa": 75,
+      "spd": 90,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "lucariomegaz": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Bulletproof",
+      "1": "Mind's Eye",
+      "H": "Steely Spirit"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 65,
+      "def": 84,
+      "spa": 141,
+      "spd": 89,
+      "spe": 141
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "hippowdon": {
@@ -9867,26 +11114,7 @@
       "jawlock",
       "poisonfang",
       "thunderfang",
-      "psychicfangs",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "psychicfangs"
     ],
     "rmmoves": []
   },
@@ -9939,6 +11167,28 @@
       "cryofreeze",
       "icehammer"
     ],
+    "rmmoves": []
+  },
+  "abomasnowmega": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Snow Warning",
+      "1": "Ice Body",
+      "H": "Tree of Life"
+    },
+    "baseStats": {
+      "hp": 150,
+      "atk": 80,
+      "def": 120,
+      "spa": 80,
+      "spd": 120,
+      "spe": 50
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "weavile": {
@@ -10377,6 +11627,28 @@
     ],
     "rmmoves": []
   },
+  "gallademega": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Intrepid Sword",
+      "1": "Dauntless Shield",
+      "H": "Inner Focus"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 95,
+      "spa": 55,
+      "spd": 130,
+      "spe": 100
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "probopass": {
     "restricted": false,
     "types": [
@@ -10486,6 +11758,28 @@
       "nastyplot",
       "healblock"
     ],
+    "rmmoves": []
+  },
+  "froslassmega": {
+    "restricted": false,
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Refrigerate",
+      "1": "Cursed Body",
+      "H": "Slush Rush"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 70,
+      "spa": 150,
+      "spd": 100,
+      "spe": 130
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "rotom": {
@@ -11069,6 +12363,28 @@
     ],
     "rmmoves": []
   },
+  "heatranmega": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Flame Body",
+      "1": "Volcanic Surge",
+      "H": "Desolate Land"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 95,
+      "spa": 150,
+      "spd": 140,
+      "spe": 60
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "regigigas": {
     "restricted": false,
     "types": [
@@ -11155,26 +12471,7 @@
     },
     "addmoves": [
       "moonlitnight",
-      "recover",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "recover"
     ],
     "rmmoves": []
   },
@@ -11252,7 +12549,7 @@
     "abilities": {
       "0": "Bad Dreams",
       "1": "Infiltrator",
-      "H": "Dark Aura"
+      "H": "Shadow Veil"
     },
     "baseStats": {
       "hp": 90,
@@ -11267,7 +12564,37 @@
       "shadowsneak",
       "crunch",
       "iciclespear",
-      "vacuumwave"
+      "vacuumwave",
+      "moonlitnight"
+    ],
+    "rmmoves": []
+  },
+  "darkraimega": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Bad Dreams",
+      "1": "Dark Aura",
+      "H": "Shadow Veil"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 60,
+      "def": 120,
+      "spa": 135,
+      "spd": 120,
+      "spe": 75
+    },
+    "addmoves": [
+      "futuresight",
+      "shadowsneak",
+      "crunch",
+      "iciclespear",
+      "vacuumwave",
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -12584,6 +13911,28 @@
     ],
     "rmmoves": []
   },
+  "emboarmega": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Imperial Rule ",
+      "H": "Supreme Overlord"
+    },
+    "baseStats": {
+      "hp": 150,
+      "atk": 150,
+      "def": 80,
+      "spa": 50,
+      "spd": 110,
+      "spe": 60
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "samurott": {
     "restricted": false,
     "types": [
@@ -12675,7 +14024,8 @@
   "samurottpartner": {
     "restricted": false,
     "types": [
-      "Water"
+      "Water",
+      "Fighting"
     ],
     "abilities": {
       "0": "Sharpness",
@@ -12843,7 +14193,8 @@
       "firefang",
       "icefang",
       "thunderfang",
-      "x-scissor"
+      "x-scissor",
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -13105,6 +14456,28 @@
     ],
     "rmmoves": []
   },
+  "excadrillmega": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Sand Force",
+      "1": "Motor Drive",
+      "H": "Mold Breaker"
+    },
+    "baseStats": {
+      "hp": 135,
+      "atk": 160,
+      "def": 60,
+      "spa": 100,
+      "spd": 65,
+      "spe": 80
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "audino": {
     "restricted": false,
     "types": [
@@ -13129,6 +14502,28 @@
       "alluringvoice",
       "triattack"
     ],
+    "rmmoves": []
+  },
+  "audinomega": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Misty Surge",
+      "1": "Regenerator",
+      "H": "Pastel Veil"
+    },
+    "baseStats": {
+      "hp": 125,
+      "atk": 60,
+      "def": 115,
+      "spa": 130,
+      "spd": 115,
+      "spe": 55
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "conkeldurr": {
@@ -13322,6 +14717,28 @@
       "gunkshot",
       "trailblaze"
     ],
+    "rmmoves": []
+  },
+  "scolipedemega": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Corrosion",
+      "H": "Speed Boost"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 139,
+      "spa": 60,
+      "spd": 119,
+      "spe": 72
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "whimsicott": {
@@ -13749,6 +15166,28 @@
     ],
     "rmmoves": []
   },
+  "scraftymega": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Shed Skin",
+      "H": "Guts"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 130,
+      "def": 140,
+      "spa": 40,
+      "spd": 140,
+      "spe": 65
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "sigilyph": {
     "restricted": false,
     "types": [
@@ -13941,6 +15380,27 @@
     ],
     "rmmoves": []
   },
+  "garbodorgmax": {
+    "restricted": false,
+    "types": [
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Weak Armor",
+      "1": "Poison Point",
+      "H": "Mold Breaker"
+    },
+    "baseStats": {
+      "hp": 155,
+      "atk": 85,
+      "def": 115,
+      "spa": 85,
+      "spd": 115,
+      "spe": 45
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "zoroark": {
     "restricted": false,
     "types": [
@@ -13960,26 +15420,7 @@
       "spe": 125
     },
     "addmoves": [
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -14569,6 +16010,27 @@
     ],
     "rmmoves": []
   },
+  "eelektrossmega": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Sticky Hold",
+      "H": "Transistor"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 145,
+      "def": 75,
+      "spa": 135,
+      "spd": 85,
+      "spe": 55
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "beheeyem": {
     "restricted": false,
     "types": [
@@ -14636,6 +16098,28 @@
     ],
     "rmmoves": []
   },
+  "chandeluremega": {
+    "restricted": false,
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Volcanic Surge",
+      "1": "Cursed Body",
+      "H": "Infiltrator"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 110,
+      "spa": 165,
+      "spd": 80,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "haxorus": {
     "restricted": false,
     "types": [
@@ -14658,6 +16142,34 @@
     "addmoves": [
       "nightslash",
       "rustyblade"
+    ],
+    "rmmoves": []
+  },
+  "haxorus-partner": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Thermal Exchange",
+      "1": "Sharpness",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 147,
+      "def": 93,
+      "spa": 55,
+      "spd": 105,
+      "spe": 105
+    },
+    "addmoves": [
+      "aquacutter",
+      "crosspoison",
+      "sacredsword",
+      "rustyblade",
+      "nightslash"
     ],
     "rmmoves": []
   },
@@ -14949,8 +16461,33 @@
       "spe": 85
     },
     "addmoves": [
-      "ironhead"
+      "ironhead",
+      "zapcannon",
+      "thunder",
+      "boltstrike"
     ],
+    "rmmoves": []
+  },
+  "golurkmega": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Volt Absorb",
+      "1": "No Guard",
+      "H": "Aftermath"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 155,
+      "def": 80,
+      "spa": 135,
+      "spd": 80,
+      "spe": 35
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "bouffalant": {
@@ -15715,8 +17252,8 @@
     ],
     "abilities": {
       "0": "Overgrow",
-      "1": "Bulletproof",
-      "H": "Bludgeon"
+      "1": "Bludgeon",
+      "H": "Bulletproof"
     },
     "baseStats": {
       "hp": 110,
@@ -15724,31 +17261,11 @@
       "def": 130,
       "spa": 60,
       "spd": 95,
-      "spe": 70
+      "spe": 40
     },
     "addmoves": [
       "rockhammer",
-      "solarblade",
-      "growth",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "solarblade"
     ],
     "rmmoves": []
   },
@@ -15759,7 +17276,7 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Bulletproof",
+      "0": "Overgrow",
       "1": "Iron Barbs",
       "H": "Stamina"
     },
@@ -15771,10 +17288,7 @@
       "spd": 95,
       "spe": 40
     },
-    "addmoves": [
-      "rockhammer",
-      "solarblade"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "delphox": {
@@ -15802,6 +17316,28 @@
     ],
     "rmmoves": []
   },
+  "delphoxmega": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Levitate",
+      "H": "Dazzling"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 50,
+      "def": 60,
+      "spa": 165,
+      "spd": 90,
+      "spe": 155
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "greninja": {
     "restricted": false,
     "types": [
@@ -15809,8 +17345,8 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Protean",
-      "1": "Infiltrator",
+      "0": "Torrent",
+      "1": "Protean",
       "H": "Battle Bond"
     },
     "baseStats": {
@@ -15824,6 +17360,28 @@
     "addmoves": [
       "vacuumwave"
     ],
+    "rmmoves": []
+  },
+  "greninjamega": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Infiltrator",
+      "H": "Shadow Step"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 110,
+      "def": 70,
+      "spa": 115,
+      "spd": 70,
+      "spe": 155
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "greninjaash": {
@@ -15972,6 +17530,28 @@
     ],
     "rmmoves": []
   },
+  "pyroarmega": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "abilities": {
+      "0": "Fur Coat",
+      "1": "Drought",
+      "H": "Intimidate"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 65,
+      "spa": 140,
+      "spd": 65,
+      "spe": 135
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "floetteeternal": {
     "restricted": false,
     "types": [
@@ -15995,35 +17575,13 @@
       "terablast",
       "shadowball",
       "hex",
-      "willowisp",
+      "will-o-wisp",
       "curse",
       "ominouswind",
       "nightshade",
       "trailblaze",
       "darkpulse",
-      "nightdaze",
-      "drainingkiss",
-      "hyperbeam",
-      "lightscreen",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "nightdaze"
     ],
     "rmmoves": []
   },
@@ -16036,27 +17594,17 @@
     "abilities": {
       "0": "Flower Veil",
       "1": "Dark Aura",
-      "H": "Cursed Body",
-      "S": "Dread Hunger"
+      "H": "Cursed Body"
     },
     "baseStats": {
-      "hp": 75,
-      "atk": 55,
-      "def": 70,
-      "spa": 140,
+      "hp": 74,
+      "atk": 34,
+      "def": 67,
+      "spa": 165,
       "spd": 130,
       "spe": 130
     },
-    "addmoves": [
-      "terablast",
-      "shadowball",
-      "hex",
-      "will-o-wisp",
-      "curse",
-      "ominouswind",
-      "nightshade",
-      "trailblaze"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "florges": {
@@ -16213,11 +17761,11 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 50,
+      "atk": 65,
       "def": 100,
-      "spa": 110,
-      "spd": 100,
-      "spe": 140
+      "spa": 95,
+      "spd": 110,
+      "spe": 130
     },
     "addmoves": [
       "moonblast",
@@ -16243,11 +17791,11 @@
       "H": "Competitive"
     },
     "baseStats": {
-      "hp": 90,
-      "atk": 55,
-      "def": 90,
+      "hp": 75,
+      "atk": 90,
+      "def": 75,
       "spa": 135,
-      "spd": 90,
+      "spd": 85,
       "spe": 140
     },
     "addmoves": [
@@ -16257,6 +17805,48 @@
       "waterpulse",
       "teleport"
     ],
+    "rmmoves": []
+  },
+  "meowsticmega": {
+    "restricted": false,
+    "types": [
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Infiltrator",
+      "1": "Fluffy",
+      "H": "Prankster"
+    },
+    "baseStats": {
+      "hp": 94,
+      "atk": 52,
+      "def": 96,
+      "spa": 103,
+      "spd": 121,
+      "spe": 134
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "meowsticmegaf": {
+    "restricted": false,
+    "types": [
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Infiltrator",
+      "1": "Neuroforce",
+      "H": "Competitive"
+    },
+    "baseStats": {
+      "hp": 84,
+      "atk": 62,
+      "def": 86,
+      "spa": 123,
+      "spd": 101,
+      "spe": 144
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "aegislash": {
@@ -16423,8 +18013,31 @@
     "addmoves": [
       "closecombat",
       "stealthrock",
-      "octolock"
+      "octolock",
+      "moonlitnight"
     ],
+    "rmmoves": []
+  },
+  "malamar-mega": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Trace",
+      "1": "Infiltrator",
+      "H": "Contrary"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 75,
+      "spa": 130,
+      "spd": 70,
+      "spe": 125
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "barbaracle": {
@@ -16451,6 +18064,28 @@
       "aquacutter",
       "rockhammer"
     ],
+    "rmmoves": []
+  },
+  "barbaraclemega": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Unseen Fist",
+      "1": "Anger Shell",
+      "H": "Tough Claws"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 140,
+      "def": 100,
+      "spa": 120,
+      "spd": 60,
+      "spe": 105
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "dragalge": {
@@ -16536,6 +18171,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "dragalgemega": {
+    "restricted": false,
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Poison Point",
+      "1": "Corrosion",
+      "H": "Regenerator"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 65,
+      "def": 80,
+      "spa": 125,
+      "spd": 165,
+      "spe": 55
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "clawitzer": {
@@ -16816,6 +18473,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "hawluchamega": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Adaptability",
+      "1": "Mountaineer",
+      "H": "Mold Breaker"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 135,
+      "def": 115,
+      "spa": 90,
+      "spd": 75,
+      "spe": 105
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "hawluchapartner": {
@@ -17156,7 +18835,8 @@
     "addmoves": [
       "alluringvoice",
       "aircannon",
-      "windpulse"
+      "windpulse",
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -17200,7 +18880,9 @@
       "spd": 90,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "zygarde": {
@@ -17408,6 +19090,34 @@
       "spd": 85,
       "spe": 75
     },
+    "addmoves": [
+      "terablast",
+      "thousandarrows",
+      "thousandwaves",
+      "coreenforcer",
+      "land'swrath"
+    ],
+    "rmmoves": []
+  },
+  "zygardemega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Aura Break",
+      "1": "Mega Launcher",
+      "H": "Dragon's Maw"
+    },
+    "baseStats": {
+      "hp": 165,
+      "atk": 50,
+      "def": 70,
+      "spa": 170,
+      "spd": 65,
+      "spe": 80
+    },
     "addmoves": [],
     "rmmoves": []
   },
@@ -17434,6 +19144,28 @@
       "radiantreckoning",
       "gleamstep"
     ],
+    "rmmoves": []
+  },
+  "dianciemega": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Mirror Armor",
+      "1": "Magic Bounce",
+      "H": "Queenly Majesty"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 140,
+      "def": 70,
+      "spa": 140,
+      "spd": 70,
+      "spe": 110
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "hoopa": {
@@ -17830,6 +19562,28 @@
     ],
     "rmmoves": []
   },
+  "crabominablemega": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Anger Point",
+      "1": "Ice Body",
+      "H": "Fluffy"
+    },
+    "baseStats": {
+      "hp": 145,
+      "atk": 145,
+      "def": 140,
+      "spa": 70,
+      "spd": 60,
+      "spe": 40
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "oricorio": {
     "restricted": false,
     "types": [
@@ -18000,7 +19754,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Resilient Core",
+      "0": "Sand Force",
       "1": "Scrappy",
       "H": "Stakeout"
     },
@@ -18062,7 +19816,8 @@
       "suckerpunch",
       "poltergeist",
       "drainpunch",
-      "rockhammer"
+      "rockhammer",
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -18666,8 +20421,31 @@
       "nightslash",
       "terablast",
       "aquacutter",
-      "rockhammer"
+      "rockhammer",
+      "u-turn"
     ],
+    "rmmoves": []
+  },
+  "golisopodmega": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Emergency Exit",
+      "1": "Battle Armor",
+      "H": "Full Metal Body"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 155,
+      "def": 165,
+      "spa": 90,
+      "spd": 100,
+      "spe": 20
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "palossand": {
@@ -19516,7 +21294,9 @@
       "spd": 75,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "silvallydragon": {
@@ -19663,7 +21443,9 @@
       "spd": 75,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "silvallygrass": {
@@ -19926,9 +21708,9 @@
       "hp": 70,
       "atk": 110,
       "def": 70,
-      "spa": 90,
+      "spa": 100,
       "spd": 70,
-      "spe": 200
+      "spe": 190
     },
     "addmoves": [
       "aircannon",
@@ -20292,6 +22074,28 @@
     ],
     "rmmoves": []
   },
+  "drampamega": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Berserk",
+      "1": "Air Lock",
+      "H": "Drizzle"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 90,
+      "def": 95,
+      "spa": 150,
+      "spd": 115,
+      "spe": 50
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "dhelmise": {
     "restricted": false,
     "types": [
@@ -20534,7 +22338,7 @@
     "abilities": {
       "0": "Shadow Shield",
       "1": "Levitate",
-      "H": "Magic Bounce"
+      "H": "Shadow Veil"
     },
     "baseStats": {
       "hp": 125,
@@ -20544,7 +22348,9 @@
       "spd": 100,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "nihilego": {
@@ -20997,33 +22803,7 @@
       "spd": 125,
       "spe": 55
     },
-    "addmoves": [
-      "powergem",
-      "vacuumwave",
-      "solarblade",
-      "thunderpunch",
-      "supercellslam",
-      "wildcharge",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "magearnaoriginal": {
@@ -21045,33 +22825,7 @@
       "spd": 95,
       "spe": 85
     },
-    "addmoves": [
-      "powergem",
-      "vacuumwave",
-      "solarblade",
-      "thunderpunch",
-      "supercellslam",
-      "wildcharge",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "magearnamega": {
@@ -21093,27 +22847,7 @@
       "spd": 100,
       "spe": 75
     },
-    "addmoves": [
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "magearnamegaoriginal": {
@@ -21423,6 +23157,28 @@
     ],
     "rmmoves": []
   },
+  "zeraoramega": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Justified",
+      "1": "Lightning Rod",
+      "H": "Iron Fist"
+    },
+    "baseStats": {
+      "hp": 88,
+      "atk": 142,
+      "def": 55,
+      "spa": 132,
+      "spd": 60,
+      "spe": 123
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "melmetal": {
     "restricted": false,
     "types": [
@@ -21448,6 +23204,26 @@
     ],
     "rmmoves": []
   },
+  "melmetalgmax": {
+    "restricted": false,
+    "types": [
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Download",
+      "H": "Magnet Pull"
+    },
+    "baseStats": {
+      "hp": 195,
+      "atk": 100,
+      "def": 115,
+      "spa": 100,
+      "spd": 70,
+      "spe": 20
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "rillaboom": {
     "restricted": false,
     "types": [
@@ -21470,6 +23246,27 @@
       "rockslide",
       "rockhammer"
     ],
+    "rmmoves": []
+  },
+  "rillaboomgmax": {
+    "restricted": false,
+    "types": [
+      "Grass"
+    ],
+    "abilities": {
+      "0": "Overgrow",
+      "1": "Seed Sower",
+      "H": "Tree of Life"
+    },
+    "baseStats": {
+      "hp": 150,
+      "atk": 110,
+      "def": 110,
+      "spa": 75,
+      "spd": 75,
+      "spe": 80
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "cinderace": {
@@ -21601,6 +23398,26 @@
     ],
     "rmmoves": []
   },
+  "cinderacegmax": {
+    "restricted": false,
+    "types": [
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "H": "No Guard"
+    },
+    "baseStats": {
+      "hp": 140,
+      "atk": 145,
+      "def": 55,
+      "spa": 100,
+      "spd": 55,
+      "spe": 105
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "inteleon": {
     "restricted": false,
     "types": [
@@ -21623,6 +23440,26 @@
       "nastyplot",
       "sludgebomb"
     ],
+    "rmmoves": []
+  },
+  "inteleongmax": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "H": "Quick Draw"
+    },
+    "baseStats": {
+      "hp": 130,
+      "atk": 140,
+      "def": 65,
+      "spa": 140,
+      "spd": 65,
+      "spe": 60
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "greedent": {
@@ -21751,6 +23588,28 @@
     ],
     "rmmoves": []
   },
+  "corviknightgmax": {
+    "restricted": false,
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Aerilate",
+      "H": "Parental Bond"
+    },
+    "baseStats": {
+      "hp": 170,
+      "atk": 100,
+      "def": 145,
+      "spa": 80,
+      "spd": 55,
+      "spe": 50
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "orbeetle": {
     "restricted": false,
     "types": [
@@ -21836,6 +23695,27 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "orbeetlegmax": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Infiltrator",
+      "H": "Mycelium Might"
+    },
+    "baseStats": {
+      "hp": 145,
+      "atk": 45,
+      "def": 100,
+      "spa": 140,
+      "spd": 100,
+      "spe": 70
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "thievul": {
@@ -22062,6 +23942,28 @@
     ],
     "rmmoves": []
   },
+  "drednawgmax": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Rocky Payload",
+      "1": "Water Compaction",
+      "H": "Solid Rock"
+    },
+    "baseStats": {
+      "hp": 160,
+      "atk": 100,
+      "def": 120,
+      "spa": 70,
+      "spd": 100,
+      "spe": 50
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "boltund": {
     "restricted": false,
     "types": [
@@ -22133,6 +24035,27 @@
       "burningcoals",
       "rockhammer"
     ],
+    "rmmoves": []
+  },
+  "coalossalgmax": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Drought",
+      "H": "Inner Flame"
+    },
+    "baseStats": {
+      "hp": 170,
+      "atk": 120,
+      "def": 90,
+      "spa": 120,
+      "spd": 70,
+      "spe": 30
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "flapple": {
@@ -22218,6 +24141,27 @@
     ],
     "rmmoves": []
   },
+  "flapplegmax": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Ripen",
+      "H": "Supersweet Syrup"
+    },
+    "baseStats": {
+      "hp": 150,
+      "atk": 110,
+      "def": 90,
+      "spa": 80,
+      "spd": 90,
+      "spe": 80
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "appletun": {
     "restricted": false,
     "types": [
@@ -22301,6 +24245,27 @@
     ],
     "rmmoves": []
   },
+  "appletungmax": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Ripen",
+      "H": "Grass Pelt"
+    },
+    "baseStats": {
+      "hp": 200,
+      "atk": 70,
+      "def": 130,
+      "spa": 70,
+      "spd": 115,
+      "spe": 15
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "sandaconda": {
     "restricted": false,
     "types": [
@@ -22381,6 +24346,27 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "sandacondagmax": {
+    "restricted": false,
+    "types": [
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Sand Stream",
+      "1": "Rough Skin",
+      "H": "Sand Force"
+    },
+    "baseStats": {
+      "hp": 175,
+      "atk": 105,
+      "def": 155,
+      "spa": 50,
+      "spd": 70,
+      "spe": 45
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "cramorant": {
@@ -22582,6 +24568,28 @@
     ],
     "rmmoves": []
   },
+  "toxtricitygmax": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Punk Rock",
+      "1": "Electric Surge",
+      "H": "Plus"
+    },
+    "baseStats": {
+      "hp": 145,
+      "atk": 70,
+      "def": 70,
+      "spa": 80,
+      "spd": 135,
+      "spe": 95
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "toxtricitylowkey": {
     "restricted": false,
     "types": [
@@ -22666,6 +24674,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "toxtricitylowkeygmax": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Punk Rock",
+      "1": "Hustle",
+      "H": "Minus"
+    },
+    "baseStats": {
+      "hp": 145,
+      "atk": 90,
+      "def": 75,
+      "spa": 75,
+      "spd": 90,
+      "spe": 125
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "centiskorch": {
@@ -22753,6 +24783,28 @@
     ],
     "rmmoves": []
   },
+  "centiskorchgmax": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Turboblaze",
+      "1": "White Smoke",
+      "H": "Air Lock"
+    },
+    "baseStats": {
+      "hp": 165,
+      "atk": 115,
+      "def": 45,
+      "spa": 115,
+      "spd": 45,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "grapploct": {
     "restricted": false,
     "types": [
@@ -22777,7 +24829,8 @@
       "terablast",
       "upperhand",
       "machpunch",
-      "bulletpunch"
+      "bulletpunch",
+      "stormthrow"
     ],
     "rmmoves": []
   },
@@ -22890,6 +24943,28 @@
     ],
     "rmmoves": []
   },
+  "hatterenegmax": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Shadow Shield",
+      "1": "Berserk",
+      "H": "Magic Guard"
+    },
+    "baseStats": {
+      "hp": 155,
+      "atk": 85,
+      "def": 95,
+      "spa": 125,
+      "spd": 115,
+      "spe": 25
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "grimmsnarl": {
     "restricted": false,
     "types": [
@@ -22911,26 +24986,7 @@
     },
     "addmoves": [
       "radiantreckoning",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -22953,27 +25009,7 @@
       "spd": 125,
       "spe": 70
     },
-    "addmoves": [
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
+    "addmoves": [],
     "rmmoves": []
   },
   "obstagoon": {
@@ -23291,6 +25327,26 @@
     ],
     "rmmoves": []
   },
+  "alcremiegmax": {
+    "restricted": false,
+    "types": [
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Stamina",
+      "H": "Innards Out"
+    },
+    "baseStats": {
+      "hp": 135,
+      "atk": 65,
+      "def": 115,
+      "spa": 100,
+      "spd": 120,
+      "spe": 65
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "falinks": {
     "restricted": false,
     "types": [
@@ -23303,10 +25359,10 @@
     },
     "baseStats": {
       "hp": 115,
-      "atk": 130,
-      "def": 130,
-      "spa": 50,
-      "spd": 80,
+      "atk": 125,
+      "def": 125,
+      "spa": 55,
+      "spd": 85,
       "spe": 95
     },
     "addmoves": [
@@ -23452,6 +25508,28 @@
       "defendorder",
       "pinmissile"
     ],
+    "rmmoves": []
+  },
+  "falinksmega": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Dauntless Shield",
+      "1": "Stalwart",
+      "H": "Justified"
+    },
+    "baseStats": {
+      "hp": 135,
+      "atk": 115,
+      "def": 115,
+      "spa": 55,
+      "spd": 115,
+      "spe": 65
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "pincurchin": {
@@ -23911,6 +25989,25 @@
     ],
     "rmmoves": []
   },
+  "copperajahgmax": {
+    "restricted": false,
+    "types": [
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Mold Breaker"
+    },
+    "baseStats": {
+      "hp": 200,
+      "atk": 150,
+      "def": 115,
+      "spa": 50,
+      "spd": 50,
+      "spe": 35
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "dracozolt": {
     "restricted": false,
     "types": [
@@ -24183,7 +26280,8 @@
       "radiantreckoning",
       "bitterblade",
       "nightslash",
-      "ceaselessedge"
+      "ceaselessedge",
+      "rustyblade"
     ],
     "rmmoves": []
   },
@@ -24252,6 +26350,28 @@
       "spa": 125,
       "spd": 80,
       "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "eternatuseternamax": {
+    "restricted": false,
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Corrosion",
+      "H": "Dragon's Maw"
+    },
+    "baseStats": {
+      "hp": 225,
+      "atk": 60,
+      "def": 125,
+      "spa": 60,
+      "spd": 125,
+      "spe": 5
     },
     "addmoves": [],
     "rmmoves": []
@@ -24340,6 +26460,28 @@
     ],
     "rmmoves": []
   },
+  "urshifugmax": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Unseen Fist",
+      "1": "Gorilla Tactics",
+      "H": "Anger Point"
+    },
+    "baseStats": {
+      "hp": 180,
+      "atk": 150,
+      "def": 85,
+      "spa": 53,
+      "spd": 65,
+      "spe": 67
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "urshifurapidstrike": {
     "restricted": false,
     "types": [
@@ -24422,6 +26564,28 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
+    "rmmoves": []
+  },
+  "urshifurapidstrikegmax": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Unseen Fist",
+      "1": "Justified",
+      "H": "Parental Bond"
+    },
+    "baseStats": {
+      "hp": 180,
+      "atk": 110,
+      "def": 60,
+      "spa": 53,
+      "spd": 60,
+      "spe": 137
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "zarude": {
@@ -25151,26 +27315,7 @@
     },
     "addmoves": [
       "psychocut",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -26065,10 +28210,10 @@
     },
     "baseStats": {
       "hp": 65,
-      "atk": 140,
+      "atk": 110,
       "def": 75,
       "spa": 140,
-      "spd": 75,
+      "spd": 105,
       "spe": 105
     },
     "addmoves": [
@@ -26081,6 +28226,28 @@
       "flamecharge",
       "gunkshot"
     ],
+    "rmmoves": []
+  },
+  "scovillainmega": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Grass Pelt",
+      "H": "Flash Fire"
+    },
+    "baseStats": {
+      "hp": 65,
+      "atk": 140,
+      "def": 105,
+      "spa": 110,
+      "spd": 75,
+      "spe": 105
+    },
+    "addmoves": [],
     "rmmoves": []
   },
   "rabsca": {
@@ -27047,6 +29214,116 @@
     ],
     "rmmoves": []
   },
+  "tatsugiridroopy": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Commander",
+      "1": "Shed Skin",
+      "H": "Regenerator"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 65,
+      "def": 100,
+      "spa": 120,
+      "spd": 125,
+      "spe": 80
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "tatsugiristretchy": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Commander",
+      "1": "Berserk",
+      "H": "Drizzle"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 105,
+      "def": 70,
+      "spa": 140,
+      "spd": 90,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "tatsugirimega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Commander",
+      "1": "Defiant",
+      "H": "Water Veil"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 135,
+      "def": 80,
+      "spa": 60,
+      "spd": 120,
+      "spe": 115
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "tatsugiridroopymega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Commander",
+      "1": "Costar",
+      "H": "Water Compaction"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 90,
+      "def": 135,
+      "spa": 115,
+      "spd": 80,
+      "spe": 60
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "tatsugiristretchymega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Commander",
+      "1": "Unburden",
+      "H": "Swift Swim"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 115,
+      "def": 80,
+      "spa": 120,
+      "spd": 60,
+      "spe": 135
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "annihilape": {
     "restricted": false,
     "types": [
@@ -27391,26 +29668,7 @@
       "spe": 150
     },
     "addmoves": [
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -27785,6 +30043,27 @@
     ],
     "rmmoves": []
   },
+  "baxcaliburmega": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Thermal Exchange",
+      "H": "Intrepid Sword"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 165,
+      "def": 90,
+      "spa": 120,
+      "spd": 80,
+      "spe": 30
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "baxcaliburpartner": {
     "restricted": false,
     "types": [
@@ -27875,26 +30154,7 @@
       "synthesis",
       "calmmind",
       "nastyplot",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -27919,7 +30179,8 @@
       "spe": 155
     },
     "addmoves": [
-      "rustyblade"
+      "rustyblade",
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -27946,26 +30207,7 @@
     "addmoves": [
       "shoreup",
       "curse",
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -27990,26 +30232,7 @@
       "spe": 110
     },
     "addmoves": [
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -28034,26 +30257,7 @@
       "spe": 125
     },
     "addmoves": [
-      "moonlitnight",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "moonlitnight"
     ],
     "rmmoves": []
   },
@@ -30956,7 +33160,9 @@
       "spd": 110,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "chuggalong": {
@@ -31000,7 +33206,9 @@
       "spd": 90,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "cresceidon": {
@@ -31038,10 +33246,31 @@
     },
     "baseStats": {
       "hp": 110,
-      "atk": 115,
-      "def": 85,
+      "atk": 85,
+      "def": 105,
+      "spa": 110,
+      "spd": 115,
+      "spe": 75
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "crucibellemega": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Magic Guard",
+      "H": "Poison Touch"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 135,
+      "def": 80,
       "spa": 90,
-      "spd": 95,
+      "spd": 80,
       "spe": 105
     },
     "addmoves": [],
@@ -31201,7 +33430,9 @@
       "spd": 85,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "krilowatt": {
@@ -31245,7 +33476,9 @@
       "spd": 130,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "miasmaw": {
@@ -31333,7 +33566,9 @@
       "spd": 120,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "pajantom": {
@@ -31355,7 +33590,9 @@
       "spd": 115,
       "spe": 108
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "plasmanta": {
@@ -31465,7 +33702,9 @@
       "spd": 115,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   },
   "saharaja": {
@@ -31705,7 +33944,9 @@
       "spd": 85,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlitnight"
+    ],
     "rmmoves": []
   }
 }
