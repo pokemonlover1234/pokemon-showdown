@@ -194,16 +194,23 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		},
 		onBeforeMovePriority: 3,
 		onBeforeMove(pokemon) {
-			pokemon.volatiles['confusion'].time--;
+			if (pokemon.ability !== "teeter") pokemon.volatiles['confusion'].time--;
 			if (!pokemon.volatiles['confusion'].time) {
 				pokemon.removeVolatile('confusion');
 				return;
 			}
 			this.add('-activate', pokemon, 'confusion');
-			if (!this.randomChance(33, 100)) {
+			const chance = pokemon.ability === "teeter" ? 50 : 33;
+			if (!this.randomChance(chance, 100)) {
 				return;
 			}
 			this.activeTarget = pokemon;
+
+			if (pokemon.ability === "teeter") {
+				this.boost({ atk: 1, spa: 1, spe: 1, def: 1, spd: 1 }, pokemon, pokemon, pokemon.getAbility(), false, true);
+				return false;
+			}
+
 			const damage = this.actions.getConfusionDamage(pokemon, 40);
 			if (typeof damage !== 'number') throw new Error("Confusion damage not dealt");
 			const activeMove = { id: this.toID('confused'), effectType: 'Move', type: '???' };
