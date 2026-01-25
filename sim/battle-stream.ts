@@ -186,14 +186,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				if (!quiet) battle.add('', '<<< error: ' + e.message);
 			}
 			break;
-		case 'editbattle':
-			try {
-				this.editbattle(message);
-				this.battle!.inputLog.push(`>editbattle ${message}`);
-			} catch (e: any) {
-				this.battle!.add('', '<<< error: ' + e.message);
-			}
-			break;
 		case 'requestlog':
 			this.push(`requesteddata\n${this.battle!.inputLog.join('\n')}`);
 			break;
