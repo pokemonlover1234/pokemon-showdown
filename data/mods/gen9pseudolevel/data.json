@@ -4400,7 +4400,7 @@
       "0": "Insomnia",
       "1": "Tinted Lens",
       "H": "Stakeout",
-      "S": "Shrouded Mind"
+      "S": "Umbral Dish"
     },
     "baseStats": {
       "hp": 110,
@@ -4483,7 +4483,7 @@
       "0": "Infiltrator",
       "1": "Inner Focus",
       "H": "Poison Touch",
-      "S": "Shadow Step"
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 95,
@@ -6542,7 +6542,7 @@
       "0": "Shield Dust",
       "1": "Wonder Skin",
       "H": "Corrosion",
-      "S": "Dark Fortress"
+      "S": "Umbral Dish"
     },
     "baseStats": {
       "hp": 105,
@@ -8935,26 +8935,7 @@
     "addmoves": [
       "sparklingswirl",
       "dazzlinggleam",
-      "alluringvoice",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "alluringvoice"
     ],
     "rmmoves": []
   },
@@ -8994,7 +8975,8 @@
     "abilities": {
       "0": "Anger Point",
       "1": "Gale Wings",
-      "H": "Aerilate"
+      "H": "Aerilate",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 105,
@@ -10115,7 +10097,7 @@
       "0": "Swarm",
       "1": "Aerilate",
       "H": "Tinted Lens",
-      "S": "Shadow Step"
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 85,
@@ -12428,7 +12410,8 @@
     "abilities": {
       "0": "Levitate",
       "1": "Flare Boost",
-      "H": "Contrary"
+      "H": "Contrary",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 130,
@@ -19276,7 +19259,7 @@
       "0": "Vital Spirit",
       "1": "No Guard",
       "H": "Strong Jaw",
-      "S": "Dread Hunger"
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 115,
@@ -27743,6 +27726,28 @@
     ],
     "rmmoves": []
   },
+  "glimmoramega": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Weak Armor",
+      "1": "Toxic Debris",
+      "H": "Merciless"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 115,
+      "def": 85,
+      "spa": 135,
+      "spd": 65,
+      "spe": 110
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "houndstone": {
     "restricted": false,
     "types": [
@@ -31771,7 +31776,8 @@
     "abilities": {
       "0": "Color Change",
       "1": "Sand Rush",
-      "H": "Magic Bounce"
+      "H": "Magic Bounce",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 85,
@@ -31817,7 +31823,8 @@
     "abilities": {
       "0": "Rebound",
       "1": "Guts",
-      "H": "Earth Eater"
+      "H": "Earth Eater",
+      "S": "Umbral Dish"
     },
     "baseStats": {
       "hp": 135,
@@ -32088,7 +32095,8 @@
     "abilities": {
       "0": "Harvest",
       "1": "Grassy Surge",
-      "H": "Drought"
+      "H": "Drought",
+      "S": "Umbral Dish"
     },
     "baseStats": {
       "hp": 110,
@@ -32191,7 +32199,9 @@
     "addmoves": [
       "moonlitnight"
     ],
-    "rmmoves": []
+    "rmmoves": [
+      "sketch"
+    ]
   },
   "pajantom": {
     "restricted": false,
@@ -32314,7 +32324,8 @@
     "abilities": {
       "0": "Air Lock",
       "1": "Triage",
-      "H": "Shed Skin"
+      "H": "Shed Skin",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 95,
@@ -32556,7 +32567,8 @@
     "abilities": {
       "0": "Volt Absorb",
       "1": "Flare Boost",
-      "H": "Quick Feet"
+      "H": "Quick Feet",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 90,
