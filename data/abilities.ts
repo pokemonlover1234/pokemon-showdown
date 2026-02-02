@@ -6054,4 +6054,45 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			pokemon.addVolatile("confusion");
 		},
 	},
+	darkfortress: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Dark Fortress",
+		rating: 3,
+		desc: "When Night Time is active, this pokemon has Def/Sp.Def x1.5, but its attacks have -1 priority (Drop down 1 bracket, not globally set to -1)",
+		onModifyPriority(priority) {
+			return priority - 1;
+		},
+		onModifyDef(defense) {
+			return this.chainModify(1.5);
+		},
+		onModifySpD(defense) {
+			return this.chainModify(1.5);
+		},
+	},
+	shroudedmind: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Shrouded Mind",
+		rating: 3,
+		desc: "During Night Time, the Pokémon becomes immune to secondary effects",
+		onAnyModifySecondaries(secondaries, target, source, move) {
+			if (target.ability === "shroudedmind") {
+				return [];
+			}
+			return secondaries;
+		},
+	},
+	dreadhunger: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Dread Hunger",
+		rating: 3,
+		desc: "During Night Time, the user heals 1/8 HP when it knocks out an opponent.",
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				this.heal(source.maxhp / 8, source, source, source.getAbility())
+			}
+		}
+	}
 };
