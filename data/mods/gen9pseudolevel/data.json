@@ -1085,7 +1085,8 @@
     "abilities": {
       "0": "Shield Dust",
       "1": "Compound Eyes",
-      "H": "Tinted Lens"
+      "H": "Tinted Lens",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 90,
@@ -4400,7 +4401,7 @@
       "0": "Insomnia",
       "1": "Tinted Lens",
       "H": "Stakeout",
-      "S": "Umbral Dish"
+      "S": "Shrouded Mind"
     },
     "baseStats": {
       "hp": 110,
@@ -4483,7 +4484,7 @@
       "0": "Infiltrator",
       "1": "Inner Focus",
       "H": "Poison Touch",
-      "S": "Dark Resonance"
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 95,
@@ -6542,7 +6543,7 @@
       "0": "Shield Dust",
       "1": "Wonder Skin",
       "H": "Corrosion",
-      "S": "Umbral Dish"
+      "S": "Dark Fortress"
     },
     "baseStats": {
       "hp": 105,
@@ -8447,7 +8448,8 @@
     "abilities": {
       "0": "Insomnia",
       "1": "Perish Body",
-      "H": "Cursed Body"
+      "H": "Cursed Body",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 95,
@@ -8475,7 +8477,8 @@
     "abilities": {
       "0": "Aftermath",
       "1": "Fluffy",
-      "H": "Prankster"
+      "H": "Prankster",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 85,
@@ -10097,7 +10100,7 @@
       "0": "Swarm",
       "1": "Aerilate",
       "H": "Tinted Lens",
-      "S": "Dark Resonance"
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 85,
@@ -14690,7 +14693,8 @@
     "abilities": {
       "0": "Speed Boost",
       "1": "Corrosion",
-      "H": "Intimidate"
+      "H": "Intimidate",
+      "S": "Dark Fortress"
     },
     "baseStats": {
       "hp": 80,
@@ -17216,7 +17220,8 @@
     "abilities": {
       "0": "Torrent",
       "1": "Protean",
-      "H": "Battle Bond"
+      "H": "Battle Bond",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 80,
@@ -17472,7 +17477,8 @@
     "abilities": {
       "0": "Flower Veil",
       "1": "Dark Aura",
-      "H": "Cursed Body"
+      "H": "Cursed Body",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 74,
@@ -18451,7 +18457,8 @@
     "abilities": {
       "0": "Dark Aura",
       "1": "Vessel of Ruin",
-      "H": "Aerilate"
+      "H": "Aerilate",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 105,
@@ -18658,7 +18665,8 @@
     "abilities": {
       "0": "Magician",
       "1": "Magic Guard",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 80,
@@ -19259,7 +19267,7 @@
       "0": "Vital Spirit",
       "1": "No Guard",
       "H": "Strong Jaw",
-      "S": "Dark Resonance"
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 115,
@@ -24875,7 +24883,8 @@
     "abilities": {
       "0": "Hunger Switch",
       "1": "Gluttony",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 90,
