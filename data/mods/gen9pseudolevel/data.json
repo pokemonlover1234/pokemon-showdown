@@ -739,7 +739,8 @@
     "abilities": {
       "0": "Fluffy",
       "1": "Magic Guard",
-      "H": "Unaware"
+      "H": "Unaware",
+      "S": "Umbral Dish"
     },
     "baseStats": {
       "hp": 110,
@@ -882,7 +883,8 @@
     "abilities": {
       "0": "Umbral Dish",
       "1": "Mycelium Might",
-      "H": "Poison Heal"
+      "H": "Poison Heal",
+      "S": "Dark Fortress"
     },
     "baseStats": {
       "hp": 90,
@@ -917,7 +919,8 @@
     "abilities": {
       "0": "Shield Dust",
       "1": "Compound Eyes",
-      "H": "Tinted Lens"
+      "H": "Tinted Lens",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 90,
@@ -1062,7 +1065,8 @@
     "abilities": {
       "0": "Storm Drain",
       "1": "Damp",
-      "H": "Swift Swim"
+      "H": "Swift Swim",
+      "S": "Mind's Eye"
     },
     "baseStats": {
       "hp": 90,
@@ -1296,7 +1300,8 @@
     "abilities": {
       "0": "Rain Dish",
       "1": "Liquid Ooze",
-      "H": "Water Absorb"
+      "H": "Water Absorb",
+      "S": "Gooey"
     },
     "baseStats": {
       "hp": 95,
@@ -3287,7 +3292,7 @@
       "0": "Insomnia",
       "1": "Tinted Lens",
       "H": "Stakeout",
-      "S": "Umbral Dish"
+      "S": "Shrouded Mind"
     },
     "baseStats": {
       "hp": 110,
@@ -3370,7 +3375,7 @@
       "0": "Infiltrator",
       "1": "Inner Focus",
       "H": "Poison Touch",
-      "S": "Dark Resonance"
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 95,
@@ -4936,7 +4941,7 @@
       "0": "Shield Dust",
       "1": "Wonder Skin",
       "H": "Corrosion",
-      "S": "Umbral Dish"
+      "S": "Dark Fortress"
     },
     "baseStats": {
       "hp": 105,
@@ -6007,7 +6012,8 @@
     "abilities": {
       "0": "Levitate",
       "1": "Solid Rock",
-      "H": "Psychic Surge"
+      "H": "Psychic Surge",
+      "S": "Shadow Veil"
     },
     "baseStats": {
       "hp": 110,
@@ -6327,7 +6333,8 @@
     "abilities": {
       "0": "Insomnia",
       "1": "Perish Body",
-      "H": "Cursed Body"
+      "H": "Cursed Body",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 95,
@@ -6355,7 +6362,8 @@
     "abilities": {
       "0": "Aftermath",
       "1": "Fluffy",
-      "H": "Prankster"
+      "H": "Prankster",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 85,
@@ -7370,7 +7378,8 @@
     "abilities": {
       "0": "Punk Rock",
       "1": "Soundproof",
-      "H": "Technician"
+      "H": "Technician",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 100,
@@ -7580,7 +7589,7 @@
       "0": "Swarm",
       "1": "Aerilate",
       "H": "Tinted Lens",
-      "S": "Dark Resonance"
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 85,
@@ -9951,7 +9960,8 @@
     "abilities": {
       "0": "Torrent",
       "1": "Sharpness",
-      "H": "Relentless Edge"
+      "H": "Relentless Edge",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 85,
@@ -9975,7 +9985,8 @@
     "abilities": {
       "0": "Analytic",
       "1": "Defiant",
-      "H": "Stakeout"
+      "H": "Stakeout",
+      "S": "Shrouded Mind"
     },
     "baseStats": {
       "hp": 100,
@@ -10250,7 +10261,8 @@
     "abilities": {
       "0": "Simple",
       "1": "Unaware",
-      "H": "Punk Rock"
+      "H": "Punk Rock",
+      "S": "Shrouded Mind"
     },
     "baseStats": {
       "hp": 90,
@@ -10516,7 +10528,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Corrosion",
-      "H": "Speed Boost"
+      "H": "Speed Boost",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 80,
@@ -10546,7 +10559,8 @@
     "abilities": {
       "0": "Speed Boost",
       "1": "Corrosion",
-      "H": "Intimidate"
+      "H": "Intimidate",
+      "S": "Dark Fortress"
     },
     "baseStats": {
       "hp": 80,
@@ -10677,7 +10691,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Moxie",
-      "H": "Strong Jaw"
+      "H": "Strong Jaw",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 105,
@@ -12606,7 +12621,8 @@
     "abilities": {
       "0": "Torrent",
       "1": "Protean",
-      "H": "Battle Bond"
+      "H": "Battle Bond",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 80,
@@ -12842,7 +12858,8 @@
     "abilities": {
       "0": "Flower Veil",
       "1": "Dark Aura",
-      "H": "Cursed Body"
+      "H": "Cursed Body",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 74,
@@ -13174,7 +13191,8 @@
     "abilities": {
       "0": "Trace",
       "1": "Prankster",
-      "H": "Contrary"
+      "H": "Contrary",
+      "S": "Shrouded Mind"
     },
     "baseStats": {
       "hp": 100,
@@ -13657,7 +13675,8 @@
     "abilities": {
       "0": "Natural Cure",
       "1": "Harvest",
-      "H": "Seed Sower"
+      "H": "Seed Sower",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 105,
@@ -13764,7 +13783,8 @@
     "abilities": {
       "0": "Infiltrator",
       "1": "Soundproof",
-      "H": "Punk Rock"
+      "H": "Punk Rock",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 100,
@@ -13818,7 +13838,8 @@
     "abilities": {
       "0": "Dark Aura",
       "1": "Vessel of Ruin",
-      "H": "Aerilate"
+      "H": "Aerilate",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 105,
@@ -13999,7 +14020,8 @@
     "abilities": {
       "0": "Magician",
       "1": "Levitate",
-      "H": "Prankster"
+      "H": "Prankster",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 80,
@@ -14024,7 +14046,8 @@
     "abilities": {
       "0": "Magician",
       "1": "Magic Guard",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 80,
@@ -14446,7 +14469,7 @@
       "0": "Vital Spirit",
       "1": "No Guard",
       "H": "Strong Jaw",
-      "S": "Dark Resonance"
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 115,
@@ -15788,7 +15811,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Natural Cure",
-      "H": "Levitate"
+      "H": "Levitate",
+      "S": "Corrosion"
     },
     "baseStats": {
       "hp": 110,
@@ -15812,7 +15836,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Defiant",
-      "H": "Guts"
+      "H": "Guts",
+      "S": "Intimidate"
     },
     "baseStats": {
       "hp": 115,
@@ -15838,7 +15863,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Unburden",
-      "H": "Limber"
+      "H": "Limber",
+      "S": "Opportunist"
     },
     "baseStats": {
       "hp": 75,
@@ -15862,7 +15888,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Lightning Rod",
-      "H": "Analytic"
+      "H": "Analytic",
+      "S": "Download"
     },
     "baseStats": {
       "hp": 80,
@@ -15886,7 +15913,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Heavy Metal",
-      "H": "Sturdy"
+      "H": "Sturdy",
+      "S": "Filter"
     },
     "baseStats": {
       "hp": 100,
@@ -15913,7 +15941,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Light Metal",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Hyper Cutter"
     },
     "baseStats": {
       "hp": 50,
@@ -15939,7 +15968,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Gluttony",
-      "H": "Unaware"
+      "H": "Unaware",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 230,
@@ -15962,7 +15992,8 @@
     "abilities": {
       "0": "Prism Armor",
       "1": "Levitate",
-      "H": "Magic Guard"
+      "H": "Magic Guard",
+      "S": "Mold Breaker"
     },
     "baseStats": {
       "hp": 97,
@@ -16131,7 +16162,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Solid Rock",
-      "H": "Sturdy"
+      "H": "Sturdy",
+      "S": "Stamina"
     },
     "baseStats": {
       "hp": 70,
@@ -16156,7 +16188,8 @@
     "abilities": {
       "0": "Beast Boost",
       "1": "Infiltrator",
-      "H": "Magic Bounce"
+      "H": "Magic Bounce",
+      "S": "Prankster"
     },
     "baseStats": {
       "hp": 60,
@@ -17711,7 +17744,8 @@
     "abilities": {
       "0": "Hunger Switch",
       "1": "Gluttony",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Shadow Step"
     },
     "baseStats": {
       "hp": 90,
@@ -17733,7 +17767,8 @@
     "abilities": {
       "0": "Hunger Switch",
       "1": "Gluttony",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 90,
@@ -18352,7 +18387,8 @@
     "abilities": {
       "0": "Guts",
       "1": "Bulletproof",
-      "H": "Tough Claws"
+      "H": "Tough Claws",
+      "S": "Umbral Dish"
     },
     "baseStats": {
       "hp": 145,
@@ -18376,7 +18412,8 @@
     "abilities": {
       "0": "Mind's Eye",
       "1": "Flare Boost",
-      "H": "Earth Eater"
+      "H": "Earth Eater",
+      "S": "Dread Hunger"
     },
     "baseStats": {
       "hp": 120,
@@ -18782,7 +18819,8 @@
     "abilities": {
       "0": "Aroma Veil",
       "1": "Fluffy",
-      "H": "WellBaked Body"
+      "H": "WellBaked Body",
+      "S": "Thick Fat"
     },
     "baseStats": {
       "hp": 85,
@@ -20550,7 +20588,8 @@
     "abilities": {
       "0": "Quark Drive",
       "1": "Sharpness",
-      "H": "Adaptability"
+      "H": "Adaptability",
+      "S": "Trace"
     },
     "baseStats": {
       "hp": 80,
@@ -20620,7 +20659,8 @@
     "abilities": {
       "0": "Protosynthesis",
       "1": "Solar Power",
-      "H": "Swift Swim"
+      "H": "Swift Swim",
+      "S": "Steam Engine"
     },
     "baseStats": {
       "hp": 99,
@@ -20642,7 +20682,8 @@
     "abilities": {
       "0": "Quark Drive",
       "1": "Sharpness",
-      "H": "Motor Drive"
+      "H": "Motor Drive",
+      "S": "Grassy Surge"
     },
     "baseStats": {
       "hp": 100,
@@ -20924,7 +20965,8 @@
     "abilities": {
       "0": "Protosynthesis",
       "1": "Inner Focus",
-      "H": "Tough Claws"
+      "H": "Tough Claws",
+      "S": "Guard Dog"
     },
     "baseStats": {
       "hp": 105,
@@ -20946,7 +20988,8 @@
     "abilities": {
       "0": "Protosynthesis",
       "1": "Static",
-      "H": "Electric Surge"
+      "H": "Electric Surge",
+      "S": "Long Reach"
     },
     "baseStats": {
       "hp": 125,
@@ -20968,7 +21011,8 @@
     "abilities": {
       "0": "Quark Drive",
       "1": "Justified",
-      "H": "Psychic Surge"
+      "H": "Psychic Surge",
+      "S": "Rocky Payload"
     },
     "baseStats": {
       "hp": 100,
@@ -20993,7 +21037,8 @@
     "abilities": {
       "0": "Quark Drive",
       "1": "Clear Body",
-      "H": "Filter"
+      "H": "Filter",
+      "S": "Steely Spirit"
     },
     "baseStats": {
       "hp": 100,
@@ -21078,7 +21123,8 @@
     "abilities": {
       "0": "Poison Puppeteer",
       "1": "Cursed Body",
-      "H": "Toxic Chain"
+      "H": "Toxic Chain",
+      "S": "Toxic Debris"
     },
     "baseStats": {
       "hp": 90,
