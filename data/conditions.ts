@@ -744,9 +744,10 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 				this.debug("nighttime " + move.type.toString().toLocaleLowerCase() + " boost");
 				return this.chainModify(1.5);
 			}
-			if (move.type === 'Fairy') {
-				this.debug("nighttime fairy suppress");
-				return this.chainModify(0.5);
+		},
+		onEffectiveness(typeMod, target, type, move) {
+			if (move.type === "Fairy" && type === "Dark") {
+				return 1;
 			}
 		},
 		onFieldEnd() {
