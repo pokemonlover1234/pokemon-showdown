@@ -6024,8 +6024,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Dark Resonance",
 		rating: 3,
-		desc: "If Night Time is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
+		desc: "If Night Time is active, this Pokemon's Attack and Sp. Atk are 1.5x; loses 1/8 max HP per turn.",
 		onModifySpA(spe, pokemon) {
+			if (this.field.isWeather('nighttime')) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyAtk(atk, pokemon) {
 			if (this.field.isWeather('nighttime')) {
 				return this.chainModify(1.5);
 			}
