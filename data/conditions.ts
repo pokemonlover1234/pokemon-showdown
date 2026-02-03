@@ -747,7 +747,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		},
 		onEffectiveness(typeMod, target, type, move) {
 			if (move.type === "Fairy" && type === "Dark") {
-				return 1;
+				return 0;
 			}
 		},
 		onFieldEnd() {
