@@ -4426,6 +4426,17 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
 	},
+	{
+		name: "[Gen 9] Ionite Natdex",
+		mod: "gen9ionitenatdex",
+		ruleset: ["Standard"],
+	},
+	{
+		name: "[Gen 9] Ionite Natdex Doubles",
+		mod: "gen9ionitenatdex",
+		ruleset: ["Standard"],
+		gameType: 'doubles',
+	},
 
 	// RoA Spotlight
 	///////////////////////////////////////////////////////////////////
