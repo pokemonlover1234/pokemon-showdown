@@ -212,7 +212,8 @@
   "blastoisegmax": {
     "restricted": false,
     "types": [
-      "Water"
+      "Water",
+      "Steel"
     ],
     "abilities": {
       "0": "Torrent",
@@ -576,9 +577,10 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Levitate",
+      "0": "Electric Surge",
       "1": "Volt Absorb",
-      "H": "Iron Fist"
+      "H": "Iron Fist",
+      "S": "Levitate"
     },
     "baseStats": {
       "hp": 80,
@@ -597,9 +599,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": "Motor Drive",
+      "0": "Transistor",
       "1": "Lightning Rod",
-      "H": "Transistor"
+      "H": "Competitive"
     },
     "baseStats": {
       "hp": 65,
@@ -690,7 +692,8 @@
     "abilities": {
       "0": "Poison Point",
       "1": "Queenly Majesty",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Rough Skin"
     },
     "baseStats": {
       "hp": 105,
@@ -715,7 +718,8 @@
     "abilities": {
       "0": "Poison Point",
       "1": "Guts",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Moxie"
     },
     "baseStats": {
       "hp": 95,
@@ -764,9 +768,10 @@
       "Flying"
     ],
     "abilities": {
-      "0": "Aerilate",
+      "0": "Magic Bounce",
       "1": "Cute Charm",
-      "H": "Cloud Nine"
+      "H": "Cloud Nine",
+      "S": "Prankster"
     },
     "baseStats": {
       "hp": 110,
@@ -782,12 +787,14 @@
   "ninetales": {
     "restricted": false,
     "types": [
-      "Fire"
+      "Fire",
+      "Ghost"
     ],
     "abilities": {
       "0": "Drought",
       "1": "Flash Fire",
-      "H": "Fluffy"
+      "H": "Fluffy",
+      "S": "Cursed Body"
     },
     "baseStats": {
       "hp": 100,
@@ -809,7 +816,8 @@
     "abilities": {
       "0": "Snow Warning",
       "1": "Ice Body",
-      "H": "Dazzling"
+      "H": "Dazzling",
+      "S": "Pastel Veil"
     },
     "baseStats": {
       "hp": 80,
@@ -835,7 +843,8 @@
     "abilities": {
       "0": "Cute Charm",
       "1": "Competitive",
-      "H": "Punk Rock"
+      "H": "Punk Rock",
+      "S": "Thick Fat"
     },
     "baseStats": {
       "hp": 160,
@@ -861,7 +870,8 @@
     "abilities": {
       "0": "Corrosion",
       "1": "Seed Sower",
-      "H": "Effect Spore"
+      "H": "Effect Spore",
+      "S": "Umbral Dish"
     },
     "baseStats": {
       "hp": 100,
@@ -941,7 +951,8 @@
     "abilities": {
       "0": "Sand Spit",
       "1": "Own Tempo",
-      "H": "Arena Trap"
+      "H": "Arena Trap",
+      "S": "Wonder Skin"
     },
     "baseStats": {
       "hp": 65,
@@ -965,7 +976,8 @@
     "abilities": {
       "0": "Tangling Hair",
       "1": "Sand Force",
-      "H": "Earth Eater"
+      "H": "Earth Eater",
+      "S": "Steelworker"
     },
     "baseStats": {
       "hp": 90,
@@ -1008,7 +1020,8 @@
     "abilities": {
       "0": "Tough Claws",
       "1": "Technician",
-      "H": "Stakeout"
+      "H": "Stakeout",
+      "S": "Limber"
     },
     "baseStats": {
       "hp": 80,
@@ -1035,7 +1048,8 @@
     "abilities": {
       "0": "Fur Coat",
       "1": "Technician",
-      "H": "Cheek Pouch"
+      "H": "Cheek Pouch",
+      "S": "Flare Boost"
     },
     "baseStats": {
       "hp": 100,
@@ -1089,7 +1103,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Flash Fire",
-      "H": "Justified"
+      "H": "Justified",
+      "S": "Guard Dog"
     },
     "baseStats": {
       "hp": 95,
@@ -1111,7 +1126,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Solid Rock",
-      "H": "Rock Head"
+      "H": "Rock Head",
+      "S": "Reckless"
     },
     "baseStats": {
       "hp": 100,
@@ -1133,7 +1149,8 @@
     "abilities": {
       "0": "Water Absorb",
       "1": "Swift Swim",
-      "H": "Iron Fist"
+      "H": "Iron Fist",
+      "S": "Rain Dish"
     },
     "baseStats": {
       "hp": 100,
@@ -1221,6 +1238,28 @@
     ],
     "rmmoves": []
   },
+  "machampmega": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Guts",
+      "1": "No Guard",
+      "H": "Rock Head"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 145,
+      "def": 115,
+      "spa": 65,
+      "spd": 95,
+      "spe": 90
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "machampgmax": {
     "restricted": false,
     "types": [
@@ -1251,7 +1290,8 @@
     "abilities": {
       "0": "Chlorophyll",
       "1": "Supersweet Syrup",
-      "H": "Solar Power"
+      "H": "Solar Power",
+      "S": "Leaf Guard"
     },
     "baseStats": {
       "hp": 90,
@@ -1278,7 +1318,8 @@
     "abilities": {
       "0": "Armor Tail",
       "1": "Corrosion",
-      "H": "Innards Out"
+      "H": "Innards Out",
+      "S": "Gluttony"
     },
     "baseStats": {
       "hp": 125,
@@ -1326,7 +1367,8 @@
     "abilities": {
       "0": "Sturdy",
       "1": "Rock Head",
-      "H": "Solid Rock"
+      "H": "Solid Rock",
+      "S": "Anger Shell"
     },
     "baseStats": {
       "hp": 100,
@@ -1351,7 +1393,8 @@
     "abilities": {
       "0": "Sturdy",
       "1": "Galvanize",
-      "H": "Earth Eater"
+      "H": "Earth Eater",
+      "S": "Static"
     },
     "baseStats": {
       "hp": 100,
@@ -1375,7 +1418,8 @@
     "abilities": {
       "0": "Flash Fire",
       "1": "Flame Body",
-      "H": "Reckless"
+      "H": "Reckless",
+      "S": "Aerilate"
     },
     "baseStats": {
       "hp": 75,
@@ -1401,7 +1445,8 @@
     "abilities": {
       "0": "Pastel Veil",
       "1": "Reckless",
-      "H": "Pixilate"
+      "H": "Pixilate",
+      "S": "Trace"
     },
     "baseStats": {
       "hp": 85,
@@ -1430,7 +1475,8 @@
     "abilities": {
       "0": "Sharpness",
       "1": "Inner Focus",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Early Bird"
     },
     "baseStats": {
       "hp": 95,
@@ -1455,7 +1501,8 @@
     "abilities": {
       "0": "Speed Boost",
       "1": "Early Bird",
-      "H": "Serene Grace"
+      "H": "Serene Grace",
+      "S": "Reckless"
     },
     "baseStats": {
       "hp": 85,
@@ -1480,7 +1527,8 @@
     "abilities": {
       "0": "Own Tempo",
       "1": "Regenerator",
-      "H": "Drizzle"
+      "H": "Drizzle",
+      "S": "Water Veil"
     },
     "baseStats": {
       "hp": 115,
@@ -1529,7 +1577,8 @@
     "abilities": {
       "0": "Quick Draw",
       "1": "Regenerator",
-      "H": "Corrosion"
+      "H": "Corrosion",
+      "S": "Water Absorb"
     },
     "baseStats": {
       "hp": 115,
@@ -1558,7 +1607,8 @@
     "abilities": {
       "0": "Hydration",
       "1": "Thick Fat",
-      "H": "Fur Coat"
+      "H": "Fur Coat",
+      "S": "Snow Warning"
     },
     "baseStats": {
       "hp": 100,
@@ -1604,7 +1654,8 @@
     "abilities": {
       "0": "Poison Touch",
       "1": "Gluttony",
-      "H": "Toxic Debris"
+      "H": "Toxic Debris",
+      "S": "Liquid Ooze"
     },
     "baseStats": {
       "hp": 110,
@@ -1628,7 +1679,8 @@
     "abilities": {
       "0": "Shell Armor",
       "1": "Skill Link",
-      "H": "Anger Shell"
+      "H": "Anger Shell",
+      "S": "Iron Barbs"
     },
     "baseStats": {
       "hp": 50,
@@ -1652,7 +1704,8 @@
     "abilities": {
       "0": "Cursed Body",
       "1": "Levitate",
-      "H": "Infiltrator"
+      "H": "Infiltrator",
+      "S": "Illusion"
     },
     "baseStats": {
       "hp": 80,
@@ -1746,7 +1799,8 @@
     "abilities": {
       "0": "Insomnia",
       "1": "Psychic Surge",
-      "H": "Magic Guard"
+      "H": "Magic Guard",
+      "S": "Forewarn"
     },
     "baseStats": {
       "hp": 100,
@@ -1769,7 +1823,8 @@
     "abilities": {
       "0": "Shell Armor",
       "1": "Tough Claws",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Water Veil"
     },
     "baseStats": {
       "hp": 75,
@@ -1805,7 +1860,12 @@
       "spd": 85,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "shellside arm",
+      "poisonjab",
+      "crosspoison",
+      "gunkshot"
+    ],
     "rmmoves": []
   },
   "electrode": {
@@ -1816,7 +1876,8 @@
     "abilities": {
       "0": "Soundproof",
       "1": "Static",
-      "H": "Electric Surge"
+      "H": "Electric Surge",
+      "S": "Motor Drive"
     },
     "baseStats": {
       "hp": 85,
@@ -1838,7 +1899,8 @@
     "abilities": {
       "0": "Soundproof",
       "1": "Solar Power",
-      "H": "Grassy Surge"
+      "H": "Grassy Surge",
+      "S": "Harvest"
     },
     "baseStats": {
       "hp": 90,
@@ -1860,7 +1922,8 @@
     "abilities": {
       "0": "Chlorophyll",
       "1": "Harvest",
-      "H": "Solar Power"
+      "H": "Solar Power",
+      "S": "Hospitality"
     },
     "baseStats": {
       "hp": 105,
@@ -1882,7 +1945,8 @@
     "abilities": {
       "0": "Berserk",
       "1": "Harvest",
-      "H": "Seed Sower"
+      "H": "Seed Sower",
+      "S": "Analytic"
     },
     "baseStats": {
       "hp": 115,
@@ -1968,7 +2032,10 @@
       "spd": 115,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "aquastep",
+      "tripleaxel"
+    ],
     "rmmoves": []
   },
   "hitmonchan": {
@@ -2147,7 +2214,8 @@
       "self-destruct",
       "safeguard",
       "healblock",
-      "zenheadbutt"
+      "zenheadbutt",
+      "aquajet"
     ],
     "rmmoves": []
   },
@@ -2168,7 +2236,9 @@
       "spd": 105,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "aquajet"
+    ],
     "rmmoves": []
   },
   "mrmime": {
@@ -2767,7 +2837,12 @@
       "spd": 105,
       "spe": 20
     },
-    "addmoves": [],
+    "addmoves": [
+      "gravapple",
+      "rockblast",
+      "stoneedge",
+      "stealthrock"
+    ],
     "rmmoves": []
   },
   "articuno": {
@@ -3494,7 +3569,10 @@
       "hammerarm",
       "bodypress",
       "wish",
-      "flashcannon"
+      "flashcannon",
+      "gleamstep",
+      "playrough",
+      "drainingkiss"
     ],
     "rmmoves": []
   },
@@ -4660,7 +4738,8 @@
     "abilities": {
       "0": "Natural Cure",
       "1": "Grassy Surge",
-      "H": "Serene Grace"
+      "H": "Serene Grace",
+      "S": "Pixilate"
     },
     "baseStats": {
       "hp": 120,
@@ -4686,7 +4765,8 @@
     "abilities": {
       "0": "Overgrow",
       "1": "Sharpness",
-      "H": "Unburden"
+      "H": "Unburden",
+      "S": "Limber"
     },
     "baseStats": {
       "hp": 90,
@@ -4714,7 +4794,8 @@
     "abilities": {
       "0": "Overgrow",
       "1": "Aftermath",
-      "H": "Lightning Rod"
+      "H": "Lightning Rod",
+      "S": "Solar Power"
     },
     "baseStats": {
       "hp": 80,
@@ -4736,7 +4817,8 @@
     "abilities": {
       "0": "Blaze",
       "1": "Adaptability",
-      "H": "Speed Boost"
+      "H": "Speed Boost",
+      "S": "Reckless"
     },
     "baseStats": {
       "hp": 80,
@@ -4761,9 +4843,10 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Blaze",
+      "0": "Crane Style",
       "1": "Thermal Exchange",
-      "H": "Speed Boost"
+      "H": "Speed Boost",
+      "S": "Crane Style"
     },
     "baseStats": {
       "hp": 80,
@@ -4785,7 +4868,8 @@
     "abilities": {
       "0": "Speed Boost",
       "1": "Beast Boost",
-      "H": "Battle Bond"
+      "H": "Battle Bond",
+      "S": "Justified"
     },
     "baseStats": {
       "hp": 80,
@@ -4813,7 +4897,8 @@
     "abilities": {
       "0": "Torrent",
       "1": "Regenerator",
-      "H": "Damp"
+      "H": "Damp",
+      "S": "Earth Eater"
     },
     "baseStats": {
       "hp": 100,
@@ -4837,7 +4922,8 @@
     "abilities": {
       "0": "Torrent",
       "1": "Water Absorb",
-      "H": "Swift Swim"
+      "H": "Swift Swim",
+      "S": "Iron Fist"
     },
     "baseStats": {
       "hp": 110,
@@ -5749,7 +5835,7 @@
     ],
     "abilities": {
       "0": "Solid Rock",
-      "1": "Berserk",
+      "1": "Sheer Force",
       "H": "Anger Point"
     },
     "baseStats": {
@@ -6072,7 +6158,12 @@
       "spd": 85,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "icefang",
+      "icespinner",
+      "slackoff",
+      "poisonjab"
+    ],
     "rmmoves": []
   },
   "crawdaunt": {
@@ -6498,7 +6589,10 @@
       "spd": 110,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonblast",
+      "dazzlinggleam"
+    ],
     "rmmoves": []
   },
   "absolmegaz": {
@@ -9056,8 +9150,8 @@
   "dialga": {
     "restricted": false,
     "types": [
-      "Dragon",
-      "Steel"
+      "Steel",
+      "Dragon"
     ],
     "abilities": {
       "0": "Pressure",
@@ -9078,8 +9172,8 @@
   "dialgaorigin": {
     "restricted": false,
     "types": [
-      "Dragon",
-      "Steel"
+      "Steel",
+      "Dragon"
     ],
     "abilities": {
       "0": "Pressure",
@@ -9100,8 +9194,8 @@
   "palkia": {
     "restricted": false,
     "types": [
-      "Dragon",
-      "Water"
+      "Water",
+      "Dragon"
     ],
     "abilities": {
       "0": "Pressure",
@@ -9122,8 +9216,8 @@
   "palkiaorigin": {
     "restricted": false,
     "types": [
-      "Dragon",
-      "Water"
+      "Water",
+      "Dragon"
     ],
     "abilities": {
       "0": "Pressure",
@@ -10314,9 +10408,10 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Sand Force",
+      "0": "Piercing Drill",
       "1": "Motor Drive",
-      "H": "Mold Breaker"
+      "H": "Mold Breaker",
+      "S": "Sand Force"
     },
     "baseStats": {
       "hp": 135,
@@ -12517,6 +12612,56 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "kyuremwhite": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Turboblaze",
+      "1": "Drought",
+      "H": "Refrigerate",
+      "S": "Flash Fire"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 110,
+      "def": 80,
+      "spa": 130,
+      "spd": 90,
+      "spe": 85
+    },
+    "addmoves": [
+      "inheritsmovepool from reshiram"
+    ],
+    "rmmoves": []
+  },
+  "kyuremblack": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Teravolt",
+      "1": "Snow Warning",
+      "H": "Galvanize",
+      "S": "Transistor"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 130,
+      "def": 90,
+      "spa": 110,
+      "spd": 80,
+      "spe": 85
+    },
+    "addmoves": [
+      "inheritsmovepool from reshiram"
+    ],
+    "rmmoves": []
+  },
   "chesnaught": {
     "restricted": false,
     "types": [
@@ -12550,7 +12695,7 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Overgrow",
+      "0": "Bulletproof",
       "1": "Iron Barbs",
       "H": "Stamina"
     },
@@ -12597,8 +12742,8 @@
       "Psychic"
     ],
     "abilities": {
-      "0": "Blaze",
-      "1": "Levitate",
+      "0": "Levitate",
+      "1": "Blaze",
       "H": "Dazzling"
     },
     "baseStats": {
@@ -12646,7 +12791,7 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Torrent",
+      "0": "Protean",
       "1": "Infiltrator",
       "H": "Shadow Step"
     },
@@ -13496,7 +13641,8 @@
     "abilities": {
       "0": "Adaptability",
       "1": "Mountaineer",
-      "H": "Mold Breaker"
+      "H": "Mold Breaker",
+      "S": "No Guard"
     },
     "baseStats": {
       "hp": 90,
@@ -15336,12 +15482,12 @@
       "H": "Speed Boost"
     },
     "baseStats": {
-      "hp": 70,
-      "atk": 130,
-      "def": 65,
-      "spa": 130,
-      "spd": 65,
-      "spe": 140
+      "hp": 65,
+      "atk": 105,
+      "def": 70,
+      "spa": 115,
+      "spd": 70,
+      "spe": 175
     },
     "addmoves": [
       "aircannon",
@@ -15998,10 +16144,83 @@
     "baseStats": {
       "hp": 97,
       "atk": 107,
-      "def": 100,
+      "def": 101,
       "spa": 127,
-      "spd": 90,
+      "spd": 89,
       "spe": 79
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "necrozmaduskmane": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Prism Armor",
+      "1": "Full Metal Body",
+      "H": "Magic Guard",
+      "S": "Flash Fire"
+    },
+    "baseStats": {
+      "hp": 97,
+      "atk": 151,
+      "def": 103,
+      "spa": 83,
+      "spd": 89,
+      "spe": 77
+    },
+    "addmoves": [
+      "inheritsmovepool from solgaleo"
+    ],
+    "rmmoves": []
+  },
+  "necrozmadawnwings": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Prism Armor",
+      "1": "Shadow Shield",
+      "H": "Levitate",
+      "S": "Shadow Veil"
+    },
+    "baseStats": {
+      "hp": 97,
+      "atk": 83,
+      "def": 89,
+      "spa": 151,
+      "spd": 103,
+      "spe": 77
+    },
+    "addmoves": [
+      "inheritsmovepool from lunala"
+    ],
+    "rmmoves": []
+  },
+  "necrozmaultra": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Dragon"
+    ],
+    "abilities": {
+      "0": "Neuroforce",
+      "1": "Mold Breaker",
+      "H": "Download",
+      "S": "Beast Boost"
+    },
+    "baseStats": {
+      "hp": 97,
+      "atk": 127,
+      "def": 71,
+      "spa": 127,
+      "spd": 71,
+      "spe": 107
     },
     "addmoves": [],
     "rmmoves": []
@@ -16028,7 +16247,10 @@
     "addmoves": [
       "powergem",
       "vacuumwave",
-      "solarblade"
+      "solarblade",
+      "thunderpunch",
+      "supercellslam",
+      "wildcharge"
     ],
     "rmmoves": []
   },
@@ -16054,7 +16276,10 @@
     "addmoves": [
       "powergem",
       "vacuumwave",
-      "solarblade"
+      "solarblade",
+      "thunderpunch",
+      "supercellslam",
+      "wildcharge"
     ],
     "rmmoves": []
   },
@@ -17954,7 +18179,8 @@
     "abilities": {
       "0": "Parental Bond",
       "1": "Infiltrator",
-      "H": "Battle Bond"
+      "H": "Battle Bond",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 85,
@@ -18332,6 +18558,52 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "calyrexice": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "As One",
+      "1": "Sap Sipper",
+      "H": "Stamina",
+      "S": "Filter"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 155,
+      "def": 120,
+      "spa": 45,
+      "spd": 150,
+      "spe": 30
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
+  "calyrexshadow": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "As One",
+      "1": "Filter",
+      "H": "Shadow Step",
+      "S": "Levitate"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 45,
+      "def": 70,
+      "spa": 155,
+      "spd": 110,
+      "spe": 140
+    },
+    "addmoves": [],
+    "rmmoves": []
+  },
   "wyrdeer": {
     "restricted": false,
     "types": [
@@ -18665,7 +18937,13 @@
     },
     "addmoves": [
       "bulkup",
-      "wildcharge"
+      "wildcharge",
+      "throatchop",
+      "beatup",
+      "payback",
+      "snarl",
+      "darkpulse",
+      "partingshot"
     ],
     "rmmoves": []
   },
@@ -18692,7 +18970,9 @@
       "calmmind",
       "drainingkiss",
       "icebeam",
-      "thunderbolt"
+      "thunderbolt",
+      "alluringvoice",
+      "dazzlinggleam"
     ],
     "rmmoves": []
   },
@@ -19304,9 +19584,10 @@
       "Fire"
     ],
     "abilities": {
-      "0": "Chlorophyll",
+      "0": "",
       "1": "Grass Pelt",
-      "H": "Flash Fire"
+      "H": "Flash Fire",
+      "S": "Chlorophyll"
     },
     "baseStats": {
       "hp": 65,
@@ -19582,9 +19863,10 @@
       "Poison"
     ],
     "abilities": {
-      "0": "Weak Armor",
+      "0": "Levitate",
       "1": "Toxic Debris",
-      "H": "Merciless"
+      "H": "Merciless",
+      "S": "Weak Armor"
     },
     "baseStats": {
       "hp": 90,
@@ -21192,7 +21474,8 @@
     "abilities": {
       "0": "Weak Armor",
       "1": "No Guard",
-      "H": "Tinted Lens"
+      "H": "Tinted Lens",
+      "S": "Psychic Surge"
     },
     "baseStats": {
       "hp": 110,
@@ -21214,7 +21497,8 @@
     "abilities": {
       "0": "Galvanize",
       "1": "Reckless",
-      "H": "Lightning Rod"
+      "H": "Lightning Rod",
+      "S": "Sap Sipper"
     },
     "baseStats": {
       "hp": 95,
@@ -21236,7 +21520,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Volt Absorb",
-      "H": "Stamina"
+      "H": "Stamina",
+      "S": "Early Bird"
     },
     "baseStats": {
       "hp": 80,
@@ -21283,7 +21568,8 @@
     "abilities": {
       "0": "Armor Tail",
       "1": "White Smoke",
-      "H": "Flare Boost"
+      "H": "Flare Boost",
+      "S": "Steam Engine"
     },
     "baseStats": {
       "hp": 80,
@@ -21299,8 +21585,8 @@
   "colossoil": {
     "restricted": false,
     "types": [
-      "Ground",
-      "Dark"
+      "Dark",
+      "Ground"
     ],
     "abilities": {
       "0": "Rebound",
@@ -21330,7 +21616,8 @@
     "abilities": {
       "0": "Multiscale",
       "1": "Rough Skin",
-      "H": "Water Veil"
+      "H": "Water Veil",
+      "S": "Healer"
     },
     "baseStats": {
       "hp": 90,
@@ -21396,7 +21683,8 @@
     "abilities": {
       "0": "Shield Dust",
       "1": "Static",
-      "H": "Transistor"
+      "H": "Transistor",
+      "S": "Rattled"
     },
     "baseStats": {
       "hp": 110,
@@ -21418,7 +21706,8 @@
     "abilities": {
       "0": "Levitate",
       "1": "Bulletproof",
-      "H": "Justified"
+      "H": "Justified",
+      "S": "Clear Body"
     },
     "baseStats": {
       "hp": 105,
@@ -21440,7 +21729,8 @@
     "abilities": {
       "0": "Persistent",
       "1": "Vital Spirit",
-      "H": "Corrosion"
+      "H": "Corrosion",
+      "S": "Sand Force"
     },
     "baseStats": {
       "hp": 95,
@@ -21462,7 +21752,8 @@
     "abilities": {
       "0": "Pixilate",
       "1": "Intimidate",
-      "H": "Own Tempo"
+      "H": "Own Tempo",
+      "S": "Anger Point"
     },
     "baseStats": {
       "hp": 100,
@@ -21484,7 +21775,8 @@
     "abilities": {
       "0": "Trace",
       "1": "Overcoat",
-      "H": "Drought"
+      "H": "Drought",
+      "S": "Seed Sower"
     },
     "baseStats": {
       "hp": 95,
@@ -21506,7 +21798,8 @@
     "abilities": {
       "0": "Natural Cure",
       "1": "Aroma Veil",
-      "H": "Moxie"
+      "H": "Moxie",
+      "S": "Fluffy"
     },
     "baseStats": {
       "hp": 85,
@@ -21531,7 +21824,8 @@
     "abilities": {
       "0": "Limber",
       "1": "Trace",
-      "H": "Cursed Body"
+      "H": "Cursed Body",
+      "S": "Steely Spirit"
     },
     "baseStats": {
       "hp": 90,
@@ -21555,7 +21849,8 @@
     "abilities": {
       "0": "Trace",
       "1": "Magic Guard",
-      "H": "Volt Absorb"
+      "H": "Volt Absorb",
+      "S": "Swift Swim"
     },
     "baseStats": {
       "hp": 155,
@@ -21571,8 +21866,8 @@
   "malaconda": {
     "restricted": false,
     "types": [
-      "Grass",
-      "Dark"
+      "Dark",
+      "Grass"
     ],
     "abilities": {
       "0": "Harvest",
@@ -21602,7 +21897,8 @@
     "abilities": {
       "0": "Neutralizing Gas",
       "1": "Scrappy",
-      "H": "Compound Eyes"
+      "H": "Compound Eyes",
+      "S": "Dragon's Maw"
     },
     "baseStats": {
       "hp": 85,
@@ -21624,7 +21920,8 @@
     "abilities": {
       "0": "Dry Skin",
       "1": "Illuminate",
-      "H": "Flame Body"
+      "H": "Flame Body",
+      "S": "Corrosion"
     },
     "baseStats": {
       "hp": 95,
@@ -21646,7 +21943,8 @@
     "abilities": {
       "0": "Guts",
       "1": "Heatproof",
-      "H": "Filter"
+      "H": "Filter",
+      "S": "Drizzle"
     },
     "baseStats": {
       "hp": 100,
@@ -21668,7 +21966,8 @@
     "abilities": {
       "0": "Forewarn",
       "1": "Seed Sower",
-      "H": "Wandering Spirit"
+      "H": "Wandering Spirit",
+      "S": "Cursed Body"
     },
     "baseStats": {
       "hp": 75,
@@ -21694,7 +21993,8 @@
     "abilities": {
       "0": "Comatose",
       "1": "Cursed Body",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 90,
@@ -21718,7 +22018,8 @@
     "abilities": {
       "0": "Storm Drain",
       "1": "Vital Spirit",
-      "H": "Suction Cups"
+      "H": "Suction Cups",
+      "S": "Toxic Debris"
     },
     "baseStats": {
       "hp": 65,
@@ -21740,7 +22041,8 @@
     "abilities": {
       "0": "Rock Head",
       "1": "Battle Armor",
-      "H": "Chlorophyll"
+      "H": "Chlorophyll",
+      "S": "Heatproof"
     },
     "baseStats": {
       "hp": 120,
@@ -21762,7 +22064,8 @@
     "abilities": {
       "0": "No Guard",
       "1": "Drought",
-      "H": "Mold Breaker"
+      "H": "Mold Breaker",
+      "S": "Iron Barbs"
     },
     "baseStats": {
       "hp": 110,
@@ -21784,15 +22087,16 @@
     "abilities": {
       "0": "No Guard",
       "1": "Drought",
-      "H": "Mold Breaker"
+      "H": "Mold Breaker",
+      "S": "Neuroforce"
     },
     "baseStats": {
       "hp": 110,
-      "atk": 56,
+      "atk": 50,
       "def": 85,
-      "spa": 141,
-      "spd": 54,
-      "spe": 154
+      "spa": 145,
+      "spd": 60,
+      "spe": 150
     },
     "addmoves": [],
     "rmmoves": []
@@ -21852,7 +22156,8 @@
     "abilities": {
       "0": "Electromorphosis",
       "1": "Sticky Hold",
-      "H": "Cud Chew"
+      "H": "Cud Chew",
+      "S": "Thick Fat"
     },
     "baseStats": {
       "hp": 140,
@@ -21874,7 +22179,8 @@
     "abilities": {
       "0": "Flash Fire",
       "1": "Technician",
-      "H": "Intimidate"
+      "H": "Intimidate",
+      "S": "Solar Power"
     },
     "baseStats": {
       "hp": 95,
@@ -21896,7 +22202,8 @@
     "abilities": {
       "0": "Battle Armor",
       "1": "Rough Skin",
-      "H": "Poison Heal"
+      "H": "Poison Heal",
+      "S": "Gooey"
     },
     "baseStats": {
       "hp": 105,
@@ -21917,7 +22224,8 @@
     "abilities": {
       "0": "Levitate",
       "1": "Technician",
-      "H": "Sniper"
+      "H": "Sniper",
+      "S": "Opportunist"
     },
     "baseStats": {
       "hp": 95,
@@ -21939,7 +22247,8 @@
     "abilities": {
       "0": "Tinted Lens",
       "1": "Mountaineer",
-      "H": "Ice Scales"
+      "H": "Ice Scales",
+      "S": "Slush Rush"
     },
     "baseStats": {
       "hp": 80,
@@ -21955,13 +22264,14 @@
   "tomohawk": {
     "restricted": false,
     "types": [
-      "Fighting",
-      "Flying"
+      "Flying",
+      "Fighting"
     ],
     "abilities": {
       "0": "Intimidate",
       "1": "Prankster",
-      "H": "Justified"
+      "H": "Justified",
+      "S": "No Guard"
     },
     "baseStats": {
       "hp": 110,
@@ -21983,7 +22293,8 @@
     "abilities": {
       "0": "Power of Alchemy",
       "1": "Stamina",
-      "H": "Corrosion"
+      "H": "Corrosion",
+      "S": "Liquid Ooze"
     },
     "baseStats": {
       "hp": 95,
@@ -22005,7 +22316,8 @@
     "abilities": {
       "0": "Tinted Lens",
       "1": "Defiant",
-      "H": "Merciless"
+      "H": "Merciless",
+      "S": "Hyper Cutter"
     },
     "baseStats": {
       "hp": 95,
@@ -22027,7 +22339,8 @@
     "abilities": {
       "0": "Analytic",
       "1": "Infiltrator",
-      "H": "Mold Breaker"
+      "H": "Mold Breaker",
+      "S": "Suction Cups"
     },
     "baseStats": {
       "hp": 100,
