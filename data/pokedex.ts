@@ -11468,10 +11468,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	haxoruspartner: {
 		num: 612,
 		name: "Haxorus-Partner",
-		forme: "Partner",
 		types: ["Dragon", "Steel"],
 		baseSpecies: "Haxorus",
-		baseStats: { hp: 80, atk: 140, def: 80, spa: 45, spd: 80, spe: 115 },
+		baseStats: { hp: 76, atk: 147, def: 90, spa: 60, spd: 70, spe: 97 },
 		abilities: { 0: "Thermal Exchange", 1: "Sharpness", H: "Battle Bond" },
 		heightm: 1.8,
 		weightkg: 105.5,
