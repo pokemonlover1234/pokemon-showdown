@@ -16020,7 +16020,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 815,
 		name: "Cinderace-Partner",
 		baseSpecies: "Cinderace",
-		forme: "Partner",
 		types: ["Fire", "Fighting"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 105, atk: 116, def: 75, spa: 40, spd: 75, spe: 119 },
