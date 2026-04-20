@@ -8144,7 +8144,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	machampite: {
 		name: "Machampite",
-		spritenum: 8,
+		spritenum: 576,
 		megaStone: { "Machamp": "Machamp-Mega" },
 		itemUser: ["Machamp"],
 		onTakeItem(item, source) {
