@@ -1662,7 +1662,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	machampmega: {
 		num: 68,
 		name: "Machamp-Mega",
-		types: ["Fighting"],
+		baseSpecies: "Machamp",
+		forme: ""Mega"",
+		types: ["Fighting", "Rock"],
 		genderRatio: { M: 0.75, F: 0.25 },
 		baseStats: { hp: 90, atk: 145, def: 120, spa: 65, spd: 95, spe: 90 },
 		abilities: { 0: "Guts", 1: "No Guard", H: "Steadfast" },
