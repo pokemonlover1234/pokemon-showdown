@@ -11468,6 +11468,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	haxoruspartner: {
 		num: 612,
 		name: "Haxorus-Partner",
+		forme: "Partner",
 		types: ["Dragon", "Steel"],
 		baseSpecies: "Haxorus",
 		baseStats: { hp: 76, atk: 147, def: 90, spa: 60, spd: 70, spe: 97 },
@@ -16019,6 +16020,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 815,
 		name: "Cinderace-Partner",
 		baseSpecies: "Cinderace",
+		forme: "Partner",
 		types: ["Fire", "Fighting"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 105, atk: 116, def: 75, spa: 40, spd: 75, spe: 119 },
@@ -18944,6 +18946,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 973,
 		name: "Flamigos-Partner",
 		baseSpecies: "Flamigo",
+		forme: "Partner",
 		types: ["Flying", "Fighting"],
 		baseStats: { hp: 82, atk: 115, def: 74, spa: 75, spd: 64, spe: 90 },
 		abilities: { 0: "Aerilate", 1: "Speed Boost", H: "Battle Bond" },
