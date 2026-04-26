@@ -175,6 +175,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		},
 		onTakeItem: false,
 	},
+	machampite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	manectite: {
 		inherit: true,
 		isNonstandard: null,
