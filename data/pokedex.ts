@@ -18944,7 +18944,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	flamigopartner: {
 		num: 973,
-		name: "Flamigos-Partner",
+		name: "Flamigo-Partner",
 		baseSpecies: "Flamigo",
 		forme: "Partner",
 		types: ["Flying", "Fighting"],
