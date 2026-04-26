@@ -533,6 +533,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 		natDexTier: "RU",
 	},
+	machampmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+	},
 	machampgmax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
