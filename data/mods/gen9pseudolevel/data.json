@@ -5475,26 +5475,7 @@
     },
     "addmoves": [
       "terablast",
-      "rapidspin",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
+      "rapidspin"
     ],
     "rmmoves": []
   },
@@ -11797,7 +11778,8 @@
       "paraboliccharge",
       "taunt",
       "agility",
-      "curse"
+      "curse",
+      "wildcharge"
     ],
     "rmmoves": []
   },
@@ -11827,7 +11809,8 @@
       "paraboliccharge",
       "taunt",
       "agility",
-      "curse"
+      "curse",
+      "wildcharge"
     ],
     "rmmoves": []
   },
@@ -11856,7 +11839,8 @@
       "paraboliccharge",
       "taunt",
       "agility",
-      "curse"
+      "curse",
+      "wildcharge"
     ],
     "rmmoves": []
   },
@@ -11885,7 +11869,8 @@
       "paraboliccharge",
       "taunt",
       "agility",
-      "curse"
+      "curse",
+      "wildcharge"
     ],
     "rmmoves": []
   },
@@ -11915,7 +11900,8 @@
       "paraboliccharge",
       "taunt",
       "agility",
-      "curse"
+      "curse",
+      "wildcharge"
     ],
     "rmmoves": []
   },
@@ -11944,7 +11930,79 @@
       "paraboliccharge",
       "taunt",
       "agility",
-      "curse"
+      "curse",
+      "wildcharge"
+    ],
+    "rmmoves": []
+  },
+  "rotomsaw": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Iron Barbs",
+      "H": "Sharpness"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 125,
+      "def": 120,
+      "spa": 80,
+      "spd": 105,
+      "spe": 70
+    },
+    "addmoves": [
+      "wildcharge",
+      "ironhead",
+      "partingshot",
+      "agility",
+      "curse",
+      "taunt",
+      "leafblade",
+      "aquacutter",
+      "furycutter",
+      "aerialace",
+      "shadowclaw"
+    ],
+    "rmmoves": []
+  },
+  "rotomfogger": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Neutralizing Gas",
+      "H": "Merciless"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 70,
+      "def": 95,
+      "spa": 115,
+      "spd": 140,
+      "spe": 85
+    },
+    "addmoves": [
+      "partingshot",
+      "paraboliccharge",
+      "taunt",
+      "agility",
+      "curse",
+      "wildcharge",
+      "defog",
+      "sludgebomb",
+      "toxic",
+      "venoshock",
+      "sludgewave",
+      "toxicspikes",
+      "acidspray",
+      "clearsmog"
     ],
     "rmmoves": []
   },
@@ -13440,14 +13498,16 @@
       "H": "Protean"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
+      "hp": 120,
+      "atk": 120,
+      "def": 95,
+      "spa": 70,
+      "spd": 95,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusbug": {
@@ -13461,14 +13521,16 @@
       "H": "Opportunist"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 90,
+      "atk": 115,
+      "def": 85,
+      "spa": 115,
+      "spd": 85,
+      "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusdark": {
@@ -13482,14 +13544,16 @@
       "H": "Intimidate"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 110,
+      "atk": 130,
+      "def": 90,
+      "spa": 65,
+      "spd": 90,
+      "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusdragon": {
@@ -13504,13 +13568,15 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "atk": 120,
+      "def": 95,
+      "spa": 120,
+      "spd": 95,
+      "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceuselectric": {
@@ -13524,14 +13590,16 @@
       "H": "Motor Drive"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 90,
+      "atk": 85,
+      "def": 80,
+      "spa": 130,
+      "spd": 80,
+      "spe": 135
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusfairy": {
@@ -13545,14 +13613,16 @@
       "H": "Triage"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
+      "hp": 95,
+      "atk": 70,
+      "def": 90,
+      "spa": 130,
+      "spd": 115,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusfighting": {
@@ -13567,13 +13637,15 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "atk": 135,
+      "def": 95,
+      "spa": 70,
+      "spd": 85,
+      "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusfire": {
@@ -13587,14 +13659,16 @@
       "H": "Flash Fire"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 95,
+      "atk": 115,
+      "def": 85,
+      "spa": 130,
+      "spd": 85,
+      "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusflying": {
@@ -13608,14 +13682,16 @@
       "H": "Mountaineer"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 85,
+      "atk": 110,
+      "def": 80,
+      "spa": 110,
+      "spd": 80,
+      "spe": 135
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusghost": {
@@ -13629,14 +13705,16 @@
       "H": "Mind's Eye"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 90,
+      "atk": 70,
+      "def": 85,
+      "spa": 130,
+      "spd": 115,
+      "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusgrass": {
@@ -13651,13 +13729,15 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "atk": 95,
+      "def": 110,
+      "spa": 90,
+      "spd": 110,
+      "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusground": {
@@ -13671,14 +13751,16 @@
       "H": "Earth Eater"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 110,
+      "atk": 130,
+      "def": 120,
+      "spa": 60,
+      "spd": 85,
+      "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusice": {
@@ -13692,14 +13774,16 @@
       "H": "Ice Scales"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
+      "hp": 95,
+      "atk": 80,
+      "def": 90,
+      "spa": 125,
+      "spd": 110,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceuspoison": {
@@ -13713,14 +13797,16 @@
       "H": "Corrosion"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
+      "hp": 90,
+      "atk": 95,
+      "def": 85,
+      "spa": 115,
+      "spd": 115,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceuspsychic": {
@@ -13734,14 +13820,16 @@
       "H": "Psychic Surge"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 90,
+      "atk": 70,
+      "def": 85,
+      "spa": 135,
+      "spd": 115,
+      "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceusrock": {
@@ -13755,14 +13843,16 @@
       "H": "Sand Stream"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 110,
+      "atk": 120,
+      "def": 130,
+      "spa": 60,
+      "spd": 90,
+      "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceussteel": {
@@ -13776,14 +13866,16 @@
       "H": "Filter"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "hp": 90,
+      "atk": 110,
+      "def": 130,
+      "spa": 70,
+      "spd": 115,
+      "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "arceuswater": {
@@ -13798,13 +13890,15 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
+      "atk": 85,
+      "def": 90,
+      "spa": 125,
+      "spd": 115,
+      "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "throatchop"
+    ],
     "rmmoves": []
   },
   "victini": {
@@ -16065,11 +16159,11 @@
     },
     "baseStats": {
       "hp": 95,
-      "atk": 147,
-      "def": 93,
-      "spa": 55,
-      "spd": 105,
-      "spe": 105
+      "atk": 140,
+      "def": 110,
+      "spa": 45,
+      "spd": 90,
+      "spe": 120
     },
     "addmoves": [
       "aquacutter",
@@ -22866,6 +22960,32 @@
     "addmoves": [],
     "rmmoves": []
   },
+  "cinderacepartner": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Moxie",
+      "1": "Speed Boost",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 150,
+      "def": 40,
+      "spa": 90,
+      "spd": 70,
+      "spe": 160
+    },
+    "addmoves": [
+      "closecombat",
+      "aerialace",
+      "earthquake"
+    ],
+    "rmmoves": []
+  },
   "inteleon": {
     "restricted": false,
     "types": [
@@ -27967,6 +28087,36 @@
       "spa": 125,
       "spd": 75,
       "spe": 105
+    },
+    "addmoves": [
+      "aircannon",
+      "windpulse",
+      "tripleaxel",
+      "brickbreak",
+      "knockoff",
+      "waterfall",
+      "whirlwind"
+    ],
+    "rmmoves": []
+  },
+  "flamigopartner": {
+    "restricted": false,
+    "types": [
+      "Flying",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Aerilate",
+      "1": "Speed Boost",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 72,
+      "atk": 155,
+      "def": 74,
+      "spa": 75,
+      "spd": 84,
+      "spe": 140
     },
     "addmoves": [
       "aircannon",
