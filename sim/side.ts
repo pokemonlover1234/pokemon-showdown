@@ -996,6 +996,14 @@ export class Side {
 			target: targetPokemon,
 		});
 
+		// Handle ritual
+		const ritualed = this.pokemon.filter(p => p && p.fainted && p.ritualFlag);
+		for (const ally of ritualed) {
+			ally.ritualFlag = false;
+			ally.fainted = false;
+			ally.hp = Math.floor(ally.maxhp / 4);
+		}
+
 		return true;
 	}
 

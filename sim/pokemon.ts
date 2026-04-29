@@ -161,6 +161,7 @@ export class Pokemon {
 	 */
 	switchFlag: ID | boolean;
 	forceSwitchFlag: boolean;
+	ritualFlag: boolean;
 	skipBeforeSwitchOutEventFlag: boolean;
 	draggedIn: number | null;
 	newlySwitched: boolean;
@@ -450,6 +451,7 @@ export class Pokemon {
 
 		this.switchFlag = false;
 		this.forceSwitchFlag = false;
+		this.ritualFlag = false;
 		this.skipBeforeSwitchOutEventFlag = false;
 		this.draggedIn = null;
 		this.newlySwitched = false;
@@ -1534,6 +1536,7 @@ export class Pokemon {
 		if (includeSwitchFlags) {
 			this.switchFlag = false;
 			this.forceSwitchFlag = false;
+			this.ritualFlag = false;
 		}
 
 		this.lastMove = null;
