@@ -161,6 +161,7 @@ export class Pokemon {
 	 */
 	switchFlag: ID | boolean;
 	forceSwitchFlag: boolean;
+	ritualFlag: boolean;
 	/**
 	 * Set on the target trying to switch out if Pursuit activates.
 	 * Prevents duplicate activation messages and makes sure the target
@@ -471,6 +472,7 @@ export class Pokemon {
 
 		this.switchFlag = false;
 		this.forceSwitchFlag = false;
+		this.ritualFlag = false;
 		this.pursuitActivated = false;
 		this.skipPursuit = false;
 		this.newlySwitched = false;
@@ -1555,6 +1557,7 @@ export class Pokemon {
 		if (includeSwitchFlags) {
 			this.switchFlag = false;
 			this.forceSwitchFlag = false;
+			this.ritualFlag = false;
 		}
 
 		this.lastMove = null;
