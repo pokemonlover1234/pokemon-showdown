@@ -21587,4 +21587,241 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "all",
 		type: "Dark",
 	},
+	galacticbeatdown: {
+		accuracy: 100,
+		basePower: 90,
+		pp: 10,
+		category: "Physical",
+		isNonstandard: "Custom",
+		name: "Galactic Beatdown",
+		priority: 0,
+		flags: { metronome: 1 },
+		secondary: {
+			chance: 10,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Astral",
+	},
+	gravitationslam: {
+		accuracy: 100,
+		basePower: 120,
+		pp: 15,
+		category: "Physical",
+		isNonstandard: "Custom",
+		name: "Gravitation Slam",
+		priority: 0,
+		flags: { metronome: 1 },
+		recoil: [33, 100],
+		target: "normal",
+		type: "Astral",
+	},
+	constellerapunch: {
+		accuracy: 90,
+		basePower: 40,
+		pp: 15,
+		category: "Physical",
+		isNonstandard: "Custom",
+		name: "Constellera Punch",
+		priority: 0,
+		flags: { punch: 1, metronome: 1 },
+		multihit: 2,
+		target: "normal",
+		type: "Astral",
+	},
+	magictome: {
+		accuracy: 100,
+		basePower: 75,
+		pp: 10,
+		category: "Special",
+		isNonstandard: "Custom",
+		name: "Magic Tome",
+		priority: 0,
+		flags: { metronome: 1 },
+		self: {
+			chance: 30,
+			boosts: {
+				spa : 1,
+			},
+		},
+		target: "normal",
+		type: "Astral",
+	},
+	shootingstar: {
+		accuracy: 100,
+		basePower: 25,
+		pp: 30,
+		category: "Special",
+		isNonstandard: "Custom",
+		name: "Shooting Star",
+		priority: 0,
+		flags: { metronome: 1 },
+		multihit: [2, 5],
+		target: "normal",
+		type: "Astral"
+	},
+	cosmicray: {
+		accuracy: 100,
+		basePower: 90,
+		pp: 15,
+		category: "Special",
+		isNonstandard: "Custom",
+		name: "Cosmic Ray",
+		priority: 0,
+		flags: { metronome: 1 },
+		secondary: {
+			chance: 20,
+			volatileStatus: 'confusion',
+		},
+		target: "normal",
+		type: "Astral",
+	},
+	nova: {
+		accuracy: 100,
+		basePower: 120,
+		pp: 5,
+		category: "Special",
+		isNonstandard: "Custom",
+		name: "Nova",
+		priority: 0,
+		flags: { metronome: 1 },
+		self: {
+			boosts: {
+				spa: -1,
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Astral",
+	},
+	dejavu: {
+		accuracy: true,
+		basePower: 0,
+		pp: 15,
+		category: "Status",
+		isNonstandard: "Custom",
+		name: "Deja Vu",
+		priority: 0,
+		flags: { metronome: 1 },
+		self: {
+			volatileStatus: "dejavu",
+		},
+		condition: {
+			onModifyMove(move, pokemon, target) {
+				this.add('-end', pokemon, "Deja Vu");
+				delete pokemon.volatiles['dejavu'];
+				if (move.multihit) {
+					if (Array.isArray(move.multihit) && move.multihit[0] && move.multihit[1]) {
+						move.multihit = [move.multihit[0] * 2, move.multihit[1] * 2];
+					} else {
+						move.multihit = 2;
+					}
+				}
+			},
+		},
+		target: "self",
+		type: "Astral",
+	},
+	ritual: {
+		accuracy: true,
+		basePower: 0,
+		pp: 1,
+		category: "Status",
+		isNonstandard: "Custom",
+		name: "Ritual",
+		priority: 0,
+		flags: { metronome: 1 },
+		// Rest implemented in side.ts chooseSwitch
+		onAfterMove(source, target, move) {
+			source.ritualFlag = true;
+		},
+		target: "normal",
+		type: "Astral",
+	},
+	starlightkick: {
+		accuracy: 90,
+		basePower: 85,
+		pp: 10,
+		category: "Physical",
+		isNonstandard: "Custom",
+		name: "Starlight Kick",
+		priority: 0,
+		flags: { metronome: 1, kick: 1 },
+		secondary: {
+			chance: 10,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Astral",
+	},
+	starfallblade: {
+		accuracy: 95,
+		basePower: 40,
+		pp: 20,
+		category: "Physical",
+		isNonstandard: "Custom",
+		name: "Starfall Blade",
+		priority: 0,
+		flags: { metronome: 1 },
+		target: "normal",
+		type: "Astral",
+		condition: {
+			duration: 2,
+			onStart() {
+				this.effectState.multiplier = 1;
+			},
+			onRestart() {
+				if (this.effectState.multiplier < 4) {
+					this.effectState.multiplier <<= 1;
+				}
+				this.effectState.duration = 2;
+			},
+		},
+		basePowerCallback(pokemon, target, move) {
+			if (!pokemon.volatiles['starfallblade'] || move.hit === 1) {
+				pokemon.addVolatile('starfallblade');
+			}
+			const bp = this.clampIntRange(move.basePower * pokemon.volatiles['starfallblade'].multiplier, 1, 160);
+			this.debug(`BP: ${bp}`);
+			return bp;
+		},
+	},
+	astralprojection: {
+		accuracy: true,
+		basePower: 0,
+		pp: 30,
+		category: "Status",
+		isNonstandard: "Custom",
+		name: "Astral Projection",
+		priority: 0,
+		flags: { metronome: 1 },
+		target: "normal",
+		type: "Astral",
+		sideCondition: 'astralprojection',
+		condition: {
+			duration: 5,
+			durationCallback(target, source, effect) {
+				if (source?.hasItem('lightclay')) {
+					return 8;
+				}
+				return 5;
+			},
+			onAnyAfterHit(source, target, move) {
+				if (target !== source && this.effectState.target.hasAlly(target) && target.runEffectiveness(move) < 0) {
+					this.add('-activate', target, 'move: Astral Projection');
+					target.heal(Math.floor(target.maxhp / 4));
+				}
+			},
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Astral Projection');
+			},
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 1,
+			onSideEnd(side) {
+				this.add('-sideend', side, 'Astral Projection');
+			},
+		},
+	},
 };
