@@ -8282,6 +8282,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	energyherb: {
 		name: "Energy Herb",
+		spritenum: 534,
 		fling: {
 			basePower: 60,
 		},
@@ -8296,6 +8297,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	astralgem: {
 		name: "Astral Gem",
+		spritenum: 19,
 		fling: {
 			basePower: 60,
 		},
@@ -8309,6 +8311,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	galacticplate: {
 		name: "Galactic Plate",
+		spritenum: 18,
 		onPlate: 'Astral',
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
@@ -8326,6 +8329,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	astralmemory: {
 		name: "Astral Memory",
+		spritenum: 20,
 		onMemory: 'Astral',
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
