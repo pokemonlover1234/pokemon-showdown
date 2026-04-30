@@ -1,6 +1,7 @@
 export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	bug: {
 		damageTaken: {
+			Astral: 0,
 			Bug: 0,
 			Dark: 0,
 			Dragon: 0,
@@ -26,6 +27,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	dark: {
 		damageTaken: {
+			Astral: 0,
 			prankster: 3,
 			Bug: 1,
 			Dark: 2,
@@ -51,6 +53,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	dragon: {
 		damageTaken: {
+			Astral: 0,
 			Bug: 0,
 			Dark: 0,
 			Dragon: 1,
@@ -76,6 +79,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	electric: {
 		damageTaken: {
+			Astral: 0,
 			par: 3,
 			Bug: 0,
 			Dark: 0,
@@ -102,6 +106,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	fairy: {
 		damageTaken: {
+			Astral: 0,
 			Bug: 2,
 			Dark: 2,
 			Dragon: 3,
@@ -125,6 +130,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	fighting: {
 		damageTaken: {
+			Astral: 0,
 			Bug: 2,
 			Dark: 2,
 			Dragon: 0,
@@ -150,6 +156,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	fire: {
 		damageTaken: {
+			Astral: 1,
 			brn: 3,
 			Bug: 2,
 			Dark: 0,
@@ -176,6 +183,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	flying: {
 		damageTaken: {
+			Astral: 1,
 			Bug: 2,
 			Dark: 0,
 			Dragon: 0,
@@ -201,6 +209,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	ghost: {
 		damageTaken: {
+			Astral: 0,
 			trapped: 3,
 			Bug: 2,
 			Dark: 1,
@@ -227,6 +236,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	grass: {
 		damageTaken: {
+			Astral: 0,
 			powder: 3,
 			Bug: 1,
 			Dark: 0,
@@ -253,6 +263,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	ground: {
 		damageTaken: {
+			Astral: 1,
 			sandstorm: 3,
 			Bug: 0,
 			Dark: 0,
@@ -279,6 +290,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	ice: {
 		damageTaken: {
+			Astral: 2,
 			hail: 3,
 			frz: 3,
 			Bug: 0,
@@ -306,6 +318,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	normal: {
 		damageTaken: {
+			Astral: 0,
 			Bug: 0,
 			Dark: 0,
 			Dragon: 0,
@@ -329,6 +342,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	poison: {
 		damageTaken: {
+			Astral: 0,
 			psn: 3,
 			tox: 3,
 			Bug: 2,
@@ -356,6 +370,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	psychic: {
 		damageTaken: {
+			Astral: 0,
 			Bug: 1,
 			Dark: 1,
 			Dragon: 0,
@@ -381,6 +396,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	rock: {
 		damageTaken: {
+			Astral: 2,
 			sandstorm: 3,
 			Bug: 0,
 			Dark: 0,
@@ -407,6 +423,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	steel: {
 		damageTaken: {
+			Astral: 2,
 			psn: 3,
 			tox: 3,
 			sandstorm: 3,
@@ -435,6 +452,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	stellar: {
 		damageTaken: {
+			Astral: 0,
 			Bug: 0,
 			Dark: 0,
 			Dragon: 0,
@@ -458,6 +476,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	water: {
 		damageTaken: {
+			Astral: 1,
 			Bug: 0,
 			Dark: 0,
 			Dragon: 0,
@@ -475,6 +494,32 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 			Psychic: 0,
 			Rock: 0,
 			Steel: 2,
+			Stellar: 0,
+			Water: 2,
+		},
+		HPivs: { atk: 30, def: 30, spa: 30 },
+		HPdvs: { atk: 14, def: 13 },
+	},
+	astral: {
+		damageTaken: {
+			Astral: 2,
+			Bug: 0,
+			Dark: 0,
+			Dragon: 0,
+			Electric: 0,
+			Fairy: 0,
+			Fighting: 0,
+			Fire: 2,
+			Flying: 2,
+			Ghost: 0,
+			Grass: 0,
+			Ground: 2,
+			Ice: 0,
+			Normal: 0,
+			Poison: 1,
+			Psychic: 1,
+			Rock: 0,
+			Steel: 1,
 			Stellar: 0,
 			Water: 2,
 		},
