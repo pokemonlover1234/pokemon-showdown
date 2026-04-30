@@ -72,7 +72,7 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat"
     },
     "baseStats": {
       "hp": 80,
@@ -156,7 +156,7 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Drought"
     },
     "baseStats": {
       "hp": 78,
@@ -238,7 +238,7 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Mega Launcher"
     },
     "baseStats": {
       "hp": 79,
@@ -385,7 +385,7 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Adaptability"
     },
     "baseStats": {
       "hp": 65,
@@ -404,7 +404,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Static",
+      "1": "Illuminate",
+      "H": "Lightning Rod"
     },
     "baseStats": {
       "hp": 20,
@@ -424,6 +426,7 @@
     ],
     "abilities": {
       "0": "Static",
+      "1": "Illuminate",
       "H": "Lightning Rod"
     },
     "baseStats": {
@@ -623,7 +626,7 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Surge Surfer"
     },
     "baseStats": {
       "hp": 60,
@@ -642,7 +645,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Rivalry",
+      "H": "Hustle"
     },
     "baseStats": {
       "hp": 55,
@@ -661,7 +666,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Rivalry",
+      "H": "Hustle"
     },
     "baseStats": {
       "hp": 70,
@@ -681,7 +688,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Rivalry",
+      "H": "Sheer Force"
     },
     "baseStats": {
       "hp": 90,
@@ -700,7 +709,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Rivalry",
+      "H": "Hustle"
     },
     "baseStats": {
       "hp": 46,
@@ -719,7 +730,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Rivalry",
+      "H": "Hustle"
     },
     "baseStats": {
       "hp": 61,
@@ -739,7 +752,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Rivalry",
+      "H": "Sheer Force"
     },
     "baseStats": {
       "hp": 81,
@@ -759,7 +774,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Cute Charm",
+      "1": "Magic Guard",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 50,
@@ -779,7 +796,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Cute Charm",
+      "1": "Magic Guard",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 70,
@@ -799,7 +818,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Cute Charm",
+      "1": "Magic Guard",
+      "H": "Unaware"
     },
     "baseStats": {
       "hp": 95,
@@ -1077,7 +1098,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Compound Eyes",
+      "1": "Tinted Lens",
+      "H": "Run Away"
     },
     "baseStats": {
       "hp": 60,
@@ -1097,7 +1120,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Tinted Lens",
+      "H": "Wonder Skin"
     },
     "baseStats": {
       "hp": 70,
@@ -1116,7 +1141,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sand Veil",
+      "1": "Arena Trap",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 10,
@@ -1136,7 +1163,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sand Veil",
+      "1": "Tangling Hair",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 10,
@@ -1155,7 +1184,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sand Veil",
+      "1": "Arena Trap",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 35,
@@ -1175,7 +1206,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sand Veil",
+      "1": "Tangling Hair",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 35,
@@ -1194,7 +1227,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Technician",
+      "H": "Unnerve"
     },
     "baseStats": {
       "hp": 40,
@@ -1213,7 +1248,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Technician",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 40,
@@ -1232,7 +1269,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Tough Claws",
+      "H": "Unnerve"
     },
     "baseStats": {
       "hp": 50,
@@ -1251,7 +1290,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Limber",
+      "1": "Technician",
+      "H": "Unnerve"
     },
     "baseStats": {
       "hp": 65,
@@ -1270,7 +1311,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Fur Coat",
+      "1": "Technician",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 65,
@@ -1289,7 +1332,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Battle Armor",
+      "1": "Tough Claws",
+      "H": "Steely Spirit"
     },
     "baseStats": {
       "hp": 70,
@@ -1350,7 +1395,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Flash Fire",
+      "H": "Justified"
     },
     "baseStats": {
       "hp": 55,
@@ -1370,7 +1417,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Flash Fire",
+      "H": "Rock Head"
     },
     "baseStats": {
       "hp": 60,
@@ -1389,7 +1438,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Flash Fire",
+      "H": "Justified"
     },
     "baseStats": {
       "hp": 90,
@@ -1409,7 +1460,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Flash Fire",
+      "H": "Rock Head"
     },
     "baseStats": {
       "hp": 95,
@@ -1428,7 +1481,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Synchronize",
+      "1": "Inner Focus",
+      "H": "Magic Guard"
     },
     "baseStats": {
       "hp": 25,
@@ -1447,7 +1502,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Synchronize",
+      "1": "Inner Focus",
+      "H": "Magic Guard"
     },
     "baseStats": {
       "hp": 40,
@@ -1466,7 +1523,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Synchronize",
+      "1": "Inner Focus",
+      "H": "Magic Guard"
     },
     "baseStats": {
       "hp": 55,
@@ -1485,7 +1544,7 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Trace"
     },
     "baseStats": {
       "hp": 55,
@@ -1504,7 +1563,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "No Guard",
+      "H": "Steadfast"
     },
     "baseStats": {
       "hp": 70,
@@ -1523,7 +1584,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "No Guard",
+      "H": "Steadfast"
     },
     "baseStats": {
       "hp": 80,
@@ -1542,7 +1605,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "No Guard",
+      "H": "Steadfast"
     },
     "baseStats": {
       "hp": 90,
@@ -1562,7 +1627,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Clear Body",
+      "1": "Liquid Ooze",
+      "H": "Rain Dish"
     },
     "baseStats": {
       "hp": 40,
@@ -1582,7 +1649,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Clear Body",
+      "1": "Liquid Ooze",
+      "H": "Rain Dish"
     },
     "baseStats": {
       "hp": 80,
@@ -1602,7 +1671,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Rock Head",
+      "1": "Sturdy",
+      "H": "Sand Veil"
     },
     "baseStats": {
       "hp": 40,
@@ -1622,7 +1693,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Magnet Pull",
+      "1": "Sturdy",
+      "H": "Galvanize"
     },
     "baseStats": {
       "hp": 40,
@@ -1642,7 +1715,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Rock Head",
+      "1": "Sturdy",
+      "H": "Sand Veil"
     },
     "baseStats": {
       "hp": 55,
@@ -1662,7 +1737,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Magnet Pull",
+      "1": "Sturdy",
+      "H": "Galvanize"
     },
     "baseStats": {
       "hp": 55,
@@ -1682,7 +1759,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Rock Head",
+      "1": "Sturdy",
+      "H": "Sand Veil"
     },
     "baseStats": {
       "hp": 80,
@@ -1702,7 +1781,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Magnet Pull",
+      "1": "Sturdy",
+      "H": "Galvanize"
     },
     "baseStats": {
       "hp": 80,
@@ -1721,7 +1802,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Run Away",
+      "1": "Flash Fire",
+      "H": "Flame Body"
     },
     "baseStats": {
       "hp": 50,
@@ -1740,7 +1823,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Run Away",
+      "1": "Pastel Veil",
+      "H": "Anticipation"
     },
     "baseStats": {
       "hp": 50,
@@ -1803,7 +1888,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Own Tempo",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 90,
@@ -1822,7 +1909,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Own Tempo",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 90,
@@ -1842,7 +1931,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Own Tempo",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 95,
@@ -1862,7 +1953,7 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shell Armor"
     },
     "baseStats": {
       "hp": 95,
@@ -1882,7 +1973,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Quick Draw",
+      "1": "Own Tempo",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 95,
@@ -1902,7 +1995,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Own Tempo",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 95,
@@ -1922,7 +2017,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Curious Medicine",
+      "1": "Own Tempo",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 95,
@@ -2028,7 +2125,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shell Armor",
+      "1": "Skill Link",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 30,
@@ -2048,7 +2147,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shell Armor",
+      "1": "Skill Link",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 50,
@@ -2175,7 +2276,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Soundproof",
+      "1": "Static",
+      "H": "Aftermath"
     },
     "baseStats": {
       "hp": 40,
@@ -2195,7 +2298,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Soundproof",
+      "1": "Static",
+      "H": "Aftermath"
     },
     "baseStats": {
       "hp": 40,
@@ -2214,7 +2319,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Soundproof",
+      "1": "Static",
+      "H": "Aftermath"
     },
     "baseStats": {
       "hp": 60,
@@ -2234,7 +2341,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Soundproof",
+      "1": "Static",
+      "H": "Aftermath"
     },
     "baseStats": {
       "hp": 60,
@@ -2254,7 +2363,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Telepathy",
+      "H": "Harvest"
     },
     "baseStats": {
       "hp": 60,
@@ -2317,7 +2428,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Water Veil",
+      "H": "Lightning Rod"
     },
     "baseStats": {
       "hp": 45,
@@ -2336,7 +2449,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Water Veil",
+      "H": "Lightning Rod"
     },
     "baseStats": {
       "hp": 80,
@@ -2356,7 +2471,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Illuminate",
+      "1": "Natural Cure",
+      "H": "Analytic"
     },
     "baseStats": {
       "hp": 30,
@@ -2376,7 +2493,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Illuminate",
+      "1": "Natural Cure",
+      "H": "Analytic"
     },
     "baseStats": {
       "hp": 60,
@@ -2459,7 +2578,8 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 20,
@@ -2479,7 +2599,8 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "H": "Moxie"
     },
     "baseStats": {
       "hp": 95,
@@ -2499,7 +2620,7 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Mold Breaker"
     },
     "baseStats": {
       "hp": 95,
@@ -2751,7 +2872,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Soundproof",
+      "1": "Filter",
+      "H": "Technician"
     },
     "baseStats": {
       "hp": 20,
@@ -2793,7 +2916,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Vital Spirit",
+      "1": "Screen Cleaner",
+      "H": "Ice Body"
     },
     "baseStats": {
       "hp": 50,
@@ -2813,7 +2938,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Tangled Feet",
+      "1": "Screen Cleaner",
+      "H": "Ice Body"
     },
     "baseStats": {
       "hp": 80,
@@ -2832,7 +2959,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Thick Fat",
+      "H": "Gluttony"
     },
     "baseStats": {
       "hp": 135,
@@ -3401,7 +3530,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Early Bird",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 40,
@@ -3443,7 +3574,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Limber",
+      "H": "Infiltrator"
     },
     "baseStats": {
       "hp": 40,
@@ -3463,7 +3596,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Limber",
+      "H": "Infiltrator"
     },
     "baseStats": {
       "hp": 75,
@@ -3505,7 +3640,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Volt Absorb",
+      "1": "Illuminate",
+      "H": "Water Absorb"
     },
     "baseStats": {
       "hp": 75,
@@ -3525,7 +3662,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Volt Absorb",
+      "1": "Illuminate",
+      "H": "Water Absorb"
     },
     "baseStats": {
       "hp": 125,
@@ -3628,7 +3767,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Huge Power",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 50,
@@ -3648,7 +3789,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Huge Power",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 70,
@@ -3668,7 +3811,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Huge Power",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 100,
@@ -3776,7 +3921,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Water Absorb",
+      "H": "Unaware"
     },
     "baseStats": {
       "hp": 55,
@@ -3818,7 +3965,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Water Absorb",
+      "H": "Unaware"
     },
     "baseStats": {
       "hp": 130,
@@ -3838,7 +3987,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Rock Head",
+      "1": "Sturdy",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 35,
@@ -3858,8 +4009,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": "",
-      "1": "Heatproof"
+      "0": "Rock Head",
+      "1": "Heatproof",
+      "H": "Sheer Force"
     },
     "baseStats": {
       "hp": 75,
@@ -3898,7 +4050,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Run Away",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 60,
@@ -3917,7 +4071,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Quick Feet",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 90,
@@ -4003,7 +4159,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Technician",
+      "H": "Steadfast"
     },
     "baseStats": {
       "hp": 70,
@@ -4023,7 +4181,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Technician",
+      "H": "Light Metal"
     },
     "baseStats": {
       "hp": 70,
@@ -4043,7 +4203,7 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Technician"
     },
     "baseStats": {
       "hp": 70,
@@ -4063,7 +4223,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Sheer Force",
+      "H": "Sharpness"
     },
     "baseStats": {
       "hp": 70,
@@ -4105,7 +4267,7 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Skill Link"
     },
     "baseStats": {
       "hp": 80,
@@ -4168,7 +4330,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hustle",
+      "1": "Natural Cure",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 75,
@@ -4187,7 +4351,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Weak Armor",
+      "1": "Shadow Shield",
+      "H": "Cursed Body"
     },
     "baseStats": {
       "hp": 60,
@@ -4228,7 +4394,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Toxic Chain",
+      "1": "Flash Fire",
+      "H": "Unnerve"
     },
     "baseStats": {
       "hp": 45,
@@ -4290,7 +4458,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Sturdy",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 65,
@@ -4371,7 +4541,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Scrappy",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 95,
@@ -4390,7 +4562,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Serene Grace",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 100,
@@ -4409,7 +4583,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Serene Grace",
+      "H": "Healer"
     },
     "baseStats": {
       "hp": 250,
@@ -4428,7 +4604,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Serene Grace",
+      "H": "Healer"
     },
     "baseStats": {
       "hp": 255,
@@ -4448,7 +4626,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Water Absorb",
+      "H": "Water Veil"
     },
     "baseStats": {
       "hp": 45,
@@ -4468,7 +4648,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Water Absorb",
+      "H": "Water Veil"
     },
     "baseStats": {
       "hp": 85,
@@ -4509,7 +4691,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hustle",
+      "1": "Sniper",
+      "H": "Moody"
     },
     "baseStats": {
       "hp": 35,
@@ -4528,7 +4712,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Suction Cups",
+      "1": "Sniper",
+      "H": "Moody"
     },
     "baseStats": {
       "hp": 75,
@@ -4547,7 +4733,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Rock Head",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 50,
@@ -4566,7 +4754,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Rock Head",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 70,
@@ -4841,7 +5031,7 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Lightning Rod"
     },
     "baseStats": {
       "hp": 70,
@@ -4926,7 +5116,7 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Speed Boost"
     },
     "baseStats": {
       "hp": 80,
@@ -5011,7 +5201,7 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim"
     },
     "baseStats": {
       "hp": 100,
@@ -5031,7 +5221,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Synchronize",
+      "1": "Trace",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 28,
@@ -5051,7 +5243,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Synchronize",
+      "1": "Trace",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 38,
@@ -5071,7 +5265,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Synchronize",
+      "1": "Trace",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 68,
@@ -5091,7 +5287,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pixilate"
     },
     "baseStats": {
       "hp": 68,
@@ -5111,7 +5307,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Steadfast",
+      "1": "Sharpness",
+      "H": "Justified"
     },
     "baseStats": {
       "hp": 68,
@@ -5194,7 +5392,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Effect Spore",
+      "1": "Poison Heal",
+      "H": "Quick Feet"
     },
     "baseStats": {
       "hp": 60,
@@ -5214,7 +5414,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Effect Spore",
+      "1": "Poison Heal",
+      "H": "Technician"
     },
     "baseStats": {
       "hp": 60,
@@ -5339,7 +5541,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hyper Cutter",
+      "1": "Intimidate",
+      "H": "Sheer Force"
     },
     "baseStats": {
       "hp": 50,
@@ -5359,7 +5563,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Huge Power"
     },
     "baseStats": {
       "hp": 50,
@@ -5379,7 +5583,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Rock Head",
+      "H": "Heavy Metal"
     },
     "baseStats": {
       "hp": 50,
@@ -5399,7 +5605,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Rock Head",
+      "H": "Heavy Metal"
     },
     "baseStats": {
       "hp": 60,
@@ -5419,7 +5627,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Rock Head",
+      "H": "Heavy Metal"
     },
     "baseStats": {
       "hp": 70,
@@ -5438,7 +5648,7 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Filter"
     },
     "baseStats": {
       "hp": 70,
@@ -5502,7 +5712,7 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pure Power"
     },
     "baseStats": {
       "hp": 60,
@@ -5608,7 +5818,7 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Strong Jaw"
     },
     "baseStats": {
       "hp": 70,
@@ -5628,7 +5838,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Simple",
+      "H": "Own Tempo"
     },
     "baseStats": {
       "hp": 60,
@@ -5648,7 +5860,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Magma Armor",
+      "1": "Solid Rock",
+      "H": "Anger Point"
     },
     "baseStats": {
       "hp": 70,
@@ -5668,7 +5882,7 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sheer Force"
     },
     "baseStats": {
       "hp": 70,
@@ -5687,7 +5901,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "White Smoke",
+      "1": "Drought",
+      "H": "Shell Armor"
     },
     "baseStats": {
       "hp": 70,
@@ -5706,7 +5922,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Own Tempo",
+      "H": "Gluttony"
     },
     "baseStats": {
       "hp": 60,
@@ -5725,7 +5943,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Own Tempo",
+      "H": "Gluttony"
     },
     "baseStats": {
       "hp": 80,
@@ -5744,7 +5964,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Own Tempo",
+      "1": "Tangled Feet",
+      "H": "Contrary"
     },
     "baseStats": {
       "hp": 60,
@@ -5916,7 +6138,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pixilate"
     },
     "baseStats": {
       "hp": 75,
@@ -5956,7 +6178,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hyper Cutter",
+      "1": "Shell Armor",
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 43,
@@ -5976,7 +6200,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hyper Cutter",
+      "1": "Shell Armor",
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 63,
@@ -5996,7 +6222,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Anticipation",
+      "H": "Hydration"
     },
     "baseStats": {
       "hp": 50,
@@ -6016,7 +6244,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Anticipation",
+      "H": "Hydration"
     },
     "baseStats": {
       "hp": 110,
@@ -6036,7 +6266,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Hydration",
+      "H": "Rain Dish"
     },
     "baseStats": {
       "hp": 40,
@@ -6056,7 +6288,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Drizzle",
+      "H": "Rain Dish"
     },
     "baseStats": {
       "hp": 60,
@@ -6076,7 +6310,8 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Suction Cups",
+      "H": "Storm Drain"
     },
     "baseStats": {
       "hp": 66,
@@ -6117,7 +6352,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Oblivious",
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 20,
@@ -6136,7 +6373,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Marvel Scale",
+      "1": "Competitive",
+      "H": "Cute Charm"
     },
     "baseStats": {
       "hp": 95,
@@ -6197,7 +6436,7 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Prankster"
     },
     "baseStats": {
       "hp": 64,
@@ -6217,7 +6456,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Solar Power",
+      "H": "Harvest"
     },
     "baseStats": {
       "hp": 99,
@@ -6298,7 +6539,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pressure",
+      "1": "Super Luck",
+      "H": "Justified"
     },
     "baseStats": {
       "hp": 65,
@@ -6356,7 +6599,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Ice Body",
+      "H": "Moody"
     },
     "baseStats": {
       "hp": 50,
@@ -6375,7 +6620,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Ice Body",
+      "H": "Moody"
     },
     "baseStats": {
       "hp": 80,
@@ -6394,7 +6641,7 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Refrigerate"
     },
     "baseStats": {
       "hp": 80,
@@ -7181,7 +7428,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Simple",
+      "1": "Unaware",
+      "H": "Moody"
     },
     "baseStats": {
       "hp": 59,
@@ -7201,7 +7450,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Simple",
+      "1": "Unaware",
+      "H": "Moody"
     },
     "baseStats": {
       "hp": 79,
@@ -7263,7 +7514,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Poison Point",
+      "H": "Leaf Guard"
     },
     "baseStats": {
       "hp": 40,
@@ -7283,7 +7536,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Poison Point",
+      "H": "Leaf Guard"
     },
     "baseStats": {
       "hp": 50,
@@ -7303,7 +7558,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Poison Point",
+      "H": "Technician"
     },
     "baseStats": {
       "hp": 60,
@@ -7408,7 +7665,8 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shed Skin",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 40,
@@ -7427,7 +7685,8 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shed Skin",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 40,
@@ -7446,7 +7705,8 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shed Skin",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 40,
@@ -7553,7 +7813,8 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Honey Gather",
+      "H": "Hustle"
     },
     "baseStats": {
       "hp": 30,
@@ -7657,7 +7918,7 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll"
     },
     "baseStats": {
       "hp": 45,
@@ -7761,7 +8022,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Run Away",
+      "1": "Pickup",
+      "H": "Skill Link"
     },
     "baseStats": {
       "hp": 55,
@@ -7780,7 +8043,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Technician",
+      "1": "Pickup",
+      "H": "Skill Link"
     },
     "baseStats": {
       "hp": 75,
@@ -7800,7 +8065,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Aftermath",
+      "1": "Unburden",
+      "H": "Flare Boost"
     },
     "baseStats": {
       "hp": 90,
@@ -7820,7 +8087,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Aftermath",
+      "1": "Unburden",
+      "H": "Flare Boost"
     },
     "baseStats": {
       "hp": 150,
@@ -7882,7 +8151,7 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Scrappy"
     },
     "baseStats": {
       "hp": 65,
@@ -7901,7 +8170,7 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate"
     },
     "baseStats": {
       "hp": 60,
@@ -7942,7 +8211,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Insomnia",
+      "1": "Super Luck",
+      "H": "Prankster"
     },
     "baseStats": {
       "hp": 60,
@@ -7962,7 +8233,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Insomnia",
+      "1": "Super Luck",
+      "H": "Moxie"
     },
     "baseStats": {
       "hp": 100,
@@ -8024,7 +8297,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Stench",
+      "1": "Aftermath",
+      "H": "Keen Eye"
     },
     "baseStats": {
       "hp": 63,
@@ -8044,7 +8319,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Stench",
+      "1": "Aftermath",
+      "H": "Keen Eye"
     },
     "baseStats": {
       "hp": 103,
@@ -8064,7 +8341,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Heatproof",
+      "H": "Heavy Metal"
     },
     "baseStats": {
       "hp": 57,
@@ -8106,7 +8385,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Tangled Feet",
+      "H": "Big Pecks"
     },
     "baseStats": {
       "hp": 76,
@@ -8253,7 +8534,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Steadfast",
+      "1": "Inner Focus",
+      "H": "Prankster"
     },
     "baseStats": {
       "hp": 40,
@@ -8273,7 +8556,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Steadfast",
+      "1": "Inner Focus",
+      "H": "Justified"
     },
     "baseStats": {
       "hp": 70,
@@ -8293,7 +8578,7 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Adaptability"
     },
     "baseStats": {
       "hp": 70,
@@ -8375,7 +8660,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Battle Armor",
+      "1": "Sniper",
+      "H": "Keen Eye"
     },
     "baseStats": {
       "hp": 40,
@@ -8395,7 +8682,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Battle Armor",
+      "1": "Sniper",
+      "H": "Keen Eye"
     },
     "baseStats": {
       "hp": 70,
@@ -8479,7 +8768,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Storm Drain",
+      "H": "Water Veil"
     },
     "baseStats": {
       "hp": 49,
@@ -8498,7 +8789,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Storm Drain",
+      "H": "Water Veil"
     },
     "baseStats": {
       "hp": 69,
@@ -8583,6 +8876,7 @@
     ],
     "abilities": {
       "0": "Pressure",
+      "1": "Keen Eye",
       "H": "Pickpocket"
     },
     "baseStats": {
@@ -8603,7 +8897,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Keen Eye",
+      "H": "Pickpocket"
     },
     "baseStats": {
       "hp": 55,
@@ -8624,6 +8920,7 @@
     ],
     "abilities": {
       "0": "Pressure",
+      "1": "Keen Eye",
       "H": "Pickpocket"
     },
     "baseStats": {
@@ -8731,7 +9028,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Own Tempo",
+      "1": "Oblivious",
+      "H": "Cloud Nine"
     },
     "baseStats": {
       "hp": 90,
@@ -8750,7 +9049,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Own Tempo",
+      "1": "Oblivious",
+      "H": "Cloud Nine"
     },
     "baseStats": {
       "hp": 110,
@@ -8770,7 +9071,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Lightning Rod",
+      "1": "Rock Head",
+      "H": "Reckless"
     },
     "baseStats": {
       "hp": 80,
@@ -8790,7 +9093,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Lightning Rod",
+      "1": "Rock Head",
+      "H": "Reckless"
     },
     "baseStats": {
       "hp": 105,
@@ -8810,7 +9115,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Lightning Rod",
+      "1": "Solid Rock",
+      "H": "Reckless"
     },
     "baseStats": {
       "hp": 115,
@@ -8829,7 +9136,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Leaf Guard",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 65,
@@ -8848,7 +9157,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Leaf Guard",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 100,
@@ -8993,7 +9304,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hustle",
+      "1": "Serene Grace",
+      "H": "Super Luck"
     },
     "baseStats": {
       "hp": 35,
@@ -9013,7 +9326,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hustle",
+      "1": "Serene Grace",
+      "H": "Super Luck"
     },
     "baseStats": {
       "hp": 55,
@@ -9099,7 +9414,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hyper Cutter",
+      "1": "Sand Veil",
+      "H": "Immunity"
     },
     "baseStats": {
       "hp": 65,
@@ -9141,7 +9458,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Snow Cloak",
+      "H": "Thick Fat"
     },
     "baseStats": {
       "hp": 50,
@@ -9161,7 +9480,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Oblivious",
+      "1": "Snow Cloak",
+      "H": "Thick Fat"
     },
     "baseStats": {
       "hp": 100,
@@ -9202,7 +9523,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Trace",
+      "1": "Download",
+      "H": "Analytic"
     },
     "baseStats": {
       "hp": 65,
@@ -9221,7 +9544,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Trace",
+      "1": "Download",
+      "H": "Analytic"
     },
     "baseStats": {
       "hp": 85,
@@ -9240,7 +9565,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Adaptability",
+      "1": "Download",
+      "H": "Analytic"
     },
     "baseStats": {
       "hp": 85,
@@ -9259,7 +9586,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Magnet Pull",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 30,
@@ -9279,7 +9608,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Magnet Pull",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 60,
@@ -9362,7 +9693,7 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate"
     },
     "baseStats": {
       "hp": 50,
@@ -9895,7 +10226,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -9914,7 +10245,7 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -9933,7 +10264,7 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -9952,7 +10283,7 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -9971,7 +10302,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -9990,7 +10321,7 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10009,7 +10340,7 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10028,7 +10359,7 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10047,7 +10378,7 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10066,7 +10397,7 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10085,7 +10416,7 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10104,7 +10435,7 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10123,7 +10454,7 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10142,7 +10473,7 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10161,7 +10492,7 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10180,7 +10511,7 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10199,7 +10530,7 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10218,7 +10549,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10237,7 +10568,7 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Multitype"
     },
     "baseStats": {
       "hp": 120,
@@ -10511,7 +10842,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Forewarn",
+      "1": "Synchronize",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 76,
@@ -10530,7 +10863,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Forewarn",
+      "1": "Synchronize",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 116,
@@ -10549,7 +10884,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Lightning Rod",
+      "1": "Motor Drive",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 45,
@@ -10568,7 +10905,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Lightning Rod",
+      "1": "Motor Drive",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 75,
@@ -10587,7 +10926,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Weak Armor",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 55,
@@ -10606,7 +10947,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Weak Armor",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 70,
@@ -10625,7 +10968,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Sand Stream",
+      "H": "Sand Force"
     },
     "baseStats": {
       "hp": 85,
@@ -10645,7 +10990,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Unaware",
+      "1": "Klutz",
+      "H": "Simple"
     },
     "baseStats": {
       "hp": 65,
@@ -10665,7 +11012,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Unaware",
+      "1": "Klutz",
+      "H": "Simple"
     },
     "baseStats": {
       "hp": 67,
@@ -10684,7 +11033,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Healer",
+      "1": "Regenerator",
+      "H": "Klutz"
     },
     "baseStats": {
       "hp": 103,
@@ -10704,7 +11055,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Healer"
     },
     "baseStats": {
       "hp": 103,
@@ -10723,7 +11074,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "Sheer Force",
+      "H": "Iron Fist"
     },
     "baseStats": {
       "hp": 75,
@@ -10742,7 +11095,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "Sheer Force",
+      "H": "Iron Fist"
     },
     "baseStats": {
       "hp": 85,
@@ -10761,7 +11116,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "Sheer Force",
+      "H": "Iron Fist"
     },
     "baseStats": {
       "hp": 105,
@@ -10780,7 +11137,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Hydration",
+      "H": "Water Absorb"
     },
     "baseStats": {
       "hp": 50,
@@ -10800,7 +11159,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Hydration",
+      "H": "Water Absorb"
     },
     "baseStats": {
       "hp": 75,
@@ -10820,7 +11181,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Poison Touch",
+      "H": "Water Absorb"
     },
     "baseStats": {
       "hp": 105,
@@ -10839,7 +11202,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "Inner Focus",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 120,
@@ -10858,7 +11223,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Inner Focus",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 75,
@@ -10878,7 +11245,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Chlorophyll",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 45,
@@ -10898,7 +11267,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Leaf Guard",
+      "1": "Chlorophyll",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 55,
@@ -10918,7 +11289,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Chlorophyll",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 75,
@@ -10938,7 +11311,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Swarm",
+      "H": "Speed Boost"
     },
     "baseStats": {
       "hp": 30,
@@ -10958,7 +11333,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Swarm",
+      "H": "Speed Boost"
     },
     "baseStats": {
       "hp": 40,
@@ -10978,7 +11355,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Swarm",
+      "H": "Speed Boost"
     },
     "baseStats": {
       "hp": 60,
@@ -11018,7 +11397,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Prankster",
+      "1": "Infiltrator",
+      "H": "Chlorophyll"
     },
     "baseStats": {
       "hp": 40,
@@ -11038,7 +11419,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Prankster",
+      "1": "Infiltrator",
+      "H": "Chlorophyll"
     },
     "baseStats": {
       "hp": 60,
@@ -11057,7 +11440,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Own Tempo",
+      "H": "Leaf Guard"
     },
     "baseStats": {
       "hp": 45,
@@ -11076,7 +11461,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Own Tempo",
+      "H": "Leaf Guard"
     },
     "baseStats": {
       "hp": 70,
@@ -11096,7 +11483,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Hustle",
+      "H": "Leaf Guard"
     },
     "baseStats": {
       "hp": 70,
@@ -11115,7 +11504,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Water Absorb",
+      "1": "Chlorophyll",
+      "H": "Storm Drain"
     },
     "baseStats": {
       "hp": 75,
@@ -11135,7 +11526,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Shell Armor",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 50,
@@ -11155,7 +11548,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy",
+      "1": "Shell Armor",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 70,
@@ -11174,7 +11569,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Telepathy",
+      "1": "Synchronize",
+      "H": "Analytic"
     },
     "baseStats": {
       "hp": 55,
@@ -11193,7 +11590,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Telepathy",
+      "1": "Synchronize",
+      "H": "Analytic"
     },
     "baseStats": {
       "hp": 75,
@@ -11213,7 +11612,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Wonder Skin",
+      "1": "Magic Guard",
+      "H": "Tinted Lens"
     },
     "baseStats": {
       "hp": 72,
@@ -11405,7 +11806,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Frisk",
+      "1": "Competitive",
+      "H": "Shadow Tag"
     },
     "baseStats": {
       "hp": 45,
@@ -11425,7 +11828,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Frisk",
+      "1": "Competitive",
+      "H": "Shadow Tag"
     },
     "baseStats": {
       "hp": 60,
@@ -11445,7 +11850,9 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Frisk",
+      "1": "Competitive",
+      "H": "Shadow Tag"
     },
     "baseStats": {
       "hp": 70,
@@ -11464,7 +11871,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Overcoat",
+      "1": "Magic Guard",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 45,
@@ -11483,7 +11892,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Overcoat",
+      "1": "Magic Guard",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 65,
@@ -11502,7 +11913,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Overcoat",
+      "1": "Magic Guard",
+      "H": "Regenerator"
     },
     "baseStats": {
       "hp": 110,
@@ -11522,7 +11935,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Big Pecks",
+      "H": "Hydration"
     },
     "baseStats": {
       "hp": 62,
@@ -11542,7 +11957,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Big Pecks",
+      "H": "Hydration"
     },
     "baseStats": {
       "hp": 75,
@@ -11561,7 +11978,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Ice Body",
+      "1": "Snow Cloak",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 36,
@@ -11580,7 +11999,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Ice Body",
+      "1": "Snow Cloak",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 51,
@@ -11599,7 +12020,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Ice Body",
+      "1": "Snow Warning",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 71,
@@ -11619,7 +12042,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Sap Sipper",
+      "H": "Serene Grace"
     },
     "baseStats": {
       "hp": 60,
@@ -11639,7 +12064,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Sap Sipper",
+      "H": "Serene Grace"
     },
     "baseStats": {
       "hp": 80,
@@ -11680,7 +12107,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Shed Skin",
+      "H": "No Guard"
     },
     "baseStats": {
       "hp": 50,
@@ -11700,7 +12129,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Shell Armor",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 70,
@@ -11720,7 +12151,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Water Absorb",
+      "1": "Cursed Body",
+      "H": "Damp"
     },
     "baseStats": {
       "hp": 55,
@@ -11740,7 +12173,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Water Absorb",
+      "1": "Cursed Body",
+      "H": "Damp"
     },
     "baseStats": {
       "hp": 100,
@@ -11759,7 +12194,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Plus",
+      "H": "Minus"
     },
     "baseStats": {
       "hp": 35,
@@ -11778,7 +12215,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Plus",
+      "H": "Minus"
     },
     "baseStats": {
       "hp": 65,
@@ -11838,7 +12277,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Flash Fire",
+      "1": "Flame Body",
+      "H": "Infiltrator"
     },
     "baseStats": {
       "hp": 50,
@@ -11858,7 +12299,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Flash Fire",
+      "1": "Flame Body",
+      "H": "Infiltrator"
     },
     "baseStats": {
       "hp": 60,
@@ -11878,7 +12321,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Flash Fire",
+      "1": "Flame Body",
+      "H": "Infiltrator"
     },
     "baseStats": {
       "hp": 60,
@@ -11980,7 +12425,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Snow Cloak",
+      "1": "Slush Rush",
+      "H": "Rattled"
     },
     "baseStats": {
       "hp": 55,
@@ -11999,7 +12446,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Snow Cloak",
+      "1": "Slush Rush",
+      "H": "Swift Swim"
     },
     "baseStats": {
       "hp": 95,
@@ -12039,7 +12488,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Regenerator",
+      "H": "Reckless"
     },
     "baseStats": {
       "hp": 45,
@@ -12058,7 +12509,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Regenerator",
+      "H": "Reckless"
     },
     "baseStats": {
       "hp": 65,
@@ -12077,7 +12530,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Rough Skin",
+      "1": "Sheer Force",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 77,
@@ -12097,7 +12552,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Iron Fist",
+      "1": "Klutz",
+      "H": "No Guard"
     },
     "baseStats": {
       "hp": 59,
@@ -12117,7 +12574,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Iron Fist",
+      "1": "Klutz",
+      "H": "No Guard"
     },
     "baseStats": {
       "hp": 89,
@@ -12157,7 +12616,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Sheer Force",
+      "H": "Hustle"
     },
     "baseStats": {
       "hp": 70,
@@ -12177,7 +12638,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Sheer Force",
+      "H": "Defiant"
     },
     "baseStats": {
       "hp": 100,
@@ -12197,7 +12660,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Sheer Force",
+      "H": "Tinted Lens"
     },
     "baseStats": {
       "hp": 110,
@@ -12217,7 +12682,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Big Pecks",
+      "1": "Overcoat",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 70,
@@ -12237,7 +12704,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Big Pecks",
+      "1": "Overcoat",
+      "H": "Weak Armor"
     },
     "baseStats": {
       "hp": 110,
@@ -12256,7 +12725,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Gluttony",
+      "1": "Flash Fire",
+      "H": "White Smoke"
     },
     "baseStats": {
       "hp": 85,
@@ -12276,7 +12747,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swarm",
+      "1": "Hustle",
+      "H": "Truant"
     },
     "baseStats": {
       "hp": 58,
@@ -12296,7 +12769,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Flame Body",
+      "1": "Flash Fire",
+      "H": "Swarm"
     },
     "baseStats": {
       "hp": 55,
@@ -12937,7 +13412,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Compound Eyes",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 38,
@@ -12956,7 +13433,8 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shed Skin",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 45,
@@ -12976,7 +13454,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Compound Eyes",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 80,
@@ -12996,7 +13476,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Compound Eyes",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 80,
@@ -13016,7 +13498,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Compound Eyes",
+      "H": "Friend Guard"
     },
     "baseStats": {
       "hp": 80,
@@ -13201,7 +13685,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Infiltrator",
+      "H": "Own Tempo"
     },
     "baseStats": {
       "hp": 62,
@@ -13220,7 +13706,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Infiltrator",
+      "H": "Prankster"
     },
     "baseStats": {
       "hp": 74,
@@ -13239,7 +13727,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Infiltrator",
+      "H": "Competitive"
     },
     "baseStats": {
       "hp": 74,
@@ -13381,7 +13871,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Contrary",
+      "1": "Suction Cups",
+      "H": "Infiltrator"
     },
     "baseStats": {
       "hp": 53,
@@ -13401,7 +13893,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Contrary",
+      "1": "Suction Cups",
+      "H": "Infiltrator"
     },
     "baseStats": {
       "hp": 86,
@@ -13441,7 +13935,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Poison Point",
+      "1": "Poison Touch",
+      "H": "Adaptability"
     },
     "baseStats": {
       "hp": 50,
@@ -13502,7 +13998,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Mega Launcher",
+      "1": "Sniper",
+      "H": "Quick Draw"
     },
     "baseStats": {
       "hp": 50,
@@ -13587,7 +14085,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Cheek Pouch",
+      "1": "Pickup",
+      "H": "Plus"
     },
     "baseStats": {
       "hp": 67,
@@ -13628,7 +14128,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sap Sipper",
+      "1": "Hydration",
+      "H": "Gooey"
     },
     "baseStats": {
       "hp": 45,
@@ -13647,7 +14149,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sap Sipper",
+      "1": "Hydration",
+      "H": "Gooey"
     },
     "baseStats": {
       "hp": 68,
@@ -13667,7 +14171,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sap Sipper",
+      "1": "Shell Armor",
+      "H": "Gooey"
     },
     "baseStats": {
       "hp": 58,
@@ -13686,7 +14192,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sap Sipper",
+      "1": "Hydration",
+      "H": "Gooey"
     },
     "baseStats": {
       "hp": 90,
@@ -13706,7 +14214,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sap Sipper",
+      "1": "Shell Armor",
+      "H": "Gooey"
     },
     "baseStats": {
       "hp": 80,
@@ -13726,7 +14236,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Frisk",
+      "H": "Harvest"
     },
     "baseStats": {
       "hp": 43,
@@ -13746,7 +14258,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Natural Cure",
+      "1": "Frisk",
+      "H": "Harvest"
     },
     "baseStats": {
       "hp": 85,
@@ -13766,7 +14280,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 44,
@@ -13786,7 +14302,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 49,
@@ -13806,7 +14324,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 54,
@@ -13826,7 +14346,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 59,
@@ -13846,7 +14368,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 55,
@@ -13866,7 +14390,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 65,
@@ -13886,7 +14412,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 75,
@@ -13906,7 +14434,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "baseStats": {
       "hp": 85,
@@ -13925,7 +14455,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Own Tempo",
+      "1": "Ice Body",
+      "H": "Sturdy"
     },
     "baseStats": {
       "hp": 55,
@@ -13944,7 +14476,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Own Tempo",
+      "1": "Ice Body",
+      "H": "Sturdy"
     },
     "baseStats": {
       "hp": 95,
@@ -13964,7 +14498,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Strong Jaw",
+      "1": "Ice Body",
+      "H": "Sturdy"
     },
     "baseStats": {
       "hp": 95,
@@ -13984,7 +14520,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Frisk",
+      "1": "Infiltrator",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 40,
@@ -14004,7 +14542,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": ""
+      "0": "Frisk",
+      "1": "Infiltrator",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 85,
@@ -14046,7 +14586,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Magic Bounce"
     },
     "baseStats": {
       "hp": 50,
@@ -14431,7 +14971,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hyper Cutter",
+      "1": "Iron Fist",
+      "H": "Anger Point"
     },
     "baseStats": {
       "hp": 47,
@@ -14451,7 +14993,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Hyper Cutter",
+      "1": "Iron Fist",
+      "H": "Anger Point"
     },
     "baseStats": {
       "hp": 97,
@@ -14579,7 +15123,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Honey Gather",
+      "1": "Shield Dust",
+      "H": "Sweet Veil"
     },
     "baseStats": {
       "hp": 40,
@@ -14599,7 +15145,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Honey Gather",
+      "1": "Shield Dust",
+      "H": "Sweet Veil"
     },
     "baseStats": {
       "hp": 60,
@@ -14618,7 +15166,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Vital Spirit",
+      "H": "Steadfast"
     },
     "baseStats": {
       "hp": 45,
@@ -14637,7 +15187,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Sand Rush",
+      "H": "Steadfast"
     },
     "baseStats": {
       "hp": 75,
@@ -14656,7 +15208,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Keen Eye",
+      "1": "Vital Spirit",
+      "H": "No Guard"
     },
     "baseStats": {
       "hp": 85,
@@ -14781,7 +15335,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Illuminate",
+      "1": "Effect Spore",
+      "H": "Rain Dish"
     },
     "baseStats": {
       "hp": 40,
@@ -14801,7 +15357,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Illuminate",
+      "1": "Effect Spore",
+      "H": "Rain Dish"
     },
     "baseStats": {
       "hp": 60,
@@ -14821,7 +15379,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Corrosion",
+      "1": "Stench",
+      "H": "Oblivious"
     },
     "baseStats": {
       "hp": 48,
@@ -14862,7 +15422,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Leaf Guard",
+      "1": "Oblivious",
+      "H": "Sweet Veil"
     },
     "baseStats": {
       "hp": 42,
@@ -14881,7 +15443,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Leaf Guard",
+      "1": "Oblivious",
+      "H": "Sweet Veil"
     },
     "baseStats": {
       "hp": 52,
@@ -14900,7 +15464,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Leaf Guard",
+      "1": "Queenly Majesty",
+      "H": "Sweet Veil"
     },
     "baseStats": {
       "hp": 72,
@@ -14919,7 +15485,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Flower Veil",
+      "1": "Triage",
+      "H": "Natural Cure"
     },
     "baseStats": {
       "hp": 51,
@@ -14982,7 +15550,8 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Battle Armor",
+      "H": "Battle Bond"
     },
     "baseStats": {
       "hp": 95,
@@ -15407,7 +15976,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Comatose"
     },
     "baseStats": {
       "hp": 65,
@@ -15449,7 +16018,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Iron Barbs",
+      "1": "Lightning Rod",
+      "H": "Sturdy"
     },
     "baseStats": {
       "hp": 65,
@@ -15469,7 +16040,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Berserk",
+      "1": "Sap Sipper",
+      "H": "Cloud Nine"
     },
     "baseStats": {
       "hp": 78,
@@ -15530,7 +16103,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Bulletproof",
+      "1": "Soundproof",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 45,
@@ -15550,7 +16125,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Bulletproof",
+      "1": "Soundproof",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 55,
@@ -15570,7 +16147,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Bulletproof",
+      "1": "Soundproof",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 75,
@@ -15589,7 +16168,7 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Unaware"
     },
     "baseStats": {
       "hp": 43,
@@ -15608,7 +16187,7 @@
       "Astral"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sturdy"
     },
     "baseStats": {
       "hp": 43,
@@ -16381,7 +16960,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Cotton Down",
+      "1": "Regenerator",
+      "H": "Effect Spore"
     },
     "baseStats": {
       "hp": 40,
@@ -16400,7 +16981,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Cotton Down",
+      "1": "Regenerator",
+      "H": "Effect Spore"
     },
     "baseStats": {
       "hp": 60,
@@ -16419,7 +17002,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Fluffy",
+      "1": "Run Away",
+      "H": "Bulletproof"
     },
     "baseStats": {
       "hp": 42,
@@ -16438,7 +17023,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Fluffy",
+      "1": "Steadfast",
+      "H": "Bulletproof"
     },
     "baseStats": {
       "hp": 72,
@@ -16499,7 +17086,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Steam Engine",
+      "1": "Heatproof",
+      "H": "Flash Fire"
     },
     "baseStats": {
       "hp": 30,
@@ -16519,7 +17108,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Steam Engine",
+      "1": "Flame Body",
+      "H": "Flash Fire"
     },
     "baseStats": {
       "hp": 80,
@@ -16539,7 +17130,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Steam Engine",
+      "1": "Flame Body",
+      "H": "Flash Fire"
     },
     "baseStats": {
       "hp": 110,
@@ -16559,7 +17152,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Ripen",
+      "1": "Gluttony",
+      "H": "Bulletproof"
     },
     "baseStats": {
       "hp": 40,
@@ -16579,7 +17174,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Ripen",
+      "1": "Gluttony",
+      "H": "Hustle"
     },
     "baseStats": {
       "hp": 70,
@@ -16599,7 +17196,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Ripen",
+      "1": "Gluttony",
+      "H": "Thick Fat"
     },
     "baseStats": {
       "hp": 110,
@@ -16619,7 +17218,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Gluttony",
+      "1": "Supersweet Syrup",
+      "H": "Sticky Hold"
     },
     "baseStats": {
       "hp": 80,
@@ -16639,7 +17240,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Supersweet Syrup",
+      "1": "Regenerator",
+      "H": "Sticky Hold"
     },
     "baseStats": {
       "hp": 106,
@@ -16658,7 +17261,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sand Spit",
+      "1": "Shed Skin",
+      "H": "Sand Veil"
     },
     "baseStats": {
       "hp": 52,
@@ -16677,7 +17282,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sand Spit",
+      "1": "Shed Skin",
+      "H": "Sand Veil"
     },
     "baseStats": {
       "hp": 72,
@@ -16697,7 +17304,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Flash Fire",
+      "1": "White Smoke",
+      "H": "Flame Body"
     },
     "baseStats": {
       "hp": 50,
@@ -16717,7 +17326,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Flash Fire",
+      "1": "White Smoke",
+      "H": "Flame Body"
     },
     "baseStats": {
       "hp": 100,
@@ -16862,7 +17473,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Healer",
+      "1": "Anticipation",
+      "H": "Magic Bounce"
     },
     "baseStats": {
       "hp": 42,
@@ -16881,7 +17494,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Healer",
+      "1": "Anticipation",
+      "H": "Magic Bounce"
     },
     "baseStats": {
       "hp": 57,
@@ -16901,7 +17516,9 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Healer",
+      "1": "Anticipation",
+      "H": "Magic Bounce"
     },
     "baseStats": {
       "hp": 57,
@@ -16920,7 +17537,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Gluttony",
+      "H": "Quick Feet"
     },
     "baseStats": {
       "hp": 38,
@@ -16940,7 +17559,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Gluttony",
+      "H": "Quick Feet"
     },
     "baseStats": {
       "hp": 38,
@@ -16959,7 +17580,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Gluttony",
+      "H": "Quick Feet"
     },
     "baseStats": {
       "hp": 78,
@@ -16979,7 +17602,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Gluttony",
+      "H": "Quick Feet"
     },
     "baseStats": {
       "hp": 78,
@@ -16999,7 +17624,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Reckless",
+      "1": "Guts",
+      "H": "Defiant"
     },
     "baseStats": {
       "hp": 93,
@@ -17018,7 +17645,8 @@
       "Fairy"
     ],
     "abilities": {
-      "0": ""
+      "0": "Sweet Veil",
+      "H": "Aroma Veil"
     },
     "baseStats": {
       "hp": 45,
@@ -17206,7 +17834,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Synchronize",
+      "H": "Psychic Surge"
     },
     "baseStats": {
       "hp": 60,
@@ -17226,7 +17856,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Own Tempo",
+      "1": "Synchronize",
+      "H": "Psychic Surge"
     },
     "baseStats": {
       "hp": 70,
@@ -17371,7 +18003,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Frisk",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 73,
@@ -17391,7 +18025,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Intimidate",
+      "1": "Frisk",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 103,
@@ -17410,7 +18046,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Quick Feet",
+      "H": "Honey Gather"
     },
     "baseStats": {
       "hp": 60,
@@ -17429,7 +18067,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "Quick Feet",
+      "H": "Unnerve"
     },
     "baseStats": {
       "hp": 90,
@@ -17449,7 +18089,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "Bulletproof",
+      "H": "Unnerve"
     },
     "baseStats": {
       "hp": 130,
@@ -17490,7 +18132,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Reckless",
+      "1": "Adaptability",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 70,
@@ -17509,7 +18153,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Rock Head",
+      "1": "Adaptability",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 70,
@@ -17528,7 +18174,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Rattled",
+      "1": "Adaptability",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 70,
@@ -17548,7 +18196,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Adaptability",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 120,
@@ -17568,7 +18218,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Swift Swim",
+      "1": "Adaptability",
+      "H": "Mold Breaker"
     },
     "baseStats": {
       "hp": 120,
@@ -17821,7 +18473,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Static",
+      "1": "Natural Cure",
+      "H": "Iron Fist"
     },
     "baseStats": {
       "hp": 45,
@@ -17841,7 +18495,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Volt Absorb",
+      "1": "Natural Cure",
+      "H": "Iron Fist"
     },
     "baseStats": {
       "hp": 60,
@@ -17861,7 +18517,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": ""
+      "0": "Volt Absorb",
+      "1": "Natural Cure",
+      "H": "Iron Fist"
     },
     "baseStats": {
       "hp": 70,
@@ -17946,7 +18604,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Purifying Salt",
+      "1": "Sturdy",
+      "H": "Clear Body"
     },
     "baseStats": {
       "hp": 55,
@@ -17965,7 +18625,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Purifying Salt",
+      "1": "Sturdy",
+      "H": "Clear Body"
     },
     "baseStats": {
       "hp": 60,
@@ -17984,7 +18646,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Purifying Salt",
+      "1": "Sturdy",
+      "H": "Clear Body"
     },
     "baseStats": {
       "hp": 100,
@@ -18068,7 +18732,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Anticipation",
+      "1": "Frisk",
+      "H": "Speed Boost"
     },
     "baseStats": {
       "hp": 30,
@@ -18087,7 +18753,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Opportunist",
+      "1": "Frisk",
+      "H": "Speed Boost"
     },
     "baseStats": {
       "hp": 95,
@@ -18107,7 +18775,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Mold Breaker",
+      "1": "Own Tempo",
+      "H": "Pickpocket"
     },
     "baseStats": {
       "hp": 50,
@@ -18127,7 +18797,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Mold Breaker",
+      "1": "Own Tempo",
+      "H": "Pickpocket"
     },
     "baseStats": {
       "hp": 65,
@@ -18147,7 +18819,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Mold Breaker",
+      "1": "Own Tempo",
+      "H": "Pickpocket"
     },
     "baseStats": {
       "hp": 85,
@@ -18166,7 +18840,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Gooey",
+      "1": "Rattled",
+      "H": "Sand Veil"
     },
     "baseStats": {
       "hp": 10,
@@ -18185,7 +18861,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Gooey",
+      "1": "Rattled",
+      "H": "Sand Veil"
     },
     "baseStats": {
       "hp": 35,
@@ -18205,7 +18883,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": ""
+      "0": "Big Pecks",
+      "1": "Keen Eye",
+      "H": "Rocky Payload"
     },
     "baseStats": {
       "hp": 70,
@@ -18332,7 +19012,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Pickup",
+      "1": "Sand Force",
+      "H": "Fluffy"
     },
     "baseStats": {
       "hp": 50,
@@ -18372,7 +19054,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Snow Cloak",
+      "H": "Sheer Force"
     },
     "baseStats": {
       "hp": 108,
@@ -18391,7 +19075,9 @@
       "Ice"
     ],
     "abilities": {
-      "0": ""
+      "0": "Thick Fat",
+      "1": "Slush Rush",
+      "H": "Sheer Force"
     },
     "baseStats": {
       "hp": 170,
@@ -18410,7 +19096,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Unaware",
+      "1": "Oblivious",
+      "H": "Water Veil"
     },
     "baseStats": {
       "hp": 150,
@@ -18556,7 +19244,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Inner Focus",
+      "1": "Early Bird",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 70,
@@ -18576,7 +19266,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Cud Chew",
+      "1": "Armor Tail",
+      "H": "Sap Sipper"
     },
     "baseStats": {
       "hp": 120,
@@ -19274,7 +19966,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Light Metal",
+      "1": "Heavy Metal",
+      "H": "Stalwart"
     },
     "baseStats": {
       "hp": 70,
@@ -19294,7 +19988,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Stamina",
+      "1": "Sturdy",
+      "H": "Stalwart"
     },
     "baseStats": {
       "hp": 90,
@@ -19370,7 +20066,9 @@
       "Grass"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Insomnia",
+      "H": "Klutz"
     },
     "baseStats": {
       "hp": 52,
@@ -19390,7 +20088,9 @@
       "Fire"
     ],
     "abilities": {
-      "0": ""
+      "0": "Chlorophyll",
+      "1": "Insomnia",
+      "H": "Moody"
     },
     "baseStats": {
       "hp": 65,
@@ -19410,7 +20110,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Keen Eye",
+      "H": "Magic Guard"
     },
     "baseStats": {
       "hp": 50,
@@ -19430,7 +20132,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Compound Eyes",
+      "H": "Overcoat"
     },
     "baseStats": {
       "hp": 60,
@@ -19450,7 +20154,9 @@
       "Psychic"
     ],
     "abilities": {
-      "0": ""
+      "0": "Weak Armor",
+      "1": "No Guard",
+      "H": "Light Metal"
     },
     "baseStats": {
       "hp": 110,
@@ -19470,7 +20176,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Regenerator",
+      "1": "Mold Breaker",
+      "H": "Liquid Ooze"
     },
     "baseStats": {
       "hp": 106,
@@ -19490,7 +20198,7 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Magic Guard"
     },
     "baseStats": {
       "hp": 106,
@@ -19509,7 +20217,9 @@
       "Electric"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Static",
+      "H": "Damp"
     },
     "baseStats": {
       "hp": 53,
@@ -19529,7 +20239,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Static",
+      "H": "Damp"
     },
     "baseStats": {
       "hp": 88,
@@ -19549,7 +20261,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Shield Dust",
+      "1": "Static",
+      "H": "Damp"
     },
     "baseStats": {
       "hp": 108,
@@ -19569,7 +20283,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Bulletproof",
+      "H": "Justified"
     },
     "baseStats": {
       "hp": 72,
@@ -19589,7 +20305,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Bulletproof",
+      "H": "Justified"
     },
     "baseStats": {
       "hp": 102,
@@ -19608,7 +20326,9 @@
       "Ghost"
     ],
     "abilities": {
-      "0": ""
+      "0": "Frisk",
+      "1": "Limber",
+      "H": "Unnerve"
     },
     "baseStats": {
       "hp": 50,
@@ -19628,7 +20348,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Frisk",
+      "1": "Limber",
+      "H": "Trace"
     },
     "baseStats": {
       "hp": 80,
@@ -19648,7 +20370,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Neutralizing Gas",
+      "1": "Hyper Cutter",
+      "H": "Compound Eyes"
     },
     "baseStats": {
       "hp": 40,
@@ -19668,7 +20392,9 @@
       "Dragon"
     ],
     "abilities": {
-      "0": ""
+      "0": "Neutralizing Gas",
+      "1": "Hyper Cutter",
+      "H": "Compound Eyes"
     },
     "baseStats": {
       "hp": 85,
@@ -19709,7 +20435,9 @@
       "Water"
     ],
     "abilities": {
-      "0": ""
+      "0": "Water Veil",
+      "1": "Heatproof",
+      "H": "Swift Swim"
     },
     "baseStats": {
       "hp": 48,
@@ -19729,7 +20457,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Water Veil",
+      "1": "Heatproof",
+      "H": "Light Metal"
     },
     "baseStats": {
       "hp": 73,
@@ -19749,7 +20479,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": ""
+      "0": "Guts",
+      "1": "Heatproof",
+      "H": "Light Metal"
     },
     "baseStats": {
       "hp": 103,
@@ -19835,7 +20567,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Storm Drain",
+      "1": "Vital Spirit",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 40,
@@ -19855,7 +20589,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": ""
+      "0": "Storm Drain",
+      "1": "Vital Spirit",
+      "H": "Telepathy"
     },
     "baseStats": {
       "hp": 60,
@@ -19875,7 +20611,9 @@
       "Normal"
     ],
     "abilities": {
-      "0": ""
+      "0": "Electromorphosis",
+      "1": "Sticky Hold",
+      "H": "Cud Chew"
     },
     "baseStats": {
       "hp": 136,
@@ -19959,7 +20697,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Solid Rock",
+      "H": "Sniper"
     },
     "baseStats": {
       "hp": 45,
@@ -19978,7 +20718,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Technician",
+      "H": "Sniper"
     },
     "baseStats": {
       "hp": 70,
@@ -19997,7 +20739,9 @@
       "Rock"
     ],
     "abilities": {
-      "0": ""
+      "0": "Levitate",
+      "1": "Technician",
+      "H": "Sniper"
     },
     "baseStats": {
       "hp": 90,
@@ -20017,7 +20761,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Compound Eyes",
+      "1": "Snow Cloak",
+      "H": "Ice Body"
     },
     "baseStats": {
       "hp": 40,
@@ -20037,7 +20783,9 @@
       "Bug"
     ],
     "abilities": {
-      "0": ""
+      "0": "Compound Eyes",
+      "1": "Mountaineer",
+      "H": "Ice Body"
     },
     "baseStats": {
       "hp": 70,
