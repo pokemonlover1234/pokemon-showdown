@@ -4437,6 +4437,22 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ["Standard"],
 		gameType: 'doubles',
 	},
+	{
+		name: "[Gen 9] Constellera",
+		mod: "gen9constellera",
+		ruleset: ["Standard"],
+	},
+	{
+		name: "[Gen 9] Constellera Doubles",
+		mod: "gen9constellera",
+		ruleset: ["Standard"],
+		gameType: 'doubles',
+	},
+	{
+		name: "[Gen 9] Constellera LC",
+		mod: "gen9constellera",
+		ruleset: ["Standard", "Little Cup"],
+	},
 
 	// RoA Spotlight
 	///////////////////////////////////////////////////////////////////
