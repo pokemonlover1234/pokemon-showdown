@@ -4095,7 +4095,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Dragon Claw",
 		pp: 15,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
+		secondary: null,
 		target: "normal",
 		type: "Dragon",
 		contestType: "Cool",
@@ -16068,7 +16069,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Shadow Claw",
 		pp: 15,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
 		critRatio: 2,
 		target: "normal",
 		type: "Ghost",
@@ -21591,19 +21592,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Astral",
 	},
-	constellerapunch: {
-		accuracy: 90,
-		basePower: 40,
-		pp: 15,
-		category: "Physical",
-		isNonstandard: "Custom",
-		name: "Constellera Punch",
-		priority: 0,
-		flags: { punch: 1, metronome: 1 },
-		multihit: 2,
-		target: "normal",
-		type: "Astral",
-	},
 	magictome: {
 		accuracy: 100,
 		basePower: 75,
@@ -21616,7 +21604,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		self: {
 			chance: 30,
 			boosts: {
-				spa : 1,
+				spa: 1,
 			},
 		},
 		target: "normal",
@@ -21633,7 +21621,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { metronome: 1 },
 		multihit: [2, 5],
 		target: "normal",
-		type: "Astral"
+		type: "Astral",
 	},
 	cosmicray: {
 		accuracy: 100,
@@ -21782,7 +21770,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				return 5;
 			},
 			onAnyAfterHit(source, target, move) {
-				if (target !== source && this.effectState.target.hasAlly(target) && target.runEffectiveness(move) < 0) {
+				// runImmunity returns true if not immune
+				if (target !== source && this.effectState.target.hasAlly(target) &&
+					target.runEffectiveness(move) < 0 && target.runImmunity(move)) {
 					this.add('-activate', target, 'move: Astral Projection');
 					target.heal(Math.floor(target.maxhp / 4));
 				}
