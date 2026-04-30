@@ -6096,8 +6096,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		desc: "During Night Time, the user heals 1/8 HP when it knocks out an opponent.",
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
-				this.heal(source.maxhp / 8, source, source, source.getAbility())
+				this.heal(source.maxhp / 8, source, source, source.getAbility());
 			}
-		}
-	}
+		},
+	},
 };

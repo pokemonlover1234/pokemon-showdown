@@ -7700,4 +7700,53 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "User becomes immune to status effects until the end of the turn, if user moves before the target. Lowers the user's Speed by one stage.",
 		shortDesc: "User is immune to status until end of turn. User's speed drops by 1 stage.",
 	},
+	galacticbeatdown: {
+		name: "Galactic Beatdown",
+		desc: "10% chance to lower foe's defense by 1",
+	},
+	gravitationslam: {
+		name: "Gravitation Slam",
+		desc: "User takes 33% recoil",
+	},
+	magictome: {
+		name: "Magic Tome",
+		desc: "30% chance to raise user's Sp.Atk by 1",
+	},
+	shootingstar: {
+		name: "Shooting Star",
+		desc: "Hits 2-5 times",
+	},
+	cosmicray: {
+		name: "Cosmic Ray",
+		desc: "20% chance to confuse the target",
+	},
+	nova: {
+		name: "Nova",
+		desc: "Lowers the user's Sp.Atk and Sp.Def by 1 stage",
+	},
+	dejavu: {
+		name: "Deja Vu",
+		desc: "The user's next move is executed twice",
+		end: "Deja Vu triggers the user's move twice!",
+	},
+	ritual: {
+		name: "Ritual",
+		desc: "If the user's HP reaches 0, they will be revived to 25% of their max HP when the player switches in a new pokemon",
+		shortDesc: "After fainting, this Pokemon will revive with 25% HP after switched out",
+	},
+	starlightkick: {
+		name: "Starlight Kick",
+		desc: "10% chance to make the target flinch",
+	},
+	starfallblade: {
+		name: "Starfall Blade",
+		desc: "Power doubles with each consecutive hit (160 max)",
+	},
+	astralprojection: {
+		name: "Astral Projection",
+		desc: "Sets up a screen for 5 turns that heals the pokemon on the user's side by 25% of their max HP whenever they are attacked by a move they resist",
+		shortDesc: "Sets up a screen that heals the pokemon on your side by 25% when attacked by a resisted move.",
+		start: "  Astral Projection is making [TEAM] heal through defense!",
+		end: "  [TEAM]'s Astral Projection wore off!",
+	},
 };
