@@ -1658,7 +1658,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "trade",
 		eggGroups: ["Human-Like"],
 		canGigantamax: "G-Max Chi Strike",
-   },
+	},
 	machampmega: {
 		num: 68,
 		name: "Machamp-Mega",
@@ -1673,7 +1673,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Machampite",
-   },
+	},
 	machampgmax: {
 		num: 68,
 		name: "Machamp-Gmax",
@@ -14836,7 +14836,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Silvally-Bug", "Silvally-Dark", "Silvally-Dragon", "Silvally-Electric", "Silvally-Fairy", "Silvally-Fighting", "Silvally-Fire", "Silvally-Flying", "Silvally-Ghost", "Silvally-Grass", "Silvally-Ground", "Silvally-Ice", "Silvally-Poison", "Silvally-Psychic", "Silvally-Rock", "Silvally-Steel", "Silvally-Water", "Silvally-Astral"],
 		formeOrder: [
 			"Silvally", "Silvally-Fighting", "Silvally-Flying", "Silvally-Poison", "Silvally-Ground", "Silvally-Rock", "Silvally-Bug", "Silvally-Ghost", "Silvally-Steel",
-			"Silvally-Fire", "Silvally-Water", "Silvally-Grass", "Silvally-Electric", "Silvally-Psychic", "Silvally-Ice", "Silvally-Dragon", "Silvally-Dark", "Silvally-Fairy", "Silvally-Astral"
+			"Silvally-Fire", "Silvally-Water", "Silvally-Grass", "Silvally-Electric", "Silvally-Psychic", "Silvally-Ice", "Silvally-Dragon", "Silvally-Dark", "Silvally-Fairy", "Silvally-Astral",
 		],
 	},
 	silvallybug: {
