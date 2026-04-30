@@ -2642,4 +2642,21 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Dark Rock",
 		desc: "Holder's use of Moonlit Night lasts 8 turns instead of 5.",
 	},
+	astralgem: {
+		name: "Astral Gem",
+		desc: "Holder's first successful Astral type attack will have 1.3x power. Single use.",
+	},
+	galacticplate: {
+		name: "Galactic Plate",
+		desc: "Holder's Astral type attacks have 1.2x power. Arceus with Multitype changes to Arceus-Astral. Judgement is Astral type.",
+	},
+	astralmemory: {
+		name: "Astral Memory",
+		desc: "Silvally with RKS System changes to Silvally-Astral. Multi-Attack is Astral Type",
+	},
+	energyherb: {
+		name: "Energy Herb",
+		desc: "If Holder has to Recharge, it eliminates the effect. Single use",
+		end: "  [POKEMON] immediately recharged using its Energy Herb",
+	},
 };
