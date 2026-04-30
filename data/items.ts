@@ -8280,4 +8280,60 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			basePower: 60,
 		},
 	},
+	energyherb: {
+		name: "Energy Herb",
+		fling: {
+			basePower: 60,
+		},
+		onTryAddVolatile(status, target, source, effect) {
+			if (status.id === "mustrecharge") {
+				if (target.eatItem()) {
+					return null;
+				}
+			}
+		},
+		onEat() { },
+	},
+	astralgem: {
+		name: "Astral Gem",
+		fling: {
+			basePower: 60,
+		},
+		isGem: true,
+		onSourceTryPrimaryHit(target, source, move) {
+			if (target === source || move.category === 'Status' || move.flags['pledgecombo']) return;
+			if (move.type === 'Astral' && source.useItem()) {
+				source.addVolatile('gem');
+			}
+		},
+	},
+	galacticplate: {
+		name: "Galactic Plate",
+		onPlate: 'Astral',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move && move.type === 'Astral') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 493) || pokemon.baseSpecies.num === 493) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Arceus-Astral",
+	},
+	astralmemory: {
+		name: "Astral Memory",
+		onMemory: 'Astral',
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Silvally-Astral",
+		itemUser: ["Silvally-Astral"],
+	},
 };
