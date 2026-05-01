@@ -7748,5 +7748,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Sets up a screen that heals the pokemon on your side by 25% when attacked by a resisted move.",
 		start: "  Astral Protection is making [TEAM] heal through defense!",
 		end: "  [TEAM]'s Astral Protection wore off!",
+		activate: "  Astral Protection heals [POKEMON]",
 	},
 };
