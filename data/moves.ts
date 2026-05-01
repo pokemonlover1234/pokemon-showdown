@@ -21704,10 +21704,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Ritual",
 		priority: 0,
 		flags: { metronome: 1 },
+		slotCondition: "ritual",
 		// Rest implemented in side.ts chooseSwitch
-		onAfterMove(source, target, move) {
-			source.ritualFlag = true;
-		},
 		target: "normal",
 		type: "Astral",
 	},

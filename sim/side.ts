@@ -956,7 +956,14 @@ export class Side {
 				choice: 'revivalblessing',
 				pokemon,
 				target: targetPokemon,
-			});
+			} as ChosenAction);
+
+			if (this.slotConditions[pokemon.position]['ritual']) {
+				pokemon.fainted = false;
+				pokemon.heal(pokemon.maxhp / 4);
+				this.battle.add("-heal", pokemon, pokemon.maxhp / 4, '[from] move: Ritual');
+				pokemon.side.removeSlotCondition(pokemon, 'ritual');
+			}
 			return true;
 		}
 
@@ -996,12 +1003,11 @@ export class Side {
 			target: targetPokemon,
 		});
 
-		// Handle ritual
-		const ritualed = this.pokemon.filter(p => p && p.fainted && p.ritualFlag);
-		for (const ally of ritualed) {
-			ally.ritualFlag = false;
-			ally.fainted = false;
-			ally.hp = Math.floor(ally.maxhp / 4);
+		if (this.slotConditions[pokemon.position]['ritual']) {
+			pokemon.fainted = false;
+			pokemon.heal(pokemon.maxhp / 4);
+			this.battle.add("-heal", pokemon, pokemon.maxhp / 4, '[from] move: Ritual');
+			pokemon.side.removeSlotCondition(pokemon, 'ritual');
 		}
 
 		return true;
