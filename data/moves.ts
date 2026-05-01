@@ -21699,13 +21699,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			onModifyMove(move, pokemon, target) {
 				this.add('-end', pokemon, "Deja Vu");
 				delete pokemon.volatiles['dejavu'];
-				if (move.multihit) {
-					if (Array.isArray(move.multihit) && move.multihit[0] && move.multihit[1]) {
-						move.multihit = [move.multihit[0] * 2, move.multihit[1] * 2];
-					} else {
-						move.multihit = 2;
-					}
-				}
+				this.add('-singleturn', target, 'move: Deja Vu', `[of] ${pokemon}`);
+				this.queue.prioritizeAction(this.queue.resolveAction({
+					choice: 'move',
+					pokemon,
+					moveid: move.id,
+					targetLoc: pokemon.lastMoveTargetLoc!,
+				})[0] as MoveAction);
 			},
 		},
 		target: "self",
