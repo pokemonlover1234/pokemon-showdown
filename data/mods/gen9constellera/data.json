@@ -62,7 +62,9 @@
       "spd": 100,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "sludgewave"
+    ],
     "rmmoves": []
   },
   "venusaurmega": {
@@ -146,7 +148,10 @@
       "spd": 85,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "blueflare",
+      "crushclaw"
+    ],
     "rmmoves": []
   },
   "charizardmegay": {
@@ -229,7 +234,15 @@
       "spd": 105,
       "spe": 78
     },
-    "addmoves": [],
+    "addmoves": [
+      "heavyslam",
+      "steelbeam",
+      "spinout",
+      "shelter",
+      "steelroller",
+      "steamroller",
+      "ironhead"
+    ],
     "rmmoves": []
   },
   "blastoisemega": {
@@ -310,7 +323,9 @@
       "spd": 80,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "scaleshot"
+    ],
     "rmmoves": []
   },
   "weedle": {
@@ -375,7 +390,12 @@
       "spd": 80,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "barbbarrage",
+      "bugbuzz",
+      "lunge",
+      "dualwingbeat"
+    ],
     "rmmoves": []
   },
   "beedrillmega": {
@@ -477,7 +497,11 @@
       "spd": 70,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "gearup",
+      "flashcannon",
+      "volttackle"
+    ],
     "rmmoves": []
   },
   "pikachupopstar": {
@@ -497,7 +521,12 @@
       "spd": 70,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "playrough",
+      "dazzlinggleam",
+      "baby-dolleyes",
+      "volttackle"
+    ],
     "rmmoves": []
   },
   "pikachulibre": {
@@ -517,7 +546,11 @@
       "spd": 60,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "circlethrow",
+      "skyuppercut",
+      "volttackle"
+    ],
     "rmmoves": []
   },
   "pikachubelle": {
@@ -537,7 +570,11 @@
       "spd": 100,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "blizzard",
+      "snowscape",
+      "volttackle"
+    ],
     "rmmoves": []
   },
   "pikachuphd": {
@@ -557,7 +594,11 @@
       "spd": 90,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "hyperbeam",
+      "zapcannon",
+      "volttackle"
+    ],
     "rmmoves": []
   },
   "raichu": {
@@ -578,7 +619,14 @@
       "spd": 80,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "plasmafists",
+      "power-uppunch",
+      "doubleshock",
+      "floatyfall",
+      "dazzlinggleam",
+      "drainpunch"
+    ],
     "rmmoves": []
   },
   "raichumegax": {
@@ -636,7 +684,12 @@
       "spd": 85,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "splishysplash",
+      "glitzyglow",
+      "volttackle",
+      "dazzlinggleam"
+    ],
     "rmmoves": []
   },
   "nidoranf": {
@@ -700,7 +753,9 @@
       "spd": 85,
       "spe": 76
     },
-    "addmoves": [],
+    "addmoves": [
+      "scaleshot"
+    ],
     "rmmoves": []
   },
   "nidoranm": {
@@ -764,7 +819,9 @@
       "spd": 75,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "hyperdrill"
+    ],
     "rmmoves": []
   },
   "cleffa": {
@@ -786,7 +843,12 @@
       "spd": 55,
       "spe": 15
     },
-    "addmoves": [],
+    "addmoves": [
+      "shootingstar",
+      "cosmicray",
+      "ritual",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "clefairy": {
@@ -830,7 +892,11 @@
       "spd": 90,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "floatyfall",
+      "airslash",
+      "healblock"
+    ],
     "rmmoves": []
   },
   "clefablemega": {
@@ -913,7 +979,9 @@
       "spd": 100,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "mysticalpower"
+    ],
     "rmmoves": []
   },
   "ninetalesalola": {
@@ -935,7 +1003,9 @@
       "spd": 100,
       "spe": 109
     },
-    "addmoves": [],
+    "addmoves": [
+      "freezyfrost"
+    ],
     "rmmoves": []
   },
   "igglybuff": {
@@ -1001,7 +1071,12 @@
       "spd": 50,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "mindblown",
+      "steamroller",
+      "moonblast",
+      "fakeout"
+    ],
     "rmmoves": []
   },
   "oddish": {
@@ -1067,7 +1142,9 @@
       "spd": 90,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "boomburst"
+    ],
     "rmmoves": []
   },
   "bellossom": {
@@ -1088,7 +1165,9 @@
       "spd": 100,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "boomburst"
+    ],
     "rmmoves": []
   },
   "venonat": {
@@ -1132,7 +1211,9 @@
       "spd": 75,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "scaleshot"
+    ],
     "rmmoves": []
   },
   "diglett": {
@@ -1218,7 +1299,9 @@
       "spd": 70,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "headcharge"
+    ],
     "rmmoves": []
   },
   "meowth": {
@@ -1302,7 +1385,12 @@
       "spd": 65,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "ficklebeam",
+      "dazzlinggleam",
+      "glitzyglow",
+      "spikes"
+    ],
     "rmmoves": []
   },
   "persianalola": {
@@ -1323,7 +1411,11 @@
       "spd": 65,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "baddybad",
+      "spikes",
+      "toxicspikes"
+    ],
     "rmmoves": []
   },
   "perrserker": {
@@ -1344,7 +1436,14 @@
       "spd": 60,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "headcharge",
+      "hypnosis",
+      "outrage",
+      "thunderwave",
+      "bulkup",
+      "liquidation"
+    ],
     "rmmoves": []
   },
   "psyduck": {
@@ -1386,7 +1485,9 @@
       "spd": 80,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "mysticalpower"
+    ],
     "rmmoves": []
   },
   "growlithe": {
@@ -1450,7 +1551,9 @@
       "spd": 80,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "nobleroar"
+    ],
     "rmmoves": []
   },
   "arcaninehisui": {
@@ -1472,7 +1575,9 @@
       "spd": 80,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "nobleroar"
+    ],
     "rmmoves": []
   },
   "abra": {
@@ -1535,7 +1640,9 @@
       "spd": 95,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "psychoboost"
+    ],
     "rmmoves": []
   },
   "alakazammega": {
@@ -1617,7 +1724,13 @@
       "spd": 85,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "forcepalm",
+      "upperhand",
+      "circlethrow",
+      "stormthrow",
+      "drainpunch"
+    ],
     "rmmoves": []
   },
   "tentacool": {
@@ -1661,7 +1774,10 @@
       "spd": 120,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "mortalspin",
+      "powerwhip"
+    ],
     "rmmoves": []
   },
   "geodude": {
@@ -1771,7 +1887,9 @@
       "spd": 65,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "skullbash"
+    ],
     "rmmoves": []
   },
   "golemalola": {
@@ -1793,7 +1911,10 @@
       "spd": 65,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "skullbash",
+      "rockwrecker"
+    ],
     "rmmoves": []
   },
   "ponyta": {
@@ -1835,7 +1956,9 @@
       "spd": 65,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "rapidash": {
@@ -1856,7 +1979,12 @@
       "spd": 80,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "jumpkick",
+      "blazekick",
+      "hyperdrill",
+      "stompingtantrum"
+    ],
     "rmmoves": []
   },
   "rapidashgalar": {
@@ -1878,7 +2006,12 @@
       "spd": 80,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "jumpkick",
+      "lifedew",
+      "hyperdrill",
+      "stompingtantrum"
+    ],
     "rmmoves": []
   },
   "slowpoke": {
@@ -1943,7 +2076,14 @@
       "spd": 80,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "explosion",
+      "iceshard",
+      "iciclespear",
+      "rockblast",
+      "crabhammer",
+      "ancientpower"
+    ],
     "rmmoves": []
   },
   "slowbromega": {
@@ -1985,7 +2125,16 @@
       "spd": 70,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "explosion",
+      "iceshard",
+      "crabhammer",
+      "firepunch",
+      "thunderpunch",
+      "healblock",
+      "toxicspikes",
+      "ancientpower"
+    ],
     "rmmoves": []
   },
   "slowking": {
@@ -2007,7 +2156,14 @@
       "spd": 110,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "explosion",
+      "iceshard",
+      "iciclespear",
+      "rockblast",
+      "healblock",
+      "ancientpower"
+    ],
     "rmmoves": []
   },
   "slowkinggalar": {
@@ -2029,7 +2185,13 @@
       "spd": 110,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "explosion",
+      "iceshard",
+      "iciclespear",
+      "rockblast",
+      "ancientpower"
+    ],
     "rmmoves": []
   },
   "doduo": {
@@ -2073,7 +2235,9 @@
       "spd": 60,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "triplearrows"
+    ],
     "rmmoves": []
   },
   "seel": {
@@ -2116,7 +2280,10 @@
       "spd": 95,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "bouncybubble",
+      "freeze-dry"
+    ],
     "rmmoves": []
   },
   "shellder": {
@@ -2159,7 +2326,10 @@
       "spd": 45,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "shelter",
+      "mortalspin"
+    ],
     "rmmoves": []
   },
   "gastly": {
@@ -2225,7 +2395,10 @@
       "spd": 75,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "eeriespell",
+      "shadowsneak"
+    ],
     "rmmoves": []
   },
   "krabby": {
@@ -2267,7 +2440,10 @@
       "spd": 50,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "gigatonhammer",
+      "crushclaw"
+    ],
     "rmmoves": []
   },
   "voltorb": {
@@ -2331,7 +2507,9 @@
       "spd": 80,
       "spe": 150
     },
-    "addmoves": [],
+    "addmoves": [
+      "mindblown"
+    ],
     "rmmoves": []
   },
   "electrodehisui": {
@@ -2353,7 +2531,9 @@
       "spd": 80,
       "spe": 150
     },
-    "addmoves": [],
+    "addmoves": [
+      "uproar"
+    ],
     "rmmoves": []
   },
   "exeggcute": {
@@ -2397,7 +2577,10 @@
       "spd": 75,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "junglehealing",
+      "twinbeam"
+    ],
     "rmmoves": []
   },
   "exeggutoralola": {
@@ -2419,7 +2602,10 @@
       "spd": 75,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "junglehealing",
+      "twinbeam"
+    ],
     "rmmoves": []
   },
   "goldeen": {
@@ -2461,7 +2647,11 @@
       "spd": 80,
       "spe": 78
     },
-    "addmoves": [],
+    "addmoves": [
+      "wavecrash",
+      "victorydance",
+      "aquastep"
+    ],
     "rmmoves": []
   },
   "staryu": {
@@ -2483,7 +2673,13 @@
       "spd": 55,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "shootingstar",
+      "cometpunch",
+      "cosmicray",
+      "nova",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "starmie": {
@@ -2505,7 +2701,22 @@
       "spd": 85,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "watershuriken",
+      "icespinner",
+      "liquidation",
+      "aquajet",
+      "self-destruct",
+      "safeguard",
+      "bulkup",
+      "healblock",
+      "zenheadbutt",
+      "ancientpower",
+      "chargebeam",
+      "tripleaxel",
+      "galacticbeatdown",
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "starmiemega": {
@@ -2569,7 +2780,10 @@
       "spd": 95,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "petaldance",
+      "revelationdance"
+    ],
     "rmmoves": []
   },
   "magikarp": {
@@ -2610,7 +2824,12 @@
       "spd": 100,
       "spe": 81
     },
-    "addmoves": [],
+    "addmoves": [
+      "fishiousrend",
+      "dragonascent",
+      "populationbomb",
+      "dragonrush"
+    ],
     "rmmoves": []
   },
   "gyaradosmega": {
@@ -2652,7 +2871,10 @@
       "spd": 95,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "mindreader",
+      "relicsong"
+    ],
     "rmmoves": []
   },
   "ditto": {
@@ -2673,7 +2895,20 @@
       "spd": 48,
       "spe": 72
     },
-    "addmoves": [],
+    "addmoves": [
+      "thunderwave",
+      "teleport",
+      "recover",
+      "protect",
+      "psycheup",
+      "disable",
+      "curse",
+      "agility",
+      "storedpower",
+      "bide",
+      "barrier",
+      "endeavor"
+    ],
     "rmmoves": []
   },
   "eevee": {
@@ -2715,7 +2950,11 @@
       "spd": 95,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "bouncybubble",
+      "lifedew",
+      "taunt"
+    ],
     "rmmoves": []
   },
   "jolteon": {
@@ -2736,7 +2975,10 @@
       "spd": 95,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "buzzybuzz",
+      "scaleshot"
+    ],
     "rmmoves": []
   },
   "flareon": {
@@ -2757,7 +2999,13 @@
       "spd": 110,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "sizzlyslide",
+      "blastburn",
+      "flamewheel",
+      "swordsdance",
+      "taunt"
+    ],
     "rmmoves": []
   },
   "espeon": {
@@ -2778,7 +3026,13 @@
       "spd": 95,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "glitzyglow",
+      "solarbeam",
+      "mysticalfire",
+      "healblock",
+      "safeguard"
+    ],
     "rmmoves": []
   },
   "umbreon": {
@@ -2799,7 +3053,14 @@
       "spd": 130,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "baddybad",
+      "acidspray",
+      "sludgebomb",
+      "moonblast",
+      "nightshade",
+      "knockoff"
+    ],
     "rmmoves": []
   },
   "leafeon": {
@@ -2820,7 +3081,11 @@
       "spd": 65,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "sappyseed",
+      "nightslash",
+      "taunt"
+    ],
     "rmmoves": []
   },
   "glaceon": {
@@ -2841,7 +3106,12 @@
       "spd": 95,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "freezyfrost",
+      "irondefense",
+      "bodypress",
+      "taunt"
+    ],
     "rmmoves": []
   },
   "sylveon": {
@@ -2862,7 +3132,10 @@
       "spd": 130,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "sparklyswirl",
+      "taunt"
+    ],
     "rmmoves": []
   },
   "mimejr": {
@@ -2906,7 +3179,18 @@
       "spd": 120,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "upperhand",
+      "psyshieldbash",
+      "forcepalm",
+      "obstruct",
+      "airslash",
+      "haze",
+      "stealthrock",
+      "playrough",
+      "firstimpression",
+      "tripleaxel"
+    ],
     "rmmoves": []
   },
   "mrmimegalar": {
@@ -2950,7 +3234,16 @@
       "spd": 100,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "holdhands",
+      "haze",
+      "infestation",
+      "stealthrock",
+      "thunderpunch",
+      "chargebeam",
+      "swagger",
+      "firstimpression"
+    ],
     "rmmoves": []
   },
   "munchlax": {
@@ -2992,7 +3285,12 @@
       "spd": 110,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "dragonhammer",
+      "woodhammer",
+      "steamroller",
+      "icehammer"
+    ],
     "rmmoves": []
   },
   "articuno": {
@@ -3014,7 +3312,11 @@
       "spd": 125,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "mountaingale",
+      "iciclecrash",
+      "glaciate"
+    ],
     "rmmoves": []
   },
   "articunogalar": {
@@ -3036,7 +3338,12 @@
       "spd": 100,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "psyblade",
+      "aurorabeam",
+      "twinbeam",
+      "esperwing"
+    ],
     "rmmoves": []
   },
   "zapdos": {
@@ -3058,7 +3365,10 @@
       "spd": 90,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "boltbeak",
+      "fusionbolt"
+    ],
     "rmmoves": []
   },
   "zapdosgalar": {
@@ -3080,7 +3390,11 @@
       "spd": 90,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "tripleaxel",
+      "hijump kick",
+      "tropkick"
+    ],
     "rmmoves": []
   },
   "moltres": {
@@ -3102,7 +3416,10 @@
       "spd": 85,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "fusionflare",
+      "inferno"
+    ],
     "rmmoves": []
   },
   "moltresgalar": {
@@ -3124,7 +3441,10 @@
       "spd": 125,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "nightdaze",
+      "oblivionwing"
+    ],
     "rmmoves": []
   },
   "dratini": {
@@ -3188,7 +3508,12 @@
       "spd": 100,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "floatyfall",
+      "dragonascent",
+      "whirlwind",
+      "vacuumwave"
+    ],
     "rmmoves": []
   },
   "dragonitemega": {
@@ -3229,7 +3554,30 @@
       "spd": 100,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "healblock",
+      "nightslash",
+      "discharge",
+      "cometpunch",
+      "sing",
+      "shadowpunch",
+      "poisonfang",
+      "magnetbomb",
+      "circlethrow",
+      "doublehit",
+      "stormthrow",
+      "firstimpression",
+      "petaldance",
+      "sheercold",
+      "dragonascent",
+      "volttackle",
+      "secretsword",
+      "relicsong",
+      "iceball",
+      "powershift",
+      "baby-dolleyes",
+      ""
+    ],
     "rmmoves": []
   },
   "chikorita": {
@@ -3292,7 +3640,17 @@
       "spd": 100,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "revivalblessing",
+      "playrough",
+      "flowershield",
+      "terrainpulse",
+      "powerwhip",
+      "takeheart",
+      "leafblade",
+      "earthpower",
+      "dazzlinggleam"
+    ],
     "rmmoves": []
   },
   "meganiummega": {
@@ -3375,7 +3733,9 @@
       "spd": 85,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "burningbulwark"
+    ],
     "rmmoves": []
   },
   "typhlosionhisui": {
@@ -3397,7 +3757,10 @@
       "spd": 85,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "burningbulwark",
+      "purify"
+    ],
     "rmmoves": []
   },
   "totodile": {
@@ -3460,7 +3823,10 @@
       "spd": 83,
       "spe": 78
     },
-    "addmoves": [],
+    "addmoves": [
+      "jawlock",
+      "iciclespear"
+    ],
     "rmmoves": []
   },
   "feraligatrmega": {
@@ -3520,7 +3886,12 @@
       "spd": 55,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "steamroller",
+      "tailslap",
+      "skittersmack"
+    ],
     "rmmoves": []
   },
   "ledyba": {
@@ -3542,7 +3913,11 @@
       "spd": 80,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "galacticbeatdown",
+      "magictome",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "ledian": {
@@ -3564,7 +3939,18 @@
       "spd": 135,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonblast",
+      "moonlight",
+      "bloodmoon",
+      "shadowpunch",
+      "shadowsneak",
+      "moongeistbeam",
+      "dracometeor",
+      "meteorbeam",
+      "meteormash",
+      "cosmicpower"
+    ],
     "rmmoves": []
   },
   "zubat": {
@@ -3630,7 +4016,12 @@
       "spd": 80,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "bugbite",
+      "nightslash",
+      "knockoff",
+      "psychicfangs"
+    ],
     "rmmoves": []
   },
   "chinchou": {
@@ -3674,7 +4065,10 @@
       "spd": 76,
       "spe": 67
     },
-    "addmoves": [],
+    "addmoves": [
+      "paraboliccharge",
+      "splishysplash"
+    ],
     "rmmoves": []
   },
   "mareep": {
@@ -3737,7 +4131,15 @@
       "spd": 90,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "dracometeor",
+      "dragonhammer",
+      "hammerarm",
+      "bodypress",
+      "risingvoltage",
+      "photongeyser",
+      "flashcannon"
+    ],
     "rmmoves": []
   },
   "ampharosmega": {
@@ -3823,7 +4225,9 @@
       "spd": 80,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "wavecrash"
+    ],
     "rmmoves": []
   },
   "hoppip": {
@@ -3889,7 +4293,9 @@
       "spd": 95,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "floatyfall"
+    ],
     "rmmoves": []
   },
   "wooper": {
@@ -3955,7 +4361,12 @@
       "spd": 65,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "soak",
+      "belch",
+      "poisontail",
+      "poisonjab"
+    ],
     "rmmoves": []
   },
   "clodsire": {
@@ -3977,7 +4388,10 @@
       "spd": 100,
       "spe": 20
     },
-    "addmoves": [],
+    "addmoves": [
+      "mudbomb",
+      "venomdrench"
+    ],
     "rmmoves": []
   },
   "onix": {
@@ -4021,7 +4435,12 @@
       "spd": 65,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "steamroller",
+      "heatcrash",
+      "flamewheel",
+      "anchorshot"
+    ],
     "rmmoves": []
   },
   "steelixmega": {
@@ -4083,7 +4502,11 @@
       "spd": 60,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "hyperfang",
+      "jawlock",
+      "spiritbreak"
+    ],
     "rmmoves": []
   },
   "qwilfish": {
@@ -4105,7 +4528,9 @@
       "spd": 55,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "spikecannon"
+    ],
     "rmmoves": []
   },
   "qwilfishhisui": {
@@ -4149,7 +4574,11 @@
       "spd": 65,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "spikecannon",
+      "mortalspin",
+      "thunderwave"
+    ],
     "rmmoves": []
   },
   "scyther": {
@@ -4171,7 +4600,9 @@
       "spd": 80,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "leafblade"
+    ],
     "rmmoves": []
   },
   "scizor": {
@@ -4193,7 +4624,10 @@
       "spd": 80,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "leafblade",
+      "crabhammer"
+    ],
     "rmmoves": []
   },
   "scizormega": {
@@ -4235,7 +4669,9 @@
       "spd": 75,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "leafblade"
+    ],
     "rmmoves": []
   },
   "heracross": {
@@ -4257,7 +4693,12 @@
       "spd": 95,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "iciclespear",
+      "spikecannon",
+      "outrage",
+      "circlethrow"
+    ],
     "rmmoves": []
   },
   "heracrossmega": {
@@ -4320,7 +4761,10 @@
       "spd": 80,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "magmastorm",
+      "shelltrap"
+    ],
     "rmmoves": []
   },
   "corsola": {
@@ -4342,7 +4786,10 @@
       "spd": 105,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "prismaticlaser",
+      "paleowave"
+    ],
     "rmmoves": []
   },
   "corsolagalar": {
@@ -4384,7 +4831,9 @@
       "spd": 130,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "paleowave"
+    ],
     "rmmoves": []
   },
   "houndour": {
@@ -4428,7 +4877,10 @@
       "spd": 80,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "acidspray",
+      "infernalparade"
+    ],
     "rmmoves": []
   },
   "houndoommega": {
@@ -4470,7 +4922,11 @@
       "spd": 70,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "crushclaw",
+      "honeclaws",
+      "scaleshot"
+    ],
     "rmmoves": []
   },
   "skarmorymega": {
@@ -4532,7 +4988,13 @@
       "spd": 60,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "steelroller",
+      "steamroller",
+      "spinout",
+      "powerwhip"
+    ],
     "rmmoves": []
   },
   "miltank": {
@@ -4553,7 +5015,12 @@
       "spd": 70,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "steelroller",
+      "steamroller",
+      "supercellslam"
+    ],
     "rmmoves": []
   },
   "happiny": {
@@ -4616,7 +5083,11 @@
       "spd": 135,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "steamroller",
+      "voltswitch"
+    ],
     "rmmoves": []
   },
   "mantyke": {
@@ -4660,7 +5131,11 @@
       "spd": 140,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "bouncybubble",
+      "flipturn",
+      "floatyfall"
+    ],
     "rmmoves": []
   },
   "delibird": {
@@ -4682,7 +5157,13 @@
       "spd": 50,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "mountaingale",
+      "rockblast",
+      "rocktomb",
+      "rockslide",
+      "smackdown"
+    ],
     "rmmoves": []
   },
   "remoraid": {
@@ -4724,7 +5205,11 @@
       "spd": 75,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "headsmash",
+      "ironhead",
+      "zenheadbutt"
+    ],
     "rmmoves": []
   },
   "bonsly": {
@@ -4766,7 +5251,9 @@
       "spd": 65,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "icehammer"
+    ],
     "rmmoves": []
   },
   "horsea": {
@@ -4830,7 +5317,14 @@
       "spd": 75,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "snipeshot",
+      "hydrocannon",
+      "aeroblast",
+      "sludgebomb",
+      "barbbarrage",
+      "sludgewave"
+    ],
     "rmmoves": []
   },
   "larvitar": {
@@ -4895,7 +5389,12 @@
       "spd": 100,
       "spe": 61
     },
-    "addmoves": [],
+    "addmoves": [
+      "headsmash",
+      "wickedblow",
+      "scorchingsands",
+      "scaleshot"
+    ],
     "rmmoves": []
   },
   "tyranitarmega": {
@@ -4936,7 +5435,10 @@
       "spd": 100,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "thunderclap",
+      "boomburst"
+    ],
     "rmmoves": []
   },
   "celebi": {
@@ -4958,7 +5460,20 @@
       "spd": 100,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "roarof time",
+      "floralhealing",
+      "junglehealing",
+      "healpulse",
+      "electricterrain",
+      "terrainpulse",
+      "psyblade",
+      "risingvoltage",
+      "thunderpunch",
+      "mysticalfire",
+      "firepunch",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "treecko": {
@@ -5021,7 +5536,12 @@
       "spd": 85,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "airslash",
+      "dracometeor",
+      "psychocut",
+      "dragonrush"
+    ],
     "rmmoves": []
   },
   "sceptilemega": {
@@ -5106,7 +5626,13 @@
       "spd": 70,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "axekick",
+      "flyingpress",
+      "beakblast",
+      "circlethrow",
+      "drainpunch"
+    ],
     "rmmoves": []
   },
   "blazikenmega": {
@@ -5191,7 +5717,12 @@
       "spd": 90,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockwrecker",
+      "icehammer",
+      "sludgebomb",
+      "fissure"
+    ],
     "rmmoves": []
   },
   "swampertmega": {
@@ -5233,7 +5764,11 @@
       "spd": 35,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "magictome",
+      "cosmicray",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "kirlia": {
@@ -5277,7 +5812,11 @@
       "spd": 115,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "hornleech",
+      "spacialrend",
+      "rapidspin"
+    ],
     "rmmoves": []
   },
   "gardevoirmega": {
@@ -5319,7 +5858,14 @@
       "spd": 115,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "hornleech",
+      "spacialrend",
+      "rapidspin",
+      "galacticbeatdown",
+      "cometpunch",
+      "starfallblade"
+    ],
     "rmmoves": []
   },
   "gallademega": {
@@ -5383,7 +5929,9 @@
       "spd": 82,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "flipturn"
+    ],
     "rmmoves": []
   },
   "shroomish": {
@@ -5426,7 +5974,9 @@
       "spd": 60,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "cometpunch"
+    ],
     "rmmoves": []
   },
   "whismur": {
@@ -5489,7 +6039,15 @@
       "spd": 73,
       "spe": 68
     },
-    "addmoves": [],
+    "addmoves": [
+      "alluringvoice",
+      "chatter",
+      "grasswhistle",
+      "nobleroar",
+      "partingshot",
+      "psychicnoise",
+      "snarl"
+    ],
     "rmmoves": []
   },
   "skitty": {
@@ -5531,7 +6089,9 @@
       "spd": 55,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "pursuit"
+    ],
     "rmmoves": []
   },
   "mawile": {
@@ -5553,7 +6113,11 @@
       "spd": 55,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "hyperfang",
+      "spiritbreak",
+      "dazzlinggleam"
+    ],
     "rmmoves": []
   },
   "mawilemega": {
@@ -5639,7 +6203,11 @@
       "spd": 60,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "megahorn",
+      "woodhammer",
+      "scorchingsands"
+    ],
     "rmmoves": []
   },
   "aggronmega": {
@@ -5702,7 +6270,11 @@
       "spd": 75,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "blazekick",
+      "agility",
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "medichammega": {
@@ -5743,7 +6315,10 @@
       "spd": 95,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "dragoncheer",
+      "paraboliccharge"
+    ],
     "rmmoves": []
   },
   "minun": {
@@ -5764,7 +6339,10 @@
       "spd": 105,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "dragoncheer",
+      "paraboliccharge"
+    ],
     "rmmoves": []
   },
   "carvanha": {
@@ -5808,7 +6386,9 @@
       "spd": 40,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "wavecrash"
+    ],
     "rmmoves": []
   },
   "sharpedomega": {
@@ -5872,7 +6452,9 @@
       "spd": 75,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "magmastorm"
+    ],
     "rmmoves": []
   },
   "cameruptmega": {
@@ -5913,7 +6495,9 @@
       "spd": 70,
       "spe": 20
     },
-    "addmoves": [],
+    "addmoves": [
+      "burnup"
+    ],
     "rmmoves": []
   },
   "spoink": {
@@ -5955,7 +6539,10 @@
       "spd": 110,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "eeriespell",
+      "hypnosis"
+    ],
     "rmmoves": []
   },
   "spinda": {
@@ -5976,7 +6563,11 @@
       "spd": 60,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "hammerarm",
+      "icehammer",
+      "spinout"
+    ],
     "rmmoves": []
   },
   "trapinch": {
@@ -6041,7 +6632,10 @@
       "spd": 120,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "sing",
+      "sandsearstorm"
+    ],
     "rmmoves": []
   },
   "cacnea": {
@@ -6084,7 +6678,10 @@
       "spd": 60,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "pursuit",
+      "scorchingsands"
+    ],
     "rmmoves": []
   },
   "swablu": {
@@ -6128,7 +6725,11 @@
       "spd": 105,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "beakblast",
+      "floatyfall",
+      "petaldance"
+    ],
     "rmmoves": []
   },
   "altariamega": {
@@ -6169,7 +6770,11 @@
       "spd": 60,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "lashout",
+      "direclaw",
+      "fakeout"
+    ],
     "rmmoves": []
   },
   "corphish": {
@@ -6212,7 +6817,12 @@
       "spd": 55,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "crushclaw",
+      "dragonclaw",
+      "circlethrow",
+      "jawlock"
+    ],
     "rmmoves": []
   },
   "barboach": {
@@ -6256,7 +6866,13 @@
       "spd": 71,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "stockpile",
+      "spitup",
+      "swallow",
+      "land'swrath",
+      "tripledive"
+    ],
     "rmmoves": []
   },
   "wingull": {
@@ -6300,7 +6916,9 @@
       "spd": 70,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "softboiled"
+    ],
     "rmmoves": []
   },
   "lileep": {
@@ -6343,7 +6961,10 @@
       "spd": 107,
       "spe": 43
     },
-    "addmoves": [],
+    "addmoves": [
+      "paleowave",
+      "acidspray"
+    ],
     "rmmoves": []
   },
   "feebas": {
@@ -6385,7 +7006,12 @@
       "spd": 125,
       "spe": 81
     },
-    "addmoves": [],
+    "addmoves": [
+      "prismaticlaser",
+      "calmmind",
+      "liquidation",
+      "dazzlinggleam"
+    ],
     "rmmoves": []
   },
   "shuppet": {
@@ -6427,7 +7053,17 @@
       "spd": 63,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "hornleech",
+      "pinmissle",
+      "comeuppance",
+      "punishment",
+      "slash",
+      "healblock",
+      "zenheadbutt",
+      "iciclespear",
+      "vacuumwave"
+    ],
     "rmmoves": []
   },
   "banettemega": {
@@ -6468,7 +7104,11 @@
       "spd": 87,
       "spe": 51
     },
-    "addmoves": [],
+    "addmoves": [
+      "gravapple",
+      "appleacid",
+      "woodhammer"
+    ],
     "rmmoves": []
   },
   "chingling": {
@@ -6510,7 +7150,18 @@
       "spd": 90,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "boomburst",
+      "metalsound",
+      "aeroblast",
+      "chatter",
+      "bounce",
+      "floatyfall",
+      "amnesia",
+      "waterpulse",
+      "flashcannon",
+      "meteorbeam"
+    ],
     "rmmoves": []
   },
   "chimechomega": {
@@ -6551,7 +7202,14 @@
       "spd": 60,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "phantomforce",
+      "shadowsneak",
+      "esperwing",
+      "oblivionwing",
+      "wickedblow",
+      "shadowstrike"
+    ],
     "rmmoves": []
   },
   "absolmega": {
@@ -6632,7 +7290,17 @@
       "spd": 80,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "mountaingale",
+      "steamroller",
+      "diamondstorm",
+      "headsmash",
+      "powergem",
+      "rockpolish",
+      "rockwrecker",
+      "stealthrock"
+    ],
     "rmmoves": []
   },
   "glaliemega": {
@@ -6673,7 +7341,17 @@
       "spd": 70,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "bittermalice",
+      "glaciate",
+      "iceburn",
+      "freeze-dry",
+      "phantomforce",
+      "healblock",
+      "nastyplot",
+      "bleakwindstorm",
+      "magictome"
+    ],
     "rmmoves": []
   },
   "froslassmega": {
@@ -6735,7 +7413,11 @@
       "spd": 75,
       "spe": 52
     },
-    "addmoves": [],
+    "addmoves": [
+      "shelter",
+      "gigadrain",
+      "leechlife"
+    ],
     "rmmoves": []
   },
   "huntail": {
@@ -6756,7 +7438,11 @@
       "spd": 75,
       "spe": 52
     },
-    "addmoves": [],
+    "addmoves": [
+      "shelter",
+      "fishiousrend",
+      "psychicfangs"
+    ],
     "rmmoves": []
   },
   "relicanth": {
@@ -6778,7 +7464,10 @@
       "spd": 65,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "paleowave",
+      "wavecrash"
+    ],
     "rmmoves": []
   },
   "beldum": {
@@ -6844,7 +7533,15 @@
       "spd": 90,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "crushclaw",
+      "psyshieldbash",
+      "heatcrash",
+      "mindreader",
+      "lock-on",
+      "twinbeam",
+      "magnetbomb"
+    ],
     "rmmoves": []
   },
   "metagrossmega": {
@@ -6885,7 +7582,9 @@
       "spd": 100,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockwrecker"
+    ],
     "rmmoves": []
   },
   "registeel": {
@@ -6906,7 +7605,10 @@
       "spd": 150,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "behemothbash",
+      "tachyoncutter"
+    ],
     "rmmoves": []
   },
   "regice": {
@@ -6927,7 +7629,10 @@
       "spd": 200,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "icehammer",
+      "sheercold"
+    ],
     "rmmoves": []
   },
   "latias": {
@@ -6949,7 +7654,10 @@
       "spd": 130,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "esperwing",
+      "featherdance"
+    ],
     "rmmoves": []
   },
   "latios": {
@@ -6971,7 +7679,11 @@
       "spd": 110,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "photongeyser",
+      "workup",
+      "wish"
+    ],
     "rmmoves": []
   },
   "jirachi": {
@@ -6993,7 +7705,18 @@
       "spd": 100,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "makeit rain",
+      "healpulse",
+      "powergem",
+      "revivalblessing",
+      "shootingstar",
+      "nova",
+      "galacticbeatdown",
+      "dejavu",
+      "ritual",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "deoxys": {
@@ -7014,7 +7737,13 @@
       "spd": 50,
       "spe": 150
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray",
+      "nova",
+      "galacticbeatdown",
+      "gravitationslam",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "deoxysattack": {
@@ -7035,7 +7764,13 @@
       "spd": 20,
       "spe": 150
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray",
+      "nova",
+      "galacticbeatdown",
+      "gravitationslam",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "deoxysdefense": {
@@ -7056,7 +7791,13 @@
       "spd": 160,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray",
+      "nova",
+      "galacticbeatdown",
+      "gravitationslam",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "deoxysspeed": {
@@ -7077,7 +7818,13 @@
       "spd": 90,
       "spe": 180
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray",
+      "nova",
+      "galacticbeatdown",
+      "gravitationslam",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "turtwig": {
@@ -7141,7 +7888,16 @@
       "spd": 85,
       "spe": 56
     },
-    "addmoves": [],
+    "addmoves": [
+      "gravapple",
+      "sleeppowder",
+      "leafblade",
+      "land'swrath",
+      "razorshell",
+      "muddywater",
+      "surf",
+      "paleowave"
+    ],
     "rmmoves": []
   },
   "chimchar": {
@@ -7206,7 +7962,10 @@
       "spd": 71,
       "spe": 108
     },
-    "addmoves": [],
+    "addmoves": [
+      "highjump kick",
+      "flyingpress"
+    ],
     "rmmoves": []
   },
   "piplup": {
@@ -7270,7 +8029,10 @@
       "spd": 101,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "aquacutter",
+      "behemothblade"
+    ],
     "rmmoves": []
   },
   "starly": {
@@ -7336,7 +8098,20 @@
       "spd": 60,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "brickbreak",
+      "bulkup",
+      "knockoff",
+      "outrage",
+      "lowsweep",
+      "blazekick",
+      "flyingpress",
+      "highjump kick",
+      "crushclaw",
+      "crushgrip",
+      "bodyslam",
+      "bodypress"
+    ],
     "rmmoves": []
   },
   "staraptormega": {
@@ -7419,7 +8194,12 @@
       "spd": 79,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "glare",
+      "volttackle",
+      "doubleshock",
+      "shadowclaw"
+    ],
     "rmmoves": []
   },
   "bidoof": {
@@ -7462,7 +8242,17 @@
       "spd": 60,
       "spe": 71
     },
-    "addmoves": [],
+    "addmoves": [
+      "mudbomb",
+      "muddywater",
+      "agility",
+      "woodhammer",
+      "drumbeating",
+      "rocktomb",
+      "iceball",
+      "steamroller",
+      "psychicfangs"
+    ],
     "rmmoves": []
   },
   "kricketot": {
@@ -7504,7 +8294,11 @@
       "spd": 51,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "chatter",
+      "alluringvoice",
+      "relicsong"
+    ],
     "rmmoves": []
   },
   "budew": {
@@ -7570,7 +8364,14 @@
       "spd": 105,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "mortalspin",
+      "mudshot",
+      "barbbarrage",
+      "pollenpuff",
+      "trailblaze",
+      "flowertrick"
+    ],
     "rmmoves": []
   },
   "cranidos": {
@@ -7612,7 +8413,10 @@
       "spd": 50,
       "spe": 58
     },
-    "addmoves": [],
+    "addmoves": [
+      "skullbash",
+      "temperflare"
+    ],
     "rmmoves": []
   },
   "shieldon": {
@@ -7656,7 +8460,10 @@
       "spd": 138,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "behemothbash",
+      "psyshieldbash"
+    ],
     "rmmoves": []
   },
   "burmy": {
@@ -7738,7 +8545,9 @@
       "spd": 56,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "stickyweb"
+    ],
     "rmmoves": []
   },
   "wormadamsandy": {
@@ -7760,7 +8569,13 @@
       "spd": 105,
       "spe": 56
     },
-    "addmoves": [],
+    "addmoves": [
+      "sandtomb",
+      "scorchingsands",
+      "shoreup",
+      "rockslide",
+      "rocktomb"
+    ],
     "rmmoves": []
   },
   "wormadamtrash": {
@@ -7782,7 +8597,12 @@
       "spd": 86,
       "spe": 36
     },
-    "addmoves": [],
+    "addmoves": [
+      "spikes",
+      "sludgewave",
+      "overheat",
+      "wildcharge"
+    ],
     "rmmoves": []
   },
   "mothim": {
@@ -7803,7 +8623,13 @@
       "spd": 50,
       "spe": 96
     },
-    "addmoves": [],
+    "addmoves": [
+      "darkpulse",
+      "dualwingbeat",
+      "floatyfall",
+      "hurricane",
+      "shadowsneak"
+    ],
     "rmmoves": []
   },
   "combee": {
@@ -7846,7 +8672,10 @@
       "spd": 102,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "leechlife",
+      "populationbomb"
+    ],
     "rmmoves": []
   },
   "pachirisu": {
@@ -7867,7 +8696,10 @@
       "spd": 100,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "electrify",
+      "stuffcheeks"
+    ],
     "rmmoves": []
   },
   "buizel": {
@@ -7909,7 +8741,9 @@
       "spd": 50,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "tripledive"
+    ],
     "rmmoves": []
   },
   "cherubi": {
@@ -7949,7 +8783,12 @@
       "spd": 78,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "appleacid",
+      "gravapple",
+      "chloroblast",
+      "floralhealing"
+    ],
     "rmmoves": []
   },
   "cherrimsunshine": {
@@ -7970,7 +8809,12 @@
       "spd": 88,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "appleacid",
+      "gravapple",
+      "chloroblast",
+      "floralhealing"
+    ],
     "rmmoves": []
   },
   "shellos": {
@@ -8013,7 +8857,12 @@
       "spd": 82,
       "spe": 39
     },
-    "addmoves": [],
+    "addmoves": [
+      "shellsmash",
+      "shellside arm",
+      "razorshell",
+      "acidspray"
+    ],
     "rmmoves": []
   },
   "aipom": {
@@ -8055,7 +8904,11 @@
       "spd": 66,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "hammerarm",
+      "zenheabutt",
+      "playrough"
+    ],
     "rmmoves": []
   },
   "drifloon": {
@@ -8099,7 +8952,11 @@
       "spd": 54,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "astralbarrage",
+      "floatyfall",
+      "hurricane"
+    ],
     "rmmoves": []
   },
   "buneary": {
@@ -8141,7 +8998,15 @@
       "spd": 96,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "machpunch",
+      "drainingkiss",
+      "cottonguard",
+      "dynamicpunch",
+      "swordsdance",
+      "blazekick",
+      "powerwhip"
+    ],
     "rmmoves": []
   },
   "lopunnymega": {
@@ -8201,7 +9066,13 @@
       "spd": 105,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "moongeistbeam",
+      "gigadrain",
+      "eeriespell",
+      "healpulse",
+      "magictome"
+    ],
     "rmmoves": []
   },
   "murkrow": {
@@ -8245,7 +9116,13 @@
       "spd": 52,
       "spe": 71
     },
-    "addmoves": [],
+    "addmoves": [
+      "beatup",
+      "baddybad",
+      "nightdaze",
+      "punishment",
+      "topsyturvy"
+    ],
     "rmmoves": []
   },
   "glameow": {
@@ -8287,7 +9164,11 @@
       "spd": 69,
       "spe": 137
     },
-    "addmoves": [],
+    "addmoves": [
+      "glare",
+      "crushclaw",
+      "bulkup"
+    ],
     "rmmoves": []
   },
   "stunky": {
@@ -8331,7 +9212,9 @@
       "spd": 61,
       "spe": 84
     },
-    "addmoves": [],
+    "addmoves": [
+      "overheat"
+    ],
     "rmmoves": []
   },
   "bronzor": {
@@ -8353,7 +9236,9 @@
       "spd": 86,
       "spe": 23
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray"
+    ],
     "rmmoves": []
   },
   "bronzong": {
@@ -8375,7 +9260,11 @@
       "spd": 116,
       "spe": 33
     },
-    "addmoves": [],
+    "addmoves": [
+      "snowscape",
+      "psyshieldbash",
+      "spacialrend"
+    ],
     "rmmoves": []
   },
   "chatot": {
@@ -8397,7 +9286,11 @@
       "spd": 42,
       "spe": 91
     },
-    "addmoves": [],
+    "addmoves": [
+      "alluringvoice",
+      "psychicnoise",
+      "relicsong"
+    ],
     "rmmoves": []
   },
   "spiritomb": {
@@ -8419,7 +9312,11 @@
       "spd": 108,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "astralbarrage",
+      "baddybad",
+      "nightdaze"
+    ],
     "rmmoves": []
   },
   "gible": {
@@ -8485,7 +9382,18 @@
       "spd": 85,
       "spe": 102
     },
-    "addmoves": [],
+    "addmoves": [
+      "nastyplot",
+      "vacuumwave",
+      "dragonhammer",
+      "glaiverush",
+      "headlongrush",
+      "ragingfury",
+      "burningjealousy",
+      "flamecharge",
+      "flareblitz",
+      "temperflare"
+    ],
     "rmmoves": []
   },
   "garchompmega": {
@@ -8568,7 +9476,10 @@
       "spd": 70,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "playrough",
+      "dazzlinggleam"
+    ],
     "rmmoves": []
   },
   "lucariomega": {
@@ -8650,7 +9561,10 @@
       "spd": 72,
       "spe": 47
     },
-    "addmoves": [],
+    "addmoves": [
+      "psychicfangs",
+      "jawlock"
+    ],
     "rmmoves": []
   },
   "skorupi": {
@@ -8694,7 +9608,13 @@
       "spd": 75,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "outrage",
+      "direclaw",
+      "powertrip",
+      "firstimpression",
+      "shadowclaw"
+    ],
     "rmmoves": []
   },
   "croagunk": {
@@ -8738,7 +9658,11 @@
       "spd": 65,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "direclaw",
+      "jetpunch",
+      "drillrun"
+    ],
     "rmmoves": []
   },
   "carnivine": {
@@ -8759,7 +9683,11 @@
       "spd": 72,
       "spe": 46
     },
-    "addmoves": [],
+    "addmoves": [
+      "snaptrap",
+      "jawlock",
+      "poisonfang"
+    ],
     "rmmoves": []
   },
   "finneon": {
@@ -8801,7 +9729,14 @@
       "spd": 116,
       "spe": 111
     },
-    "addmoves": [],
+    "addmoves": [
+      "tailglow",
+      "lightscreen",
+      "flashcannon",
+      "morningsun",
+      "moonblast",
+      "powergem"
+    ],
     "rmmoves": []
   },
   "snover": {
@@ -8845,7 +9780,12 @@
       "spd": 85,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "icehammer",
+      "hammerarm",
+      "mountaingale",
+      "superpower"
+    ],
     "rmmoves": []
   },
   "abomasnowmega": {
@@ -8931,7 +9871,11 @@
       "spd": 85,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowstrike",
+      "psychicfangs",
+      "shadowsneak"
+    ],
     "rmmoves": []
   },
   "sneasler": {
@@ -8953,7 +9897,10 @@
       "spd": 80,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "crosspoison",
+      "icepunch"
+    ],
     "rmmoves": []
   },
   "magnemite": {
@@ -8975,7 +9922,9 @@
       "spd": 55,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray"
+    ],
     "rmmoves": []
   },
   "magneton": {
@@ -9019,7 +9968,11 @@
       "spd": 90,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "meteorbeam",
+      "electroshot",
+      "overheat"
+    ],
     "rmmoves": []
   },
   "lickitung": {
@@ -9061,7 +10014,12 @@
       "spd": 95,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "steamroller",
+      "gunkshot",
+      "firelash"
+    ],
     "rmmoves": []
   },
   "rhyhorn": {
@@ -9127,7 +10085,10 @@
       "spd": 55,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "seedbomb",
+      "bulletseed"
+    ],
     "rmmoves": []
   },
   "tangela": {
@@ -9169,7 +10130,9 @@
       "spd": 50,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "frenzyplant"
+    ],
     "rmmoves": []
   },
   "elekid": {
@@ -9232,7 +10195,12 @@
       "spd": 85,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "plasmafists",
+      "headlongrush",
+      "powerwhip",
+      "fusionbolt"
+    ],
     "rmmoves": []
   },
   "magby": {
@@ -9295,7 +10263,13 @@
       "spd": 95,
       "spe": 83
     },
-    "addmoves": [],
+    "addmoves": [
+      "armorcannon",
+      "aurasphere",
+      "shockwave",
+      "fusionflare",
+      "tarshot"
+    ],
     "rmmoves": []
   },
   "togepi": {
@@ -9360,7 +10334,10 @@
       "spd": 115,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "esperwing",
+      "sparklyswirl"
+    ],
     "rmmoves": []
   },
   "yanma": {
@@ -9404,7 +10381,13 @@
       "spd": 56,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "acrobatics",
+      "shockwave",
+      "psychicfangs",
+      "thunderfang",
+      "hyperfang"
+    ],
     "rmmoves": []
   },
   "gligar": {
@@ -9448,7 +10431,11 @@
       "spd": 75,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "floatyfall",
+      "leechlife",
+      "poisonfang"
+    ],
     "rmmoves": []
   },
   "swinub": {
@@ -9514,7 +10501,10 @@
       "spd": 60,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "glaciallance",
+      "headlongrush"
+    ],
     "rmmoves": []
   },
   "porygon": {
@@ -9577,7 +10567,12 @@
       "spd": 75,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "voltswitch",
+      "flashcannon",
+      "hyperspacehole",
+      "infestation"
+    ],
     "rmmoves": []
   },
   "nosepass": {
@@ -9620,7 +10615,10 @@
       "spd": 150,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "rapidspin",
+      "spinout"
+    ],
     "rmmoves": []
   },
   "duskull": {
@@ -9683,7 +10681,9 @@
       "spd": 135,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "lastrespects"
+    ],
     "rmmoves": []
   },
   "rotom": {
@@ -9703,7 +10703,13 @@
       "spd": 77,
       "spe": 91
     },
-    "addmoves": [],
+    "addmoves": [
+      "paraboliccharge",
+      "partingshot",
+      "taunt",
+      "agility",
+      "curse"
+    ],
     "rmmoves": []
   },
   "rotomwash": {
@@ -9725,7 +10731,11 @@
       "spd": 107,
       "spe": 86
     },
-    "addmoves": [],
+    "addmoves": [
+      "whirlpool",
+      "chillingwater",
+      "hydrocannon"
+    ],
     "rmmoves": []
   },
   "rotomheat": {
@@ -9747,7 +10757,11 @@
       "spd": 107,
       "spe": 86
     },
-    "addmoves": [],
+    "addmoves": [
+      "firespin",
+      "burnup",
+      "heatwave"
+    ],
     "rmmoves": []
   },
   "rotommow": {
@@ -9769,7 +10783,11 @@
       "spd": 107,
       "spe": 86
     },
-    "addmoves": [],
+    "addmoves": [
+      "trailblaze",
+      "snaptrap",
+      "grassknot"
+    ],
     "rmmoves": []
   },
   "rotomfan": {
@@ -9791,7 +10809,12 @@
       "spd": 107,
       "spe": 86
     },
-    "addmoves": [],
+    "addmoves": [
+      "aeroblast",
+      "bleakwindstorm",
+      "tailwind",
+      "defog"
+    ],
     "rmmoves": []
   },
   "rotomfrost": {
@@ -9813,7 +10836,10 @@
       "spd": 107,
       "spe": 86
     },
-    "addmoves": [],
+    "addmoves": [
+      "chillyreception",
+      "freeze-dry"
+    ],
     "rmmoves": []
   },
   "uxie": {
@@ -9834,7 +10860,10 @@
       "spd": 130,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "instruct",
+      "hypnosis"
+    ],
     "rmmoves": []
   },
   "mesprit": {
@@ -9855,7 +10884,12 @@
       "spd": 105,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "stompingtantrum",
+      "temperflare",
+      "sandtomb",
+      "earthpower"
+    ],
     "rmmoves": []
   },
   "azelf": {
@@ -9876,7 +10910,10 @@
       "spd": 70,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "prismaticlaser",
+      "takeheart"
+    ],
     "rmmoves": []
   },
   "dialga": {
@@ -9898,7 +10935,11 @@
       "spd": 100,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "extremespeed",
+      "rockpolish",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "dialgaorigin": {
@@ -9920,7 +10961,11 @@
       "spd": 120,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "extremespeed",
+      "rockpolish",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "palkia": {
@@ -9942,7 +10987,17 @@
       "spd": 120,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "meteorbeam",
+      "rockwrecker",
+      "mountaingale",
+      "cosmicray",
+      "galacticbeatdown",
+      "gravitationslam",
+      "nova",
+      "shootingstar",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "palkiaorigin": {
@@ -9964,7 +11019,17 @@
       "spd": 120,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "meteorbeam",
+      "rockwrecker",
+      "mountaingale",
+      "cosmicray",
+      "galacticbeatdown",
+      "gravitationslam",
+      "nova",
+      "shootingstar",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "heatran": {
@@ -9986,7 +11051,11 @@
       "spd": 106,
       "spe": 77
     },
-    "addmoves": [],
+    "addmoves": [
+      "firstimpression",
+      "mysticalfire",
+      "metalburst"
+    ],
     "rmmoves": []
   },
   "heatranmega": {
@@ -10027,7 +11096,14 @@
       "spd": 110,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "mountaingale",
+      "icehammer",
+      "meteormash",
+      "boltstrike",
+      "outrage",
+      "dragonrush"
+    ],
     "rmmoves": []
   },
   "giratina": {
@@ -10049,7 +11125,9 @@
       "spd": 120,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowstrike"
+    ],
     "rmmoves": []
   },
   "giratinaorigin": {
@@ -10071,7 +11149,9 @@
       "spd": 100,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowstrike"
+    ],
     "rmmoves": []
   },
   "cresselia": {
@@ -10092,7 +11172,13 @@
       "spd": 120,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "auroraveil",
+      "shootingstar",
+      "cosmicray",
+      "ritual",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "phione": {
@@ -10113,7 +11199,9 @@
       "spd": 80,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "soak"
+    ],
     "rmmoves": []
   },
   "manaphy": {
@@ -10134,7 +11222,10 @@
       "spd": 100,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "bouncybubble",
+      "soak"
+    ],
     "rmmoves": []
   },
   "darkrai": {
@@ -10155,7 +11246,17 @@
       "spd": 90,
       "spe": 125
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowsneak",
+      "futuresight",
+      "crunch",
+      "iciclespear",
+      "vacuumwave",
+      "nightdaze",
+      "galacticbeatdown",
+      "cosmicray",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "darkraimega": {
@@ -10195,7 +11296,9 @@
       "spd": 100,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "sappyseed"
+    ],
     "rmmoves": []
   },
   "shayminsky": {
@@ -10217,7 +11320,9 @@
       "spd": 75,
       "spe": 127
     },
-    "addmoves": [],
+    "addmoves": [
+      "sappyseed"
+    ],
     "rmmoves": []
   },
   "arceus": {
@@ -10236,7 +11341,13 @@
       "spd": 120,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "gravitationslam",
+      "nova",
+      "magictome",
+      "ritual",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "arceusfire": {
@@ -10600,7 +11711,10 @@
       "spd": 100,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "supercellslam",
+      "victorydance"
+    ],
     "rmmoves": []
   },
   "snivy": {
@@ -10663,7 +11777,9 @@
       "spd": 95,
       "spe": 113
     },
-    "addmoves": [],
+    "addmoves": [
+      "solarblade"
+    ],
     "rmmoves": []
   },
   "tepig": {
@@ -10728,7 +11844,12 @@
       "spd": 65,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "flamewheel",
+      "vacuumwave",
+      "solarblade",
+      "burningbulwark"
+    ],
     "rmmoves": []
   },
   "emboarmega": {
@@ -10811,7 +11932,10 @@
       "spd": 70,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "metalclaw",
+      "honeclaws"
+    ],
     "rmmoves": []
   },
   "samurotthisui": {
@@ -10833,7 +11957,10 @@
       "spd": 65,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowclaw",
+      "honeclaws"
+    ],
     "rmmoves": []
   },
   "munna": {
@@ -10854,7 +11981,10 @@
       "spd": 55,
       "spe": 24
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "musharna": {
@@ -10875,7 +12005,11 @@
       "spd": 95,
       "spe": 29
     },
-    "addmoves": [],
+    "addmoves": [
+      "triattack",
+      "mist",
+      "mistyterrain"
+    ],
     "rmmoves": []
   },
   "blitzle": {
@@ -10917,7 +12051,12 @@
       "spd": 63,
       "spe": 116
     },
-    "addmoves": [],
+    "addmoves": [
+      "highjump kick",
+      "blazekick",
+      "thunderouskick",
+      "volttackle"
+    ],
     "rmmoves": []
   },
   "roggenrola": {
@@ -10980,7 +12119,9 @@
       "spd": 80,
       "spe": 25
     },
-    "addmoves": [],
+    "addmoves": [
+      "energyball"
+    ],
     "rmmoves": []
   },
   "woobat": {
@@ -11024,7 +12165,11 @@
       "spd": 55,
       "spe": 114
     },
-    "addmoves": [],
+    "addmoves": [
+      "psychicnoise",
+      "hypervoice",
+      ""
+    ],
     "rmmoves": []
   },
   "audino": {
@@ -11045,7 +12190,10 @@
       "spd": 86,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "triattack",
+      "sparklyswirl"
+    ],
     "rmmoves": []
   },
   "audinomega": {
@@ -11128,7 +12276,10 @@
       "spd": 65,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "spinout",
+      "icespinner"
+    ],
     "rmmoves": []
   },
   "tympole": {
@@ -11193,7 +12344,10 @@
       "spd": 75,
       "spe": 74
     },
-    "addmoves": [],
+    "addmoves": [
+      "gunkshot",
+      "superpower"
+    ],
     "rmmoves": []
   },
   "throh": {
@@ -11214,7 +12368,18 @@
       "spd": 85,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockblast",
+      "amnesia",
+      "outrage",
+      "dynamicpunch",
+      "ironhead",
+      "irondefense",
+      "gunkshot",
+      "closecombat",
+      "seedbomb",
+      "hammerarm"
+    ],
     "rmmoves": []
   },
   "sawk": {
@@ -11235,7 +12400,17 @@
       "spd": 75,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "machpunch",
+      "outrage",
+      "dynamicpunch",
+      "swordsdance",
+      "bodyslam",
+      "ironhead",
+      "drainpunch",
+      "blazekick",
+      "crosschop"
+    ],
     "rmmoves": []
   },
   "sewaddle": {
@@ -11301,7 +12476,10 @@
       "spd": 80,
       "spe": 92
     },
-    "addmoves": [],
+    "addmoves": [
+      "silktrap",
+      "solarblade"
+    ],
     "rmmoves": []
   },
   "venipede": {
@@ -11367,7 +12545,15 @@
       "spd": 69,
       "spe": 112
     },
-    "addmoves": [],
+    "addmoves": [
+      "u-turn",
+      "gunkshot",
+      "mortalspin",
+      "trailblaze",
+      "firstimpression",
+      "iceball",
+      "flamecharge"
+    ],
     "rmmoves": []
   },
   "scolipedemega": {
@@ -11431,7 +12617,10 @@
       "spd": 75,
       "spe": 116
     },
-    "addmoves": [],
+    "addmoves": [
+      "chloroblast",
+      "filletaway"
+    ],
     "rmmoves": []
   },
   "petilil": {
@@ -11473,7 +12662,11 @@
       "spd": 75,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "baby-dolleyes",
+      "floralhealing",
+      "flowershield"
+    ],
     "rmmoves": []
   },
   "lilliganthisui": {
@@ -11495,7 +12688,9 @@
       "spd": 75,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "combattorque"
+    ],
     "rmmoves": []
   },
   "maractus": {
@@ -11516,7 +12711,14 @@
       "spd": 67,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "scald",
+      "scorchingsands",
+      "swordsdance",
+      "aquastep",
+      "fierydance",
+      "firepunch"
+    ],
     "rmmoves": []
   },
   "dwebble": {
@@ -11560,7 +12762,11 @@
       "spd": 75,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "metalclaw",
+      "acidspray",
+      "gastroacid"
+    ],
     "rmmoves": []
   },
   "elgyem": {
@@ -11581,7 +12787,12 @@
       "spd": 55,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "magictome",
+      "cosmicray",
+      "shootingstar",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "beheeyem": {
@@ -11602,7 +12813,10 @@
       "spd": 95,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "nova",
+      "ritual"
+    ],
     "rmmoves": []
   },
   "sigilyph": {
@@ -11624,7 +12838,11 @@
       "spd": 80,
       "spe": 97
     },
-    "addmoves": [],
+    "addmoves": [
+      "mysticalpower",
+      "freezingglare",
+      "magictome"
+    ],
     "rmmoves": []
   },
   "archen": {
@@ -11668,7 +12886,9 @@
       "spd": 65,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "stompingtantrum"
+    ],
     "rmmoves": []
   },
   "zorua": {
@@ -11732,7 +12952,10 @@
       "spd": 60,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "terrainpulse",
+      "weatherball"
+    ],
     "rmmoves": []
   },
   "zoroarkhisui": {
@@ -11754,7 +12977,11 @@
       "spd": 60,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "terrainpulse",
+      "weatherball",
+      "grudge"
+    ],
     "rmmoves": []
   },
   "minccino": {
@@ -11796,7 +13023,9 @@
       "spd": 60,
       "spe": 115
     },
-    "addmoves": [],
+    "addmoves": [
+      "decorate"
+    ],
     "rmmoves": []
   },
   "gothita": {
@@ -11818,7 +13047,13 @@
       "spd": 65,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "cosmicray",
+      "shootingstar",
+      "magictome",
+      "ritual",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "gothorita": {
@@ -11862,7 +13097,10 @@
       "spd": 110,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "meteorbeam",
+      "spacialrend"
+    ],
     "rmmoves": []
   },
   "solosis": {
@@ -11925,7 +13163,11 @@
       "spd": 85,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "guardsplit",
+      "powersplit",
+      "twinbeam"
+    ],
     "rmmoves": []
   },
   "ducklett": {
@@ -11969,7 +13211,10 @@
       "spd": 63,
       "spe": 98
     },
-    "addmoves": [],
+    "addmoves": [
+      "tripledive",
+      "aquastep"
+    ],
     "rmmoves": []
   },
   "vanillite": {
@@ -12032,7 +13277,9 @@
       "spd": 95,
       "spe": 79
     },
-    "addmoves": [],
+    "addmoves": [
+      "chillingwater"
+    ],
     "rmmoves": []
   },
   "deerling": {
@@ -12076,7 +13323,9 @@
       "spd": 70,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "ragingbull"
+    ],
     "rmmoves": []
   },
   "emolga": {
@@ -12098,7 +13347,9 @@
       "spd": 60,
       "spe": 103
     },
-    "addmoves": [],
+    "addmoves": [
+      "floatyfall"
+    ],
     "rmmoves": []
   },
   "karrablast": {
@@ -12141,7 +13392,9 @@
       "spd": 105,
       "spe": 20
     },
-    "addmoves": [],
+    "addmoves": [
+      "shellside arm"
+    ],
     "rmmoves": []
   },
   "frillish": {
@@ -12185,7 +13438,10 @@
       "spd": 105,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "chillingwater",
+      "haze"
+    ],
     "rmmoves": []
   },
   "tynamo": {
@@ -12248,7 +13504,11 @@
       "spd": 80,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "waterfall",
+      "poisonfang",
+      "psychicfangs"
+    ],
     "rmmoves": []
   },
   "eelektrossmega": {
@@ -12333,7 +13593,13 @@
       "spd": 90,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "flamewheel",
+      "healblock",
+      "burnup",
+      "infernalparade",
+      "ominouswind"
+    ],
     "rmmoves": []
   },
   "chandeluremega": {
@@ -12458,7 +13724,9 @@
       "spd": 80,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "wavecrash"
+    ],
     "rmmoves": []
   },
   "cryogonal": {
@@ -12479,7 +13747,9 @@
       "spd": 135,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "freezyfrost"
+    ],
     "rmmoves": []
   },
   "mienfoo": {
@@ -12521,7 +13791,11 @@
       "spd": 60,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "powerwhip",
+      "firelash",
+      "filletaway"
+    ],
     "rmmoves": []
   },
   "druddigon": {
@@ -12542,7 +13816,11 @@
       "spd": 90,
       "spe": 48
     },
-    "addmoves": [],
+    "addmoves": [
+      "zenheadbutt",
+      "headsmash",
+      "headlongrush"
+    ],
     "rmmoves": []
   },
   "golett": {
@@ -12586,7 +13864,11 @@
       "spd": 80,
       "spe": 55
     },
-    "addmoves": [],
+    "addmoves": [
+      "ironhead",
+      "icehammer",
+      "headlongrush"
+    ],
     "rmmoves": []
   },
   "golurkmega": {
@@ -12650,7 +13932,9 @@
       "spd": 75,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "noretreat"
+    ],
     "rmmoves": []
   },
   "braviaryhisui": {
@@ -12672,7 +13956,9 @@
       "spd": 70,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "shockwave"
+    ],
     "rmmoves": []
   },
   "vullaby": {
@@ -12716,7 +14002,10 @@
       "spd": 95,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowbone",
+      "bonemerang"
+    ],
     "rmmoves": []
   },
   "heatmor": {
@@ -12737,7 +14026,9 @@
       "spd": 66,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "temperflare"
+    ],
     "rmmoves": []
   },
   "durant": {
@@ -12759,7 +14050,9 @@
       "spd": 48,
       "spe": 109
     },
-    "addmoves": [],
+    "addmoves": [
+      "jawlock"
+    ],
     "rmmoves": []
   },
   "larvesta": {
@@ -12825,7 +14118,12 @@
       "spd": 129,
       "spe": 108
     },
-    "addmoves": [],
+    "addmoves": [
+      "hornleech",
+      "stealthrock",
+      "poisonjab",
+      "irondefense"
+    ],
     "rmmoves": []
   },
   "tornadus": {
@@ -12846,7 +14144,9 @@
       "spd": 80,
       "spe": 111
     },
-    "addmoves": [],
+    "addmoves": [
+      "blizzard"
+    ],
     "rmmoves": []
   },
   "tornadustherian": {
@@ -12867,7 +14167,9 @@
       "spd": 90,
       "spe": 121
     },
-    "addmoves": [],
+    "addmoves": [
+      "blizzard"
+    ],
     "rmmoves": []
   },
   "thundurus": {
@@ -12889,7 +14191,9 @@
       "spd": 80,
       "spe": 111
     },
-    "addmoves": [],
+    "addmoves": [
+      "electroshot"
+    ],
     "rmmoves": []
   },
   "thundurustherian": {
@@ -12911,7 +14215,9 @@
       "spd": 80,
       "spe": 101
     },
-    "addmoves": [],
+    "addmoves": [
+      "electroshot"
+    ],
     "rmmoves": []
   },
   "landorus": {
@@ -12933,7 +14239,9 @@
       "spd": 80,
       "spe": 101
     },
-    "addmoves": [],
+    "addmoves": [
+      "rototiller"
+    ],
     "rmmoves": []
   },
   "landorustherian": {
@@ -12955,7 +14263,9 @@
       "spd": 80,
       "spe": 91
     },
-    "addmoves": [],
+    "addmoves": [
+      "rototiller"
+    ],
     "rmmoves": []
   },
   "enamorus": {
@@ -12977,7 +14287,10 @@
       "spd": 80,
       "spe": 106
     },
-    "addmoves": [],
+    "addmoves": [
+      "aeroblast",
+      "coil"
+    ],
     "rmmoves": []
   },
   "enamorustherian": {
@@ -12999,7 +14312,10 @@
       "spd": 100,
       "spe": 46
     },
-    "addmoves": [],
+    "addmoves": [
+      "aeroblast",
+      "coil"
+    ],
     "rmmoves": []
   },
   "keldeo": {
@@ -13021,7 +14337,17 @@
       "spd": 90,
       "spe": 108
     },
-    "addmoves": [],
+    "addmoves": [
+      "earthpower",
+      "icebeam",
+      "lightscreen",
+      "stealthrock",
+      "zenheabutt",
+      "whirlpool",
+      "waterfall",
+      "aquastep",
+      "highjump kick"
+    ],
     "rmmoves": []
   },
   "keldeoresolute": {
@@ -13043,7 +14369,17 @@
       "spd": 90,
       "spe": 108
     },
-    "addmoves": [],
+    "addmoves": [
+      "earthpower",
+      "icebeam",
+      "lightscreen",
+      "stealthrock",
+      "zenheabutt",
+      "whirlpool",
+      "waterfall",
+      "aquastep",
+      "highkump kick"
+    ],
     "rmmoves": []
   },
   "meloetta": {
@@ -13064,7 +14400,11 @@
       "spd": 128,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "flipturn",
+      "powergem",
+      "agility"
+    ],
     "rmmoves": []
   },
   "meloettapirouette": {
@@ -13085,7 +14425,11 @@
       "spd": 77,
       "spe": 128
     },
-    "addmoves": [],
+    "addmoves": [
+      "flipturn",
+      "powergem",
+      "agility"
+    ],
     "rmmoves": []
   },
   "chespin": {
@@ -13149,7 +14493,13 @@
       "spd": 75,
       "spe": 64
     },
-    "addmoves": [],
+    "addmoves": [
+      "growth",
+      "solarblade",
+      "iceball",
+      "steamroller",
+      "steelroller"
+    ],
     "rmmoves": []
   },
   "chesnaughtmega": {
@@ -13233,7 +14583,10 @@
       "spd": 100,
       "spe": 104
     },
-    "addmoves": [],
+    "addmoves": [
+      "chargebeam",
+      "inferno"
+    ],
     "rmmoves": []
   },
   "delphoxmega": {
@@ -13317,7 +14670,13 @@
       "spd": 71,
       "spe": 122
     },
-    "addmoves": [],
+    "addmoves": [
+      "nastyplot",
+      "psyshock",
+      "flipturn",
+      "vacuumwave",
+      "terrainpulse"
+    ],
     "rmmoves": []
   },
   "greninjamega": {
@@ -13403,7 +14762,14 @@
       "spd": 69,
       "spe": 126
     },
-    "addmoves": [],
+    "addmoves": [
+      "whirlwind",
+      "flamewheel",
+      "blazekick",
+      "skyattack",
+      "beakblast",
+      "axekick"
+    ],
     "rmmoves": []
   },
   "scatterbug": {
@@ -13466,7 +14832,11 @@
       "spd": 50,
       "spe": 89
     },
-    "addmoves": [],
+    "addmoves": [
+      "whirlwind",
+      "dazzlinggleam",
+      "lunge"
+    ],
     "rmmoves": []
   },
   "vivillonfancy": {
@@ -13573,7 +14943,16 @@
       "spd": 128,
       "spe": 92
     },
-    "addmoves": [],
+    "addmoves": [
+      "drainingkiss",
+      "hyperbeam",
+      "lightscreen",
+      "trailblaze",
+      "geomancy",
+      "oblivionwing",
+      "darkpulse",
+      "nightdaze"
+    ],
     "rmmoves": []
   },
   "floetteeternalmega": {
@@ -13613,7 +14992,13 @@
       "spd": 154,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "fleurcannon",
+      "punishment",
+      "synchronoise",
+      "pursuit",
+      "growth"
+    ],
     "rmmoves": []
   },
   "skiddo": {
@@ -13655,7 +15040,11 @@
       "spd": 81,
       "spe": 68
     },
-    "addmoves": [],
+    "addmoves": [
+      "megahorn",
+      "solarblade",
+      "ragingbull"
+    ],
     "rmmoves": []
   },
   "furfrou": {
@@ -13676,7 +15065,15 @@
       "spd": 90,
       "spe": 102
     },
-    "addmoves": [],
+    "addmoves": [
+      "crunch",
+      "double-edge",
+      "hyperbeam",
+      "endure",
+      "thunderfang",
+      "icefang",
+      "firefang"
+    ],
     "rmmoves": []
   },
   "espurr": {
@@ -13718,7 +15115,21 @@
       "spd": 81,
       "spe": 104
     },
-    "addmoves": [],
+    "addmoves": [
+      "healblock",
+      "wish",
+      "spikes",
+      "taunt",
+      "toxicspikes",
+      "stealthrock",
+      "moonblast",
+      "teleport",
+      "triattack",
+      "spacialrend",
+      "nova",
+      "magictome",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "meowsticf": {
@@ -13739,7 +15150,18 @@
       "spd": 81,
       "spe": 104
     },
-    "addmoves": [],
+    "addmoves": [
+      "waterpulse",
+      "earthpower",
+      "moonblast",
+      "teleport",
+      "triattack",
+      "thunder",
+      "spacialrend",
+      "nova",
+      "magictome",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "meowsticmega": {
@@ -13819,7 +15241,13 @@
       "spd": 89,
       "spe": 29
     },
-    "addmoves": [],
+    "addmoves": [
+      "healblock",
+      "hypnosis",
+      "strengthsap",
+      "sparklyswirl",
+      "spiritbreak"
+    ],
     "rmmoves": []
   },
   "swirlix": {
@@ -13861,7 +15289,13 @@
       "spd": 75,
       "spe": 72
     },
-    "addmoves": [],
+    "addmoves": [
+      "swordsdance",
+      "self-destruct",
+      "lunge",
+      "pounce",
+      "skittersmack"
+    ],
     "rmmoves": []
   },
   "inkay": {
@@ -13905,7 +15339,17 @@
       "spd": 75,
       "spe": 73
     },
-    "addmoves": [],
+    "addmoves": [
+      "closecombat",
+      "bulkup",
+      "healblock",
+      "poisonjab",
+      "zenheabutt",
+      "stealthrock",
+      "octolock",
+      "partingshot",
+      "flashcannon"
+    ],
     "rmmoves": []
   },
   "malamar-mega": {
@@ -13969,7 +15413,12 @@
       "spd": 123,
       "spe": 44
     },
-    "addmoves": [],
+    "addmoves": [
+      "poisonjab",
+      "corrosivegas",
+      "breakingswipe",
+      "solarbeam"
+    ],
     "rmmoves": []
   },
   "dragalgemega": {
@@ -14031,7 +15480,13 @@
       "spd": 89,
       "spe": 59
     },
-    "addmoves": [],
+    "addmoves": [
+      "hydrocannon",
+      "shockwave",
+      "zapcannon",
+      "jetpunch",
+      "snipeshot"
+    ],
     "rmmoves": []
   },
   "amaura": {
@@ -14075,7 +15530,14 @@
       "spd": 92,
       "spe": 58
     },
-    "addmoves": [],
+    "addmoves": [
+      "icehammer",
+      "snowscape",
+      "paleowave",
+      "powergem",
+      "diamondstorm",
+      "bodypress"
+    ],
     "rmmoves": []
   },
   "dedenne": {
@@ -14097,7 +15559,10 @@
       "spd": 67,
       "spe": 101
     },
-    "addmoves": [],
+    "addmoves": [
+      "fakeout",
+      "thunderfang"
+    ],
     "rmmoves": []
   },
   "carbink": {
@@ -14119,7 +15584,13 @@
       "spd": 150,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "self-destruct",
+      "paleowave",
+      "chargebeam",
+      "simplebeam",
+      "steelbeam"
+    ],
     "rmmoves": []
   },
   "goomy": {
@@ -14204,7 +15675,11 @@
       "spd": 150,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "gigadrain",
+      "dragonhammer",
+      "firelash"
+    ],
     "rmmoves": []
   },
   "goodrahisui": {
@@ -14226,7 +15701,15 @@
       "spd": 150,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "ancientpower",
+      "dragonhammer",
+      "steelroller",
+      "iceball",
+      "rollout",
+      "steamroller",
+      "defensecurl"
+    ],
     "rmmoves": []
   },
   "phantump": {
@@ -14270,7 +15753,12 @@
       "spd": 82,
       "spe": 56
     },
-    "addmoves": [],
+    "addmoves": [
+      "healblock",
+      "shadowstrike",
+      "frenzyplant",
+      "drumbeating"
+    ],
     "rmmoves": []
   },
   "pumpkaboosmall": {
@@ -14380,7 +15868,15 @@
       "spd": 75,
       "spe": 99
     },
-    "addmoves": [],
+    "addmoves": [
+      "hypnosis",
+      "firespin",
+      "self-destruct",
+      "shadowclaw",
+      "shadowstrike",
+      "firelash",
+      "heatcrash"
+    ],
     "rmmoves": []
   },
   "gourgeist": {
@@ -14402,7 +15898,15 @@
       "spd": 75,
       "spe": 54
     },
-    "addmoves": [],
+    "addmoves": [
+      "hypnosis",
+      "firespin",
+      "self-destruct",
+      "shadowclaw",
+      "shadowstrike",
+      "firelash",
+      "heatcrash"
+    ],
     "rmmoves": []
   },
   "gourgeistlarge": {
@@ -14424,7 +15928,15 @@
       "spd": 75,
       "spe": 69
     },
-    "addmoves": [],
+    "addmoves": [
+      "hypnosis",
+      "firespin",
+      "self-destruct",
+      "shadowclaw",
+      "shadowstrike",
+      "firelash",
+      "heatcrash"
+    ],
     "rmmoves": []
   },
   "gourgeistsuper": {
@@ -14446,7 +15958,15 @@
       "spd": 75,
       "spe": 54
     },
-    "addmoves": [],
+    "addmoves": [
+      "hypnosis",
+      "firespin",
+      "self-destruct",
+      "shadowclaw",
+      "shadowstrike",
+      "firelash",
+      "heatcrash"
+    ],
     "rmmoves": []
   },
   "bergmite": {
@@ -14488,7 +16008,9 @@
       "spd": 46,
       "spe": 28
     },
-    "addmoves": [],
+    "addmoves": [
+      "mountainegale"
+    ],
     "rmmoves": []
   },
   "avalugghisui": {
@@ -14510,7 +16032,10 @@
       "spd": 36,
       "spe": 38
     },
-    "addmoves": [],
+    "addmoves": [
+      "hydropump",
+      "iciclecrash"
+    ],
     "rmmoves": []
   },
   "noibat": {
@@ -14554,7 +16079,12 @@
       "spd": 80,
       "spe": 123
     },
-    "addmoves": [],
+    "addmoves": [
+      "scaleshot",
+      "alluringvoice",
+      "metalsound",
+      "perishsong"
+    ],
     "rmmoves": []
   },
   "diancie": {
@@ -14576,7 +16106,9 @@
       "spd": 150,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "paleowave"
+    ],
     "rmmoves": []
   },
   "dianciemega": {
@@ -14618,7 +16150,17 @@
       "spd": 130,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "healblock",
+      "psychicfangs",
+      "baddybad",
+      "powertrip",
+      "partingshot",
+      "galacticbeatdown",
+      "magictome",
+      "cometpunch",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "hoopaunbound": {
@@ -14640,7 +16182,17 @@
       "spd": 130,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "healblock",
+      "psychicfangs",
+      "baddybad",
+      "powertrip",
+      "partingshot",
+      "galacticbeatdown",
+      "magictome",
+      "cometpunch",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "xerneas": {
@@ -14660,7 +16212,14 @@
       "spd": 98,
       "spe": 99
     },
-    "addmoves": [],
+    "addmoves": [
+      "trailblaze",
+      "seedbomb",
+      "solarblade",
+      "energyball",
+      "grassyglide",
+      "ritual"
+    ],
     "rmmoves": []
   },
   "yveltal": {
@@ -14681,7 +16240,12 @@
       "spd": 98,
       "spe": 99
     },
-    "addmoves": [],
+    "addmoves": [
+      "vacuumwave",
+      "healblock",
+      "leechlife",
+      "gigadrain"
+    ],
     "rmmoves": []
   },
   "rowlet": {
@@ -14747,7 +16311,11 @@
       "spd": 100,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "thousandarrows",
+      "focusenergy",
+      ""
+    ],
     "rmmoves": []
   },
   "decidueyehisui": {
@@ -14769,7 +16337,10 @@
       "spd": 95,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "thousandarrows",
+      "focusenergy"
+    ],
     "rmmoves": []
   },
   "litten": {
@@ -14833,7 +16404,12 @@
       "spd": 90,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "blazingtorque",
+      "wickedtorque",
+      "inferno",
+      "dynamicpunch"
+    ],
     "rmmoves": []
   },
   "popplio": {
@@ -14897,7 +16473,12 @@
       "spd": 116,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "aquastep",
+      "petaldance",
+      "revelationdance",
+      "bouncybubble"
+    ],
     "rmmoves": []
   },
   "grubbin": {
@@ -14962,7 +16543,10 @@
       "spd": 75,
       "spe": 43
     },
-    "addmoves": [],
+    "addmoves": [
+      "buzzybuzz",
+      "electroshot"
+    ],
     "rmmoves": []
   },
   "crabrawler": {
@@ -15005,7 +16589,14 @@
       "spd": 67,
       "spe": 43
     },
-    "addmoves": [],
+    "addmoves": [
+      "machpunch",
+      "taunt",
+      "firstimpression",
+      "iciclespear",
+      "filletaway",
+      "mountaingale"
+    ],
     "rmmoves": []
   },
   "crabominablemega": {
@@ -15047,7 +16638,9 @@
       "spd": 70,
       "spe": 93
     },
-    "addmoves": [],
+    "addmoves": [
+      "petaldance"
+    ],
     "rmmoves": []
   },
   "oricoriopompom": {
@@ -15069,7 +16662,9 @@
       "spd": 70,
       "spe": 93
     },
-    "addmoves": [],
+    "addmoves": [
+      "petaldance"
+    ],
     "rmmoves": []
   },
   "oricoriopau": {
@@ -15091,7 +16686,9 @@
       "spd": 70,
       "spe": 93
     },
-    "addmoves": [],
+    "addmoves": [
+      "petaldance"
+    ],
     "rmmoves": []
   },
   "oricoriosensu": {
@@ -15113,7 +16710,9 @@
       "spd": 70,
       "spe": 93
     },
-    "addmoves": [],
+    "addmoves": [
+      "petaldance"
+    ],
     "rmmoves": []
   },
   "cutiefly": {
@@ -15157,7 +16756,10 @@
       "spd": 70,
       "spe": 124
     },
-    "addmoves": [],
+    "addmoves": [
+      "decorate",
+      "aurasphere"
+    ],
     "rmmoves": []
   },
   "rockruff": {
@@ -15199,7 +16801,10 @@
       "spd": 65,
       "spe": 112
     },
-    "addmoves": [],
+    "addmoves": [
+      "hyperfang",
+      "pursuit"
+    ],
     "rmmoves": []
   },
   "lycanrocmidnight": {
@@ -15220,7 +16825,11 @@
       "spd": 75,
       "spe": 82
     },
-    "addmoves": [],
+    "addmoves": [
+      "baddybad",
+      "headsmash",
+      "headlongrush"
+    ],
     "rmmoves": []
   },
   "lycanrocdusk": {
@@ -15241,7 +16850,10 @@
       "spd": 65,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "hyperfang",
+      "pursuit"
+    ],
     "rmmoves": []
   },
   "mudbray": {
@@ -15283,7 +16895,10 @@
       "spd": 85,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "blazekick",
+      "heatcrash"
+    ],
     "rmmoves": []
   },
   "fomantis": {
@@ -15325,7 +16940,13 @@
       "spd": 90,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "photongeyser",
+      "flashcannon",
+      "bugbuzz",
+      "pounce",
+      "lunge"
+    ],
     "rmmoves": []
   },
   "morelull": {
@@ -15369,7 +16990,10 @@
       "spd": 100,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "hypnosis",
+      "healpulse"
+    ],
     "rmmoves": []
   },
   "salandit": {
@@ -15413,7 +17037,11 @@
       "spd": 60,
       "spe": 117
     },
-    "addmoves": [],
+    "addmoves": [
+      "malignantchain",
+      "dragonbreath",
+      "twister"
+    ],
     "rmmoves": []
   },
   "bounsweet": {
@@ -15476,7 +17104,10 @@
       "spd": 98,
       "spe": 72
     },
-    "addmoves": [],
+    "addmoves": [
+      "combattorque",
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "comfey": {
@@ -15497,7 +17128,10 @@
       "spd": 110,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "sparklyswirl",
+      "revivalblessing"
+    ],
     "rmmoves": []
   },
   "sandygast": {
@@ -15541,7 +17175,15 @@
       "spd": 75,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "darkpulse",
+      "powergem",
+      "nastyplot",
+      "fakeout",
+      "shadowbone",
+      "bonemerang",
+      "bonerush"
+    ],
     "rmmoves": []
   },
   "typenull": {
@@ -15581,7 +17223,15 @@
       "spd": 95,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "aquatail",
+      "irontail",
+      "poisontail",
+      "dragontail",
+      "honeclaws",
+      "galacticbeatdown",
+      "nova"
+    ],
     "rmmoves": []
   },
   "silvallyfire": {
@@ -15945,7 +17595,12 @@
       "spd": 60,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "floatyfall",
+      "shootingstar",
+      "gravitationslam",
+      "nova"
+    ],
     "rmmoves": []
   },
   "miniormeteor": {
@@ -15967,7 +17622,12 @@
       "spd": 100,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "floatyfall",
+      "shootingstar",
+      "gravitationslam",
+      "nova"
+    ],
     "rmmoves": []
   },
   "komala": {
@@ -15986,7 +17646,9 @@
       "spd": 95,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "drumbeating"
+    ],
     "rmmoves": []
   },
   "turtonator": {
@@ -16008,7 +17670,11 @@
       "spd": 85,
       "spe": 36
     },
-    "addmoves": [],
+    "addmoves": [
+      "armorcannon",
+      "burningbulwark",
+      "dragoncheer"
+    ],
     "rmmoves": []
   },
   "togedemaru": {
@@ -16030,7 +17696,13 @@
       "spd": 73,
       "spe": 96
     },
-    "addmoves": [],
+    "addmoves": [
+      "steamroller",
+      "iceball",
+      "rapidspin",
+      "spinout",
+      "icespinner"
+    ],
     "rmmoves": []
   },
   "drampa": {
@@ -16052,7 +17724,15 @@
       "spd": 91,
       "spe": 36
     },
-    "addmoves": [],
+    "addmoves": [
+      "bodyslam",
+      "whirlwind",
+      "earthpower",
+      "chargebeam",
+      "triattack",
+      "blastburn",
+      "wildboltstorm"
+    ],
     "rmmoves": []
   },
   "drampamega": {
@@ -16094,7 +17774,9 @@
       "spd": 90,
       "spe": 40
     },
-    "addmoves": [],
+    "addmoves": [
+      "wavecrash"
+    ],
     "rmmoves": []
   },
   "jangmoo": {
@@ -16159,7 +17841,9 @@
       "spd": 105,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "meteormash"
+    ],
     "rmmoves": []
   },
   "cosmog": {
@@ -16178,7 +17862,9 @@
       "spd": 31,
       "spe": 37
     },
-    "addmoves": [],
+    "addmoves": [
+      "ritual"
+    ],
     "rmmoves": []
   },
   "cosmoem": {
@@ -16219,7 +17905,16 @@
       "spd": 89,
       "spe": 97
     },
-    "addmoves": [],
+    "addmoves": [
+      "psyshieldbash",
+      "dazzlinggleam",
+      "ragingfury",
+      "galacticbeatdown",
+      "gravitationslam",
+      "cosmicray",
+      "nova",
+      "shootingstar"
+    ],
     "rmmoves": []
   },
   "lunala": {
@@ -16241,7 +17936,14 @@
       "spd": 107,
       "spe": 97
     },
-    "addmoves": [],
+    "addmoves": [
+      "esperwing",
+      "flashcannon",
+      "psychicfangs",
+      "magictome",
+      "cosmicray",
+      "nova"
+    ],
     "rmmoves": []
   },
   "tapukoko": {
@@ -16263,7 +17965,10 @@
       "spd": 75,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "supercellslam",
+      "playrough"
+    ],
     "rmmoves": []
   },
   "tapulele": {
@@ -16285,7 +17990,11 @@
       "spd": 115,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "springtidestorm",
+      "bugbuzz",
+      "sparklyswirl"
+    ],
     "rmmoves": []
   },
   "tapubulu": {
@@ -16307,7 +18016,11 @@
       "spd": 95,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "trailblaze",
+      "playrough",
+      "ragingbull"
+    ],
     "rmmoves": []
   },
   "tapufini": {
@@ -16329,7 +18042,12 @@
       "spd": 130,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "purify",
+      "liquidation",
+      "wavecrash",
+      "megahorn"
+    ],
     "rmmoves": []
   },
   "nihilego": {
@@ -16351,7 +18069,11 @@
       "spd": 131,
       "spe": 103
     },
-    "addmoves": [],
+    "addmoves": [
+      "infestation",
+      "gigadrain",
+      "topsy-turvy"
+    ],
     "rmmoves": []
   },
   "buzzwole": {
@@ -16373,7 +18095,9 @@
       "spd": 53,
       "spe": 79
     },
-    "addmoves": [],
+    "addmoves": [
+      "bodypress"
+    ],
     "rmmoves": []
   },
   "pheromosa": {
@@ -16395,7 +18119,11 @@
       "spd": 37,
       "spe": 151
     },
-    "addmoves": [],
+    "addmoves": [
+      "thunderouskick",
+      "pounce",
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "xurkitree": {
@@ -16416,7 +18144,11 @@
       "spd": 71,
       "spe": 83
     },
-    "addmoves": [],
+    "addmoves": [
+      "electroshot",
+      "electrify",
+      "flashcannon"
+    ],
     "rmmoves": []
   },
   "celesteela": {
@@ -16438,7 +18170,13 @@
       "spd": 101,
       "spe": 61
     },
-    "addmoves": [],
+    "addmoves": [
+      "heatcrash",
+      "shootingstar",
+      "gravitationslam",
+      "cosmicray",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "kartana": {
@@ -16460,7 +18198,9 @@
       "spd": 31,
       "spe": 109
     },
-    "addmoves": [],
+    "addmoves": [
+      "behemothblade"
+    ],
     "rmmoves": []
   },
   "guzzlord": {
@@ -16482,7 +18222,11 @@
       "spd": 53,
       "spe": 43
     },
-    "addmoves": [],
+    "addmoves": [
+      "breakingswipe",
+      "jawlock",
+      "hyperfang"
+    ],
     "rmmoves": []
   },
   "necrozma": {
@@ -16503,7 +18247,16 @@
       "spd": 89,
       "spe": 79
     },
-    "addmoves": [],
+    "addmoves": [
+      "meteorbeam",
+      "twinbeam",
+      "flashcannon",
+      "nova",
+      "magictome",
+      "galacticbeatdown",
+      "cometpunch",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "necrozmaduskmane": {
@@ -16591,7 +18344,14 @@
       "spd": 115,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "powergem",
+      "vacuumwave",
+      "solarblade",
+      "geargrind",
+      "iceball",
+      "steamroller"
+    ],
     "rmmoves": []
   },
   "magearnaoriginal": {
@@ -16613,7 +18373,14 @@
       "spd": 115,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "powergem",
+      "vacuumwave",
+      "solarblade",
+      "geargrind",
+      "iceball",
+      "steamroller"
+    ],
     "rmmoves": []
   },
   "magearnamega": {
@@ -16676,7 +18443,10 @@
       "spd": 73,
       "spe": 121
     },
-    "addmoves": [],
+    "addmoves": [
+      "barbbarrage",
+      "dragoncheer"
+    ],
     "rmmoves": []
   },
   "stakataka": {
@@ -16698,7 +18468,10 @@
       "spd": 101,
       "spe": 13
     },
-    "addmoves": [],
+    "addmoves": [
+      "shelter",
+      "anchorshot"
+    ],
     "rmmoves": []
   },
   "blacephalon": {
@@ -16720,7 +18493,10 @@
       "spd": 79,
       "spe": 107
     },
-    "addmoves": [],
+    "addmoves": [
+      "mistyexplosion",
+      "infernalparade"
+    ],
     "rmmoves": []
   },
   "meltan": {
@@ -16762,7 +18538,11 @@
       "spd": 65,
       "spe": 34
     },
-    "addmoves": [],
+    "addmoves": [
+      "charge",
+      "chargebeam",
+      "fusionbolt"
+    ],
     "rmmoves": []
   },
   "grookey": {
@@ -16825,7 +18605,9 @@
       "spd": 70,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "crosschop"
+    ],
     "rmmoves": []
   },
   "scorbunny": {
@@ -16888,7 +18670,11 @@
       "spd": 75,
       "spe": 119
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockblast",
+      "tripleaxel",
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "sobble": {
@@ -16951,7 +18737,12 @@
       "spd": 65,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "slackoff",
+      "spikes",
+      "toxicspikes",
+      "shootingstar"
+    ],
     "rmmoves": []
   },
   "gossifleur": {
@@ -16993,7 +18784,12 @@
       "spd": 120,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "petaldance",
+      "aircutter",
+      "floatyfall",
+      "tailwind"
+    ],
     "rmmoves": []
   },
   "wooloo": {
@@ -17035,7 +18831,12 @@
       "spd": 90,
       "spe": 88
     },
-    "addmoves": [],
+    "addmoves": [
+      "steelroller",
+      "steamroller",
+      "rollout",
+      "iceball"
+    ],
     "rmmoves": []
   },
   "yamper": {
@@ -17142,7 +18943,11 @@
       "spd": 90,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "flamewheel",
+      "blazingtorque",
+      "spinout"
+    ],
     "rmmoves": []
   },
   "applin": {
@@ -17186,7 +18991,12 @@
       "spd": 60,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "acid",
+      "gastroacid",
+      "dragoncheer",
+      "spicyextract"
+    ],
     "rmmoves": []
   },
   "appletun": {
@@ -17208,7 +19018,9 @@
       "spd": 80,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "dragoncheer"
+    ],
     "rmmoves": []
   },
   "dipplin": {
@@ -17252,7 +19064,10 @@
       "spd": 80,
       "spe": 44
     },
-    "addmoves": [],
+    "addmoves": [
+      "coil",
+      "glare"
+    ],
     "rmmoves": []
   },
   "silicobra": {
@@ -17294,7 +19109,9 @@
       "spd": 70,
       "spe": 71
     },
-    "addmoves": [],
+    "addmoves": [
+      "shoreup"
+    ],
     "rmmoves": []
   },
   "sizzlipede": {
@@ -17338,7 +19155,10 @@
       "spd": 90,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "steelroller",
+      "steamroller"
+    ],
     "rmmoves": []
   },
   "clobbopus": {
@@ -17380,7 +19200,14 @@
       "spd": 80,
       "spe": 42
     },
-    "addmoves": [],
+    "addmoves": [
+      "bulletpunch",
+      "machpunch",
+      "knockoff",
+      "vacuumwave",
+      "stormthrow",
+      "vitalthrow"
+    ],
     "rmmoves": []
   },
   "sinistea": {
@@ -17443,7 +19270,12 @@
       "spd": 114,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "scald",
+      "soak",
+      "bouncybubble",
+      "raindance"
+    ],
     "rmmoves": []
   },
   "polteageistantique": {
@@ -17464,7 +19296,12 @@
       "spd": 114,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "scald",
+      "soak",
+      "bouncybubble",
+      "raindance"
+    ],
     "rmmoves": []
   },
   "hatenna": {
@@ -17528,7 +19365,12 @@
       "spd": 103,
       "spe": 29
     },
-    "addmoves": [],
+    "addmoves": [
+      "forest'scurse",
+      "firelash",
+      "eeriespell",
+      "spiritbreak"
+    ],
     "rmmoves": []
   },
   "zigzagoon": {
@@ -17592,7 +19434,10 @@
       "spd": 61,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "crushclaw",
+      "metalclaw"
+    ],
     "rmmoves": []
   },
   "linoonegalar": {
@@ -17636,7 +19481,11 @@
       "spd": 81,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "bellydrum",
+      "skullbash",
+      "boomburst"
+    ],
     "rmmoves": []
   },
   "milcery": {
@@ -17677,7 +19526,9 @@
       "spd": 121,
       "spe": 64
     },
-    "addmoves": [],
+    "addmoves": [
+      "sparklyswirl"
+    ],
     "rmmoves": []
   },
   "falinks": {
@@ -17698,13 +19549,24 @@
       "spd": 60,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "lowsweep",
+      "seedbomb",
+      "fakeout",
+      "attackorder",
+      "defendorder",
+      "pinmissile",
+      "iciclespear",
+      "glaciallance",
+      "behemothbash"
+    ],
     "rmmoves": []
   },
   "falinksmega": {
     "restricted": false,
     "types": [
-      "Fighting"
+      "Fighting",
+      "Steel"
     ],
     "abilities": {
       "0": "Battle Bond"
@@ -17782,7 +19644,11 @@
       "spd": 20,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "blazekick",
+      "troptick",
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "eiscue": {
@@ -17803,7 +19669,9 @@
       "spd": 90,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "tripledive"
+    ],
     "rmmoves": []
   },
   "eiscuenoice": {
@@ -17824,7 +19692,9 @@
       "spd": 50,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "tripledive"
+    ],
     "rmmoves": []
   },
   "indeedee": {
@@ -17846,7 +19716,15 @@
       "spd": 95,
       "spe": 95
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlight",
+      "wish",
+      "moonblast",
+      "heatwave",
+      "chargebeam",
+      "vacuumwave",
+      "tidyup"
+    ],
     "rmmoves": []
   },
   "indeedeef": {
@@ -17868,7 +19746,14 @@
       "spd": 105,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "moonlight",
+      "wish",
+      "moonblast",
+      "sing",
+      "triattack",
+      "tidyup"
+    ],
     "rmmoves": []
   },
   "cufant": {
@@ -17910,7 +19795,10 @@
       "spd": 69,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "steamroller"
+    ],
     "rmmoves": []
   },
   "regieleki": {
@@ -17931,7 +19819,11 @@
       "spd": 50,
       "spe": 200
     },
-    "addmoves": [],
+    "addmoves": [
+      "electrify",
+      "paraboliccharge",
+      "discharge"
+    ],
     "rmmoves": []
   },
   "regidrago": {
@@ -17952,7 +19844,13 @@
       "spd": 50,
       "spe": 80
     },
-    "addmoves": [],
+    "addmoves": [
+      "dragonhammer",
+      "frostbreath",
+      "incinerate",
+      "paleowave",
+      ""
+    ],
     "rmmoves": []
   },
   "glastrier": {
@@ -17973,7 +19871,10 @@
       "spd": 110,
       "spe": 30
     },
-    "addmoves": [],
+    "addmoves": [
+      "glaciallance",
+      "icehammer"
+    ],
     "rmmoves": []
   },
   "spectrier": {
@@ -17994,7 +19895,10 @@
       "spd": 80,
       "spe": 130
     },
-    "addmoves": [],
+    "addmoves": [
+      "astralbarrage",
+      "infernalparade"
+    ],
     "rmmoves": []
   },
   "stantler": {
@@ -18037,7 +19941,12 @@
       "spd": 75,
       "spe": 65
     },
-    "addmoves": [],
+    "addmoves": [
+      "barrier",
+      "bodypress",
+      "cosmicray",
+      "starlightkick"
+    ],
     "rmmoves": []
   },
   "teddiursa": {
@@ -18101,7 +20010,10 @@
       "spd": 80,
       "spe": 50
     },
-    "addmoves": [],
+    "addmoves": [
+      "zenheadbutt",
+      "ironhead"
+    ],
     "rmmoves": []
   },
   "ursalunabloodmoon": {
@@ -18123,7 +20035,12 @@
       "spd": 65,
       "spe": 52
     },
-    "addmoves": [],
+    "addmoves": [
+      "zenheadbutt",
+      "ironhead",
+      "mudbomb",
+      "nightdaze"
+    ],
     "rmmoves": []
   },
   "basculin": {
@@ -18144,7 +20061,10 @@
       "spd": 55,
       "spe": 98
     },
-    "addmoves": [],
+    "addmoves": [
+      "populationbomb",
+      "fishiousrend"
+    ],
     "rmmoves": []
   },
   "basculinbluestriped": {
@@ -18165,7 +20085,10 @@
       "spd": 55,
       "spe": 98
     },
-    "addmoves": [],
+    "addmoves": [
+      "populationbomb",
+      "fishiousrend"
+    ],
     "rmmoves": []
   },
   "basculinwhitestriped": {
@@ -18208,7 +20131,10 @@
       "spd": 75,
       "spe": 78
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowstrike",
+      "tripledive"
+    ],
     "rmmoves": []
   },
   "basculegionf": {
@@ -18230,7 +20156,10 @@
       "spd": 75,
       "spe": 78
     },
-    "addmoves": [],
+    "addmoves": [
+      "shadowstrike",
+      "tripledive"
+    ],
     "rmmoves": []
   },
   "sprigatito": {
@@ -18294,7 +20223,11 @@
       "spd": 70,
       "spe": 123
     },
-    "addmoves": [],
+    "addmoves": [
+      "powerwhip",
+      "brutalswing",
+      "breakingswipe"
+    ],
     "rmmoves": []
   },
   "fuecoco": {
@@ -18358,7 +20291,10 @@
       "spd": 75,
       "spe": 66
     },
-    "addmoves": [],
+    "addmoves": [
+      "beakblast",
+      "aeroblast"
+    ],
     "rmmoves": []
   },
   "quaxly": {
@@ -18422,7 +20358,12 @@
       "spd": 75,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "victorydance",
+      "revelationdance",
+      "triplekick",
+      "rollingkick"
+    ],
     "rmmoves": []
   },
   "tarountula": {
@@ -18464,7 +20405,12 @@
       "spd": 86,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "armthrust",
+      "nightslash",
+      "revenge",
+      "toxicthread"
+    ],
     "rmmoves": []
   },
   "pawmi": {
@@ -18529,7 +20475,12 @@
       "spd": 60,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "paraboliccharge",
+      "drainpunch",
+      "plasmafists",
+      "forcepalm"
+    ],
     "rmmoves": []
   },
   "smoliv": {
@@ -18595,7 +20546,10 @@
       "spd": 109,
       "spe": 39
     },
-    "addmoves": [],
+    "addmoves": [
+      "sappyseed",
+      "seedflare"
+    ],
     "rmmoves": []
   },
   "nacli": {
@@ -18658,7 +20612,11 @@
       "spd": 90,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "amnesia",
+      "paleowave",
+      "icehammer"
+    ],
     "rmmoves": []
   },
   "charcadet": {
@@ -18701,7 +20659,10 @@
       "spd": 80,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "futuresight",
+      "shockwave"
+    ],
     "rmmoves": []
   },
   "ceruledge": {
@@ -18723,7 +20684,12 @@
       "spd": 100,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "stoneedge",
+      "grudge",
+      "shadowstrike",
+      "ragingfury"
+    ],
     "rmmoves": []
   },
   "flittle": {
@@ -18765,7 +20731,11 @@
       "spd": 60,
       "spe": 105
     },
-    "addmoves": [],
+    "addmoves": [
+      "psyshieldbash",
+      "aircutter",
+      "airslash"
+    ],
     "rmmoves": []
   },
   "tinkatink": {
@@ -18831,7 +20801,13 @@
       "spd": 105,
       "spe": 94
     },
-    "addmoves": [],
+    "addmoves": [
+      "woodhammer",
+      "bulkup",
+      "power-uppunch",
+      "hammerarm",
+      "spiritbreak"
+    ],
     "rmmoves": []
   },
   "wiglett": {
@@ -18873,7 +20849,13 @@
       "spd": 70,
       "spe": 120
     },
-    "addmoves": [],
+    "addmoves": [
+      "accelerock",
+      "rockblast",
+      "rocktomb",
+      "stoneedge",
+      "shelter"
+    ],
     "rmmoves": []
   },
   "bombirdier": {
@@ -18895,7 +20877,14 @@
       "spd": 85,
       "spe": 82
     },
-    "addmoves": [],
+    "addmoves": [
+      "gravapple",
+      "skydrop",
+      "iciclecrash",
+      "seedbomb",
+      "eggbomb",
+      "barrage"
+    ],
     "rmmoves": []
   },
   "varoom": {
@@ -18939,7 +20928,19 @@
       "spd": 67,
       "spe": 90
     },
-    "addmoves": [],
+    "addmoves": [
+      "blazingtorque",
+      "combattorque",
+      "noxioustorque",
+      "wickedtorque",
+      "magicaltorque",
+      "mortalspin",
+      "rapidspin",
+      "icespinner",
+      "steelroller",
+      "steamroller",
+      "flamewheel"
+    ],
     "rmmoves": []
   },
   "glimmet": {
@@ -18961,7 +20962,10 @@
       "spd": 60,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "shootingstar",
+      "cosmicray"
+    ],
     "rmmoves": []
   },
   "glimmora": {
@@ -18983,7 +20987,12 @@
       "spd": 81,
       "spe": 86
     },
-    "addmoves": [],
+    "addmoves": [
+      "icebeam",
+      "petaldance",
+      "chloroblast",
+      "gravitationslam"
+    ],
     "rmmoves": []
   },
   "glimmoramega": {
@@ -19045,7 +21054,16 @@
       "spd": 97,
       "spe": 68
     },
-    "addmoves": [],
+    "addmoves": [
+      "seedbomb",
+      "zenheabutt",
+      "shadowclaw",
+      "workup",
+      "irontail",
+      "shadowbone",
+      "bonemerang",
+      "bonerush"
+    ],
     "rmmoves": []
   },
   "cetoddle": {
@@ -19087,7 +21105,14 @@
       "spd": 55,
       "spe": 73
     },
-    "addmoves": [],
+    "addmoves": [
+      "megahorn",
+      "iceball",
+      "rollout",
+      "steamroller",
+      "steelroller",
+      "defensecurl"
+    ],
     "rmmoves": []
   },
   "dondozo": {
@@ -19108,7 +21133,12 @@
       "spd": 65,
       "spe": 35
     },
-    "addmoves": [],
+    "addmoves": [
+      "whirlpool",
+      "irontail",
+      "breakingswipe",
+      "dragonrush"
+    ],
     "rmmoves": []
   },
   "tatsugiri": {
@@ -19130,7 +21160,20 @@
       "spd": 95,
       "spe": 82
     },
-    "addmoves": [],
+    "addmoves": [
+      "icebeam",
+      "dragonrush",
+      "calmmind",
+      "flipturn",
+      "darkpulse",
+      "waterfall",
+      "ancientpower",
+      "tripleaxel",
+      "scald",
+      "tripledive",
+      "attackorder",
+      "defendorder"
+    ],
     "rmmoves": []
   },
   "tatsugiridroopy": {
@@ -19152,7 +21195,20 @@
       "spd": 95,
       "spe": 82
     },
-    "addmoves": [],
+    "addmoves": [
+      "icebeam",
+      "dragonrush",
+      "calmmind",
+      "flipturn",
+      "darkpulse",
+      "waterfall",
+      "ancientpower",
+      "tripleaxel",
+      "scald",
+      "tripledive",
+      "attackorder",
+      "defendorder"
+    ],
     "rmmoves": []
   },
   "tatsugiristretchy": {
@@ -19174,7 +21230,20 @@
       "spd": 95,
       "spe": 82
     },
-    "addmoves": [],
+    "addmoves": [
+      "icebeam",
+      "dragonrush",
+      "calmmind",
+      "flipturn",
+      "darkpulse",
+      "waterfall",
+      "ancientpower",
+      "tripleaxel",
+      "scald",
+      "tripledive",
+      "attackorder",
+      "defendorder"
+    ],
     "rmmoves": []
   },
   "tatsugirimega": {
@@ -19278,7 +21347,13 @@
       "spd": 70,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "firefang",
+      "thunderfang",
+      "icefang",
+      "headsmash",
+      "skullbash"
+    ],
     "rmmoves": []
   },
   "greattusk": {
@@ -19300,7 +21375,12 @@
       "spd": 53,
       "spe": 87
     },
-    "addmoves": [],
+    "addmoves": [
+      "iceball",
+      "steelroller",
+      "steamroller",
+      "combattorque"
+    ],
     "rmmoves": []
   },
   "screamtail": {
@@ -19322,7 +21402,16 @@
       "spd": 115,
       "spe": 111
     },
-    "addmoves": [],
+    "addmoves": [
+      "mindblown",
+      "defensecurl",
+      "rollout",
+      "iceball",
+      "steelroller",
+      "steamroller",
+      "aeroblast",
+      "floatyfall"
+    ],
     "rmmoves": []
   },
   "fluttermane": {
@@ -19344,7 +21433,10 @@
       "spd": 135,
       "spe": 135
     },
-    "addmoves": [],
+    "addmoves": [
+      "featherdance",
+      "hurricane"
+    ],
     "rmmoves": []
   },
   "slitherwing": {
@@ -19366,7 +21458,10 @@
       "spd": 105,
       "spe": 81
     },
-    "addmoves": [],
+    "addmoves": [
+      "burningbulwark",
+      "steelwing"
+    ],
     "rmmoves": []
   },
   "sandyshocks": {
@@ -19388,7 +21483,11 @@
       "spd": 85,
       "spe": 101
     },
-    "addmoves": [],
+    "addmoves": [
+      "mirrorshot",
+      "steelbeam",
+      "ironhead"
+    ],
     "rmmoves": []
   },
   "irontreads": {
@@ -19410,7 +21509,13 @@
       "spd": 70,
       "spe": 106
     },
-    "addmoves": [],
+    "addmoves": [
+      "geargrind",
+      "spinout",
+      "iceball",
+      "steamroller",
+      "blazingtorque"
+    ],
     "rmmoves": []
   },
   "ironbundle": {
@@ -19432,7 +21537,10 @@
       "spd": 60,
       "spe": 136
     },
-    "addmoves": [],
+    "addmoves": [
+      "aquajet",
+      "snipeshot"
+    ],
     "rmmoves": []
   },
   "ironmoth": {
@@ -19454,7 +21562,13 @@
       "spd": 110,
       "spe": 110
     },
-    "addmoves": [],
+    "addmoves": [
+      "signalbeam",
+      "zapcannon",
+      "cosmicray",
+      "nova",
+      "astralprotection"
+    ],
     "rmmoves": []
   },
   "ironthorns": {
@@ -19542,7 +21656,12 @@
       "spd": 86,
       "spe": 87
     },
-    "addmoves": [],
+    "addmoves": [
+      "icehammer",
+      "psychicfangs",
+      "dragonhammer",
+      "behemothblade"
+    ],
     "rmmoves": []
   },
   "baxcaliburmega": {
@@ -19626,7 +21745,10 @@
       "spd": 91,
       "spe": 84
     },
-    "addmoves": [],
+    "addmoves": [
+      "surf",
+      "sludgewave"
+    ],
     "rmmoves": []
   },
   "wochien": {
@@ -19648,7 +21770,10 @@
       "spd": 135,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "forest'scurse",
+      "eeriespell"
+    ],
     "rmmoves": []
   },
   "chienpao": {
@@ -19670,7 +21795,10 @@
       "spd": 65,
       "spe": 135
     },
-    "addmoves": [],
+    "addmoves": [
+      "bitterblade",
+      "aquacutter"
+    ],
     "rmmoves": []
   },
   "tinglu": {
@@ -19692,7 +21820,10 @@
       "spd": 80,
       "spe": 45
     },
-    "addmoves": [],
+    "addmoves": [
+      "headsmash",
+      "heatcrash"
+    ],
     "rmmoves": []
   },
   "chiyu": {
@@ -19714,7 +21845,10 @@
       "spd": 120,
       "spe": 100
     },
-    "addmoves": [],
+    "addmoves": [
+      "fierywrath",
+      "blueflare"
+    ],
     "rmmoves": []
   },
   "ironvaliant": {
@@ -19736,7 +21870,13 @@
       "spd": 60,
       "spe": 116
     },
-    "addmoves": [],
+    "addmoves": [
+      "sacredsword",
+      "alluringvoice",
+      "starfallblade",
+      "galacticbeatdown",
+      "cosmicray"
+    ],
     "rmmoves": []
   },
   "koraidon": {
@@ -19758,7 +21898,12 @@
       "spd": 100,
       "spe": 135
     },
-    "addmoves": [],
+    "addmoves": [
+      "dragonrush",
+      "combattorque",
+      "flyingpress",
+      "blazingtorque"
+    ],
     "rmmoves": []
   },
   "miraidon": {
@@ -19780,7 +21925,12 @@
       "spd": 115,
       "spe": 135
     },
-    "addmoves": [],
+    "addmoves": [
+      "glare",
+      "coil",
+      "steelroller",
+      "steamroller"
+    ],
     "rmmoves": []
   },
   "cyclizar": {
@@ -19802,7 +21952,13 @@
       "spd": 65,
       "spe": 121
     },
-    "addmoves": [],
+    "addmoves": [
+      "flamecharge",
+      "steelroller",
+      "steamroller",
+      "combattorque",
+      "blazingtorque"
+    ],
     "rmmoves": []
   },
   "ironleaves": {
@@ -19824,7 +21980,12 @@
       "spd": 108,
       "spe": 104
     },
-    "addmoves": [],
+    "addmoves": [
+      "hornleech",
+      "psychocut",
+      "zenheadbutt",
+      "starfallblade"
+    ],
     "rmmoves": []
   },
   "ragingbolt": {
@@ -19846,7 +22007,9 @@
       "spd": 89,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "electroshot"
+    ],
     "rmmoves": []
   },
   "poltchageist": {
@@ -19912,7 +22075,11 @@
       "spd": 80,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "raindance",
+      "muddywater",
+      "bouncybubble"
+    ],
     "rmmoves": []
   },
   "sinistchamasterpiece": {
@@ -19934,7 +22101,11 @@
       "spd": 80,
       "spe": 70
     },
-    "addmoves": [],
+    "addmoves": [
+      "raindance",
+      "muddywater",
+      "bouncybubble"
+    ],
     "rmmoves": []
   },
   "fezandipiti": {
@@ -19956,7 +22127,10 @@
       "spd": 125,
       "spe": 99
     },
-    "addmoves": [],
+    "addmoves": [
+      "rockblast",
+      "ancientpower"
+    ],
     "rmmoves": []
   },
   "duraludon": {
@@ -20000,7 +22174,10 @@
       "spd": 65,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "dragonhammer",
+      "autotomize"
+    ],
     "rmmoves": []
   },
   "terapagos": {
@@ -20019,7 +22196,12 @@
       "spd": 85,
       "spe": 60
     },
-    "addmoves": [],
+    "addmoves": [
+      "razorshell",
+      "shelltrap",
+      "shellside arm",
+      "spinout"
+    ],
     "rmmoves": []
   },
   "terapagosterastal": {
@@ -20038,7 +22220,12 @@
       "spd": 110,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "razorshell",
+      "shelltrap",
+      "shellside arm",
+      "spinout"
+    ],
     "rmmoves": []
   },
   "terapagosstellar": {
@@ -20057,7 +22244,12 @@
       "spd": 110,
       "spe": 85
     },
-    "addmoves": [],
+    "addmoves": [
+      "razorshell",
+      "shelltrap",
+      "shellside arm",
+      "spinout"
+    ],
     "rmmoves": []
   },
   "capsakid": {
@@ -20100,7 +22292,17 @@
       "spd": 65,
       "spe": 75
     },
-    "addmoves": [],
+    "addmoves": [
+      "outrage",
+      "thunderfang",
+      "nastyplot",
+      "flareblitz",
+      "breakingswipe",
+      "dragonpulse",
+      "dragonclaw",
+      "dragontail",
+      "ragingfury"
+    ],
     "rmmoves": []
   },
   "cupra": {
@@ -20513,7 +22715,18 @@
       "spd": 75,
       "spe": 51
     },
-    "addmoves": [],
+    "addmoves": [
+      "galacticbeatdown",
+      "gravitationslam",
+      "starlightkick",
+      "starfallblade",
+      "magictome",
+      "shootingstar",
+      "cosmicray",
+      "nova",
+      "astralprotection",
+      "dejavu"
+    ],
     "rmmoves": []
   },
   "necturna": {
@@ -20623,7 +22836,9 @@
       "spd": 108,
       "spe": 56
     },
-    "addmoves": [],
+    "addmoves": [
+      "ragingbull"
+    ],
     "rmmoves": []
   },
   "swirlpool": {
