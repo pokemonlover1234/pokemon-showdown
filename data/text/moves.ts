@@ -7742,11 +7742,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Starfall Blade",
 		desc: "Power doubles with each consecutive hit (160 max)",
 	},
-	astralprojection: {
-		name: "Astral Projection",
+	astralprotection: {
+		name: "Astral Protection",
 		desc: "Sets up a screen for 5 turns that heals the pokemon on the user's side by 25% of their max HP whenever they are attacked by a move they resist",
 		shortDesc: "Sets up a screen that heals the pokemon on your side by 25% when attacked by a resisted move.",
-		start: "  Astral Projection is making [TEAM] heal through defense!",
-		end: "  [TEAM]'s Astral Projection wore off!",
+		start: "  Astral Protection is making [TEAM] heal through defense!",
+		end: "  [TEAM]'s Astral Protection wore off!",
 	},
 };
