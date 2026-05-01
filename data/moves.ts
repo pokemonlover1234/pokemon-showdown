@@ -21759,16 +21759,16 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return bp;
 		},
 	},
-	astralprojection: {
+	astralprotection: {
 		accuracy: true,
 		basePower: 0,
 		pp: 30,
 		category: "Status",
 		isNonstandard: "Custom",
-		name: "Astral Projection",
+		name: "Astral Protection",
 		priority: 0,
-		flags: { metronome: 1 },
-		target: "normal",
+		flags: { snatch: 1, metronome: 1 },
+		target: "allySide",
 		type: "Astral",
 		sideCondition: 'astralprojection',
 		condition: {
