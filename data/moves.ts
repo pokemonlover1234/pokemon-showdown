@@ -21699,7 +21699,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			onModifyMove(move, pokemon, target) {
 				this.add('-end', pokemon, "Deja Vu");
 				delete pokemon.volatiles['dejavu'];
-				this.add('-singleturn', target, 'move: Deja Vu', `[of] ${pokemon}`);
+				this.add('-singleturn', pokemon, 'move: Deja Vu', `[of] ${pokemon}`);
 				this.queue.prioritizeAction(this.queue.resolveAction({
 					choice: 'move',
 					pokemon,
@@ -21722,7 +21722,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { metronome: 1 },
 		slotCondition: "ritual",
 		// Rest implemented in side.ts chooseSwitch
-		target: "normal",
+		target: "self",
 		type: "Astral",
 	},
 	starlightkick: {
