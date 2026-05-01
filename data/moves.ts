@@ -21797,17 +21797,17 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				// runImmunity returns true if not immune
 				if (target !== source && this.effectState.target.hasAlly(target) &&
 					target.runEffectiveness(move) < 0 && target.runImmunity(move)) {
-					this.add('-activate', target, 'move: Astral Projection');
+					this.add('-activate', target, 'move: Astral Protection');
 					target.heal(Math.floor(target.maxhp / 4));
 				}
 			},
 			onSideStart(side) {
-				this.add('-sidestart', side, 'Astral Projection');
+				this.add('-sidestart', side, 'Astral Protection');
 			},
 			onSideResidualOrder: 26,
 			onSideResidualSubOrder: 1,
 			onSideEnd(side) {
-				this.add('-sideend', side, 'Astral Projection');
+				this.add('-sideend', side, 'Astral Protection');
 			},
 		},
 	},
