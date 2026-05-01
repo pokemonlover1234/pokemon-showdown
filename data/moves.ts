@@ -21697,6 +21697,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		condition: {
 			onModifyMove(move, pokemon, target) {
+				if (move.id === "dejavu") return;
 				this.add('-end', pokemon, "Deja Vu");
 				delete pokemon.volatiles['dejavu'];
 				this.add('-singleturn', pokemon, 'move: Deja Vu', `[of] ${pokemon}`);
