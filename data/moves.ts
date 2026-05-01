@@ -21770,7 +21770,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { snatch: 1, metronome: 1 },
 		target: "allySide",
 		type: "Astral",
-		sideCondition: 'astralprojection',
+		sideCondition: 'astralprotection',
 		condition: {
 			duration: 5,
 			durationCallback(target, source, effect) {
