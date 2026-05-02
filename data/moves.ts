@@ -21700,13 +21700,33 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: true,
 		basePower: 0,
 		pp: 1,
+		noPPBoosts: true,
 		category: "Status",
 		isNonstandard: "Custom",
 		name: "Ritual",
 		priority: 0,
 		flags: { metronome: 1 },
 		slotCondition: "ritual",
-		// Rest implemented in side.ts chooseSwitch
+		condition: {
+			onStart(target, source, effect) {
+				this.effectState.source = source;
+			},
+			onSwitchIn(target) {
+				this.singleEvent('Swap', this.effect, this.effectState, target);
+			},
+			onSwap(target) {
+				this.debug("Ritual onSwap triggered");
+				if (!target.fainted) {
+					const source = this.effectState.source;
+					if (source.fainted) {
+						source.fainted = false;
+						source.heal(source.maxhp / 4);
+						this.add('-heal', source, source.maxhp / 4, '[from] move: Ritual');
+					}
+					target.side.removeSlotCondition(target, 'ritual');
+				}
+			},
+		},
 		target: "self",
 		type: "Astral",
 	},
@@ -21779,6 +21799,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				return 5;
 			},
 			onAnyAfterHit(source, target, move) {
+				this.debug("Astral Protection callback triggered");
 				// runImmunity returns true if not immune
 				if (target !== source && this.effectState.target.hasAlly(target) &&
 					target.runEffectiveness(move) < 0 && target.runImmunity(move)) {
