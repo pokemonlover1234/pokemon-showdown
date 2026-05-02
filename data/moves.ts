@@ -21699,6 +21699,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		slotCondition: "ritual",
 		condition: {
 			onStart(target, source, effect) {
+				this.debug("Started Ritual")
 				this.effectState.source = source;
 			},
 			onSwitchIn(target) {
@@ -21715,6 +21716,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					}
 					target.side.removeSlotCondition(target, 'ritual');
 				}
+			},
+			onEnd() {
+				this.debug("Ended Ritual");
 			},
 		},
 		target: "self",

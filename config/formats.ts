@@ -4774,6 +4774,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Constellera",
 		mod: "gen9constellera",
 		ruleset: ["Standard"],
+		debug: true,
 	},
 	{
 		name: "[Gen 9] Constellera Doubles",
