@@ -419,7 +419,7 @@ export const Scripts: ModdedBattleScriptsData = {
 					if (!isSelf && !isSecondary) {
 						this.battle.runEvent('Hit', target, pokemon, move);
 					}
-					if (moveData.onAfterHit) hitResult = this.battle.singleEvent('AfterHit', moveData, {}, target, pokemon, move);
+					hitResult = this.battle.singleEvent('AfterHit', moveData, {}, target, pokemon, move);
 				}
 
 				if (!hitResult && !didSomething && !moveData.self && !moveData.selfdestruct) {

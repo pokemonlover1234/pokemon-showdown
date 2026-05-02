@@ -21719,9 +21719,14 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				this.debug("Ritual onSwap triggered");
 				if (!target.fainted) {
 					const source = this.effectState.source;
+					this.debug("Ritual source: " + source.name + " and is fainted: " + source.fainted);
 					if (source.fainted) {
 						source.fainted = false;
-						source.heal(source.maxhp / 4);
+						source.faintQueued = false;
+						source.subFainted = false;
+						source.status = '';
+						source.hp = 1;
+						source.sethp(source.maxhp / 4);
 						this.add('-heal', source, source.maxhp / 4, '[from] move: Ritual');
 					}
 					target.side.removeSlotCondition(target, 'ritual');

@@ -1138,13 +1138,9 @@ export class BattleActions {
 		}
 		const pokemonOriginalHP = pokemon.hp;
 		if (damagedDamage.length && !isSecondary && !isSelf) {
-			if (this.battle.gen >= 5) {
-				this.battle.runEvent('DamagingHit', damagedTargets, pokemon, move, damagedDamage);
-			}
-			if (moveData.onAfterHit && pokemon.hp) {
-				for (const t of damagedTargets) {
-					this.battle.singleEvent('AfterHit', moveData, {}, t, pokemon, move);
-				}
+			this.battle.runEvent('DamagingHit', damagedTargets, pokemon, move, damagedDamage);
+			for (const t of damagedTargets) {
+				this.battle.singleEvent('AfterHit', moveData, {}, t, pokemon, move);
 			}
 			if (this.battle.gen < 5) {
 				this.battle.runEvent('DamagingHit', damagedTargets, pokemon, move, damagedDamage);
