@@ -985,13 +985,6 @@ export class Side {
 				pokemon,
 				target: targetPokemon,
 			} as ChosenAction);
-
-			if (this.slotConditions[pokemon.position]['ritual']) {
-				pokemon.fainted = false;
-				pokemon.heal(pokemon.maxhp / 4);
-				this.battle.add("-heal", pokemon, pokemon.maxhp / 4, '[from] move: Ritual');
-				pokemon.side.removeSlotCondition(pokemon, 'ritual');
-			}
 			return true;
 		}
 
@@ -1030,13 +1023,6 @@ export class Side {
 			pokemon,
 			target: targetPokemon,
 		});
-
-		if (this.slotConditions[pokemon.position]['ritual']) {
-			pokemon.fainted = false;
-			pokemon.heal(pokemon.maxhp / 4);
-			this.battle.add("-heal", pokemon, pokemon.maxhp / 4, '[from] move: Ritual');
-			pokemon.side.removeSlotCondition(pokemon, 'ritual');
-		}
 
 		return true;
 	}
