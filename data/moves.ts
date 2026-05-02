@@ -21823,7 +21823,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				}
 				return 5;
 			},
-			onAnyHit(source, target, move) {
+			onAnyHit(target, source, move) {
 				this.debug("Astral Protection callback triggered");
 				this.debug(`${target.name} !== ${source.name}: ${target !== source}`);
 				this.debug(`isAlly: ${this.effectState.target.hasAlly(target)}`);
