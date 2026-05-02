@@ -21825,7 +21825,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			},
 			onAnyHit(target, source, move) {
 				// runImmunity returns true if not immune
-				if (target !== source && this.effectState.target.hasAlly(target) &&
+				if (target && source && target !== source && this.effectState.target.hasAlly(target) &&
 					target.runEffectiveness(move) < 0 && target.runImmunity(move) && !target.fainted) {
 					const damage = target.heal(Math.floor(target.maxhp / 4));
 					if (damage) {
