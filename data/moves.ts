@@ -21825,6 +21825,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			},
 			onAnyHit(source, target, move) {
 				this.debug("Astral Protection callback triggered");
+				this.debug(`${target.name} !== ${source.name}: ${target !== source}`);
+				this.debug(`isAlly: ${this.effectState.target.hasAlly(target)}`);
+				this.debug(`effectiveness: ${target.runEffectiveness(move)}`);
+				this.debug(`isImmune: ${!target.runImmunity(move)}`);
 				// runImmunity returns true if not immune
 				if (target !== source && this.effectState.target.hasAlly(target) &&
 					target.runEffectiveness(move) < 0 && target.runImmunity(move)) {
