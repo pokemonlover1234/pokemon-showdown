@@ -21811,7 +21811,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				// runImmunity returns true if not immune
 				if (target && source && target !== source && this.effectState.target.hasAlly(target) &&
 					target.runEffectiveness(move) < 0 && target.runImmunity(move) && !target.fainted) {
-					const damage = target.heal(Math.floor(target.maxhp / 4));
+					const damage = target.heal(Math.floor(target.maxhp / 4), target, this.effect);
 					if (damage) {
 						this.add('-heal', target, target.getHealth, '[from] move: Astral Protection');
 					}
