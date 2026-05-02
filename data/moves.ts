@@ -21726,7 +21726,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 						source.subFainted = false;
 						source.status = '';
 						source.hp = 1;
-						source.sethp(source.maxhp / 4);
+						source.sethp(source.maxhp / 4 - 1);
 						this.add('-heal', source, source.maxhp / 4, '[from] move: Ritual');
 					}
 					target.side.removeSlotCondition(target, 'ritual');
@@ -21807,7 +21807,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				}
 				return 5;
 			},
-			onAnyAfterHit(source, target, move) {
+			onAnyHit(source, target, move) {
 				this.debug("Astral Protection callback triggered");
 				// runImmunity returns true if not immune
 				if (target !== source && this.effectState.target.hasAlly(target) &&
