@@ -8275,6 +8275,24 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			}
 		},
 	},
+	guardorb: {
+		name: "Guard Orb",
+		spritenum: 9,
+		fling: {
+			basePower: 60,
+		},
+		onModifyDef(def) {
+			return this.chainModify(1.3);
+		},
+		onModifySpd(spd) {
+			return this.chainModify(1.3);
+		},
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (source && source !== target && move && move.category !== 'Status' && !source.forceSwitchFlag) {
+				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('lifeorb'));
+			}
+		},
+	},
 	// Actual functionality handled by Night Time weather
 	darkrock: {
 		name: "Dark Rock",
