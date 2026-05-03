@@ -8268,7 +8268,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onAfterMoveSecondarySelf(source, target, move) {
 			if (source && source !== target && move && move.category !== 'Status' && !source.forceSwitchFlag) {
-				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('lifeorb'));
+				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('speedorb'));
 			}
 		},
 	},
@@ -8286,7 +8286,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onAfterMoveSecondarySelf(source, target, move) {
 			if (source && source !== target && move && move.category !== 'Status' && !source.forceSwitchFlag) {
-				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('lifeorb'));
+				this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('guardorb'));
 			}
 		},
 	},
