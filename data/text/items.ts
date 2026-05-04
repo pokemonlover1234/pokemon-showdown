@@ -2638,6 +2638,11 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		desc: "Holder's Speed is multiplied by 1.3, but holder loses 1/10 of its max HP every turn.",
 		shortDesc: "Holder's Speed 1.3x, but lose 1/10 HP per turn.",
 	},
+	guardorb: {
+		name: "Guard Org",
+		desc: "Holder's Defense & Special Defense is multiplied by 1.3, but holder loses 1/10 of its max HP every turn.",
+		shortDesc: "Holder's Def & SpDef 1.3x, but lose 1/10 HP per turn.",
+	},
 	darkrock: {
 		name: "Dark Rock",
 		desc: "Holder's use of Moonlit Night lasts 8 turns instead of 5.",
