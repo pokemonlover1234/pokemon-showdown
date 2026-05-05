@@ -8243,7 +8243,8 @@
     "abilities": {
       "0": "Solid Rock",
       "1": "Reckless",
-      "H": "Rocky Payload"
+      "H": "Rocky Payload",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 115,
@@ -9726,7 +9727,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Scrappy",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 75,
@@ -9767,7 +9769,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Scrappy",
-      "H": "Guts"
+      "H": "Guts",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 75,
@@ -9809,7 +9812,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Thick Fat",
-      "H": "Flame Body"
+      "H": "Flame Body",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 75,
@@ -9851,7 +9855,8 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Thick Fat",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 75,
@@ -15588,7 +15593,8 @@
     "abilities": {
       "0": "Fluffy",
       "1": "Thick Fat",
-      "H": "Skill Link"
+      "H": "Skill Link",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 110,
@@ -16230,7 +16236,8 @@
     "abilities": {
       "0": "Sturdy",
       "1": "Rough Skin",
-      "H": "Rocky Payload"
+      "H": "Rocky Payload",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 90,
@@ -19181,7 +19188,8 @@
     "abilities": {
       "0": "Soundproof",
       "1": "Punk Rock",
-      "H": "Scrappy"
+      "H": "Scrappy",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 104,
@@ -19266,7 +19274,8 @@
     "abilities": {
       "0": "Thick Fat",
       "1": "Guts",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 144,
@@ -19783,7 +19792,8 @@
     "abilities": {
       "0": "Sturdy",
       "1": "Rock Head",
-      "H": "Intimidate"
+      "H": "Intimidate",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 70,
@@ -19827,7 +19837,8 @@
     "abilities": {
       "0": "Battle Armor",
       "1": "Full Metal Body",
-      "H": "Filter"
+      "H": "Filter",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 70,
@@ -25552,7 +25563,8 @@
     "abilities": {
       "0": "Sheer Force",
       "1": "Rock Head",
-      "H": "Mold Breaker"
+      "H": "Mold Breaker",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 97,
@@ -36640,7 +36652,8 @@
     "abilities": {
       "0": "Reckless",
       "1": "Sap Sipper",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 95,
@@ -44480,7 +44493,8 @@
     "abilities": {
       "0": "Stamina",
       "1": "Own Tempo",
-      "H": "Earth Eater"
+      "H": "Earth Eater",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 100,
@@ -52504,7 +52518,8 @@
     "abilities": {
       "0": "Filter",
       "1": "Heavy Metal",
-      "H": "Sheer Force"
+      "H": "Sheer Force",
+      "S": "Full Force Non-Stop"
     },
     "baseStats": {
       "hp": 122,
