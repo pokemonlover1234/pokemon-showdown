@@ -6100,12 +6100,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 	},
-	fullforcenonstop: {
+	relentlessforce: {
 		isNonstandard: "Custom",
 		flags: {},
-		name: "Full Force Non-Stop",
+		name: "Relentless Force",
 		rating: 3,
-		desc: "User doesn't recharge but takes 33% recoil damage after using a damaging recharge move. ",
+		desc: "Instead of recharging the user takes 33% recoil. ",
 		onTryAddVolatile(status, target, source, sourceEffect) {
 			if (status.id === 'mustrecharge') {
 				this.damage(target.maxhp / 3, target, target, this.dex.abilities.get('Full Force Non-Stop'))
