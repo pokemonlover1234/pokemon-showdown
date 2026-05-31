@@ -2066,7 +2066,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Linked",
 		desc: `The first two moves in a Pok&eacute;mon's moveset are used simultaneously.`,
 		mod: 'linked',
-		searchShow: false,
 		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Clause', 'Terastal Clause'],
 		banlist: [
 			'Annihilape', 'Arceus', 'Archaludon', 'Baxcalibur', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chi-Yu', 'Chien-Pao', 'Deoxys-Attack', 'Deoxys-Normal', 'Dialga', 'Dialga-Origin',
@@ -2222,7 +2221,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Pokebilities",
 		desc: `Pok&eacute;mon have all of their released abilities simultaneously.`,
 		mod: 'pokebilities',
-		searchShow: false,
 		ruleset: ['Standard OMs', 'Sleep Moves Clause'],
 		banlist: [
 			'Arceus', 'Annihilape', 'Archaludon', 'Basculegion', 'Basculegion-F', 'Baxcalibur', 'Braviary-Hisui', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chi-Yu', 'Chien-Pao', 'Conkeldurr',

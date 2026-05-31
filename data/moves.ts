@@ -4093,7 +4093,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 15,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
-		secondary: null,
 		target: "normal",
 		type: "Dragon",
 		contestType: "Cool",
@@ -8896,7 +8895,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 15,
 		priority: 0,
 		flags: { protect: 1, mirror: 1 },
-		secondary: null,
 		target: "normal",
 		type: "Astral",
 		contestType: "Clever",
@@ -11618,7 +11616,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 5,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, kick: 1 },
-		secondary: null,
 		target: "normal",
 		type: "Normal",
 		contestType: "Cool",
@@ -21583,7 +21580,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { metronome: 1 },
 		weather: "Night Time",
-		secondary: null,
 		target: "all",
 		type: "Dark",
 	},
@@ -21725,7 +21721,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		slotCondition: "ritual",
 		condition: {
 			onStart(target, source, effect) {
-				this.debug("Started Ritual")
+				this.debug("Started Ritual");
 				this.effectState.source = source;
 			},
 			onSwitchIn(target) {

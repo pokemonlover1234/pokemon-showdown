@@ -6108,9 +6108,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		desc: "Instead of recharging the user takes 33% recoil. ",
 		onTryAddVolatile(status, target, source, sourceEffect) {
 			if (status.id === 'mustrecharge') {
-				this.damage(target.maxhp / 3, target, target, this.dex.abilities.get('Full Force Non-Stop'))
+				this.damage(target.maxhp / 3, target, target, this.dex.abilities.get('Full Force Non-Stop'));
 				return false;
 			}
 		},
-	}
+	},
 };
