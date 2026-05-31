@@ -75,3 +75,5 @@ pip-log.txt
 *.rdb
 
 *-cache.json
+
+*.orig

@@ -8323,7 +8323,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onModifyDef(def) {
 			return this.chainModify(1.3);
 		},
-		onModifySpd(spd) {
+		onModifySpD(spd) {
 			return this.chainModify(1.3);
 		},
 		onAfterMoveSecondarySelf(source, target, move) {
