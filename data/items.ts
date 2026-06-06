@@ -8154,6 +8154,18 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 6,
 		isNonstandard: "CAP",
 	},
+	Torterrite: {
+		name: "Torterrite",
+		spritenum: 24,
+		megaStone: { "Torterra": "Torterra-Mega" },
+		itemUser: ["Torterra"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "CAP",
+	},
 	vilevial: {
 		name: "Vile Vial",
 		spritenum: 752,
