@@ -8156,7 +8156,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	Torterrite: {
 		name: "Torterrite",
-		spritenum: 24,
+		spritenum: 23,
 		megaStone: { "Torterra": "Torterra-Mega" },
 		itemUser: ["Torterra"],
 		onTakeItem(item, source) {
