@@ -8792,6 +8792,21 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 677,
 		gen: 6,
-		isNonstandard: "Past",
+		isNonstandard: "Past",		
+	},
+	frostorb: {
+		name: "Frost Orb",
+		spritenum: 145,
+		fling: {
+			basePower: 30,
+			status: 'frostbite',
+		},
+		onResidualOrder: 28,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			pokemon.trySetStatus('frostbite', pokemon);
+		},
+		num: 273,
+		gen: 4,
 	},
 };
