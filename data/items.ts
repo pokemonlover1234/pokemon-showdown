@@ -8370,4 +8370,428 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		forcedForme: "Silvally-Astral",
 		itemUser: ["Silvally-Astral"],
 	},
+	charizarditeg: {
+		name: "Charizardite G",
+		spritenum: 585,
+		megaStone: { "Charizard": "Charizard-Mega-G" },
+		itemUser: ["Charizard"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	blastoisiteg: {
+		name: "Blastoisite G",
+		spritenum: 585,
+		megaStone: { "Blastoise": "Blastoise-Mega-G" },
+		itemUser: ["Blastoise"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	venusauriteg: {
+		name: "Venusaurite G",
+		spritenum: 585,
+		megaStone: { "Venusaur": "Venusaur-Mega-G" },
+		itemUser: ["Venusaur"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	butterfrite: {
+		name: "Butterfrite",
+		spritenum: 585,
+		megaStone: { "Butterfree": "Butterfree-Mega" },
+		itemUser: ["Butterfree"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	machampiteg: {
+		name: "Machampite G",
+		spritenum: 585,
+		megaStone: { "Machamp": "Machamp-Mega-G" },
+		itemUser: ["Machamp"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	gengariteg: {
+		name: "Gengarite G",
+		spritenum: 585,
+		megaStone: { "Gengar": "Gengar-Mega-G" },
+		itemUser: ["Gengar"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	kinglerite: {
+		name: "Kinglerite",
+		spritenum: 585,
+		megaStone: { "Kingler": "Kingler-Mega" },
+		itemUser: ["Kingler"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	laprasite: {
+		name: "Laprasite",
+		spritenum: 585,
+		megaStone: { "Lapras": "Lapras-Mega" },
+		itemUser: ["Lapras"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	snorlaxite: {
+		name: "Snorlaxite",
+		spritenum: 585,
+		megaStone: { "Snorlax": "Snorlax-Mega" },
+		itemUser: ["Snorlax"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	garbodorite: {
+		name: "Garbodorite",
+		spritenum: 585,
+		megaStone: { "Garbodor": "Garbodor-Mega" },
+		itemUser: ["Garbodor"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	melmetalite: {
+		name: "Melmetalite",
+		spritenum: 585,
+		megaStone: { "Melmetal": "Melmetal-Mega" },
+		itemUser: ["Melmetal"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	kinglerite: {
+		name: "Kinglerite",
+		spritenum: 585,
+		megaStone: { "Kingler": "Kingler-Mega" },
+		itemUser: ["Kingler"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	rillaboomite: {
+		name: "Rillaboomite",
+		spritenum: 585,
+		megaStone: { "Rillaboom": "Rillaboom-Mega" },
+		itemUser: ["Rillaboom"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	cinderite: {
+		name: "Cinderite",
+		spritenum: 585,
+		megaStone: { "Cinderace": "Cinderace-Mega" },
+		itemUser: ["Cinderace"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	inteleonite: {
+		name: "Inteleonite",
+		spritenum: 585,
+		megaStone: { "Inteleon": "Inteleon-Mega" },
+		itemUser: ["Inteleon"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	corvikninite: {
+		name: "Corvikninite",
+		spritenum: 585,
+		megaStone: { "Corviknight": "Corviknight-Mega" },
+		itemUser: ["Corviknight"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	orbeetite: {
+		name: "Orbeetite",
+		spritenum: 585,
+		megaStone: { "Orbeetle": "Orbeetle-Mega" },
+		itemUser: ["Orbeetle"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	drednawite: {
+		name: "Drednawite",
+		spritenum: 585,
+		megaStone: { "Drednaw": "Drednaw-Mega" },
+		itemUser: ["Drednaw"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	coalossite: {
+		name: "Coalossite",
+		spritenum: 585,
+		megaStone: { "Coalossal": "Coalossal-Mega" },
+		itemUser: ["Coalossal"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	flapplite: {
+		name: "Flapplite",
+		spritenum: 585,
+		megaStone: { "Flapple": "Flapple-Mega" },
+		itemUser: ["Flapple"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	appletite: {
+		name: "Appletite",
+		spritenum: 585,
+		megaStone: { "Appletun": "Appletun-Mega" },
+		itemUser: ["Appletun"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	sandacondite: {
+		name: "Sandacondite",
+		spritenum: 585,
+		megaStone: { "Sandaconda": "Sandaconda-Mega" },
+		itemUser: ["Sandaconda"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	toxtricitite: {
+		name: "Toxtricitite",
+		spritenum: 506,
+		megaStone: {
+			"Toxtricity": "Toxtricity-Mega",
+			"Toxtricity-Lowkey": "Toxtricity-Lowkey-Mega",
+		},
+		itemUser: ["Toxtricity", "Toxtricity-Lowkey"],
+		onTakeItem(item, source) {
+			return !item.megaStone || (!item.megaStone[source.baseSpecies.name] &&
+				!Object.values(item.megaStone).includes(source.baseSpecies.name));
+		},
+		num: 2643,
+		gen: 9,
+		isNonstandard: "Future",
+	},
+	centiskorchite: {
+		name: "Centiskorchite",
+		spritenum: 585,
+		megaStone: { "Centiskorch": "Centiskorch-Mega" },
+		itemUser: ["Centiskorch"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	hatterenite: {
+		name: "Hatterenite",
+		spritenum: 585,
+		megaStone: { "Hatterene": "Hatterene-Mega" },
+		itemUser: ["Hatterene"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	grimmsnarlite: {
+		name: "Grimmsnarlite",
+		spritenum: 585,
+		megaStone: { "Grimmsnarl": "Grimmsnarl-Mega" },
+		itemUser: ["Grimmsnarl"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	alcremite: {
+		name: "Alcremite",
+		spritenum: 585,
+		megaStone: { "Alcremie": "Alcremie-Mega" },
+		itemUser: ["Alcremie"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	copperajite: {
+		name: "Copperajite",
+		spritenum: 585,
+		megaStone: { "Copperajah": "Copperajah-Mega" },
+		itemUser: ["Copperajah"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	slakite: {
+		name: "Slakite",
+		spritenum: 585,
+		megaStone: { "Slaking": "Slaking-Mega" },
+		itemUser: ["Slaking"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	infernite: {
+		name: "Infernite",
+		spritenum: 585,
+		megaStone: { "Infernape": "Infernape-Mega" },
+		itemUser: ["Infernape"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	empoleoniteo: {
+		name: "Empoleonite O",
+		spritenum: 585,
+		megaStone: { "Empoleon": "Empoleon-Megao" },
+		itemUser: ["Empoleon"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	empoleonited: {
+		name: "Empoleon",
+		spritenum: 585,
+		megaStone: { "Empoleon": "Empoleon-Megad" },
+		itemUser: ["Empoleon"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	luxranite: {
+		name: "Luxranite",
+		spritenum: 585,
+		megaStone: { "Luxray": "Luxray-Mega" },
+		itemUser: ["Luxray"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	roseradite: {
+		name: "Roseradite",
+		spritenum: 585,
+		megaStone: { "Roserade": "Roserade-Mega" },
+		itemUser: ["Roserade"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	dusknoirite: {
+		name: "Dusknoirite",
+		spritenum: 585,
+		megaStone: { "Dusknoir": "Dusnkoir-Mega" },
+		itemUser: ["Dusknoir"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 };
