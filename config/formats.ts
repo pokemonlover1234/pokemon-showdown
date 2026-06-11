@@ -4452,6 +4452,17 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9constellera",
 		ruleset: ["Standard", "Little Cup"],
 	},
+	{
+		name: "[Gen 9] Chimera Mons",
+		mod: "gen9chimeramons",
+		ruleset: ["Standard", "Terastal Clause"],
+	},
+	{
+		name: "[Gen 9] Chimera Mons Doubles",
+		mod: "gen9chimeramons",
+		ruleset: ["Standard", "Terastal Clause"],
+		gameType: "doubles",
+	},
 
 	// Past Gens OU
 	///////////////////////////////////////////////////////////////////
