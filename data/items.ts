@@ -8196,7 +8196,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 6,
 		isNonstandard: "CAP",
 	},
-	Torterrite: {
+	torterrite: {
 		name: "Torterrite",
 		spritenum: 23,
 		megaStone: { "Torterra": "Torterra-Mega" },
@@ -8477,18 +8477,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 585,
 		megaStone: { "Gengar": "Gengar-Mega-G" },
 		itemUser: ["Gengar"],
-		onTakeItem(item, source) {
-			return !item.megaStone?.[source.baseSpecies.baseSpecies];
-		},
-		num: 677,
-		gen: 6,
-		isNonstandard: "Past",
-	},
-	kinglerite: {
-		name: "Kinglerite",
-		spritenum: 585,
-		megaStone: { "Kingler": "Kingler-Mega" },
-		itemUser: ["Kingler"],
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
@@ -8834,7 +8822,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 677,
 		gen: 6,
-		isNonstandard: "Past",		
+		isNonstandard: "Past",
 	},
 	frostorb: {
 		name: "Frost Orb",
