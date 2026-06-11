@@ -14,9 +14,9 @@ export const Scripts: ModdedBattleScriptsData = {
 				for (const megaEvo of Object.values(item.megaStone)) {
 					try {
 						this.modData('FormatsData', this.toID(megaEvo)).isNonstandard = null;
-					} catch (ex) {
-						console.log("Failing megastone = " + item.name);
-						throw ex;
+					} catch {
+						console.log("Megastone does not link to existing mega: " + item.name);
+						continue;
 					}
 				}
 			}
