@@ -15,7 +15,7 @@ export const Scripts: ModdedBattleScriptsData = {
 					try {
 						this.modData('FormatsData', this.toID(megaEvo)).isNonstandard = null;
 					} catch (ex) {
-						console.log("Failing megastone = " + (item.id?.toString() ?? ""));
+						console.log("Failing megastone = " + item.name);
 						throw ex;
 					}
 				}
