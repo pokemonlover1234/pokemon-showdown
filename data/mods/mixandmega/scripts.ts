@@ -12,7 +12,12 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (item.isNonstandard === "Past" || item.isNonstandard === "Future") this.modData('Items', i).isNonstandard = null;
 			if (item.megaStone) {
 				for (const megaEvo of Object.values(item.megaStone)) {
-					this.modData('FormatsData', this.toID(megaEvo)).isNonstandard = null;
+					try {
+						this.modData('FormatsData', this.toID(megaEvo)).isNonstandard = null;
+					} catch (ex) {
+						console.log("Failing megastone = " + (item.id?.toString() ?? ""));
+						throw ex;
+					}
 				}
 			}
 		}
