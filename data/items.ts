@@ -8826,7 +8826,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	frostorb: {
 		name: "Frost Orb",
-		spritenum: 145,
+		spritenum: 15,
 		fling: {
 			basePower: 30,
 			status: 'frostbite',
