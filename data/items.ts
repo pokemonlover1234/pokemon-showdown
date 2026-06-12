@@ -8444,7 +8444,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	laprasite: {
 		name: "Laprasite",
-		spritenum: 585,
+		spritenum: 441,
 		megaStone: { "Lapras": "Lapras-Mega" },
 		itemUser: ["Lapras"],
 		onTakeItem(item, source) {
@@ -8600,7 +8600,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	appletite: {
 		name: "Appletite",
-		spritenum: 585,
+		spritenum: 437,
 		megaStone: { "Appletun": "Appletun-Mega" },
 		itemUser: ["Appletun"],
 		onTakeItem(item, source) {
@@ -8624,7 +8624,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	toxtricitite: {
 		name: "Toxtricitite",
-		spritenum: 506,
+		spritenum: 440,
 		megaStone: {
 			"Toxtricity": "Toxtricity-Mega",
 			"Toxtricity-Lowkey": "Toxtricity-Lowkey-Mega",
@@ -8676,7 +8676,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	alcremite: {
 		name: "Alcremite",
-		spritenum: 585,
+		spritenum: 442,
 		megaStone: { "Alcremie": "Alcremie-Mega" },
 		itemUser: ["Alcremie"],
 		onTakeItem(item, source) {
@@ -8748,7 +8748,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	luxranite: {
 		name: "Luxranite",
-		spritenum: 585,
+		spritenum: 439,
 		megaStone: { "Luxray": "Luxray-Mega" },
 		itemUser: ["Luxray"],
 		onTakeItem(item, source) {
@@ -8772,7 +8772,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	dusknoirite: {
 		name: "Dusknoirite",
-		spritenum: 585,
+		spritenum: 438,
 		megaStone: { "Dusknoir": "Dusnkoir-Mega" },
 		itemUser: ["Dusknoir"],
 		onTakeItem(item, source) {
@@ -8781,6 +8781,22 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 677,
 		gen: 6,
 		isNonstandard: "Past",
+	},
+	urshifrite: {
+		name: "Urshifrite",
+		spritenum: 440,
+		megaStone: {
+			"Urshifu": "Urshifu-Mega",
+			"Urshifu-Rapidstrike": "Urshifu-Rapidstrike-Mega",
+		},
+		itemUser: ["Toxtricity", "Toxtricity-Lowkey"],
+		onTakeItem(item, source) {
+			return !item.megaStone || (!item.megaStone[source.baseSpecies.name] &&
+				!Object.values(item.megaStone).includes(source.baseSpecies.name));
+		},
+		num: 2643,
+		gen: 9,
+		isNonstandard: "Future",
 	},
 	frostorb: {
 		name: "Frost Orb",
