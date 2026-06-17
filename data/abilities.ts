@@ -1776,7 +1776,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onResidualSubOrder: 3,
 		onResidual(pokemon) {
 			for (const allyActive of pokemon.adjacentAllies()) {
-				if (allyActive.status && this.randomChance(3, 10)) {
+				if (allyActive.status && this.randomChance(1, 2)) {
 					this.add('-activate', pokemon, 'ability: Healer');
 					allyActive.cureStatus();
 				}
