@@ -38,33 +38,41 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	freezeshock: {
 		inherit: true,
-		secondary: {
-			chance: 30,
-			onHit(target, source) {
-				const status = this.sample(['par', 'frz']);
-				target.trySetStatus(status, source);
+		secondaries: [
+			{
+				chance: 18,
+				status: 'frz',
+			}, {
+				chance: 17,
+				volatileStatus: 'par',
 			},
-		},
+		],
 	},
 	iceburn: {
 		inherit: true,
-		secondary: {
-			chance: 30,
-			onHit(target, source) {
-				const status = this.sample(['brn', 'frostbite']);
-				target.trySetStatus(status, source);
+		secondaries: [
+			{
+				chance: 18,
+				status: 'frostbite',
+			}, {
+				chance: 17,
+				volatileStatus: 'brn',
 			},
-		},
+		],
 	},
 	glaciate: {
 		inherit: true,
-		secondary: {
-			chance: 20,
-			onHit(target, source) {
-				const status = this.sample(['frz', 'frostbite']);
-				target.trySetStatus(status, source);
+		accuracy: 90,
+		basePower: 75,
+		secondaries: [
+			{
+				chance: 15,
+				status: 'frz',
+			}, {
+				chance: 14,
+				volatileStatus: 'frostbite',
 			},
-		},
+		],
 	},
 	cryofreeze: {
 		inherit: true,
