@@ -8444,7 +8444,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	laprasite: {
 		name: "Laprasite",
-		spritenum: 441,
+		spritenum: 468,
 		megaStone: { "Lapras": "Lapras-Mega" },
 		itemUser: ["Lapras"],
 		onTakeItem(item, source) {
@@ -8600,7 +8600,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	appletite: {
 		name: "Appletite",
-		spritenum: 437,
+		spritenum: 464,
 		megaStone: { "Appletun": "Appletun-Mega" },
 		itemUser: ["Appletun"],
 		onTakeItem(item, source) {
@@ -8624,7 +8624,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	toxtricitite: {
 		name: "Toxtricitite",
-		spritenum: 440,
+		spritenum: 467,
 		megaStone: {
 			"Toxtricity": "Toxtricity-Mega",
 			"Toxtricity-Lowkey": "Toxtricity-Lowkey-Mega",
@@ -8676,7 +8676,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	alcremite: {
 		name: "Alcremite",
-		spritenum: 442,
+		spritenum: 469,
 		megaStone: { "Alcremie": "Alcremie-Mega" },
 		itemUser: ["Alcremie"],
 		onTakeItem(item, source) {
@@ -8735,7 +8735,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isNonstandard: "Past",
 	},
 	empoleonited: {
-		name: "Empoleon",
+		name: "Empoleonite D",
 		spritenum: 585,
 		megaStone: { "Empoleon": "Empoleon-Megad" },
 		itemUser: ["Empoleon"],
@@ -8748,7 +8748,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	luxranite: {
 		name: "Luxranite",
-		spritenum: 439,
+		spritenum: 466,
 		megaStone: { "Luxray": "Luxray-Mega" },
 		itemUser: ["Luxray"],
 		onTakeItem(item, source) {
@@ -8772,7 +8772,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	dusknoirite: {
 		name: "Dusknoirite",
-		spritenum: 438,
+		spritenum: 465,
 		megaStone: { "Dusknoir": "Dusnkoir-Mega" },
 		itemUser: ["Dusknoir"],
 		onTakeItem(item, source) {
