@@ -8798,6 +8798,18 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 9,
 		isNonstandard: "Future",
 	},
+	eternatite: {
+		name: "Eternatite",
+		spritenum: 585,
+		megaStone: { "Eternatus": "Eternatus-Mega" },
+		itemUser: ["Eternatus"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	frostorb: {
 		name: "Frost Orb",
 		spritenum: 15,
