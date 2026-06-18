@@ -19,7 +19,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Grass' && source.hasType('Grass')) {
+			if (move.type === 'Grass' && attacker.hasType('Grass')) {
 				this.debug('Overgrow 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -30,7 +30,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Grass' && source.hasType('Grass')) {
+			if (move.type === 'Grass' && attacker.hasType('Grass')) {
 				this.debug('Overgrow 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -48,7 +48,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Fire' && source.hasType('Fire')) {
+			if (move.type === 'Fire' && attacker.hasType('Fire')) {
 				this.debug('Blaze 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -59,7 +59,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Fire' && source.hasType('Fire')) {
+			if (move.type === 'Fire' && attacker.hasType('Fire')) {
 				this.debug('Blaze 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -77,7 +77,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Water' && source.hasType('Water')) {
+			if (move.type === 'Water' && attacker.hasType('Water')) {
 				this.debug('Torrent 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -88,7 +88,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Water' && source.hasType('Water')) {
+			if (move.type === 'Water' && attacker.hasType('Water')) {
 				this.debug('Torrent 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -106,7 +106,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Bug' && source.hasType('Bug')) {
+			if (move.type === 'Bug' && attacker.hasType('Bug')) {
 				this.debug('Swarm 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -117,7 +117,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Bug' && source.hasType('Bug')) {
+			if (move.type === 'Bug' && attacker.hasType('Bug')) {
 				this.debug('Swarm 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -135,7 +135,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Electric' && source.hasType('Electric')) {
+			if (move.type === 'Electric' && attacker.hasType('Electric')) {
 				this.debug('Transistor 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -146,7 +146,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Electric' && source.hasType('Electric')) {
+			if (move.type === 'Electric' && attacker.hasType('Electric')) {
 				this.debug('Transistor 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -164,7 +164,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Dragon' && source.hasType('Dragon')) {
+			if (move.type === 'Dragon' && attacker.hasType('Dragon')) {
 				this.debug('Dragon\'s Maw 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -175,7 +175,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Dragon' && source.hasType('Dragon')) {
+			if (move.type === 'Dragon' && attacker.hasType('Dragon')) {
 				this.debug('Dragon\'s Maw 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -193,7 +193,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Rock' && source.hasType('Rock')) {
+			if (move.type === 'Rock' && attacker.hasType('Rock')) {
 				this.debug('Rocky Payload 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -204,7 +204,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Rock' && source.hasType('Rock')) {
+			if (move.type === 'Rock' && attacker.hasType('Rock')) {
 				this.debug('Rocky Payload 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -222,7 +222,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Steel' && source.hasType('Steel')) {
+			if (move.type === 'Steel' && attacker.hasType('Steel')) {
 				this.debug('Steelworker 1.3 boost');
 				return this.chainModify(1.3);
 			}
@@ -233,7 +233,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Steel' && source.hasType('Steel')) {
+			if (move.type === 'Steel' && attacker.hasType('Steel')) {
 				this.debug('Steelworker 1.3 boost');
 				return this.chainModify(1.3);
 			}
