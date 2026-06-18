@@ -1175,8 +1175,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	embodyaspectcornerstone: {
 		onStart(pokemon) {
-			if (pokemon.baseSpecies.name === 'Ogerpon-Cornerstone-Tera' && pokemon.terastallized &&
-				!this.effectState.embodied) {
+			if (!this.effectState.embodied) {
 				this.effectState.embodied = true;
 				this.boost({ def: 1 }, pokemon);
 			}
@@ -1188,8 +1187,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	embodyaspecthearthflame: {
 		onStart(pokemon) {
-			if (pokemon.baseSpecies.name === 'Ogerpon-Hearthflame-Tera' && pokemon.terastallized &&
-				!this.effectState.embodied) {
+			if (!this.effectState.embodied) {
 				this.effectState.embodied = true;
 				this.boost({ atk: 1 }, pokemon);
 			}
@@ -1201,8 +1199,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	embodyaspectteal: {
 		onStart(pokemon) {
-			if (pokemon.baseSpecies.name === 'Ogerpon-Teal-Tera' && pokemon.terastallized &&
-				!this.effectState.embodied) {
+			if (!this.effectState.embodied) {
 				this.effectState.embodied = true;
 				this.boost({ spe: 1 }, pokemon);
 			}
@@ -1214,8 +1211,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	embodyaspectwellspring: {
 		onStart(pokemon) {
-			if (pokemon.baseSpecies.name === 'Ogerpon-Wellspring-Tera' && pokemon.terastallized &&
-				!this.effectState.embodied) {
+			if (!this.effectState.embodied) {
 				this.effectState.embodied = true;
 				this.boost({ spd: 1 }, pokemon);
 			}
@@ -3313,7 +3309,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	poisonpuppeteer: {
 		onAnyAfterSetStatus(status, target, source, effect) {
-			if (source.baseSpecies.name !== "Pecharunt") return;
 			if (source !== this.effectState.target || target === source || effect.effectType !== 'Move') return;
 			if (status.id === 'psn' || status.id === 'tox') {
 				target.addVolatile('confusion');
@@ -4931,7 +4926,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	teraformzero: {
 		onAfterTerastallization(pokemon) {
-			if (pokemon.baseSpecies.name !== 'Terapagos-Stellar') return;
 			if (this.field.weather || this.field.terrain) {
 				this.add('-ability', pokemon, 'Teraform Zero');
 				this.field.clearWeather();
