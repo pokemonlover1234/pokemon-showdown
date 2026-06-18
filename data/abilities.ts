@@ -6107,4 +6107,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 	},
+	coldemission: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.category === 'Special') {
+				if (this.randomChance(3, 10)) {
+					source.trySetStatus('frostbite', target);
+				}
+			}
+		},
+		flags: {},
+		name: "Cold Emission",
+		rating: 2,
+	},
+	galeforce: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['wind']) {
+				this.debug('Galeforce boost');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		name: "Galeforce",
+		rating: 3.5,
+	},
 };
