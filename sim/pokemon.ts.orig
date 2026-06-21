@@ -161,7 +161,7 @@ export class Pokemon {
 	 */
 	switchFlag: ID | boolean;
 	forceSwitchFlag: boolean;
-<<<<<<< HEAD
+	ritualFlag: boolean;
 	/**
 	 * Set on the target trying to switch out if Pursuit activates.
 	 * Prevents duplicate activation messages and makes sure the target
@@ -185,11 +185,6 @@ export class Pokemon {
 	 * Emergency Exit cancels U-turn.
 	 */
 	skipPursuit: boolean;
-=======
-	ritualFlag: boolean;
-	skipBeforeSwitchOutEventFlag: boolean;
-	draggedIn: number | null;
->>>>>>> 4e15fc6b (constellera moves initial)
 	newlySwitched: boolean;
 	beingCalledBack: boolean;
 
@@ -477,14 +472,9 @@ export class Pokemon {
 
 		this.switchFlag = false;
 		this.forceSwitchFlag = false;
-<<<<<<< HEAD
+		this.ritualFlag = false;
 		this.pursuitActivated = false;
 		this.skipPursuit = false;
-=======
-		this.ritualFlag = false;
-		this.skipBeforeSwitchOutEventFlag = false;
-		this.draggedIn = null;
->>>>>>> 4e15fc6b (constellera moves initial)
 		this.newlySwitched = false;
 		this.beingCalledBack = false;
 
@@ -2185,7 +2175,12 @@ export class Pokemon {
 		if (item === 'ironball') return true;
 		// If a Fire/Flying type uses Burn Up and Roost, it becomes ???/Flying-type, but it's still grounded.
 		if (!negateImmunity && this.hasType('Flying') && !(this.hasType('???') && 'roost' in this.volatiles)) return false;
+<<<<<<< HEAD
 		if (this.hasAbility(['levitate', 'eelevate']) && !this.battle.suppressingAbility(this)) return null;
+=======
+		if (this.hasAbility('levitate') && !this.battle.suppressingAbility(this)) return null;
+		if (this.hasAbility('eelevate') && !this.battle.suppressingAbility(this)) return null;
+>>>>>>> 7d0464a1 (Update pokemon.ts)
 		if ('magnetrise' in this.volatiles) return false;
 		if ('telekinesis' in this.volatiles) return false;
 		return item !== 'airballoon';
