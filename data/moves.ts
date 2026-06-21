@@ -21850,4 +21850,19 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			},
 		},
 	},
+	glitch: {
+		accuracy: 95,
+		basePower: 70,
+		category: "Special",
+		name: "Glitch",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		secondary: {
+			chance: 30,
+			volatileStatus: 'disable',
+		},
+		target: "normal",
+		type: "Astral",
+	},
 };
