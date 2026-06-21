@@ -6131,4 +6131,35 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Galeforce",
 		rating: 3.5,
 	},
+	firemane: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Fire Mane boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Fire Mane boost');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		name: "Fire Mane",
+		rating: 3.5,
+	},
+	eelevate: {
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				const bestStat = source.getBestStat(true, true);
+				this.boost({ [bestStat]: length }, source);
+			}
+		},
+		flags: {breakable: 1}, // airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
+		name: "Eelevate",
+		rating: 3.5,
+		num: 224,
+	},
 };
