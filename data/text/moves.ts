@@ -7703,30 +7703,37 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	galacticbeatdown: {
 		name: "Galactic Beatdown",
 		desc: "10% chance to lower foe's defense by 1",
+		shortDesc: "10% chance to lower foe's defense by 1",
 	},
 	gravitationslam: {
 		name: "Gravitation Slam",
 		desc: "User takes 33% recoil",
+		shortDesc: "User takes 33% recoil",
 	},
 	magictome: {
 		name: "Magic Tome",
 		desc: "30% chance to raise user's Sp.Atk by 1",
+		shortDesc: "30% chance to raise user's Sp.Atk by 1",
 	},
 	shootingstar: {
 		name: "Shooting Star",
 		desc: "Hits 2-5 times",
+		shortDesc: "Hits 2-5 times",
 	},
 	cosmicray: {
 		name: "Cosmic Ray",
 		desc: "20% chance to confuse the target",
+		shortDesc: "20% chance to confuse the target",
 	},
 	nova: {
 		name: "Nova",
 		desc: "Lowers the user's Sp.Atk and Sp.Def by 1 stage",
+		shortDesc: "Lowers the user's Sp.Atk and Sp.Def by 1.",
 	},
 	dejavu: {
 		name: "Deja Vu",
 		desc: "The user's next move is executed twice",
+		shortDesc: "User's next move is used twice",
 		end: "Deja Vu triggers the user's move twice!",
 	},
 	ritual: {
@@ -7737,10 +7744,12 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	starlightkick: {
 		name: "Starlight Kick",
 		desc: "10% chance to make the target flinch",
+		shortDesc: "10% chance to make the target flinch",
 	},
 	starfallblade: {
 		name: "Starfall Blade",
 		desc: "Power doubles with each consecutive hit (160 max)",
+		shortDesc: "Power doubles with each hit, up to 160.",
 	},
 	astralprotection: {
 		name: "Astral Protection",
@@ -7750,4 +7759,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		end: "  [TEAM]'s Astral Protection wore off!",
 		heal: "  Astral Protection heals [POKEMON]",
 	},
+	glitch: {
+		name: "glitch",
+		shortDesc: "30% chance to disable foe's last used move"
+	}
 };
