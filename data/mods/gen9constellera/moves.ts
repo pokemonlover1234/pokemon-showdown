@@ -76,7 +76,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	cryofreeze: {
 		inherit: true,
-		accuracy: 75,
+		name: "Deep Freeze",
+		accuracy: 85,
 	},
 	mountaingale: {
 		inherit: true,
@@ -85,8 +86,9 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			status: 'frz',
 		},
 	},
-
-	
-	
-	
+	rustyblade: {
+		inherit: true,
+		basePower: 65,
+		name: "Venin Edge"
+	}
 };
