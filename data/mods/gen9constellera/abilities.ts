@@ -247,4 +247,97 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 2,
 		num: 200,
 	},
+	hypercutter: {
+		inherit: false,
+		onTryBoost(boost, target, source, effect) {
+			if (boost.atk && boost.atk < 0) {
+				delete boost.atk;
+				if (!(effect as ActiveMove).secondaries) {
+					this.add("-fail", target, "unboost", "Attack", "[from] ability: Hyper Cutter", `[of] ${target}`);
+				}
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Hyper Cutter",
+		rating: 1.5,
+		num: 52,
+	},
+	tabletsofruin: {
+		inherit: false,
+		onStart(pokemon) {
+			if (this.suppressingAbility(pokemon)) return;
+			this.add('-ability', pokemon, 'Tablets of Ruin');
+		},
+		onAnyModifyAtk(atk, source, target, move) {
+			const abilityHolder = this.effectState.target;
+			if (source.hasAbility('Tablets of Ruin')) return;
+			if (source.hasAbility('Hyper Cutter')) return;
+			if (!move.ruinedAtk) move.ruinedAtk = abilityHolder;
+			if (move.ruinedAtk !== abilityHolder) return;
+			this.debug('Tablets of Ruin Atk drop');
+			return this.chainModify(0.75);
+		},
+		flags: {},
+		name: "Tablets of Ruin",
+		rating: 4.5,
+		num: 284,
+	},
+	bigpecks: {
+		inherit: false,
+		onTryBoost(boost, target, source, effect) {
+			if (boost.def && boost.def < 0) {
+				delete boost.def;
+				if (!(effect as ActiveMove).secondaries && effect.id !== 'octolock') {
+					this.add("-fail", target, "unboost", "Defense", "[from] ability: Big Pecks", `[of] ${target}`);
+				}
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Big Pecks",
+		rating: 0.5,
+		num: 145,
+	},
+	swordofruin: {
+		onStart(pokemon) {
+			if (this.suppressingAbility(pokemon)) return;
+			this.add('-ability', pokemon, 'Sword of Ruin');
+		},
+		onAnyModifyDef(def, target, source, move) {
+			const abilityHolder = this.effectState.target;
+			if (target.hasAbility('Sword of Ruin')) return;
+			if (target.hasAbility('Big Pecks')) return;
+			if (!move.ruinedDef?.hasAbility('Sword of Ruin')) move.ruinedDef = abilityHolder;
+			if (move.ruinedDef !== abilityHolder) return;
+			this.debug('Sword of Ruin Def drop');
+			return this.chainModify(0.75);
+		},
+		flags: {},
+		name: "Sword of Ruin",
+		rating: 4.5,
+		num: 285,
+	},
+	runaway: {
+		inherit: false,
+		
+		onTryBoost(boost, target, source, effect) {
+			if (boost.spe && boost.spe < 0) {
+				delete boost.spe;
+				if (!(effect as ActiveMove).secondaries) {
+					this.add("-fail", target, "unboost", "Speed", "[from] ability: Run Away", `[of] ${target}`);
+				}
+			}
+		},
+		onTrapPokemonPriority: -10,
+		onTrapPokemon(pokemon) {
+			pokemon.trapped = false;
+		},
+		onMaybeTrapPokemonPriority: -10,
+		onMaybeTrapPokemon(pokemon) {
+			pokemon.maybeTrapped = false;
+		},
+		flags: {breakable: 1},
+		name: "Run Away",
+		rating: 0,
+		num: 50,
+	},
 };
