@@ -340,4 +340,56 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 0,
 		num: 50,
 	},
+	plus: {
+		inherit: false,
+		onModifySpAPriority: 5,
+		//Modifies user's Sp.Atk by 1.5 if an ally has + or -
+		onModifySpA(spa, pokemon) {
+			for (const allyActive of pokemon.allies()) {
+				if (allyActive.hasAbility(['minus', 'plus'])) {
+					return this.chainModify(1.5);
+				}
+			}
+		},
+		//Modifies a pokemon's Sp.Atk by 1.5 if they are a teammate, and possess + or -
+		onAnyModifySpA(spa, source, target, move) {
+			const abilityHolder = this.effectState.target; //???
+			if (!source.isAlly(target)) return; //Not a teammate. Exit
+			if (!source.hasAbility('Plus') && !source.hasAbility('Minus')) return; //No + or -. Exit
+			if (!move.ruinedSpA) move.ruinedSpA = abilityHolder; //???
+			if (move.ruinedSpA !== abilityHolder) return; //???
+			this.debug('Plus Sp.Atk Increase');
+			return this.chainModify(1.5);
+		},
+		flags: {},
+		name: "Plus",
+		rating: 0,
+		num: 57,
+	},
+	minus: {
+		inherit: false,
+		onModifySpDPriority: 5,
+		//Modifies user's Sp.Atk by 1.5 if an ally has + or -
+		onModifySpD(spd, pokemon) {
+			for (const allyActive of pokemon.allies()) {
+				if (allyActive.hasAbility(['minus', 'plus'])) {
+					return this.chainModify(1.5);
+				}
+			}
+		},
+		//Modifies a pokemon's Sp.Atk by 1.5 if they are a teammate, and possess + or -
+		onAnyModifySpD(spd, source, target, move) {
+			const abilityHolder = this.effectState.target; //???
+			if (!source.isAlly(target)) return; //Not a teammate. Exit
+			if (!source.hasAbility('Plus') && !source.hasAbility('Minus')) return; //No + or -. Exit
+			if (!move.ruinedSpD) move.ruinedSpD = abilityHolder; //??????
+			if (move.ruinedSpD !== abilityHolder) return; //?????????????????????
+			this.debug('Minus Sp.Def Increase');
+			return this.chainModify(1.5);
+		},
+		flags: {},
+		name: "Minus",
+		rating: 0,
+		num: 58,
+	},
 };
