@@ -85,7 +85,7 @@
     ],
     "rmmoves": []
   },
-  "venusaurgmax": {
+  "venusaurmegag": {
     "restricted": false,
     "types": [
       "Grass",
@@ -257,7 +257,7 @@
     ],
     "rmmoves": []
   },
-  "charizardgmax": {
+  "charizardmegag": {
     "restricted": false,
     "types": [
       "Fire"
@@ -386,7 +386,7 @@
     ],
     "rmmoves": []
   },
-  "blastoisegmax": {
+  "blastoisemegag": {
     "restricted": false,
     "types": [
       "Water",
@@ -474,7 +474,7 @@
     ],
     "rmmoves": []
   },
-  "butterfreegmax": {
+  "butterfreemega": {
     "restricted": false,
     "types": [
       "Bug",
@@ -2253,7 +2253,7 @@
     ],
     "rmmoves": []
   },
-  "machampgmax": {
+  "machampmegag": {
     "restricted": false,
     "types": [
       "Fighting"
@@ -3103,7 +3103,7 @@
     ],
     "rmmoves": []
   },
-  "gengargmax": {
+  "gengarmegag": {
     "restricted": false,
     "types": [
       "Ghost",
@@ -3255,6 +3255,10 @@
       "earthquake",
       "terablast",
       "rockhammer",
+      "shellsidearm",
+      "poisonjab",
+      "crosspoison",
+      "gunkshot",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -3277,7 +3281,7 @@
     ],
     "rmmoves": []
   },
-  "kinglergmax": {
+  "kinglermega": {
     "restricted": false,
     "types": [
       "Water",
@@ -4514,7 +4518,7 @@
     ],
     "rmmoves": []
   },
-  "laprasgmax": {
+  "laprasmega": {
     "restricted": false,
     "types": [
       "Water",
@@ -5035,7 +5039,7 @@
     ],
     "rmmoves": []
   },
-  "snorlaxgmax": {
+  "snorlax-mega": {
     "restricted": false,
     "types": [
       "Grass",
@@ -9831,6 +9835,7 @@
       "terablast",
       "rockhammer",
       "scorchingsands",
+      "rockwrecker",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -9873,6 +9878,10 @@
       "spe": 70
     },
     "addmoves": [
+      "terablast",
+      "rockhammer",
+      "scorchingsands",
+      "rockwrecker",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -20072,7 +20081,7 @@
     ],
     "rmmoves": []
   },
-  "garbodorgmax": {
+  "garbodormega": {
     "restricted": false,
     "types": [
       "Poison"
@@ -22792,7 +22801,7 @@
       "def": 130,
       "spa": 60,
       "spd": 95,
-      "spe": 40
+      "spe": 70
     },
     "addmoves": [
       "rockhammer",
@@ -29615,7 +29624,7 @@
     ],
     "rmmoves": []
   },
-  "melmetalgmax": {
+  "melmetalmega": {
     "restricted": false,
     "types": [
       "Steel"
@@ -29698,7 +29707,7 @@
     ],
     "rmmoves": []
   },
-  "rillaboomgmax": {
+  "rillaboommega": {
     "restricted": false,
     "types": [
       "Grass"
@@ -29783,7 +29792,7 @@
     ],
     "rmmoves": []
   },
-  "cinderacegmax": {
+  "cinderacemega": {
     "restricted": false,
     "types": [
       "Fire"
@@ -29911,7 +29920,7 @@
     ],
     "rmmoves": []
   },
-  "inteleongmax": {
+  "inteleonmega": {
     "restricted": false,
     "types": [
       "Water"
@@ -30035,7 +30044,7 @@
     ],
     "rmmoves": []
   },
-  "corviknightgmax": {
+  "corviknightmega": {
     "restricted": false,
     "types": [
       "Flying",
@@ -30123,7 +30132,7 @@
     ],
     "rmmoves": []
   },
-  "orbeetlegmax": {
+  "orbeetlemega": {
     "restricted": false,
     "types": [
       "Bug",
@@ -30346,7 +30355,7 @@
     ],
     "rmmoves": []
   },
-  "drednawgmax": {
+  "drednawmega": {
     "restricted": false,
     "types": [
       "Water",
@@ -30480,7 +30489,7 @@
     ],
     "rmmoves": []
   },
-  "coalossalgmax": {
+  "coalossalmega": {
     "restricted": false,
     "types": [
       "Rock",
@@ -30563,7 +30572,7 @@
     ],
     "rmmoves": []
   },
-  "flapplegmax": {
+  "flapplemega": {
     "restricted": false,
     "types": [
       "Grass",
@@ -30646,7 +30655,7 @@
     ],
     "rmmoves": []
   },
-  "appletungmax": {
+  "appletunmega": {
     "restricted": false,
     "types": [
       "Grass",
@@ -30728,7 +30737,7 @@
     ],
     "rmmoves": []
   },
-  "sandacondagmax": {
+  "sandacondamega": {
     "restricted": false,
     "types": [
       "Ground"
@@ -30984,7 +30993,7 @@
     ],
     "rmmoves": []
   },
-  "toxtricitygmax": {
+  "toxtricitymega": {
     "restricted": false,
     "types": [
       "Electric",
@@ -31070,7 +31079,7 @@
     ],
     "rmmoves": []
   },
-  "toxtricitylowkeygmax": {
+  "toxtricitylowkeymega": {
     "restricted": false,
     "types": [
       "Electric",
@@ -31155,7 +31164,7 @@
     ],
     "rmmoves": []
   },
-  "centiskorchgmax": {
+  "centiskorchmega": {
     "restricted": false,
     "types": [
       "Fire",
@@ -31375,7 +31384,7 @@
     ],
     "rmmoves": []
   },
-  "hatterenegmax": {
+  "hatterenemega": {
     "restricted": false,
     "types": [
       "Psychic",
@@ -31461,7 +31470,7 @@
     ],
     "rmmoves": []
   },
-  "grimmsnarlgmax": {
+  "grimmsnarlmega": {
     "restricted": false,
     "types": [
       "Dark",
@@ -31826,7 +31835,7 @@
     ],
     "rmmoves": []
   },
-  "alcremiegmax": {
+  "alcremiemega": {
     "restricted": false,
     "types": [
       "Fairy"
@@ -32436,7 +32445,7 @@
     ],
     "rmmoves": []
   },
-  "copperajahgmax": {
+  "copperajahmega": {
     "restricted": false,
     "types": [
       "Steel"
@@ -32956,7 +32965,7 @@
     ],
     "rmmoves": []
   },
-  "eternatuseternamax": {
+  "eternatusmega": {
     "restricted": false,
     "types": [
       "Poison",
@@ -33040,7 +33049,7 @@
     ],
     "rmmoves": []
   },
-  "urshifugmax": {
+  "urshifumega": {
     "restricted": false,
     "types": [
       "Fighting",
@@ -33124,7 +33133,7 @@
     ],
     "rmmoves": []
   },
-  "urshifurapidstrikegmax": {
+  "urshifurapidstrikemega": {
     "restricted": false,
     "types": [
       "Fighting",
@@ -34984,6 +34993,7 @@
       "reflect",
       "firstimpression",
       "seedbomb",
+      "sketch",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -39568,9 +39578,7 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": [
-      "sketch"
-    ]
+    "rmmoves": []
   },
   "pajantom": {
     "restricted": false,
