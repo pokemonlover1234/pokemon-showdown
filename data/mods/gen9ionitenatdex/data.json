@@ -13401,11 +13401,11 @@
       "H": "Battle Bond"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 50,
-      "def": 100,
+      "hp": 110,
+      "atk": 65,
+      "def": 105,
       "spa": 125,
-      "spd": 105,
+      "spd": 115,
       "spe": 30
     },
     "addmoves": [
