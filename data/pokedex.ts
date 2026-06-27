@@ -17022,7 +17022,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	toxtricitylowkeymega: {
 		num: 849,
-		name: "Toxtricity-Low-Key-Mega",
+		name: "Toxtricity-LowKey-Mega",
 		baseSpecies: "Toxtricity",
 		forme: "Low-Key-Mega",
 		types: ["Electric", "Poison"],
