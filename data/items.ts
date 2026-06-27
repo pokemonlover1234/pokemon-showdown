@@ -8627,9 +8627,22 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 469,
 		megaStone: {
 			"Toxtricity": "Toxtricity-Mega",
-			"Toxtricity-Lowkey": "Toxtricity-Lowkey-Mega",
 		},
 		itemUser: ["Toxtricity", "Toxtricity-Lowkey"],
+		onTakeItem(item, source) {
+			return !item.megaStone || (!item.megaStone[source.baseSpecies.name] &&
+				!Object.values(item.megaStone).includes(source.baseSpecies.name));
+		},
+		num: 2643,
+		gen: 9,
+		isNonstandard: "Future",
+	},
+	toxtricitite lowkey: {
+		name: "Toxtricitite Low Key",
+		spritenum: 469,
+		megaStone: {"Toxtricity-Lowkey": "Toxtricity-Lowkey-Mega",
+		},
+		itemUser: ["Toxtricity-Lowkey"],
 		onTakeItem(item, source) {
 			return !item.megaStone || (!item.megaStone[source.baseSpecies.name] &&
 				!Object.values(item.megaStone).includes(source.baseSpecies.name));
