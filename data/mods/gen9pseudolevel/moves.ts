@@ -17,7 +17,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		onModifyMove(move, pokemon, target) {
 			if (target?.effectiveWeather() === 'nighttime') {
 				move.accuracy = true;
-				break;
 			}
 		},
 		onTry(source, target, move) {
