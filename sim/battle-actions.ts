@@ -1737,6 +1737,11 @@ export class BattleActions {
 			const bondModifier = this.battle.gen > 6 ? 0.25 : 0.5;
 			this.battle.debug(`Parental Bond modifier: ${bondModifier}`);
 			baseDamage = this.battle.modify(baseDamage, bondModifier);
+		} else if (move.multihitType === 'oraoraoraora' && move.hit > 1) {
+			// Parental Bond modifier
+			const bondModifier = this.battle.gen > 6 ? 0.5 : 0.5;
+			this.battle.debug(`OraOraOraOra modifier: ${bondModifier}`);
+			baseDamage = this.battle.modify(baseDamage, bondModifier);
 		}
 
 		// weather modifier
