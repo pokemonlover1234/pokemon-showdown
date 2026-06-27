@@ -2220,7 +2220,7 @@
     "abilities": {
       "0": "Guts",
       "1": "No Guard",
-      "H": "Rock Head"
+      "H": "OraOraOraOra"
     },
     "baseStats": {
       "hp": 90,
@@ -13278,7 +13278,7 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Inner Flame",
+      "0": "Blazing Soul",
       "1": "Mountaineer",
       "H": "Gorilla Tactics"
     },
@@ -13366,7 +13366,7 @@
     "abilities": {
       "0": "Water Veil",
       "1": "Defiant",
-      "H": "Emperor's presence "
+      "H": "Emperor's Presence "
     },
     "baseStats": {
       "hp": 84,
@@ -16163,7 +16163,7 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Pressure",
+      "0": "THE GRIPPER",
       "1": "Prankster",
       "H": "Cursed Body"
     },
@@ -20423,7 +20423,7 @@
     ],
     "abilities": {
       "0": "Weak Armor",
-      "1": "Poison Point",
+      "1": "Parasitic Waste",
       "H": "Mold Breaker"
     },
     "baseStats": {
