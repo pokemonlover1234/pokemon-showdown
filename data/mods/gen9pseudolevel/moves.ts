@@ -15,10 +15,10 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1},
 		status: 'slp',
 		onModifyMove(move, pokemon, target) {
-			switch (target?.effectiveWeather()) {
-			case 'nighttime':
+			if (target?.effectiveWeather() === 'nighttime') {
 				move.accuracy = true;
 				break;
+			}
 		},
 		onTry(source, target, move) {
 			if (move.hasBounced) {
