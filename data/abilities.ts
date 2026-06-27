@@ -6160,6 +6160,188 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1}, // airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
 		name: "Eelevate",
 		rating: 3.5,
-		num: 224,
+	},
+	iceeater: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ground') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Ice Eater');
+				}
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Ice Eater",
+		rating: 3.5,
+	},
+	blazingsoul: {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move?.type === 'Fire' && pokemon.hp === pokemon.maxhp) return priority + 1;
+		},
+		flags: {},
+		name: "Blazing Soul",
+		rating: 1.5,
+	},
+	emperorspresense: {
+		onAllyBasePowerPriority: 22,
+		onAllyBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Steel' || move.type === 'Water') {
+				this.debug('Steely Spirit boost');
+				return this.chainModify(1.3);
+			}
+		},
+		flags: {},
+		name: "Emperor's Presence",
+		rating: 3.5,
+	},
+	oraoraoraora: {
+		onPrepareHit(source, target, move) {
+			if (!move.flags['punch']) return; 
+			move.multihit = 2;
+			move.multihitType = 'oraoraoraora';
+		},
+		// Damage modifier implemented in BattleActions#modifyDamage()
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'parentalbond' && move.id === 'secretpower' && move.hit < 2) {
+				// hack to prevent accidentally suppressing King's Rock/Razor Fang
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		flags: {},
+		name: "OraOraOraOra",
+		rating: 4.5,
+	},
+	badcompany: {
+		//No Recoil
+		onDamage(damage, target, source, effect) {
+			if (effect.id === 'recoil') {
+				if (!this.activeMove) throw new Error("Battle.activeMove is null");
+				if (this.activeMove.id !== 'struggle') return null;
+			}
+		},
+		//No Self Stat Drops
+		onTryBoost(boost, target, source, effect) {
+			if (source && target !== source) return;
+			let showMsg = false;
+			let i: BoostID;
+			for (i in boost) {
+				if (boost[i]! < 0) {
+					delete boost[i];
+					showMsg = true;
+				}
+			}
+			if (showMsg && !(effect as ActiveMove).secondaries && effect.id !== 'octolock') {
+				this.add("-fail", target, "unboost", "[from] ability: Bad Company", `[of] ${target}`);
+			}
+		},
+		flags: {breakable: 1},
+		name: "Bad Company",
+		rating: 3,
+	},
+	fatalprecision: {
+		//Expert Belt Effect
+		onModifyDamage(damage, source, target, move) {
+			if (move && target.getMoveHitData(move).typeMod > 0) {
+				return this.chainModify(1.2);
+			}
+		},
+		//Always hit on SE
+		onModifyMove(move, pokemon, target) {
+			if (move && target.getMoveHitData(move).typeMod > 0) {
+				move.accuracy = true;
+			}
+		},
+		flags: {},
+		name: "Fatal Precision",
+		rating: 2.5,
+	},
+	thegripper: {
+		onSourceDamagingHit(damage, target, source, move) {
+			// Despite not being a secondary, Shield Dust / Covert Cloak block Poison Touch's effect
+			if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
+			if (this.checkMoveMakesContact(move, target, source)) {
+					target.addVolatile('trapped', source);
+			}
+		},
+		flags: {},
+		name: "THE GRIPPER",
+		rating: 2,
+	},
+	bullrush: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (source.activeMoveActions > 1) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(spe, pokemon) {
+			if (source.activeMoveActions > 1) {
+				return this.chainModify(1.2);
+			}
+		},
+		flags: {},
+		name: "Bull Rush",
+		rating: 3.5,
+	},
+	felineprowess: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa) {
+			return this.chainModify(2);
+		},
+		flags: {},
+		name: "Feline Prowess",
+		rating: 5,
+	},
+	sagepower: {
+		onStart(pokemon) {
+			pokemon.abilityState.choiceLock = "";
+		},
+		onBeforeMove(pokemon, target, move) {
+			if (move.isZOrMaxPowered || move.id === 'struggle') return;
+			if (pokemon.abilityState.choiceLock && pokemon.abilityState.choiceLock !== move.id) {
+				// Fails unless ability is being ignored (these events will not run), no PP lost.
+				this.addMove('move', pokemon, move.name);
+				this.attrLastMove('[still]');
+				this.debug("Disabled by Sage Power");
+				this.add('-fail', pokemon);
+				return false;
+			}
+		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.abilityState.choiceLock || move.isZOrMaxPowered || move.id === 'struggle') return;
+			pokemon.abilityState.choiceLock = move.id;
+		},
+		onModifySpAPriority: 1,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.volatiles['dynamax']) return;
+			// PLACEHOLDER
+			this.debug('Sage Power Atk Boost');
+			return this.chainModify(1.5);
+		},
+		onDisableMove(pokemon) {
+			if (!pokemon.abilityState.choiceLock) return;
+			if (pokemon.volatiles['dynamax']) return;
+			for (const moveSlot of pokemon.moveSlots) {
+				if (moveSlot.id !== pokemon.abilityState.choiceLock) {
+					pokemon.disableMove(moveSlot.id, false, this.effectState.sourceEffect);
+				}
+			}
+		},
+		onEnd(pokemon) {
+			pokemon.abilityState.choiceLock = "";
+		},
+		flags: {},
+		name: "Sage Power",
+		rating: 4.5,
+	},
+	selfsufficient: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			this.heal(pokemon.baseMaxhp / 16);
+		},
+		flags: {},
+		name: "Self Sufficient",
+		rating: 3.5,
 	},
 };
