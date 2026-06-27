@@ -16821,7 +16821,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Green",
 		eggGroups: ["Grass", "Dragon"],
-		requiredItem: "Appletunite",
+		requiredItem: "Appletite",
 	},
 	silicobra: {
 		num: 843,
