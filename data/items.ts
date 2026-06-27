@@ -8444,7 +8444,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	laprasite: {
 		name: "Laprasite",
-		spritenum: 468,
+		spritenum: 470,
 		megaStone: { "Lapras": "Lapras-Mega" },
 		itemUser: ["Lapras"],
 		onTakeItem(item, source) {
@@ -8600,7 +8600,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	appletite: {
 		name: "Appletite",
-		spritenum: 464,
+		spritenum: 466,
 		megaStone: { "Appletun": "Appletun-Mega" },
 		itemUser: ["Appletun"],
 		onTakeItem(item, source) {
@@ -8624,7 +8624,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	toxtricitite: {
 		name: "Toxtricitite",
-		spritenum: 467,
+		spritenum: 469,
 		megaStone: {
 			"Toxtricity": "Toxtricity-Mega",
 			"Toxtricity-Lowkey": "Toxtricity-Lowkey-Mega",
@@ -8676,7 +8676,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	alcremite: {
 		name: "Alcremite",
-		spritenum: 469,
+		spritenum: 471,
 		megaStone: { "Alcremie": "Alcremie-Mega" },
 		itemUser: ["Alcremie"],
 		onTakeItem(item, source) {
@@ -8748,7 +8748,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	luxranite: {
 		name: "Luxranite",
-		spritenum: 466,
+		spritenum: 468,
 		megaStone: { "Luxray": "Luxray-Mega" },
 		itemUser: ["Luxray"],
 		onTakeItem(item, source) {
@@ -8772,7 +8772,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	dusknoirite: {
 		name: "Dusknoirite",
-		spritenum: 465,
+		spritenum: 467,
 		megaStone: { "Dusknoir": "Dusnkoir-Mega" },
 		itemUser: ["Dusknoir"],
 		onTakeItem(item, source) {
@@ -8789,7 +8789,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			"Urshifu": "Urshifu-Mega",
 			"Urshifu-Rapidstrike": "Urshifu-Rapidstrike-Mega",
 		},
-		itemUser: ["Toxtricity", "Toxtricity-Lowkey"],
+		itemUser: ["Urshifu", "Urshifu-Rapidstrike"],
 		onTakeItem(item, source) {
 			return !item.megaStone || (!item.megaStone[source.baseSpecies.name] &&
 				!Object.values(item.megaStone).includes(source.baseSpecies.name));
