@@ -6344,4 +6344,29 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Self Sufficient",
 		rating: 3.5,
 	},
+	parasiticwaste: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "Tree Of Life",
+		rating: 3,
+		desc: "Attacks that poison also drain 30%",
+		onModifyMove(move, pokemon, target) {
+			const baseDrain = move.drain ?? null;
+			if (secondary.status !== 'psn' && secondary.status !== 'tox') return; //TODO: Replace boolean with secondary effect check
+			move.flags['heal'] = 1;
+			let num = 3;
+			let den = 10;
+			// Stack with base move drain by getting common denominator
+			if (baseDrain !== null) {
+				num = num * baseDrain[1] + den * baseDrain[0];
+				den *= baseDrain[1];
+				// Cap at 100% Drain.
+				if (num > den) {
+					num = 1;
+					den = 1;
+				}
+			}
+			move.drain = [num, den];
+		},
+	},
 };
