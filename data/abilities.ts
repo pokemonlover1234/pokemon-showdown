@@ -6182,7 +6182,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Blazing Soul",
 		rating: 1.5,
 	},
-	emperorspresense: {
+	emperorspresence: {
 		onAllyBasePowerPriority: 22,
 		onAllyBasePower(basePower, attacker, defender, move) {
 			if (move.type === 'Steel' || move.type === 'Water') {
