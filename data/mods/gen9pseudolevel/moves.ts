@@ -16,10 +16,10 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		status: 'slp',
 		onModifyMove(move, pokemon, target) {
 			switch (target?.effectiveWeather()) {
-			case 'night time':
+			case 'nighttime':
 				move.accuracy = true;
 				break;
-		}
+		},
 		onTry(source, target, move) {
 			if (move.hasBounced) {
 				return;
