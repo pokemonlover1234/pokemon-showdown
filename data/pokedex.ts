@@ -16975,7 +16975,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		formeOrder: ["Toxtricity", "Toxtricity-Lowkey"],
 		canGigantamax: "G-Max Stun Shock",
 	},
-	toxtricityLowkey: {
+	toxtricitylowkey: {
 		num: 849,
 		name: "Toxtricity-Lowkey",
 		baseSpecies: "Toxtricity",
@@ -17005,7 +17005,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Human-Like"],
 		changesFrom: "Toxtricity",
 	},
-	toxtricityLowkeygmax: {
+	toxtricitylowkeygmax: {
 		num: 849,
 		name: "Toxtricity-Lowkey-Gmax",
 		baseSpecies: "Toxtricity",
@@ -17020,7 +17020,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		battleOnly: "Toxtricity-Lowkey",
 		changesFrom: "Toxtricity-Lowkey",
 	},
-	toxtricityLowkeymega: {
+	toxtricitylowkeymega: {
 		num: 849,
 		name: "Toxtricity-Lowkey-Mega",
 		baseSpecies: "Toxtricity",
