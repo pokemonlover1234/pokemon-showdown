@@ -16994,7 +16994,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.4,
 		weightkg: 11,
 		color: "Purple",
-		evos: ["Toxtricity", "Toxtricity-LowKey"],
+		evos: ["Toxtricity", "Toxtricity-Lowkey"],
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
@@ -17012,12 +17012,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 30,
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Toxtricity-Low-Key"],
-		formeOrder: ["Toxtricity", "Toxtricity-LowKey"],
+		formeOrder: ["Toxtricity", "Toxtricity-Lowkey"],
 		canGigantamax: "G-Max Stun Shock",
 	},
-	toxtricitylowkey: {
+	toxtricityLowkey: {
 		num: 849,
-		name: "Toxtricity-LowKey",
+		name: "Toxtricity-Lowkey",
 		baseSpecies: "Toxtricity",
 		forme: "Low-Key",
 		types: ["Electric", "Poison"],
@@ -17046,9 +17046,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		changesFrom: "Toxtricity",
 		placeholderFor: "Toxtricity",
 	},
-	toxtricitylowkeygmax: {
+	toxtricityLowkeygmax: {
 		num: 849,
-		name: "Toxtricity-LowKey-Gmax",
+		name: "Toxtricity-Lowkey-Gmax",
 		baseSpecies: "Toxtricity",
 		forme: "Low-Key-Gmax",
 		types: ["Electric", "Poison"],
@@ -17058,12 +17058,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0,
 		color: "Purple",
 		eggGroups: ["Human-Like"],
-		battleOnly: "Toxtricity-LowKey",
-		changesFrom: "Toxtricity-LowKey",
+		battleOnly: "Toxtricity-Lowkey",
+		changesFrom: "Toxtricity-Lowkey",
 	},
-	toxtricitylowkeymega: {
+	toxtricityLowkeymega: {
 		num: 849,
-		name: "Toxtricity-LowKey-Mega",
+		name: "Toxtricity-Lowkey-Mega",
 		baseSpecies: "Toxtricity",
 		forme: "Low-Key-Mega",
 		types: ["Electric", "Poison"],
@@ -17074,7 +17074,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Toxtricitite Low Key",
-		battleOnly: "Toxtricity-LowKey",
+		battleOnly: "Toxtricity-Lowkey",
 		isMega: true,
 	},
 	toxtricitymega: {
