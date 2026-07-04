@@ -3746,7 +3746,7 @@
       "def": 131,
       "spa": 89,
       "spd": 116,
-      "spe": 150
+      "spe": 140
     },
     "addmoves": [
       "terablast",
@@ -4833,6 +4833,2948 @@
       "spa": 170,
       "spd": 65,
       "spe": 75
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "perrserker": {
+    "restricted": false,
+    "types": [
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Cud Chew",
+      "1": "Armor Tail",
+      "H": "Sap Sipper"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 100,
+      "def": 110,
+      "spa": 81,
+      "spd": 80,
+      "spe": 124
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "venusaur": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Shed Skin",
+      "1": "Inner Focus",
+      "H": "Multiscale"
+    },
+    "baseStats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 130,
+      "spa": 135,
+      "spd": 110,
+      "spe": 94
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "charizard": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "SoulHeart",
+      "1": "Full Metal Body",
+      "H": "Motor Drive"
+    },
+    "baseStats": {
+      "hp": 69,
+      "atk": 190,
+      "def": 122,
+      "spa": 154,
+      "spd": 75,
+      "spe": 110
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "blastoise": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Water Absorb",
+      "1": "Damp",
+      "H": "Drizzle"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 90,
+      "def": 85,
+      "spa": 58,
+      "spd": 105,
+      "spe": 95
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "meganium": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Beast Boost",
+      "1": "Lightning Rod",
+      "H": "Analytic",
+      "S": "Download"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 113,
+      "def": 125,
+      "spa": 157,
+      "spd": 70,
+      "spe": 68
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "typhlosion": {
+    "restricted": false,
+    "types": [
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Volt Absorb",
+      "1": "Motor Drive",
+      "H": "Transistor"
+    },
+    "baseStats": {
+      "hp": 140,
+      "atk": 138,
+      "def": 100,
+      "spa": 138,
+      "spd": 105,
+      "spe": 110
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "typhlosionhisui": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Fur Coat",
+      "1": "Oblivious",
+      "H": "Dazzling"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 65,
+      "def": 68,
+      "spa": 125,
+      "spd": 154,
+      "spe": 95
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "feraligatr": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Electric Surge",
+      "1": "Motor Drive",
+      "H": "Prankster"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 70,
+      "spa": 100,
+      "spd": 115,
+      "spe": 115
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "blaziken": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Poison Touch",
+      "1": "Tough Claws",
+      "H": "Unburden"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 75,
+      "def": 90,
+      "spa": 65,
+      "spd": 125,
+      "spe": 109
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "swampert": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Limber",
+      "1": "Unburden",
+      "H": "Mold Breaker"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 131,
+      "def": 100,
+      "spa": 53,
+      "spd": 120,
+      "spe": 148
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "torterra": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Shell Armor",
+      "H": "Bushido"
+    },
+    "baseStats": {
+      "hp": 150,
+      "atk": 112,
+      "def": 105,
+      "spa": 95,
+      "spd": 105,
+      "spe": 136
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "empoleon": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Huge Power"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 148,
+      "def": 140,
+      "spa": 110,
+      "spd": 100,
+      "spe": 110
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "serperior": {
+    "restricted": false,
+    "types": [
+      "Grass"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Sticky Hold",
+      "H": "Transistor"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 134,
+      "def": 100,
+      "spa": 70,
+      "spd": 200,
+      "spe": 94
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "emboar": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Beast Boost",
+      "1": "Aerilate",
+      "H": "Adaptability"
+    },
+    "baseStats": {
+      "hp": 82,
+      "atk": 65,
+      "def": 75,
+      "spa": 110,
+      "spd": 75,
+      "spe": 111
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "samurott": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Mold Breaker",
+      "1": "Rough Skin",
+      "H": "Sheer Force",
+      "S": "Dragonize"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 84,
+      "def": 136,
+      "spa": 109,
+      "spd": 136,
+      "spe": 111
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "samurotthisui": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Tough Claws",
+      "H": "Moxie"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 115,
+      "def": 100,
+      "spa": 55,
+      "spd": 100,
+      "spe": 95
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "chesnaught": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Good as Gold",
+      "1": "Cursed Body",
+      "H": "Steely Spirit"
+    },
+    "baseStats": {
+      "hp": 130,
+      "atk": 132,
+      "def": 55,
+      "spa": 132,
+      "spd": 135,
+      "spe": 142
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "delphox": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Schooling",
+      "1": "Intimidate",
+      "H": "Water Absorb"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 105,
+      "spa": 145,
+      "spd": 85,
+      "spe": 60
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "greninja": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Sheer Force",
+      "1": "Zen Mode",
+      "H": "Gorilla Tactics"
+    },
+    "baseStats": {
+      "hp": 216,
+      "atk": 55,
+      "def": 127,
+      "spa": 130,
+      "spd": 97,
+      "spe": 95
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "decidueye": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Huge Power",
+      "1": "Thick Fat",
+      "H": "Sap Sipper"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 115,
+      "def": 85,
+      "spa": 125,
+      "spd": 85,
+      "spe": 101
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "decidueyehisui": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Shell Armor",
+      "H": "Bushido"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 150,
+      "def": 110,
+      "spa": 75,
+      "spd": 95,
+      "spe": 92
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "incineroar": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Sheer Force",
+      "1": "Zen Mode",
+      "H": "Gorilla Tactics"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 105,
+      "def": 150,
+      "spa": 65,
+      "spd": 150,
+      "spe": 75
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "primarina": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Sweet Veil",
+      "1": "Unburden",
+      "H": "Natural Cure"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 95,
+      "spa": 100,
+      "spd": 77,
+      "spe": 90
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "rillaboom": {
+    "restricted": false,
+    "types": [
+      "Grass"
+    ],
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Prankster",
+      "H": "Guts"
+    },
+    "baseStats": {
+      "hp": 86,
+      "atk": 125,
+      "def": 107,
+      "spa": 135,
+      "spd": 107,
+      "spe": 142
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "inteleon": {
+    "restricted": false,
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "0": "Iron Barbs",
+      "1": "Storm Drain",
+      "H": "Solar Power"
+    },
+    "baseStats": {
+      "hp": 76,
+      "atk": 60,
+      "def": 115,
+      "spa": 121,
+      "spd": 115,
+      "spe": 97
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "meowscarada": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Super Luck",
+      "1": "Prankster",
+      "H": "Moxie"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 83,
+      "def": 75,
+      "spa": 125,
+      "spd": 100,
+      "spe": 109
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "skeledirge": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Storm Drain",
+      "1": "Sap Sipper",
+      "H": "Sturdy"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 110,
+      "def": 110,
+      "spa": 150,
+      "spd": 110,
+      "spe": 142
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "quaquaval": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Volt Absorb",
+      "1": "Motor Drive",
+      "H": "Transistor"
+    },
+    "baseStats": {
+      "hp": 91,
+      "atk": 145,
+      "def": 106,
+      "spa": 105,
+      "spd": 106,
+      "spe": 180
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "dragonite": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Hospitality",
+      "1": "Misty Surge",
+      "H": "Triage"
+    },
+    "baseStats": {
+      "hp": 97,
+      "atk": 115,
+      "def": 105,
+      "spa": 65,
+      "spd": 105,
+      "spe": 110
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "tyranitar": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Iron Fist",
+      "1": "Hyper Cutter",
+      "H": "Thick Fat"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 115,
+      "spa": 130,
+      "spd": 115,
+      "spe": 116
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "salamence": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Quark Drive",
+      "1": "Sturdy",
+      "H": "Transistor",
+      "S": "Speed Boost"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 84,
+      "def": 120,
+      "spa": 119,
+      "spd": 115,
+      "spe": 125
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "metagross": {
+    "restricted": false,
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "abilities": {
+      "0": "Refrigerate",
+      "1": "Snow Warning",
+      "H": "Weak Armor"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 159,
+      "def": 75,
+      "spa": 70,
+      "spd": 63,
+      "spe": 112
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "garchomp": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Crane Style",
+      "1": "Thermal Exchange",
+      "H": "Speed Boost",
+      "S": "Crane Style"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 115,
+      "def": 105,
+      "spa": 105,
+      "spd": 105,
+      "spe": 113
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "goodra": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Stakeout",
+      "1": "Water Veil",
+      "H": "Strong Jaw"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 104,
+      "def": 112,
+      "spa": 94,
+      "spd": 112,
+      "spe": 93
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "kommoo": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Compound Eyes",
+      "H": "Tinted Lens"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 48,
+      "def": 105,
+      "spa": 143,
+      "spd": 120,
+      "spe": 104
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "baxcalibur": {
+    "restricted": false,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Inner Focus",
+      "1": "Strong Jaw",
+      "H": "Refrigerate"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 135,
+      "def": 60,
+      "spa": 95,
+      "spd": 95,
+      "spe": 108
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "scizor": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Quark Drive",
+      "1": "Download",
+      "H": "Lightning Rod",
+      "S": "Merciless"
+    },
+    "baseStats": {
+      "hp": 91,
+      "atk": 115,
+      "def": 180,
+      "spa": 65,
+      "spd": 90,
+      "spe": 119
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "kleavor": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Protosynthesis",
+      "1": "Static",
+      "H": "Electric Surge",
+      "S": "Long Reach"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 170,
+      "def": 160,
+      "spa": 110,
+      "spd": 88,
+      "spe": 110
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "gardevoir": {
+    "restricted": false,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Solar Power",
+      "H": "Flash Fire"
+    },
+    "baseStats": {
+      "hp": 200,
+      "atk": 80,
+      "def": 120,
+      "spa": 124,
+      "spd": 70,
+      "spe": 107
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "scolipede": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Innards Out",
+      "1": "Oblivious",
+      "H": "Unaware"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 147,
+      "def": 100,
+      "spa": 70,
+      "spd": 100,
+      "spe": 105
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "krookodile": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Guts",
+      "1": "Intimidate",
+      "H": "Strong Jaw"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 165,
+      "def": 145,
+      "spa": 65,
+      "spd": 150,
+      "spe": 90
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "lokix": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Fluffy",
+      "1": "Magic Guard",
+      "H": "Unaware",
+      "S": "Umbral Dish"
+    },
+    "baseStats": {
+      "hp": 109,
+      "atk": 145,
+      "def": 115,
+      "spa": 153,
+      "spd": 115,
+      "spe": 47
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "golisopod": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "abilities": {
+      "0": "Insomnia",
+      "1": "Perish Body",
+      "H": "Cursed Body",
+      "S": "Shadow Step"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 120,
+      "def": 115,
+      "spa": 50,
+      "spd": 115,
+      "spe": 100
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "excadrill": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Steam Engine",
+      "1": "Flame Body",
+      "H": "Flash Fire"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 103,
+      "def": 168,
+      "spa": 70,
+      "spd": 138,
+      "spe": 100
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "donphan": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Cotton Down",
+      "1": "Static",
+      "H": "Mold Breaker",
+      "S": "Dragonize"
+    },
+    "baseStats": {
+      "hp": 79,
+      "atk": 155,
+      "def": 135,
+      "spa": 65,
+      "spd": 135,
+      "spe": 75
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "mamoswine": {
+    "restricted": false,
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Sand Force",
+      "1": "Hustle",
+      "H": "Sand Rush"
+    },
+    "baseStats": {
+      "hp": 63,
+      "atk": 95,
+      "def": 100,
+      "spa": 109,
+      "spd": 90,
+      "spe": 90
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "golem": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Torrent",
+      "1": "Liquid Voice",
+      "H": "Competitive"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 100,
+      "spa": 110,
+      "spd": 100,
+      "spe": 85
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "garganacl": {
+    "restricted": false,
+    "types": [
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Trace",
+      "1": "Infiltrator",
+      "H": "Contrary"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 105,
+      "def": 160,
+      "spa": 125,
+      "spd": 88,
+      "spe": 110
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "avalugghisui": {
+    "restricted": false,
+    "types": [
+      "Ice",
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Steadfast",
+      "1": "Sharpness",
+      "H": "Scrappy"
+    },
+    "baseStats": {
+      "hp": 57,
+      "atk": 130,
+      "def": 73,
+      "spa": 130,
+      "spd": 65,
+      "spe": 130
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "zoroark": {
+    "restricted": false,
+    "types": [
+      "Dark"
+    ],
+    "abilities": {
+      "0": "Poison Point",
+      "1": "Guts",
+      "H": "Sheer Force",
+      "S": "Moxie"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 98,
+      "def": 115,
+      "spa": 114,
+      "spd": 68,
+      "spe": 75
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "zoroarkhisui": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Mold Breaker",
+      "1": "Scrappy",
+      "H": "Iron Fist"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 77,
+      "def": 145,
+      "spa": 128,
+      "spd": 150,
+      "spe": 92
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "steelix": {
+    "restricted": false,
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Pressure",
+      "1": "Inner Focus",
+      "H": "Flash Fire"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 110,
+      "spa": 145,
+      "spd": 120,
+      "spe": 70
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "aerodactyl": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Triage",
+      "1": "Chlorophyll",
+      "H": "Dancer"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 125,
+      "def": 130,
+      "spa": 60,
+      "spd": 130,
+      "spe": 120
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "bastiodon": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Intimidate",
+      "H": "Guts"
+    },
+    "baseStats": {
+      "hp": 53,
+      "atk": 110,
+      "def": 100,
+      "spa": 115,
+      "spd": 120,
+      "spe": 92
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "granbull": {
+    "restricted": false,
+    "types": [
+      "Fairy",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Disguise",
+      "1": "Tough Claws",
+      "H": "Opportunist"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 135,
+      "def": 115,
+      "spa": 50,
+      "spd": 110,
+      "spe": 150
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "florges": {
+    "restricted": false,
+    "types": [
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Flame Body",
+      "1": "Aerilate",
+      "H": "Gale Wings"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 110,
+      "spa": 150,
+      "spd": 110,
+      "spe": 100
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "grimmsnarl": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Quark Drive",
+      "1": "Sharpness",
+      "H": "Motor Drive",
+      "S": "Grassy Surge"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 30,
+      "def": 100,
+      "spa": 140,
+      "spd": 100,
+      "spe": 48
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "ribombee": {
+    "restricted": false,
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "abilities": {
+      "0": "Beast Boost",
+      "1": "Infiltrator",
+      "H": "Magic Bounce",
+      "S": "Prankster"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 69,
+      "def": 100,
+      "spa": 159,
+      "spd": 100,
+      "spe": 151
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "frosmoth": {
+    "restricted": false,
+    "types": [
+      "Ice",
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Tinted Lens",
+      "H": "Contrary"
+    },
+    "baseStats": {
+      "hp": 108,
+      "atk": 85,
+      "def": 135,
+      "spa": 165,
+      "spd": 135,
+      "spe": 30
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "centiskorch": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Tough Claws",
+      "1": "Iron Barbs",
+      "H": "Slush Rush"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 135,
+      "def": 85,
+      "spa": 85,
+      "spd": 55,
+      "spe": 99
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "crobat": {
+    "restricted": false,
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Flash Fire",
+      "1": "Weak Armor",
+      "H": "Sharpness"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 123,
+      "def": 67,
+      "spa": 95,
+      "spd": 128,
+      "spe": 185
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "staraptor": {
+    "restricted": false,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Stakeout",
+      "1": "Strong Jaw",
+      "H": "Adaptability"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 52,
+      "def": 70,
+      "spa": 47,
+      "spd": 105,
+      "spe": 90
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "sandslashalola": {
+    "restricted": false,
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Misty Surge",
+      "H": "Neutralizing Gas"
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 157,
+      "def": 130,
+      "spa": 147,
+      "spd": 95,
+      "spe": 130
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "nidoqueen": {
+    "restricted": false,
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Dark Aura",
+      "1": "Mold Breaker",
+      "H": "Swift Swim"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 30,
+      "def": 95,
+      "spa": 40,
+      "spd": 85,
+      "spe": 100
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "nidoking": {
+    "restricted": false,
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Strong Jaw",
+      "1": "Guts",
+      "H": "Hustle",
+      "S": "Shadow Step"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 115,
+      "def": 100,
+      "spa": 55,
+      "spd": 70,
+      "spe": 103
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "abomasnow": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Psychic Surge",
+      "1": "Serene Grace",
+      "H": "Magic Bounce"
+    },
+    "baseStats": {
+      "hp": 50,
+      "atk": 150,
+      "def": 184,
+      "spa": 150,
+      "spd": 46,
+      "spe": 108
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "lucario": {
+    "restricted": false,
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Magnet Pull",
+      "1": "Strong Jaw",
+      "H": "Sand Force"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 150,
+      "def": 125,
+      "spa": 150,
+      "spd": 105,
+      "spe": 50
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "cetitan": {
+    "restricted": false,
+    "types": [
+      "Ice",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Swarm",
+      "1": "Aerilate",
+      "H": "Tinted Lens",
+      "S": "Shadow Step"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 89,
+      "def": 92,
+      "spa": 173,
+      "spd": 132,
+      "spe": 150
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "aurorus": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Blaze",
+      "1": "Reckless",
+      "H": "Libero"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 72,
+      "def": 150,
+      "spa": 129,
+      "spd": 130,
+      "spe": 110
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "beartic": {
+    "restricted": false,
+    "types": [
+      "Ice"
+    ],
+    "abilities": {
+      "0": "Shed Skin",
+      "1": "Inner Focus",
+      "H": "Multiscale"
+    },
+    "baseStats": {
+      "hp": 216,
+      "atk": 165,
+      "def": 150,
+      "spa": 65,
+      "spd": 150,
+      "spe": 110
     },
     "addmoves": [
       "terablast",
