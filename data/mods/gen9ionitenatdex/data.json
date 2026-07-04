@@ -22662,11 +22662,11 @@
       "H": "Harvest"
     },
     "baseStats": {
-      "hp": 99,
+      "hp": 115,
       "atk": 68,
-      "def": 83,
-      "spa": 72,
-      "spd": 87,
+      "def": 93,
+      "spa": 92,
+      "spd": 97,
       "spe": 51
     },
     "addmoves": [
@@ -28535,9 +28535,9 @@
       "hp": 50,
       "atk": 65,
       "def": 107,
-      "spa": 105,
+      "spa": 115,
       "spd": 107,
-      "spe": 86
+      "spe": 91
     },
     "addmoves": [
       "energyball",
