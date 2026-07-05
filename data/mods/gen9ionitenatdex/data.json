@@ -854,6 +854,11 @@
       "spe": 30
     },
     "addmoves": [
+      "return",
+      "psywave",
+      "energyball",
+      "signalbeam",
+      "hiddenpower",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -1068,6 +1073,11 @@
       "spe": 35
     },
     "addmoves": [
+      "frustration",
+      "poisonjab",
+      "heabutt",
+      "fellstinger",
+      "hiddenpower",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -18014,6 +18024,9 @@
       "spe": 15
     },
     "addmoves": [
+      "gigadrain",
+      "signalbeam",
+      "hiddenpower",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -18100,6 +18113,9 @@
       "spe": 15
     },
     "addmoves": [
+      "energyball",
+      "infestation",
+      "hiddenpower",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -26209,6 +26225,8 @@
       "spe": 36
     },
     "addmoves": [
+      "gigadrain",
+      "signalbeam",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -26250,6 +26268,8 @@
       "spe": 36
     },
     "addmoves": [
+      "gigadrain",
+      "signalbeam",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -26291,6 +26311,8 @@
       "spe": 36
     },
     "addmoves": [
+      "gigadrain",
+      "signalbeam",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
