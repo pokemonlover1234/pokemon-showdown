@@ -8679,7 +8679,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 9,
 		isNonstandard: "Future",
 	},
-	toxtricitite lowkey: {
+	toxtricititelowkey: {
 		name: "Toxtricitite Low Key",
 		spritenum: 469,
 		megaStone: {"Toxtricity-Lowkey": "Toxtricity-Lowkey-Mega",
