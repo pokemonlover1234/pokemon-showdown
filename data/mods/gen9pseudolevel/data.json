@@ -33048,10 +33048,10 @@
       "S": "Dark Resonance"
     },
     "baseStats": {
-      "hp": 85,
-      "atk": 110,
-      "def": 75,
-      "spa": 110,
+      "hp": 95,
+      "atk": 130,
+      "def": 85,
+      "spa": 70,
       "spd": 75,
       "spe": 145
     },
@@ -40092,7 +40092,7 @@
     "restricted": false,
     "types": [
       "Fire",
-      "Steel"
+      "Ice"
     ],
     "abilities": {
       "0": "No Guard",
