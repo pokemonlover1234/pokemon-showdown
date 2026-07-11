@@ -14406,9 +14406,9 @@
       "hp": 60,
       "atk": 60,
       "def": 60,
-      "spa": 105,
-      "spd": 105,
-      "spe": 105
+      "spa": 116,
+      "spd": 116,
+      "spe": 113
     },
     "addmoves": [
       "terablast",
@@ -20365,10 +20365,10 @@
       "H": "Lightning Rod"
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 70,
       "atk": 50,
       "def": 40,
-      "spa": 85,
+      "spa": 95,
       "spd": 75,
       "spe": 95
     },
@@ -20407,11 +20407,11 @@
       "H": "Volt Absorb"
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 70,
       "atk": 40,
       "def": 50,
       "spa": 75,
-      "spd": 85,
+      "spd": 95,
       "spe": 95
     },
     "addmoves": [
