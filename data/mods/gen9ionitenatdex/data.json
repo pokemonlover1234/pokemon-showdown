@@ -12187,10 +12187,10 @@
       "Fairy"
     ],
     "abilities": {
-      "0": "Overgrow",
+      "0": "Mega Sol",
       "1": "Misty Surge",
       "H": "Solar Power",
-      "S": "Mega Sol"
+      "S": "Overgrow"
     },
     "baseStats": {
       "hp": 80,
@@ -12585,10 +12585,10 @@
       "Dragon"
     ],
     "abilities": {
-      "0": "Torrent",
+      "0": "Dragonize",
       "1": "Strong Jaw",
       "H": "Dragon's Maw",
-      "S": "Dragonize"
+      "S": "Swift Swim"
     },
     "baseStats": {
       "hp": 85,
@@ -17234,8 +17234,8 @@
       "Dragon"
     ],
     "abilities": {
-      "0": "Overgrow",
-      "1": "Dragonize",
+      "0": "Dragonize",
+      "1": "Overgrow",
       "H": "Lightning Rod",
       "S": "Solar Power"
     },
@@ -17360,9 +17360,9 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Blaze",
+      "0": "Speed Boost",
       "1": "Adaptability",
-      "H": "Speed Boost",
+      "H": "Blaze",
       "S": "Reckless"
     },
     "baseStats": {
@@ -17625,9 +17625,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": "Torrent",
+      "0": "Swift Swim",
       "1": "Water Absorb",
-      "H": "Swift Swim",
+      "H": "Torrent",
       "S": "Iron Fist"
     },
     "baseStats": {
@@ -20060,9 +20060,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Battle Armor",
+      "0": "Filter",
       "1": "Full Metal Body",
-      "H": "Filter",
+      "H": "Battle Armor",
       "S": "Relentless Force"
     },
     "baseStats": {
@@ -20703,9 +20703,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Stakeout",
+      "0": "Strong Jaw",
       "1": "Water Veil",
-      "H": "Strong Jaw"
+      "H": "Stakeout"
     },
     "baseStats": {
       "hp": 70,
@@ -20914,7 +20914,7 @@
       "Ground"
     ],
     "abilities": {
-      "0": "Flame Body",
+      "0": "Solid Rock",
       "1": "Magma Armor",
       "H": "Anger Shell"
     },
@@ -22464,8 +22464,8 @@
       "Ghost"
     ],
     "abilities": {
-      "0": "Aftermath",
-      "1": "Fluffy",
+      "0": "Fluffy",
+      "1": "Aftermath",
       "H": "Prankster",
       "S": "Dark Resonance"
     },
@@ -22633,7 +22633,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Prankster"
+      "0": "Prankster",
+      "1": "Cursed Body",
+      "H": "Iron Fist"
     },
     "baseStats": {
       "hp": 105,
@@ -23664,9 +23666,9 @@
       "Flying"
     ],
     "abilities": {
-      "0": "Anger Point",
+      "0": "Aerilate",
       "1": "Gale Wings",
-      "H": "Aerilate",
+      "H": "Anger Point",
       "S": "Dark Resonance"
     },
     "baseStats": {
