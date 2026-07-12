@@ -19753,9 +19753,10 @@
       "Ghost"
     ],
     "abilities": {
-      "0": "Mirror Armor",
+      "0": "Prankster",
       "1": "Cursed Body",
-      "H": "Magic Bounce"
+      "H": "Magic Bounce",
+      "S": "Shadow Veil"
     },
     "baseStats": {
       "hp": 78,
@@ -21778,7 +21779,7 @@
       "def": 85,
       "spa": 90,
       "spd": 55,
-      "spe": 55
+      "spe": 96
     },
     "addmoves": [
       "terablast",
@@ -25830,18 +25831,18 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Guts",
+      "0": "Tough Claws",
       "1": "Intimidate",
       "H": "Strong Jaw",
       "S": "Dark Aura"
     },
     "baseStats": {
-      "hp": 95,
-      "atk": 130,
-      "def": 79,
-      "spa": 110,
-      "spd": 79,
-      "spe": 130
+      "hp": 90,
+      "atk": 150,
+      "def": 99,
+      "spa": 120,
+      "spd": 99,
+      "spe": 142
     },
     "addmoves": [
       "terablast",
@@ -27802,7 +27803,7 @@
     "restricted": false,
     "types": [
       "Fighting",
-      "Dark"
+      "Steel"
     ],
     "abilities": {
       "0": "Adaptability",
