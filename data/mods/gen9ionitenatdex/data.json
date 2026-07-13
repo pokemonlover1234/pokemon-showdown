@@ -19037,9 +19037,10 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Technician",
+      "0": "Comatose",
       "1": "Guts",
-      "H": "Thick Fat"
+      "H": "Thick Fat",
+      "S": "Technician"
     },
     "baseStats": {
       "hp": 60,
@@ -19078,7 +19079,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Intimidate",
+      "0": "Comatose",
       "1": "Guts",
       "H": "Thick Fat"
     },
@@ -19119,7 +19120,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Intimidate",
+      "0": "Comatose",
       "1": "Guts",
       "H": "Thick Fat"
     },
@@ -19160,7 +19161,7 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Intimidate"
+      "0": "Comatose"
     },
     "baseStats": {
       "hp": 140,
