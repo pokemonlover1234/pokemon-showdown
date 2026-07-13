@@ -31207,12 +31207,12 @@
       "H": "Gluttony"
     },
     "baseStats": {
-      "hp": 50,
-      "atk": 53,
+      "hp": 60,
+      "atk": 63,
       "def": 48,
-      "spa": 53,
+      "spa": 63,
       "spd": 48,
-      "spe": 64
+      "spe": 74
     },
     "addmoves": [
       "terablast",
@@ -31248,10 +31248,10 @@
       "H": "Grassy Surge"
     },
     "baseStats": {
-      "hp": 75,
-      "atk": 98,
+      "hp": 85,
+      "atk": 108,
       "def": 63,
-      "spa": 98,
+      "spa": 108,
       "spd": 63,
       "spe": 101
     },
@@ -31262,6 +31262,7 @@
       "solarblade",
       "fakeout",
       "endure",
+      "weatherball",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -31295,12 +31296,12 @@
       "H": "Gluttony"
     },
     "baseStats": {
-      "hp": 50,
-      "atk": 53,
+      "hp": 60,
+      "atk": 63,
       "def": 48,
-      "spa": 53,
+      "spa": 63,
       "spd": 48,
-      "spe": 64
+      "spe": 74
     },
     "addmoves": [
       "terablast",
@@ -31336,10 +31337,10 @@
       "H": "Drought"
     },
     "baseStats": {
-      "hp": 75,
-      "atk": 98,
+      "hp": 85,
+      "atk": 108,
       "def": 63,
-      "spa": 98,
+      "spa": 108,
       "spd": 63,
       "spe": 101
     },
@@ -31351,6 +31352,7 @@
       "fakeout",
       "flamewheel",
       "endure",
+      "weatherball",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -31384,12 +31386,12 @@
       "H": "Gluttony"
     },
     "baseStats": {
-      "hp": 50,
-      "atk": 53,
+      "hp": 60,
+      "atk": 63,
       "def": 48,
-      "spa": 53,
+      "spa": 63,
       "spd": 48,
-      "spe": 64
+      "spe": 74
     },
     "addmoves": [
       "terablast",
@@ -31425,10 +31427,10 @@
       "H": "Drizzle"
     },
     "baseStats": {
-      "hp": 75,
-      "atk": 98,
+      "hp": 85,
+      "atk": 108,
       "def": 63,
-      "spa": 98,
+      "spa": 108,
       "spd": 63,
       "spe": 101
     },
@@ -31439,6 +31441,7 @@
       "liquidation",
       "fakeout",
       "endure",
+      "weatherball",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
