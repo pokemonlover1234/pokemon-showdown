@@ -36081,7 +36081,7 @@
       "Water"
     ],
     "abilities": {
-      "0": "Levitate",
+      "0": "Eelevate",
       "1": "Sticky Hold",
       "H": "Transistor"
     },
@@ -40070,7 +40070,8 @@
     "abilities": {
       "0": "Drought",
       "1": "Fur Coat",
-      "H": "Intimidate"
+      "H": "Intimidate",
+      "S": "Fire Mane"
     },
     "baseStats": {
       "hp": 86,
