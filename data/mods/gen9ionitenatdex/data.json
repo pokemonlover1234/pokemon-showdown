@@ -26006,8 +26006,8 @@
       "Poison"
     ],
     "abilities": {
-      "0": "Aroma Veil",
-      "1": "Technician",
+      "0": "Technician",
+      "1": "Aroma Veil",
       "H": "Poison Touch"
     },
     "baseStats": {
@@ -40240,7 +40240,7 @@
     ],
     "rmmoves": []
   },
-  "floetteeternalmega": {
+  "floettemega": {
     "restricted": false,
     "types": [
       "Fairy",
@@ -58392,7 +58392,8 @@
     "abilities": {
       "0": "Guts",
       "1": "Aerilate",
-      "H": "Scrappy"
+      "H": "Scrappy",
+      "S": "Costar"
     },
     "baseStats": {
       "hp": 82,
@@ -62717,7 +62718,8 @@
     "abilities": {
       "0": "Comatose",
       "1": "Cursed Body",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Dark Resonance"
     },
     "baseStats": {
       "hp": 84,
