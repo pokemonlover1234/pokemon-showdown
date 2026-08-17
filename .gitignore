@@ -75,3 +75,6 @@ pip-log.txt
 *-cache.json
 
 *.orig
+
+data/mods/gen8eliteredux/er-proto/
+data/mods/gen8eliteredux/er-json/

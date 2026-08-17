@@ -1,0 +1,3 @@
+[submodule "data/mods/gen8eliteredux/er-config"]
+	path = data/mods/gen8eliteredux/er-config
+	url = https://github.com/Elite-Redux/er-config
