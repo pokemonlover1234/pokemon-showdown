@@ -4410,11 +4410,32 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 
 	// Ionite Metas
 	///////////////////////////////////////////////////////////////////
+	
 	{
 		section: "Ionite Metagames",
-		column: 3,
+		column: 1,
 	},
 	{
+		name: "[Gen 9] Ionite Natdex",
+		mod: "gen9ionitenatdex",
+		ruleset: ["Standard"],
+	},
+	{
+		name: "[Gen 9] Ionite Natdex Doubles",
+		mod: "gen9ionitenatdex",
+		ruleset: ["Standard"],
+		gameType: 'doubles',
+	},
+		
+	// Psuedo Level Metagames
+	///////////////////////////////////////////////////////////////////
+		
+	{
+		section: "Psuedo Level Metagames",
+		column: 1,
+	},
+	{
+		
 		name: "[Gen 9] Pseudo Level",
 		mod: "gen9pseudolevel",
 		ruleset: ["Standard"],
@@ -4426,7 +4447,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 	{
-		name: "[Gen 9] Pseudo Level SSB",
+		name: "[Gen 9] Pseudo Level BSS",
 		mod: "gen9pseudolevel",
 		bestOfDefault: true,
 		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
@@ -4451,15 +4472,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 	{
-		name: "[Gen 9] Ionite Natdex",
-		mod: "gen9ionitenatdex",
-		ruleset: ["Standard"],
-	},
+		},
+
+	// Constellera Metas
+	///////////////////////////////////////////////////////////////////
+	
 	{
-		name: "[Gen 9] Ionite Natdex Doubles",
-		mod: "gen9ionitenatdex",
-		ruleset: ["Standard"],
-		gameType: 'doubles',
+		section: "Constellera Metas",
+		column: 1,
 	},
 	{
 		name: "[Gen 9] Constellera",
@@ -4479,12 +4499,22 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ["Standard", "Little Cup"],
 	},
 	{
-		name: "[Gen 9] Chimera Mons",
+		},
+
+	// Chimeramon Metas
+	///////////////////////////////////////////////////////////////////
+	
+	{
+		section: "Chimeramon Metas",
+		column: 1,
+	},
+	{
+		name: "[Gen 9] Chimeramons",
 		mod: "gen9chimeramons",
 		ruleset: ["Standard", "Terastal Clause"],
 	},
 	{
-		name: "[Gen 9] Chimera Mons Doubles",
+		name: "[Gen 9] Chimeramons Doubles",
 		mod: "gen9chimeramons",
 		ruleset: ["Standard", "Terastal Clause"],
 		gameType: "doubles",
@@ -4500,48 +4530,56 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 8] OU",
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['Standard', 'Dynamax Clause'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 7] OU",
 		mod: 'gen7',
+		searchShow: false,
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 6] OU",
 		mod: 'gen6',
+		searchShow: false,
 		ruleset: ['Standard', 'Evasion Abilities Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'King\'s Rock', 'Quick Claw', 'Razor Fang', 'Soul Dew', 'Baton Pass', 'Swagger'],
 	},
 	{
 		name: "[Gen 5] OU",
 		mod: 'gen5',
+		searchShow: false,
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Sleep Moves Clause', 'Gems Clause', 'Baton Pass Stat Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Drizzle ++ Swift Swim', 'Drought ++ Chlorophyll', 'Sand Rush', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Soul Dew', 'Assist', 'Swagger'],
 	},
 	{
 		name: "[Gen 4] OU",
 		mod: 'gen4',
+		searchShow: false,
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Baton Pass Stat Trap Clause', 'Freeze Clause Mod', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 		banlist: ['AG', 'Uber', 'Arena Trap', 'Quick Claw', 'Soul Dew', 'Swagger'],
 	},
 	{
 		name: "[Gen 3] OU",
 		mod: 'gen3',
+		searchShow: false,
 		ruleset: ['Standard', 'One Boost Passer Clause', 'Accuracy Trap Clause', 'Freeze Clause Mod', 'Speed Pass Clause'],
 		banlist: ['Uber', 'Smeargle + Ingrain', 'Sand Veil', 'Soundproof', 'Assist', 'Baton Pass + Block', 'Baton Pass + Mean Look', 'Baton Pass + Spider Web', 'Swagger'],
 	},
 	{
 		name: "[Gen 2] OU",
 		mod: 'gen2',
+		searchShow: false,
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'Mean Look + Baton Pass', 'Spider Web + Baton Pass'],
 	},
 	{
 		name: "[Gen 1] OU",
 		mod: 'gen1',
+		searchShow: false,
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
 	},
@@ -4557,6 +4595,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 8] Doubles OU",
 		mod: 'gen8',
 		gameType: 'doubles',
+		searchShow: false,
 		ruleset: ['Standard Doubles', 'Dynamax Clause'],
 		banlist: ['DUber', 'Power Construct', 'Shadow Tag', 'Swagger'],
 	},
@@ -4564,12 +4603,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 7] Doubles OU",
 		mod: 'gen7',
 		gameType: 'doubles',
+		searchShow: false,
 		ruleset: ['Standard Doubles'],
 		banlist: ['DUber', 'Power Construct', 'Eevium Z', 'Dark Void', 'Swagger'],
 	},
 	{
 		name: "[Gen 6] Doubles OU",
 		mod: 'gen6',
+		searchShow: false,
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles'],
 		banlist: ['DUber', 'Soul Dew', 'Dark Void', 'Swagger'],
@@ -5453,6 +5494,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 4] VGC 2009",
 		mod: 'gen4pt',
+		searchShow: false,
 		gameType: 'doubles',
 		bestOfDefault: true,
 		searchShow: false,
