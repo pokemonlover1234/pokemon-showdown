@@ -37,6 +37,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Unrated Random Battle",
 		mod: 'gen9',
+		searchShow: false,
 		team: 'random',
 		challengeShow: false,
 		rated: false,
