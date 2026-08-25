@@ -4474,7 +4474,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Pseudo Linked",
 		desc: `The first two moves in a Pok&eacute;mon's moveset are used simultaneously.`,
-		mod: 'linked',
+		mod: "gen9pseudolevel",
 		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Clause', 'Terastal Clause'],
 		banlist: [
 			'Annihilape', 'Arceus', 'Archaludon', 'Baxcalibur', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chi-Yu', 'Chien-Pao', 'Deoxys-Attack', 'Deoxys-Normal', 'Dialga', 'Dialga-Origin',
@@ -4603,7 +4603,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 1,
 	},
 	{
-		name: "[Gen 9] Chimeramons",
+		name: "[Gen 9] Chimeramons Singles",
 		mod: "gen9chimeramons",
 		ruleset: ["Standard", "Terastal Clause"],
 	},
