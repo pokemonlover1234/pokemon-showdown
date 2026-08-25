@@ -4436,7 +4436,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		
-		name: "[Gen 9] Pseudo Level",
+		name: "[Gen 9] Pseudo Level Singles",
 		mod: "gen9pseudolevel",
 		ruleset: ["Standard"],
 	},
@@ -4472,7 +4472,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 	{
-		name: "[Gen 9] Linked",
+		name: "[Gen 9] Pseudo Linked",
 		desc: `The first two moves in a Pok&eacute;mon's moveset are used simultaneously.`,
 		mod: 'linked',
 		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Clause', 'Terastal Clause'],
@@ -4501,7 +4501,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[Gen 9] Trademarked",
+		name: "[Gen 9] Pseudo Trademarked",
 		desc: `Sacrifice your Pok&eacute;mon's ability for a status move that activates on switch-in.`,
 		mod: 'trademarked',
 		searchShow: false,
