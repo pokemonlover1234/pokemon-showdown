@@ -4843,8 +4843,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9constellera",
 		ruleset: ["Standard", "Little Cup"],
 	},
-	{
-		},
 
 	// Chimeramon Metas
 	///////////////////////////////////////////////////////////////////
