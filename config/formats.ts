@@ -4470,6 +4470,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9pseudolevel",
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
+	},
 	{
 		name: "[Gen 9] Linked",
 		desc: `The first two moves in a Pok&eacute;mon's moveset are used simultaneously.`,
@@ -4499,47 +4500,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			return problems;
 		},
 	},
-	{
-		name: "[Gen 9] Nature Swap",
-		desc: `Pok&eacute;mon have their stats swapped around based on their nature. A Pok&eacute;mon with a Modest nature will have its Atk and Sp. Atk stats swap.`,
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['Standard OMs', 'Sleep Moves Clause'],
-		banlist: [
-			'Annihilape', 'Arceus', 'Azumarill', 'Blissey', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chansey', 'Chi-Yu', 'Chien-Pao', 'Cloyster', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense',
-			'Deoxys-Speed', 'Dialga', 'Dialga-Origin', 'Espathra', 'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 'Gouging Fire', 'Groudon', 'Ho-Oh', 'Hoopa-Unbound',
-			'Iron Bundle', 'Koraidon', 'Kyogre', 'Kyurem', 'Kyurem-Black', 'Kyurem-White', 'Landorus-Incarnate', 'Lugia', 'Lunala', 'Magearna', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings',
-			'Necrozma-Dusk-Mane', 'Palafin', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Regieleki', 'Reshiram', 'Shaymin-Sky', 'Sneasler', 'Solgaleo', 'Terapagos', 'Ursaluna',
-			'Ursaluna-Bloodmoon', 'Urshifu-Single-Strike', 'Urshifu-Rapid-Strike', 'Zacian', 'Zacian-Crowned', 'Zamazenta-Crowned', 'Zekrom', 'Arena Trap', 'Moody', 'Shadow Tag',
-			'Baton Pass', 'Last Respects', 'Shed Tail',
-		],
-		onSwitchIn(pokemon) {
-			this.add('-start', pokemon, pokemon.getNature().name, '[silent]');
-		},
-		battle: {
-			statModify(baseStats, set, statName) {
-				const tr = this.trunc;
-				const nature = this.dex.natures.get(set.nature);
-				let baseStatName = statName;
-				if (nature.plus) {
-					if (statName === nature.minus) {
-						baseStatName = nature.plus;
-					} else if (statName === nature.plus) {
-						baseStatName = nature.minus!;
-					}
-				}
-				let stat = baseStats[baseStatName];
-				if (statName === 'hp') {
-					return tr(tr(2 * stat + set.ivs[statName] + tr(set.evs[statName] / 4) + 100) * set.level / 100 + 10);
-				}
-				stat = tr(tr(2 * stat + set.ivs[statName] + tr(set.evs[statName] / 4)) * set.level / 100 + 5);
-				if (nature.plus === statName) {
-					stat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;
-					stat = tr(tr(stat * 110, 16) / 100);
-				}
-				return stat;
-			},
-		},
 	{
 		name: "[Gen 9] Trademarked",
 		desc: `Sacrifice your Pok&eacute;mon's ability for a status move that activates on switch-in.`,
