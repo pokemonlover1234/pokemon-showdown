@@ -4471,8 +4471,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
 	},
-	{
-		},
 
 	// Constellera Metas
 	///////////////////////////////////////////////////////////////////
