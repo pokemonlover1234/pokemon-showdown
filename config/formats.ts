@@ -80,7 +80,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[Gen 9] OU Custom Game",
+		name: "[Gen 9] OU",
 		mod: 'gen9',
 		searchShow: false,
 		challengeShow: false,
