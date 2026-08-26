@@ -4472,10 +4472,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 	{
-		name: "[Gen 9] The Pseudo Card Game",
+		name: "[Gen 9] The Pseudo Level Card Game",
 		desc: `The type chart is simplified based off of the Pok&eacute;mon Trading Card Game.`,
 		mod: 'gen9pseudolevel',
-		searchShow: false,
 		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Terastal Clause'],
 		banlist: [
 			'Annihilape', 'Arceus', 'Baxcalibur', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chi-Yu', 'Chien-Pao', 'Deoxys-Normal', 'Deoxys-Attack', 'Dialga', 'Dialga-Origin',
@@ -4511,7 +4510,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	   {
-		name: "[Gen 9] Pseudo Linked",
+		name: "[Gen 9] Pseudo Level Linked",
 		desc: `The first two moves in a Pok&eacute;mon's moveset are used simultaneously.`,
 		mod: "gen9pseudolevel",
 		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Clause', 'Terastal Clause'],
@@ -4540,7 +4539,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[Gen 9] Pseudo Trademarked",
+		name: "[Gen 9] Pseudo Level Trademarked",
 		desc: `Sacrifice your Pok&eacute;mon's ability for a status move that activates on switch-in.`,
 		mod: 'gen9pseudolevel',
 		ruleset: ['Standard OMs', 'Sleep Moves Clause'],
