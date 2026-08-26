@@ -4427,7 +4427,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 		
-	// Psuedo Level Metagames
+	// Psuedo Level Metagames PLM
 	///////////////////////////////////////////////////////////////////
 		
 	{
@@ -4474,7 +4474,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] The Pseudo Card Game",
 		desc: `The type chart is simplified based off of the Pok&eacute;mon Trading Card Game.`,
-		mod: 'thecardgame',
+		mod: 'gen9pseudolevel',
 		searchShow: false,
 		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Terastal Clause'],
 		banlist: [
