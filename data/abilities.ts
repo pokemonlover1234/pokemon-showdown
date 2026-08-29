@@ -5998,6 +5998,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (move.flags["kick"]) return this.chainModify(1.2);
 		},
 	},
+	striker: {
+		isNonstandard: "Custom",
+		flags: {},
+		name: "striker",
+		rating: 3,
+		desc: "This Pokemon's kick-based attacks have 1.2x power. Triple Axel is boosted.",
+		onBasePower(basePower, source, target, move) {
+			if (move.flags["kick"]) return this.chainModify(1.2);
+		},
+	},
 	bludgeon: {
 		isNonstandard: "Custom",
 		flags: {},
