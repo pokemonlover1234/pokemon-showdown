@@ -4439,23 +4439,27 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Pseudo Level Singles",
 		mod: "gen9pseudolevel",
 		ruleset: ["Standard"],
+		banlist: ['Eviolite'],
 	},
 	{
 		name: "[Gen 9] Pseudo Level Doubles",
 		mod: "gen9pseudolevel",
 		ruleset: ["Standard"],
+		banlist: ['Eviolite'],
 		gameType: 'doubles',
 	},
 	{
 		name: "[Gen 9] Pseudo Level BSS",
 		mod: "gen9pseudolevel",
 		bestOfDefault: true,
+		banlist: ['Eviolite'],
 		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
 	},
 	{
 		name: "[Gen 9] Pseudo Level VGC",
 		mod: "gen9pseudolevel",
 		bestOfDefault: true,
+		banlist: ['Eviolite'],
 		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard"],
 		gameType: 'doubles',
 	},
@@ -4463,11 +4467,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Pseudo Level Triples",
 		mod: "gen9pseudolevel",
 		ruleset: ["Standard"],
+		banlist: ['Eviolite'],
 		gameType: 'triples',
 	},
 	{
 		name: "[Gen 9] Pseudo Level 2v2 Doubles",
 		mod: "gen9pseudolevel",
+		banlist: ['Eviolite'],
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
 	},
@@ -4475,7 +4481,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Pseudo Level The Card Game",
 		desc: `The type chart is simplified based off of the Pok&eacute;mon Trading Card Game.`,
 		mod: 'gen9pseudolevel',
-		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Terastal Clause'],
+		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Eviolite', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Terastal Clause'],
 		banlist: [
 			'Arena Trap', 'Moody', 'Shadow Tag', 'Last Respects', 'Shed Tail',
 		],
@@ -4512,7 +4518,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: [
 			'Arena Trap', 'Chlorophyll', 'Drought', 'Electric Surge', 'Moody',
 			'Sand Rush', 'Serene Grace', 'Shadow Tag', 'Slush Rush', 'Speed Boost', 'Swift Swim', 'Unburden', 'Booster Energy', 'King\'s Rock', 'Quick Claw', 'Razor Fang',
-			'Baton Pass', 'Last Respects', 'Shed Tail',
+			'Baton Pass', 'Last Respects', 'Shed Tail', 'Eviolite',
 		],
 		restricted: [
 			'Assurance', 'Baneful Bunker', 'Bounce', 'Burning Bulwark', 'Copycat', 'Detect', 'Dig', 'Dive', 'Encore', 'Endeavor', 'Fake Out', 'Fly', 'Imprison', 'Nasty Plot',
@@ -4535,7 +4541,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen9pseudolevel',
 		ruleset: ['Standard OMs', 'Sleep Moves Clause'],
 		banlist: [
-			'Arena Trap', 'Moody', 'Shadow Tag', 'Light Clay', 'Baton Pass', 'Last Respects', 'Revival Blessing', 'Shed Tail',
+			'Arena Trap', 'Moody', 'Shadow Tag', 'Light Clay', 'Baton Pass', 'Last Respects', 'Eviolite', 'Revival Blessing', 'Shed Tail',
 		],
 		restricted: [
 			'Agility', 'Baneful Bunker', 'Belly Drum', 'Block', 'Burning Bulwark', 'Chilly Reception', 'Confuse Ray', 'Copycat', 'Dragon Dance', 'Detect', 'Destiny Bond',
@@ -5615,7 +5621,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: false,
 		gameType: 'doubles',
 		bestOfDefault: true,
-		searchShow: false,
 		ruleset: ['Flat Rules', '! Adjust Level Down', 'Max Level = 50'],
 		banlist: ['Tyranitar', 'Rotom', 'Judgment', 'Soul Dew'],
 	},
