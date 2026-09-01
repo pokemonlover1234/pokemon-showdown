@@ -93,9 +93,9 @@ export const Rulesets: import('../sim/dex-formats').ModdedFormatDataTable = {
 		name: "Standard",
 		ruleset: ["ioniterestrictmon", "Sleep Clause Mod", "teampreview", "cancelmod"],
 	},
-	trademarked: {
+	trademarkedcustom: {
 		effectType: 'Rule',
-		name: "Trademarked",
+		name: "Trademarkedcustom",
 		battle: {
 			endTurn() {
 				this.turn++;

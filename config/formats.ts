@@ -4534,7 +4534,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Pseudo Level Trademarked",
 		desc: `Sacrifice your Pok&eacute;mon's ability for a status move that activates on switch-in.`,
 		mod: 'gen9pseudolevel',
-		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Trademarked'],
+		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'TrademarkedCustom'],
 		banlist: [
 			'Arena Trap', 'Moody', 'Shadow Tag', 'Light Clay', 'Baton Pass', 'Last Respects', 'Eviolite', 'Revival Blessing', 'Shed Tail',
 		],
