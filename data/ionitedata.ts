@@ -424,9 +424,10 @@ export const Rulesets: import('../sim/dex-formats').ModdedFormatDataTable = {
 			},
 		},
 	},
-	linked: {
-		effectType: "Rule",
-		name: "Linked",
-		
-	}
+	standardag: {
+		inherit: true,
+		ruleset: [
+			'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause',
+		],
+	},
 };
