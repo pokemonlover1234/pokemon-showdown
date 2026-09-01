@@ -344,8 +344,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onAllyModifySpAPriority: 3,
 		onAllyModifySpA(spa, pokemon) {
-			if (allyActive.hasAbility(['minus', 'plus'])) {
-				return this.chainModify(1.5);
+			for (const allyActive of pokemon.allies()) {
+				if (allyActive.hasAbility(['minus', 'plus'])) {
+					return this.chainModify(1.5);
+				}
 			}
 		},
 		flags: {},
@@ -357,8 +359,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onAllyModifySpDPriority: 3,
 		onAllyModifySpD(spd, pokemon) {
-			if (allyActive.hasAbility(['minus', 'plus'])) {
-				return this.chainModify(1.5);
+			for (const allyActive of pokemon.allies()) {
+				if (allyActive.hasAbility(['minus', 'plus'])) {
+					return this.chainModify(1.5);
+				}
 			}
 		},
 		flags: {},
