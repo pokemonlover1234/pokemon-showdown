@@ -4755,8 +4755,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 
 	// Ionite Metas
-	///////////////////////////////////////////////////////////////////
-	
+	////////////////////////////////////////////////////////////////////
 	{
 		section: "Ionite Metagames",
 		column: 1,
@@ -4772,16 +4771,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ["Standard"],
 		gameType: 'doubles',
 	},
-		
 	// Psuedo Level Metagames PLM
 	///////////////////////////////////////////////////////////////////
-		
 	{
 		section: "Psuedo Level Metagames",
 		column: 1,
 	},
 	{
-		
 		name: "[Gen 9] Pseudo Level Singles",
 		mod: "gen9pseudolevel",
 		ruleset: ["Standard"],
@@ -4827,9 +4823,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Pseudo Level The Card Game",
 		desc: `The type chart is simplified based off of the Pok&eacute;mon Trading Card Game.`,
 		mod: 'gen9pseudolevel',
-		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Eviolite', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Terastal Clause'],
+		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Terastal Clause'],
 		banlist: [
-			'Arena Trap', 'Moody', 'Shadow Tag', 'Last Respects', 'Shed Tail',
+			'Arena Trap', 'Moody', 'Shadow Tag', 'Last Respects', 'Shed Tail', 'Eviolite',
 		],
 		onBegin() {
 			for (const pokemon of this.getAllPokemon()) {
