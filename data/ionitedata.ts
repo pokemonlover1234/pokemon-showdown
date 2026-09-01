@@ -96,7 +96,6 @@ export const Rulesets: import('../sim/dex-formats').ModdedFormatDataTable = {
 	trademarkedcustom: {
 		effectType: 'Rule',
 		name: "Trademarkedcustom",
-		ruleset: ["Allow Tradeback"],
 		battle: {
 			endTurn() {
 				this.turn++;
