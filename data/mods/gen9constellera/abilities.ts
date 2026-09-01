@@ -4,13 +4,13 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
 				if (!this.boost({ def: 2 })) {
-					this.add('-immune', target, '[from] ability: Well-Baked Body');
+					this.add('-immune', target, '[from] ability: Water Compactiom');
 				}
 				return null;
 			}
 		},
 		flags: { breakable: 1 },
-		name: "Well-Baked Body",
+		name: "Water Compaction",
 		rating: 3.5,
     num: 195
 	},
