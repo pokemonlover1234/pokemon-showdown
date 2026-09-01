@@ -44085,7 +44085,7 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Sharpness",
+      "0": "Tough Claws",
       "1": "Inner Focus",
       "H": "Forewarn"
     },
@@ -44418,7 +44418,7 @@
       "Ghost"
     ],
     "abilities": {
-      "0": "Tough Claws",
+      "0": "Sharpness",
       "1": "Dark Aura",
       "H": "Shadow Step"
     },
@@ -56081,9 +56081,10 @@
       "Dragon"
     ],
     "abilities": {
-      "0": "Flare Boost",
-      "1": "Aerilate",
-      "H": "Sand Rush"
+      "0": "Levitate",
+      "1": "Flare Boost",
+      "H": "Sand Rush",
+      "S": "Aerilate"
     },
     "baseStats": {
       "hp": 98,
@@ -56246,7 +56247,8 @@
     "abilities": {
       "0": "Justified",
       "1": "Aura Break",
-      "H": "Steely Spirit"
+      "H": "Steely Spirit",
+      "S": "Aura Guard"
     },
     "baseStats": {
       "hp": 80,
@@ -56409,7 +56411,8 @@
     "abilities": {
       "0": "Adaptability",
       "1": "Resilient Core",
-      "H": "Steely Spirit"
+      "H": "Steely Spirit",
+      "S": "Aura Guard"
     },
     "baseStats": {
       "hp": 80,
@@ -56572,7 +56575,8 @@
     "abilities": {
       "0": "Bulletproof",
       "1": "Mind's Eye",
-      "H": "Steely Spirit"
+      "H": "Steely Spirit",
+      "S": "Aura Guard"
     },
     "baseStats": {
       "hp": 80,
