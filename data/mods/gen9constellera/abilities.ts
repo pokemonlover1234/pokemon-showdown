@@ -4,7 +4,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
 				if (!this.boost({ def: 2 })) {
-					this.add('-immune', target, '[from] ability: Water Compactiom');
+					this.add('-immune', target, '[from] ability: Water Compaction');
 				}
 				return null;
 			}
@@ -12,7 +12,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		flags: { breakable: 1 },
 		name: "Water Compaction",
 		rating: 3.5,
-    num: 195
+      num: 195
 	},
 	
 	overgrow: {
