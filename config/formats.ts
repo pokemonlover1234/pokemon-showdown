@@ -4505,7 +4505,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			pokemon.apparentType = pokemon.getTypes(true).join('/');
 		},
 	},
-	   {
+	{
 		name: "[Gen 9] Pseudo Level Linked",
 		desc: `The first two moves in a Pok&eacute;mon's moveset are used simultaneously.`,
 		mod: "gen9pseudolevel",
@@ -4534,7 +4534,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Pseudo Level Trademarked",
 		desc: `Sacrifice your Pok&eacute;mon's ability for a status move that activates on switch-in.`,
 		mod: 'gen9pseudolevel',
-		ruleset: ['Standard OMs', 'Sleep Moves Clause'],
+		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Trademarked'],
 		banlist: [
 			'Arena Trap', 'Moody', 'Shadow Tag', 'Light Clay', 'Baton Pass', 'Last Respects', 'Eviolite', 'Revival Blessing', 'Shed Tail',
 		],
@@ -4597,7 +4597,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 
 	// Constellera Metas
 	///////////////////////////////////////////////////////////////////
-	
 	{
 		section: "Constellera Metas",
 		column: 1,
@@ -4622,7 +4621,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 
 	// Chimeramon Metas
 	///////////////////////////////////////////////////////////////////
-	
 	{
 		section: "Chimeramon Metas",
 		column: 1,
