@@ -7183,8 +7183,8 @@
       "H": "Weak Armor"
     },
     "baseStats": {
-      "hp": 35,
-      "atk": 45,
+      "hp": 70,
+      "atk": 75,
       "def": 160,
       "spa": 30,
       "spd": 45,
