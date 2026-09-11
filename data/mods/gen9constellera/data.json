@@ -15413,7 +15413,7 @@
       "Flying"
     ],
     "abilities": {
-      "0": "Scrappy"
+      "0": "Contrary"
     },
     "baseStats": {
       "hp": 85,
@@ -40680,6 +40680,7 @@
       "psychicfangs",
       "dragonhammer",
       "behemothblade",
+      "frostbreath",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
