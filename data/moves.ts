@@ -3229,7 +3229,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Crush Claw",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
 		secondary: {
 			chance: 50,
 			boosts: {
@@ -3944,13 +3944,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	doubleshock: {
 		num: 892,
-		accuracy: 100,
+		accuracy: true,
 		basePower: 120,
 		category: "Physical",
 		name: "Double Shock",
 		pp: 5,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, punch: 1},
 		onTryMove(pokemon, target, move) {
 			if (pokemon.hasType('Electric')) return;
 			this.add('-fail', pokemon, 'move: Double Shock');
@@ -4061,7 +4061,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Dragon Cheer",
 		pp: 15,
 		priority: 0,
-		flags: { bypasssub: 1, allyanim: 1, metronome: 1 },
+		flags: { bypasssub: 1, allyanim: 1, metronome: 1, sound: 1 },
 		volatileStatus: 'dragoncheer',
 		condition: {
 			onStart(target, source, effect) {
@@ -16865,7 +16865,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	slash: {
 		num: 163,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 80,
 		category: "Physical",
 		name: "Slash",
 		pp: 20,
