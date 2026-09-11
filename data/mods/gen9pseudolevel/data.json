@@ -3201,12 +3201,12 @@
       "H": "Weak Armor"
     },
     "baseStats": {
-      "hp": 86,
-      "atk": 90,
-      "def": 160,
+      "hp": 85,
+      "atk": 100,
+      "def": 170,
       "spa": 40,
-      "spd": 130,
-      "spe": 94
+      "spd": 110,
+      "spe": 95
     },
     "addmoves": [
       "terablast",
@@ -5011,10 +5011,10 @@
     "baseStats": {
       "hp": 90,
       "atk": 140,
-      "def": 110,
+      "def": 100,
       "spa": 60,
       "spd": 90,
-      "spe": 110
+      "spe": 120
     },
     "addmoves": [
       "terablast",
@@ -5719,7 +5719,8 @@
     "abilities": {
       "0": "Overgrow",
       "1": "Misty Surge",
-      "H": "Solar Power"
+      "H": "Solar Power",
+      "S": "Mega Sol"
     },
     "baseStats": {
       "hp": 150,
@@ -5952,7 +5953,8 @@
     "abilities": {
       "0": "Torrent",
       "1": "Strong Jaw",
-      "H": "Dragon's Maw"
+      "H": "Dragon's Maw",
+      "S": "Dragonize"
     },
     "baseStats": {
       "hp": 115,
@@ -6376,48 +6378,6 @@
       "gleamstep",
       "playrough",
       "drainingkiss",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "ampharosmegapartner": {
-    "restricted": false,
-    "types": [
-      "Electric",
-      "Fairy"
-    ],
-    "abilities": {
-      "0": "Fairy Aura",
-      "1": "Fur Coat",
-      "H": "Electric Surge"
-    },
-    "baseStats": {
-      "hp": 120,
-      "atk": 130,
-      "def": 75,
-      "spa": 130,
-      "spd": 115,
-      "spe": 30
-    },
-    "addmoves": [
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -10351,6 +10311,8 @@
       "spe": 70
     },
     "addmoves": [
+      "corrosivegas",
+      "skittersmack",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -31438,6 +31400,7 @@
     "addmoves": [
       "darkpulse",
       "zapcannon",
+      "paraboliccharge",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -32051,6 +32014,8 @@
       "agility",
       "uturn",
       "irontail",
+      "aerialace",
+      "featherdance",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -37520,6 +37485,7 @@
     "addmoves": [
       "icehammer",
       "psychicfangs",
+      "frostbreath",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
