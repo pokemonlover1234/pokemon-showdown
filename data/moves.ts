@@ -11735,7 +11735,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	meteorassault: {
 		num: 794,
 		accuracy: 100,
-		basePower: 150,
+		basePower: 170,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Meteor Assault",
@@ -18210,7 +18210,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 0,
 		category: "Status",
 		name: "Strength Sap",
-		pp: 10,
+		pp: 5,
 		priority: 0,
 		flags: { protect: 1, reflectable: 1, mirror: 1, heal: 1, metronome: 1 },
 		onHit(target, source) {
@@ -20975,7 +20975,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 0,
 		category: "Status",
 		name: "Wish",
-		pp: 10,
+		pp: 5,
 		priority: 0,
 		flags: { snatch: 1, heal: 1, metronome: 1 },
 		slotCondition: 'Wish',
