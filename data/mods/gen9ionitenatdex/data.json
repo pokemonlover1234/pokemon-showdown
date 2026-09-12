@@ -1152,9 +1152,9 @@
       "Poison"
     ],
     "abilities": {
-      "0": "Poison Touch",
+      "0": "Adaptability",
       "1": "Long Reach",
-      "H": "Adaptability"
+      "H": "Poison Touch"
     },
     "baseStats": {
       "hp": 85,
@@ -5829,11 +5829,11 @@
   "rapidashgalar": {
     "restricted": false,
     "types": [
-      "Psychic",
+      "Fire",
       "Fairy"
     ],
     "abilities": {
-      "0": "Pastel Veil",
+      "0": "Flash Fire",
       "1": "Reckless",
       "H": "Pixilate",
       "S": "Trace"
@@ -8052,6 +8052,8 @@
       "spe": 97
     },
     "addmoves": [
+      "aquastep",
+      "tripleaxel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -13403,18 +13405,19 @@
     "restricted": false,
     "types": [
       "Electric",
-      "Dragon"
+      "Fairy"
     ],
     "abilities": {
       "0": "Dragon's Maw",
       "1": "Electric Surge",
-      "H": "Battle Bond"
+      "H": "Fur Coat",
+      "S": "Battle Bond"
     },
     "baseStats": {
       "hp": 110,
-      "atk": 65,
-      "def": 105,
-      "spa": 125,
+      "atk": 75,
+      "def": 75,
+      "spa": 145,
       "spd": 115,
       "spe": 30
     },
@@ -13427,6 +13430,9 @@
       "bodypress",
       "wish",
       "flashcannon",
+      "gleamstep",
+      "playrough",
+      "drainingkiss",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -16928,9 +16934,10 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Sand Force",
+      "0": "Sand Rush",
       "1": "Hustle",
-      "H": "Sand Rush"
+      "H": "Sand Force",
+      "S": "Sand Stream"
     },
     "baseStats": {
       "hp": 100,
@@ -53168,9 +53175,10 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Stalwart",
+      "0": "Dauntless Shield",
       "1": "Justified",
-      "H": "Dauntless Shield"
+      "H": "Stalwart",
+      "S": "Intrepid Sword"
     },
     "baseStats": {
       "hp": 65,
@@ -56237,12 +56245,12 @@
       "H": "Gluttony"
     },
     "baseStats": {
-      "hp": 98,
+      "hp": 78,
       "atk": 69,
-      "def": 100,
-      "spa": 135,
-      "spd": 119,
-      "spe": 79
+      "def": 90,
+      "spa": 125,
+      "spd": 109,
+      "spe": 39
     },
     "addmoves": [
       "terablast",
@@ -56581,12 +56589,12 @@
       "H": "Clear Body"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 130,
-      "spa": 45,
-      "spd": 90,
-      "spe": 35
+      "hp": 120,
+      "atk": 110,
+      "def": 140,
+      "spa": 65,
+      "spd": 100,
+      "spe": 65
     },
     "addmoves": [
       "rockhammer",
