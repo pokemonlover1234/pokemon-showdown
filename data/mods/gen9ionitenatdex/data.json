@@ -5744,7 +5744,8 @@
   "ponytagalar": {
     "restricted": false,
     "types": [
-      "Psychic"
+      "Fire",
+      "Fairy"
     ],
     "abilities": {
       "0": "Pixilate",
@@ -5785,7 +5786,8 @@
   "rapidash": {
     "restricted": false,
     "types": [
-      "Fire"
+      "Fire",
+      "  "
     ],
     "abilities": {
       "0": "Flash Fire",
@@ -9761,12 +9763,13 @@
     "restricted": false,
     "types": [
       "Fire",
-      "Fairy"
+      "Poison"
     ],
     "abilities": {
       "0": "Flash Fire",
       "1": "Flame Body",
-      "H": "Solar Power"
+      "H": "Solar Power",
+      "S": "Corrosion"
     },
     "baseStats": {
       "hp": 65,
@@ -9803,13 +9806,13 @@
     "restricted": false,
     "types": [
       "Fire",
-      "Fairy"
+      "Poison"
     ],
     "abilities": {
       "0": "Flash Fire",
       "1": "Flame Body",
       "H": "Solar Power",
-      "S": "Pixilate"
+      "S": "Corrosion"
     },
     "baseStats": {
       "hp": 75,
