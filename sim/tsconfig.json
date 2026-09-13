@@ -12,6 +12,8 @@
 			"incremental": true,
 			"allowUnreachableCode": false,
 			"allowImportingTsExtensions": true,
+			"rootDir": "..",
+
 	},
 	"types": ["node"],
 	"include": [

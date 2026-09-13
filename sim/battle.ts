@@ -24,6 +24,8 @@ import { State } from './state';
 import { BattleQueue, type Action } from './battle-queue';
 import { BattleActions } from './battle-actions';
 import { Utils } from '../lib/utils';
+import { getRightCustoms } from '../data/ionitedata';
+
 declare const __version: any;
 
 export type ChannelID = 0 | 1 | 2 | 3 | 4;
@@ -176,6 +178,8 @@ export class Battle {
 
 	teamGenerator: ReturnType<typeof Teams.getGenerator> | null;
 
+	dynamicScripts: ModdedBattleScriptsData | null;
+
 	readonly hints: Set<string>;
 
 	readonly NOT_FAIL: '';
@@ -194,6 +198,9 @@ export class Battle {
 
 		const format = options.format || Dex.formats.get(options.formatid, true);
 		this.format = format;
+
+		this.dynamicScripts = getRightCustoms(this.format.id)?.scripts ?? null;
+
 		this.dex = Dex.forFormat(format);
 		this.gen = this.dex.gen;
 		this.ruleTable = this.dex.formats.getRuleTable(format);
