@@ -21261,7 +21261,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	zippyzap: {
 		num: 729,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 50,
 		category: "Physical",
 		isNonstandard: "LGPE",
 		name: "Zippy Zap",
