@@ -21867,4 +21867,17 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Water",
 		contestType: "Tough",
 	},
+	rapidfire: {
+		accuracy: 100,
+		basePower: 15,
+		category: "Special",
+		name: "Rapid Fire",
+		pp: 20,
+		priority: 1,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		multihit: [2, 5],
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
 };
