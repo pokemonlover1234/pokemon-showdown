@@ -19,13 +19,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 				move.accuracy = true;
 			}
 		},
-		onTry(source, target, move) {
-			if (move.hasBounced) {
-				return;
-			}
-			this.add('-fail', source, 'move: Dark Void');
-			return null;
-		},
 		target: "allAdjacentFoes",
 		type: "Dark",
 		zMove: { effect: 'clearnegativeboost' },
