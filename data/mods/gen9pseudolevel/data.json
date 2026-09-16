@@ -2567,11 +2567,11 @@
   "rapidashgalar": {
     "restricted": false,
     "types": [
-      "Psychic",
+      "Fire",
       "Fairy"
     ],
     "abilities": {
-      "0": "Pastel Veil",
+      "0": "Flash Fire",
       "1": "Reckless",
       "H": "Pixilate",
       "S": "Trace"
@@ -33776,7 +33776,7 @@
       "Ice"
     ],
     "abilities": {
-      "0": "As One",
+      "0": "As One (Glastrier)",
       "1": "Sap Sipper",
       "H": "Stamina",
       "S": "Filter"
@@ -33819,7 +33819,7 @@
       "Ghost"
     ],
     "abilities": {
-      "0": "As One",
+      "0": "As One (Spectrier)",
       "1": "Filter",
       "H": "Shadow Step",
       "S": "Levitate"
