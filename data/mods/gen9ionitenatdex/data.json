@@ -2132,6 +2132,47 @@
     ],
     "rmmoves": []
   },
+  "pikachu-world": {
+    "restricted": false,
+    "types": [
+      "Electric"
+    ],
+    "abilities": {
+      "0": "Static",
+      "1": "Lightning Rod",
+      "H": "Battle Bond"
+    },
+    "baseStats": {
+      "hp": 45,
+      "atk": 135,
+      "def": 50,
+      "spa": 125,
+      "spd": 60,
+      "spe": 120
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
   "pikachugmax": {
     "restricted": false,
     "types": [
@@ -3994,7 +4035,7 @@
     ],
     "abilities": {
       "0": "Tough Claws",
-      "1": "Tough Claws",
+      "1": "Technician",
       "H": "Unnerve"
     },
     "baseStats": {
@@ -4643,8 +4684,8 @@
       "H": "Swift Swim"
     },
     "baseStats": {
-      "hp": 65,
-      "atk": 65,
+      "hp": 85,
+      "atk": 75,
       "def": 65,
       "spa": 50,
       "spd": 50,
@@ -6063,8 +6104,8 @@
       "Psychic"
     ],
     "abilities": {
-      "0": "Oblivious",
-      "1": "Shell Armor",
+      "0": "Shell Armor",
+      "1": "Oblivious",
       "H": "Rain Dish"
     },
     "baseStats": {
@@ -7193,6 +7234,9 @@
       "spe": 70
     },
     "addmoves": [
+      "headsmash",
+      "terablast",
+      "rockhammer",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -8005,12 +8049,12 @@
       "H": "Vital Spirit"
     },
     "baseStats": {
-      "hp": 35,
-      "atk": 35,
-      "def": 35,
-      "spa": 35,
-      "spd": 35,
-      "spe": 35
+      "hp": 55,
+      "atk": 55,
+      "def": 55,
+      "spa": 55,
+      "spd": 55,
+      "spe": 55
     },
     "addmoves": [
       "terablast",
@@ -9721,7 +9765,8 @@
   "magby": {
     "restricted": false,
     "types": [
-      "Fire"
+      "Fire",
+      "Poison"
     ],
     "abilities": {
       "0": "Flash Fire",
@@ -9809,7 +9854,7 @@
       "Poison"
     ],
     "abilities": {
-      "0": "Flash Fire",
+      "0": "Mega Launcher",
       "1": "Flame Body",
       "H": "Solar Power",
       "S": "Corrosion"
@@ -9823,11 +9868,15 @@
       "spe": 83
     },
     "addmoves": [
-      "fleurcannon",
-      "moonblast",
-      "aromaticmist",
-      "craftyshield",
+      "sludge",
+      "sludgebomb",
+      "sludegwave",
       "darkpulse",
+      "smog",
+      "venoshock",
+      "banefulbunker",
+      "toxic",
+      "toxicspike",
       "aircannon",
       "windpulse",
       "afterburner",
@@ -15016,7 +15065,7 @@
       "def": 75,
       "spa": 60,
       "spd": 60,
-      "spe": 45
+      "spe": 65
     },
     "addmoves": [
       "drainpunch",
@@ -19471,12 +19520,12 @@
       "H": "Sheer Force"
     },
     "baseStats": {
-      "hp": 72,
-      "atk": 60,
-      "def": 30,
+      "hp": 82,
+      "atk": 70,
+      "def": 50,
       "spa": 20,
-      "spd": 30,
-      "spe": 25
+      "spd": 50,
+      "spe": 35
     },
     "addmoves": [
       "terablast",
@@ -20125,10 +20174,10 @@
     },
     "baseStats": {
       "hp": 30,
-      "atk": 40,
-      "def": 55,
+      "atk": 50,
+      "def": 60,
       "spa": 40,
-      "spd": 55,
+      "spd": 60,
       "spe": 60
     },
     "addmoves": [
@@ -20166,11 +20215,11 @@
       "H": "Iron Fist"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 60,
-      "def": 75,
+      "hp": 85,
+      "atk": 70,
+      "def": 85,
       "spa": 60,
-      "spd": 75,
+      "spd": 85,
       "spe": 80
     },
     "addmoves": [
@@ -20209,11 +20258,11 @@
       "H": "Iron Fist"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 100,
-      "def": 85,
+      "hp": 85,
+      "atk": 110,
+      "def": 95,
       "spa": 80,
-      "spd": 85,
+      "spd": 95,
       "spe": 100
     },
     "addmoves": [
@@ -27738,12 +27787,12 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 40,
+      "hp": 50,
       "atk": 70,
       "def": 40,
       "spa": 35,
       "spd": 40,
-      "spe": 60
+      "spe": 70
     },
     "addmoves": [
       "terablast",
@@ -27777,7 +27826,8 @@
     "abilities": {
       "0": "Justified",
       "1": "Aura Break",
-      "H": "Steely Spirit"
+      "H": "Steely Spirit",
+      "S": "Aura Guard"
     },
     "baseStats": {
       "hp": 70,
@@ -27819,7 +27869,8 @@
     "abilities": {
       "0": "Adaptability",
       "1": "Resilient Core",
-      "H": "Steely Spirit"
+      "H": "Steely Spirit",
+      "S": "Aura Guard"
     },
     "baseStats": {
       "hp": 70,
@@ -27862,7 +27913,7 @@
       "0": "Bulletproof",
       "1": "Mind's Eye",
       "H": "Steely Spirit",
-      "S": "Prankster"
+      "S": "Aura Guard"
     },
     "baseStats": {
       "hp": 70,
@@ -53103,6 +53154,7 @@
       "lowsweep",
       "fakeout",
       "seedbomb",
+      "aurasphere",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -55813,7 +55865,8 @@
   "pawmi": {
     "restricted": false,
     "types": [
-      "Electric"
+      "Electric",
+      "Fighting"
     ],
     "abilities": {
       "0": "Static",
@@ -55821,12 +55874,12 @@
       "H": "Iron Fist"
     },
     "baseStats": {
-      "hp": 45,
-      "atk": 50,
-      "def": 20,
+      "hp": 50,
+      "atk": 60,
+      "def": 45,
       "spa": 40,
-      "spd": 25,
-      "spe": 60
+      "spd": 45,
+      "spe": 65
     },
     "addmoves": [
       "terablast",
@@ -55863,11 +55916,11 @@
       "H": "Iron Fist"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 75,
-      "def": 40,
+      "hp": 65,
+      "atk": 95,
+      "def": 55,
       "spa": 50,
-      "spd": 40,
+      "spd": 55,
       "spe": 85
     },
     "addmoves": [
@@ -55907,9 +55960,9 @@
     "baseStats": {
       "hp": 80,
       "atk": 115,
-      "def": 70,
+      "def": 75,
       "spa": 70,
-      "spd": 60,
+      "spd": 75,
       "spe": 113
     },
     "addmoves": [
