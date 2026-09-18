@@ -21890,4 +21890,20 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Cool",
 	},
+	gravbolt: {
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Grav Bolt",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		pseudoWeather: 'gravity',
+		secondary: {
+			chance: 10,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Fairy",
+	},
 };
