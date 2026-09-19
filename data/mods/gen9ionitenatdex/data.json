@@ -48403,7 +48403,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": "SoulHeart",
+      "0": "Soul-Heart",
       "1": "Analytic",
       "H": "Volt Absorb"
     },
@@ -48448,7 +48448,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": "SoulHeart",
+      "0": "Soul-Heart",
       "1": "Galvanize",
       "H": "Lightning Rod"
     },
@@ -48493,7 +48493,7 @@
       "Fairy"
     ],
     "abilities": {
-      "0": "SoulHeart",
+      "0": "Soul-Heart",
       "1": "Full Metal Body",
       "H": "Motor Drive"
     },
@@ -48535,7 +48535,7 @@
       "Electric"
     ],
     "abilities": {
-      "0": "SoulHeart",
+      "0": "Soul-Heart",
       "1": "Magnet Pull",
       "H": "Transistor"
     },
@@ -53104,6 +53104,46 @@
       "spa": 135,
       "spd": 146,
       "spe": 74
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "falinkflink": {
+    "restricted": false,
+    "types": [
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Battle Armor",
+      "H": "Defiant"
+    },
+    "baseStats": {
+      "hp": 40,
+      "atk": 65,
+      "def": 60,
+      "spa": 50,
+      "spd": 40,
+      "spe": 65
     },
     "addmoves": [
       "terablast",
