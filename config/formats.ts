@@ -4637,6 +4637,43 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: "doubles",
 	},
 
+	// Little Cup 400 League
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "LC 400 League",
+		column: 1,
+	},
+	{
+		name: "[Gen 9] LC 400 Singles",
+		mod: "gen9ionitelc",
+		ruleset: ["Standard"],
+	},
+	{
+		name: "[Gen 9] LC 400 Doubles",
+		mod: "gen9ionitelc",
+		ruleset: ["Standard"],
+		gameType: "doubles",
+	},
+	{
+		name: "[Gen 9] LC 400 BSS",
+		mod: "gen9ionitelc",
+		bestOfDefault: true,
+		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
+	},
+	{
+		name: "[Gen 9] LC 400 VGC",
+		mod: "gen9ionitelc",
+		bestOfDefault: true,
+		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard"],
+		gameType: 'doubles',
+	},
+	{
+		name: "[Gen 9] LC 400 Triples",
+		mod: "gen9ionitelc",
+		ruleset: ["Standard"],
+		gameType: 'triples',
+	},
+
 	// Past Gens OU
 	///////////////////////////////////////////////////////////////////
 
