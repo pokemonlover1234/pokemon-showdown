@@ -2768,7 +2768,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.2,
 		weightkg: 50,
 		color: "Brown",
-		eggGroups: ["Monster"],
 		evos: ["Kangaskhan"],
 		eggGroups: ["Monster"],
 	},
