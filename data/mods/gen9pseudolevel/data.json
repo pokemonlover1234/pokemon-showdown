@@ -3209,6 +3209,9 @@
       "spe": 95
     },
     "addmoves": [
+      "headsmash",
+      "terablast",
+      "rockhammer",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -5462,6 +5465,10 @@
       "spe": 100
     },
     "addmoves": [
+      "aircannon",
+      "windpulse",
+      "vacuumwave",
+      "whirlwind",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -7152,6 +7159,9 @@
       "spe": 50
     },
     "addmoves": [
+      "headsmash",
+      "terablast",
+      "rockhammer",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -13326,7 +13336,8 @@
     "abilities": {
       "0": "Torrent",
       "1": "Refrigerate",
-      "H": "Supreme Overlord"
+      "H": "Supreme Overlord",
+      "S": "Emperor's Presence "
     },
     "baseStats": {
       "hp": 84,
@@ -15637,9 +15648,10 @@
       "Fairy"
     ],
     "abilities": {
-      "0": "Flash Fire",
+      "0": "Mega Launcher",
       "1": "Flame Body",
-      "H": "Solar Power"
+      "H": "Solar Power",
+      "S": "Corrosion"
     },
     "baseStats": {
       "hp": 105,
@@ -15650,11 +15662,15 @@
       "spe": 85
     },
     "addmoves": [
-      "fleurcannon",
-      "moonblast",
-      "aromaticmist",
-      "craftyshield",
+      "sludge",
+      "sludgebomb",
+      "sludegwave",
       "darkpulse",
+      "smog",
+      "venoshock",
+      "banefulbunker",
+      "toxic",
+      "toxicspike",
       "aircannon",
       "windpulse",
       "afterburner",
@@ -34738,7 +34754,7 @@
     "abilities": {
       "0": "Aroma Veil",
       "1": "Fluffy",
-      "H": "WellBaked Body",
+      "H": "Well-Baked Body",
       "S": "Thick Fat"
     },
     "baseStats": {
