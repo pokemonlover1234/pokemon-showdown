@@ -6382,4 +6382,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
+	kanga: {
+		isNonstandard: "Past",
+		tier: "ZU",
+		natDexTier: "RU",
 };
