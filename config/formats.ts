@@ -4673,6 +4673,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ["Standard"],
 		gameType: 'triples',
 	},
+	{
+		name: "[Gen 9] LC 400 Triples VGC",
+		mod: "gen9ionitelc",
+		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
+		gameType: 'triples',
+	},
 
 	// Past Gens OU
 	///////////////////////////////////////////////////////////////////
