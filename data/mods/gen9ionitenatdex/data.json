@@ -45912,10 +45912,10 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Emergency Exit",
+      "0": "Tough Claws",
       "1": "Full Metal Body",
       "H": "Battle Armor",
-      "S": "Tough Claws"
+      "S": "Emergency Exit"
     },
     "baseStats": {
       "hp": 75,
@@ -53106,6 +53106,46 @@
       "spe": 74
     },
     "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "flink": {
+    "restricted": false,
+    "types": [
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Battle Armor",
+      "H": "Defiant"
+    },
+    "baseStats": {
+      "hp": 40,
+      "atk": 65,
+      "def": 60,
+      "spa": 50,
+      "spd": 40,
+      "spe": 65
+    },
+    "addmoves": [
       "agility",
       "assurance",
       "beatup",
@@ -53171,64 +53211,8 @@
       "fakeout",
       "seedbomb",
       "meteorassault",
-      "attackorder",
-      "defendorder",
       "pinmissile",
       "drainpunch",
-      "terablast",
-      "hiddenpower",
-      "hiddenpowerbug",
-      "hiddenpowerdark",
-      "hiddenpowerdragon",
-      "hiddenpowerelectric",
-      "hiddenpowerfighting",
-      "hiddenpowerfire",
-      "hiddenpowerflying",
-      "hiddenpowerghost",
-      "hiddenpowergrass",
-      "hiddenpowerground",
-      "hiddenpowerice",
-      "hiddenpowerpoison",
-      "hiddenpowerpsychic",
-      "hiddenpowerrock",
-      "hiddenpowersteel",
-      "hiddenpowerwater",
-      "hiddenpowerastral"
-    ],
-    "rmmoves": []
-  },
-  "flink": {
-    "restricted": false,
-    "types": [
-      "Fighting"
-    ],
-    "abilities": {
-      "0": "Battle Armor",
-      "H": "Defiant"
-    },
-    "baseStats": {
-      "hp": 40,
-      "atk": 65,
-      "def": 60,
-      "spa": 50,
-      "spd": 40,
-      "spe": 65
-    },
-    "addmoves": [
-      "rockblast",
-      "iciclespear",
-      "spikecannon",
-      "armthrust",
-      "lowsweep",
-      "fakeout",
-      "seedbomb",
-      "meteorassault",
-      "attackorder",
-      "defendorder",
-      "pinmissile",
-      "closecombat",
-      "drainpunch",
-      "protect",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
