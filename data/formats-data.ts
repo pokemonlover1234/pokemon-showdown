@@ -6383,7 +6383,6 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 	kanga: {
-		{
-		tier: "LC",
+		tier: "ZU",
    },
 };
