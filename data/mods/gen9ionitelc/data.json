@@ -5108,12 +5108,12 @@
       "H": "Strong Jaw"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 80,
-      "def": 50,
+      "hp": 70,
+      "atk": 90,
+      "def": 70,
       "spa": 40,
-      "spd": 40,
-      "spe": 30
+      "spd": 60,
+      "spe": 70
     },
     "addmoves": [
       "drainpunch",
@@ -14967,12 +14967,12 @@
       "H": "Reckless"
     },
     "baseStats": {
-      "hp": 42,
-      "atk": 30,
-      "def": 38,
-      "spa": 30,
-      "spd": 38,
-      "spe": 32
+      "hp": 64,
+      "atk": 70,
+      "def": 78,
+      "spa": 70,
+      "spd": 78,
+      "spe": 40
     },
     "addmoves": [
       "terablast",
