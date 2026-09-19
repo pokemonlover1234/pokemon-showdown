@@ -2768,6 +2768,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 2.2,
 		weightkg: 80,
 		color: "Brown",
+		prevo: "Kanga",
+		evoType: "levelFriendship",
 		eggGroups: ["Monster"],
 		otherFormes: ["Kangaskhan-Mega"],
 		formeOrder: ["Kangaskhan", "Kangaskhan-Mega"],
