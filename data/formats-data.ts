@@ -6388,4 +6388,5 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Past",
 		tier: "ZU",
 		natDexTier: "RU",
+   },
 };
