@@ -1099,7 +1099,6 @@ export const Aliases: import('../sim/dex').AliasesTable = {
 	incin: "Incineroar",
 	intel: "Inteleon",
 	jask: "Ninjask",
-	kanga: "Kangaskhan",
 	karp: "Magikarp",
 	kart: "Kartana",
 	keld: "Keldeo",
