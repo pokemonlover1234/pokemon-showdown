@@ -21980,12 +21980,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.5,
 		weightkg: 10.4,
 		color: "Yellow",
-		evoType: "useItem",
-		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
 	},
 	kanga: {
-		num: -1003,
+		num: -1006,
 		name: "Kanga",
 		types: ["Normal"],
 		gender: "F",
