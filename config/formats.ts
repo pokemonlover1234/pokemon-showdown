@@ -4646,39 +4646,53 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Little Giants Singles",
 		mod: "gen9ionitelc",
-		ruleset: ["Standard"],
+		ruleset: ["Standard", "-Mega"],
 	},
 	{
 		name: "[Gen 9] Little Giants Doubles",
 		mod: "gen9ionitelc",
-		ruleset: ["Standard"],
+		ruleset: ["Standard", "-Mega"],
 		gameType: "doubles",
 	},
 	{
 		name: "[Gen 9] Little Giants BSS",
 		mod: "gen9ionitelc",
 		bestOfDefault: true,
-		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
+		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard", "-Mega"],
 	},
 	{
 		name: "[Gen 9] Little Giants VGC",
 		mod: "gen9ionitelc",
 		bestOfDefault: true,
-		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard"],
+		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard", "-Mega"],
 		gameType: 'doubles',
 	},
 	{
 		name: "[Gen 9] Little Giants Triples",
 		mod: "gen9ionitelc",
-		ruleset: ["Standard"],
+		ruleset: ["Standard", "-Mega"],
 		gameType: 'triples',
 	},
 	{
 		name: "[Gen 9] Little Giants Triples VGC",
 		mod: "gen9ionitelc",
-		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
+		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard", "-Mega"],
 		gameType: 'triples',
 		bestOfDefault: true,
+	{
+		name: "[Gen 9] Little Giants Triples VGC+",
+		mod: "gen9ionitelc",
+		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 8", "Standard", "-Mega"],
+		gameType: 'triples',
+		bestOfDefault: true,
+	},
+	{
+		name: "[Gen 9] Little Giants Custom Game",
+		mod: 'gen9ionitelc',
+		debug: true,
+		battle: { trunc: Math.trunc },
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100', '-Mega'],
 	},
 
 	// Past Gens OU
