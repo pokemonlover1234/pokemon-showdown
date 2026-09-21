@@ -4637,47 +4637,48 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: "doubles",
 	},
 
-	// Little Cup 400 League
+	// Little Giants
 	///////////////////////////////////////////////////////////////////
 	{
-		section: "LC 400 League",
+		section: "Little Giants",
 		column: 1,
 	},
 	{
-		name: "[Gen 9] LC 400 Singles",
+		name: "[Gen 9] Little Giants Singles",
 		mod: "gen9ionitelc",
 		ruleset: ["Standard"],
 	},
 	{
-		name: "[Gen 9] LC 400 Doubles",
+		name: "[Gen 9] Little Giants Doubles",
 		mod: "gen9ionitelc",
 		ruleset: ["Standard"],
 		gameType: "doubles",
 	},
 	{
-		name: "[Gen 9] LC 400 BSS",
+		name: "[Gen 9] Little Giants BSS",
 		mod: "gen9ionitelc",
 		bestOfDefault: true,
 		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
 	},
 	{
-		name: "[Gen 9] LC 400 VGC",
+		name: "[Gen 9] Little Giants VGC",
 		mod: "gen9ionitelc",
 		bestOfDefault: true,
 		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard"],
 		gameType: 'doubles',
 	},
 	{
-		name: "[Gen 9] LC 400 Triples",
+		name: "[Gen 9] Little Giants Triples",
 		mod: "gen9ionitelc",
 		ruleset: ["Standard"],
 		gameType: 'triples',
 	},
 	{
-		name: "[Gen 9] LC 400 Triples VGC",
+		name: "[Gen 9] Little Giants Triples VGC",
 		mod: "gen9ionitelc",
 		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
 		gameType: 'triples',
+		bestOfDefault: true,
 	},
 
 	// Past Gens OU
