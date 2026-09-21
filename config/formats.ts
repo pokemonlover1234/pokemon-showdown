@@ -4681,7 +4681,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		bestOfDefault: true,
 	},
 	{
-		name: "[Gen 9] Little Giants Triples VGC+",
+		name: "[Gen 9] Little Giants Triples VGC Plus",
 		mod: "gen9ionitelc",
 		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 8", "Standard", "-Mega"],
 		gameType: 'triples',
