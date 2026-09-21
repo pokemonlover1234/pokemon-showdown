@@ -6988,6 +6988,25 @@
       "spe": 100
     },
     "addmoves": [
+      "teleport",
+      "powergem",
+      "ancientpower",
+      "healblock",
+      "terablast",
+      "psychicnoise",
+      "trailblaze",
+      "alluringvoice",
+      "triattack",
+      "psychic",
+      "expandingforce",
+      "reflect",
+      "lightscreen",
+      "trickroom",
+      "calmmind",
+      "magiccoat",
+      "recover",
+      "trick",
+      "taunt",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -20447,7 +20466,7 @@
     ],
     "abilities": {
       "0": "Weak Armor",
-      "1": "Parasitic Waste",
+      "1": "Parasitic Waster",
       "H": "Mold Breaker"
     },
     "baseStats": {
