@@ -4834,7 +4834,8 @@
     "abilities": {
       "0": "Levitate",
       "1": "Stall",
-      "H": "Filter"
+      "H": "Filter",
+      "S": "Psychic Surge"
     },
     "baseStats": {
       "hp": 55,
@@ -4855,6 +4856,15 @@
       "alluringvoice",
       "triattack",
       "psychic",
+      "expandingforce",
+      "reflect",
+      "lightscreen",
+      "trickroom",
+      "calmmind",
+      "magiccoat",
+      "recover",
+      "trick",
+      "taunt",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -5733,6 +5743,7 @@
     "addmoves": [
       "afterburner",
       "moonlitnight",
+      "fierywrath",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -11699,6 +11710,7 @@
     },
     "addmoves": [
       "moonlitnight",
+      "fierywrath",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
