@@ -7478,6 +7478,7 @@
     },
     "addmoves": [
       "hypnosis",
+      "expandingforce",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -7563,6 +7564,10 @@
     },
     "addmoves": [
       "loosedirt",
+      "icefang",
+      "firefang",
+      "poisonfang",
+      "jawlock",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -15398,14 +15403,34 @@
       "S": "Shadow Veil"
     },
     "baseStats": {
-      "hp": 70,
-      "atk": 50,
+      "hp": 60,
+      "atk": 60,
       "def": 80,
-      "spa": 50,
+      "spa": 60,
       "spd": 80,
-      "spe": 70
+      "spe": 60
     },
     "addmoves": [
+      "calmmind",
+      "expandingforce",
+      "psychic",
+      "sunsteelstrike",
+      "radiantreckoning",
+      "futuresight",
+      "hex",
+      "meteorbeam",
+      "moonblast",
+      "moongeistbeam",
+      "moonlight",
+      "magiccoat",
+      "lightscreen",
+      "reflect",
+      "shadowball",
+      "thunderbolt",
+      "trick",
+      "trickroom",
+      "flashcannon",
+      "heavyslam",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -16107,6 +16132,8 @@
       "spe": 40
     },
     "addmoves": [
+      "gravapple",
+      "appleacid",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -16910,6 +16937,8 @@
       "shadowclaw",
       "shadowforce",
       "shadowstrike",
+      "thunderbolt",
+      "shadowball",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -16951,6 +16980,8 @@
       "spe": 80
     },
     "addmoves": [
+      "wickedblow",
+      "surgingstrikes",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -17441,6 +17472,7 @@
     },
     "addmoves": [
       "rockhammer",
+      "saltcure",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -18070,6 +18102,7 @@
     "addmoves": [
       "geargrind",
       "steelroller",
+      "shiftgear",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -18455,6 +18488,7 @@
     },
     "addmoves": [
       "surf",
+      "flashcannon",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -18498,6 +18532,7 @@
     },
     "addmoves": [
       "surf",
+      "flashcannon",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
