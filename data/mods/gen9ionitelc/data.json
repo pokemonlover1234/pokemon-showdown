@@ -2885,6 +2885,7 @@
       "spe": 50
     },
     "addmoves": [
+      "softboiled",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -15284,6 +15285,7 @@
       "spe": 60
     },
     "addmoves": [
+      "radiantreckoning",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -15326,6 +15328,7 @@
       "spe": 85
     },
     "addmoves": [
+      "radiantreckoning",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -15816,6 +15819,9 @@
       "flashcannon",
       "dazzlinggleam",
       "terablast",
+      "expandingforce",
+      "psychic",
+      "psychicnoise",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
