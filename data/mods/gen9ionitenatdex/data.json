@@ -1978,13 +1978,24 @@
     },
     "baseStats": {
       "hp": 35,
-      "atk": 55,
+      "atk": 75,
       "def": 40,
-      "spa": 50,
+      "spa": 30,
       "spd": 50,
       "spe": 90
     },
     "addmoves": [
+      "supercellslam",
+      "machpunch",
+      "closecombat",
+      "bulkup",
+      "coaching",
+      "wakeupslap",
+      "skyuppercut",
+      "jumpkick",
+      "highjumpkick",
+      "dazzlinggleam",
+      "drainpunch",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -27548,11 +27559,11 @@
       "H": "Prankster"
     },
     "baseStats": {
-      "hp": 50,
+      "hp": 80,
       "atk": 92,
-      "def": 108,
+      "def": 118,
       "spa": 92,
-      "spd": 108,
+      "spd": 118,
       "spe": 35
     },
     "addmoves": [
@@ -36601,6 +36612,8 @@
       "sacredsword",
       "rustyblade",
       "nightslash",
+      "ceaslessedge",
+      "psychocut",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
