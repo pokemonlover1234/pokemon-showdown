@@ -9776,6 +9776,7 @@
       "headsmash",
       "ironhead",
       "zenheadbutt",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -17289,6 +17290,7 @@
       "nightdaze",
       "punishment",
       "topsyturvy",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -19446,6 +19448,7 @@
       "shockwave",
       "fusionflare",
       "tarshot",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -24147,6 +24150,7 @@
     "addmoves": [
       "nova",
       "ritual",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -29282,6 +29286,7 @@
       "zapcannon",
       "jetpunch",
       "snipeshot",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -29801,7 +29806,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 44,
@@ -29843,7 +29849,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 49,
@@ -29885,7 +29892,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 54,
@@ -29927,7 +29935,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 59,
@@ -29969,7 +29978,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 55,
@@ -29987,6 +29997,7 @@
       "shadowstrike",
       "firelash",
       "heatcrash",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30018,7 +30029,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 65,
@@ -30036,6 +30048,7 @@
       "shadowstrike",
       "firelash",
       "heatcrash",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30067,7 +30080,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 75,
@@ -30085,6 +30099,7 @@
       "shadowstrike",
       "firelash",
       "heatcrash",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30116,7 +30131,8 @@
     "abilities": {
       "0": "Pickup",
       "1": "Frisk",
-      "H": "Insomnia"
+      "H": "Insomnia",
+      "S": "Blaze"
     },
     "baseStats": {
       "hp": 85,
@@ -30134,6 +30150,7 @@
       "shadowstrike",
       "firelash",
       "heatcrash",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30757,7 +30774,7 @@
     "addmoves": [
       "thousandarrows",
       "focusenergy",
-      "",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30802,6 +30819,7 @@
     "addmoves": [
       "thousandarrows",
       "focusenergy",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -32087,6 +32105,7 @@
       "malignantchain",
       "dragonbreath",
       "twister",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -34772,6 +34791,7 @@
     "addmoves": [
       "mistyexplosion",
       "infernalparade",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -35234,6 +35254,7 @@
       "spikes",
       "toxicspikes",
       "shootingstar",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -38917,6 +38938,7 @@
       "futuresight",
       "shockwave",
       "burnup",
+      "rapidfire",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -43259,6 +43281,47 @@
       "bonerush",
       "chillingwater",
       "cryofreeze",
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "gravitini": {
+    "restricted": false,
+    "types": [
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Swarm",
+      "1": "Tinted Lens",
+      "H": "Transistor"
+    },
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 65,
+      "spa": 95,
+      "spd": 110,
+      "spe": 130
+    },
+    "addmoves": [
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
