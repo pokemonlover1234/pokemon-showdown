@@ -21422,10 +21422,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: 'normal',
 		type: 'Fairy',
 		contestType: "Beatiful",
-		onBasePower(power, source) {
-			if (source.baseStoredStats.atk > source.baseStoredStats.spa) {
-				this.chainModify(source.baseStoredStats.atk, source.baseStoredStats.spa);
-			}
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
 		},
 	},
 	decompose: {
