@@ -90,5 +90,28 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		basePower: 65,
 		name: "Rusty Blade"
-	}
+	},
+	gravbolt: {
+		inherit: false,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Grav Bolt",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onBasePower(basePower) {
+			if (this.field.getPseudoWeather('gravity')) {
+				return this.chainModify(1.5);
+			}
+		},
+		secondary: {
+			chance: 100,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Electric",
+	},
 };
