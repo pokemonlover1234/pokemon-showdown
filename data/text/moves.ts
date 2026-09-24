@@ -7762,5 +7762,17 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	glitch: {
 		name: "glitch",
 		shortDesc: "30% chance to disable foe's last used move"
+	},
+	aquafang: {
+		name: "Aqua Fang",
+		shortDesc: "No additional effect."
+	},
+	rapidfire: {
+		name: "Rapid Fire",
+		shortDesc: "Usually goes first. Hits 2-5 times in one turn."
+	},
+	gravbolt: {
+		name: "Grav Bolt",
+		shortDesc: "Sets Gravity."
 	}
 };
