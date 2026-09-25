@@ -18107,7 +18107,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoCondition: "Defeat the Single Strike Tower",
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Urshifu-Rapid-Strike"],
-		formeOrder: ["Urshifu", "Urshifu-Rapid-Strike"],
+		formeOrder: ["Urshifu", "Urshifu-Rapid-Strike", "Urshifu-Mega", "Urshifu-Rapid-Strike-Mega"],
 		canGigantamax: "G-Max One Blow",
 	},
 	urshifurapidstrike: {
@@ -18177,7 +18177,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	urshifurapidstrikemega: {
 		num: 879,
 		name: "Urshifu-Rapid-Strike-Mega",
-		baseSpecies: "Urshifu",
+		baseSpecies: "Urshifu-Rapid-Strike",
 		forme: "Mega",
 		types: ["Fighting", "Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
