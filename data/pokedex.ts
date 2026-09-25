@@ -17050,7 +17050,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 30,
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Toxtricity-Lowkey", "Toxtricity-Mega", "Toxtricity-Lowkey-Mega"],
-		formeOrder: ["Toxtricity", "Toxtricity-Lowkey", "Toxtricity-Mega", "Toxtricity-Lowkey-Mega],
+		formeOrder: ["Toxtricity", "Toxtricity-Low-key", "Toxtricity-Mega", "Toxtricity-Lowkey-Mega],
 		canGigantamax: "G-Max Stun Shock",
 	},
 	toxtricitylowkey: {
