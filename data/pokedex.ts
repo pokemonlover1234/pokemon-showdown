@@ -17049,7 +17049,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Toxel",
 		evoLevel: 30,
 		eggGroups: ["Human-Like"],
-		otherFormes: ["Toxtricity-Low-Key", "Toxtricity-Mega", "Toxtricity-Lowkey-Mega"],
+		otherFormes: ["Toxtricity-Lowkey", "Toxtricity-Mega", "Toxtricity-Lowkey-Mega"],
 		formeOrder: ["Toxtricity", "Toxtricity-Lowkey", "Toxtricity-Mega", "Toxtricity-Lowkey-Mega],
 		canGigantamax: "G-Max Stun Shock",
 	},
