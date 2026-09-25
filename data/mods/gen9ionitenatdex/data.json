@@ -63880,21 +63880,21 @@
   "colossoil": {
     "restricted": false,
     "types": [
-      "Electric",
-      "Water"
+      "Ground",
+      "Dark"
     ],
     "abilities": {
-      "0": "Trace",
-      "1": "Magic Guard",
-      "H": "Minus"
+      "0": "Rebound",
+      "1": "Guts",
+      "H": "Unnerve"
     },
     "baseStats": {
-      "hp": 51,
-      "atk": 44,
-      "def": 33,
-      "spa": 43,
-      "spd": 34,
-      "spe": 65
+      "hp": 133,
+      "atk": 122,
+      "def": 72,
+      "spa": 71,
+      "spd": 72,
+      "spe": 95
     },
     "addmoves": [
       "terablast",
