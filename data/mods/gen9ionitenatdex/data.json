@@ -24981,7 +24981,8 @@
     ],
     "abilities": {
       "0": "Tree of Life",
-      "1": "Sap Sipper"
+      "1": "Sap Sipper",
+      "H": "Ice Eater"
     },
     "baseStats": {
       "hp": 115,
