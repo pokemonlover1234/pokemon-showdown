@@ -64303,7 +64303,8 @@
   "draggalong": {
     "restricted": false,
     "types": [
-      ""
+      "Dragon",
+      "Poison"
     ],
     "abilities": {
       "0": "Armor Tail",
