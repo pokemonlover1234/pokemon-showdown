@@ -21666,6 +21666,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.6,
 		weightkg: 62,
 		color: "Black",
+		evos: ["Obliteryx"],
 		eggGroups: ["Flying"],
 		gen: 9,
 	},
