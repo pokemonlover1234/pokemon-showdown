@@ -627,6 +627,7 @@
       "aircannon",
       "windpulse",
       "dualwingbeat",
+      "focusblast",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -9338,6 +9339,8 @@
       "spe": 105
     },
     "addmoves": [
+      "trailblaze",
+      "grassyglide",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -25113,6 +25116,7 @@
       "shoreup",
       "irondefense",
       "ancientpower",
+      "shellsmash",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -29181,6 +29185,7 @@
     },
     "addmoves": [
       "terablast",
+      "thunderclap",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -40154,6 +40159,49 @@
       "spa": 145,
       "spd": 60,
       "spe": 150
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "obliteryx": {
+    "restricted": false,
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "abilities": {
+      "0": "Opportunist",
+      "1": "Early Bird",
+      "H": "Pickup",
+      "S": "Dark Fortress"
+    },
+    "baseStats": {
+      "hp": 112,
+      "atk": 138,
+      "def": 136,
+      "spa": 55,
+      "spd": 88,
+      "spe": 71
     },
     "addmoves": [
       "terablast",
