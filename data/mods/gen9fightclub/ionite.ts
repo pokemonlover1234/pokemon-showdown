@@ -38,4 +38,4 @@ function pokedexTable() {
 	return JSON.parse(fs.readFileSync(path.join(__dirname, "pokedex-cache.json"), 'utf8'));
 }
 
-export default { "formats-data": formatsDataTable, "learnsets": learns
+export default { "formats-data": formatsDataTable, "learnsets": learnsetTable, "pokedex": pokedexTable };
