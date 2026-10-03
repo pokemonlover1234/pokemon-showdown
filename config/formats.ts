@@ -4696,6 +4696,26 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100', '-Mega'],
 	},
 
+	// Fight Club Metas
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Fight Club",
+		column: 1,
+	},
+	{
+		name: "[Gen 9] Fight Club",
+		mod: "gen9fightclub",
+		ruleset: ["Standard"],
+		debug: true,
+	},
+	{
+		name: "[Gen 9] Fight Club Doubles",
+		mod: "gen9fightclub",
+		ruleset: ["Standard"],
+		gameType: 'doubles',
+	},
+
+
 	// Past Gens OU
 	///////////////////////////////////////////////////////////////////
 
