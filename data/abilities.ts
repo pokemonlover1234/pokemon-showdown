@@ -5795,9 +5795,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		condition: {
 			onSideStart(side, source) {
 				const burningcoals = side.sideConditions["burningcoals"];
+				const sickyweb = side.sideConditions["stickyweb"];
 				if (burningcoals) {
 					side.removeSideCondition("toxicwebs");
 					return;
+				}
+				if (stickyweb) {
+					side.removeSideCondition("stickyweb");
 				}
 				this.add('-sidestart', side, 'ability: Toxic Webs');
 				const spikesstate = side.sideConditions["toxicspikes"];
