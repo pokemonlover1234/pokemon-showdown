@@ -5822,13 +5822,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				this.effectState.layers++;
 			},
 			onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded()) return;
 				if (pokemon.hasType('Poison')) {
 					this.add('-sideend', pokemon.side, 'ability: Toxic Webs', `[of] ${pokemon}`);
 					pokemon.side.removeSideCondition('toxicwebs');
 					pokemon.side.addSideCondition('stickyweb');
 					return;
 				}
-				if (!pokemon.isGrounded()) return;
 				if (!pokemon.hasItem('heavydutyboots')) {
 					this.boost({ spe: -1 }, pokemon, pokemon.side.sideConditions["toxicwebs"]["sourceMon"],
 						this.dex.abilities.get('toxicwebs'));
