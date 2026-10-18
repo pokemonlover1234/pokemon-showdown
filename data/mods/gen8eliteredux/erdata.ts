@@ -107,6 +107,10 @@ export function learnsets() {
 						learnset[move] = ["8T"];
 					}
 				}
+				gennedTable[pokemon] = {
+					inherit: false,
+					learnset,
+				};
 			}
 		} catch (err: any) {
 			console.log(pokemon + " Caused Error: " + err);
