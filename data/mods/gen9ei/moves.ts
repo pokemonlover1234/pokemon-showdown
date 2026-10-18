@@ -344,7 +344,7 @@ lusterpurge: {
 	snaptrap: {
 		inherit: true,
 		basePower: 100,
-		accuracy: 85;
+		accuracy: 85,
 },
 	mistball: {
 		inherit: true,
