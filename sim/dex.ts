@@ -459,6 +459,7 @@ export class ModdedDex {
 			}
 			return dataObject[dataType];
 		} catch (e: any) {
+			console.log(e.code);
 			if (e.code !== 'MODULE_NOT_FOUND' && e.code !== 'ENOENT') {
 				throw e;
 			}
