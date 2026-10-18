@@ -21904,4 +21904,37 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 	},
+	darkhole: {
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Dark Hole",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1, bypasssub: 1 },
+		secondary: {
+			chance: 40,
+			status: 'slp',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
+	dracobarrage: {
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Draco Barrage",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+		},
+		ignoreImmunity: { 'Dragon': true },
+		recoil: [33, 100],
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cool",
+	},
 };
