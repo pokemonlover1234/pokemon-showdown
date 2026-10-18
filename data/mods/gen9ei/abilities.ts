@@ -1,6 +1,6 @@
 export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {
 	watercompaction: {
-    	inherit: false,
+		inherit: false,
 		onDamagingHit(damage, target, source, move) {
 			if (move.type === 'Water') {
 				this.boost({ def: 2 });
@@ -23,7 +23,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		flags: { breakable: 1 },
 		name: "Well-Baked Body",
 		rating: 3.5,
-   		num: 195,
+		num: 195,
 	},
 	ironfist: {
 		inherit: false,

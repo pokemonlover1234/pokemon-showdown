@@ -1,40 +1,40 @@
 export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 
-  shadowpunch: {
+	shadowpunch: {
 		inherit: true,
 		basePower: 80,
-  },
-  steameruption: {
+	},
+	steameruption: {
 		inherit: true,
 		basePower: 120,
-    accuracy: 100,
-  },
-  muddywater: {
+		accuracy: 100,
+	},
+	muddywater: {
 		inherit: true,
-    basePower: 95,
+		basePower: 95,
 		secondary: {
 			chance: 40,
 			boosts: {
 				atk: -1,
 			},
 		},
-  },
-chatter: {
+	},
+	chatter: {
 		inherit: true,
 		basePower: 80,
-  },
-  lovelykiss: {
+	},
+	lovelykiss: {
 		inherit: true,
 		accuracy: 85,
-  },
-  triplekick: {
+	},
+	triplekick: {
 		inherit: true,
 		basePower: 20,
-  },
-  chargebeam: {
+	},
+	chargebeam: {
 		inherit: true,
 		accuracy: 100,
-    secondary: {
+		secondary: {
 			chance: 100,
 			self: {
 				boosts: {
@@ -42,76 +42,72 @@ chatter: {
 				},
 			},
 		},
-  },
-selfdestruct: {
+	},
+	selfdestruct: {
 		inherit: true,
 		basePower: 100,
-  },
-explosion: {
+	},
+	explosion: {
 		inherit: true,
 		basePower: 150,
-  },
-headsmash: {
+	},
+	headsmash: {
 		inherit: true,
 		accuracy: 85,
-  },
-poisonfang: {
+	},
+	poisonfang: {
 		inherit: true,
-    basePower: 75,
+		basePower: 75,
 		accuracy: 100,
-    secondary: {
+		secondary: {
 			chance: 30,
 			status: 'tox',
 		},
-  },
-diamondstorm: {
+	},
+	diamondstorm: {
 		inherit: true,
-    category: "Special",
+		category: "Special",
 		accuracy: 100,
-    self: {
+		self: {
 			chance: 50,
 			boosts: {
 				def: 1,
 			},
 		},
-  },
-tailslap: {
+	},
+	tailslap: {
 		inherit: true,
 		accuracy: 100,
-  },
-fly: {
+	},
+	fly: {
 		inherit: true,
 		accuracy: 100,
-    pp: 10,
-  },
-shadowclaw: {
+		pp: 10,
+	},
+	shadowclaw: {
 		inherit: true,
 		basePower: 80,
-    flags: { contact: 1, protect: 1, mirror: 1, metronome: 1},
-  },
-attackorder: {
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+	},
+	attackorder: {
 		inherit: true,
 		basePower: 120,
-  },
-attackorder: {
-		inherit: true,
-		accuracy: 80,
-  },
-armthrust: {
+	},
+	armthrust: {
 		inherit: true,
 		accuracy: 25,
-  },
-parabolicharge: {
+	},
+	parabolicharge: {
 		inherit: true,
 		basePower: 75,
-  },
-snipeshot: {
+	},
+	snipeshot: {
 		inherit: true,
 		basePower: 70,
-    critRatio: 3,
-  },
-  octazooka: {
-    inherit: false,
+		critRatio: 3,
+	},
+	octazooka: {
+		inherit: false,
 		num: 190,
 		accuracy: 100,
 		basePower: 80,
@@ -125,67 +121,67 @@ snipeshot: {
 		type: "Water",
 		contestType: "Tough",
 	},
-overheat: {
+	overheat: {
 		inherit: true,
 		accuracy: 100,
-},
-dracometeor: {
+	},
+	dracometeor: {
 		inherit: true,
 		accuracy: 100,
-},
-psychoboost: {
+	},
+	psychoboost: {
 		inherit: true,
 		accuracy: 100,
-},
-fleurcannon: {
+	},
+	fleurcannon: {
 		inherit: true,
 		accuracy: 100,
-},
-leafstorm: {
+	},
+	leafstorm: {
 		inherit: true,
 		accuracy: 100,
-},
-inferno: {
+	},
+	inferno: {
 		inherit: true,
 		basePower: 120,
-},
-megadrain: {
+	},
+	megadrain: {
 		inherit: true,
 		accuracy: 60,
-},
-jawlock: {
+	},
+	jawlock: {
 		inherit: true,
 		basePower: 90,
 		type: "Fighting",
 		onHit(target, source, move) {
 			target.addVolatile('trapped', source, move, 'trapper');
 		},
-},
-mistyexplosion: {
+	},
+	mistyexplosion: {
 		inherit: true,
-},
-beatup: {
-	inherit: false,
-	num: 251,
-	accuracy: 100,
-	basePower: 25,
-	target: "normal",
-	type: "Dark",
-	contestType: "Clever",
-	category: "Physical",
-	name: "Beat Up",
-	pp: 10,
-	priority: 0,
-	flags: { protect: 1, mirror: 1, allyanim: 1, metronome: 1 },
-	multihit: [2, 5],
-},
-covet: {
-	inherit: true,
-	type: "Fairy",
-},
-flash: {
-	inherit: false,
-	num: 148,
+	},
+	beatup: {
+		inherit: false,
+		num: 251,
+		accuracy: 100,
+		basePower: 25,
+		target: "normal",
+		type: "Dark",
+		contestType: "Clever",
+		category: "Physical",
+		name: "Beat Up",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, allyanim: 1, metronome: 1 },
+		multihit: [2, 5],
+	},
+	covet: {
+		inherit: true,
+		type: "Fairy",
+	},
+	flash: {
+		inherit: false,
+		num: 148,
 		accuracy: 100,
 		basePower: 50,
 		category: "Special",
@@ -194,7 +190,7 @@ flash: {
 		pp: 20,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
-	secondary: {
+		secondary: {
 			chance: 50,
 			boosts: {
 				atk: -1,
@@ -203,20 +199,20 @@ flash: {
 		target: "normal",
 		type: "Electric",
 		contestType: "Beautiful",
-},
-rocksmash: {
-	inherit: true,
-	basePower: 60,
-},
-cut: {
-	inherit: true,
-	basePower: 75,
-	type: "Steel",
-	accuracy: 100,
-	pp: 25,
-},
-razorshell: {
-	inherit: false,
+	},
+	rocksmash: {
+		inherit: true,
+		basePower: 60,
+	},
+	cut: {
+		inherit: true,
+		basePower: 75,
+		type: "Steel",
+		accuracy: 100,
+		pp: 25,
+	},
+	razorshell: {
+		inherit: false,
 		num: 534,
 		accuracy: 95,
 		basePower: 75,
@@ -279,19 +275,15 @@ razorshell: {
 		zMove: { effect: 'clearnegativeboost' },
 		contestType: "Cool",
 	},
-inferno: {
-		inherit: true,
-		basePower: 95,
-},
-shellsidearm: {
+	shellsidearm: {
 		inherit: true,
 		basePower: 100,
-	secondary: {
+		secondary: {
 			chance: 10,
 			status: 'psn',
 		},
-},
-volttackle: {
+	},
+	volttackle: {
 		num: 344,
 		accuracy: 100,
 		basePower: 120,
@@ -304,12 +296,12 @@ volttackle: {
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",
-},
-geargrind: {
+	},
+	geargrind: {
 		inherit: true,
 		basePower: 50,
 		accuracy: 100,
-},
+	},
 	headcharge: {
 		inherit: true,
 		recoil: [0, 100],
@@ -319,7 +311,7 @@ geargrind: {
 				def: -1,
 			},
 		},
-},
+	},
 	icehammer: {
 		inherit: true,
 		accuracy: 100,
@@ -328,121 +320,117 @@ geargrind: {
 				spe: -0,
 			},
 		},
-},
-lowsweep: {
+	},
+	lowsweep: {
 		inherit: true,
 		basePower: 60,
-},
-lusterpurge: {
+	},
+	lusterpurge: {
 		inherit: true,
 		basePower: 85,
-},
+	},
 	mistball: {
 		inherit: true,
 		basePower: 85,
-},
+	},
 	snaptrap: {
 		inherit: true,
 		basePower: 100,
 		accuracy: 85,
-},
-	mistball: {
-		inherit: true,
-		basePower: 85,
-},
+	},
 	thunderwave: {
 		inherit: true,
 		pp: 15,
-},
+	},
 	rocktomb: {
 		inherit: true,
 		accuracy: 100,
-},
-metalclaw: {
+	},
+	metalclaw: {
 		inherit: true,
 		accuracy: 100,
-},
-firefang: {
+	},
+	firefang: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	icefang: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	thunderfang: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	mudshot: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	hyperfang: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	icywind: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	electroweb: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	snarl: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	aircutter: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	airslash: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	glaciate: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	lightofruin: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	razorleaf: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	rockthrow: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	takedown: {
 		inherit: true,
 		accuracy: 100,
-},
-fakeout: {
+	},
+	fakeout: {
 		inherit: true,
 		pp: 5,
-},
-featherdance: {
+	},
+	featherdance: {
 		inherit: true,
 		pp: 5,
-},
-rockslide: {
+	},
+	rockslide: {
 		inherit: true,
 		accuracy: 100,
 		secondary: {
 			chance: 20,
 			volatileStatus: 'flinch',
 		},
-},
-stoneedge: {
+	},
+	stoneedge: {
 		inherit: true,
 		accuracy: 90,
-},
-triattack: {
+	},
+	triattack: {
 		inherit: true,
 		secondary: {
 			chance: 20,
@@ -451,91 +439,91 @@ triattack: {
 				target.trySetStatus(status, source);
 			},
 		},
-},
+	},
 	aeroblast: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	powerwhip: {
 		inherit: true,
 		accuracy: 90,
-},
+	},
 	hammerarm: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	drillrun: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	zenheadbutt: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	steelbeam: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	playrough: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	highhorsepower: {
 		inherit: true,
 		accuracy: 100,
-},
-strangesteam: {
+	},
+	strangesteam: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	crushclaw: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	flyingpress: {
 		inherit: true,
 		accuracy: 100,
-},
-pinmissile: {
+	},
+	pinmissile: {
 		inherit: true,
 		accuracy: 100,
-},
-aquatail: {
+	},
+	aquatail: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	blazekick: {
 		inherit: true,
 		accuracy: 100,
-},
-circlethrow: {
+	},
+	circlethrow: {
 		inherit: true,
 		accuracy: 100,
-},
-dragontail: {
+	},
+	dragontail: {
 		inherit: true,
 		accuracy: 100,
-},
-iciclecrash: {
+	},
+	iciclecrash: {
 		inherit: true,
 		accuracy: 100,
-},
-rockblast: {
+	},
+	rockblast: {
 		inherit: true,
 		accuracy: 100,
-},
-doublehit: {
+	},
+	doublehit: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	dualchop: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	belch: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	bonerush: {
 		inherit: true,
 		accuracy: 100,
@@ -552,15 +540,15 @@ doublehit: {
 				return 0;
 			}
 		},
-},
-gigaimpact: {
+	},
+	gigaimpact: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	meteorbeam: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	frostbreath: {
 		inherit: false,
 		num: 524,
@@ -578,100 +566,100 @@ gigaimpact: {
 			chance: 30,
 			status: 'frostbite',
 		},
-},
+	},
 	scaleshot: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	rockwrecker: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	skyuppercut: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	steelwing: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	doubleslap: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	furyattack: {
 		inherit: true,
 		basePower: 20,
 		accuracy: 100,
-},
-swagger: {
+	},
+	swagger: {
 		inherit: true,
 		accuracy: 90,
-},
-furyswipes: {
+	},
+	furyswipes: {
 		inherit: true,
 		accuracy: 100,
-},
-submission: {
+	},
+	submission: {
 		inherit: true,
 		accuracy: 100,
-},
+	},
 	flashcannon: {
 		inherit: true,
-		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1},
-},
+		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
+	},
 	pyroball: {
 		inherit: true,
 		flags: { protect: 1, mirror: 1, defrost: 1, bullet: 1, kick: 1 },
-},
+	},
 	stomp: {
 		inherit: true,
 		flags: { contact: 1, protect: 1, mirror: 1, nonsky: 1, metronome: 1, minimize: 1, kick: 1 },
-},
+	},
 	stealthrock: {
 		inherit: true,
 		onSwitchIn(pokemon) {
-				if (pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('ShieldDust') return;
-				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
-				this.damage(pokemon.maxhp * (2 ** typeMod) / 8);
-			},
-},
+			if (pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('ShieldDust')) return;
+			const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
+			this.damage(pokemon.maxhp * (2 ** typeMod) / 8);
+		},
+	},
 	toxicspikes: {
 		inherit: true,
 		onSwitchIn(pokemon) {
-				if (!pokemon.isGrounded()) return;
-				if (pokemon.hasType('Poison')) {
-					this.add('-sideend', pokemon.side, 'move: Toxic Spikes', `[of] ${pokemon}`);
-					pokemon.side.removeSideCondition('toxicspikes');
-				} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) {
-					// do nothing
-				} else if (this.effectState.layers >= 2) {
-					pokemon.trySetStatus('tox', pokemon.side.foe.active[0]);
-				} else {
-					pokemon.trySetStatus('psn', pokemon.side.foe.active[0]);
-				}
-			},
-},
-stickyweb: {
+			if (!pokemon.isGrounded()) return;
+			if (pokemon.hasType('Poison')) {
+				this.add('-sideend', pokemon.side, 'move: Toxic Spikes', `[of] ${pokemon}`);
+				pokemon.side.removeSideCondition('toxicspikes');
+			} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) {
+				// do nothing
+			} else if (this.effectState.layers >= 2) {
+				pokemon.trySetStatus('tox', pokemon.side.foe.active[0]);
+			} else {
+				pokemon.trySetStatus('psn', pokemon.side.foe.active[0]);
+			}
+		},
+	},
+	stickyweb: {
 		inherit: true,
 		onSwitchIn(pokemon) {
-				if (!pokemon.isGrounded() || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) return;
-				this.add('-activate', pokemon, 'move: Sticky Web');
-				this.boost({ spe: -1 }, pokemon, pokemon.side.foe.active[0], this.dex.getActiveMove('stickyweb'));
+			if (!pokemon.isGrounded() || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) return;
+			this.add('-activate', pokemon, 'move: Sticky Web');
+			this.boost({ spe: -1 }, pokemon, pokemon.side.foe.active[0], this.dex.getActiveMove('stickyweb'));
 		}, 
-},
+	},
 	spikes: {
 		inherit: true,
-					onSwitchIn(pokemon) {
-				if (!pokemon.isGrounded() || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) return;
-				const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
-				this.damage(damageAmounts[this.effectState.layers] * pokemon.maxhp / 24);
-			},
-},
-boneclub: {
+		onSwitchIn(pokemon) {
+			if (!pokemon.isGrounded() || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) return;
+			const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
+			this.damage(damageAmounts[this.effectState.layers] * pokemon.maxhp / 24);
+		},
+	},
+	boneclub: {
 		inherit: true,
 		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
-	onEffectiveness(typeMod, target, type, move) {
+		onEffectiveness(typeMod, target, type, move) {
 			if (source.ability !== 'Bone Zone') return;
 			if (!target) return; // avoid crashing when called from a chat plugin
 			// ignore effectiveness if the target is Flying type and immune to Ground
@@ -682,7 +670,7 @@ boneclub: {
 				return 0;
 			}
 		},
-},
+	},
 	bonemerang: {
 		inherit: true,
 		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
@@ -697,7 +685,7 @@ boneclub: {
 				return 0;
 			}
 		},
-},
+	},
 	shadowbone: {
 		inherit: true,
 		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
@@ -712,15 +700,15 @@ boneclub: {
 				return 0;
 			}
 		},
-},
-willowisp: {
-	inherit: true,
-	onModifyMove(move, source, target) {
+	},
+	willowisp: {
+		inherit: true,
+		onModifyMove(move, source, target) {
 			if (source.hasType('Fire')) {
 				move.accuracy = true;
 			} 
 		},
-},
+	},
 
 
 
