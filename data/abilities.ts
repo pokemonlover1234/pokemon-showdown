@@ -6406,4 +6406,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 218,
 	},
+	bonezone: {
+		onModifyDamage(damage, source, target, move) {
+			if (target.getMoveHitData(move).typeMod < 0 && move.flags['bone']) {
+				this.debug('Bone Zone ignores resistances');
+				return this.chainModify(2);
+			}
+		},
+		flags: {},
+		name: "Bone Zone",
+		rating: 3,
+		num: 178,
+	},
 };
