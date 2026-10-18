@@ -1,6 +1,11 @@
 export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {
+	
 	watercompaction: {
-    	inherit: false,
+<<<<<<< HEAD
+    inherit: false,
+=======
+		inherit: false,
+>>>>>>> 33c57a1a9 (fix some syntax errors)
 		onDamagingHit(damage, target, source, move) {
 			if (move.type === 'Water') {
 				this.boost({ def: 2 });
@@ -23,7 +28,11 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		flags: { breakable: 1 },
 		name: "Well-Baked Body",
 		rating: 3.5,
-   		num: 195,
+<<<<<<< HEAD
+    num: 195
+=======
+		num: 195,
+>>>>>>> 33c57a1a9 (fix some syntax errors)
 	},
 	ironfist: {
 		inherit: false,
@@ -142,15 +151,12 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 	},
 	illuminate: {
 		inherit: true,
-<<<<<<< HEAD
 		onSourceModifyAccuracyPriority: -1,
 		onSourceModifyAccuracy(accuracy) {
 			if (typeof accuracy !== 'number') return;
 			this.debug('compoundeyes - enhancing accuracy');
 			return this.chainModify([4915, 4096]);
 		},
-=======
->>>>>>> d898afece (initial data conversion attempt for ER)
 		flags: {},
 		name: "Illuminate",
 		rating: 1.5,
