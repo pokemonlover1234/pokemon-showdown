@@ -540,6 +540,7 @@ doublehit: {
 		inherit: true,
 		accuracy: 100,
 		basePower: 25,
+		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
 },
 gigaimpact: {
 		inherit: true,
@@ -616,8 +617,58 @@ submission: {
 		inherit: true,
 		flags: { contact: 1, protect: 1, mirror: 1, nonsky: 1, metronome: 1, minimize: 1, kick: 1 },
 },
-
-
+	stealthrock: {
+		inherit: true,
+		onSwitchIn(pokemon) {
+				if (pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('ShieldDust') return;
+				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
+				this.damage(pokemon.maxhp * (2 ** typeMod) / 8);
+			},
+},
+	toxicspikes: {
+		inherit: true,
+		onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded()) return;
+				if (pokemon.hasType('Poison')) {
+					this.add('-sideend', pokemon.side, 'move: Toxic Spikes', `[of] ${pokemon}`);
+					pokemon.side.removeSideCondition('toxicspikes');
+				} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) {
+					// do nothing
+				} else if (this.effectState.layers >= 2) {
+					pokemon.trySetStatus('tox', pokemon.side.foe.active[0]);
+				} else {
+					pokemon.trySetStatus('psn', pokemon.side.foe.active[0]);
+				}
+			},
+},
+stickyweb: {
+		inherit: true,
+		onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded() || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) return;
+				this.add('-activate', pokemon, 'move: Sticky Web');
+				this.boost({ spe: -1 }, pokemon, pokemon.side.foe.active[0], this.dex.getActiveMove('stickyweb'));
+		}, 
+},
+	spikes: {
+		inherit: true,
+					onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded() || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Shield Dust')) return;
+				const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
+				this.damage(damageAmounts[this.effectState.layers] * pokemon.maxhp / 24);
+			},
+},
+boneclub: {
+		inherit: true,
+		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
+},
+	bonemerang: {
+		inherit: true,
+		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
+},
+	shadowbone: {
+		inherit: true,
+		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
+},
 
 
 
