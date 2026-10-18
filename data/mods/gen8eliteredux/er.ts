@@ -18,6 +18,7 @@ function buildCache() {
 }
 
 function formatsDataTable() {
+	console.log(dirty.dirty);
 	if (dirty.dirty) {
 		buildCache();
 	}
