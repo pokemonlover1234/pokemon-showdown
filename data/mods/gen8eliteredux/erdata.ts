@@ -144,10 +144,6 @@ export function pokedex() {
 
 	for (const species of speciesList.species) {
 		const pokemon = erEnumToShowdownId(SpeciesEnum[species.id], 8);
-		if (!(pokemon in VanillaDex)) {
-			console.log("ER Pokemon Not Found: " + SpeciesEnum[species.id] + " -> " + pokemon);
-			continue;
-		}
 		try {
 			const dex = species.baseSpeciesInfo;
 
