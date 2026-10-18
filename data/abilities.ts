@@ -6189,7 +6189,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	iceeater: {
 		onTryHit(target, source, move) {
-			if (target !== source && move.type === 'Ground') {
+			if (target !== source && move.type === 'Ice') {
 				if (!this.heal(target.baseMaxhp / 4)) {
 					this.add('-immune', target, '[from] ability: Ice Eater');
 				}
