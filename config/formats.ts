@@ -4715,6 +4715,26 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 
+	// Emerald Imperium
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Emerald Imperium",
+		column: 1,
+	},
+	{
+		name: "[Gen 9] Emerald Imperium Singles",
+		mod: "gen9ei",
+		ruleset: ["Standard"],
+		debug: true,
+	},
+	{
+		name: "[Gen 9] Emerald Imperium Doubles",
+		mod: "gen9ei",
+		ruleset: ["Standard"],
+		gameType: 'doubles',
+	},
+
+
 
 	// Past Gens OU
 	///////////////////////////////////////////////////////////////////
