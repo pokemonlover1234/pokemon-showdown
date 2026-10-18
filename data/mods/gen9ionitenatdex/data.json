@@ -19,6 +19,8 @@
       "spe": 45
     },
     "addmoves": [
+      "stunspore",
+      "sludgewave",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -61,6 +63,8 @@
       "spe": 60
     },
     "addmoves": [
+      "stunspore",
+      "sludgewave",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -270,6 +274,7 @@
       "spe": 65
     },
     "addmoves": [
+      "afterburner",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -311,6 +316,7 @@
       "spe": 80
     },
     "addmoves": [
+      "afterburner",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -24983,9 +24989,9 @@
       "Ground"
     ],
     "abilities": {
-      "0": "Tree of Life",
+      "0": "Ice Eater",
       "1": "Sap Sipper",
-      "H": "Ice Eater"
+      "H": "Tree of Life"
     },
     "baseStats": {
       "hp": 115,
@@ -25151,8 +25157,8 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Iron Fist",
-      "1": "Adaptability",
+      "0": "Adaptability",
+      "1": "Iron Fist",
       "H": "Inner Flame"
     },
     "baseStats": {
@@ -25405,9 +25411,10 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Refrigerate",
+      "0": "Emperor's presence ",
       "1": "Imperial Rule ",
-      "H": "Defiant"
+      "H": "Defiant",
+      "S": "Refrigerate"
     },
     "baseStats": {
       "hp": 84,
@@ -25925,9 +25932,9 @@
       "Dark"
     ],
     "abilities": {
-      "0": "Tough Claws",
+      "0": "Strong Jaw",
       "1": "Intimidate",
-      "H": "Strong Jaw",
+      "H": "Tough Claws",
       "S": "Dark Aura"
     },
     "baseStats": {
@@ -27217,8 +27224,8 @@
       "Fighting"
     ],
     "abilities": {
-      "0": "Normalize",
-      "1": "Scrappy",
+      "0": "Scrappy",
+      "1": "Normalize",
       "H": "Fluffy"
     },
     "baseStats": {
@@ -46178,6 +46185,7 @@
     "addmoves": [
       "terablast",
       "trailblaze",
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46219,6 +46227,7 @@
       "spe": 108
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46261,6 +46270,7 @@
     },
     "addmoves": [
       "moonlitnight",
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46302,6 +46312,7 @@
       "spe": 88
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46343,6 +46354,7 @@
       "spe": 121
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46384,6 +46396,7 @@
       "spe": 93
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46425,6 +46438,7 @@
       "spe": 97
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46466,6 +46480,7 @@
       "spe": 110
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46507,6 +46522,7 @@
       "spe": 115
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46549,6 +46565,7 @@
     },
     "addmoves": [
       "moonlitnight",
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46590,6 +46607,7 @@
       "spe": 82
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46631,6 +46649,7 @@
       "spe": 76
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46672,6 +46691,7 @@
       "spe": 89
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46713,6 +46733,7 @@
       "spe": 101
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46754,6 +46775,7 @@
       "spe": 109
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46795,6 +46817,7 @@
       "spe": 70
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46836,6 +46859,7 @@
       "spe": 74
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -46877,6 +46901,7 @@
       "spe": 90
     },
     "addmoves": [
+      "recover",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -53376,9 +53401,9 @@
       "Steel"
     ],
     "abilities": {
-      "0": "Dauntless Shield",
+      "0": "Scrappy",
       "1": "Justified",
-      "H": "Stalwart",
+      "H": "Dauntless Shield",
       "S": "Intrepid Sword"
     },
     "baseStats": {
@@ -61735,8 +61760,8 @@
   "kitsunoh": {
     "restricted": false,
     "types": [
-      "Electric",
-      "Dragon"
+      "Ghost",
+      "Steel"
     ],
     "abilities": {
       "0": "Frisk",
@@ -64561,7 +64586,7 @@
       "tailwind",
       "taunt",
       "throatchop",
-      "whirlind",
+      "whirlwind",
       "aerialace",
       "aircutter",
       "bite",
@@ -64656,7 +64681,7 @@
       "tailwind",
       "taunt",
       "throatchop",
-      "whirlind",
+      "whirlwind",
       "aerialace",
       "aircutter",
       "bite",
