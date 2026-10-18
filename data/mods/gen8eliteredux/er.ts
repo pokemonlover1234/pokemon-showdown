@@ -6,7 +6,7 @@ import path from "path";
 declare let __dirname: string;
 
 function buildCache() {
-	console.log("Rnnnfdsan;fjkas;dfj")
+	console.log("Rnnnfdsan;fjkas;dfj");
 	const formatsdataout = formatsdata();
 	const learnsetdataout = learnsets();
 	const pokedexdataout = pokedex();
