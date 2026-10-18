@@ -713,7 +713,14 @@ boneclub: {
 			}
 		},
 },
-
+willowisp: {
+	inherit: true,
+	onModifyMove(move, source, target) {
+			if (source.hasType('Fire')) {
+				move.accuracy = true;
+			} 
+		},
+},
 
 
 
