@@ -1,16 +1,15 @@
 import { formatsdata, learnsets, pokedex } from "./erdata";
 import dirty from "./dirty.json";
 import * as fs from 'fs';
-import data from "./data.json";
 import path from "path";
-
 
 declare let __dirname: string;
 
 function buildCache() {
-	const formatsdataout = formatsdata(data);
-	const learnsetdataout = learnsets(data);
-	const pokedexdataout = pokedex(data);
+	console.log("Rnnnfdsan;fjkas;dfj")
+	const formatsdataout = formatsdata();
+	const learnsetdataout = learnsets();
+	const pokedexdataout = pokedex();
 	fs.writeFileSync(path.join(__dirname, "formats-data-cache.json"), JSON.stringify(formatsdataout, null, 2), 'utf8');
 	fs.writeFileSync(path.join(__dirname, "learnsets-cache.json"), JSON.stringify(learnsetdataout, null, 2), 'utf8');
 	fs.writeFileSync(path.join(__dirname, "pokedex-cache.json"), JSON.stringify(pokedexdataout, null, 2), 'utf8');
