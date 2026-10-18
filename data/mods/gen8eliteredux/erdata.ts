@@ -1,4 +1,6 @@
 import { Pokedex as VanillaDex } from "../../pokedex";
+import { Moves } from "../../moves";
+import { Abilities} from "../../abilities";
 import { fromJson } from "@bufbuild/protobuf";
 import { SpeciesListSchema, EggGroup, BodyColor } from "./er-proto/SpeciesList_pb";
 import { SpeciesEnum } from "./er-proto/SpeciesEnum_pb";
@@ -69,6 +71,7 @@ export function learnsets() {
 	const gennedTable: any = {};
 
 	const delayedExpansion: any = {}; // Just in case we have a "usesLearnset" but haven't enumerated the target yet.
+	const unknown: any = {};
 
 	for (const species of speciesList.species) {
 		const pokemon = erEnumToShowdownId(SpeciesEnum[species.id], 8);
@@ -92,6 +95,10 @@ export function learnsets() {
 					const lvl = lsetLvl.level;
 					for (const move of lsetLvl.move) {
 						const moveId = erEnumToShowdownId(MoveEnum[move], 5);
+						if (!(moveId in unknown) && !(moveId in Moves)) {
+							console.log("Warning: Unknown move " + moveId + " in ER learnset");
+							unknown[moveId] = "";
+						}
 						if (moveId in learnset) {
 							learnset[move].push("8L" + lvl.toString());
 						} else {
@@ -101,6 +108,10 @@ export function learnsets() {
 				}
 				for (const move of lset.tutor) {
 					const moveId = erEnumToShowdownId(MoveEnum[move], 5);
+					if (!(moveId in unknown) && !(moveId in Moves)) {
+						console.log("Warning: Unknown move " + moveId + " in ER learnset");
+						unknown[moveId] = "";
+					}
 					if (moveId in learnset) {
 						learnset[move].push("8T");
 					} else {
@@ -148,6 +159,7 @@ export function pokedex() {
 
 	for (const species of speciesList.species) {
 		const pokemon = erEnumToShowdownId(SpeciesEnum[species.id], 8);
+		const unknown: any = {};
 		try {
 			const dex = species.baseSpeciesInfo;
 
@@ -162,14 +174,24 @@ export function pokedex() {
 			let index = 0;
 
 			for (const baseAbility of species.ability) {
-				abilities[base[index]] = erEnumToShowdownId(AbilityEnum[baseAbility], 8);
+				const abilityId = erEnumToShowdownId(AbilityEnum[baseAbility], 8);
+				if (!(abilityId in unknown) && !(abilityId in Abilities)) {
+					console.log("Warning: Unknown ability " + abilityId + " in ER learnset");
+					unknown[abilityId] = "";
+				}
+				abilities[base[index]] = abilityId;
 				index++;
 			}
 
 			index = 0;
 
 			for (const innateAbility of species.innate) {
-				abilities["I" + index.toString()] = erEnumToShowdownId(AbilityEnum[innateAbility], 8);
+				const abilityId = erEnumToShowdownId(AbilityEnum[innateAbility], 8);
+				if (!(abilityId in unknown) && !(abilityId in Abilities)) {
+					console.log("Warning: Unknown ability " + abilityId + " in ER learnset");
+					unknown[abilityId] = "";
+				}
+				abilities["I" + index.toString()] = abilityId;
 				index++;
 			}
 
