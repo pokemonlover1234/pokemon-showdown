@@ -6,6 +6,7 @@ import { AbilityEnum } from "./er-proto/AbilityEnum_pb";
 import { ItemEnum } from "./er-proto/ItemEnum_pb";
 import { MoveEnum } from "./er-proto/MoveEnum_pb";
 import { Type } from "./er-proto/Types_pb";
+import { toID } from "../../../sim/dex-data";
 import type { ID } from "smogon";
 import speciesData from "./er-json/SpeciesList.json";
 
