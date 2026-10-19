@@ -11494,6 +11494,88 @@
     ],
     "rmmoves": []
   },
+  "castformsandy": {
+    "restricted": false,
+    "types": [
+      "Rock"
+    ],
+    "abilities": {
+      "0": "Sand Rush",
+      "1": "Sand Force",
+      "H": "Sand Stream"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 90,
+      "def": 90,
+      "spa": 100,
+      "spd": 90,
+      "spe": 130
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
+  "castformnightly": {
+    "restricted": false,
+    "types": [
+      "Ghost"
+    ],
+    "abilities": {
+      "0": "Dark Fortress",
+      "1": "Dark Resonance",
+      "H": "Shadow Veil"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 90,
+      "def": 90,
+      "spa": 100,
+      "spd": 90,
+      "spe": 130
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
   "kecleon": {
     "restricted": false,
     "types": [
@@ -29042,12 +29124,12 @@
       "S": "Corrosion"
     },
     "baseStats": {
-      "hp": 110,
-      "atk": 40,
-      "def": 60,
-      "spa": 140,
-      "spd": 140,
-      "spe": 110
+      "hp": 109,
+      "atk": 43,
+      "def": 47,
+      "spa": 137,
+      "spd": 151,
+      "spe": 113
     },
     "addmoves": [
       "terablast",
@@ -29086,12 +29168,12 @@
       "S": "Intimidate"
     },
     "baseStats": {
-      "hp": 115,
-      "atk": 145,
-      "def": 145,
-      "spa": 50,
-      "spd": 60,
-      "spe": 85
+      "hp": 113,
+      "atk": 149,
+      "def": 149,
+      "spa": 53,
+      "spd": 53,
+      "spe": 83
     },
     "addmoves": [
       "terablast",
@@ -29132,12 +29214,12 @@
       "S": "Opportunist"
     },
     "baseStats": {
-      "hp": 75,
-      "atk": 145,
-      "def": 40,
-      "spa": 145,
-      "spd": 40,
-      "spe": 155
+      "hp": 71,
+      "atk": 151,
+      "def": 23,
+      "spa": 151,
+      "spd": 23,
+      "spe": 181
     },
     "addmoves": [
       "terablast",
@@ -29176,12 +29258,12 @@
       "S": "Download"
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 70,
-      "def": 75,
-      "spa": 200,
-      "spd": 75,
-      "spe": 100
+      "hp": 79,
+      "atk": 79,
+      "def": 71,
+      "spa": 211,
+      "spd": 71,
+      "spe": 89
     },
     "addmoves": [
       "terablast",
@@ -29221,12 +29303,12 @@
       "S": "Filter"
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 105,
-      "def": 110,
-      "spa": 115,
-      "spd": 110,
-      "spe": 60
+      "hp": 103,
+      "atk": 107,
+      "def": 109,
+      "spa": 113,
+      "spd": 107,
+      "spe": 61
     },
     "addmoves": [
       "terablast",
@@ -29268,12 +29350,12 @@
       "S": "Hyper Cutter"
     },
     "baseStats": {
-      "hp": 50,
-      "atk": 200,
-      "def": 140,
-      "spa": 40,
-      "spd": 35,
-      "spe": 135
+      "hp": 47,
+      "atk": 223,
+      "def": 139,
+      "spa": 41,
+      "spd": 19,
+      "spe": 131
     },
     "addmoves": [
       "terablast",
@@ -29314,12 +29396,12 @@
       "S": "Dread Hunger"
     },
     "baseStats": {
-      "hp": 230,
-      "atk": 130,
-      "def": 60,
-      "spa": 105,
-      "spd": 60,
-      "spe": 15
+      "hp": 251,
+      "atk": 127,
+      "def": 53,
+      "spa": 103,
+      "spd": 53,
+      "spe": 13
     },
     "addmoves": [
       "terablast",
@@ -29756,12 +29838,12 @@
       "H": "Adaptability"
     },
     "baseStats": {
-      "hp": 85,
-      "atk": 80,
-      "def": 85,
-      "spa": 135,
-      "spd": 85,
-      "spe": 130
+      "hp": 83,
+      "atk": 83,
+      "def": 83,
+      "spa": 137,
+      "spd": 83,
+      "spe": 131
     },
     "addmoves": [
       "terablast",
@@ -29800,12 +29882,12 @@
       "S": "Stamina"
     },
     "baseStats": {
-      "hp": 70,
-      "atk": 140,
-      "def": 240,
-      "spa": 25,
-      "spd": 115,
-      "spe": 10
+      "hp": 67,
+      "atk": 139,
+      "def": 241,
+      "spa": 29,
+      "spd": 113,
+      "spe": 11
     },
     "addmoves": [
       "terablast",
@@ -29845,12 +29927,12 @@
       "S": "Prankster"
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 125,
-      "def": 45,
-      "spa": 175,
-      "spd": 70,
-      "spe": 125
+      "hp": 59,
+      "atk": 127,
+      "def": 47,
+      "spa": 173,
+      "spd": 67,
+      "spe": 127
     },
     "addmoves": [
       "terablast",
@@ -40234,7 +40316,7 @@
       "tailwind",
       "taunt",
       "throatchop",
-      "whirlind",
+      "whirlwind",
       "aerialace",
       "aircutter",
       "bite",
