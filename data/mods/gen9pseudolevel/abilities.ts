@@ -17,10 +17,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			case 'snowscape':
 				if (pokemon.species.id !== 'castformsnowy') forme = 'Castform-Snowy';
 				break;
-      case 'sandstorm'
+      case 'sandstorm':
           if (pokemon.species.id !== 'castformsandy') forme = 'Castform-Sandy';
 				break;
-      case 'nighttime'
+      case 'nighttime':
         if (pokemon.species.id !== 'castformnightly') forme = 'Castform-Nightly';
 				break;
 			default:
