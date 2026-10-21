@@ -6418,4 +6418,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: 178,
 	},
+	primalarmor: {
+		onSourceModifyDamage(damage, source, target, move) {
+			if (target.getMoveHitData(move).typeMod > 0) {
+				this.debug('Prism Armor neutralize');
+				return this.chainModify(0.5);
+			}
+		},
+		flags: {},
+		name: "Primal Armor",
+		rating: 5,
+		num: 232,
+	},
 };
