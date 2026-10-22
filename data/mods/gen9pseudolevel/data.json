@@ -16817,6 +16817,57 @@
     ],
     "rmmoves": []
   },
+  "rotom-tiller": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Earth Eater",
+      "H": "Flower Veil"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 127,
+      "def": 96,
+      "spa": 127,
+      "spd": 85,
+      "spe": 60
+    },
+    "addmoves": [
+      "partingshot",
+      "paraboliccharge",
+      "taunt",
+      "agility",
+      "curse",
+      "wildcharge",
+      "earthquake",
+      "earthpower",
+      "rototiller",
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
   "uxie": {
     "restricted": false,
     "types": [
