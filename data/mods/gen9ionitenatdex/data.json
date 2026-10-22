@@ -9514,13 +9514,13 @@
     "addmoves": [
       "sludge",
       "sludgebomb",
-      "sludegwave",
+      "sludgewave",
       "darkpulse",
       "smog",
       "venoshock",
       "banefulbunker",
       "toxic",
-      "toxicspike",
+      "toxicspikes",
       "aircannon",
       "windpulse",
       "afterburner",
@@ -28525,6 +28525,57 @@
     ],
     "rmmoves": []
   },
+  "rotom-tiller": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Earth Eater",
+      "H": "Flower Veil"
+    },
+    "baseStats": {
+      "hp": 105,
+      "atk": 107,
+      "def": 86,
+      "spa": 107,
+      "spd": 65,
+      "spe": 50
+    },
+    "addmoves": [
+      "partingshot",
+      "paraboliccharge",
+      "taunt",
+      "agility",
+      "curse",
+      "wildcharge",
+      "earthquake",
+      "earthpower",
+      "rototiller",
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": []
+  },
   "uxie": {
     "restricted": false,
     "types": [
@@ -39751,10 +39802,10 @@
       "Normal"
     ],
     "abilities": {
-      "0": "Drought",
+      "0": "Fire Mane",
       "1": "Fur Coat",
       "H": "Intimidate",
-      "S": "Fire Mane"
+      "S": "Drought"
     },
     "baseStats": {
       "hp": 86,
