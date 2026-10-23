@@ -9135,8 +9135,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.3,
 		color: "Red",
 		eggGroups: ["Amorphous"],
-		otherFormes: ["Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow", "Rotom-Saw", "Rotom-Fogger", "Rotom-Till"],
-		formeOrder: ["Rotom", "Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow", "Rotom-Saw", "Rotom-Fogger", "Rotom-Till"],
+		otherFormes: ["Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow", "Rotom-Saw", "Rotom-Fogger", "Rotom-Tiller"],
+		formeOrder: ["Rotom", "Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow", "Rotom-Saw", "Rotom-Fogger", "Rotom-Tiller"],
 	},
 	rotomheat: {
 		num: 479,
@@ -9256,9 +9256,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Amorphous"],
 		changesFrom: "Rotom",
 	},
-	rotomtill: {
+	rotomtiller: {
 		num: 479,
-		name: "Rotom-Till",
+		name: "Rotom-Tiller",
 		baseSpecies: "Rotom",
 		forme: "Till",
 		types: ["Electric", "Ground"],
