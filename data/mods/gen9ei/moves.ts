@@ -529,17 +529,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		accuracy: 100,
 		basePower: 25,
 		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
-		onEffectiveness(typeMod, target, type, move) {
-			if (source.ability !== 'Bone Zone') return;
-			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Flying type and immune to Ground
-			if (!target.runImmunity('Ground')) {
-				return 0;
-			}
-			if (!target.runImmunity('Normal')) {
-				return 0;
-			}
-		},
 	},
 	gigaimpact: {
 		inherit: true,
@@ -659,47 +648,15 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	boneclub: {
 		inherit: true,
 		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
-		onEffectiveness(typeMod, target, type, move) {
-			if (source.ability !== 'Bone Zone') return;
-			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Flying type and immune to Ground
-			if (!target.runImmunity('Ground')) {
-				return 0;
-			}
-			if (!target.runImmunity('Normal')) {
-				return 0;
-			}
-		},
+		
 	},
 	bonemerang: {
 		inherit: true,
 		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
-		onEffectiveness(typeMod, target, type, move) {
-			if (source.ability !== 'Bone Zone') return;
-			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Flying type and immune to Ground
-			if (!target.runImmunity('Ground')) {
-				return 0;
-			}
-			if (!target.runImmunity('Normal')) {
-				return 0;
-			}
-		},
 	},
 	shadowbone: {
 		inherit: true,
 		flags: { protect: 1, mirror: 1, metronome: 1, bone: 1 },
-		onEffectiveness(typeMod, target, type, move) {
-			if (source.ability !== 'Bone Zone') return;
-			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Flying type and immune to Ground
-			if (!target.runImmunity('Ground')) {
-				return 0;
-			}
-			if (!target.runImmunity('Normal')) {
-				return 0;
-			}
-		},
 	},
 	willowisp: {
 		inherit: true,
