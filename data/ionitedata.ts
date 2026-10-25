@@ -80,7 +80,7 @@ export function pokedex(data: any) {
 				abilities: values.abilities,
 				baseStats: values.baseStats,
 				tags: newTags,
-				...(values.requiredItem !== "" && {
+				...("requiredItem" in values && values.requiredItem !== "" && {
 					requiredItem: values.requiredItem,
 				}),
 			};
