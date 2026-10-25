@@ -80,6 +80,9 @@ export function pokedex(data: any) {
 				abilities: values.abilities,
 				baseStats: values.baseStats,
 				tags: newTags,
+				...(values.requiredItem !== "" && {
+					requiredItem: values.requiredItem,
+				}),
 			};
 		} catch (err: any) {
 			console.log(pokemon + " Caused Error: " + err);
