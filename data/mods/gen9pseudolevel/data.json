@@ -41,7 +41,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "venusaurmega": {
     "restricted": false,
@@ -83,7 +84,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": "venusaurite"
   },
   "venusaurmegag": {
     "restricted": false,
@@ -125,7 +127,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "charizard": {
     "restricted": false,
@@ -171,7 +174,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "charizardmegax": {
     "restricted": false,
@@ -213,7 +217,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "charizardmegay": {
     "restricted": false,
@@ -255,7 +260,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "charizardmegag": {
     "restricted": false,
@@ -296,7 +302,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blastoise": {
     "restricted": false,
@@ -342,7 +349,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blastoisemega": {
     "restricted": false,
@@ -384,7 +392,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blastoisemegag": {
     "restricted": false,
@@ -426,7 +435,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "butterfree": {
     "restricted": false,
@@ -472,7 +482,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "butterfreemega": {
     "restricted": false,
@@ -514,7 +525,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "beedrill": {
     "restricted": false,
@@ -559,7 +571,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "beedrillmega": {
     "restricted": false,
@@ -601,7 +614,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pidgeot": {
     "restricted": false,
@@ -648,7 +662,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pidgeotmega": {
     "restricted": false,
@@ -690,7 +705,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "raticate": {
     "restricted": false,
@@ -737,7 +753,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "raticatealola": {
     "restricted": false,
@@ -786,7 +803,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "fearow": {
     "restricted": false,
@@ -833,7 +851,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arbok": {
     "restricted": false,
@@ -881,7 +900,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pikachustarter": {
     "restricted": false,
@@ -923,7 +943,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pikachugmax": {
     "restricted": false,
@@ -964,7 +985,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "raichu": {
     "restricted": false,
@@ -1017,7 +1039,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "raichumegax": {
     "restricted": false,
@@ -1060,7 +1083,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "raichumegay": {
     "restricted": false,
@@ -1101,7 +1125,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "raichualola": {
     "restricted": false,
@@ -1146,7 +1171,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sandslash": {
     "restricted": false,
@@ -1187,7 +1213,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sandslashalola": {
     "restricted": false,
@@ -1229,7 +1256,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "nidoqueen": {
     "restricted": false,
@@ -1274,7 +1302,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "nidoking": {
     "restricted": false,
@@ -1319,7 +1348,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "clefable": {
     "restricted": false,
@@ -1364,7 +1394,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "clefablemega": {
     "restricted": false,
@@ -1407,7 +1438,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ninetales": {
     "restricted": false,
@@ -1450,7 +1482,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ninetalesalola": {
     "restricted": false,
@@ -1496,7 +1529,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wigglytuff": {
     "restricted": false,
@@ -1542,7 +1576,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "vileplume": {
     "restricted": false,
@@ -1585,7 +1620,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "parasect": {
     "restricted": false,
@@ -1640,7 +1676,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "venomoth": {
     "restricted": false,
@@ -1683,7 +1720,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dugtrio": {
     "restricted": false,
@@ -1726,7 +1764,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dugtrioalola": {
     "restricted": false,
@@ -1770,7 +1809,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meowthgmax": {
     "restricted": false,
@@ -1810,7 +1850,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "persian": {
     "restricted": false,
@@ -1857,7 +1898,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "persianalola": {
     "restricted": false,
@@ -1906,7 +1948,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "golduck": {
     "restricted": false,
@@ -1950,7 +1993,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arcanine": {
     "restricted": false,
@@ -1992,7 +2036,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arcaninehisui": {
     "restricted": false,
@@ -2035,7 +2080,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "poliwrath": {
     "restricted": false,
@@ -2079,7 +2125,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "alakazam": {
     "restricted": false,
@@ -2122,7 +2169,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "alakazammega": {
     "restricted": false,
@@ -2163,7 +2211,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "machamp": {
     "restricted": false,
@@ -2210,7 +2259,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "machampmega": {
     "restricted": false,
@@ -2252,7 +2302,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "machampmegag": {
     "restricted": false,
@@ -2293,7 +2344,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "victreebel": {
     "restricted": false,
@@ -2340,7 +2392,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "victreebelmega": {
     "restricted": false,
@@ -2383,7 +2436,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tentacruel": {
     "restricted": false,
@@ -2428,7 +2482,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "golem": {
     "restricted": false,
@@ -2473,7 +2528,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "golemalola": {
     "restricted": false,
@@ -2518,7 +2574,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rapidash": {
     "restricted": false,
@@ -2563,7 +2620,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rapidashgalar": {
     "restricted": false,
@@ -2612,7 +2670,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "farfetchd": {
     "restricted": false,
@@ -2657,7 +2716,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dodrio": {
     "restricted": false,
@@ -2702,7 +2762,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slowbro": {
     "restricted": false,
@@ -2749,7 +2810,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slowbromega": {
     "restricted": false,
@@ -2791,7 +2853,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slowbrogalar": {
     "restricted": false,
@@ -2840,7 +2903,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dewgong": {
     "restricted": false,
@@ -2884,7 +2948,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "muk": {
     "restricted": false,
@@ -2926,7 +2991,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mukalola": {
     "restricted": false,
@@ -2970,7 +3036,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cloyster": {
     "restricted": false,
@@ -3014,7 +3081,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gengar": {
     "restricted": false,
@@ -3060,7 +3128,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gengarmega": {
     "restricted": false,
@@ -3102,7 +3171,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gengarmegag": {
     "restricted": false,
@@ -3144,7 +3214,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gengarpartner": {
     "restricted": false,
@@ -3188,7 +3259,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "onix": {
     "restricted": false,
@@ -3233,7 +3305,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hypno": {
     "restricted": false,
@@ -3276,7 +3349,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kingler": {
     "restricted": false,
@@ -3325,7 +3399,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kinglermega": {
     "restricted": false,
@@ -3371,7 +3446,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "electrode": {
     "restricted": false,
@@ -3413,7 +3489,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "electrodehisui": {
     "restricted": false,
@@ -3456,7 +3533,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "exeggutor": {
     "restricted": false,
@@ -3499,7 +3577,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "exeggutoralola": {
     "restricted": false,
@@ -3544,7 +3623,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "marowak": {
     "restricted": false,
@@ -3587,7 +3667,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "marowakalola": {
     "restricted": false,
@@ -3634,7 +3715,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hitmonlee": {
     "restricted": false,
@@ -3677,7 +3759,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hitmonchan": {
     "restricted": false,
@@ -3719,7 +3802,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "weezing": {
     "restricted": false,
@@ -3762,7 +3846,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "weezinggalar": {
     "restricted": false,
@@ -3804,7 +3889,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kangaskhan": {
     "restricted": false,
@@ -3848,7 +3934,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kangaskhanmega": {
     "restricted": false,
@@ -3889,7 +3976,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "seaking": {
     "restricted": false,
@@ -3940,7 +4028,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "starmie": {
     "restricted": false,
@@ -3993,7 +4082,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "starmiemega": {
     "restricted": false,
@@ -4034,7 +4124,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mrmime": {
     "restricted": false,
@@ -4083,7 +4174,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scyther": {
     "restricted": false,
@@ -4127,7 +4219,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "jynx": {
     "restricted": false,
@@ -4173,7 +4266,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pinsir": {
     "restricted": false,
@@ -4220,7 +4314,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pinsirmega": {
     "restricted": false,
@@ -4263,7 +4358,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tauros": {
     "restricted": false,
@@ -4305,7 +4401,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "taurospaldeacombat": {
     "restricted": false,
@@ -4347,7 +4444,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "taurospaldeablaze": {
     "restricted": false,
@@ -4390,7 +4488,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "taurospaldeaaqua": {
     "restricted": false,
@@ -4433,7 +4532,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gyarados": {
     "restricted": false,
@@ -4478,7 +4578,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gyaradosmega": {
     "restricted": false,
@@ -4520,7 +4621,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lapras": {
     "restricted": false,
@@ -4562,7 +4664,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "laprasmega": {
     "restricted": false,
@@ -4604,7 +4707,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ditto": {
     "restricted": false,
@@ -4645,7 +4749,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eeveestarter": {
     "restricted": false,
@@ -4687,7 +4792,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eeveegmax": {
     "restricted": false,
@@ -4728,7 +4834,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "vaporeon": {
     "restricted": false,
@@ -4773,7 +4880,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "jolteon": {
     "restricted": false,
@@ -4817,7 +4925,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "flareon": {
     "restricted": false,
@@ -4866,7 +4975,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "omastar": {
     "restricted": false,
@@ -4910,7 +5020,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kabutops": {
     "restricted": false,
@@ -4954,7 +5065,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aerodactyl": {
     "restricted": false,
@@ -4999,7 +5111,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aerodactylmega": {
     "restricted": false,
@@ -5041,7 +5154,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "snorlax": {
     "restricted": false,
@@ -5083,7 +5197,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "snorlax-mega": {
     "restricted": false,
@@ -5129,7 +5244,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "articuno": {
     "restricted": false,
@@ -5174,7 +5290,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "articunogalar": {
     "restricted": false,
@@ -5219,7 +5336,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zapdos": {
     "restricted": false,
@@ -5263,7 +5381,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zapdosgalar": {
     "restricted": false,
@@ -5308,7 +5427,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "moltres": {
     "restricted": false,
@@ -5353,7 +5473,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "moltresgalar": {
     "restricted": false,
@@ -5398,7 +5519,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dragonite": {
     "restricted": false,
@@ -5444,7 +5566,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dragonitemega": {
     "restricted": false,
@@ -5490,7 +5613,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mewtwo": {
     "restricted": false,
@@ -5533,7 +5657,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mewtwomegax": {
     "restricted": false,
@@ -5575,7 +5700,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mewtwomegay": {
     "restricted": false,
@@ -5616,7 +5742,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mew": {
     "restricted": false,
@@ -5657,7 +5784,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meganium": {
     "restricted": false,
@@ -5716,7 +5844,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meganiummega": {
     "restricted": false,
@@ -5759,7 +5888,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meganiumpartner": {
     "restricted": false,
@@ -5818,7 +5948,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "typhlosion": {
     "restricted": false,
@@ -5862,7 +5993,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "typhlosionhisui": {
     "restricted": false,
@@ -5907,7 +6039,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "feraligatr": {
     "restricted": false,
@@ -5950,7 +6083,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "feraligatrmega": {
     "restricted": false,
@@ -5993,7 +6127,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "furret": {
     "restricted": false,
@@ -6034,7 +6169,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "noctowl": {
     "restricted": false,
@@ -6084,7 +6220,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ledian": {
     "restricted": false,
@@ -6129,7 +6266,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ariados": {
     "restricted": false,
@@ -6174,7 +6312,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "crobat": {
     "restricted": false,
@@ -6223,7 +6362,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lanturn": {
     "restricted": false,
@@ -6266,7 +6406,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pichuspikyeared": {
     "restricted": false,
@@ -6307,7 +6448,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "xatu": {
     "restricted": false,
@@ -6353,7 +6495,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ampharospartner": {
     "restricted": false,
@@ -6406,7 +6549,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ampharos": {
     "restricted": false,
@@ -6449,7 +6593,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ampharosmega": {
     "restricted": false,
@@ -6491,7 +6636,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bellossom": {
     "restricted": false,
@@ -6534,7 +6680,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "azumarill": {
     "restricted": false,
@@ -6577,7 +6724,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sudowoodo": {
     "restricted": false,
@@ -6624,7 +6772,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "politoed": {
     "restricted": false,
@@ -6665,7 +6814,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "jumpluff": {
     "restricted": false,
@@ -6707,7 +6857,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sunflora": {
     "restricted": false,
@@ -6753,7 +6904,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "quagsire": {
     "restricted": false,
@@ -6795,7 +6947,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "espeon": {
     "restricted": false,
@@ -6838,7 +6991,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "umbreon": {
     "restricted": false,
@@ -6881,7 +7035,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slowking": {
     "restricted": false,
@@ -6925,7 +7080,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slowkinggalar": {
     "restricted": false,
@@ -6968,7 +7124,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "unown": {
     "restricted": false,
@@ -7028,7 +7185,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wobbuffet": {
     "restricted": false,
@@ -7069,7 +7227,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "forretress": {
     "restricted": false,
@@ -7112,7 +7271,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "steelix": {
     "restricted": false,
@@ -7157,7 +7317,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "steelixmega": {
     "restricted": false,
@@ -7202,7 +7363,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "granbull": {
     "restricted": false,
@@ -7247,7 +7409,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "qwilfish": {
     "restricted": false,
@@ -7290,7 +7453,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scizor": {
     "restricted": false,
@@ -7334,7 +7498,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scizormega": {
     "restricted": false,
@@ -7376,7 +7541,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "shuckle": {
     "restricted": false,
@@ -7420,7 +7586,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "heracross": {
     "restricted": false,
@@ -7467,7 +7634,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "heracrossmega": {
     "restricted": false,
@@ -7509,7 +7677,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "magcargo": {
     "restricted": false,
@@ -7553,7 +7722,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "corsola": {
     "restricted": false,
@@ -7596,7 +7766,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "octillery": {
     "restricted": false,
@@ -7638,7 +7809,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "delibird": {
     "restricted": false,
@@ -7685,7 +7857,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mantine": {
     "restricted": false,
@@ -7731,7 +7904,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "skarmory": {
     "restricted": false,
@@ -7776,7 +7950,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "skarmorymega": {
     "restricted": false,
@@ -7818,7 +7993,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "houndoom": {
     "restricted": false,
@@ -7862,7 +8038,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "houndoommega": {
     "restricted": false,
@@ -7904,7 +8081,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kingdra": {
     "restricted": false,
@@ -7949,7 +8127,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "donphan": {
     "restricted": false,
@@ -7995,7 +8174,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "smeargle": {
     "restricted": false,
@@ -8041,7 +8221,8 @@
       "powertrip",
       "shellsmash",
       "direclaw"
-    ]
+    ],
+    "requiredItem": ""
   },
   "hitmontop": {
     "restricted": false,
@@ -8084,7 +8265,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "miltank": {
     "restricted": false,
@@ -8127,7 +8309,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blissey": {
     "restricted": false,
@@ -8168,7 +8351,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "raikou": {
     "restricted": false,
@@ -8209,7 +8393,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "entei": {
     "restricted": false,
@@ -8251,7 +8436,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "suicune": {
     "restricted": false,
@@ -8293,7 +8479,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tyranitar": {
     "restricted": false,
@@ -8339,7 +8526,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tyranitarmega": {
     "restricted": false,
@@ -8381,7 +8569,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lugia": {
     "restricted": false,
@@ -8425,7 +8614,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hooh": {
     "restricted": false,
@@ -8469,7 +8659,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "celebi": {
     "restricted": false,
@@ -8515,7 +8706,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sceptile": {
     "restricted": false,
@@ -8563,7 +8755,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sceptilemega": {
     "restricted": false,
@@ -8606,7 +8799,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blaziken": {
     "restricted": false,
@@ -8653,7 +8847,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blazikenmega": {
     "restricted": false,
@@ -8696,7 +8891,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blazikenpartner": {
     "restricted": false,
@@ -8744,7 +8940,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "swampert": {
     "restricted": false,
@@ -8788,7 +8985,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "swampertmega": {
     "restricted": false,
@@ -8831,7 +9029,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mightyena": {
     "restricted": false,
@@ -8882,7 +9081,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "linoone": {
     "restricted": false,
@@ -8924,7 +9124,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "beautifly": {
     "restricted": false,
@@ -8969,7 +9170,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dustox": {
     "restricted": false,
@@ -9015,7 +9217,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ludicolo": {
     "restricted": false,
@@ -9057,7 +9260,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "shiftry": {
     "restricted": false,
@@ -9099,7 +9303,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "swellow": {
     "restricted": false,
@@ -9144,7 +9349,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pelipper": {
     "restricted": false,
@@ -9188,7 +9394,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gardevoir": {
     "restricted": false,
@@ -9231,7 +9438,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gardevoirmega": {
     "restricted": false,
@@ -9273,7 +9481,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "masquerain": {
     "restricted": false,
@@ -9317,7 +9526,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "breloom": {
     "restricted": false,
@@ -9361,7 +9571,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slaking": {
     "restricted": false,
@@ -9402,7 +9613,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slakingmega": {
     "restricted": false,
@@ -9444,7 +9656,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ninjask": {
     "restricted": false,
@@ -9487,7 +9700,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "shedinja": {
     "restricted": false,
@@ -9531,7 +9745,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "exploud": {
     "restricted": false,
@@ -9576,7 +9791,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hariyama": {
     "restricted": false,
@@ -9619,7 +9835,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "delcatty": {
     "restricted": false,
@@ -9661,7 +9878,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sableye": {
     "restricted": false,
@@ -9708,7 +9926,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sableyemega": {
     "restricted": false,
@@ -9750,7 +9969,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mawile": {
     "restricted": false,
@@ -9796,7 +10016,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mawilemega": {
     "restricted": false,
@@ -9836,7 +10057,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mawilepartner": {
     "restricted": false,
@@ -9885,7 +10107,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aggron": {
     "restricted": false,
@@ -9932,7 +10155,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aggronmega": {
     "restricted": false,
@@ -9978,7 +10202,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "medicham": {
     "restricted": false,
@@ -10021,7 +10246,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "medichammega": {
     "restricted": false,
@@ -10061,7 +10287,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "manectric": {
     "restricted": false,
@@ -10106,7 +10333,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "manectricmega": {
     "restricted": false,
@@ -10147,7 +10375,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "plusle": {
     "restricted": false,
@@ -10189,7 +10418,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "minun": {
     "restricted": false,
@@ -10231,7 +10461,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "volbeat": {
     "restricted": false,
@@ -10277,7 +10508,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "illumise": {
     "restricted": false,
@@ -10322,7 +10554,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "swalot": {
     "restricted": false,
@@ -10365,7 +10598,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sharpedo": {
     "restricted": false,
@@ -10408,7 +10642,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sharpedomega": {
     "restricted": false,
@@ -10450,7 +10685,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wailord": {
     "restricted": false,
@@ -10492,7 +10728,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "camerupt": {
     "restricted": false,
@@ -10536,7 +10773,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cameruptmega": {
     "restricted": false,
@@ -10578,7 +10816,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "torkoal": {
     "restricted": false,
@@ -10621,7 +10860,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "grumpig": {
     "restricted": false,
@@ -10663,7 +10903,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "spinda": {
     "restricted": false,
@@ -10705,7 +10946,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "flygon": {
     "restricted": false,
@@ -10748,7 +10990,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cacturne": {
     "restricted": false,
@@ -10791,7 +11034,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "altaria": {
     "restricted": false,
@@ -10837,7 +11081,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "altariamega": {
     "restricted": false,
@@ -10879,7 +11124,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zangoose": {
     "restricted": false,
@@ -10921,7 +11167,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "seviper": {
     "restricted": false,
@@ -10965,7 +11212,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lunatone": {
     "restricted": false,
@@ -11010,7 +11258,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "solrock": {
     "restricted": false,
@@ -11053,7 +11302,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "whiscash": {
     "restricted": false,
@@ -11099,7 +11349,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "crawdaunt": {
     "restricted": false,
@@ -11141,7 +11392,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "claydol": {
     "restricted": false,
@@ -11187,7 +11439,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cradily": {
     "restricted": false,
@@ -11233,7 +11486,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "armaldo": {
     "restricted": false,
@@ -11277,7 +11531,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "milotic": {
     "restricted": false,
@@ -11324,7 +11579,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "castform": {
     "restricted": false,
@@ -11366,7 +11622,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "castformsunny": {
     "restricted": false,
@@ -11408,7 +11665,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "castformsnowy": {
     "restricted": false,
@@ -11450,7 +11708,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "castformrainy": {
     "restricted": false,
@@ -11492,7 +11751,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "castformsandy": {
     "restricted": false,
@@ -11533,7 +11793,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "castformnightly": {
     "restricted": false,
@@ -11574,7 +11835,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kecleon": {
     "restricted": false,
@@ -11622,7 +11884,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "banette": {
     "restricted": false,
@@ -11670,7 +11933,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "banettemega": {
     "restricted": false,
@@ -11712,7 +11976,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tropius": {
     "restricted": false,
@@ -11756,7 +12021,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chimecho": {
     "restricted": false,
@@ -11804,7 +12070,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chimechomega": {
     "restricted": false,
@@ -11846,7 +12113,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "absol": {
     "restricted": false,
@@ -11892,7 +12160,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "absolmega": {
     "restricted": false,
@@ -11936,7 +12205,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "absolmegaz": {
     "restricted": false,
@@ -11978,7 +12248,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "glalie": {
     "restricted": false,
@@ -12019,7 +12290,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "glaliemega": {
     "restricted": false,
@@ -12060,7 +12332,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "walrein": {
     "restricted": false,
@@ -12105,7 +12378,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "huntail": {
     "restricted": false,
@@ -12148,7 +12422,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gorebyss": {
     "restricted": false,
@@ -12191,7 +12466,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "relicanth": {
     "restricted": false,
@@ -12235,7 +12511,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "luvdisc": {
     "restricted": false,
@@ -12280,7 +12557,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "salamence": {
     "restricted": false,
@@ -12326,7 +12604,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "salamencemega": {
     "restricted": false,
@@ -12369,7 +12648,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "metagross": {
     "restricted": false,
@@ -12411,7 +12691,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "metagrossmega": {
     "restricted": false,
@@ -12453,7 +12734,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "regirock": {
     "restricted": false,
@@ -12495,7 +12777,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "regice": {
     "restricted": false,
@@ -12538,7 +12821,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "registeel": {
     "restricted": false,
@@ -12580,7 +12864,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "latias": {
     "restricted": false,
@@ -12623,7 +12908,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "latiasmega": {
     "restricted": false,
@@ -12665,7 +12951,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "latios": {
     "restricted": false,
@@ -12709,7 +12996,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "latiosmega": {
     "restricted": false,
@@ -12751,7 +13039,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kyogre": {
     "restricted": false,
@@ -12793,7 +13082,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kyogreprimal": {
     "restricted": false,
@@ -12834,7 +13124,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "groudon": {
     "restricted": false,
@@ -12876,7 +13167,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "groudonprimal": {
     "restricted": false,
@@ -12918,7 +13210,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rayquaza": {
     "restricted": false,
@@ -12962,7 +13255,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rayquazamega": {
     "restricted": false,
@@ -13004,7 +13298,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "jirachi": {
     "restricted": false,
@@ -13046,7 +13341,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "deoxys": {
     "restricted": false,
@@ -13088,7 +13384,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "deoxysattack": {
     "restricted": false,
@@ -13131,7 +13428,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "deoxysdefense": {
     "restricted": false,
@@ -13173,7 +13471,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "deoxysspeed": {
     "restricted": false,
@@ -13215,7 +13514,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "torterra": {
     "restricted": false,
@@ -13258,7 +13558,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "torterramega": {
     "restricted": false,
@@ -13300,7 +13601,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "infernape": {
     "restricted": false,
@@ -13343,7 +13645,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "infernapepartner": {
     "restricted": false,
@@ -13387,7 +13690,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "infernapemega": {
     "restricted": false,
@@ -13429,7 +13733,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "empoleon": {
     "restricted": false,
@@ -13474,7 +13779,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "empoleonmegao": {
     "restricted": false,
@@ -13516,7 +13822,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "empoleonmegad": {
     "restricted": false,
@@ -13558,7 +13865,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "staraptor": {
     "restricted": false,
@@ -13609,7 +13917,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "staraptormega": {
     "restricted": false,
@@ -13651,7 +13960,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bibarel": {
     "restricted": false,
@@ -13694,7 +14004,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kricketune": {
     "restricted": false,
@@ -13741,7 +14052,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "luxray": {
     "restricted": false,
@@ -13785,7 +14097,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "luxraymega": {
     "restricted": false,
@@ -13827,7 +14140,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "roserade": {
     "restricted": false,
@@ -13874,7 +14188,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "roserademega": {
     "restricted": false,
@@ -13916,7 +14231,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rampardos": {
     "restricted": false,
@@ -13959,7 +14275,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bastiodon": {
     "restricted": false,
@@ -14002,7 +14319,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wormadam": {
     "restricted": false,
@@ -14047,7 +14365,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wormadamsandy": {
     "restricted": false,
@@ -14093,7 +14412,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wormadamtrash": {
     "restricted": false,
@@ -14140,7 +14460,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mothim": {
     "restricted": false,
@@ -14187,7 +14508,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "vespiquen": {
     "restricted": false,
@@ -14231,7 +14553,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pachirisu": {
     "restricted": false,
@@ -14273,7 +14596,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "floatzel": {
     "restricted": false,
@@ -14315,7 +14639,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cherrim": {
     "restricted": false,
@@ -14357,7 +14682,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cherrimsunshine": {
     "restricted": false,
@@ -14399,7 +14725,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gastrodon": {
     "restricted": false,
@@ -14442,7 +14769,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ambipom": {
     "restricted": false,
@@ -14483,7 +14811,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "drifblim": {
     "restricted": false,
@@ -14527,7 +14856,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lopunny": {
     "restricted": false,
@@ -14573,7 +14903,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lopunnymega": {
     "restricted": false,
@@ -14615,7 +14946,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mismagius": {
     "restricted": false,
@@ -14656,7 +14988,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "honchkrow": {
     "restricted": false,
@@ -14703,7 +15036,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "purugly": {
     "restricted": false,
@@ -14746,7 +15080,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "skuntank": {
     "restricted": false,
@@ -14788,7 +15123,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bronzong": {
     "restricted": false,
@@ -14830,7 +15166,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chatot": {
     "restricted": false,
@@ -14877,7 +15214,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "spiritomb": {
     "restricted": false,
@@ -14922,7 +15260,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "garchomp": {
     "restricted": false,
@@ -14968,7 +15307,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "garchompmega": {
     "restricted": false,
@@ -15010,7 +15350,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "garchompmegaz": {
     "restricted": false,
@@ -15052,7 +15393,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lucario": {
     "restricted": false,
@@ -15095,7 +15437,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lucariomega": {
     "restricted": false,
@@ -15138,7 +15481,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lucariomegaz": {
     "restricted": false,
@@ -15181,7 +15525,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hippowdon": {
     "restricted": false,
@@ -15222,7 +15567,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "drapion": {
     "restricted": false,
@@ -15266,7 +15612,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toxicroak": {
     "restricted": false,
@@ -15308,7 +15655,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "carnivine": {
     "restricted": false,
@@ -15354,7 +15702,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lumineon": {
     "restricted": false,
@@ -15399,7 +15748,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "abomasnow": {
     "restricted": false,
@@ -15443,7 +15793,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "abomasnowmega": {
     "restricted": false,
@@ -15485,7 +15836,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "weavile": {
     "restricted": false,
@@ -15528,7 +15880,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "magnezone": {
     "restricted": false,
@@ -15570,7 +15923,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lickilicky": {
     "restricted": false,
@@ -15613,7 +15967,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rhyperior": {
     "restricted": false,
@@ -15657,7 +16012,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tangrowth": {
     "restricted": false,
@@ -15699,7 +16055,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "electivire": {
     "restricted": false,
@@ -15743,7 +16100,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "magmortar": {
     "restricted": false,
@@ -15798,7 +16156,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "togekiss": {
     "restricted": false,
@@ -15846,7 +16205,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "yanmega": {
     "restricted": false,
@@ -15896,7 +16256,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "leafeon": {
     "restricted": false,
@@ -15938,7 +16299,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "glaceon": {
     "restricted": false,
@@ -15980,7 +16342,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gliscor": {
     "restricted": false,
@@ -16024,7 +16387,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mamoswine": {
     "restricted": false,
@@ -16067,7 +16431,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "porygonz": {
     "restricted": false,
@@ -16111,7 +16476,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gallade": {
     "restricted": false,
@@ -16154,7 +16520,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gallademega": {
     "restricted": false,
@@ -16196,7 +16563,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "probopass": {
     "restricted": false,
@@ -16238,7 +16606,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dusknoir": {
     "restricted": false,
@@ -16282,7 +16651,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dusknoirmega": {
     "restricted": false,
@@ -16324,7 +16694,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "froslass": {
     "restricted": false,
@@ -16369,7 +16740,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "froslassmega": {
     "restricted": false,
@@ -16411,7 +16783,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotom": {
     "restricted": false,
@@ -16459,7 +16832,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotomfrost": {
     "restricted": false,
@@ -16509,7 +16883,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotomheat": {
     "restricted": false,
@@ -16558,7 +16933,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotommow": {
     "restricted": false,
@@ -16607,7 +16983,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotomfan": {
     "restricted": false,
@@ -16657,7 +17034,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotomwash": {
     "restricted": false,
@@ -16706,7 +17084,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotomsaw": {
     "restricted": false,
@@ -16759,7 +17138,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rotomfogger": {
     "restricted": false,
@@ -16815,9 +17195,10 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
-  "rotomtill": {
+  "rotomtiller": {
     "restricted": false,
     "types": [
       "Electric",
@@ -16866,7 +17247,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "uxie": {
     "restricted": false,
@@ -16908,7 +17290,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mesprit": {
     "restricted": false,
@@ -16950,7 +17333,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "azelf": {
     "restricted": false,
@@ -16992,7 +17376,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dialga": {
     "restricted": false,
@@ -17034,7 +17419,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dialgaorigin": {
     "restricted": false,
@@ -17076,7 +17462,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "palkia": {
     "restricted": false,
@@ -17118,7 +17505,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "palkiaorigin": {
     "restricted": false,
@@ -17160,7 +17548,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "heatran": {
     "restricted": false,
@@ -17203,7 +17592,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "heatranmega": {
     "restricted": false,
@@ -17245,7 +17635,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "regigigas": {
     "restricted": false,
@@ -17287,7 +17678,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "giratina": {
     "restricted": false,
@@ -17329,7 +17721,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "giratinaorigin": {
     "restricted": false,
@@ -17372,7 +17765,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cresselia": {
     "restricted": false,
@@ -17416,7 +17810,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "phione": {
     "restricted": false,
@@ -17459,7 +17854,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "manaphy": {
     "restricted": false,
@@ -17500,7 +17896,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "darkrai": {
     "restricted": false,
@@ -17548,7 +17945,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "darkraimega": {
     "restricted": false,
@@ -17596,7 +17994,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "shaymin": {
     "restricted": false,
@@ -17637,7 +18036,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "shayminsky": {
     "restricted": false,
@@ -17679,7 +18079,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceus": {
     "restricted": false,
@@ -17721,7 +18122,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusbug": {
     "restricted": false,
@@ -17763,7 +18165,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusdark": {
     "restricted": false,
@@ -17805,7 +18208,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusdragon": {
     "restricted": false,
@@ -17847,7 +18251,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceuselectric": {
     "restricted": false,
@@ -17889,7 +18294,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusfairy": {
     "restricted": false,
@@ -17931,7 +18337,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusfighting": {
     "restricted": false,
@@ -17973,7 +18380,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusfire": {
     "restricted": false,
@@ -18015,7 +18423,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusflying": {
     "restricted": false,
@@ -18057,7 +18466,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusghost": {
     "restricted": false,
@@ -18099,7 +18509,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusgrass": {
     "restricted": false,
@@ -18141,7 +18552,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusground": {
     "restricted": false,
@@ -18183,7 +18595,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusice": {
     "restricted": false,
@@ -18225,7 +18638,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceuspoison": {
     "restricted": false,
@@ -18267,7 +18681,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceuspsychic": {
     "restricted": false,
@@ -18309,7 +18724,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceusrock": {
     "restricted": false,
@@ -18351,7 +18767,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceussteel": {
     "restricted": false,
@@ -18393,7 +18810,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arceuswater": {
     "restricted": false,
@@ -18435,7 +18853,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "victini": {
     "restricted": false,
@@ -18481,7 +18900,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "serperior": {
     "restricted": false,
@@ -18524,7 +18944,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "emboar": {
     "restricted": false,
@@ -18570,7 +18991,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "emboarmega": {
     "restricted": false,
@@ -18612,7 +19034,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "samurott": {
     "restricted": false,
@@ -18653,7 +19076,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "samurottpartner": {
     "restricted": false,
@@ -18700,7 +19124,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "samurotthisui": {
     "restricted": false,
@@ -18745,7 +19170,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "watchog": {
     "restricted": false,
@@ -18790,7 +19216,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "stoutland": {
     "restricted": false,
@@ -18832,7 +19259,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "liepard": {
     "restricted": false,
@@ -18887,7 +19315,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "simisage": {
     "restricted": false,
@@ -18934,7 +19363,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "simisear": {
     "restricted": false,
@@ -18982,7 +19412,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "simipour": {
     "restricted": false,
@@ -19029,7 +19460,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "musharna": {
     "restricted": false,
@@ -19078,7 +19510,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "unfezant": {
     "restricted": false,
@@ -19125,7 +19558,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zebstrika": {
     "restricted": false,
@@ -19167,7 +19601,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gigalith": {
     "restricted": false,
@@ -19210,7 +19645,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "swoobat": {
     "restricted": false,
@@ -19258,7 +19694,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "excadrill": {
     "restricted": false,
@@ -19303,7 +19740,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "excadrillmega": {
     "restricted": false,
@@ -19346,7 +19784,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "audino": {
     "restricted": false,
@@ -19391,7 +19830,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "audinomega": {
     "restricted": false,
@@ -19433,7 +19873,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "conkeldurr": {
     "restricted": false,
@@ -19477,7 +19918,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "seismitoad": {
     "restricted": false,
@@ -19525,7 +19967,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "throh": {
     "restricted": false,
@@ -19578,7 +20021,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sawk": {
     "restricted": false,
@@ -19629,7 +20073,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "leavanny": {
     "restricted": false,
@@ -19671,7 +20116,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scolipede": {
     "restricted": false,
@@ -19721,7 +20167,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scolipedemega": {
     "restricted": false,
@@ -19764,7 +20211,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "whimsicott": {
     "restricted": false,
@@ -19807,7 +20255,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lilligant": {
     "restricted": false,
@@ -19848,7 +20297,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lilliganthisui": {
     "restricted": false,
@@ -19890,7 +20340,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "basculin": {
     "restricted": false,
@@ -19931,7 +20382,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "basculinbluestriped": {
     "restricted": false,
@@ -19972,7 +20424,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "krookodile": {
     "restricted": false,
@@ -20016,7 +20469,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "darmanitan": {
     "restricted": false,
@@ -20061,7 +20515,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "darmanitanzen": {
     "restricted": false,
@@ -20107,7 +20562,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "darmanitangalar": {
     "restricted": false,
@@ -20150,7 +20606,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "darmanitangalarzen": {
     "restricted": false,
@@ -20193,7 +20650,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "maractus": {
     "restricted": false,
@@ -20235,7 +20693,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "crustle": {
     "restricted": false,
@@ -20280,7 +20739,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scrafty": {
     "restricted": false,
@@ -20324,7 +20784,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scraftymega": {
     "restricted": false,
@@ -20366,7 +20827,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sigilyph": {
     "restricted": false,
@@ -20412,7 +20874,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cofagrigus": {
     "restricted": false,
@@ -20459,7 +20922,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "carracosta": {
     "restricted": false,
@@ -20503,7 +20967,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "archeops": {
     "restricted": false,
@@ -20548,7 +21013,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "garbodor": {
     "restricted": false,
@@ -20593,7 +21059,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "garbodormega": {
     "restricted": false,
@@ -20634,7 +21101,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zoroark": {
     "restricted": false,
@@ -20676,7 +21144,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zoroarkhisui": {
     "restricted": false,
@@ -20718,7 +21187,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cinccino": {
     "restricted": false,
@@ -20759,7 +21229,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gothitelle": {
     "restricted": false,
@@ -20800,7 +21271,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "reuniclus": {
     "restricted": false,
@@ -20842,7 +21314,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "swanna": {
     "restricted": false,
@@ -20886,7 +21359,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "vanilluxe": {
     "restricted": false,
@@ -20928,7 +21402,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sawsbuck": {
     "restricted": false,
@@ -20971,7 +21446,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "emolga": {
     "restricted": false,
@@ -21016,7 +21492,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "escavalier": {
     "restricted": false,
@@ -21059,7 +21536,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "amoonguss": {
     "restricted": false,
@@ -21105,7 +21583,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "jellicent": {
     "restricted": false,
@@ -21148,7 +21627,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "alomomola": {
     "restricted": false,
@@ -21189,7 +21669,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "galvantula": {
     "restricted": false,
@@ -21233,7 +21714,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ferrothorn": {
     "restricted": false,
@@ -21276,7 +21758,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "klinklang": {
     "restricted": false,
@@ -21328,7 +21811,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eelektross": {
     "restricted": false,
@@ -21377,7 +21861,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eelektrossmega": {
     "restricted": false,
@@ -21418,7 +21903,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "beheeyem": {
     "restricted": false,
@@ -21461,7 +21947,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chandelure": {
     "restricted": false,
@@ -21506,7 +21993,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chandeluremega": {
     "restricted": false,
@@ -21548,7 +22036,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "haxorus": {
     "restricted": false,
@@ -21592,7 +22081,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "haxorus-partner": {
     "restricted": false,
@@ -21639,7 +22129,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "beartic": {
     "restricted": false,
@@ -21680,7 +22171,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cryogonal": {
     "restricted": false,
@@ -21722,7 +22214,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "accelgor": {
     "restricted": false,
@@ -21765,7 +22258,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "stunfisk": {
     "restricted": false,
@@ -21814,7 +22308,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "stunfiskgalar": {
     "restricted": false,
@@ -21859,7 +22354,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mienshao": {
     "restricted": false,
@@ -21901,7 +22397,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "druddigon": {
     "restricted": false,
@@ -21945,7 +22442,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "golurk": {
     "restricted": false,
@@ -21991,7 +22489,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "golurkmega": {
     "restricted": false,
@@ -22033,7 +22532,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bouffalant": {
     "restricted": false,
@@ -22084,7 +22584,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "braviary": {
     "restricted": false,
@@ -22128,7 +22629,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "braviaryhisui": {
     "restricted": false,
@@ -22172,7 +22674,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mandibuzz": {
     "restricted": false,
@@ -22216,7 +22719,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "heatmor": {
     "restricted": false,
@@ -22259,7 +22763,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "durant": {
     "restricted": false,
@@ -22302,7 +22807,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hydreigon": {
     "restricted": false,
@@ -22348,7 +22854,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "volcarona": {
     "restricted": false,
@@ -22393,7 +22900,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "volcaronapartner": {
     "restricted": false,
@@ -22439,7 +22947,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cobalion": {
     "restricted": false,
@@ -22482,7 +22991,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "terrakion": {
     "restricted": false,
@@ -22529,7 +23039,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "virizion": {
     "restricted": false,
@@ -22578,7 +23089,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tornadus": {
     "restricted": false,
@@ -22621,7 +23133,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tornadustherian": {
     "restricted": false,
@@ -22664,7 +23177,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "thundurus": {
     "restricted": false,
@@ -22709,7 +23223,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "thundurustherian": {
     "restricted": false,
@@ -22754,7 +23269,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "landorus": {
     "restricted": false,
@@ -22799,7 +23315,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "landorustherian": {
     "restricted": false,
@@ -22844,7 +23361,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "keldeo": {
     "restricted": false,
@@ -22893,7 +23411,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "keldeoresolute": {
     "restricted": false,
@@ -22942,7 +23461,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meloetta": {
     "restricted": false,
@@ -22989,7 +23509,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meloettapirouette": {
     "restricted": false,
@@ -23036,7 +23557,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "genesect": {
     "restricted": false,
@@ -23082,7 +23604,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "reshiram": {
     "restricted": false,
@@ -23124,7 +23647,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zekrom": {
     "restricted": false,
@@ -23166,7 +23690,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kyurem": {
     "restricted": false,
@@ -23208,7 +23733,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kyuremwhite": {
     "restricted": false,
@@ -23252,7 +23778,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kyuremblack": {
     "restricted": false,
@@ -23296,7 +23823,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chesnaught": {
     "restricted": false,
@@ -23341,7 +23869,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chesnaughtmega": {
     "restricted": false,
@@ -23383,7 +23912,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "delphox": {
     "restricted": false,
@@ -23427,7 +23957,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "delphoxmega": {
     "restricted": false,
@@ -23469,7 +24000,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "greninja": {
     "restricted": false,
@@ -23515,7 +24047,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "greninjamega": {
     "restricted": false,
@@ -23557,7 +24090,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "greninjaash": {
     "restricted": true,
@@ -23597,7 +24131,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "diggersby": {
     "restricted": false,
@@ -23640,7 +24175,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "talonflame": {
     "restricted": false,
@@ -23686,7 +24222,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "vivillon": {
     "restricted": false,
@@ -23732,7 +24269,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pyroar": {
     "restricted": false,
@@ -23783,7 +24321,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pyroarmega": {
     "restricted": false,
@@ -23825,7 +24364,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "floetteeternal": {
     "restricted": false,
@@ -23880,7 +24420,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "floettemega": {
     "restricted": false,
@@ -23923,7 +24464,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "florges": {
     "restricted": false,
@@ -23965,7 +24507,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gogoat": {
     "restricted": false,
@@ -24009,7 +24552,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pangoro": {
     "restricted": false,
@@ -24054,7 +24598,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "furfrou": {
     "restricted": false,
@@ -24103,7 +24648,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meowstic": {
     "restricted": false,
@@ -24153,7 +24699,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meowsticf": {
     "restricted": false,
@@ -24199,7 +24746,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meowsticmega": {
     "restricted": false,
@@ -24240,7 +24788,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meowsticmegaf": {
     "restricted": false,
@@ -24281,7 +24830,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aegislash": {
     "restricted": false,
@@ -24326,7 +24876,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aegislashblade": {
     "restricted": false,
@@ -24373,7 +24924,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aromatisse": {
     "restricted": false,
@@ -24418,7 +24970,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slurpuff": {
     "restricted": false,
@@ -24463,7 +25016,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "malamar": {
     "restricted": false,
@@ -24514,7 +25068,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "malamar-mega": {
     "restricted": false,
@@ -24556,7 +25111,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "barbaracle": {
     "restricted": false,
@@ -24603,7 +25159,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "barbaraclemega": {
     "restricted": false,
@@ -24645,7 +25202,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dragalge": {
     "restricted": false,
@@ -24688,7 +25246,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dragalgemega": {
     "restricted": false,
@@ -24730,7 +25289,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "clawitzer": {
     "restricted": false,
@@ -24772,7 +25332,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "heliolisk": {
     "restricted": false,
@@ -24818,7 +25379,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tyrantrum": {
     "restricted": false,
@@ -24865,7 +25427,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aurorus": {
     "restricted": false,
@@ -24911,7 +25474,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sylveon": {
     "restricted": false,
@@ -24954,7 +25518,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hawlucha": {
     "restricted": false,
@@ -24999,7 +25564,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hawluchamega": {
     "restricted": false,
@@ -25042,7 +25608,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hawluchapartner": {
     "restricted": false,
@@ -25088,7 +25655,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dedenne": {
     "restricted": false,
@@ -25133,7 +25701,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "carbink": {
     "restricted": false,
@@ -25176,7 +25745,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "goodra": {
     "restricted": false,
@@ -25222,7 +25792,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "goodrahisui": {
     "restricted": false,
@@ -25270,7 +25841,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "klefki": {
     "restricted": false,
@@ -25314,7 +25886,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "trevenant": {
     "restricted": false,
@@ -25361,7 +25934,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gourgeist": {
     "restricted": false,
@@ -25411,7 +25985,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "avalugg": {
     "restricted": false,
@@ -25453,7 +26028,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "avalugghisui": {
     "restricted": false,
@@ -25498,7 +26074,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "noivern": {
     "restricted": false,
@@ -25546,7 +26123,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "xerneas": {
     "restricted": false,
@@ -25591,7 +26169,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "yveltal": {
     "restricted": false,
@@ -25636,7 +26215,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zygarde": {
     "restricted": false,
@@ -25684,7 +26264,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zygarde10": {
     "restricted": false,
@@ -25732,7 +26313,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zygardecomplete": {
     "restricted": false,
@@ -25780,7 +26362,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zygardemega": {
     "restricted": false,
@@ -25822,7 +26405,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "diancie": {
     "restricted": false,
@@ -25866,7 +26450,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dianciemega": {
     "restricted": false,
@@ -25908,7 +26493,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hoopa": {
     "restricted": false,
@@ -25953,7 +26539,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hoopaunbound": {
     "restricted": false,
@@ -25997,7 +26584,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "volcanion": {
     "restricted": false,
@@ -26039,7 +26627,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "decidueye": {
     "restricted": false,
@@ -26081,7 +26670,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "decidueyehisui": {
     "restricted": false,
@@ -26123,7 +26713,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "incineroar": {
     "restricted": false,
@@ -26165,7 +26756,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "primarina": {
     "restricted": false,
@@ -26207,7 +26799,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toucannon": {
     "restricted": false,
@@ -26253,7 +26846,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gumshoos": {
     "restricted": false,
@@ -26294,7 +26888,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "vikavolt": {
     "restricted": false,
@@ -26336,7 +26931,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "crabominable": {
     "restricted": false,
@@ -26383,7 +26979,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "crabominablemega": {
     "restricted": false,
@@ -26425,7 +27022,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "oricorio": {
     "restricted": false,
@@ -26490,7 +27088,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "oricoriopompom": {
     "restricted": false,
@@ -26534,7 +27133,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "oricoriopau": {
     "restricted": false,
@@ -26578,7 +27178,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "oricoriosensu": {
     "restricted": false,
@@ -26622,7 +27223,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ribombee": {
     "restricted": false,
@@ -26664,7 +27266,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lycanroc": {
     "restricted": false,
@@ -26707,7 +27310,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lycanrocmidnight": {
     "restricted": false,
@@ -26757,7 +27361,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lycanrocdusk": {
     "restricted": false,
@@ -26799,7 +27404,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wishiwashi": {
     "restricted": false,
@@ -26841,7 +27447,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wishiwashischool": {
     "restricted": false,
@@ -26883,7 +27490,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toxapex": {
     "restricted": false,
@@ -26926,7 +27534,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mudsdale": {
     "restricted": false,
@@ -26969,7 +27578,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "araquanid": {
     "restricted": false,
@@ -27012,7 +27622,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lurantis": {
     "restricted": false,
@@ -27053,7 +27664,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "shiinotic": {
     "restricted": false,
@@ -27097,7 +27709,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "salazzle": {
     "restricted": false,
@@ -27139,7 +27752,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bewear": {
     "restricted": false,
@@ -27186,7 +27800,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tsareena": {
     "restricted": false,
@@ -27229,7 +27844,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "comfey": {
     "restricted": false,
@@ -27270,7 +27886,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "oranguru": {
     "restricted": false,
@@ -27312,7 +27929,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "passimian": {
     "restricted": false,
@@ -27353,7 +27971,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "golisopod": {
     "restricted": false,
@@ -27402,7 +28021,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "golisopodmega": {
     "restricted": false,
@@ -27444,7 +28064,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "palossand": {
     "restricted": false,
@@ -27491,7 +28112,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pyukumuku": {
     "restricted": false,
@@ -27532,7 +28154,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvally": {
     "restricted": false,
@@ -27575,7 +28198,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallybug": {
     "restricted": false,
@@ -27616,7 +28240,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallydark": {
     "restricted": false,
@@ -27658,7 +28283,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallydragon": {
     "restricted": false,
@@ -27699,7 +28325,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyelectric": {
     "restricted": false,
@@ -27740,7 +28367,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyfairy": {
     "restricted": false,
@@ -27781,7 +28409,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyfighting": {
     "restricted": false,
@@ -27822,7 +28451,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyfire": {
     "restricted": false,
@@ -27863,7 +28493,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyflying": {
     "restricted": false,
@@ -27904,7 +28535,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyghost": {
     "restricted": false,
@@ -27946,7 +28578,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallygrass": {
     "restricted": false,
@@ -27987,7 +28620,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyground": {
     "restricted": false,
@@ -28028,7 +28662,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyice": {
     "restricted": false,
@@ -28069,7 +28704,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallypoison": {
     "restricted": false,
@@ -28110,7 +28746,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallypsychic": {
     "restricted": false,
@@ -28151,7 +28788,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallyrock": {
     "restricted": false,
@@ -28192,7 +28830,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallysteel": {
     "restricted": false,
@@ -28233,7 +28872,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "silvallywater": {
     "restricted": false,
@@ -28274,7 +28914,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "miniormeteor": {
     "restricted": false,
@@ -28318,7 +28959,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "minior": {
     "restricted": false,
@@ -28362,7 +29004,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "miniorpartnermeteor": {
     "restricted": false,
@@ -28408,7 +29051,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "miniorpartner": {
     "restricted": false,
@@ -28454,7 +29098,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "komala": {
     "restricted": false,
@@ -28496,7 +29141,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "turtonator": {
     "restricted": false,
@@ -28540,7 +29186,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "togedemaru": {
     "restricted": false,
@@ -28584,7 +29231,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mimikyu": {
     "restricted": false,
@@ -28628,7 +29276,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mimikyubusted": {
     "restricted": false,
@@ -28672,7 +29321,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bruxish": {
     "restricted": false,
@@ -28714,7 +29364,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "drampa": {
     "restricted": false,
@@ -28766,7 +29417,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "drampamega": {
     "restricted": false,
@@ -28808,7 +29460,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dhelmise": {
     "restricted": false,
@@ -28852,7 +29505,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kommoo": {
     "restricted": false,
@@ -28894,7 +29548,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tapukoko": {
     "restricted": false,
@@ -28938,7 +29593,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tapulele": {
     "restricted": false,
@@ -28983,7 +29639,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tapubulu": {
     "restricted": false,
@@ -29029,7 +29686,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tapufini": {
     "restricted": false,
@@ -29074,7 +29732,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "solgaleo": {
     "restricted": false,
@@ -29117,7 +29776,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lunala": {
     "restricted": false,
@@ -29160,7 +29820,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "nihilego": {
     "restricted": false,
@@ -29204,7 +29865,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "buzzwole": {
     "restricted": false,
@@ -29250,7 +29912,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pheromosa": {
     "restricted": false,
@@ -29295,7 +29958,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "xurkitree": {
     "restricted": false,
@@ -29339,7 +30003,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "celesteela": {
     "restricted": false,
@@ -29386,7 +30051,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kartana": {
     "restricted": false,
@@ -29432,7 +30098,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "guzzlord": {
     "restricted": false,
@@ -29476,7 +30143,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "necrozma": {
     "restricted": false,
@@ -29518,7 +30186,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "necrozmaduskmane": {
     "restricted": false,
@@ -29562,7 +30231,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "necrozmadawnwings": {
     "restricted": false,
@@ -29606,7 +30276,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "necrozmaultra": {
     "restricted": false,
@@ -29649,7 +30320,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "magearna": {
     "restricted": false,
@@ -29697,7 +30369,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "magearnaoriginal": {
     "restricted": false,
@@ -29745,7 +30418,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "magearnamega": {
     "restricted": false,
@@ -29787,7 +30461,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "magearnamegaoriginal": {
     "restricted": false,
@@ -29829,7 +30504,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "marshadow": {
     "restricted": false,
@@ -29875,7 +30551,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "naganadel": {
     "restricted": false,
@@ -29918,7 +30595,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "stakataka": {
     "restricted": false,
@@ -29963,7 +30641,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "blacephalon": {
     "restricted": false,
@@ -30008,7 +30687,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zeraora": {
     "restricted": false,
@@ -30052,7 +30732,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zeraoramega": {
     "restricted": false,
@@ -30094,7 +30775,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "melmetal": {
     "restricted": false,
@@ -30138,7 +30820,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "melmetalmega": {
     "restricted": false,
@@ -30178,7 +30861,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rillaboom": {
     "restricted": false,
@@ -30221,7 +30905,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rillaboommega": {
     "restricted": false,
@@ -30262,7 +30947,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cinderace": {
     "restricted": false,
@@ -30306,7 +30992,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cinderacemega": {
     "restricted": false,
@@ -30346,7 +31033,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cinderacepartner": {
     "restricted": false,
@@ -30391,7 +31079,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "inteleon": {
     "restricted": false,
@@ -30434,7 +31123,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "inteleonmega": {
     "restricted": false,
@@ -30474,7 +31164,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "greedent": {
     "restricted": false,
@@ -30516,7 +31207,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "corviknight": {
     "restricted": false,
@@ -30558,7 +31250,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "corviknightmega": {
     "restricted": false,
@@ -30600,7 +31293,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "orbeetle": {
     "restricted": false,
@@ -30646,7 +31340,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "orbeetlemega": {
     "restricted": false,
@@ -30687,7 +31382,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "thievul": {
     "restricted": false,
@@ -30742,7 +31438,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eldegoss": {
     "restricted": false,
@@ -30784,7 +31481,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dubwool": {
     "restricted": false,
@@ -30827,7 +31525,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "drednaw": {
     "restricted": false,
@@ -30869,7 +31568,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "drednawmega": {
     "restricted": false,
@@ -30911,7 +31611,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "boltund": {
     "restricted": false,
@@ -30959,7 +31660,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "coalossal": {
     "restricted": false,
@@ -31003,7 +31705,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "coalossalmega": {
     "restricted": false,
@@ -31044,7 +31747,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "flapple": {
     "restricted": false,
@@ -31086,7 +31790,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "flapplemega": {
     "restricted": false,
@@ -31127,7 +31832,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "appletun": {
     "restricted": false,
@@ -31169,7 +31875,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "appletunmega": {
     "restricted": false,
@@ -31210,7 +31917,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sandaconda": {
     "restricted": false,
@@ -31251,7 +31959,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sandacondamega": {
     "restricted": false,
@@ -31292,7 +32001,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cramorant": {
     "restricted": false,
@@ -31334,7 +32044,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cramorantgorging": {
     "restricted": false,
@@ -31378,7 +32089,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cramorantgulping": {
     "restricted": false,
@@ -31422,7 +32134,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "barraskewda": {
     "restricted": false,
@@ -31463,7 +32176,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toxtricity": {
     "restricted": false,
@@ -31507,7 +32221,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toxtricitymega": {
     "restricted": false,
@@ -31549,7 +32264,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toxtricitylowkey": {
     "restricted": false,
@@ -31594,7 +32310,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toxtricitylowkeymega": {
     "restricted": false,
@@ -31636,7 +32353,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "centiskorch": {
     "restricted": false,
@@ -31679,7 +32397,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "centiskorchmega": {
     "restricted": false,
@@ -31721,7 +32440,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "grapploct": {
     "restricted": false,
@@ -31771,7 +32491,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "polteageist": {
     "restricted": false,
@@ -31813,7 +32534,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "polteageistantique": {
     "restricted": false,
@@ -31855,7 +32577,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hatterene": {
     "restricted": false,
@@ -31899,7 +32622,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hatterenemega": {
     "restricted": false,
@@ -31941,7 +32665,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "grimmsnarl": {
     "restricted": false,
@@ -31985,7 +32710,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "grimmsnarlmega": {
     "restricted": false,
@@ -32027,7 +32753,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "obstagoon": {
     "restricted": false,
@@ -32071,7 +32798,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "perrserker": {
     "restricted": false,
@@ -32118,7 +32846,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cursola": {
     "restricted": false,
@@ -32160,7 +32889,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sirfetchd": {
     "restricted": false,
@@ -32209,7 +32939,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mrrime": {
     "restricted": false,
@@ -32259,7 +32990,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "runerigus": {
     "restricted": false,
@@ -32311,7 +33043,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "alcremie": {
     "restricted": false,
@@ -32352,7 +33085,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "alcremiemega": {
     "restricted": false,
@@ -32392,7 +33126,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "falinks": {
     "restricted": false,
@@ -32440,7 +33175,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "falinkspartner": {
     "restricted": false,
@@ -32486,7 +33222,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "falinksmega": {
     "restricted": false,
@@ -32528,7 +33265,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pincurchin": {
     "restricted": false,
@@ -32569,7 +33307,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "frosmoth": {
     "restricted": false,
@@ -32613,7 +33352,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "stonjourner": {
     "restricted": false,
@@ -32655,7 +33395,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eiscue": {
     "restricted": false,
@@ -32696,7 +33437,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eiscuenoice": {
     "restricted": false,
@@ -32737,7 +33479,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "indeedee": {
     "restricted": false,
@@ -32785,7 +33528,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "indeedeef": {
     "restricted": false,
@@ -32832,7 +33576,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "morpeko": {
     "restricted": false,
@@ -32875,7 +33620,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "morpekohangry": {
     "restricted": false,
@@ -32918,7 +33664,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "copperajah": {
     "restricted": false,
@@ -32962,7 +33709,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "copperajahmega": {
     "restricted": false,
@@ -33001,7 +33749,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dracozolt": {
     "restricted": false,
@@ -33044,7 +33793,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arctozolt": {
     "restricted": false,
@@ -33087,7 +33837,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dracovish": {
     "restricted": false,
@@ -33130,7 +33881,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arctovish": {
     "restricted": false,
@@ -33173,7 +33925,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dragapult": {
     "restricted": false,
@@ -33217,7 +33970,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dragapultpartner": {
     "restricted": false,
@@ -33266,7 +34020,8 @@
     ],
     "rmmoves": [
       "nightshade"
-    ]
+    ],
+    "requiredItem": ""
   },
   "zacian": {
     "restricted": false,
@@ -33308,7 +34063,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zaciancrowned": {
     "restricted": false,
@@ -33355,7 +34111,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zamazenta": {
     "restricted": false,
@@ -33397,7 +34154,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zamazentacrowned": {
     "restricted": false,
@@ -33440,7 +34198,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eternatus": {
     "restricted": false,
@@ -33482,7 +34241,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "eternatusmega": {
     "restricted": false,
@@ -33524,7 +34284,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "urshifu": {
     "restricted": false,
@@ -33566,7 +34327,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "urshifumega": {
     "restricted": false,
@@ -33608,7 +34370,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "urshifurapidstrike": {
     "restricted": false,
@@ -33650,7 +34413,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "urshifurapidstrikemega": {
     "restricted": false,
@@ -33692,7 +34456,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "zarude": {
     "restricted": false,
@@ -33734,7 +34499,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "regieleki": {
     "restricted": false,
@@ -33775,7 +34541,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "regidrago": {
     "restricted": false,
@@ -33816,7 +34583,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "glastrier": {
     "restricted": false,
@@ -33857,7 +34625,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "spectrier": {
     "restricted": false,
@@ -33898,7 +34667,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "calyrex": {
     "restricted": false,
@@ -33940,7 +34710,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "calyrexice": {
     "restricted": false,
@@ -33983,7 +34754,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "calyrexshadow": {
     "restricted": false,
@@ -34026,7 +34798,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wyrdeer": {
     "restricted": false,
@@ -34068,7 +34841,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kleavor": {
     "restricted": false,
@@ -34111,7 +34885,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ursaluna": {
     "restricted": false,
@@ -34155,7 +34930,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ursalunabloodmoon": {
     "restricted": false,
@@ -34198,7 +34974,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "basculegion": {
     "restricted": false,
@@ -34240,7 +35017,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "basculegionf": {
     "restricted": false,
@@ -34282,7 +35060,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sneasler": {
     "restricted": false,
@@ -34324,7 +35103,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "overqwil": {
     "restricted": false,
@@ -34369,7 +35149,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "enamorus": {
     "restricted": false,
@@ -34412,7 +35193,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "enamorustherian": {
     "restricted": false,
@@ -34455,7 +35237,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "meowscarada": {
     "restricted": false,
@@ -34499,7 +35282,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "skeledirge": {
     "restricted": false,
@@ -34542,7 +35326,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "quaquaval": {
     "restricted": false,
@@ -34590,7 +35375,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "oinkologne": {
     "restricted": false,
@@ -34640,7 +35426,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "oinkolognef": {
     "restricted": false,
@@ -34688,7 +35475,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "spidops": {
     "restricted": false,
@@ -34729,7 +35517,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "lokix": {
     "restricted": false,
@@ -34775,7 +35564,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pawmot": {
     "restricted": false,
@@ -34818,7 +35608,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "maushold": {
     "restricted": false,
@@ -34859,7 +35650,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mausholdfour": {
     "restricted": false,
@@ -34900,7 +35692,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dachsbun": {
     "restricted": false,
@@ -34950,7 +35743,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arboliva": {
     "restricted": false,
@@ -34992,7 +35786,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "squawkabilly": {
     "restricted": false,
@@ -35046,7 +35841,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "squawkabillyblue": {
     "restricted": false,
@@ -35101,7 +35897,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "squawkabillywhite": {
     "restricted": false,
@@ -35158,7 +35955,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "squawkabillyyellow": {
     "restricted": false,
@@ -35213,7 +36011,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "garganacl": {
     "restricted": false,
@@ -35255,7 +36054,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "armarouge": {
     "restricted": false,
@@ -35299,7 +36099,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ceruledge": {
     "restricted": false,
@@ -35344,7 +36145,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bellibolt": {
     "restricted": false,
@@ -35386,7 +36188,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kilowattrel": {
     "restricted": false,
@@ -35430,7 +36233,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mabosstiff": {
     "restricted": false,
@@ -35475,7 +36279,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "grafaiai": {
     "restricted": false,
@@ -35533,7 +36338,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "brambleghast": {
     "restricted": false,
@@ -35575,7 +36381,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "toedscruel": {
     "restricted": false,
@@ -35618,7 +36425,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "klawf": {
     "restricted": false,
@@ -35660,7 +36468,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scovillain": {
     "restricted": false,
@@ -35713,7 +36522,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "scovillainmega": {
     "restricted": false,
@@ -35756,7 +36566,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "rabsca": {
     "restricted": false,
@@ -35798,7 +36609,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "espathra": {
     "restricted": false,
@@ -35839,7 +36651,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tinkaton": {
     "restricted": false,
@@ -35887,7 +36700,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wugtrio": {
     "restricted": false,
@@ -35928,7 +36742,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "bombirdier": {
     "restricted": false,
@@ -35972,7 +36787,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "palafin": {
     "restricted": false,
@@ -36014,7 +36830,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "palafinhero": {
     "restricted": false,
@@ -36056,7 +36873,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "revavroom": {
     "restricted": false,
@@ -36100,7 +36918,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cyclizar": {
     "restricted": false,
@@ -36143,7 +36962,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "orthworm": {
     "restricted": false,
@@ -36184,7 +37004,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "glimmora": {
     "restricted": false,
@@ -36226,7 +37047,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "glimmoramega": {
     "restricted": false,
@@ -36269,7 +37091,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "houndstone": {
     "restricted": false,
@@ -36323,7 +37146,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "flamigo": {
     "restricted": false,
@@ -36372,7 +37196,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "flamigopartner": {
     "restricted": false,
@@ -36421,7 +37246,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cetitan": {
     "restricted": false,
@@ -36469,7 +37295,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "veluza": {
     "restricted": false,
@@ -36511,7 +37338,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dondozo": {
     "restricted": false,
@@ -36555,7 +37383,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tatsugiri": {
     "restricted": false,
@@ -36606,7 +37435,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tatsugiridroopy": {
     "restricted": false,
@@ -36657,7 +37487,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tatsugiristretchy": {
     "restricted": false,
@@ -36708,7 +37539,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tatsugirimega": {
     "restricted": false,
@@ -36750,7 +37582,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tatsugiridroopymega": {
     "restricted": false,
@@ -36792,7 +37625,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tatsugiristretchymega": {
     "restricted": false,
@@ -36834,7 +37668,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "annihilape": {
     "restricted": false,
@@ -36878,7 +37713,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "clodsire": {
     "restricted": false,
@@ -36920,7 +37756,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "farigiraf": {
     "restricted": false,
@@ -36962,7 +37799,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dudunsparce": {
     "restricted": false,
@@ -37011,7 +37849,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "dudunsparcethreesegment": {
     "restricted": false,
@@ -37059,7 +37898,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kingambit": {
     "restricted": false,
@@ -37101,7 +37941,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "greattusk": {
     "restricted": false,
@@ -37145,7 +37986,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "screamtail": {
     "restricted": false,
@@ -37189,7 +38031,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "brutebonnet": {
     "restricted": false,
@@ -37234,7 +38077,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "fluttermane": {
     "restricted": false,
@@ -37277,7 +38121,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "slitherwing": {
     "restricted": false,
@@ -37321,7 +38166,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sandyshocks": {
     "restricted": false,
@@ -37365,7 +38211,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "irontreads": {
     "restricted": false,
@@ -37409,7 +38256,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironbundle": {
     "restricted": false,
@@ -37456,7 +38304,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironhands": {
     "restricted": false,
@@ -37499,7 +38348,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironjugulis": {
     "restricted": false,
@@ -37546,7 +38396,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironmoth": {
     "restricted": false,
@@ -37590,7 +38441,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironthorns": {
     "restricted": false,
@@ -37634,7 +38486,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "baxcalibur": {
     "restricted": false,
@@ -37679,7 +38532,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "baxcaliburmega": {
     "restricted": false,
@@ -37721,7 +38575,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "baxcaliburpartner": {
     "restricted": false,
@@ -37763,7 +38618,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gholdengo": {
     "restricted": false,
@@ -37806,7 +38662,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "wochien": {
     "restricted": false,
@@ -37854,7 +38711,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chienpao": {
     "restricted": false,
@@ -37899,7 +38757,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tinglu": {
     "restricted": false,
@@ -37945,7 +38804,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chiyu": {
     "restricted": false,
@@ -37989,7 +38849,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "roaringmoon": {
     "restricted": false,
@@ -38033,7 +38894,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironvaliant": {
     "restricted": false,
@@ -38079,7 +38941,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "koraidon": {
     "restricted": false,
@@ -38121,7 +38984,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "miraidon": {
     "restricted": false,
@@ -38163,7 +39027,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "walkingwake": {
     "restricted": false,
@@ -38206,7 +39071,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironleaves": {
     "restricted": false,
@@ -38250,7 +39116,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sinistcha": {
     "restricted": false,
@@ -38294,7 +39161,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "sinistchamasterpiece": {
     "restricted": false,
@@ -38338,7 +39206,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "okidogi": {
     "restricted": false,
@@ -38381,7 +39250,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "munkidori": {
     "restricted": false,
@@ -38425,7 +39295,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "fezandipiti": {
     "restricted": false,
@@ -38470,7 +39341,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ogerpon": {
     "restricted": false,
@@ -38511,7 +39383,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ogerponwellspring": {
     "restricted": false,
@@ -38553,7 +39426,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ogerponhearthflame": {
     "restricted": false,
@@ -38595,7 +39469,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ogerponcornerstone": {
     "restricted": false,
@@ -38638,7 +39513,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "archaludon": {
     "restricted": false,
@@ -38680,7 +39556,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hydrapple": {
     "restricted": false,
@@ -38722,7 +39599,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "gougingfire": {
     "restricted": false,
@@ -38765,7 +39643,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ragingbolt": {
     "restricted": false,
@@ -38808,7 +39687,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironboulder": {
     "restricted": false,
@@ -38853,7 +39733,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ironcrown": {
     "restricted": false,
@@ -38896,7 +39777,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "terapagos": {
     "restricted": false,
@@ -38937,7 +39819,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "terapagosterastal": {
     "restricted": false,
@@ -38978,7 +39861,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "terapagosstellar": {
     "restricted": false,
@@ -39019,7 +39903,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pecharunt": {
     "restricted": false,
@@ -39063,7 +39948,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "arghonaut": {
     "restricted": false,
@@ -39105,7 +39991,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "astrolotl": {
     "restricted": false,
@@ -39147,7 +40034,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "aurumoth": {
     "restricted": false,
@@ -39190,7 +40078,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "caribolt": {
     "restricted": false,
@@ -39233,7 +40122,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cawmodore": {
     "restricted": false,
@@ -39276,7 +40166,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chromera": {
     "restricted": false,
@@ -39320,7 +40211,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "chuggalong": {
     "restricted": false,
@@ -39363,7 +40255,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "colossoil": {
     "restricted": false,
@@ -39407,7 +40300,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cresceidon": {
     "restricted": false,
@@ -39450,7 +40344,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "crucibelle": {
     "restricted": false,
@@ -39492,7 +40387,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "crucibellemega": {
     "restricted": false,
@@ -39534,7 +40430,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "cyclohm": {
     "restricted": false,
@@ -39577,7 +40474,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "equilibra": {
     "restricted": false,
@@ -39620,7 +40518,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "fidgit": {
     "restricted": false,
@@ -39663,7 +40562,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "hemogoblin": {
     "restricted": false,
@@ -39706,7 +40606,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "jumbao": {
     "restricted": false,
@@ -39749,7 +40650,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kerfluffle": {
     "restricted": false,
@@ -39794,7 +40696,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "kitsunoh": {
     "restricted": false,
@@ -39838,7 +40741,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "krilowatt": {
     "restricted": false,
@@ -39881,7 +40785,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "malaconda": {
     "restricted": false,
@@ -39925,7 +40830,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "miasmaw": {
     "restricted": false,
@@ -39968,7 +40874,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "mollux": {
     "restricted": false,
@@ -40011,7 +40918,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "naviathan": {
     "restricted": false,
@@ -40054,7 +40962,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "necturna": {
     "restricted": false,
@@ -40098,7 +41007,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pajantom": {
     "restricted": false,
@@ -40142,7 +41052,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "plasmanta": {
     "restricted": false,
@@ -40185,7 +41096,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "pyroak": {
     "restricted": false,
@@ -40228,7 +41140,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ramnarok": {
     "restricted": false,
@@ -40271,7 +41184,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "ramnarokradiant": {
     "restricted": false,
@@ -40314,7 +41228,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "obliteryx": {
     "restricted": false,
@@ -40424,7 +41339,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "revenankh": {
     "restricted": false,
@@ -40468,7 +41384,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "saharaja": {
     "restricted": false,
@@ -40509,7 +41426,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "shox": {
     "restricted": false,
@@ -40552,7 +41470,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "smokomodo": {
     "restricted": false,
@@ -40595,7 +41514,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "snaelstrom": {
     "restricted": false,
@@ -40638,7 +41558,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "stratagem": {
     "restricted": false,
@@ -40680,7 +41601,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "syclant": {
     "restricted": false,
@@ -40723,7 +41645,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "tomohawk": {
     "restricted": false,
@@ -40766,7 +41689,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "venomicon": {
     "restricted": false,
@@ -40809,7 +41733,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "venomiconepilogue": {
     "restricted": false,
@@ -40852,7 +41777,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "volkraken": {
     "restricted": false,
@@ -40895,7 +41821,8 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   },
   "voodoom": {
     "restricted": false,
@@ -40939,6 +41866,7 @@
       "hiddenpowerwater",
       "hiddenpowerastral"
     ],
-    "rmmoves": []
+    "rmmoves": [],
+    "requiredItem": ""
   }
 }
