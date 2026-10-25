@@ -6407,7 +6407,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 218,
 	},
 	bonezone: {
-		onEffectiveness(typemod, target, type, move) {
+		onFoeEffectiveness(typemod, target, type, move) {
 			if (move.flags['bone']) return 0;
 		},
 		flags: {},
