@@ -17250,6 +17250,49 @@
     "rmmoves": [],
     "requiredItem": ""
   },
+  "rotomzapper": {
+    "restricted": false,
+    "types": [
+      "Electric",
+      "Bug"
+    ],
+    "abilities": {
+      "0": "Levitate",
+      "1": "Swarm"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 75,
+      "def": 96,
+      "spa": 125,
+      "spd": 107,
+      "spe": 117
+    },
+    "addmoves": [
+      "bugbuzz",
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": [],
+    "requiredItem": ""
+  },
   "uxie": {
     "restricted": false,
     "types": [
