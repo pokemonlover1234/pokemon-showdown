@@ -6410,6 +6410,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onFoeEffectiveness(typemod, target, type, move) {
 			if (move.flags['bone']) return 0;
 		},
+		onModifyMove(move) {
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true && move.flags['bone']) {
+				move.ignoreImmunity['Ground'] = true;
+				move.ignoreImmunity['Ghost'] = true;
+			}
+		},
 		flags: {},
 		name: "Bone Zone",
 		rating: 3,
