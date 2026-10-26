@@ -45,11 +45,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	selfdestruct: {
 		inherit: true,
-		basePower: 100,
+		basePower: 200,
 	},
 	explosion: {
 		inherit: true,
-		basePower: 150,
+		basePower: 300,
 	},
 	headsmash: {
 		inherit: true,
@@ -159,6 +159,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	mistyexplosion: {
 		inherit: true,
+		basePower: 200,
 	},
 	beatup: {
 		inherit: false,
