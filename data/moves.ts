@@ -21985,4 +21985,75 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Electric",
 		maxMove: { basePower: 130 },
 	},
+	shrapnel: {
+		num: 446,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shrapnel",
+		pp: 20,
+		priority: 0,
+		flags: { reflectable: 1, metronome: 1, mustpressure: 1 },
+		sideCondition: 'gmaxsteelsurge',
+		target: "foeSide",
+		type: "Steel",
+		zMove: { boost: { def: 1 } },
+		contestType: "Cool",
+	},
+	tsunami: {
+		accuracy: 90,
+		basePower: 130,
+		category: "Special",
+		name: "Tsunami",
+		pp: 10,
+		priority: 0,
+		flags: { charge: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		onAfterHit(target, pokemon, move) {
+			if (!move.hasSheerForce) {
+				const sideConditions = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				for (const condition of sideConditions) {
+					if (pokemon.side.removeSideCondition(condition)) {
+						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Tsunami', `[of] ${pokemon}`);
+					}
+				}
+			}
+		},
+		onAfterSubDamage(damage, target, pokemon, move) {
+			if (!move.hasSheerForce) {
+				const sideConditions = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				for (const condition of sideConditions) {
+					if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Tsunami', `[of] ${pokemon}`);
+					}
+				}
+			}
+		},
+		target: "allAdjacent",
+		type: "Water",
+	},
+	steelblade: {
+		num: 163,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Steel Blade",
+		pp: 20,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
+		critRatio: 2,
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
+	},
 };
