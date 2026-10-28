@@ -22027,6 +22027,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Tsunami', `[of] ${pokemon}`);
 					}
 				}
+				for (const condition of sideConditions) {
+					if (target.side.removeSideCondition(condition)) {
+						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Tsunami', `[of] ${pokemon}`);
+					}
+				}
 			}
 		},
 		onAfterSubDamage(damage, target, pokemon, move) {
@@ -22034,6 +22039,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				const sideConditions = ['spikes', 'toxicwebs', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 				for (const condition of sideConditions) {
 					if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Tsunami', `[of] ${pokemon}`);
+					}
+				}
+				for (const condition of sideConditions) {
+					if (pokemon.hp && target.side.removeSideCondition(condition)) {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Tsunami', `[of] ${pokemon}`);
 					}
 				}
