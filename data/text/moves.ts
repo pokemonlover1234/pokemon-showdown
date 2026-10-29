@@ -7774,5 +7774,35 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	gravbolt: {
 		name: "Grav Bolt",
 		shortDesc: "Sets Gravity."
-	}
+	},
+	plasmablade: {
+		name: "Plasma Blade",
+		desc: "Hits twice. 10% chance to burn",
+		shortDesc: "2 hits. 10% burn",
+	},
+	tsunami: {
+		name: "Tsunami",
+		desc: "Two-Turn move. Hits all and removes hazards from both sides.",
+		shortDesc: "Two-Turn. Hits all. Removes all hazards",
+	},
+	steelblade: {
+		name: "Steel Blade",
+		desc: "High critical hit ratio",
+		shortDesc: "High crit ratio",
+	},
+	shrapnel: {
+		name: "Shrapnel",
+		desc: "Sets steel spikes on the opposing side",
+		shortDesc: "Sets steel spikes",
+	},
+	shriek: {
+		name: "Shriek",
+		desc: "Hits both foes. 100% chance to lower Attack",
+		shortDesc: "Hits foes. 100% chance for -1 Atk",
+	},
+	essencedrain: {
+		name: "Essence Drain",
+		desc: "User heals 50% of damage dealt",
+		shortDesc: "Heals 50% of damage dealt",
+	},
 };
