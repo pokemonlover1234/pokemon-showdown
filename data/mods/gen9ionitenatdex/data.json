@@ -19226,7 +19226,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "slakingmega": {
+  "slakingmegaei": {
     "restricted": false,
     "types": [
       "Normal"
@@ -22864,7 +22864,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "dusknoirmega": {
+  "dusknoirmegaei": {
     "restricted": false,
     "types": [
       "Ghost",
@@ -25173,7 +25173,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "torterramega": {
+  "torterramegaei": {
     "restricted": false,
     "types": [
       "Grass",
@@ -25345,7 +25345,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "infernapemega": {
+  "infernapemegaei": {
     "restricted": false,
     "types": [
       "Fire",
@@ -25562,7 +25562,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "empoleonmegad": {
+  "empoleonmegadei": {
     "restricted": false,
     "types": [
       "Water",
@@ -25605,7 +25605,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "empoleonmegao": {
+  "empoleonmegaoei": {
     "restricted": false,
     "types": [
       "Water",
@@ -26138,7 +26138,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "luxraymega": {
+  "luxraymegaei": {
     "restricted": false,
     "types": [
       "Electric",
@@ -26316,7 +26316,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "roserademega": {
+  "roserademegaei": {
     "restricted": false,
     "types": [
       "Grass",
@@ -50614,6 +50614,7 @@
       "spe": 67
     },
     "addmoves": [
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
