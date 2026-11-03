@@ -15362,6 +15362,47 @@
     "rmmoves": [],
     "requiredItem": ""
   },
+  "torterramegaei": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "abilities": {
+      "0": "Stamina"
+    },
+    "baseStats": {
+      "hp": 115,
+      "atk": 139,
+      "def": 135,
+      "spa": 75,
+      "spd": 105,
+      "spe": 56
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": [],
+    "requiredItem": ""
+  },
   "chimchar": {
     "restricted": false,
     "types": [
@@ -15492,6 +15533,47 @@
     "rmmoves": [],
     "requiredItem": ""
   },
+  "infernapemegaei": {
+    "restricted": false,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "abilities": {
+      "0": "Iron Fist"
+    },
+    "baseStats": {
+      "hp": 76,
+      "atk": 137,
+      "def": 82,
+      "spa": 137,
+      "spd": 82,
+      "spe": 120
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": [],
+    "requiredItem": ""
+  },
   "piplup": {
     "restricted": false,
     "types": [
@@ -15599,6 +15681,88 @@
       "aquacutter",
       "behemothblade",
       "cryofreeze",
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": [],
+    "requiredItem": ""
+  },
+  "empoleonmegaoei": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Sharpness"
+    },
+    "baseStats": {
+      "hp": 84,
+      "atk": 150,
+      "def": 83,
+      "spa": 110,
+      "spd": 83,
+      "spe": 120
+    },
+    "addmoves": [
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": [],
+    "requiredItem": ""
+  },
+  "empoleonmegadei": {
+    "restricted": false,
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "abilities": {
+      "0": "Lightning Rod"
+    },
+    "baseStats": {
+      "hp": 118,
+      "atk": 86,
+      "def": 88,
+      "spa": 131,
+      "spd": 157,
+      "spe": 50
+    },
+    "addmoves": [
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -15935,7 +16099,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "luxraymega": {
+  "luxraymegaei": {
     "restricted": false,
     "types": [
       "Electric",
@@ -16270,6 +16434,47 @@
       "pollenpuff",
       "trailblaze",
       "flowertrick",
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": [],
+    "requiredItem": ""
+  },
+  "roserademegaei": {
+    "restricted": false,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "abilities": {
+      "0": "Technician"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 80,
+      "def": 90,
+      "spa": 140,
+      "spd": 125,
+      "spe": 120
+    },
+    "addmoves": [
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -19486,7 +19691,8 @@
     "abilities": {
       "0": "Rocky Payload",
       "1": "Solid Rock",
-      "H": "Reckless"
+      "H": "Reckless",
+      "S": "Water Bubble"
     },
     "baseStats": {
       "hp": 115,
@@ -36508,6 +36714,47 @@
       "flamewheel",
       "blazingtorque",
       "spinout",
+      "terablast",
+      "hiddenpower",
+      "hiddenpowerbug",
+      "hiddenpowerdark",
+      "hiddenpowerdragon",
+      "hiddenpowerelectric",
+      "hiddenpowerfighting",
+      "hiddenpowerfire",
+      "hiddenpowerflying",
+      "hiddenpowerghost",
+      "hiddenpowergrass",
+      "hiddenpowerground",
+      "hiddenpowerice",
+      "hiddenpowerpoison",
+      "hiddenpowerpsychic",
+      "hiddenpowerrock",
+      "hiddenpowersteel",
+      "hiddenpowerwater",
+      "hiddenpowerastral"
+    ],
+    "rmmoves": [],
+    "requiredItem": ""
+  },
+  "coalossalmega": {
+    "restricted": false,
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "abilities": {
+      "0": "Thick Fat"
+    },
+    "baseStats": {
+      "hp": 110,
+      "atk": 110,
+      "def": 140,
+      "spa": 110,
+      "spd": 110,
+      "spe": 30
+    },
+    "addmoves": [
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
