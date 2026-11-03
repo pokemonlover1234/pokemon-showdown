@@ -329,6 +329,7 @@
       "heavyslam",
       "ironhead",
       "windpulse",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -1236,6 +1237,7 @@
       "spe": 90
     },
     "addmoves": [
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -1556,6 +1558,7 @@
       "moonlight",
       "moonblast",
       "fakeout",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -2485,7 +2488,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "golem": {
+  "#N/A": {
     "restricted": false,
     "types": [
       "Rock",
@@ -2508,6 +2511,7 @@
     "addmoves": [
       "headsmash",
       "rockhammer",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -2554,6 +2558,7 @@
     "addmoves": [
       "headsmash",
       "rockhammer",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -3826,6 +3831,7 @@
     "addmoves": [
       "crunch",
       "wildcharge",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -4062,6 +4068,7 @@
       "healblock",
       "zenheadbutt",
       "aquajet",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -5637,6 +5644,7 @@
     "addmoves": [
       "vacuumwave",
       "discharge",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -5764,6 +5772,7 @@
       "spe": 100
     },
     "addmoves": [
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -6063,6 +6072,7 @@
     },
     "addmoves": [
       "iciclespear",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -7251,6 +7261,7 @@
     },
     "addmoves": [
       "uturn",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -8107,6 +8118,7 @@
       "darkpulse",
       "aurasphere",
       "windpulse",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -8965,6 +8977,7 @@
     },
     "addmoves": [
       "sludgebomb",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -9150,6 +9163,7 @@
       "terablast",
       "aircannon",
       "windpulse",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -9418,6 +9432,7 @@
     },
     "addmoves": [
       "gleamstep",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -9616,7 +9631,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "slakingmega": {
+  "slakingmegaei": {
     "restricted": false,
     "types": [
       "Normal"
@@ -9771,6 +9786,7 @@
       "alluringvoice",
       "psychicnoise",
       "terablast",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -10708,6 +10724,7 @@
     },
     "addmoves": [
       "terablast",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -11061,6 +11078,7 @@
       "aircannon",
       "windpulse",
       "petaldance",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -11282,6 +11300,7 @@
     },
     "addmoves": [
       "terablast",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -12050,6 +12069,7 @@
       "boomburst",
       "waterpulse",
       "amnesia",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -12270,6 +12290,7 @@
       "spe": 100
     },
     "addmoves": [
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -12446,6 +12467,7 @@
     "addmoves": [
       "terablast",
       "dazzlinggleam",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -13062,6 +13084,7 @@
     },
     "addmoves": [
       "iciclespear",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -13561,7 +13584,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "torterramega": {
+  "torterramegaei": {
     "restricted": false,
     "types": [
       "Grass",
@@ -13693,7 +13716,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "infernapemega": {
+  "infernapemegaei": {
     "restricted": false,
     "types": [
       "Fire",
@@ -13759,6 +13782,7 @@
     "addmoves": [
       "aircannon",
       "windpulse",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -13782,7 +13806,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "empoleonmegao": {
+  "empoleonmegaoei": {
     "restricted": false,
     "types": [
       "Water",
@@ -13825,7 +13849,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "empoleonmegad": {
+  "empoleonmegadei": {
     "restricted": false,
     "types": [
       "Water",
@@ -14100,7 +14124,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "luxraymega": {
+  "luxraymegaei": {
     "restricted": false,
     "types": [
       "Electric",
@@ -14191,7 +14215,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "roserademega": {
+  "roserademegaei": {
     "restricted": false,
     "types": [
       "Grass",
@@ -14440,6 +14464,7 @@
       "bodypress",
       "lunge",
       "terablast",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -15194,6 +15219,7 @@
       "psychicnoise",
       "aircannon",
       "windpulse",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -16500,6 +16526,7 @@
     },
     "addmoves": [
       "rustyblade",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -16654,7 +16681,7 @@
     "rmmoves": [],
     "requiredItem": ""
   },
-  "dusknoirmega": {
+  "dusknoirmegaei": {
     "restricted": false,
     "types": [
       "Ghost",
@@ -17118,6 +17145,8 @@
       "furycutter",
       "aerialace",
       "shadowclaw",
+      "plasmablade",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -17313,6 +17342,7 @@
     },
     "addmoves": [
       "recover",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -17356,6 +17386,7 @@
     },
     "addmoves": [
       "wish",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -17399,6 +17430,7 @@
     },
     "addmoves": [
       "icebeam",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -17968,6 +18000,7 @@
       "iciclespear",
       "vacuumwave",
       "moonlitnight",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -19668,6 +19701,7 @@
     "addmoves": [
       "terablast",
       "rockhammer",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -19717,6 +19751,7 @@
       "terablast",
       "aircannon",
       "windpulse",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -19763,6 +19798,7 @@
       "rockhammer",
       "agility",
       "megahorn",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -20945,6 +20981,7 @@
       "stealthrock",
       "thunderwave",
       "icywind",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -21559,6 +21596,7 @@
     },
     "addmoves": [
       "terablast",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -21781,6 +21819,7 @@
     },
     "addmoves": [
       "terablast",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -21884,6 +21923,7 @@
       "poisonfang",
       "psychicfangs",
       "waterfall",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -21970,6 +22010,7 @@
     "addmoves": [
       "dazzlinggleam",
       "terablast",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -22016,6 +22057,7 @@
       "afterburner",
       "flamewheel",
       "healblock",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -22104,6 +22146,7 @@
     "addmoves": [
       "nightslash",
       "rustyblade",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -22152,6 +22195,7 @@
       "sacredsword",
       "rustyblade",
       "nightslash",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -22512,6 +22556,7 @@
       "zapcannon",
       "thunder",
       "boltstrike",
+      "plasma",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -23014,6 +23059,7 @@
     },
     "addmoves": [
       "megahorn",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -24443,6 +24489,7 @@
       "drainingkiss",
       "hyperbeam",
       "lightscreen",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -24947,6 +24994,7 @@
       "leafblade",
       "rustyblade",
       "zenheadbutt",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -25091,6 +25139,7 @@
       "healblock",
       "poisonjab",
       "zenheadbutt",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -25541,6 +25590,7 @@
     "addmoves": [
       "gleamstep",
       "taunt",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -26146,6 +26196,7 @@
       "windpulse",
       "moonlitnight",
       "scaleshot",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -26238,6 +26289,7 @@
     "addmoves": [
       "moonlitnight",
       "healblock",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -26822,6 +26874,7 @@
       "spe": 65
     },
     "addmoves": [
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -27470,6 +27523,7 @@
     },
     "addmoves": [
       "terablast",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -27513,6 +27567,7 @@
     },
     "addmoves": [
       "terablast",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -28044,6 +28099,7 @@
       "uturn",
       "gunkshot",
       "agility",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -29209,6 +29265,7 @@
     "addmoves": [
       "terablast",
       "spikes",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -29662,6 +29719,7 @@
       "terablast",
       "psychicnoise",
       "gleamstep",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -29799,6 +29857,7 @@
     },
     "addmoves": [
       "radiantreckoning",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30074,6 +30133,7 @@
       "hardpress",
       "aircannon",
       "windpulse",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30121,6 +30181,7 @@
       "terablast",
       "aquacutter",
       "rustyblade",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30710,6 +30771,7 @@
     "addmoves": [
       "terablast",
       "burningjealousy",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -30755,6 +30817,7 @@
       "terablast",
       "trailblaze",
       "dynamicpunchvacuumwave",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -31273,6 +31336,7 @@
       "spe": 70
     },
     "addmoves": [
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -31363,6 +31427,7 @@
       "flashcannon",
       "dazzlinggleam",
       "terablast",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -32869,6 +32934,7 @@
       "thunderwave",
       "spikes",
       "liquidation",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -32912,6 +32978,7 @@
     },
     "addmoves": [
       "terablast",
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -33198,6 +33265,7 @@
       "lowsweep",
       "fakeout",
       "seedbomb",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -33732,6 +33800,7 @@
     "addmoves": [
       "surf",
       "powergem",
+      "shrapnel",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -34086,6 +34155,7 @@
     },
     "addmoves": [
       "radiantreckoning",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -36168,6 +36238,7 @@
       "leafblade",
       "rustyblade",
       "stoneedge",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -37406,6 +37477,7 @@
       "slackoff",
       "whirlpool",
       "irontail",
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -37822,6 +37894,7 @@
       "spe": 70
     },
     "addmoves": [
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -37964,6 +38037,7 @@
       "spe": 60
     },
     "addmoves": [
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -38054,6 +38128,7 @@
     },
     "addmoves": [
       "gleamstep",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -38144,6 +38219,7 @@
     },
     "addmoves": [
       "moonlitnight",
+      "shriek",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -38964,6 +39040,7 @@
       "nastyplot",
       "bulkup",
       "radiantreckoning",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -39139,6 +39216,7 @@
     },
     "addmoves": [
       "rustyblade",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -39756,6 +39834,7 @@
     "addmoves": [
       "rustyblade",
       "rockhammer",
+      "plasmablade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -39800,6 +39879,8 @@
       "spe": 108
     },
     "addmoves": [
+      "plasmablade",
+      "steelblade",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -40101,6 +40182,7 @@
       "spe": 95
     },
     "addmoves": [
+      "essencedrain",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -40367,6 +40449,7 @@
       "spe": 125
     },
     "addmoves": [
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -40985,6 +41068,7 @@
       "spe": 100
     },
     "addmoves": [
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
@@ -41844,6 +41928,7 @@
       "spe": 95
     },
     "addmoves": [
+      "tsunami",
       "terablast",
       "hiddenpower",
       "hiddenpowerbug",
