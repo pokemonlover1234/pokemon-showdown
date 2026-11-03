@@ -5817,7 +5817,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field"],
 		otherFormes: ["Slaking-Mega"],
 	},
-	slakingmega: {
+	slakingmegaei: {
 		num: 289,
 		name: "Slaking-Mega",
 		baseSpecies: "Slaking",
@@ -7574,7 +7574,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
 	},
-	torterramega: {
+	torterramegaei: {
 		num: 3,
 		name: "Torterra-Mega",
 		baseSpecies: "Torterra",
@@ -7649,7 +7649,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 36,
 		eggGroups: ["Field", "Human-Like"],
 	},
-	infernapemega: {
+	infernapemegaei: {
 		num: 392,
 		name: "Infernape-Mega",
 		baseSpecies: "Infernape",
@@ -7707,7 +7707,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Empoleon-Mega-O", "Empoleon-Mega-D"],
 		formeOrder: ["Empoleon", "Empoleon-Mega-O", "Empoleon-Mega-D"],
 	},
-	empoleonmegao: {
+	empoleonmegaoei: {
 		num: 395,
 		name: "Empoleon-Mega-O",
 		baseSpecies: "Empoleon",
@@ -7722,7 +7722,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Water 1", "Field"],
 		requiredItem: "Empoleonite O",
 	},
-	empoleonmegad: {
+	empoleonmegadei: {
 		num: 395,
 		name: "Empoleon-Mega-D",
 		baseSpecies: "Empoleon",
@@ -7884,7 +7884,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Luxray-Mega"],
 		formeOrder: ["Luxray", "Luxray-Mega"],
 	},
-	luxraymega: {
+	luxraymegaei: {
 		num: 405,
 		name: "Luxray-Mega",
 		baseSpecies: "Luxray",
@@ -7927,7 +7927,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Roserade-Mega"],
 		formeOrder: ["Roserade", "Roserade-Mega"],
 	},
-	roserademega: {
+	roserademegaei: {
 		num: 407,
 		name: "Roserade-Mega",
 		baseSpecies: "Roserade",
@@ -9078,7 +9078,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Dusknoir-Mega"],
 		formeOrder: ["Dusknoir", "Dusknoir-Mega"],
 	},
-	dusknoirmega: {
+	dusknoirmegaei: {
 		num: 477,
 		name: "Dusknoir-Mega",
 		baseSpecies: "Dusknoir",
