@@ -22159,9 +22159,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
 	},
-	jason: {
+	jasonvoorhees: {
 		num: -9999,
-		name: "Jason",
+		name: "Jason Voorhees",
 		types: ["Ghost", "Fighting"],
 		baseStats: { hp: 110, atk: 135, def: 120, spa: 45, spd: 90, spe: 70 },
 		abilities: { 0: "Intimidate", 1: "Sheer Force", H: "Iron Fist" },
