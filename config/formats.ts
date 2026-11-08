@@ -352,6 +352,25 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 	},
 
+	// Halloween Horror 
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Halloween Horror",
+		column: 2,
+	},
+	{
+		name: "[Gen 9] Halloween Horror Singles",
+		mod: "gen9halloweenhorror",
+		ruleset: ["Standard"],
+		debug: true,
+	},
+	{
+		name: "[Gen 9] Halloween Horror Doubles",
+		mod: "gen9halloweenhorror",
+		ruleset: ["Standard"],
+		gameType: 'doubles',
+	},
+
 	// Emerald Imperium
 	///////////////////////////////////////////////////////////////////
 	{
