@@ -22280,7 +22280,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	adamfrankenstein: {
 		num: -9982,
-		name: "Adam Frankenstein",
+		name: "Adam-Frankenstein",
 		types: ["Normal", "Fighting"],
 		baseStats: { hp: 125, atk: 135, def: 110, spa: 55, spd: 90, spe: 75 },
 		abilities: { 0: "Guts", 1: "Iron Fist", H: "Anger Point" },
