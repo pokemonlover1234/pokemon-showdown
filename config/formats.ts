@@ -26,7 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 1,
 	},
 	{
-		name: "[Gen 9] Ionite Natdex",
+		name: "[Gen 9] Ionite Natdex Singles",
 		mod: "gen9ionitenatdex",
 		ruleset: ["Standard"],
 	},
@@ -34,6 +34,31 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Ionite Natdex Doubles",
 		mod: "gen9ionitenatdex",
 		ruleset: ["Standard"],
+		gameType: 'doubles',
+	},
+	{
+		name: "[Gen 9] Ionite Natdex  BSS",
+		mod: "gen9ionitenatdex",
+		bestOfDefault: true,
+		ruleset: ["Open Team Sheets", "Picked Team Size = 3", "Max Team Size = 6", "Standard"],
+	},
+	{
+		name: "[Gen 9] Ionite Natdex VGC",
+		mod: "gen9ionitenatdex",
+		bestOfDefault: true,
+		ruleset: ["Open Team Sheets", "Picked Team Size = 4", "Max Team Size = 6", "Standard"],
+		gameType: 'doubles',
+	},
+	{
+		name: "[Gen 9] Ionite Natdex Triples",
+		mod: "gen9ionitenatdex",
+		ruleset: ["Standard"],
+		gameType: 'triples',
+	},
+	{
+		name: "[Gen 9] Ionite Natdex 2v2 Doubles",
+		mod: "gen9ionitenatdex",
+		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
 	},
 	// Psuedo Level Metagames PLM
