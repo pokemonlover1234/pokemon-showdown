@@ -236,7 +236,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 	{
 		section: "Constellera Metas",
-		column: 1,
+		column: 2,
 	},
 	{
 		name: "[Gen 9] Constellera",
@@ -260,7 +260,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 	{
 		section: "Chimeramon Metas",
-		column: 1,
+		column: 2,
 	},
 	{
 		name: "[Gen 9] Chimeramons Singles",
@@ -337,7 +337,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 	{
 		section: "Fight Club",
-		column: 1,
+		column: 2,
 	},
 	{
 		name: "[Gen 9] Fight Club",
@@ -356,7 +356,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 	{
 		section: "Emerald Imperium",
-		column: 1,
+		column: 3,
 	},
 	{
 		name: "[Gen 9] Emerald Imperium Singles",
