@@ -3372,7 +3372,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		onModifyMove(move, source, target) {
 			if (source.species.id === 'freddykrueger') {
-				move.accuracy = 70;
+				move.accuracy = 80;
 			}
 			return;
 		},
