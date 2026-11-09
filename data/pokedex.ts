@@ -22285,4 +22285,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		baseStats: { hp: 125, atk: 135, def: 110, spa: 55, spd: 90, spe: 75 },
 		abilities: { 0: "Guts", 1: "Iron Fist", H: "Anger Point" },
 	},
+	headlesshorseman: {
+		num: -9981,
+		name: "Headless Horseman",
+		types: ["Ghost", "Fire"],
+		baseStats: { hp: 100, atk: 130, def: 90, spa: 80, spd: 80, spe: 120 },
+		abilities: { 0: "Reckless", 1: "Flame Body", H: "No Guard" },
+	},
+	grimreaper: {
+		num: -9980,
+		name: "Grim Reaper",
+		types: ["Ghost", "Steel"],
+		baseStats: { hp: 100, atk: 130, def: 110, spa: 75, spd: 100, spe: 75 },
+		abilities: { 0: "Pressure", 1: "Sharpness", H: "Mold Breaker" },
+	},
 };
