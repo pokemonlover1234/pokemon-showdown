@@ -6262,7 +6262,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	frostbreath: {
 		num: 524,
-		accuracy: 90,
+		accuracy: 100,
 		basePower: 60,
 		category: "Special",
 		name: "Frost Breath",
@@ -11724,7 +11724,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	metalsound: {
 		num: 319,
-		accuracy: 85,
+		accuracy: 100,
 		basePower: 0,
 		category: "Status",
 		name: "Metal Sound",
@@ -15259,7 +15259,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	rockslide: {
 		num: 157,
-		accuracy: 90,
+		accuracy: 95,
 		basePower: 75,
 		category: "Physical",
 		name: "Rock Slide",
@@ -15267,7 +15267,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
-			chance: 30,
+			chance: 20,
 			volatileStatus: 'flinch',
 		},
 		target: "allAdjacentFoes",
@@ -15866,7 +15866,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	screech: {
 		num: 103,
-		accuracy: 85,
+		accuracy: 100,
 		basePower: 0,
 		category: "Status",
 		name: "Screech",
@@ -17938,7 +17938,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	steelwing: {
 		num: 211,
-		accuracy: 90,
+		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
 		name: "Steel Wing",
