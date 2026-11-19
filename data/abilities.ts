@@ -1348,7 +1348,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onEnd(pokemon) {
-			pokemon.removeVolatile('flashfire');
+			//pokemon.removeVolatile('flashfire'); Suppressed for the Dec 2 Balance change and hoping it works
 		},
 		condition: {
 			noCopy: true, // doesn't get copied by Baton Pass
@@ -4545,6 +4545,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onModifyMove(move) {
 			// most of the implementation is in Battle#getTarget
 			move.tracksTarget = move.target !== 'scripted';
+			move.flags.bypasssub = 1;
 		},
 		flags: {},
 		name: "Stalwart",
