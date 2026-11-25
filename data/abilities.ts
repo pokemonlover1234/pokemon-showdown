@@ -1348,7 +1348,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onEnd(pokemon) {
-			//pokemon.removeVolatile('flashfire'); Suppressed for the Dec 2 Balance change and hoping it works
+			// pokemon.removeVolatile('flashfire'); Suppressed for the Dec 2 Balance change and hoping it works
 		},
 		condition: {
 			noCopy: true, // doesn't get copied by Baton Pass
@@ -5842,7 +5842,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		condition: {
 			onSideStart(side, source) {
 				const burningcoals = side.sideConditions["burningcoals"];
-				const sickyweb = side.sideConditions["stickyweb"];
+				const stickyweb = side.sideConditions["stickyweb"];
 				if (burningcoals) {
 					side.removeSideCondition("toxicwebs");
 					return;
@@ -6204,36 +6204,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Galeforce",
 		rating: 3.5,
 	},
-	firemane: {
-		onModifyAtkPriority: 5,
-		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Fire') {
-				this.debug('Fire Mane boost');
-				return this.chainModify(1.5);
-			}
-		},
-		onModifySpAPriority: 5,
-		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Fire') {
-				this.debug('Fire Mane boost');
-				return this.chainModify(1.5);
-			}
-		},
-		flags: {},
-		name: "Fire Mane",
-		rating: 3.5,
-	},
-	eelevate: {
-		onSourceAfterFaint(length, target, source, effect) {
-			if (effect && effect.effectType === 'Move') {
-				const bestStat = source.getBestStat(true, true);
-				this.boost({ [bestStat]: length }, source);
-			}
-		},
-		flags: {breakable: 1}, // airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
-		name: "Eelevate",
-		rating: 3.5,
-	},
 	iceeater: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Ice') {
@@ -6269,7 +6239,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	oraoraoraora: {
 		onPrepareHit(source, target, move) {
-			if (!move.flags['punch']) return; 
+			if (!move.flags['punch']) return;
 			move.multihit = 2;
 			move.multihitType = 'oraoraoraora';
 		},
@@ -6285,14 +6255,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 	},
 	badcompany: {
-		//No Recoil
+		// No Recoil
 		onDamage(damage, target, source, effect) {
 			if (effect.id === 'recoil') {
 				if (!this.activeMove) throw new Error("Battle.activeMove is null");
 				if (this.activeMove.id !== 'struggle') return null;
 			}
 		},
-		//No Self Stat Drops
+		// No Self Stat Drops
 		onTryBoost(boost, target, source, effect) {
 			if (source && target !== source) return;
 			let showMsg = false;
@@ -6307,18 +6277,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				this.add("-fail", target, "unboost", "[from] ability: Bad Company", `[of] ${target}`);
 			}
 		},
-		flags: {breakable: 1},
+		flags: { breakable: 1 },
 		name: "Bad Company",
 		rating: 3,
 	},
 	fatalprecision: {
-		//Expert Belt Effect
+		// Expert Belt Effect
 		onModifyDamage(damage, source, target, move) {
 			if (move && target.getMoveHitData(move).typeMod > 0) {
 				return this.chainModify(1.2);
 			}
 		},
-		//Always hit on SE
+		// Always hit on SE
 		onModifyMove(move, pokemon, target) {
 			if (move && target.getMoveHitData(move).typeMod > 0) {
 				move.accuracy = true;
@@ -6333,7 +6303,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			// Despite not being a secondary, Shield Dust / Covert Cloak block Poison Touch's effect
 			if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
 			if (this.checkMoveMakesContact(move, target, source)) {
-					target.addVolatile('trapped', source);
+				target.addVolatile('trapped', source);
 			}
 		},
 		flags: {},
@@ -6343,12 +6313,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	bullrush: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
-			if (source.activeMoveActions > 1) {
+			if (attacker.activeMoveActions > 1) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpe(spe, pokemon) {
-			if (source.activeMoveActions > 1) {
+			if (pokemon.activeMoveActions > 1) {
 				return this.chainModify(1.2);
 			}
 		},
@@ -6425,7 +6395,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		desc: "Attacks that poison also drain 30%",
 		onModifyMove(move, pokemon, target) {
 			const baseDrain = move.drain ?? null;
-			if (secondary.status !== 'psn' && secondary.status !== 'tox') return; //TODO: Replace boolean with secondary effect check
+			if (target?.status !== 'psn' && target?.status !== 'tox') return; // TODO: Replace boolean with secondary effect check
 			move.flags['heal'] = 1;
 			let num = 3;
 			let den = 10;
@@ -6441,17 +6411,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 			move.drain = [num, den];
 		},
-	},
-	auraguard: {
-		onSourceModifyDamage(damage, source, target, move) {
-			let mod = 1;
-			if (move.flags['contact']) mod /= 2;
-			return this.chainModify(mod);
-		},
-		flags: { breakable: 1 },
-		name: "Aura Guard",
-		rating: 3.5,
-		num: 218,
 	},
 	bonezone: {
 		onFoeEffectiveness(typemod, target, type, move) {
