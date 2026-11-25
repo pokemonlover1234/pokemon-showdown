@@ -280,7 +280,7 @@ abstract class Giveaway extends Rooms.SimpleRoomGame {
 		if (set.gender === 'F' && validFemale.includes(species.id)) spriteid += '-f';
 		return [
 			species.id,
-			<img src={`/sprites/ani${shiny}/${spriteid}.gif`} />,
+			<img src={`https://raw.githubusercontent.com/pokemonlover1234/ionite-showdown-sprites/refs/heads/main/sprites/ani${shiny}/${spriteid}.gif`} />,
 		];
 	}
 
