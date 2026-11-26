@@ -60,6 +60,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9ionitenatdex",
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
+	},
 	{
 		name: "[Gen 9] Ionite Natdex Custom Game",
 		mod: 'gen9ionitenatdex',
@@ -116,6 +117,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Eviolite'],
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
+	},
 	{
 		name: "[Gen 9] Pseudo Level Custom Game",
 		mod: 'gen9pseudolevel',
@@ -404,6 +406,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9ei",
 		ruleset: ["Standard"],
 		gameType: 'doubles',
+	},
 	{
 		name: "[Gen 9] Emerald Imperium Custom Game",
 		mod: 'gen9ei',
