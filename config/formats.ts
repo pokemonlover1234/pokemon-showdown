@@ -60,6 +60,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9ionitenatdex",
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
+	{
+		name: "[Gen 9] Ionite Natdex Custom Game",
+		mod: 'gen9ionitenatdex',
+		searchShow: false,
+		debug: true,
+		battle: { trunc: Math.trunc },
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
 	// Psuedo Level Metagames PLM
 	///////////////////////////////////////////////////////////////////
@@ -108,6 +116,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Eviolite'],
 		ruleset: ["Picked Team Size = 2", "Max Team Size = 4", "Standard"],
 		gameType: 'doubles',
+	{
+		name: "[Gen 9] Pseudo Level Custom Game",
+		mod: 'gen9pseudolevel',
+		searchShow: false,
+		debug: true,
+		battle: { trunc: Math.trunc },
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
 	{
 		name: "[Gen 9] Pseudo Level The Card Game",
@@ -388,5 +404,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9ei",
 		ruleset: ["Standard"],
 		gameType: 'doubles',
+	{
+		name: "[Gen 9] Emerald Imperium Custom Game",
+		mod: 'gen9ei',
+		searchShow: false,
+		debug: true,
+		battle: { trunc: Math.trunc },
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
 ];
